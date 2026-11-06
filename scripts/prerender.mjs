@@ -14,13 +14,20 @@ const LANGS = {
   fr: { name: 'French', tf: 'Vrai ou faux ?' },
   ru: { name: 'Russian', tf: 'Верно или неверно?' },
   isv: { name: 'Interslavic', tf: 'Pravda ili nepravda?' },
+  tr: { name: 'Turkish', tf: 'Doğru mu, yanlış mı?' },
 };
 const shell = readFileSync('dist/index.html', 'utf8');
 
 const esc = (s) =>
-  String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+  String(s).replace(
+    /[&<>"]/g,
+    (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c],
+  );
 const paras = (body) =>
-  body.split(/\n{2,}/).map((p) => `<p>${esc(p).replace(/\n/g, '<br>')}</p>`).join('\n');
+  body
+    .split(/\n{2,}/)
+    .map((p) => `<p>${esc(p).replace(/\n/g, '<br>')}</p>`)
+    .join('\n');
 
 function page(path, title, description, main) {
   return shell
@@ -45,10 +52,14 @@ const langLinks = Object.entries(LANGS)
 
 for (const [lang, { name, tf }] of Object.entries(LANGS)) {
   const texts = Object.fromEntries(
-    LEVELS.map((l) => [l, JSON.parse(readFileSync(`src/content/texts/${lang}/${l}.json`, 'utf8'))]),
+    LEVELS.map((l) => [
+      l,
+      JSON.parse(readFileSync(`src/content/texts/${lang}/${l}.json`, 'utf8')),
+    ]),
   );
   const levelLinks = LEVELS.map(
-    (l) => `<li><a href="/${lang}/level/${l}">Level ${l.toUpperCase()} ${name} reading texts</a></li>`,
+    (l) =>
+      `<li><a href="/${lang}/level/${l}">Level ${l.toUpperCase()} ${name} reading texts</a></li>`,
   ).join('\n');
 
   write(
@@ -121,8 +132,8 @@ writeFileSync(
   page(
     '/',
     'DeuLern Polyglot',
-    'Free graded reading texts in Italian, Spanish, French, Russian and Interslavic for A1, A2 and B1, with glossary and comprehension questions. No account needed.',
-    `<h1>DeuLern Polyglot: graded reading texts in five languages</h1>\n<ul>\n${langLinks}\n</ul>`,
+    'Free graded reading texts in Italian, Spanish, French, Russian, Interslavic and Turkish for A1, A2 and B1, with glossary and comprehension questions. No account needed.',
+    `<h1>DeuLern Polyglot: graded reading texts in six languages</h1>\n<ul>\n${langLinks}\n</ul>`,
   ).replace(/\n\s*<link rel="canonical"[^>]*>/, ''),
 );
 

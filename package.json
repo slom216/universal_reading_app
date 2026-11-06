@@ -4,7 +4,7 @@
   "license": "MIT",
   "version": "0.1.0",
   "type": "module",
-  "description": "DeuLern Polyglot — graded reading texts in Italian, Spanish, French, Russian and Interslavic with glossary and comprehension quiz, A1 to B1.",
+  "description": "DeuLern Polyglot — graded reading texts in Italian, Spanish, French, Russian, Interslavic and Turkish with glossary and comprehension quiz, A1 to B1.",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build && node scripts/prerender.mjs",

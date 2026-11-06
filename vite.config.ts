@@ -17,7 +17,7 @@ export default defineConfig({
       manifest: {
         name: 'DeuLern Polyglot',
         short_name: 'Polyglot',
-        description: 'Graded reading texts in five languages, A1 to B1.',
+        description: 'Graded reading texts in six languages, A1 to B1.',
         start_url: '/',
         scope: '/',
         display: 'standalone',

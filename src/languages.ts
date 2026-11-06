@@ -1,6 +1,6 @@
 import type { Level } from './content/schema';
 
-export const LANG_IDS = ['it', 'es', 'fr', 'ru', 'isv'] as const;
+export const LANG_IDS = ['it', 'es', 'fr', 'ru', 'isv', 'tr'] as const;
 export type LangId = (typeof LANG_IDS)[number];
 
 export type Lang = {
@@ -119,6 +119,26 @@ export const LANGS: Record<LangId, Lang> = {
     },
     counts: { A1: 60, A2: 100, B1: 140 },
   },
+  tr: {
+    id: 'tr',
+    code: 'tr',
+    name: 'Turkish',
+    native: 'Türkçe',
+    trueLabel: 'Doğru',
+    falseLabel: 'Yanlış',
+    quizHeading: 'Her şeyi anladın mı?',
+    glossHeading: 'Metindeki kelimeler',
+    perfect: 'Mükemmel! 🎉',
+    sample: 'Bu, seçilen boyutta örnek bir cümledir.',
+    // Turkish has no articles; inflected forms go in `match`.
+    articles: null,
+    blurb: {
+      A1: 'Short everyday texts in the present tense, with the first case endings: family, food, home.',
+      A2: 'Longer stories about work, travel and health, told in the past tense with -di and -miş.',
+      B1: 'Articles and reports on society, work and daily life, with the conditional, participles and -dik clauses.',
+    },
+    counts: { A1: 60, A2: 100, B1: 140 },
+  },
 };
 
 /**
@@ -140,7 +160,6 @@ export const UPCOMING: { code: string; name: string; native: string }[] = [
   { code: 'bs', name: 'Bosnian', native: 'Bosanski' },
   { code: 'bg', name: 'Bulgarian', native: 'Български' },
   { code: 'mk', name: 'Macedonian', native: 'Македонски' },
-  { code: 'tr', name: 'Turkish', native: 'Türkçe' },
   { code: 'ar', name: 'Arabic', native: 'العربية' },
 ];
 
