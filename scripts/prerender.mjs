@@ -3,9 +3,9 @@
 // sitemap.xml. Crawlers that do not run JavaScript otherwise see an empty
 // <div id="root">. The React app mounts over this markup; Cloudflare serves
 // dist/it/text/a1-01.html at /it/text/a1-01. Interslavic is prerendered in Latin.
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 
-const ORIGIN = 'https://polyglot.deulern.com';
+const ORIGIN = 'https://polyglot.icu';
 const LEVELS = ['a1', 'a2', 'b1'];
 // Mirrors src/languages.ts (name, lang code, True/False label).
 const LANGS = {
@@ -16,6 +16,7 @@ const LANGS = {
   isv: { name: 'Interslavic', tf: 'Pravda ili nepravda?' },
   tr: { name: 'Turkish', tf: 'Doğru mu, yanlış mı?' },
   pt: { name: 'Portuguese', tf: 'Verdadeiro ou falso?' },
+  ar: { name: 'Arabic', tf: 'صَحِيحٌ أَمْ خَطَأٌ؟' },
 };
 const shell = readFileSync('dist/index.html', 'utf8');
 
@@ -131,14 +132,16 @@ ${related.map((r) => `<li><a href="/${lang}/text/${r.id}">${esc(r.title)}</a></l
 const english = JSON.parse(readFileSync('1000_phrases_claude.json', 'utf8')).sort(
   (a, b) => a.rank - b.rank,
 );
-const phraseLinks = Object.entries(LANGS)
+// Languages whose phrasebook is still to come are left out.
+const PHRASE_LANGS = Object.entries(LANGS).filter(([id]) => existsSync(`src/content/phrases/${id}.json`));
+const phraseLinks = PHRASE_LANGS
   .map(([id, l]) => `<li><a href="/phrases/${id}">${l.name} phrases</a></li>`)
   .join('\n');
 write(
   '/reading',
-  'Graded reading texts in seven languages · DeuLern Polyglot',
-  'Free graded reading texts in Italian, Spanish, French, Russian, Interslavic, Turkish and Portuguese for A1, A2 and B1, with glossary and comprehension questions.',
-  `<h1>Graded reading texts in seven languages</h1>\n<ul>\n${langLinks}\n</ul>`,
+  'Graded reading texts in eight languages · DeuLern Polyglot',
+  'Free graded reading texts in Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese and Arabic for A1, A2 and B1, with glossary and comprehension questions.',
+  `<h1>Graded reading texts in eight languages</h1>\n<ul>\n${langLinks}\n</ul>`,
 );
 write(
   '/phrases',
@@ -147,7 +150,7 @@ write(
   `<h1>Everyday phrases in seven languages</h1>\n<ul>\n${phraseLinks}\n</ul>`,
 );
 urls.push('/reading', '/phrases');
-for (const [lang, { name }] of Object.entries(LANGS)) {
+for (const [lang, { name }] of PHRASE_LANGS) {
   const tr = JSON.parse(readFileSync(`src/content/phrases/${lang}.json`, 'utf8'));
   write(
     `/phrases/${lang}`,
@@ -171,8 +174,8 @@ writeFileSync(
   page(
     '/',
     'DeuLern Polyglot',
-    'Free graded reading texts and the 1000 most useful everyday phrases in Italian, Spanish, French, Russian, Interslavic, Turkish and Portuguese. No account needed.',
-    `<h1>DeuLern Polyglot: reading texts and everyday phrases in seven languages</h1>\n<ul>\n<li><a href="/reading">Graded reading texts</a></li>\n<li><a href="/phrases">Everyday phrases</a></li>\n</ul>\n<ul>\n${langLinks}\n</ul>`,
+    'Free graded reading texts and the 1000 most useful everyday phrases in Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese and Arabic. No account needed.',
+    `<h1>DeuLern Polyglot: reading texts and everyday phrases in eight languages</h1>\n<ul>\n<li><a href="/reading">Graded reading texts</a></li>\n<li><a href="/phrases">Everyday phrases</a></li>\n</ul>\n<ul>\n${langLinks}\n</ul>`,
   ).replace(/\n\s*<link rel="canonical"[^>]*>/, ''),
 );
 

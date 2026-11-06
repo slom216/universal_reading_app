@@ -61,9 +61,10 @@ export function glossaryNeedle(
   return g.match ?? (articles ? g.term.replace(articles, '') : g.term);
 }
 
-/** First case-insensitive whole-word occurrence of `needle` in `body`. */
+/** First case-insensitive whole-word occurrence of `needle` in `body`. Combining marks
+ *  count as part of the word, so a match can't stop before an Arabic vowel. */
 export function findGlossary(body: string, needle: string): number {
   const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const m = new RegExp(`(?<![\\p{L}])${escaped}(?![\\p{L}])`, 'iu').exec(body);
+  const m = new RegExp(`(?<![\\p{L}\\p{M}])${escaped}(?![\\p{L}\\p{M}])`, 'iu').exec(body);
   return m ? m.index : -1;
 }

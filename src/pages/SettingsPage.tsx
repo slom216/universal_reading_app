@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ScriptToggle } from '../components/ScriptToggle';
 import { LANGS } from '../languages';
-import { toCyrillic } from '../lib/isvCyrillic';
+import { scriptFor } from '../lib/script';
 import { exportProgress, importProgress } from '../lib/transfer';
 import { dayKey } from '../lib/dates';
 import { useProgress, type Settings } from '../store/progress';
@@ -21,9 +21,8 @@ const SIZES: { value: Settings['fontSize']; label: string }[] = [
 export function SettingsPage() {
   const state = useProgress();
   const [message, setMessage] = useState<string | null>(null);
-  const { lastLang, isvScript } = state.settings;
-  const sampleLang = LANGS[lastLang ?? 'it'];
-  const cyrillic = sampleLang.id === 'isv' && isvScript === 'cyrillic';
+  const sampleLang = LANGS[state.settings.lastLang ?? 'it'];
+  const sample = scriptFor(sampleLang.id, sampleLang.code, state.settings);
 
   const download = () => {
     const blob = new Blob([exportProgress(state)], { type: 'application/json' });
@@ -85,9 +84,9 @@ export function SettingsPage() {
         <p
           className="reading"
           data-font={state.settings.fontSize}
-          lang={cyrillic ? 'isv-Cyrl' : sampleLang.code}
+          lang={sample.code}
         >
-          {cyrillic ? toCyrillic(sampleLang.sample) : sampleLang.sample}
+          {sample.tr(sampleLang.sample)}
         </p>
       </section>
 
@@ -97,7 +96,16 @@ export function SettingsPage() {
           Interslavic texts are written in Latin letters. Pick Cyrillic to read them in
           the standard Cyrillic alphabet instead.
         </p>
-        <ScriptToggle />
+        <ScriptToggle id="isv" />
+      </section>
+
+      <section className="card stack stack--tight">
+        <h2>Arabic vowel marks</h2>
+        <p className="text-muted">
+          Arabic texts are fully vowelled, as in textbooks. Hide the vowel marks to practise
+          reading Arabic the way it is usually printed.
+        </p>
+        <ScriptToggle id="ar" />
       </section>
 
       <section className="card stack stack--tight">

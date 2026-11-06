@@ -5,7 +5,7 @@ declare global {
 }
 
 /**
- * Sends a GA4 event. window.gtag only exists after the visitor accepts cookies on polyglot.deulern.com
+ * Sends a GA4 event. window.gtag only exists after the visitor accepts cookies on polyglot.icu
  * (see public/analytics.js), so this does nothing otherwise.
  * Don't name a param `language`: GA4 reads that as the browser-language field.
  */

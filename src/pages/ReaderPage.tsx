@@ -60,7 +60,7 @@ export function ReaderPage() {
           </span>
         </div>
         <h1 lang={code}>{tr(text.title)}</h1>
-        {lang.id === 'isv' && <ScriptToggle />}
+        <ScriptToggle id={lang.id} />
       </header>
 
       {audioUrl && (

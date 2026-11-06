@@ -1,4 +1,4 @@
-import type { LangId } from '../../languages';
+import { LANG_IDS, type LangId } from '../../languages';
 
 export type Phrase = {
   id: number;
@@ -15,6 +15,9 @@ export type Phrase = {
 // readers who never open the phrasebook do not download them.
 const english = () => import('../../../1000_phrases_claude.json').then((m) => m.default);
 const files = import.meta.glob<{ default: Record<string, string> }>('./*.json');
+
+/** Languages with a phrasebook; a reading language can ship before its phrases. */
+export const PHRASE_LANGS = LANG_IDS.filter((id) => `./${id}.json` in files);
 
 const cache = new Map<LangId, Promise<Phrase[]>>();
 

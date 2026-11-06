@@ -7,7 +7,7 @@ export type LangContext = {
   texts: ReadingText[];
   /** `lang` attribute for target-language content (isv-Cyrl when shown in Cyrillic). */
   code: string;
-  /** Shows target-language text in the chosen script; identity except for isv Cyrillic. */
+  /** Shows target-language text in the chosen script (isv Cyrillic, Arabic without vowels). */
   tr: (s: string) => string;
 };
 

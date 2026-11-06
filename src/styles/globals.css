@@ -859,6 +859,32 @@ a.button--primary::after,
   margin-bottom: 1em;
 }
 
+/* Arabic: right to left wherever lang="ar" is set (body, titles, glossary, quiz), a
+   Naskh face from the system, and more leading so the vowel marks don't collide.
+   ponytail: system fonts only; bundle a Naskh woff2 if a platform renders harakat badly. */
+:lang(ar) {
+  direction: rtl;
+  unicode-bidi: isolate;
+  font-family:
+    'Noto Naskh Arabic', 'Geeza Pro', 'Segoe UI', 'Noto Sans Arabic', Tahoma, sans-serif;
+}
+
+/* English inside Arabic (the glossary tooltip) keeps its own direction. */
+:lang(ar) [lang='en'] {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.reading:lang(ar) {
+  font-size: calc(var(--reading-size) * 1.15);
+  line-height: 2.1;
+}
+
+/* An Arabic quiz question reads from the right: number first, True before False. */
+:is(legend, .quiz__choices):has(> :lang(ar)) {
+  direction: rtl;
+}
+
 .gloss {
   position: relative;
 }
@@ -882,7 +908,7 @@ a.button--primary::after,
 
 .gloss__tip {
   position: absolute;
-  left: 0;
+  inset-inline-start: 0;
   top: calc(100% + 4px);
   z-index: 10;
   width: max-content;

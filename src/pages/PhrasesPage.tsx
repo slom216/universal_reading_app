@@ -1,9 +1,9 @@
 import { Suspense, use, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ScriptToggle } from '../components/ScriptToggle';
-import { loadPhrases } from '../content/phrases';
-import { LANG_IDS, LANGS, isLangId, type LangId } from '../languages';
-import { toCyrillic } from '../lib/isvCyrillic';
+import { PHRASE_LANGS, loadPhrases } from '../content/phrases';
+import { LANGS, isLangId, type LangId } from '../languages';
+import { scriptFor } from '../lib/script';
 import { track } from '../lib/track';
 import { useProgress } from '../store/progress';
 import { NotFoundPage } from './NotFoundPage';
@@ -29,7 +29,7 @@ export function PhrasebookPage() {
         first hundred get you through a first day abroad.
       </p>
       <div className="lang-grid">
-        {LANG_IDS.map((id) => (
+        {PHRASE_LANGS.map((id) => (
           <article key={id} className="card level-card">
             <span className="chip">{id.toUpperCase()}</span>
             <h2 lang={LANGS[id].code}>{LANGS[id].native}</h2>
@@ -49,7 +49,7 @@ export function PhrasebookPage() {
 /** `/phrases/:lang`: the phrase list. */
 export function PhrasesPage() {
   const { lang } = useParams();
-  if (!isLangId(lang)) return <NotFoundPage />;
+  if (!isLangId(lang) || !PHRASE_LANGS.includes(lang)) return <NotFoundPage />;
   return (
     <Suspense fallback={<p className="text-muted">Loading phrases…</p>}>
       <PhraseList id={lang} />
@@ -60,10 +60,9 @@ export function PhrasesPage() {
 function PhraseList({ id }: { id: LangId }) {
   const phrases = use(loadPhrases(id));
   const [category, setCategory] = useState('');
-  const cyrillic = useProgress((s) => id === 'isv' && s.settings.isvScript === 'cyrillic');
+  const settings = useProgress((s) => s.settings);
   const lang = LANGS[id];
-  const code = cyrillic ? 'isv-Cyrl' : lang.code;
-  const tr = cyrillic ? toCyrillic : (s: string) => s;
+  const { code, tr } = scriptFor(id, lang.code, settings);
   const categories = [...new Set(phrases.map((p) => p.category))].sort();
   const shown = category ? phrases.filter((p) => p.category === category) : phrases;
 
@@ -94,7 +93,7 @@ function PhraseList({ id }: { id: LangId }) {
             ))}
           </select>
         </label>
-        {id === 'isv' && <ScriptToggle />}
+        <ScriptToggle id={id} />
       </div>
       <ol className="text-list">
         {shown.map((p) => {

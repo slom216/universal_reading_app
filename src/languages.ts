@@ -1,6 +1,6 @@
 import type { Level } from './content/schema';
 
-export const LANG_IDS = ['it', 'es', 'fr', 'ru', 'isv', 'tr', 'pt'] as const;
+export const LANG_IDS = ['it', 'es', 'fr', 'ru', 'isv', 'tr', 'pt', 'ar'] as const;
 export type LangId = (typeof LANG_IDS)[number];
 
 export type Lang = {
@@ -159,12 +159,33 @@ export const LANGS: Record<LangId, Lang> = {
     },
     counts: { A1: 60, A2: 100, B1: 140 },
   },
+  ar: {
+    id: 'ar',
+    code: 'ar',
+    name: 'Arabic',
+    native: 'العربية',
+    trueLabel: 'صَحِيحٌ',
+    falseLabel: 'خَطَأٌ',
+    quizHeading: 'هَلْ فَهِمْتَ كُلَّ شَيْءٍ؟',
+    glossHeading: 'كَلِمَاتٌ مِنَ النَّصِّ',
+    perfect: 'مُمْتَازٌ! 🎉',
+    sample: 'هٰذِهِ جُمْلَةٌ لِلتَّجْرِبَةِ بِالْحَجْمِ الْمُخْتَارِ.',
+    // Modern Standard Arabic, fully vowelled (the reader can hide the vowels). The
+    // article and prefixes are attached, so every glossary entry has a `match`.
+    articles: null,
+    blurb: {
+      A1: 'Short everyday texts from across the Arab world, fully vowelled, in the present tense: family, food, home.',
+      A2: 'Longer stories about work, travel and health, told in the past tense.',
+      B1: 'Articles and reports on society, work and daily life, with the future, the subjunctive after أَنْ and relative clauses.',
+    },
+    counts: { A1: 60, A2: 100, B1: 140 },
+  },
 };
 
 /**
  * Announced on the picker as "coming soon". No routes or texts yet: when one gets texts,
  * move it into LANG_IDS/LANGS. Notes for that move: sr needs a Latin/Cyrillic switch
- * like isv; ar, fa and ku (Sorani) are right-to-left.
+ * like isv; fa and ku (Sorani) are right-to-left like ar (see :lang(ar) in globals.css).
  */
 export const UPCOMING: { code: string; name: string; native: string }[] = [
   { code: 'pl', name: 'Polish', native: 'Polski' },
@@ -179,7 +200,6 @@ export const UPCOMING: { code: string; name: string; native: string }[] = [
   { code: 'bs', name: 'Bosnian', native: 'Bosanski' },
   { code: 'bg', name: 'Bulgarian', native: 'Български' },
   { code: 'mk', name: 'Macedonian', native: 'Македонски' },
-  { code: 'ar', name: 'Arabic', native: 'العربية' },
 ];
 
 export const isLangId = (s: string | undefined): s is LangId =>

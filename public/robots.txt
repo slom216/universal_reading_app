@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://polyglot.deulern.com/sitemap.xml
+Sitemap: https://polyglot.icu/sitemap.xml

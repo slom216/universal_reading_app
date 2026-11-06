@@ -100,4 +100,10 @@ describe('glossaryNeedle', () => {
     expect(findGlossary('Летом мы едем', 'летом')).toBe(0);
     expect(findGlossary('Прилетом', 'летом')).toBe(-1);
   });
+
+  it('matches whole vowelled Arabic words only', () => {
+    expect(findGlossary('ذَهَبَ الْوَلَدُ', 'الْوَلَدُ')).toBe(7);
+    // A needle missing the final vowel would split the word's marks off.
+    expect(findGlossary('ذَهَبَ الْوَلَدُ', 'الْوَلَد')).toBe(-1);
+  });
 });
