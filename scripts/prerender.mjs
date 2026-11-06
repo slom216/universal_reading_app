@@ -145,9 +145,9 @@ write(
 );
 write(
   '/phrases',
-  'Everyday phrases in seven languages · DeuLern Polyglot',
-  'The 1000 most useful everyday phrases in Italian, Spanish, French, Russian, Interslavic, Turkish and Portuguese, ordered by how useful they are.',
-  `<h1>Everyday phrases in seven languages</h1>\n<ul>\n${phraseLinks}\n</ul>`,
+  'Everyday phrases in eight languages · DeuLern Polyglot',
+  'The 1000 most useful everyday phrases in Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese and Arabic, ordered by how useful they are.',
+  `<h1>Everyday phrases in eight languages</h1>\n<ul>\n${phraseLinks}\n</ul>`,
 );
 urls.push('/reading', '/phrases');
 for (const [lang, { name }] of PHRASE_LANGS) {
