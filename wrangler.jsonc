@@ -7,6 +7,6 @@
     // SPA fallback: unknown paths serve index.html so deep links work.
     "not_found_handling": "single-page-application",
   },
-  "routes": [{ "pattern": "read.deulern.com", "custom_domain": true }],
+  "routes": [{ "pattern": "polyglot.deulern.com", "custom_domain": true }],
   "observability": { "enabled": true },
 }

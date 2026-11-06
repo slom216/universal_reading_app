@@ -19,7 +19,7 @@ new app differs from it, and the decisions taken for it.
 | --------------- | -------------------------------------------------------------------------------------------- |
 | Shape           | **One site with a language picker.** One codebase, one Cloudflare Worker, one domain.        |
 | Brand           | **DeuLern family.** Tokens, CSS and art are copied unchanged from Lese Reise.                |
-| Name / domain   | **DeuLern Polyglot**, `https://read.deulern.com`                                              |
+| Name / domain   | **DeuLern Polyglot**, `https://polyglot.deulern.com`                                              |
 | Content volume  | **The full plan: 270 texts per language** (60 A1, 90 A2, 120 B1), about 1,350 in total.      |
 | Writing method  | **Sequential, written by the main agent itself**, batch by batch. No fan-out to subagents.   |
 | Writing order   | Italian → Spanish → French → Russian → Interslavic                                           |
@@ -158,8 +158,8 @@ Russian is written with ё, without stress marks.
   set to the language, the True/False label in the language, and a canonical link and
   sitemap entry for each. Interslavic prerenders in Latin.
 - `wrangler.jsonc`: worker `deulern-polyglot`, static assets from `dist/` with the SPA
-  fallback, and a custom domain `read.deulern.com`. `public/robots.txt` points at
-  `https://read.deulern.com/sitemap.xml`.
+  fallback, and a custom domain `polyglot.deulern.com`. `public/robots.txt` points at
+  `https://polyglot.deulern.com/sitemap.xml`.
 - The analytics script stays (`https://deulern.com/analytics.js`).
 
 ## Art

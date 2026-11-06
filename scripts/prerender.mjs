@@ -5,7 +5,7 @@
 // dist/it/text/a1-01.html at /it/text/a1-01. Interslavic is prerendered in Latin.
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 
-const ORIGIN = 'https://read.deulern.com';
+const ORIGIN = 'https://polyglot.deulern.com';
 const LEVELS = ['a1', 'a2', 'b1'];
 // Mirrors src/languages.ts (name, lang code, True/False label).
 const LANGS = {

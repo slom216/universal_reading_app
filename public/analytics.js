@@ -1,12 +1,12 @@
 /* global location, window, document, localStorage */
 /* Polyglot's own cookie banner and GA4 loader, separate from the other DeuLern
    apps. Nothing loads from Google until the visitor accepts. The choice lives in
-   localStorage on read.deulern.com and can be changed again from the footer "Cookies"
+   localStorage on polyglot.deulern.com and can be changed again from the footer "Cookies"
    link or any [data-consent-open] element. src/lib/track.ts sends events through the
    window.gtag this creates. Styles: .consent in src/styles/globals.css. */
 (() => {
   // Off on localhost and previews: keeps dev traffic out of GA and the banner out of tests.
-  if (location.hostname !== 'read.deulern.com') return;
+  if (location.hostname !== 'polyglot.deulern.com') return;
   const GA_ID = 'G-ZMEZ0NSJT3';
   const KEY = 'deulern-polyglot-consent';
 
