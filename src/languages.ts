@@ -1,6 +1,6 @@
 import type { Level } from './content/schema';
 
-export const LANG_IDS = ['it', 'es', 'fr', 'ru', 'isv', 'tr', 'pt', 'ar'] as const;
+export const LANG_IDS = ['it', 'es', 'fr', 'ru', 'isv', 'tr', 'pt', 'ar', 'pl'] as const;
 export type LangId = (typeof LANG_IDS)[number];
 
 export type Lang = {
@@ -180,6 +180,26 @@ export const LANGS: Record<LangId, Lang> = {
     },
     counts: { A1: 60, A2: 100, B1: 140 },
   },
+  pl: {
+    id: 'pl',
+    code: 'pl',
+    name: 'Polish',
+    native: 'Polski',
+    trueLabel: 'Prawda',
+    falseLabel: 'Fałsz',
+    quizHeading: 'Wszystko jasne?',
+    glossHeading: 'Słowa z tekstu',
+    perfect: 'Doskonale! 🎉',
+    sample: 'To jest przykładowe zdanie w wybranym rozmiarze.',
+    // No articles; inflected case forms go in `match`.
+    articles: null,
+    blurb: {
+      A1: 'Short everyday texts from Poland in the present tense, with the first cases: family, food, home.',
+      A2: 'Longer stories about work, travel and health, told in the past tense, with all seven cases.',
+      B1: 'Articles and reports on Polish society, work and daily life, with the conditional, żeby and który clauses.',
+    },
+    counts: { A1: 60, A2: 100, B1: 140 },
+  },
 };
 
 /**
@@ -188,7 +208,6 @@ export const LANGS: Record<LangId, Lang> = {
  * like isv; fa and ku (Sorani) are right-to-left like ar (see :lang(ar) in globals.css).
  */
 export const UPCOMING: { code: string; name: string; native: string }[] = [
-  { code: 'pl', name: 'Polish', native: 'Polski' },
   { code: 'ro', name: 'Romanian', native: 'Română' },
   { code: 'uk', name: 'Ukrainian', native: 'Українська' },
   { code: 'sq', name: 'Albanian', native: 'Shqip' },

@@ -32,7 +32,7 @@ export function HubPage() {
     <div className="stack">
       <section className="hero">
         <div className="hero__copy">
-          <p className="eyebrow">Eight languages, A1 to B1</p>
+          <p className="eyebrow">Nine languages, A1 to B1</p>
           <h1>
             Learn a language <span className="hero__accent">one step at a time.</span>
           </h1>

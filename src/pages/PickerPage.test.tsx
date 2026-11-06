@@ -16,12 +16,12 @@ describe('PickerPage language vote', () => {
   it('sends one vote and remembers it', async () => {
     window.gtag = vi.fn();
     renderPicker();
-    await userEvent.click(screen.getByRole('button', { name: /Polski/ }));
+    await userEvent.click(screen.getByRole('button', { name: /Română/ }));
     expect(window.gtag).toHaveBeenCalledWith('event', 'language_vote', {
-      voted_language: 'pl',
+      voted_language: 'ro',
     });
-    expect(screen.getByRole('button', { name: /Polski/ })).toBeDisabled();
+    expect(screen.getByRole('button', { name: /Română/ })).toBeDisabled();
 
-    expect(localStorage.getItem('deulern-polyglot-votes')).toBe('["pl"]');
+    expect(localStorage.getItem('deulern-polyglot-votes')).toBe('["ro"]');
   });
 });
