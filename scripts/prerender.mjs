@@ -15,6 +15,7 @@ const LANGS = {
   ru: { name: 'Russian', tf: 'Верно или неверно?' },
   isv: { name: 'Interslavic', tf: 'Pravda ili nepravda?' },
   tr: { name: 'Turkish', tf: 'Doğru mu, yanlış mı?' },
+  pt: { name: 'Portuguese', tf: 'Verdadeiro ou falso?' },
 };
 const shell = readFileSync('dist/index.html', 'utf8');
 
@@ -132,8 +133,8 @@ writeFileSync(
   page(
     '/',
     'DeuLern Polyglot',
-    'Free graded reading texts in Italian, Spanish, French, Russian, Interslavic and Turkish for A1, A2 and B1, with glossary and comprehension questions. No account needed.',
-    `<h1>DeuLern Polyglot: graded reading texts in six languages</h1>\n<ul>\n${langLinks}\n</ul>`,
+    'Free graded reading texts in Italian, Spanish, French, Russian, Interslavic, Turkish and Portuguese for A1, A2 and B1, with glossary and comprehension questions. No account needed.',
+    `<h1>DeuLern Polyglot: graded reading texts in seven languages</h1>\n<ul>\n${langLinks}\n</ul>`,
   ).replace(/\n\s*<link rel="canonical"[^>]*>/, ''),
 );
 

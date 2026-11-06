@@ -1,6 +1,6 @@
 import type { Level } from './content/schema';
 
-export const LANG_IDS = ['it', 'es', 'fr', 'ru', 'isv', 'tr'] as const;
+export const LANG_IDS = ['it', 'es', 'fr', 'ru', 'isv', 'tr', 'pt'] as const;
 export type LangId = (typeof LANG_IDS)[number];
 
 export type Lang = {
@@ -139,6 +139,26 @@ export const LANGS: Record<LangId, Lang> = {
     },
     counts: { A1: 60, A2: 100, B1: 140 },
   },
+  pt: {
+    id: 'pt',
+    code: 'pt-BR',
+    name: 'Portuguese',
+    native: 'Português',
+    trueLabel: 'Verdadeiro',
+    falseLabel: 'Falso',
+    quizHeading: 'Você entendeu tudo?',
+    glossHeading: 'Palavras do texto',
+    perfect: 'Perfeito! 🎉',
+    sample: 'Esta é uma frase de exemplo no tamanho escolhido.',
+    // Brazilian Portuguese; contractions (do, na, pelo) go in `match`.
+    articles: /^(?:o|a|os|as|um|uma|uns|umas)\s+/i,
+    blurb: {
+      A1: 'Short everyday texts from Brazil in the present tense: family, food, home, getting around.',
+      A2: 'Longer stories about work, travel and health, told in the pretérito perfeito and imperfeito.',
+      B1: 'Articles and reports on Brazilian society, work and daily life, with the future, conditional and subjuntivo.',
+    },
+    counts: { A1: 60, A2: 100, B1: 140 },
+  },
 };
 
 /**
@@ -147,7 +167,6 @@ export const LANGS: Record<LangId, Lang> = {
  * like isv; ar, fa and ku (Sorani) are right-to-left.
  */
 export const UPCOMING: { code: string; name: string; native: string }[] = [
-  { code: 'pt', name: 'Portuguese', native: 'Português' },
   { code: 'pl', name: 'Polish', native: 'Polski' },
   { code: 'ro', name: 'Romanian', native: 'Română' },
   { code: 'uk', name: 'Ukrainian', native: 'Українська' },

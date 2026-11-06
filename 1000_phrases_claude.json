@@ -1,5000 +1,6018 @@
 [
   {
+    "id": 1,
     "rank": 1,
     "phrase": "Hello.",
     "category": "greetings"
   },
   {
+    "id": 2,
     "rank": 2,
     "phrase": "Thank you.",
     "category": "courtesy"
   },
   {
+    "id": 3,
     "rank": 3,
     "phrase": "Yes.",
     "category": "basics"
   },
   {
+    "id": 4,
     "rank": 4,
     "phrase": "No.",
     "category": "basics"
   },
   {
+    "id": 5,
     "rank": 5,
+    "phrase": "No, thank you.",
+    "category": "courtesy"
+  },
+  {
+    "id": 6,
+    "rank": 6,
     "phrase": "Please.",
     "category": "courtesy"
   },
   {
-    "rank": 6,
+    "id": 7,
+    "rank": 7,
     "phrase": "Sorry.",
     "category": "courtesy"
   },
   {
-    "rank": 7,
+    "id": 8,
+    "rank": 8,
     "phrase": "Excuse me.",
     "category": "courtesy"
   },
   {
-    "rank": 8,
+    "id": 9,
+    "rank": 9,
     "phrase": "Goodbye.",
     "category": "greetings"
   },
   {
-    "rank": 9,
+    "id": 10,
+    "rank": 10,
     "phrase": "I don't understand.",
     "category": "communication"
   },
   {
-    "rank": 10,
-    "phrase": "Do you speak English?",
+    "id": 11,
+    "rank": 11,
+    "phrase": "Do you speak [language]?",
+    "category": "communication",
+    "note": "Use a language you already speak."
+  },
+  {
+    "id": 117,
+    "rank": 12,
+    "phrase": "I'm learning [language].",
     "category": "communication"
   },
   {
-    "rank": 11,
+    "id": 12,
+    "rank": 13,
     "phrase": "Help!",
     "category": "emergency"
   },
   {
-    "rank": 12,
+    "id": 13,
+    "rank": 14,
     "phrase": "Where is the toilet?",
     "category": "directions"
   },
   {
-    "rank": 13,
+    "id": 14,
+    "rank": 15,
     "phrase": "How much is it?",
     "category": "shopping"
   },
   {
-    "rank": 14,
-    "phrase": "My name is ...",
+    "id": 15,
+    "rank": 16,
+    "phrase": "My name is [name].",
     "category": "introductions"
   },
   {
-    "rank": 15,
+    "id": 16,
+    "rank": 17,
     "phrase": "What is your name?",
     "category": "introductions"
   },
   {
-    "rank": 16,
+    "id": 17,
+    "rank": 18,
     "phrase": "Nice to meet you.",
     "category": "introductions"
   },
   {
-    "rank": 17,
+    "id": 18,
+    "rank": 19,
     "phrase": "How are you?",
     "category": "greetings"
   },
   {
-    "rank": 18,
+    "id": 19,
+    "rank": 20,
     "phrase": "I'm fine, thank you.",
     "category": "greetings"
   },
   {
-    "rank": 19,
+    "id": 20,
+    "rank": 21,
     "phrase": "And you?",
     "category": "greetings"
   },
   {
-    "rank": 20,
+    "id": 21,
+    "rank": 22,
     "phrase": "Good morning.",
     "category": "greetings"
   },
   {
-    "rank": 21,
+    "id": 22,
+    "rank": 23,
     "phrase": "Good evening.",
     "category": "greetings"
   },
   {
-    "rank": 22,
+    "id": 23,
+    "rank": 24,
     "phrase": "Good night.",
-    "category": "greetings"
+    "category": "greetings",
+    "note": "Said when parting at night or going to bed, not as an evening greeting."
   },
   {
-    "rank": 23,
+    "id": 24,
+    "rank": 25,
     "phrase": "You're welcome.",
     "category": "courtesy"
   },
   {
-    "rank": 24,
+    "id": 25,
+    "rank": 26,
     "phrase": "Can you repeat that, please?",
     "category": "communication"
   },
   {
-    "rank": 25,
+    "id": 26,
+    "rank": 27,
     "phrase": "Please speak more slowly.",
     "category": "communication"
   },
   {
-    "rank": 26,
-    "phrase": "I speak a little ...",
-    "category": "communication"
-  },
-  {
-    "rank": 27,
-    "phrase": "What does this mean?",
-    "category": "communication"
-  },
-  {
+    "id": 27,
     "rank": 28,
-    "phrase": "How do you say ... in ...?",
+    "phrase": "Could you speak louder, please?",
     "category": "communication"
   },
   {
+    "id": 112,
     "rank": 29,
-    "phrase": "I don't know.",
-    "category": "basics"
-  },
-  {
-    "rank": 30,
-    "phrase": "OK.",
-    "category": "basics"
-  },
-  {
-    "rank": 31,
-    "phrase": "Where is ...?",
-    "category": "directions"
-  },
-  {
-    "rank": 32,
-    "phrase": "I would like ...",
-    "category": "basics"
-  },
-  {
-    "rank": 33,
-    "phrase": "Water, please.",
-    "category": "food"
-  },
-  {
-    "rank": 34,
-    "phrase": "The bill, please.",
-    "category": "food"
-  },
-  {
-    "rank": 35,
-    "phrase": "I need help.",
-    "category": "emergency"
-  },
-  {
-    "rank": 36,
-    "phrase": "Call the police!",
-    "category": "emergency"
-  },
-  {
-    "rank": 37,
-    "phrase": "Call an ambulance!",
-    "category": "emergency"
-  },
-  {
-    "rank": 38,
-    "phrase": "I'm lost.",
-    "category": "directions"
-  },
-  {
-    "rank": 39,
-    "phrase": "Where are you from?",
-    "category": "introductions"
-  },
-  {
-    "rank": 40,
-    "phrase": "I'm from ...",
-    "category": "introductions"
-  },
-  {
-    "rank": 41,
-    "phrase": "Can you help me?",
-    "category": "communication"
-  },
-  {
-    "rank": 42,
-    "phrase": "What time is it?",
-    "category": "time"
-  },
-  {
-    "rank": 43,
-    "phrase": "Do you understand?",
-    "category": "communication"
-  },
-  {
-    "rank": 44,
-    "phrase": "I understand.",
-    "category": "communication"
-  },
-  {
-    "rank": 45,
-    "phrase": "Maybe.",
-    "category": "basics"
-  },
-  {
-    "rank": 46,
-    "phrase": "Of course.",
-    "category": "basics"
-  },
-  {
-    "rank": 47,
-    "phrase": "Wait a moment, please.",
-    "category": "basics"
-  },
-  {
-    "rank": 48,
-    "phrase": "Let's go.",
-    "category": "basics"
-  },
-  {
-    "rank": 49,
-    "phrase": "See you later.",
-    "category": "greetings"
-  },
-  {
-    "rank": 50,
-    "phrase": "See you tomorrow.",
-    "category": "greetings"
-  },
-  {
-    "rank": 51,
-    "phrase": "Have a nice day.",
-    "category": "greetings"
-  },
-  {
-    "rank": 52,
-    "phrase": "Cheers!",
-    "category": "social"
-  },
-  {
-    "rank": 53,
-    "phrase": "Enjoy your meal!",
-    "category": "food"
-  },
-  {
-    "rank": 54,
-    "phrase": "I'm hungry.",
-    "category": "food"
-  },
-  {
-    "rank": 55,
-    "phrase": "I'm thirsty.",
-    "category": "food"
-  },
-  {
-    "rank": 56,
-    "phrase": "I'm tired.",
-    "category": "feelings"
-  },
-  {
-    "rank": 57,
-    "phrase": "Where do you live?",
-    "category": "introductions"
-  },
-  {
-    "rank": 58,
-    "phrase": "I live in ...",
-    "category": "introductions"
-  },
-  {
-    "rank": 59,
-    "phrase": "How old are you?",
-    "category": "introductions"
-  },
-  {
-    "rank": 60,
-    "phrase": "I am ... years old.",
-    "category": "introductions"
-  },
-  {
-    "rank": 61,
-    "phrase": "Do you have ...?",
-    "category": "shopping"
-  },
-  {
-    "rank": 62,
-    "phrase": "Can I pay by card?",
-    "category": "shopping"
-  },
-  {
-    "rank": 63,
-    "phrase": "Can I pay in cash?",
-    "category": "shopping"
-  },
-  {
-    "rank": 64,
-    "phrase": "Where can I buy ...?",
-    "category": "shopping"
-  },
-  {
-    "rank": 65,
-    "phrase": "What is this?",
-    "category": "questions"
-  },
-  {
-    "rank": 66,
-    "phrase": "Who is that?",
-    "category": "questions"
-  },
-  {
-    "rank": 67,
-    "phrase": "Why?",
-    "category": "questions"
-  },
-  {
-    "rank": 68,
-    "phrase": "When?",
-    "category": "questions"
-  },
-  {
-    "rank": 69,
-    "phrase": "How?",
-    "category": "questions"
-  },
-  {
-    "rank": 70,
-    "phrase": "Where?",
-    "category": "questions"
-  },
-  {
-    "rank": 71,
-    "phrase": "Which one?",
-    "category": "questions"
-  },
-  {
-    "rank": 72,
-    "phrase": "How many?",
-    "category": "questions"
-  },
-  {
-    "rank": 73,
-    "phrase": "This one, please.",
-    "category": "shopping"
-  },
-  {
-    "rank": 74,
-    "phrase": "That's all, thank you.",
-    "category": "shopping"
-  },
-  {
-    "rank": 75,
-    "phrase": "It's too expensive.",
-    "category": "shopping"
-  },
-  {
-    "rank": 76,
-    "phrase": "I like it.",
-    "category": "opinions"
-  },
-  {
-    "rank": 77,
-    "phrase": "I don't like it.",
-    "category": "opinions"
-  },
-  {
-    "rank": 78,
-    "phrase": "It's good.",
-    "category": "opinions"
-  },
-  {
-    "rank": 79,
-    "phrase": "Great!",
-    "category": "reactions"
-  },
-  {
-    "rank": 80,
-    "phrase": "No problem.",
-    "category": "courtesy"
-  },
-  {
-    "rank": 81,
-    "phrase": "Don't worry.",
-    "category": "courtesy"
-  },
-  {
-    "rank": 82,
-    "phrase": "Is everything OK?",
-    "category": "basics"
-  },
-  {
-    "rank": 83,
-    "phrase": "Sorry I'm late.",
-    "category": "courtesy"
-  },
-  {
-    "rank": 84,
-    "phrase": "Congratulations!",
-    "category": "social"
-  },
-  {
-    "rank": 85,
-    "phrase": "Happy birthday!",
-    "category": "social"
-  },
-  {
-    "rank": 86,
-    "phrase": "Good luck!",
-    "category": "social"
-  },
-  {
-    "rank": 87,
-    "phrase": "Welcome!",
-    "category": "greetings"
-  },
-  {
-    "rank": 88,
-    "phrase": "Where is the train station?",
-    "category": "directions"
-  },
-  {
-    "rank": 89,
-    "phrase": "Where is the bus stop?",
-    "category": "travel"
-  },
-  {
-    "rank": 90,
-    "phrase": "A ticket to ..., please.",
-    "category": "travel"
-  },
-  {
-    "rank": 91,
-    "phrase": "How do I get to ...?",
-    "category": "directions"
-  },
-  {
-    "rank": 92,
-    "phrase": "Is it far?",
-    "category": "directions"
-  },
-  {
-    "rank": 93,
-    "phrase": "Is it near here?",
-    "category": "directions"
-  },
-  {
-    "rank": 94,
-    "phrase": "Turn left.",
-    "category": "directions"
-  },
-  {
-    "rank": 95,
-    "phrase": "Turn right.",
-    "category": "directions"
-  },
-  {
-    "rank": 96,
-    "phrase": "Go straight ahead.",
-    "category": "directions"
-  },
-  {
-    "rank": 97,
-    "phrase": "I'm allergic to ...",
-    "category": "health"
-  },
-  {
-    "rank": 98,
-    "phrase": "I don't eat meat.",
-    "category": "food"
-  },
-  {
-    "rank": 99,
     "phrase": "Could you write it down, please?",
     "category": "communication"
   },
   {
-    "rank": 100,
-    "phrase": "How do you spell that?",
+    "id": 28,
+    "rank": 30,
+    "phrase": "Could you say that in a simpler way?",
     "category": "communication"
   },
   {
-    "rank": 101,
-    "phrase": "What did you say?",
+    "id": 29,
+    "rank": 31,
+    "phrase": "I speak a little [language].",
     "category": "communication"
   },
   {
-    "rank": 102,
-    "phrase": "I'm learning ...",
+    "id": 30,
+    "rank": 32,
+    "phrase": "What does this mean?",
     "category": "communication"
   },
   {
-    "rank": 103,
-    "phrase": "I'm a beginner.",
-    "category": "communication"
-  },
-  {
-    "rank": 104,
-    "phrase": "Is there someone here who speaks English?",
-    "category": "communication"
-  },
-  {
-    "rank": 105,
-    "phrase": "What is this called?",
-    "category": "communication"
-  },
-  {
-    "rank": 106,
-    "phrase": "Is that correct?",
-    "category": "communication"
-  },
-  {
-    "rank": 107,
-    "phrase": "Can you correct me, please?",
-    "category": "communication"
-  },
-  {
-    "rank": 108,
-    "phrase": "One more time, please.",
-    "category": "communication"
-  },
-  {
-    "rank": 109,
-    "phrase": "This is my friend.",
-    "category": "introductions"
-  },
-  {
-    "rank": 110,
-    "phrase": "This is my wife.",
-    "category": "introductions"
-  },
-  {
-    "rank": 111,
-    "phrase": "This is my husband.",
-    "category": "introductions"
-  },
-  {
-    "rank": 112,
-    "phrase": "I'm a student.",
-    "category": "introductions"
-  },
-  {
-    "rank": 113,
-    "phrase": "I work as a ...",
-    "category": "introductions"
-  },
-  {
-    "rank": 114,
-    "phrase": "What do you do for a living?",
-    "category": "introductions"
-  },
-  {
-    "rank": 115,
-    "phrase": "Are you married?",
-    "category": "introductions"
-  },
-  {
-    "rank": 116,
-    "phrase": "Do you have children?",
-    "category": "introductions"
-  },
-  {
-    "rank": 117,
-    "phrase": "I have ... children.",
-    "category": "introductions"
-  },
-  {
-    "rank": 118,
-    "phrase": "I'm here on holiday.",
-    "category": "introductions"
-  },
-  {
-    "rank": 119,
-    "phrase": "I'm here for work.",
-    "category": "introductions"
-  },
-  {
-    "rank": 120,
-    "phrase": "This is my first time here.",
-    "category": "introductions"
-  },
-  {
-    "rank": 121,
-    "phrase": "What day is it today?",
-    "category": "time"
-  },
-  {
-    "rank": 122,
-    "phrase": "What's the date today?",
-    "category": "time"
-  },
-  {
-    "rank": 123,
-    "phrase": "At what time?",
-    "category": "time"
-  },
-  {
-    "rank": 124,
-    "phrase": "When does it open?",
-    "category": "time"
-  },
-  {
-    "rank": 125,
-    "phrase": "When does it close?",
-    "category": "time"
-  },
-  {
-    "rank": 126,
-    "phrase": "Is it open today?",
-    "category": "time"
-  },
-  {
-    "rank": 127,
-    "phrase": "It's closed.",
-    "category": "time"
-  },
-  {
-    "rank": 128,
-    "phrase": "Right now.",
-    "category": "time"
-  },
-  {
-    "rank": 129,
-    "phrase": "Later.",
-    "category": "time"
-  },
-  {
-    "rank": 130,
-    "phrase": "I don't have time.",
-    "category": "time"
-  },
-  {
-    "rank": 131,
-    "phrase": "I'm in a hurry.",
-    "category": "time"
-  },
-  {
-    "rank": 132,
-    "phrase": "How long does it take?",
-    "category": "time"
-  },
-  {
-    "rank": 133,
-    "phrase": "A table for two, please.",
-    "category": "food"
-  },
-  {
-    "rank": 134,
-    "phrase": "The menu, please.",
-    "category": "food"
-  },
-  {
-    "rank": 135,
-    "phrase": "What do you recommend?",
-    "category": "food"
-  },
-  {
-    "rank": 136,
-    "phrase": "I'll have this.",
-    "category": "food"
-  },
-  {
-    "rank": 137,
-    "phrase": "Another one, please.",
-    "category": "food"
-  },
-  {
-    "rank": 138,
-    "phrase": "A coffee, please.",
-    "category": "food"
-  },
-  {
-    "rank": 139,
-    "phrase": "A tea, please.",
-    "category": "food"
-  },
-  {
-    "rank": 140,
-    "phrase": "A beer, please.",
-    "category": "food"
-  },
-  {
-    "rank": 141,
-    "phrase": "A glass of wine, please.",
-    "category": "food"
-  },
-  {
-    "rank": 142,
-    "phrase": "Without sugar, please.",
-    "category": "food"
-  },
-  {
-    "rank": 143,
-    "phrase": "With milk, please.",
-    "category": "food"
-  },
-  {
-    "rank": 144,
-    "phrase": "Is it spicy?",
-    "category": "food"
-  },
-  {
-    "rank": 145,
-    "phrase": "I'm vegetarian.",
-    "category": "food"
-  },
-  {
-    "rank": 146,
-    "phrase": "Is there meat in this?",
-    "category": "food"
-  },
-  {
-    "rank": 147,
-    "phrase": "It's delicious.",
-    "category": "food"
-  },
-  {
-    "rank": 148,
-    "phrase": "Can we pay separately?",
-    "category": "food"
-  },
-  {
-    "rank": 149,
-    "phrase": "Is service included?",
-    "category": "food"
-  },
-  {
-    "rank": 150,
-    "phrase": "Keep the change.",
-    "category": "food"
-  },
-  {
-    "rank": 151,
-    "phrase": "I have a reservation.",
-    "category": "accommodation"
-  },
-  {
-    "rank": 152,
-    "phrase": "Do you have a room?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 153,
-    "phrase": "For one night.",
-    "category": "accommodation"
-  },
-  {
-    "rank": 154,
-    "phrase": "How much is it per night?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 155,
-    "phrase": "Is breakfast included?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 156,
-    "phrase": "What's the Wi-Fi password?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 157,
-    "phrase": "Can I have the key, please?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 158,
-    "phrase": "The ... doesn't work.",
-    "category": "accommodation"
-  },
-  {
-    "rank": 159,
-    "phrase": "Can I leave my luggage here?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 160,
-    "phrase": "What time is check-out?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 161,
-    "phrase": "Where can I get a taxi?",
-    "category": "travel"
-  },
-  {
-    "rank": 162,
-    "phrase": "Take me to this address, please.",
-    "category": "travel"
-  },
-  {
-    "rank": 163,
-    "phrase": "How much is it to ...?",
-    "category": "travel"
-  },
-  {
-    "rank": 164,
-    "phrase": "Stop here, please.",
-    "category": "travel"
-  },
-  {
-    "rank": 165,
-    "phrase": "When does the train leave?",
-    "category": "travel"
-  },
-  {
-    "rank": 166,
-    "phrase": "Which platform?",
-    "category": "travel"
-  },
-  {
-    "rank": 167,
-    "phrase": "Does this bus go to ...?",
-    "category": "travel"
-  },
-  {
-    "rank": 168,
-    "phrase": "Where do I get off?",
-    "category": "travel"
-  },
-  {
-    "rank": 169,
-    "phrase": "A return ticket, please.",
-    "category": "travel"
-  },
-  {
-    "rank": 170,
-    "phrase": "A one-way ticket, please.",
-    "category": "travel"
-  },
-  {
-    "rank": 171,
-    "phrase": "Is this seat free?",
-    "category": "travel"
-  },
-  {
-    "rank": 172,
-    "phrase": "Where is the airport?",
-    "category": "travel"
-  },
-  {
-    "rank": 173,
-    "phrase": "My flight is delayed.",
-    "category": "travel"
-  },
-  {
-    "rank": 174,
-    "phrase": "I missed my train.",
-    "category": "travel"
-  },
-  {
-    "rank": 175,
-    "phrase": "Where is the exit?",
-    "category": "directions"
-  },
-  {
-    "rank": 176,
-    "phrase": "Where is the entrance?",
-    "category": "directions"
-  },
-  {
-    "rank": 177,
-    "phrase": "I'm sick.",
-    "category": "health"
-  },
-  {
-    "rank": 178,
-    "phrase": "I need a doctor.",
-    "category": "health"
-  },
-  {
-    "rank": 179,
-    "phrase": "Where is the hospital?",
-    "category": "health"
-  },
-  {
-    "rank": 180,
-    "phrase": "Where is the pharmacy?",
-    "category": "health"
-  },
-  {
-    "rank": 181,
-    "phrase": "It hurts here.",
-    "category": "health"
-  },
-  {
-    "rank": 182,
-    "phrase": "I have a headache.",
-    "category": "health"
-  },
-  {
-    "rank": 183,
-    "phrase": "I have a fever.",
-    "category": "health"
-  },
-  {
-    "rank": 184,
-    "phrase": "I lost my passport.",
-    "category": "emergency"
-  },
-  {
-    "rank": 185,
-    "phrase": "My bag was stolen.",
-    "category": "emergency"
-  },
-  {
-    "rank": 186,
-    "phrase": "Fire!",
-    "category": "emergency"
-  },
-  {
-    "rank": 187,
-    "phrase": "Stop!",
-    "category": "emergency"
-  },
-  {
-    "rank": 188,
-    "phrase": "Leave me alone!",
-    "category": "emergency"
-  },
-  {
-    "rank": 189,
-    "phrase": "Be careful!",
-    "category": "emergency"
-  },
-  {
-    "rank": 190,
-    "phrase": "It's an emergency.",
-    "category": "emergency"
-  },
-  {
-    "rank": 191,
-    "phrase": "Where is the embassy?",
-    "category": "emergency"
-  },
-  {
-    "rank": 192,
-    "phrase": "I don't know yet.",
-    "category": "basics"
-  },
-  {
-    "rank": 193,
-    "phrase": "Really?",
-    "category": "basics"
-  },
-  {
-    "rank": 194,
-    "phrase": "That's right.",
-    "category": "basics"
-  },
-  {
-    "rank": 195,
-    "phrase": "That's not right.",
-    "category": "basics"
-  },
-  {
-    "rank": 196,
-    "phrase": "I think so.",
-    "category": "basics"
-  },
-  {
-    "rank": 197,
-    "phrase": "I don't think so.",
-    "category": "basics"
-  },
-  {
-    "rank": 198,
-    "phrase": "It doesn't matter.",
-    "category": "basics"
-  },
-  {
-    "rank": 199,
-    "phrase": "Here you are.",
-    "category": "basics"
-  },
-  {
-    "rank": 200,
-    "phrase": "Just a little.",
-    "category": "basics"
-  },
-  {
-    "rank": 201,
-    "phrase": "A lot.",
-    "category": "basics"
-  },
-  {
-    "rank": 202,
-    "phrase": "Enough, thank you.",
-    "category": "basics"
-  },
-  {
-    "rank": 203,
-    "phrase": "Not yet.",
-    "category": "basics"
-  },
-  {
-    "rank": 204,
-    "phrase": "Not now.",
-    "category": "basics"
-  },
-  {
-    "rank": 205,
-    "phrase": "Again, please.",
-    "category": "basics"
-  },
-  {
-    "rank": 206,
-    "phrase": "Thank you very much.",
-    "category": "courtesy"
-  },
-  {
-    "rank": 207,
-    "phrase": "Thanks for your help.",
-    "category": "courtesy"
-  },
-  {
-    "rank": 208,
-    "phrase": "I'm very sorry.",
-    "category": "courtesy"
-  },
-  {
-    "rank": 209,
-    "phrase": "Excuse me, may I pass?",
-    "category": "courtesy"
-  },
-  {
-    "rank": 210,
-    "phrase": "After you.",
-    "category": "courtesy"
-  },
-  {
-    "rank": 211,
-    "phrase": "May I?",
-    "category": "courtesy"
-  },
-  {
-    "rank": 212,
-    "phrase": "Is it OK if I sit here?",
-    "category": "courtesy"
-  },
-  {
-    "rank": 213,
-    "phrase": "Can I ask you something?",
-    "category": "courtesy"
-  },
-  {
-    "rank": 214,
-    "phrase": "With pleasure.",
-    "category": "courtesy"
-  },
-  {
-    "rank": 215,
-    "phrase": "It was nothing.",
-    "category": "courtesy"
-  },
-  {
-    "rank": 216,
-    "phrase": "Hi!",
-    "category": "greetings"
-  },
-  {
-    "rank": 217,
-    "phrase": "Good afternoon.",
-    "category": "greetings"
-  },
-  {
-    "rank": 218,
-    "phrase": "How's it going?",
-    "category": "greetings"
-  },
-  {
-    "rank": 219,
-    "phrase": "Not bad.",
-    "category": "greetings"
-  },
-  {
-    "rank": 220,
-    "phrase": "So-so.",
-    "category": "greetings"
-  },
-  {
-    "rank": 221,
-    "phrase": "Long time no see.",
-    "category": "greetings"
-  },
-  {
-    "rank": 222,
-    "phrase": "See you soon.",
-    "category": "greetings"
-  },
-  {
-    "rank": 223,
-    "phrase": "Take care.",
-    "category": "greetings"
-  },
-  {
-    "rank": 224,
-    "phrase": "Have a good trip!",
-    "category": "greetings"
-  },
-  {
-    "rank": 225,
-    "phrase": "Have a nice weekend.",
-    "category": "greetings"
-  },
-  {
-    "rank": 226,
-    "phrase": "What's your phone number?",
-    "category": "numbers"
-  },
-  {
-    "rank": 227,
-    "phrase": "My number is ...",
-    "category": "numbers"
-  },
-  {
-    "rank": 228,
-    "phrase": "How much does this cost?",
-    "category": "numbers"
-  },
-  {
-    "rank": 229,
-    "phrase": "It costs ... euros.",
-    "category": "numbers"
-  },
-  {
-    "rank": 230,
-    "phrase": "Can you write the price?",
-    "category": "numbers"
-  },
-  {
-    "rank": 231,
-    "phrase": "What is your address?",
-    "category": "numbers"
-  },
-  {
-    "rank": 232,
-    "phrase": "What floor is it on?",
-    "category": "numbers"
-  },
-  {
-    "rank": 233,
-    "phrase": "How many people?",
-    "category": "numbers"
-  },
-  {
-    "rank": 234,
-    "phrase": "Two people, please.",
-    "category": "numbers"
-  },
-  {
-    "rank": 235,
-    "phrase": "I'm just looking.",
-    "category": "shopping"
-  },
-  {
-    "rank": 236,
-    "phrase": "Can I try it on?",
-    "category": "shopping"
-  },
-  {
-    "rank": 237,
-    "phrase": "Do you have a bigger size?",
-    "category": "shopping"
-  },
-  {
-    "rank": 238,
-    "phrase": "Do you have a smaller size?",
-    "category": "shopping"
-  },
-  {
-    "rank": 239,
-    "phrase": "Do you have it in another colour?",
-    "category": "shopping"
-  },
-  {
-    "rank": 240,
-    "phrase": "I'll take it.",
-    "category": "shopping"
-  },
-  {
-    "rank": 241,
-    "phrase": "Do you have a bag?",
-    "category": "shopping"
-  },
-  {
-    "rank": 242,
-    "phrase": "Can I have a receipt?",
-    "category": "shopping"
-  },
-  {
-    "rank": 243,
-    "phrase": "Is there a discount?",
-    "category": "shopping"
-  },
-  {
-    "rank": 244,
-    "phrase": "Where is the supermarket?",
-    "category": "shopping"
-  },
-  {
-    "rank": 245,
-    "phrase": "Where is the nearest ATM?",
-    "category": "shopping"
-  },
-  {
-    "rank": 246,
-    "phrase": "Can I return this?",
-    "category": "shopping"
-  },
-  {
-    "rank": 247,
-    "phrase": "Where do I pay?",
-    "category": "shopping"
-  },
-  {
-    "rank": 248,
-    "phrase": "Do you accept credit cards?",
-    "category": "shopping"
-  },
-  {
-    "rank": 249,
-    "phrase": "It's a gift.",
-    "category": "shopping"
-  },
-  {
-    "rank": 250,
-    "phrase": "Can you show me on the map?",
-    "category": "directions"
-  },
-  {
-    "rank": 251,
-    "phrase": "Where are we now?",
-    "category": "directions"
-  },
-  {
-    "rank": 252,
-    "phrase": "Is it within walking distance?",
-    "category": "directions"
-  },
-  {
-    "rank": 253,
-    "phrase": "How far is it?",
-    "category": "directions"
-  },
-  {
-    "rank": 254,
-    "phrase": "It's over there.",
-    "category": "directions"
-  },
-  {
-    "rank": 255,
-    "phrase": "It's around the corner.",
-    "category": "directions"
-  },
-  {
-    "rank": 256,
-    "phrase": "Next to the ...",
-    "category": "directions"
-  },
-  {
-    "rank": 257,
-    "phrase": "Opposite the ...",
-    "category": "directions"
-  },
-  {
-    "rank": 258,
-    "phrase": "At the end of the street.",
-    "category": "directions"
-  },
-  {
-    "rank": 259,
-    "phrase": "Take the first street on the left.",
-    "category": "directions"
-  },
-  {
-    "rank": 260,
-    "phrase": "Cross the street.",
-    "category": "directions"
-  },
-  {
-    "rank": 261,
-    "phrase": "Where is the city centre?",
-    "category": "directions"
-  },
-  {
-    "rank": 262,
-    "phrase": "Is this the right way to ...?",
-    "category": "directions"
-  },
-  {
-    "rank": 263,
-    "phrase": "Where can I buy a ticket?",
-    "category": "travel"
-  },
-  {
-    "rank": 264,
-    "phrase": "How much is a ticket?",
-    "category": "travel"
-  },
-  {
-    "rank": 265,
-    "phrase": "When is the next bus?",
-    "category": "travel"
-  },
-  {
-    "rank": 266,
-    "phrase": "When is the last train?",
-    "category": "travel"
-  },
-  {
-    "rank": 267,
-    "phrase": "Is this the train to ...?",
-    "category": "travel"
-  },
-  {
-    "rank": 268,
-    "phrase": "Do I need to change trains?",
-    "category": "travel"
-  },
-  {
-    "rank": 269,
-    "phrase": "How many stops is it?",
-    "category": "travel"
-  },
-  {
-    "rank": 270,
-    "phrase": "Can you tell me when to get off?",
-    "category": "travel"
-  },
-  {
-    "rank": 271,
-    "phrase": "I'd like to rent a car.",
-    "category": "travel"
-  },
-  {
-    "rank": 272,
-    "phrase": "Where is the gas station?",
-    "category": "travel"
-  },
-  {
-    "rank": 273,
-    "phrase": "Where can I park?",
-    "category": "travel"
-  },
-  {
-    "rank": 274,
-    "phrase": "Here is my passport.",
-    "category": "travel"
-  },
-  {
-    "rank": 275,
-    "phrase": "I have nothing to declare.",
-    "category": "travel"
-  },
-  {
-    "rank": 276,
-    "phrase": "Where is the baggage claim?",
-    "category": "travel"
-  },
-  {
-    "rank": 277,
-    "phrase": "My luggage is lost.",
-    "category": "travel"
-  },
-  {
-    "rank": 278,
-    "phrase": "Where is gate ...?",
-    "category": "travel"
-  },
-  {
-    "rank": 279,
-    "phrase": "What time do we board?",
-    "category": "travel"
-  },
-  {
-    "rank": 280,
-    "phrase": "Window or aisle?",
-    "category": "travel"
-  },
-  {
-    "rank": 281,
-    "phrase": "Are you open?",
-    "category": "food"
-  },
-  {
-    "rank": 282,
-    "phrase": "Do you have a table outside?",
-    "category": "food"
-  },
-  {
-    "rank": 283,
-    "phrase": "What is this dish?",
-    "category": "food"
-  },
-  {
-    "rank": 284,
-    "phrase": "I didn't order this.",
-    "category": "food"
-  },
-  {
-    "rank": 285,
-    "phrase": "Can I have some more bread?",
-    "category": "food"
-  },
-  {
-    "rank": 286,
-    "phrase": "No ice, please.",
-    "category": "food"
-  },
-  {
-    "rank": 287,
-    "phrase": "Can I see the wine list?",
-    "category": "food"
-  },
-  {
-    "rank": 288,
-    "phrase": "I'm full.",
-    "category": "food"
-  },
-  {
-    "rank": 289,
-    "phrase": "To take away, please.",
-    "category": "food"
-  },
-  {
-    "rank": 290,
-    "phrase": "To eat here, please.",
-    "category": "food"
-  },
-  {
-    "rank": 291,
-    "phrase": "Is the water drinkable?",
-    "category": "food"
-  },
-  {
-    "rank": 292,
-    "phrase": "Sparkling or still?",
-    "category": "food"
-  },
-  {
-    "rank": 293,
-    "phrase": "A bottle of water, please.",
-    "category": "food"
-  },
-  {
-    "rank": 294,
-    "phrase": "I can't eat ...",
-    "category": "food"
-  },
-  {
-    "rank": 295,
-    "phrase": "I'm allergic to nuts.",
-    "category": "food"
-  },
-  {
-    "rank": 296,
-    "phrase": "Without onions, please.",
-    "category": "food"
-  },
-  {
-    "rank": 297,
-    "phrase": "Excuse me, waiter!",
-    "category": "food"
-  },
-  {
-    "rank": 298,
-    "phrase": "We're ready to order.",
-    "category": "food"
-  },
-  {
-    "rank": 299,
-    "phrase": "I'd like to check in.",
-    "category": "accommodation"
-  },
-  {
-    "rank": 300,
-    "phrase": "I'd like to check out.",
-    "category": "accommodation"
-  },
-  {
-    "rank": 301,
-    "phrase": "Can I see the room?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 302,
-    "phrase": "Is there a lift?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 303,
-    "phrase": "Is there air conditioning?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 304,
-    "phrase": "There is no hot water.",
-    "category": "accommodation"
-  },
-  {
-    "rank": 305,
-    "phrase": "Could you clean the room, please?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 306,
-    "phrase": "Can I have another towel?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 307,
-    "phrase": "Can you call me a taxi?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 308,
-    "phrase": "The room is too noisy.",
-    "category": "accommodation"
-  },
-  {
-    "rank": 309,
-    "phrase": "I'd like to stay one more night.",
-    "category": "accommodation"
-  },
-  {
-    "rank": 310,
-    "phrase": "I feel bad.",
-    "category": "health"
-  },
-  {
-    "rank": 311,
-    "phrase": "I feel dizzy.",
-    "category": "health"
-  },
-  {
-    "rank": 312,
-    "phrase": "I have a cold.",
-    "category": "health"
-  },
-  {
-    "rank": 313,
-    "phrase": "I have a stomach ache.",
-    "category": "health"
-  },
-  {
-    "rank": 314,
-    "phrase": "I have a toothache.",
-    "category": "health"
-  },
-  {
-    "rank": 315,
-    "phrase": "I need a dentist.",
-    "category": "health"
-  },
-  {
-    "rank": 316,
-    "phrase": "I take this medicine.",
-    "category": "health"
-  },
-  {
-    "rank": 317,
-    "phrase": "Do I need a prescription?",
-    "category": "health"
-  },
-  {
-    "rank": 318,
-    "phrase": "I'm diabetic.",
-    "category": "health"
-  },
-  {
-    "rank": 319,
-    "phrase": "I'm pregnant.",
-    "category": "health"
-  },
-  {
-    "rank": 320,
-    "phrase": "I have health insurance.",
-    "category": "health"
-  },
-  {
-    "rank": 321,
-    "phrase": "How often should I take it?",
-    "category": "health"
-  },
-  {
-    "rank": 322,
-    "phrase": "I cut myself.",
-    "category": "health"
-  },
-  {
-    "rank": 323,
-    "phrase": "I can't breathe.",
-    "category": "health"
-  },
-  {
-    "rank": 324,
-    "phrase": "Somebody help!",
-    "category": "emergency"
-  },
-  {
-    "rank": 325,
-    "phrase": "There's been an accident.",
-    "category": "emergency"
-  },
-  {
-    "rank": 326,
-    "phrase": "I lost my wallet.",
-    "category": "emergency"
-  },
-  {
-    "rank": 327,
-    "phrase": "I lost my phone.",
-    "category": "emergency"
-  },
-  {
-    "rank": 328,
-    "phrase": "Where is the police station?",
-    "category": "emergency"
-  },
-  {
-    "rank": 329,
-    "phrase": "Can I use your phone?",
-    "category": "emergency"
-  },
-  {
-    "rank": 330,
-    "phrase": "I need to call my family.",
-    "category": "emergency"
-  },
-  {
-    "rank": 331,
-    "phrase": "Go away!",
-    "category": "emergency"
-  },
-  {
-    "rank": 332,
-    "phrase": "Is it safe here?",
-    "category": "emergency"
-  },
-  {
-    "rank": 333,
-    "phrase": "Watch out!",
-    "category": "emergency"
-  },
-  {
-    "rank": 334,
-    "phrase": "I'm married.",
-    "category": "introductions"
-  },
-  {
-    "rank": 335,
-    "phrase": "I'm single.",
-    "category": "introductions"
-  },
-  {
-    "rank": 336,
-    "phrase": "I don't have children.",
-    "category": "introductions"
-  },
-  {
-    "rank": 337,
-    "phrase": "This is my son.",
-    "category": "introductions"
-  },
-  {
-    "rank": 338,
-    "phrase": "This is my daughter.",
-    "category": "introductions"
-  },
-  {
-    "rank": 339,
-    "phrase": "These are my parents.",
-    "category": "introductions"
-  },
-  {
-    "rank": 340,
-    "phrase": "I have a brother.",
-    "category": "introductions"
-  },
-  {
-    "rank": 341,
-    "phrase": "I have a sister.",
-    "category": "introductions"
-  },
-  {
-    "rank": 342,
-    "phrase": "Where do you work?",
-    "category": "introductions"
-  },
-  {
-    "rank": 343,
-    "phrase": "I work in an office.",
-    "category": "introductions"
-  },
-  {
-    "rank": 344,
-    "phrase": "I'm retired.",
-    "category": "introductions"
-  },
-  {
-    "rank": 345,
-    "phrase": "I'm looking for a job.",
-    "category": "introductions"
-  },
-  {
-    "rank": 346,
-    "phrase": "What do you study?",
-    "category": "introductions"
-  },
-  {
-    "rank": 347,
-    "phrase": "What languages do you speak?",
-    "category": "introductions"
-  },
-  {
-    "rank": 348,
-    "phrase": "I speak English and ...",
-    "category": "introductions"
-  },
-  {
-    "rank": 349,
-    "phrase": "I was born in ...",
-    "category": "introductions"
-  },
-  {
-    "rank": 350,
-    "phrase": "I've lived here for ... years.",
-    "category": "introductions"
-  },
-  {
-    "rank": 351,
-    "phrase": "How long are you staying?",
-    "category": "introductions"
-  },
-  {
-    "rank": 352,
-    "phrase": "I'm staying for a week.",
-    "category": "introductions"
-  },
-  {
-    "rank": 353,
-    "phrase": "What time does it start?",
-    "category": "time"
-  },
-  {
-    "rank": 354,
-    "phrase": "What time does it finish?",
-    "category": "time"
-  },
-  {
-    "rank": 355,
-    "phrase": "It's ... o'clock.",
-    "category": "time"
-  },
-  {
-    "rank": 356,
-    "phrase": "It's half past ...",
-    "category": "time"
-  },
-  {
-    "rank": 357,
-    "phrase": "In five minutes.",
-    "category": "time"
-  },
-  {
-    "rank": 358,
-    "phrase": "In an hour.",
-    "category": "time"
-  },
-  {
-    "rank": 359,
-    "phrase": "Two days ago.",
-    "category": "time"
-  },
-  {
-    "rank": 360,
-    "phrase": "Next week.",
-    "category": "time"
-  },
-  {
-    "rank": 361,
-    "phrase": "Last week.",
-    "category": "time"
-  },
-  {
-    "rank": 362,
-    "phrase": "This morning.",
-    "category": "time"
-  },
-  {
-    "rank": 363,
-    "phrase": "This evening.",
-    "category": "time"
-  },
-  {
-    "rank": 364,
-    "phrase": "Tonight.",
-    "category": "time"
-  },
-  {
-    "rank": 365,
-    "phrase": "Every day.",
-    "category": "time"
-  },
-  {
-    "rank": 366,
-    "phrase": "On Monday.",
-    "category": "time"
-  },
-  {
-    "rank": 367,
-    "phrase": "At the weekend.",
-    "category": "time"
-  },
-  {
-    "rank": 368,
-    "phrase": "You're late.",
-    "category": "time"
-  },
-  {
-    "rank": 369,
-    "phrase": "What time shall we meet?",
-    "category": "time"
-  },
-  {
-    "rank": 370,
-    "phrase": "Let's meet at ...",
-    "category": "time"
-  },
-  {
-    "rank": 371,
-    "phrase": "Is that OK for you?",
-    "category": "time"
-  },
-  {
-    "rank": 372,
-    "phrase": "I'm free tomorrow.",
-    "category": "time"
-  },
-  {
-    "rank": 373,
-    "phrase": "I'm busy today.",
-    "category": "time"
-  },
-  {
-    "rank": 374,
-    "phrase": "What's the weather like?",
-    "category": "weather"
-  },
-  {
-    "rank": 375,
-    "phrase": "It's hot.",
-    "category": "weather"
-  },
-  {
-    "rank": 376,
-    "phrase": "It's cold.",
-    "category": "weather"
-  },
-  {
-    "rank": 377,
-    "phrase": "It's raining.",
-    "category": "weather"
-  },
-  {
-    "rank": 378,
-    "phrase": "It's snowing.",
-    "category": "weather"
-  },
-  {
-    "rank": 379,
-    "phrase": "It's sunny.",
-    "category": "weather"
-  },
-  {
-    "rank": 380,
-    "phrase": "It's windy.",
-    "category": "weather"
-  },
-  {
-    "rank": 381,
-    "phrase": "It's a beautiful day.",
-    "category": "weather"
-  },
-  {
-    "rank": 382,
-    "phrase": "Will it rain tomorrow?",
-    "category": "weather"
-  },
-  {
-    "rank": 383,
-    "phrase": "I'm cold.",
-    "category": "weather"
-  },
-  {
-    "rank": 384,
-    "phrase": "I'm hot.",
-    "category": "weather"
-  },
-  {
-    "rank": 385,
-    "phrase": "What do you think?",
-    "category": "conversation"
-  },
-  {
-    "rank": 386,
-    "phrase": "I agree.",
-    "category": "conversation"
-  },
-  {
-    "rank": 387,
-    "phrase": "I don't agree.",
-    "category": "conversation"
-  },
-  {
-    "rank": 388,
-    "phrase": "You're right.",
-    "category": "conversation"
-  },
-  {
-    "rank": 389,
-    "phrase": "I'm not sure.",
-    "category": "conversation"
-  },
-  {
-    "rank": 390,
-    "phrase": "It depends.",
-    "category": "conversation"
-  },
-  {
-    "rank": 391,
-    "phrase": "Me too.",
-    "category": "conversation"
-  },
-  {
-    "rank": 392,
-    "phrase": "Me neither.",
-    "category": "conversation"
-  },
-  {
-    "rank": 393,
-    "phrase": "What about you?",
-    "category": "conversation"
-  },
-  {
-    "rank": 394,
-    "phrase": "Tell me more.",
-    "category": "conversation"
-  },
-  {
-    "rank": 395,
-    "phrase": "That's interesting.",
-    "category": "conversation"
-  },
-  {
-    "rank": 396,
-    "phrase": "I see.",
-    "category": "conversation"
-  },
-  {
-    "rank": 397,
-    "phrase": "What happened?",
-    "category": "conversation"
-  },
-  {
-    "rank": 398,
-    "phrase": "Are you sure?",
-    "category": "conversation"
-  },
-  {
-    "rank": 399,
-    "phrase": "Exactly.",
-    "category": "conversation"
-  },
-  {
-    "rank": 400,
-    "phrase": "I mean ...",
-    "category": "conversation"
-  },
-  {
-    "rank": 401,
-    "phrase": "For example ...",
-    "category": "conversation"
-  },
-  {
-    "rank": 402,
-    "phrase": "By the way ...",
-    "category": "conversation"
-  },
-  {
-    "rank": 403,
-    "phrase": "Let me think.",
-    "category": "conversation"
-  },
-  {
-    "rank": 404,
-    "phrase": "How was your day?",
-    "category": "conversation"
-  },
-  {
-    "rank": 405,
-    "phrase": "What are you doing?",
-    "category": "conversation"
-  },
-  {
-    "rank": 406,
-    "phrase": "What are you doing tonight?",
-    "category": "conversation"
-  },
-  {
-    "rank": 407,
-    "phrase": "Do you have any plans for the weekend?",
-    "category": "conversation"
-  },
-  {
-    "rank": 408,
-    "phrase": "What do you do in your free time?",
-    "category": "conversation"
-  },
-  {
-    "rank": 409,
-    "phrase": "Have you ever been to ...?",
-    "category": "conversation"
-  },
-  {
-    "rank": 410,
-    "phrase": "How was your trip?",
-    "category": "conversation"
-  },
-  {
-    "rank": 411,
-    "phrase": "I've never been there.",
-    "category": "conversation"
-  },
-  {
-    "rank": 412,
-    "phrase": "Wow!",
-    "category": "reactions"
-  },
-  {
-    "rank": 413,
-    "phrase": "Oh no!",
-    "category": "reactions"
-  },
-  {
-    "rank": 414,
-    "phrase": "What a pity.",
-    "category": "reactions"
-  },
-  {
-    "rank": 415,
-    "phrase": "That's amazing.",
-    "category": "reactions"
-  },
-  {
-    "rank": 416,
-    "phrase": "That's terrible.",
-    "category": "reactions"
-  },
-  {
-    "rank": 417,
-    "phrase": "I can't believe it.",
-    "category": "reactions"
-  },
-  {
-    "rank": 418,
-    "phrase": "You're joking!",
-    "category": "reactions"
-  },
-  {
-    "rank": 419,
-    "phrase": "How nice!",
-    "category": "reactions"
-  },
-  {
-    "rank": 420,
-    "phrase": "Well done!",
-    "category": "reactions"
-  },
-  {
-    "rank": 421,
-    "phrase": "That's funny.",
-    "category": "reactions"
-  },
-  {
-    "rank": 422,
-    "phrase": "Never mind.",
-    "category": "reactions"
-  },
-  {
-    "rank": 423,
-    "phrase": "I'm happy.",
-    "category": "feelings"
-  },
-  {
-    "rank": 424,
-    "phrase": "I'm sad.",
-    "category": "feelings"
-  },
-  {
-    "rank": 425,
-    "phrase": "I'm bored.",
-    "category": "feelings"
-  },
-  {
-    "rank": 426,
-    "phrase": "I'm angry.",
-    "category": "feelings"
-  },
-  {
-    "rank": 427,
-    "phrase": "I'm nervous.",
-    "category": "feelings"
-  },
-  {
-    "rank": 428,
-    "phrase": "I'm scared.",
-    "category": "feelings"
-  },
-  {
-    "rank": 429,
-    "phrase": "I'm worried.",
-    "category": "feelings"
-  },
-  {
-    "rank": 430,
-    "phrase": "I'm excited.",
-    "category": "feelings"
-  },
-  {
-    "rank": 431,
-    "phrase": "I'm stressed.",
-    "category": "feelings"
-  },
-  {
-    "rank": 432,
-    "phrase": "I'm in a good mood.",
-    "category": "feelings"
-  },
-  {
-    "rank": 433,
-    "phrase": "I feel better.",
-    "category": "feelings"
-  },
-  {
-    "rank": 434,
-    "phrase": "I miss you.",
-    "category": "feelings"
-  },
-  {
-    "rank": 435,
-    "phrase": "I'm surprised.",
-    "category": "feelings"
-  },
-  {
-    "rank": 436,
-    "phrase": "I'm disappointed.",
-    "category": "feelings"
-  },
-  {
-    "rank": 437,
-    "phrase": "What's wrong?",
-    "category": "feelings"
-  },
-  {
-    "rank": 438,
-    "phrase": "Are you OK?",
-    "category": "feelings"
-  },
-  {
-    "rank": 439,
-    "phrase": "I'm OK.",
-    "category": "feelings"
-  },
-  {
-    "rank": 440,
-    "phrase": "I love it.",
-    "category": "opinions"
-  },
-  {
-    "rank": 441,
-    "phrase": "I hate it.",
-    "category": "opinions"
-  },
-  {
-    "rank": 442,
-    "phrase": "It's beautiful.",
-    "category": "opinions"
-  },
-  {
-    "rank": 443,
-    "phrase": "It's very interesting.",
-    "category": "opinions"
-  },
-  {
-    "rank": 444,
-    "phrase": "It's boring.",
-    "category": "opinions"
-  },
-  {
-    "rank": 445,
-    "phrase": "It's easy.",
-    "category": "opinions"
-  },
-  {
-    "rank": 446,
-    "phrase": "It's difficult.",
-    "category": "opinions"
-  },
-  {
-    "rank": 447,
-    "phrase": "It's important.",
-    "category": "opinions"
-  },
-  {
-    "rank": 448,
-    "phrase": "It's cheap.",
-    "category": "opinions"
-  },
-  {
-    "rank": 449,
-    "phrase": "It's too big.",
-    "category": "opinions"
-  },
-  {
-    "rank": 450,
-    "phrase": "It's too small.",
-    "category": "opinions"
-  },
-  {
-    "rank": 451,
-    "phrase": "It's perfect.",
-    "category": "opinions"
-  },
-  {
-    "rank": 452,
-    "phrase": "It's not bad.",
-    "category": "opinions"
-  },
-  {
-    "rank": 453,
-    "phrase": "I prefer this one.",
-    "category": "opinions"
-  },
-  {
-    "rank": 454,
-    "phrase": "In my opinion ...",
-    "category": "opinions"
-  },
-  {
-    "rank": 455,
-    "phrase": "I think that ...",
-    "category": "opinions"
-  },
-  {
-    "rank": 456,
-    "phrase": "It's a good idea.",
-    "category": "opinions"
-  },
-  {
-    "rank": 457,
-    "phrase": "It's a bad idea.",
-    "category": "opinions"
-  },
-  {
-    "rank": 458,
-    "phrase": "Would you like to come with us?",
-    "category": "social"
-  },
-  {
-    "rank": 459,
-    "phrase": "Do you want to get a coffee?",
-    "category": "social"
-  },
-  {
-    "rank": 460,
-    "phrase": "Would you like a drink?",
-    "category": "social"
-  },
-  {
-    "rank": 461,
-    "phrase": "What would you like to drink?",
-    "category": "social"
-  },
-  {
-    "rank": 462,
-    "phrase": "It's my treat.",
-    "category": "social"
-  },
-  {
-    "rank": 463,
-    "phrase": "Let's go out tonight.",
-    "category": "social"
-  },
-  {
-    "rank": 464,
-    "phrase": "Are you coming?",
-    "category": "social"
-  },
-  {
-    "rank": 465,
-    "phrase": "I'd love to.",
-    "category": "social"
-  },
-  {
-    "rank": 466,
-    "phrase": "Sorry, I can't.",
-    "category": "social"
-  },
-  {
-    "rank": 467,
-    "phrase": "Maybe next time.",
-    "category": "social"
-  },
-  {
-    "rank": 468,
-    "phrase": "Let's keep in touch.",
-    "category": "social"
-  },
-  {
-    "rank": 469,
-    "phrase": "Can I have your number?",
-    "category": "social"
-  },
-  {
-    "rank": 470,
-    "phrase": "Send me a message.",
-    "category": "social"
-  },
-  {
-    "rank": 471,
-    "phrase": "Call me.",
-    "category": "social"
-  },
-  {
-    "rank": 472,
-    "phrase": "I'll call you later.",
-    "category": "social"
-  },
-  {
-    "rank": 473,
-    "phrase": "Can you take a photo of us?",
-    "category": "social"
-  },
-  {
-    "rank": 474,
-    "phrase": "Make yourself at home.",
-    "category": "social"
-  },
-  {
-    "rank": 475,
-    "phrase": "Help yourself.",
-    "category": "social"
-  },
-  {
-    "rank": 476,
-    "phrase": "Thank you for inviting me.",
-    "category": "social"
-  },
-  {
-    "rank": 477,
-    "phrase": "I had a great time.",
-    "category": "social"
-  },
-  {
-    "rank": 478,
-    "phrase": "Merry Christmas!",
-    "category": "social"
-  },
-  {
-    "rank": 479,
-    "phrase": "Happy New Year!",
-    "category": "social"
-  },
-  {
-    "rank": 480,
-    "phrase": "Have fun!",
-    "category": "social"
-  },
-  {
-    "rank": 481,
-    "phrase": "Get well soon!",
-    "category": "social"
-  },
-  {
-    "rank": 482,
-    "phrase": "Bless you!",
-    "category": "social"
-  },
-  {
-    "rank": 483,
-    "phrase": "Hello, who is speaking?",
-    "category": "phone"
-  },
-  {
-    "rank": 484,
-    "phrase": "Can I speak to ...?",
-    "category": "phone"
-  },
-  {
-    "rank": 485,
-    "phrase": "Just a moment, please.",
-    "category": "phone"
-  },
-  {
-    "rank": 486,
-    "phrase": "Can I leave a message?",
-    "category": "phone"
-  },
-  {
-    "rank": 487,
-    "phrase": "I'll call back later.",
-    "category": "phone"
-  },
-  {
-    "rank": 488,
-    "phrase": "Sorry, wrong number.",
-    "category": "phone"
-  },
-  {
-    "rank": 489,
-    "phrase": "I can't hear you.",
-    "category": "phone"
-  },
-  {
-    "rank": 490,
-    "phrase": "Where can I charge my phone?",
-    "category": "phone"
-  },
-  {
-    "rank": 491,
-    "phrase": "Is there Wi-Fi here?",
-    "category": "phone"
-  },
-  {
-    "rank": 492,
-    "phrase": "I don't have internet.",
-    "category": "phone"
-  },
-  {
-    "rank": 493,
-    "phrase": "Can you send it to me?",
-    "category": "phone"
-  },
-  {
-    "rank": 494,
-    "phrase": "What's your email address?",
-    "category": "phone"
-  },
-  {
-    "rank": 495,
-    "phrase": "I wake up at ...",
-    "category": "daily"
-  },
-  {
-    "rank": 496,
-    "phrase": "I'm going home.",
-    "category": "daily"
-  },
-  {
-    "rank": 497,
-    "phrase": "I'm at home.",
-    "category": "daily"
-  },
-  {
-    "rank": 498,
-    "phrase": "I'm on my way.",
-    "category": "daily"
-  },
-  {
-    "rank": 499,
-    "phrase": "I'll be there in ten minutes.",
-    "category": "daily"
-  },
-  {
-    "rank": 500,
-    "phrase": "I have to go.",
-    "category": "daily"
-  },
-  {
-    "rank": 501,
-    "phrase": "I need to go to the bank.",
-    "category": "daily"
-  },
-  {
-    "rank": 502,
-    "phrase": "I'm going shopping.",
-    "category": "daily"
-  },
-  {
-    "rank": 503,
-    "phrase": "What's for dinner?",
-    "category": "daily"
-  },
-  {
-    "rank": 504,
-    "phrase": "I'm going for a walk.",
-    "category": "daily"
-  },
-  {
-    "rank": 505,
-    "phrase": "I need to sleep.",
-    "category": "daily"
-  },
-  {
-    "rank": 506,
-    "phrase": "I'm working today.",
-    "category": "daily"
-  },
-  {
-    "rank": 507,
-    "phrase": "I have a day off.",
-    "category": "daily"
-  },
-  {
-    "rank": 508,
-    "phrase": "I'm studying.",
-    "category": "daily"
-  },
-  {
-    "rank": 509,
-    "phrase": "Turn on the light, please.",
-    "category": "daily"
-  },
-  {
-    "rank": 510,
-    "phrase": "Close the door, please.",
-    "category": "daily"
-  },
-  {
-    "rank": 511,
-    "phrase": "Open the window, please.",
-    "category": "daily"
-  },
-  {
-    "rank": 512,
-    "phrase": "Where are my keys?",
-    "category": "daily"
-  },
-  {
-    "rank": 513,
-    "phrase": "I can't find my ...",
-    "category": "daily"
-  },
-  {
-    "rank": 514,
-    "phrase": "I forgot.",
-    "category": "daily"
-  },
-  {
-    "rank": 515,
-    "phrase": "Don't forget.",
-    "category": "daily"
-  },
-  {
-    "rank": 516,
-    "phrase": "Where is the bathroom?",
-    "category": "home"
-  },
-  {
-    "rank": 517,
-    "phrase": "Do you live alone?",
-    "category": "home"
-  },
-  {
-    "rank": 518,
-    "phrase": "I live with my family.",
-    "category": "home"
-  },
-  {
-    "rank": 519,
-    "phrase": "I rent an apartment.",
-    "category": "home"
-  },
-  {
-    "rank": 520,
-    "phrase": "I'm looking for an apartment.",
-    "category": "home"
-  },
-  {
-    "rank": 521,
-    "phrase": "How much is the rent?",
-    "category": "home"
-  },
-  {
-    "rank": 522,
-    "phrase": "The heating doesn't work.",
-    "category": "home"
-  },
-  {
-    "rank": 523,
-    "phrase": "Can you fix it?",
-    "category": "home"
-  },
-  {
-    "rank": 524,
-    "phrase": "Come in!",
-    "category": "home"
-  },
-  {
-    "rank": 525,
-    "phrase": "Please sit down.",
-    "category": "home"
-  },
-  {
-    "rank": 526,
-    "phrase": "Can I help you?",
-    "category": "home"
-  },
-  {
-    "rank": 527,
-    "phrase": "I have a meeting.",
-    "category": "work"
-  },
-  {
-    "rank": 528,
-    "phrase": "I'm at work.",
-    "category": "work"
-  },
-  {
-    "rank": 529,
-    "phrase": "What time do you finish work?",
-    "category": "work"
-  },
-  {
-    "rank": 530,
-    "phrase": "I work from home.",
-    "category": "work"
-  },
-  {
-    "rank": 531,
-    "phrase": "I have a lot of work.",
-    "category": "work"
-  },
-  {
-    "rank": 532,
-    "phrase": "Can we schedule a meeting?",
-    "category": "work"
-  },
-  {
-    "rank": 533,
-    "phrase": "Let's discuss it tomorrow.",
-    "category": "work"
-  },
-  {
-    "rank": 534,
-    "phrase": "I'll send you an email.",
-    "category": "work"
-  },
-  {
-    "rank": 535,
-    "phrase": "I'll get back to you.",
-    "category": "work"
-  },
-  {
-    "rank": 536,
-    "phrase": "I like my job.",
-    "category": "work"
-  },
-  {
-    "rank": 537,
-    "phrase": "Can you help me with this?",
-    "category": "work"
-  },
-  {
-    "rank": 538,
-    "phrase": "I'm finished.",
-    "category": "work"
-  },
-  {
-    "rank": 539,
-    "phrase": "I'm not finished yet.",
-    "category": "work"
-  },
-  {
-    "rank": 540,
-    "phrase": "Good job!",
-    "category": "work"
-  },
-  {
-    "rank": 541,
-    "phrase": "How do you pronounce this?",
-    "category": "learning"
-  },
-  {
-    "rank": 542,
-    "phrase": "What's the difference between ... and ...?",
-    "category": "learning"
-  },
-  {
-    "rank": 543,
-    "phrase": "Can you give me an example?",
-    "category": "learning"
-  },
-  {
-    "rank": 544,
-    "phrase": "I've been learning ... for a year.",
-    "category": "learning"
-  },
-  {
-    "rank": 545,
-    "phrase": "I want to improve my ...",
-    "category": "learning"
-  },
-  {
-    "rank": 546,
-    "phrase": "What's the word for ...?",
-    "category": "learning"
-  },
-  {
-    "rank": 547,
-    "phrase": "I forgot the word.",
-    "category": "learning"
-  },
-  {
-    "rank": 548,
-    "phrase": "Can you explain that?",
-    "category": "learning"
-  },
-  {
-    "rank": 549,
-    "phrase": "Now I understand.",
-    "category": "learning"
-  },
-  {
-    "rank": 550,
-    "phrase": "I don't remember.",
-    "category": "learning"
-  },
-  {
-    "rank": 551,
-    "phrase": "Speak to me in ..., please.",
-    "category": "learning"
-  },
-  {
-    "rank": 552,
-    "phrase": "Please correct my mistakes.",
-    "category": "learning"
-  },
-  {
-    "rank": 553,
-    "phrase": "Can you say it in another way?",
-    "category": "learning"
-  },
-  {
-    "rank": 554,
-    "phrase": "What does ... mean?",
-    "category": "learning"
-  },
-  {
-    "rank": 555,
-    "phrase": "What's going on?",
-    "category": "questions"
-  },
-  {
-    "rank": 556,
-    "phrase": "What's the problem?",
-    "category": "questions"
-  },
-  {
-    "rank": 557,
-    "phrase": "How much time do we have?",
-    "category": "questions"
-  },
-  {
-    "rank": 558,
-    "phrase": "How often?",
-    "category": "questions"
-  },
-  {
-    "rank": 559,
-    "phrase": "Is there ...?",
-    "category": "questions"
-  },
-  {
-    "rank": 560,
-    "phrase": "Do you know ...?",
-    "category": "questions"
-  },
-  {
-    "rank": 561,
-    "phrase": "Do you know where ... is?",
-    "category": "questions"
-  },
-  {
-    "rank": 562,
-    "phrase": "Have you seen ...?",
-    "category": "questions"
-  },
-  {
-    "rank": 563,
-    "phrase": "What should I do?",
-    "category": "questions"
-  },
-  {
-    "rank": 564,
+    "id": 628,
+    "rank": 33,
     "phrase": "What do you mean?",
     "category": "questions"
   },
   {
-    "rank": 565,
-    "phrase": "Why not?",
-    "category": "questions"
+    "id": 31,
+    "rank": 34,
+    "phrase": "How do you say [word] in [language]?",
+    "category": "communication"
   },
   {
-    "rank": 566,
-    "phrase": "Is it possible?",
-    "category": "questions"
+    "id": 32,
+    "rank": 35,
+    "phrase": "I don't know.",
+    "category": "basics"
   },
   {
-    "rank": 567,
-    "phrase": "Is it free?",
-    "category": "questions"
+    "id": 33,
+    "rank": 36,
+    "phrase": "OK.",
+    "category": "basics"
   },
   {
-    "rank": 568,
-    "phrase": "Is it allowed?",
-    "category": "questions"
+    "id": 34,
+    "rank": 37,
+    "phrase": "Where is [place]?",
+    "category": "directions"
   },
   {
-    "rank": 569,
-    "phrase": "Where is the museum?",
-    "category": "city"
+    "id": 1001,
+    "rank": 38,
+    "phrase": "Where are you now?",
+    "category": "communication"
   },
   {
-    "rank": 570,
-    "phrase": "Where is the park?",
-    "category": "city"
+    "id": 35,
+    "rank": 39,
+    "phrase": "I would like [thing].",
+    "category": "basics"
   },
   {
-    "rank": 571,
-    "phrase": "Where is the beach?",
-    "category": "city"
-  },
-  {
-    "rank": 572,
-    "phrase": "Where is the post office?",
-    "category": "city"
-  },
-  {
-    "rank": 573,
-    "phrase": "Where is the bank?",
-    "category": "city"
-  },
-  {
-    "rank": 574,
-    "phrase": "Where is the market?",
-    "category": "city"
-  },
-  {
-    "rank": 575,
-    "phrase": "What is there to see here?",
-    "category": "city"
-  },
-  {
-    "rank": 576,
-    "phrase": "What time does the museum open?",
-    "category": "city"
-  },
-  {
-    "rank": 577,
-    "phrase": "How much is the entrance?",
-    "category": "city"
-  },
-  {
-    "rank": 578,
-    "phrase": "Is there a student discount?",
-    "category": "city"
-  },
-  {
-    "rank": 579,
-    "phrase": "Can I take photos here?",
-    "category": "city"
-  },
-  {
-    "rank": 580,
-    "phrase": "Is there a guided tour?",
-    "category": "city"
-  },
-  {
-    "rank": 581,
-    "phrase": "Where can I find a good restaurant?",
-    "category": "city"
-  },
-  {
-    "rank": 582,
-    "phrase": "Is there a café nearby?",
-    "category": "city"
-  },
-  {
-    "rank": 583,
-    "phrase": "What do you recommend seeing?",
-    "category": "city"
-  },
-  {
-    "rank": 584,
-    "phrase": "How much are these?",
-    "category": "shopping"
-  },
-  {
-    "rank": 585,
-    "phrase": "Can you give me a better price?",
-    "category": "shopping"
-  },
-  {
-    "rank": 586,
-    "phrase": "I'm looking for ...",
-    "category": "shopping"
-  },
-  {
-    "rank": 587,
-    "phrase": "Where can I find ...?",
-    "category": "shopping"
-  },
-  {
-    "rank": 588,
-    "phrase": "It doesn't fit.",
-    "category": "shopping"
-  },
-  {
-    "rank": 589,
-    "phrase": "Can I exchange it?",
-    "category": "shopping"
-  },
-  {
-    "rank": 590,
-    "phrase": "I'd like a refund.",
-    "category": "shopping"
-  },
-  {
-    "rank": 591,
-    "phrase": "Half a kilo, please.",
-    "category": "shopping"
-  },
-  {
-    "rank": 592,
-    "phrase": "A kilo of ..., please.",
-    "category": "shopping"
-  },
-  {
-    "rank": 593,
-    "phrase": "Is it fresh?",
-    "category": "shopping"
-  },
-  {
-    "rank": 594,
-    "phrase": "Can I taste it?",
-    "category": "shopping"
-  },
-  {
-    "rank": 595,
-    "phrase": "Where can I change money?",
-    "category": "money"
-  },
-  {
-    "rank": 596,
-    "phrase": "What's the exchange rate?",
-    "category": "money"
-  },
-  {
-    "rank": 597,
-    "phrase": "I have no cash.",
-    "category": "money"
-  },
-  {
-    "rank": 598,
-    "phrase": "I don't have change.",
-    "category": "money"
-  },
-  {
-    "rank": 599,
-    "phrase": "The card doesn't work.",
-    "category": "money"
-  },
-  {
-    "rank": 600,
-    "phrase": "How much do I owe you?",
-    "category": "money"
-  },
-  {
-    "rank": 601,
-    "phrase": "Let's split the bill.",
-    "category": "money"
-  },
-  {
-    "rank": 602,
-    "phrase": "Are you hungry?",
+    "id": 36,
+    "rank": 40,
+    "phrase": "Water, please.",
     "category": "food"
   },
   {
-    "rank": 603,
-    "phrase": "Let's eat.",
+    "id": 37,
+    "rank": 41,
+    "phrase": "The bill, please.",
     "category": "food"
   },
   {
-    "rank": 604,
-    "phrase": "Do you have a menu in English?",
-    "category": "food"
-  },
-  {
-    "rank": 605,
-    "phrase": "Do you have vegetarian food?",
-    "category": "food"
-  },
-  {
-    "rank": 606,
-    "phrase": "I'd like the same.",
-    "category": "food"
-  },
-  {
-    "rank": 607,
-    "phrase": "It's too salty.",
-    "category": "food"
-  },
-  {
-    "rank": 608,
-    "phrase": "A dessert, please.",
-    "category": "food"
-  },
-  {
-    "rank": 609,
-    "phrase": "The food was excellent.",
-    "category": "food"
-  },
-  {
-    "rank": 610,
-    "phrase": "Can I have a fork?",
-    "category": "food"
-  },
-  {
-    "rank": 611,
-    "phrase": "Can I have a napkin?",
-    "category": "food"
-  },
-  {
-    "rank": 612,
-    "phrase": "We don't have a reservation.",
-    "category": "food"
-  },
-  {
-    "rank": 613,
-    "phrase": "Where is the metro?",
-    "category": "travel"
-  },
-  {
-    "rank": 614,
-    "phrase": "Which line goes to ...?",
-    "category": "travel"
-  },
-  {
-    "rank": 615,
-    "phrase": "Is there a direct train?",
-    "category": "travel"
-  },
-  {
-    "rank": 616,
-    "phrase": "What time does it arrive?",
-    "category": "travel"
-  },
-  {
-    "rank": 617,
-    "phrase": "Is the train on time?",
-    "category": "travel"
-  },
-  {
-    "rank": 618,
-    "phrase": "The train is late.",
-    "category": "travel"
-  },
-  {
-    "rank": 619,
-    "phrase": "Can you drive slower, please?",
-    "category": "travel"
-  },
-  {
-    "rank": 620,
-    "phrase": "The car broke down.",
-    "category": "travel"
-  },
-  {
-    "rank": 621,
-    "phrase": "Where is the check-in?",
-    "category": "travel"
-  },
-  {
-    "rank": 622,
-    "phrase": "Where is customs?",
-    "category": "travel"
-  },
-  {
-    "rank": 623,
-    "phrase": "Do you have a single room?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 624,
-    "phrase": "Do you have a double room?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 625,
-    "phrase": "Is there parking?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 626,
-    "phrase": "Where can I wash my clothes?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 627,
-    "phrase": "I lost my key.",
-    "category": "accommodation"
-  },
-  {
-    "rank": 628,
-    "phrase": "There's a problem with my room.",
-    "category": "accommodation"
-  },
-  {
-    "rank": 629,
-    "phrase": "Can I change rooms?",
-    "category": "accommodation"
-  },
-  {
-    "rank": 630,
-    "phrase": "Where does it hurt?",
-    "category": "health"
-  },
-  {
-    "rank": 631,
-    "phrase": "I have a sore throat.",
-    "category": "health"
-  },
-  {
-    "rank": 632,
-    "phrase": "I have a cough.",
-    "category": "health"
-  },
-  {
-    "rank": 633,
-    "phrase": "I feel sick.",
-    "category": "health"
-  },
-  {
-    "rank": 634,
-    "phrase": "I have diarrhoea.",
-    "category": "health"
-  },
-  {
-    "rank": 635,
-    "phrase": "I'm on medication.",
-    "category": "health"
-  },
-  {
-    "rank": 636,
-    "phrase": "I need painkillers.",
-    "category": "health"
-  },
-  {
-    "rank": 637,
-    "phrase": "Is it serious?",
-    "category": "health"
-  },
-  {
-    "rank": 638,
-    "phrase": "I need to make an appointment.",
-    "category": "health"
-  },
-  {
-    "rank": 639,
-    "phrase": "I didn't sleep well.",
-    "category": "health"
-  },
-  {
-    "rank": 640,
-    "phrase": "Call a doctor!",
+    "id": 38,
+    "rank": 42,
+    "phrase": "I need help.",
     "category": "emergency"
   },
   {
-    "rank": 641,
-    "phrase": "Someone is hurt.",
+    "id": 39,
+    "rank": 43,
+    "phrase": "I need [thing].",
+    "category": "needs"
+  },
+  {
+    "id": 40,
+    "rank": 44,
+    "phrase": "Call the police!",
     "category": "emergency"
   },
   {
-    "rank": 642,
-    "phrase": "He's not breathing.",
+    "id": 41,
+    "rank": 45,
+    "phrase": "Call an ambulance!",
     "category": "emergency"
   },
   {
-    "rank": 643,
-    "phrase": "I've been robbed.",
-    "category": "emergency"
+    "id": 42,
+    "rank": 46,
+    "phrase": "I need a doctor.",
+    "category": "health"
   },
   {
-    "rank": 644,
-    "phrase": "I want to report a theft.",
-    "category": "emergency"
+    "id": 43,
+    "rank": 47,
+    "phrase": "I can't breathe.",
+    "category": "health"
   },
   {
-    "rank": 645,
-    "phrase": "I need an interpreter.",
-    "category": "emergency"
+    "id": 44,
+    "rank": 48,
+    "phrase": "I'm allergic to [allergen].",
+    "category": "health"
   },
   {
-    "rank": 646,
-    "phrase": "I've lost my child.",
-    "category": "emergency"
+    "id": 45,
+    "rank": 49,
+    "phrase": "I'm lost.",
+    "category": "directions"
   },
   {
-    "rank": 647,
-    "phrase": "Hurry up!",
-    "category": "emergency"
+    "id": 46,
+    "rank": 50,
+    "phrase": "Where are you from?",
+    "category": "introductions"
   },
   {
-    "rank": 648,
-    "phrase": "Calm down.",
-    "category": "emergency"
+    "id": 47,
+    "rank": 51,
+    "phrase": "I'm from [place].",
+    "category": "introductions"
   },
   {
-    "rank": 649,
-    "phrase": "This is my family.",
-    "category": "family"
+    "id": 48,
+    "rank": 52,
+    "phrase": "Can you help me?",
+    "category": "communication"
   },
   {
-    "rank": 650,
-    "phrase": "How is your family?",
-    "category": "family"
-  },
-  {
-    "rank": 651,
-    "phrase": "I have a big family.",
-    "category": "family"
-  },
-  {
-    "rank": 652,
-    "phrase": "How many brothers and sisters do you have?",
-    "category": "family"
-  },
-  {
-    "rank": 653,
-    "phrase": "Do you have pets?",
-    "category": "family"
-  },
-  {
-    "rank": 654,
-    "phrase": "I have a dog.",
-    "category": "family"
-  },
-  {
-    "rank": 655,
-    "phrase": "What are your hobbies?",
-    "category": "hobbies"
-  },
-  {
-    "rank": 656,
-    "phrase": "I like reading.",
-    "category": "hobbies"
-  },
-  {
-    "rank": 657,
-    "phrase": "I like cooking.",
-    "category": "hobbies"
-  },
-  {
-    "rank": 658,
-    "phrase": "I like travelling.",
-    "category": "hobbies"
-  },
-  {
-    "rank": 659,
-    "phrase": "I like music.",
-    "category": "hobbies"
-  },
-  {
-    "rank": 660,
-    "phrase": "What kind of music do you like?",
-    "category": "hobbies"
-  },
-  {
-    "rank": 661,
-    "phrase": "I play football.",
-    "category": "hobbies"
-  },
-  {
-    "rank": 662,
-    "phrase": "I go to the gym.",
-    "category": "hobbies"
-  },
-  {
-    "rank": 663,
-    "phrase": "I like watching films.",
-    "category": "hobbies"
-  },
-  {
-    "rank": 664,
-    "phrase": "Do you play any sports?",
-    "category": "hobbies"
-  },
-  {
-    "rank": 665,
-    "phrase": "Let's go to the cinema.",
-    "category": "hobbies"
-  },
-  {
-    "rank": 666,
-    "phrase": "I'd like to learn ...",
-    "category": "hobbies"
-  },
-  {
-    "rank": 667,
-    "phrase": "Can I say something?",
-    "category": "conversation"
-  },
-  {
-    "rank": 668,
-    "phrase": "Sorry to interrupt.",
-    "category": "conversation"
-  },
-  {
-    "rank": 669,
-    "phrase": "Let me explain.",
-    "category": "conversation"
-  },
-  {
-    "rank": 670,
-    "phrase": "In other words ...",
-    "category": "conversation"
-  },
-  {
-    "rank": 671,
-    "phrase": "Actually ...",
-    "category": "conversation"
-  },
-  {
-    "rank": 672,
-    "phrase": "To be honest ...",
-    "category": "conversation"
-  },
-  {
-    "rank": 673,
-    "phrase": "The thing is ...",
-    "category": "conversation"
-  },
-  {
-    "rank": 674,
-    "phrase": "That's not what I meant.",
-    "category": "conversation"
-  },
-  {
-    "rank": 675,
-    "phrase": "You know what I mean?",
-    "category": "conversation"
-  },
-  {
-    "rank": 676,
-    "phrase": "Let's change the subject.",
-    "category": "conversation"
-  },
-  {
-    "rank": 677,
+    "id": 745,
+    "rank": 53,
     "phrase": "I have a question.",
     "category": "conversation"
   },
   {
-    "rank": 678,
-    "phrase": "Good question.",
-    "category": "conversation"
+    "id": 49,
+    "rank": 54,
+    "phrase": "What time is it?",
+    "category": "time"
   },
   {
-    "rank": 679,
-    "phrase": "I have no idea.",
-    "category": "conversation"
+    "id": 50,
+    "rank": 55,
+    "phrase": "Do you understand?",
+    "category": "communication"
   },
   {
-    "rank": 680,
-    "phrase": "I'll think about it.",
-    "category": "conversation"
+    "id": 51,
+    "rank": 56,
+    "phrase": "I understand.",
+    "category": "communication"
   },
   {
-    "rank": 681,
-    "phrase": "It's up to you.",
-    "category": "conversation"
+    "id": 52,
+    "rank": 57,
+    "phrase": "Maybe.",
+    "category": "basics"
   },
   {
-    "rank": 682,
-    "phrase": "As you like.",
-    "category": "conversation"
+    "id": 53,
+    "rank": 58,
+    "phrase": "Of course.",
+    "category": "basics"
   },
   {
-    "rank": 683,
-    "phrase": "Just kidding.",
-    "category": "conversation"
+    "id": 54,
+    "rank": 59,
+    "phrase": "Wait a moment, please.",
+    "category": "basics"
   },
   {
-    "rank": 684,
-    "phrase": "Seriously?",
-    "category": "conversation"
-  },
-  {
-    "rank": 685,
-    "phrase": "I hope so.",
-    "category": "conversation"
-  },
-  {
-    "rank": 686,
-    "phrase": "I hope not.",
-    "category": "conversation"
-  },
-  {
-    "rank": 687,
-    "phrase": "Probably.",
-    "category": "conversation"
-  },
-  {
-    "rank": 688,
-    "phrase": "Definitely.",
-    "category": "conversation"
-  },
-  {
-    "rank": 689,
-    "phrase": "Not really.",
-    "category": "conversation"
-  },
-  {
-    "rank": 690,
-    "phrase": "Not at all.",
-    "category": "conversation"
-  },
-  {
-    "rank": 691,
-    "phrase": "More or less.",
-    "category": "conversation"
-  },
-  {
-    "rank": 692,
-    "phrase": "Sometimes.",
-    "category": "conversation"
-  },
-  {
-    "rank": 693,
-    "phrase": "Never.",
-    "category": "conversation"
-  },
-  {
-    "rank": 694,
-    "phrase": "Always.",
-    "category": "conversation"
-  },
-  {
-    "rank": 695,
-    "phrase": "That makes sense.",
-    "category": "conversation"
-  },
-  {
-    "rank": 696,
-    "phrase": "That doesn't make sense.",
-    "category": "conversation"
-  },
-  {
-    "rank": 697,
-    "phrase": "It's true.",
-    "category": "conversation"
-  },
-  {
-    "rank": 698,
-    "phrase": "We'll see.",
-    "category": "conversation"
-  },
-  {
-    "rank": 699,
-    "phrase": "I like it very much.",
-    "category": "opinions"
-  },
-  {
-    "rank": 700,
-    "phrase": "It's my favourite.",
-    "category": "opinions"
-  },
-  {
-    "rank": 701,
-    "phrase": "It's worth it.",
-    "category": "opinions"
-  },
-  {
-    "rank": 702,
-    "phrase": "It's strange.",
-    "category": "opinions"
-  },
-  {
-    "rank": 703,
-    "phrase": "It's dangerous.",
-    "category": "opinions"
-  },
-  {
-    "rank": 704,
-    "phrase": "It's safe.",
-    "category": "opinions"
-  },
-  {
-    "rank": 705,
-    "phrase": "It's comfortable.",
-    "category": "opinions"
-  },
-  {
-    "rank": 706,
-    "phrase": "I don't mind.",
-    "category": "opinions"
-  },
-  {
-    "rank": 707,
-    "phrase": "I don't care.",
-    "category": "opinions"
-  },
-  {
-    "rank": 708,
-    "phrase": "It sounds good.",
-    "category": "opinions"
-  },
-  {
-    "rank": 709,
-    "phrase": "It tastes good.",
-    "category": "opinions"
-  },
-  {
-    "rank": 710,
-    "phrase": "Could you help me, please?",
-    "category": "requests"
-  },
-  {
-    "rank": 711,
-    "phrase": "Could you do me a favour?",
-    "category": "requests"
-  },
-  {
-    "rank": 712,
-    "phrase": "Can you give me ...?",
-    "category": "requests"
-  },
-  {
-    "rank": 713,
-    "phrase": "Can you show me ...?",
-    "category": "requests"
-  },
-  {
-    "rank": 714,
-    "phrase": "Can you bring me ...?",
-    "category": "requests"
-  },
-  {
-    "rank": 715,
-    "phrase": "Can you wait for me?",
-    "category": "requests"
-  },
-  {
-    "rank": 716,
-    "phrase": "Can you call me back?",
-    "category": "requests"
-  },
-  {
-    "rank": 717,
-    "phrase": "Can you open this?",
-    "category": "requests"
-  },
-  {
-    "rank": 718,
-    "phrase": "Can you close this?",
-    "category": "requests"
-  },
-  {
-    "rank": 719,
-    "phrase": "Can you turn it up?",
-    "category": "requests"
-  },
-  {
-    "rank": 720,
-    "phrase": "Can you lower the price?",
-    "category": "requests"
-  },
-  {
-    "rank": 721,
-    "phrase": "Could you keep an eye on my bag?",
-    "category": "requests"
-  },
-  {
-    "rank": 722,
-    "phrase": "Could you speak quieter, please?",
-    "category": "requests"
-  },
-  {
-    "rank": 723,
-    "phrase": "Please be quiet.",
-    "category": "requests"
-  },
-  {
-    "rank": 724,
-    "phrase": "Please hurry.",
-    "category": "requests"
-  },
-  {
-    "rank": 725,
-    "phrase": "Please come here.",
-    "category": "requests"
-  },
-  {
-    "rank": 726,
-    "phrase": "Please wait here.",
-    "category": "requests"
-  },
-  {
-    "rank": 727,
-    "phrase": "Please follow me.",
-    "category": "requests"
-  },
-  {
-    "rank": 728,
-    "phrase": "Please sign here.",
-    "category": "requests"
-  },
-  {
-    "rank": 729,
-    "phrase": "Please fill in this form.",
-    "category": "requests"
-  },
-  {
-    "rank": 730,
-    "phrase": "Don't do that.",
-    "category": "requests"
-  },
-  {
-    "rank": 731,
-    "phrase": "Let me help you.",
-    "category": "requests"
-  },
-  {
-    "rank": 732,
-    "phrase": "Let me try.",
-    "category": "requests"
-  },
-  {
-    "rank": 733,
-    "phrase": "Let me see.",
-    "category": "requests"
-  },
-  {
-    "rank": 734,
-    "phrase": "Let me know.",
-    "category": "requests"
-  },
-  {
-    "rank": 735,
-    "phrase": "Give me a minute.",
-    "category": "requests"
-  },
-  {
-    "rank": 736,
-    "phrase": "Show me.",
-    "category": "requests"
-  },
-  {
-    "rank": 737,
-    "phrase": "Try again.",
-    "category": "requests"
-  },
-  {
-    "rank": 738,
-    "phrase": "Listen.",
-    "category": "requests"
-  },
-  {
-    "rank": 739,
-    "phrase": "Look!",
-    "category": "requests"
-  },
-  {
-    "rank": 740,
-    "phrase": "Come with me.",
-    "category": "requests"
-  },
-  {
-    "rank": 741,
-    "phrase": "Tell me.",
-    "category": "requests"
-  },
-  {
-    "rank": 742,
-    "phrase": "What are we doing today?",
-    "category": "plans"
-  },
-  {
-    "rank": 743,
-    "phrase": "What shall we do?",
-    "category": "plans"
-  },
-  {
-    "rank": 744,
-    "phrase": "Let's go to the beach.",
-    "category": "plans"
-  },
-  {
-    "rank": 745,
-    "phrase": "Let's go for a walk.",
-    "category": "plans"
-  },
-  {
-    "rank": 746,
-    "phrase": "Let's stay at home.",
-    "category": "plans"
-  },
-  {
-    "rank": 747,
-    "phrase": "Let's have dinner together.",
-    "category": "plans"
-  },
-  {
-    "rank": 748,
-    "phrase": "Do you want to come?",
-    "category": "plans"
-  },
-  {
-    "rank": 749,
-    "phrase": "Where shall we meet?",
-    "category": "plans"
-  },
-  {
-    "rank": 750,
-    "phrase": "Let's meet in front of ...",
-    "category": "plans"
-  },
-  {
-    "rank": 751,
-    "phrase": "I'll pick you up.",
-    "category": "plans"
-  },
-  {
-    "rank": 752,
-    "phrase": "I'll wait for you here.",
-    "category": "plans"
-  },
-  {
-    "rank": 753,
-    "phrase": "I'm going to ... tomorrow.",
-    "category": "plans"
-  },
-  {
-    "rank": 754,
-    "phrase": "I'm planning to ...",
-    "category": "plans"
-  },
-  {
-    "rank": 755,
-    "phrase": "I want to visit ...",
-    "category": "plans"
-  },
-  {
-    "rank": 756,
-    "phrase": "We're leaving tomorrow.",
-    "category": "plans"
-  },
-  {
-    "rank": 757,
-    "phrase": "We arrived yesterday.",
-    "category": "plans"
-  },
-  {
-    "rank": 758,
-    "phrase": "When are you coming back?",
-    "category": "plans"
-  },
-  {
-    "rank": 759,
-    "phrase": "I'll be back soon.",
-    "category": "plans"
-  },
-  {
-    "rank": 760,
-    "phrase": "I'll be back in an hour.",
-    "category": "plans"
-  },
-  {
-    "rank": 761,
-    "phrase": "I can't come.",
-    "category": "plans"
-  },
-  {
-    "rank": 762,
-    "phrase": "Something came up.",
-    "category": "plans"
-  },
-  {
-    "rank": 763,
-    "phrase": "Can we do it another day?",
-    "category": "plans"
-  },
-  {
-    "rank": 764,
-    "phrase": "I changed my mind.",
-    "category": "plans"
-  },
-  {
-    "rank": 765,
-    "phrase": "Let's do it.",
-    "category": "plans"
-  },
-  {
-    "rank": 766,
-    "phrase": "Sounds like a plan.",
-    "category": "plans"
-  },
-  {
-    "rank": 767,
-    "phrase": "Count me in.",
-    "category": "plans"
-  },
-  {
-    "rank": 768,
-    "phrase": "I'm ready.",
-    "category": "plans"
-  },
-  {
-    "rank": 769,
-    "phrase": "Are you ready?",
-    "category": "plans"
-  },
-  {
-    "rank": 770,
-    "phrase": "Not today.",
-    "category": "plans"
-  },
-  {
-    "rank": 771,
-    "phrase": "See you there.",
-    "category": "plans"
-  },
-  {
-    "rank": 772,
-    "phrase": "I can swim.",
-    "category": "abilities"
-  },
-  {
-    "rank": 773,
-    "phrase": "I can't drive.",
-    "category": "abilities"
-  },
-  {
-    "rank": 774,
-    "phrase": "I can speak a little ...",
-    "category": "abilities"
-  },
-  {
-    "rank": 775,
-    "phrase": "Can you cook?",
-    "category": "abilities"
-  },
-  {
-    "rank": 776,
-    "phrase": "I know how to do it.",
-    "category": "abilities"
-  },
-  {
-    "rank": 777,
-    "phrase": "I don't know how to do it.",
-    "category": "abilities"
-  },
-  {
-    "rank": 778,
-    "phrase": "Can you show me how?",
-    "category": "abilities"
-  },
-  {
-    "rank": 779,
-    "phrase": "I can do it myself.",
-    "category": "abilities"
-  },
-  {
-    "rank": 780,
-    "phrase": "I can't do it.",
-    "category": "abilities"
-  },
-  {
-    "rank": 781,
-    "phrase": "It's impossible.",
-    "category": "abilities"
-  },
-  {
-    "rank": 782,
-    "phrase": "It's possible.",
-    "category": "abilities"
-  },
-  {
-    "rank": 783,
-    "phrase": "I'll try my best.",
-    "category": "abilities"
-  },
-  {
-    "rank": 784,
-    "phrase": "I need ...",
-    "category": "needs"
-  },
-  {
-    "rank": 785,
-    "phrase": "I don't need it.",
-    "category": "needs"
-  },
-  {
-    "rank": 786,
-    "phrase": "I need a pen.",
-    "category": "needs"
-  },
-  {
-    "rank": 787,
-    "phrase": "I need a charger.",
-    "category": "needs"
-  },
-  {
-    "rank": 788,
-    "phrase": "I need some rest.",
-    "category": "needs"
-  },
-  {
-    "rank": 789,
-    "phrase": "I need some money.",
-    "category": "needs"
-  },
-  {
-    "rank": 790,
+    "id": 839,
+    "rank": 60,
     "phrase": "I need more time.",
     "category": "needs"
   },
   {
-    "rank": 791,
-    "phrase": "I need to think.",
-    "category": "needs"
+    "id": 55,
+    "rank": 61,
+    "phrase": "Let's go.",
+    "category": "basics"
   },
   {
-    "rank": 792,
-    "phrase": "I need to go to the toilet.",
-    "category": "needs"
+    "id": 56,
+    "rank": 62,
+    "phrase": "See you later.",
+    "category": "greetings"
   },
   {
-    "rank": 793,
-    "phrase": "I want to go home.",
-    "category": "needs"
+    "id": 57,
+    "rank": 63,
+    "phrase": "See you tomorrow.",
+    "category": "greetings"
   },
   {
-    "rank": 794,
-    "phrase": "I want to sleep.",
-    "category": "needs"
+    "id": 58,
+    "rank": 64,
+    "phrase": "Have a nice day.",
+    "category": "greetings"
   },
   {
-    "rank": 795,
-    "phrase": "I want to eat something.",
-    "category": "needs"
+    "id": 59,
+    "rank": 65,
+    "phrase": "Cheers!",
+    "category": "social",
+    "note": "A toast before drinking, not 'thanks' or 'bye'."
   },
   {
-    "rank": 796,
-    "phrase": "I'd like something to drink.",
-    "category": "needs"
+    "id": 60,
+    "rank": 66,
+    "phrase": "Enjoy your meal!",
+    "category": "food"
   },
   {
-    "rank": 797,
-    "phrase": "I'd like to buy ...",
-    "category": "needs"
+    "id": 61,
+    "rank": 67,
+    "phrase": "I'm hungry.",
+    "category": "food"
   },
   {
-    "rank": 798,
-    "phrase": "I'd like to know ...",
-    "category": "needs"
+    "id": 62,
+    "rank": 68,
+    "phrase": "I'm thirsty.",
+    "category": "food"
   },
   {
-    "rank": 799,
-    "phrase": "I'd like to book ...",
-    "category": "needs"
+    "id": 63,
+    "rank": 69,
+    "phrase": "I'm tired.",
+    "category": "feelings"
   },
   {
-    "rank": 800,
-    "phrase": "I want to learn ...",
-    "category": "needs"
+    "id": 64,
+    "rank": 70,
+    "phrase": "Where do you live?",
+    "category": "introductions"
   },
   {
-    "rank": 801,
-    "phrase": "What do you need?",
-    "category": "needs"
+    "id": 65,
+    "rank": 71,
+    "phrase": "I live in [place].",
+    "category": "introductions"
   },
   {
-    "rank": 802,
-    "phrase": "Do you want ...?",
-    "category": "needs"
+    "id": 66,
+    "rank": 72,
+    "phrase": "How old are you?",
+    "category": "introductions"
   },
   {
-    "rank": 803,
-    "phrase": "What do you want?",
-    "category": "needs"
+    "id": 67,
+    "rank": 73,
+    "phrase": "I am [number] years old.",
+    "category": "introductions"
   },
   {
-    "rank": 804,
+    "id": 68,
+    "rank": 74,
+    "phrase": "Do you have [thing]?",
+    "category": "shopping"
+  },
+  {
+    "id": 69,
+    "rank": 75,
+    "phrase": "Can I pay by card?",
+    "category": "shopping"
+  },
+  {
+    "id": 70,
+    "rank": 76,
+    "phrase": "Can I pay in cash?",
+    "category": "shopping"
+  },
+  {
+    "id": 71,
+    "rank": 77,
+    "phrase": "Where can I buy [thing]?",
+    "category": "shopping"
+  },
+  {
+    "id": 72,
+    "rank": 78,
+    "phrase": "What is this?",
+    "category": "questions"
+  },
+  {
+    "id": 73,
+    "rank": 79,
+    "phrase": "Who is that?",
+    "category": "questions"
+  },
+  {
+    "id": 74,
+    "rank": 80,
+    "phrase": "Why?",
+    "category": "questions"
+  },
+  {
+    "id": 75,
+    "rank": 81,
+    "phrase": "When?",
+    "category": "questions"
+  },
+  {
+    "id": 76,
+    "rank": 82,
+    "phrase": "How?",
+    "category": "questions"
+  },
+  {
+    "id": 77,
+    "rank": 83,
+    "phrase": "Where?",
+    "category": "questions"
+  },
+  {
+    "id": 78,
+    "rank": 84,
+    "phrase": "Which one?",
+    "category": "questions"
+  },
+  {
+    "id": 79,
+    "rank": 85,
+    "phrase": "How many?",
+    "category": "questions"
+  },
+  {
+    "id": 80,
+    "rank": 86,
+    "phrase": "This one, please.",
+    "category": "shopping"
+  },
+  {
+    "id": 81,
+    "rank": 87,
+    "phrase": "That's all, thank you.",
+    "category": "shopping"
+  },
+  {
+    "id": 82,
+    "rank": 88,
+    "phrase": "It's too expensive.",
+    "category": "shopping"
+  },
+  {
+    "id": 83,
+    "rank": 89,
+    "phrase": "Do you have a cheaper one?",
+    "category": "shopping"
+  },
+  {
+    "id": 84,
+    "rank": 90,
+    "phrase": "I like it.",
+    "category": "opinions"
+  },
+  {
+    "id": 85,
+    "rank": 91,
+    "phrase": "I don't like it.",
+    "category": "opinions"
+  },
+  {
+    "id": 86,
+    "rank": 92,
     "phrase": "I don't want to.",
     "category": "needs"
   },
   {
+    "id": 87,
+    "rank": 93,
+    "phrase": "It's good.",
+    "category": "opinions"
+  },
+  {
+    "id": 88,
+    "rank": 94,
+    "phrase": "Great!",
+    "category": "reactions"
+  },
+  {
+    "id": 89,
+    "rank": 95,
+    "phrase": "No problem.",
+    "category": "courtesy"
+  },
+  {
+    "id": 90,
+    "rank": 96,
+    "phrase": "Don't worry.",
+    "category": "courtesy"
+  },
+  {
+    "id": 91,
+    "rank": 97,
+    "phrase": "I'm sorry to hear that.",
+    "category": "courtesy"
+  },
+  {
+    "id": 92,
+    "rank": 98,
+    "phrase": "Is everything OK?",
+    "category": "basics"
+  },
+  {
+    "id": 93,
+    "rank": 99,
+    "phrase": "I need an interpreter.",
+    "category": "emergency"
+  },
+  {
+    "id": 94,
+    "rank": 100,
+    "phrase": "Sorry I'm late.",
+    "category": "courtesy"
+  },
+  {
+    "id": 95,
+    "rank": 101,
+    "phrase": "Congratulations!",
+    "category": "social"
+  },
+  {
+    "id": 96,
+    "rank": 102,
+    "phrase": "Happy birthday!",
+    "category": "social"
+  },
+  {
+    "id": 97,
+    "rank": 103,
+    "phrase": "Good luck!",
+    "category": "social"
+  },
+  {
+    "id": 98,
+    "rank": 104,
+    "phrase": "Welcome!",
+    "category": "greetings"
+  },
+  {
+    "id": 99,
+    "rank": 105,
+    "phrase": "Where is the train station?",
+    "category": "directions"
+  },
+  {
+    "id": 100,
+    "rank": 106,
+    "phrase": "Where is the bus stop?",
+    "category": "travel"
+  },
+  {
+    "id": 101,
+    "rank": 107,
+    "phrase": "A ticket to [place], please.",
+    "category": "travel"
+  },
+  {
+    "id": 102,
+    "rank": 108,
+    "phrase": "How do I get to [place]?",
+    "category": "directions"
+  },
+  {
+    "id": 103,
+    "rank": 109,
+    "phrase": "Is it far?",
+    "category": "directions"
+  },
+  {
+    "id": 104,
+    "rank": 110,
+    "phrase": "Is it near here?",
+    "category": "directions"
+  },
+  {
+    "id": 105,
+    "rank": 111,
+    "phrase": "Turn left.",
+    "category": "directions"
+  },
+  {
+    "id": 106,
+    "rank": 112,
+    "phrase": "Turn right.",
+    "category": "directions"
+  },
+  {
+    "id": 107,
+    "rank": 113,
+    "phrase": "Go straight ahead.",
+    "category": "directions"
+  },
+  {
+    "id": 108,
+    "rank": 114,
+    "phrase": "It's on the left.",
+    "category": "directions"
+  },
+  {
+    "id": 109,
+    "rank": 115,
+    "phrase": "It's on the right.",
+    "category": "directions"
+  },
+  {
+    "id": 110,
+    "rank": 116,
+    "phrase": "Does this contain [allergen]?",
+    "category": "health"
+  },
+  {
+    "id": 111,
+    "rank": 117,
+    "phrase": "I don't eat meat.",
+    "category": "food"
+  },
+  {
+    "id": 113,
+    "rank": 118,
+    "phrase": "Can you show me?",
+    "category": "communication"
+  },
+  {
+    "id": 114,
+    "rank": 119,
+    "phrase": "Could you type it on my phone?",
+    "category": "communication"
+  },
+  {
+    "id": 115,
+    "rank": 120,
+    "phrase": "How do you spell that?",
+    "category": "communication"
+  },
+  {
+    "id": 116,
+    "rank": 121,
+    "phrase": "What did you say?",
+    "category": "communication"
+  },
+  {
+    "id": 118,
+    "rank": 122,
+    "phrase": "I'm a beginner.",
+    "category": "communication"
+  },
+  {
+    "id": 119,
+    "rank": 123,
+    "phrase": "Is there someone here who speaks [language]?",
+    "category": "communication",
+    "note": "Use a language you already speak."
+  },
+  {
+    "id": 120,
+    "rank": 124,
+    "phrase": "What is this called?",
+    "category": "communication"
+  },
+  {
+    "id": 121,
+    "rank": 125,
+    "phrase": "Is that correct?",
+    "category": "communication"
+  },
+  {
+    "id": 122,
+    "rank": 126,
+    "phrase": "Can you correct me, please?",
+    "category": "communication"
+  },
+  {
+    "id": 123,
+    "rank": 127,
+    "phrase": "This is my friend.",
+    "category": "introductions"
+  },
+  {
+    "id": 124,
+    "rank": 128,
+    "phrase": "This is my wife.",
+    "category": "introductions"
+  },
+  {
+    "id": 125,
+    "rank": 129,
+    "phrase": "This is my husband.",
+    "category": "introductions"
+  },
+  {
+    "id": 126,
+    "rank": 130,
+    "phrase": "This is my partner.",
+    "category": "introductions",
+    "note": "A romantic or life partner, not a business partner."
+  },
+  {
+    "id": 127,
+    "rank": 131,
+    "phrase": "I'm a student.",
+    "category": "introductions"
+  },
+  {
+    "id": 128,
+    "rank": 132,
+    "phrase": "I work as a [job].",
+    "category": "introductions"
+  },
+  {
+    "id": 129,
+    "rank": 133,
+    "phrase": "What do you do for a living?",
+    "category": "introductions"
+  },
+  {
+    "id": 130,
+    "rank": 134,
+    "phrase": "Are you married?",
+    "category": "introductions"
+  },
+  {
+    "id": 1002,
+    "rank": 135,
+    "phrase": "I'd rather not answer that.",
+    "category": "conversation"
+  },
+  {
+    "id": 131,
+    "rank": 136,
+    "phrase": "Do you have children?",
+    "category": "introductions"
+  },
+  {
+    "id": 132,
+    "rank": 137,
+    "phrase": "I have [number] children.",
+    "category": "introductions"
+  },
+  {
+    "id": 133,
+    "rank": 138,
+    "phrase": "I'm here on holiday.",
+    "category": "introductions"
+  },
+  {
+    "id": 134,
+    "rank": 139,
+    "phrase": "I'm here for work.",
+    "category": "introductions"
+  },
+  {
+    "id": 135,
+    "rank": 140,
+    "phrase": "This is my first time here.",
+    "category": "introductions"
+  },
+  {
+    "id": 136,
+    "rank": 141,
+    "phrase": "I've just moved here.",
+    "category": "introductions"
+  },
+  {
+    "id": 137,
+    "rank": 142,
+    "phrase": "I'm travelling alone.",
+    "category": "introductions"
+  },
+  {
+    "id": 138,
+    "rank": 143,
+    "phrase": "I'm here with my family.",
+    "category": "introductions"
+  },
+  {
+    "id": 139,
+    "rank": 144,
+    "phrase": "What day is it today?",
+    "category": "time"
+  },
+  {
+    "id": 140,
+    "rank": 145,
+    "phrase": "What's the date today?",
+    "category": "time"
+  },
+  {
+    "id": 141,
+    "rank": 146,
+    "phrase": "At what time?",
+    "category": "time"
+  },
+  {
+    "id": 142,
+    "rank": 147,
+    "phrase": "When does it open?",
+    "category": "time"
+  },
+  {
+    "id": 143,
+    "rank": 148,
+    "phrase": "When does it close?",
+    "category": "time"
+  },
+  {
+    "id": 144,
+    "rank": 149,
+    "phrase": "Is it open today?",
+    "category": "time"
+  },
+  {
+    "id": 145,
+    "rank": 150,
+    "phrase": "It's closed.",
+    "category": "time"
+  },
+  {
+    "id": 146,
+    "rank": 151,
+    "phrase": "Right now.",
+    "category": "time"
+  },
+  {
+    "id": 147,
+    "rank": 152,
+    "phrase": "Later.",
+    "category": "time"
+  },
+  {
+    "id": 148,
+    "rank": 153,
+    "phrase": "I don't have time.",
+    "category": "time"
+  },
+  {
+    "id": 149,
+    "rank": 154,
+    "phrase": "I'm in a hurry.",
+    "category": "time"
+  },
+  {
+    "id": 150,
+    "rank": 155,
+    "phrase": "I'm running late.",
+    "category": "time"
+  },
+  {
+    "id": 151,
+    "rank": 156,
+    "phrase": "How long does it take?",
+    "category": "time"
+  },
+  {
+    "id": 152,
+    "rank": 157,
+    "phrase": "A table for [number] people, please.",
+    "category": "food"
+  },
+  {
+    "id": 153,
+    "rank": 158,
+    "phrase": "The menu, please.",
+    "category": "food"
+  },
+  {
+    "id": 154,
+    "rank": 159,
+    "phrase": "What do you recommend?",
+    "category": "food"
+  },
+  {
+    "id": 155,
+    "rank": 160,
+    "phrase": "I'll have this.",
+    "category": "food"
+  },
+  {
+    "id": 156,
+    "rank": 161,
+    "phrase": "Another one, please.",
+    "category": "food"
+  },
+  {
+    "id": 157,
+    "rank": 162,
+    "phrase": "A coffee, please.",
+    "category": "food"
+  },
+  {
+    "id": 158,
+    "rank": 163,
+    "phrase": "A tea, please.",
+    "category": "food"
+  },
+  {
+    "id": 159,
+    "rank": 164,
+    "phrase": "A beer, please.",
+    "category": "food"
+  },
+  {
+    "id": 160,
+    "rank": 165,
+    "phrase": "A glass of wine, please.",
+    "category": "food"
+  },
+  {
+    "id": 161,
+    "rank": 166,
+    "phrase": "Without sugar, please.",
+    "category": "food"
+  },
+  {
+    "id": 162,
+    "rank": 167,
+    "phrase": "With milk, please.",
+    "category": "food"
+  },
+  {
+    "id": 163,
+    "rank": 168,
+    "phrase": "Is it spicy?",
+    "category": "food"
+  },
+  {
+    "id": 164,
+    "rank": 169,
+    "phrase": "I'm vegetarian.",
+    "category": "food"
+  },
+  {
+    "id": 165,
+    "rank": 170,
+    "phrase": "I'm vegan.",
+    "category": "food"
+  },
+  {
+    "id": 166,
+    "rank": 171,
+    "phrase": "Is there meat in this?",
+    "category": "food"
+  },
+  {
+    "id": 167,
+    "rank": 172,
+    "phrase": "I don't eat pork.",
+    "category": "food"
+  },
+  {
+    "id": 168,
+    "rank": 173,
+    "phrase": "I don't drink alcohol.",
+    "category": "food"
+  },
+  {
+    "id": 169,
+    "rank": 174,
+    "phrase": "It's delicious.",
+    "category": "food"
+  },
+  {
+    "id": 170,
+    "rank": 175,
+    "phrase": "Can we pay separately?",
+    "category": "food"
+  },
+  {
+    "id": 171,
+    "rank": 176,
+    "phrase": "Is service included?",
+    "category": "food"
+  },
+  {
+    "id": 1003,
+    "rank": 177,
+    "phrase": "Are there any extra charges?",
+    "category": "money"
+  },
+  {
+    "id": 172,
+    "rank": 178,
+    "phrase": "Keep the change.",
+    "category": "food",
+    "note": "Tipping customs vary by country."
+  },
+  {
+    "id": 173,
+    "rank": 179,
+    "phrase": "I have a reservation.",
+    "category": "accommodation"
+  },
+  {
+    "id": 174,
+    "rank": 180,
+    "phrase": "Do you have a room?",
+    "category": "accommodation"
+  },
+  {
+    "id": 175,
+    "rank": 181,
+    "phrase": "For one night.",
+    "category": "accommodation"
+  },
+  {
+    "id": 176,
+    "rank": 182,
+    "phrase": "How much is it per night?",
+    "category": "accommodation"
+  },
+  {
+    "id": 177,
+    "rank": 183,
+    "phrase": "Is breakfast included?",
+    "category": "accommodation"
+  },
+  {
+    "id": 178,
+    "rank": 184,
+    "phrase": "What's the Wi-Fi password?",
+    "category": "accommodation"
+  },
+  {
+    "id": 179,
+    "rank": 185,
+    "phrase": "Can I have the key, please?",
+    "category": "accommodation"
+  },
+  {
+    "id": 180,
+    "rank": 186,
+    "phrase": "The [thing] doesn't work.",
+    "category": "accommodation"
+  },
+  {
+    "id": 181,
+    "rank": 187,
+    "phrase": "Can I leave my luggage here?",
+    "category": "accommodation"
+  },
+  {
+    "id": 182,
+    "rank": 188,
+    "phrase": "What time is check-out?",
+    "category": "accommodation"
+  },
+  {
+    "id": 183,
+    "rank": 189,
+    "phrase": "Where can I get a taxi?",
+    "category": "travel"
+  },
+  {
+    "id": 184,
+    "rank": 190,
+    "phrase": "Take me to this address, please.",
+    "category": "travel"
+  },
+  {
+    "id": 185,
+    "rank": 191,
+    "phrase": "How much is it to [place]?",
+    "category": "travel"
+  },
+  {
+    "id": 186,
+    "rank": 192,
+    "phrase": "Stop here, please.",
+    "category": "travel"
+  },
+  {
+    "id": 187,
+    "rank": 193,
+    "phrase": "When does the train leave?",
+    "category": "travel"
+  },
+  {
+    "id": 188,
+    "rank": 194,
+    "phrase": "Which platform?",
+    "category": "travel"
+  },
+  {
+    "id": 189,
+    "rank": 195,
+    "phrase": "Does this bus go to [place]?",
+    "category": "travel"
+  },
+  {
+    "id": 190,
+    "rank": 196,
+    "phrase": "Where do I get off?",
+    "category": "travel"
+  },
+  {
+    "id": 191,
+    "rank": 197,
+    "phrase": "A return ticket, please.",
+    "category": "travel"
+  },
+  {
+    "id": 192,
+    "rank": 198,
+    "phrase": "A one-way ticket, please.",
+    "category": "travel"
+  },
+  {
+    "id": 193,
+    "rank": 199,
+    "phrase": "Is this seat free?",
+    "category": "travel",
+    "note": "Free = not taken, not free of charge."
+  },
+  {
+    "id": 194,
+    "rank": 200,
+    "phrase": "Where is the airport?",
+    "category": "travel"
+  },
+  {
+    "id": 195,
+    "rank": 201,
+    "phrase": "My flight is delayed.",
+    "category": "travel"
+  },
+  {
+    "id": 196,
+    "rank": 202,
+    "phrase": "I missed my train.",
+    "category": "travel"
+  },
+  {
+    "id": 197,
+    "rank": 203,
+    "phrase": "Where is the exit?",
+    "category": "directions"
+  },
+  {
+    "id": 198,
+    "rank": 204,
+    "phrase": "Where is the entrance?",
+    "category": "directions"
+  },
+  {
+    "id": 199,
+    "rank": 205,
+    "phrase": "I'm sick.",
+    "category": "health"
+  },
+  {
+    "id": 200,
+    "rank": 206,
+    "phrase": "Where is the hospital?",
+    "category": "health"
+  },
+  {
+    "id": 201,
+    "rank": 207,
+    "phrase": "Where is the pharmacy?",
+    "category": "health"
+  },
+  {
+    "id": 202,
+    "rank": 208,
+    "phrase": "It hurts here.",
+    "category": "health"
+  },
+  {
+    "id": 203,
+    "rank": 209,
+    "phrase": "I have a headache.",
+    "category": "health"
+  },
+  {
+    "id": 204,
+    "rank": 210,
+    "phrase": "I have a fever.",
+    "category": "health"
+  },
+  {
+    "id": 205,
+    "rank": 211,
+    "phrase": "I lost my passport.",
+    "category": "emergency"
+  },
+  {
+    "id": 206,
+    "rank": 212,
+    "phrase": "My bag was stolen.",
+    "category": "emergency"
+  },
+  {
+    "id": 207,
+    "rank": 213,
+    "phrase": "Fire!",
+    "category": "emergency"
+  },
+  {
+    "id": 208,
+    "rank": 214,
+    "phrase": "Stop!",
+    "category": "emergency"
+  },
+  {
+    "id": 209,
+    "rank": 215,
+    "phrase": "Leave me alone!",
+    "category": "emergency"
+  },
+  {
+    "id": 210,
+    "rank": 216,
+    "phrase": "Someone is following me.",
+    "category": "emergency"
+  },
+  {
+    "id": 211,
+    "rank": 217,
+    "phrase": "I don't feel safe.",
+    "category": "emergency"
+  },
+  {
+    "id": 212,
+    "rank": 218,
+    "phrase": "Don't touch me.",
+    "category": "emergency"
+  },
+  {
+    "id": 213,
+    "rank": 219,
+    "phrase": "Be careful!",
+    "category": "emergency"
+  },
+  {
+    "id": 214,
+    "rank": 220,
+    "phrase": "It's an emergency.",
+    "category": "emergency"
+  },
+  {
+    "id": 215,
+    "rank": 221,
+    "phrase": "I'm bleeding.",
+    "category": "emergency"
+  },
+  {
+    "id": 216,
+    "rank": 222,
+    "phrase": "I have chest pain.",
+    "category": "emergency"
+  },
+  {
+    "id": 217,
+    "rank": 223,
+    "phrase": "I'm having an allergic reaction.",
+    "category": "emergency"
+  },
+  {
+    "id": 218,
+    "rank": 224,
+    "phrase": "Please stay with me.",
+    "category": "emergency"
+  },
+  {
+    "id": 219,
+    "rank": 225,
+    "phrase": "Where is the embassy?",
+    "category": "emergency"
+  },
+  {
+    "id": 220,
+    "rank": 226,
+    "phrase": "I don't know yet.",
+    "category": "basics"
+  },
+  {
+    "id": 221,
+    "rank": 227,
+    "phrase": "Really?",
+    "category": "basics"
+  },
+  {
+    "id": 222,
+    "rank": 228,
+    "phrase": "That's right.",
+    "category": "basics"
+  },
+  {
+    "id": 223,
+    "rank": 229,
+    "phrase": "That's not right.",
+    "category": "basics"
+  },
+  {
+    "id": 224,
+    "rank": 230,
+    "phrase": "I think so.",
+    "category": "basics"
+  },
+  {
+    "id": 225,
+    "rank": 231,
+    "phrase": "I don't think so.",
+    "category": "basics"
+  },
+  {
+    "id": 226,
+    "rank": 232,
+    "phrase": "It doesn't matter.",
+    "category": "basics"
+  },
+  {
+    "id": 227,
+    "rank": 233,
+    "phrase": "Here you are.",
+    "category": "basics"
+  },
+  {
+    "id": 228,
+    "rank": 234,
+    "phrase": "Just a little.",
+    "category": "basics"
+  },
+  {
+    "id": 229,
+    "rank": 235,
+    "phrase": "A lot.",
+    "category": "basics"
+  },
+  {
+    "id": 230,
+    "rank": 236,
+    "phrase": "Enough, thank you.",
+    "category": "basics"
+  },
+  {
+    "id": 231,
+    "rank": 237,
+    "phrase": "Not yet.",
+    "category": "basics"
+  },
+  {
+    "id": 232,
+    "rank": 238,
+    "phrase": "Not now.",
+    "category": "basics"
+  },
+  {
+    "id": 233,
+    "rank": 239,
+    "phrase": "Thank you very much.",
+    "category": "courtesy"
+  },
+  {
+    "id": 234,
+    "rank": 240,
+    "phrase": "Thanks for your help.",
+    "category": "courtesy"
+  },
+  {
+    "id": 235,
+    "rank": 241,
+    "phrase": "I'm very sorry.",
+    "category": "courtesy"
+  },
+  {
+    "id": 236,
+    "rank": 242,
+    "phrase": "Excuse me, may I pass?",
+    "category": "courtesy"
+  },
+  {
+    "id": 237,
+    "rank": 243,
+    "phrase": "After you.",
+    "category": "courtesy"
+  },
+  {
+    "id": 238,
+    "rank": 244,
+    "phrase": "May I?",
+    "category": "courtesy"
+  },
+  {
+    "id": 239,
+    "rank": 245,
+    "phrase": "Is it OK if I sit here?",
+    "category": "courtesy"
+  },
+  {
+    "id": 240,
+    "rank": 246,
+    "phrase": "Can I ask you something?",
+    "category": "courtesy"
+  },
+  {
+    "id": 241,
+    "rank": 247,
+    "phrase": "With pleasure.",
+    "category": "courtesy"
+  },
+  {
+    "id": 242,
+    "rank": 248,
+    "phrase": "It was nothing.",
+    "category": "courtesy"
+  },
+  {
+    "id": 243,
+    "rank": 249,
+    "phrase": "Hi!",
+    "category": "greetings"
+  },
+  {
+    "id": 244,
+    "rank": 250,
+    "phrase": "Good afternoon.",
+    "category": "greetings"
+  },
+  {
+    "id": 245,
+    "rank": 251,
+    "phrase": "How's it going?",
+    "category": "greetings"
+  },
+  {
+    "id": 246,
+    "rank": 252,
+    "phrase": "Not bad.",
+    "category": "greetings"
+  },
+  {
+    "id": 247,
+    "rank": 253,
+    "phrase": "So-so.",
+    "category": "greetings"
+  },
+  {
+    "id": 248,
+    "rank": 254,
+    "phrase": "Long time no see.",
+    "category": "greetings"
+  },
+  {
+    "id": 249,
+    "rank": 255,
+    "phrase": "See you soon.",
+    "category": "greetings"
+  },
+  {
+    "id": 250,
+    "rank": 256,
+    "phrase": "Take care.",
+    "category": "greetings"
+  },
+  {
+    "id": 251,
+    "rank": 257,
+    "phrase": "Have a good trip!",
+    "category": "greetings"
+  },
+  {
+    "id": 252,
+    "rank": 258,
+    "phrase": "Have a nice weekend.",
+    "category": "greetings"
+  },
+  {
+    "id": 253,
+    "rank": 259,
+    "phrase": "What's your phone number?",
+    "category": "numbers"
+  },
+  {
+    "id": 254,
+    "rank": 260,
+    "phrase": "My number is [number].",
+    "category": "numbers"
+  },
+  {
+    "id": 256,
+    "rank": 261,
+    "phrase": "It costs [price].",
+    "category": "numbers"
+  },
+  {
+    "id": 257,
+    "rank": 262,
+    "phrase": "Can you write the price?",
+    "category": "numbers"
+  },
+  {
+    "id": 258,
+    "rank": 263,
+    "phrase": "What is your address?",
+    "category": "numbers"
+  },
+  {
+    "id": 259,
+    "rank": 264,
+    "phrase": "What floor is it on?",
+    "category": "numbers"
+  },
+  {
+    "id": 260,
+    "rank": 265,
+    "phrase": "How many people?",
+    "category": "numbers"
+  },
+  {
+    "id": 261,
+    "rank": 266,
+    "phrase": "Two people, please.",
+    "category": "numbers"
+  },
+  {
+    "id": 262,
+    "rank": 267,
+    "phrase": "I'm just looking.",
+    "category": "shopping"
+  },
+  {
+    "id": 263,
+    "rank": 268,
+    "phrase": "Can I try it on?",
+    "category": "shopping"
+  },
+  {
+    "id": 264,
+    "rank": 269,
+    "phrase": "Do you have a bigger size?",
+    "category": "shopping"
+  },
+  {
+    "id": 265,
+    "rank": 270,
+    "phrase": "Do you have a smaller size?",
+    "category": "shopping"
+  },
+  {
+    "id": 266,
+    "rank": 271,
+    "phrase": "Do you have it in another colour?",
+    "category": "shopping"
+  },
+  {
+    "id": 267,
+    "rank": 272,
+    "phrase": "I'll take it.",
+    "category": "shopping"
+  },
+  {
+    "id": 268,
+    "rank": 273,
+    "phrase": "Do you have a bag?",
+    "category": "shopping"
+  },
+  {
+    "id": 269,
+    "rank": 274,
+    "phrase": "Can I have a receipt?",
+    "category": "shopping"
+  },
+  {
+    "id": 270,
+    "rank": 275,
+    "phrase": "Is there a discount?",
+    "category": "shopping"
+  },
+  {
+    "id": 271,
+    "rank": 276,
+    "phrase": "Where is the supermarket?",
+    "category": "shopping"
+  },
+  {
+    "id": 272,
+    "rank": 277,
+    "phrase": "Where is the nearest ATM?",
+    "category": "shopping"
+  },
+  {
+    "id": 273,
+    "rank": 278,
+    "phrase": "Can I return this?",
+    "category": "shopping"
+  },
+  {
+    "id": 274,
+    "rank": 279,
+    "phrase": "Where do I pay?",
+    "category": "shopping"
+  },
+  {
+    "id": 275,
+    "rank": 280,
+    "phrase": "Do you accept credit cards?",
+    "category": "shopping"
+  },
+  {
+    "id": 276,
+    "rank": 281,
+    "phrase": "It's a gift.",
+    "category": "shopping"
+  },
+  {
+    "id": 277,
+    "rank": 282,
+    "phrase": "Can you show me on the map?",
+    "category": "directions"
+  },
+  {
+    "id": 278,
+    "rank": 283,
+    "phrase": "Where are we now?",
+    "category": "directions"
+  },
+  {
+    "id": 279,
+    "rank": 284,
+    "phrase": "What's the name of this street?",
+    "category": "directions"
+  },
+  {
+    "id": 280,
+    "rank": 285,
+    "phrase": "Could you send me the location?",
+    "category": "directions"
+  },
+  {
+    "id": 281,
+    "rank": 286,
+    "phrase": "Is it within walking distance?",
+    "category": "directions"
+  },
+  {
+    "id": 282,
+    "rank": 287,
+    "phrase": "How far is it?",
+    "category": "directions"
+  },
+  {
+    "id": 283,
+    "rank": 288,
+    "phrase": "It's over there.",
+    "category": "directions"
+  },
+  {
+    "id": 284,
+    "rank": 289,
+    "phrase": "It's around the corner.",
+    "category": "directions"
+  },
+  {
+    "id": 285,
+    "rank": 290,
+    "phrase": "It's next to [place].",
+    "category": "directions"
+  },
+  {
+    "id": 286,
+    "rank": 291,
+    "phrase": "It's opposite [place].",
+    "category": "directions"
+  },
+  {
+    "id": 287,
+    "rank": 292,
+    "phrase": "At the end of the street.",
+    "category": "directions"
+  },
+  {
+    "id": 288,
+    "rank": 293,
+    "phrase": "Take the first street on the left.",
+    "category": "directions"
+  },
+  {
+    "id": 289,
+    "rank": 294,
+    "phrase": "Cross the street.",
+    "category": "directions"
+  },
+  {
+    "id": 290,
+    "rank": 295,
+    "phrase": "Where is the city centre?",
+    "category": "directions"
+  },
+  {
+    "id": 291,
+    "rank": 296,
+    "phrase": "Is this the right way to [place]?",
+    "category": "directions"
+  },
+  {
+    "id": 292,
+    "rank": 297,
+    "phrase": "I think I went the wrong way.",
+    "category": "directions"
+  },
+  {
+    "id": 293,
+    "rank": 298,
+    "phrase": "Where can I buy a ticket?",
+    "category": "travel"
+  },
+  {
+    "id": 294,
+    "rank": 299,
+    "phrase": "How much is a ticket?",
+    "category": "travel"
+  },
+  {
+    "id": 295,
+    "rank": 300,
+    "phrase": "When is the next bus?",
+    "category": "travel"
+  },
+  {
+    "id": 296,
+    "rank": 301,
+    "phrase": "When is the last train?",
+    "category": "travel"
+  },
+  {
+    "id": 297,
+    "rank": 302,
+    "phrase": "Is this the train to [place]?",
+    "category": "travel"
+  },
+  {
+    "id": 298,
+    "rank": 303,
+    "phrase": "Do I need to change trains?",
+    "category": "travel"
+  },
+  {
+    "id": 299,
+    "rank": 304,
+    "phrase": "How many stops is it?",
+    "category": "travel"
+  },
+  {
+    "id": 300,
+    "rank": 305,
+    "phrase": "Can you tell me when to get off?",
+    "category": "travel"
+  },
+  {
+    "id": 301,
+    "rank": 306,
+    "phrase": "I'd like to rent a car.",
+    "category": "travel"
+  },
+  {
+    "id": 302,
+    "rank": 307,
+    "phrase": "Where is the gas station?",
+    "category": "travel"
+  },
+  {
+    "id": 303,
+    "rank": 308,
+    "phrase": "Where can I park?",
+    "category": "travel"
+  },
+  {
+    "id": 304,
+    "rank": 309,
+    "phrase": "Here is my passport.",
+    "category": "travel"
+  },
+  {
+    "id": 305,
+    "rank": 310,
+    "phrase": "I have nothing to declare.",
+    "category": "travel"
+  },
+  {
+    "id": 306,
+    "rank": 311,
+    "phrase": "Where is the baggage claim?",
+    "category": "travel"
+  },
+  {
+    "id": 307,
+    "rank": 312,
+    "phrase": "My luggage is lost.",
+    "category": "travel"
+  },
+  {
+    "id": 308,
+    "rank": 313,
+    "phrase": "Where is gate [number]?",
+    "category": "travel"
+  },
+  {
+    "id": 309,
+    "rank": 314,
+    "phrase": "What time do we board?",
+    "category": "travel"
+  },
+  {
+    "id": 310,
+    "rank": 315,
+    "phrase": "A window seat, please.",
+    "category": "travel"
+  },
+  {
+    "id": 311,
+    "rank": 316,
+    "phrase": "Are you open?",
+    "category": "food"
+  },
+  {
+    "id": 312,
+    "rank": 317,
+    "phrase": "Do you have a table outside?",
+    "category": "food"
+  },
+  {
+    "id": 313,
+    "rank": 318,
+    "phrase": "What is this dish?",
+    "category": "food"
+  },
+  {
+    "id": 314,
+    "rank": 319,
+    "phrase": "I didn't order this.",
+    "category": "food"
+  },
+  {
+    "id": 315,
+    "rank": 320,
+    "phrase": "Can I have some more bread?",
+    "category": "food"
+  },
+  {
+    "id": 316,
+    "rank": 321,
+    "phrase": "No ice, please.",
+    "category": "food"
+  },
+  {
+    "id": 317,
+    "rank": 322,
+    "phrase": "Can I see the wine list?",
+    "category": "food"
+  },
+  {
+    "id": 318,
+    "rank": 323,
+    "phrase": "I'm full.",
+    "category": "food"
+  },
+  {
+    "id": 319,
+    "rank": 324,
+    "phrase": "To take away, please.",
+    "category": "food"
+  },
+  {
+    "id": 320,
+    "rank": 325,
+    "phrase": "To eat here, please.",
+    "category": "food"
+  },
+  {
+    "id": 321,
+    "rank": 326,
+    "phrase": "Is the water safe to drink?",
+    "category": "food"
+  },
+  {
+    "id": 322,
+    "rank": 327,
+    "phrase": "Sparkling or still?",
+    "category": "food",
+    "note": "Usually heard from a waiter. Reply: 'Still, please.' or 'Sparkling, please.'"
+  },
+  {
+    "id": 323,
+    "rank": 328,
+    "phrase": "A bottle of water, please.",
+    "category": "food"
+  },
+  {
+    "id": 324,
+    "rank": 329,
+    "phrase": "I can't eat [food].",
+    "category": "food"
+  },
+  {
+    "id": 325,
+    "rank": 330,
+    "phrase": "I'm allergic to nuts.",
+    "category": "food"
+  },
+  {
+    "id": 326,
+    "rank": 331,
+    "phrase": "Without [ingredient], please.",
+    "category": "food"
+  },
+  {
+    "id": 327,
+    "rank": 332,
+    "phrase": "We're ready to order.",
+    "category": "food"
+  },
+  {
+    "id": 328,
+    "rank": 333,
+    "phrase": "I'd like to check in.",
+    "category": "accommodation"
+  },
+  {
+    "id": 329,
+    "rank": 334,
+    "phrase": "Can I check in early?",
+    "category": "accommodation"
+  },
+  {
+    "id": 330,
+    "rank": 335,
+    "phrase": "I'd like to check out.",
+    "category": "accommodation"
+  },
+  {
+    "id": 331,
+    "rank": 336,
+    "phrase": "Can I see the room?",
+    "category": "accommodation"
+  },
+  {
+    "id": 332,
+    "rank": 337,
+    "phrase": "Is there a lift?",
+    "category": "accommodation"
+  },
+  {
+    "id": 333,
+    "rank": 338,
+    "phrase": "Is there step-free access?",
+    "category": "accommodation"
+  },
+  {
+    "id": 334,
+    "rank": 339,
+    "phrase": "Is there air conditioning?",
+    "category": "accommodation"
+  },
+  {
+    "id": 335,
+    "rank": 340,
+    "phrase": "There is no hot water.",
+    "category": "accommodation"
+  },
+  {
+    "id": 336,
+    "rank": 341,
+    "phrase": "Could you clean the room, please?",
+    "category": "accommodation"
+  },
+  {
+    "id": 337,
+    "rank": 342,
+    "phrase": "Can I have another towel?",
+    "category": "accommodation"
+  },
+  {
+    "id": 338,
+    "rank": 343,
+    "phrase": "Can you call me a taxi?",
+    "category": "accommodation"
+  },
+  {
+    "id": 339,
+    "rank": 344,
+    "phrase": "The room is too noisy.",
+    "category": "accommodation"
+  },
+  {
+    "id": 340,
+    "rank": 345,
+    "phrase": "I'd like to stay one more night.",
+    "category": "accommodation"
+  },
+  {
+    "id": 341,
+    "rank": 346,
+    "phrase": "I'm not feeling well.",
+    "category": "health"
+  },
+  {
+    "id": 342,
+    "rank": 347,
+    "phrase": "I feel dizzy.",
+    "category": "health"
+  },
+  {
+    "id": 343,
+    "rank": 348,
+    "phrase": "I have a cold.",
+    "category": "health"
+  },
+  {
+    "id": 344,
+    "rank": 349,
+    "phrase": "I have a stomach ache.",
+    "category": "health"
+  },
+  {
+    "id": 345,
+    "rank": 350,
+    "phrase": "I have a toothache.",
+    "category": "health"
+  },
+  {
+    "id": 346,
+    "rank": 351,
+    "phrase": "My back hurts.",
+    "category": "health"
+  },
+  {
+    "id": 347,
+    "rank": 352,
+    "phrase": "I have a rash.",
+    "category": "health"
+  },
+  {
+    "id": 348,
+    "rank": 353,
+    "phrase": "I need a dentist.",
+    "category": "health"
+  },
+  {
+    "id": 349,
+    "rank": 354,
+    "phrase": "I take this medicine.",
+    "category": "health"
+  },
+  {
+    "id": 350,
+    "rank": 355,
+    "phrase": "I've run out of my medicine.",
+    "category": "health"
+  },
+  {
+    "id": 351,
+    "rank": 356,
+    "phrase": "Do I need a prescription?",
+    "category": "health"
+  },
+  {
+    "id": 352,
+    "rank": 357,
+    "phrase": "I'm diabetic.",
+    "category": "health"
+  },
+  {
+    "id": 353,
+    "rank": 358,
+    "phrase": "I'm pregnant.",
+    "category": "health"
+  },
+  {
+    "id": 354,
+    "rank": 359,
+    "phrase": "I use a wheelchair.",
+    "category": "health"
+  },
+  {
+    "id": 355,
+    "rank": 360,
+    "phrase": "I'm hard of hearing.",
+    "category": "health"
+  },
+  {
+    "id": 356,
+    "rank": 361,
+    "phrase": "I have health insurance.",
+    "category": "health"
+  },
+  {
+    "id": 357,
+    "rank": 362,
+    "phrase": "How often should I take it?",
+    "category": "health"
+  },
+  {
+    "id": 358,
+    "rank": 363,
+    "phrase": "Should I take it with food?",
+    "category": "health"
+  },
+  {
+    "id": 359,
+    "rank": 364,
+    "phrase": "I cut myself.",
+    "category": "health"
+  },
+  {
+    "id": 361,
+    "rank": 365,
+    "phrase": "There's been an accident.",
+    "category": "emergency"
+  },
+  {
+    "id": 362,
+    "rank": 366,
+    "phrase": "The address is [address].",
+    "category": "emergency"
+  },
+  {
+    "id": 363,
+    "rank": 367,
+    "phrase": "I smell gas.",
+    "category": "emergency"
+  },
+  {
+    "id": 364,
+    "rank": 368,
+    "phrase": "I lost my wallet.",
+    "category": "emergency"
+  },
+  {
+    "id": 365,
+    "rank": 369,
+    "phrase": "I need to block my bank card.",
+    "category": "emergency"
+  },
+  {
+    "id": 366,
+    "rank": 370,
+    "phrase": "I lost my phone.",
+    "category": "emergency"
+  },
+  {
+    "id": 367,
+    "rank": 371,
+    "phrase": "Where is the police station?",
+    "category": "emergency"
+  },
+  {
+    "id": 368,
+    "rank": 372,
+    "phrase": "Can I use your phone?",
+    "category": "emergency"
+  },
+  {
+    "id": 369,
+    "rank": 373,
+    "phrase": "I need to call my family.",
+    "category": "emergency"
+  },
+  {
+    "id": 370,
+    "rank": 374,
+    "phrase": "Go away!",
+    "category": "emergency"
+  },
+  {
+    "id": 371,
+    "rank": 375,
+    "phrase": "Is it safe here?",
+    "category": "emergency"
+  },
+  {
+    "id": 372,
+    "rank": 376,
+    "phrase": "Is it safe to walk here at night?",
+    "category": "emergency"
+  },
+  {
+    "id": 373,
+    "rank": 377,
+    "phrase": "Watch out!",
+    "category": "emergency"
+  },
+  {
+    "id": 374,
+    "rank": 378,
+    "phrase": "I'm married.",
+    "category": "introductions"
+  },
+  {
+    "id": 375,
+    "rank": 379,
+    "phrase": "I'm single.",
+    "category": "introductions"
+  },
+  {
+    "id": 376,
+    "rank": 380,
+    "phrase": "I don't have children.",
+    "category": "introductions"
+  },
+  {
+    "id": 377,
+    "rank": 381,
+    "phrase": "This is my son.",
+    "category": "introductions"
+  },
+  {
+    "id": 378,
+    "rank": 382,
+    "phrase": "This is my daughter.",
+    "category": "introductions"
+  },
+  {
+    "id": 379,
+    "rank": 383,
+    "phrase": "These are my parents.",
+    "category": "introductions"
+  },
+  {
+    "id": 380,
+    "rank": 384,
+    "phrase": "I have a brother.",
+    "category": "introductions"
+  },
+  {
+    "id": 381,
+    "rank": 385,
+    "phrase": "I have a sister.",
+    "category": "introductions"
+  },
+  {
+    "id": 382,
+    "rank": 386,
+    "phrase": "Where do you work?",
+    "category": "introductions"
+  },
+  {
+    "id": 383,
+    "rank": 387,
+    "phrase": "I work in an office.",
+    "category": "introductions"
+  },
+  {
+    "id": 384,
+    "rank": 388,
+    "phrase": "I'm retired.",
+    "category": "introductions"
+  },
+  {
+    "id": 385,
+    "rank": 389,
+    "phrase": "I'm looking for a job.",
+    "category": "introductions"
+  },
+  {
+    "id": 386,
+    "rank": 390,
+    "phrase": "What do you study?",
+    "category": "introductions"
+  },
+  {
+    "id": 387,
+    "rank": 391,
+    "phrase": "What languages do you speak?",
+    "category": "introductions"
+  },
+  {
+    "id": 388,
+    "rank": 392,
+    "phrase": "I speak [language_1] and [language_2].",
+    "category": "introductions"
+  },
+  {
+    "id": 389,
+    "rank": 393,
+    "phrase": "I was born in [place].",
+    "category": "introductions"
+  },
+  {
+    "id": 390,
+    "rank": 394,
+    "phrase": "I've lived here for [number] years.",
+    "category": "introductions"
+  },
+  {
+    "id": 391,
+    "rank": 395,
+    "phrase": "How long are you staying?",
+    "category": "introductions"
+  },
+  {
+    "id": 392,
+    "rank": 396,
+    "phrase": "What brings you here?",
+    "category": "introductions"
+  },
+  {
+    "id": 393,
+    "rank": 397,
+    "phrase": "I'm staying for a week.",
+    "category": "introductions"
+  },
+  {
+    "id": 394,
+    "rank": 398,
+    "phrase": "What time does it start?",
+    "category": "time"
+  },
+  {
+    "id": 395,
+    "rank": 399,
+    "phrase": "What time does it finish?",
+    "category": "time"
+  },
+  {
+    "id": 396,
+    "rank": 400,
+    "phrase": "It's [number] o'clock.",
+    "category": "time"
+  },
+  {
+    "id": 397,
+    "rank": 401,
+    "phrase": "It's half past [number].",
+    "category": "time"
+  },
+  {
+    "id": 398,
+    "rank": 402,
+    "phrase": "In five minutes.",
+    "category": "time"
+  },
+  {
+    "id": 399,
+    "rank": 403,
+    "phrase": "In an hour.",
+    "category": "time"
+  },
+  {
+    "id": 400,
+    "rank": 404,
+    "phrase": "Two days ago.",
+    "category": "time"
+  },
+  {
+    "id": 401,
+    "rank": 405,
+    "phrase": "Next week.",
+    "category": "time"
+  },
+  {
+    "id": 402,
+    "rank": 406,
+    "phrase": "Last week.",
+    "category": "time"
+  },
+  {
+    "id": 403,
+    "rank": 407,
+    "phrase": "This morning.",
+    "category": "time"
+  },
+  {
+    "id": 404,
+    "rank": 408,
+    "phrase": "This evening.",
+    "category": "time"
+  },
+  {
+    "id": 405,
+    "rank": 409,
+    "phrase": "Tonight.",
+    "category": "time"
+  },
+  {
+    "id": 406,
+    "rank": 410,
+    "phrase": "Every day.",
+    "category": "time"
+  },
+  {
+    "id": 407,
+    "rank": 411,
+    "phrase": "On Monday.",
+    "category": "time"
+  },
+  {
+    "id": 408,
+    "rank": 412,
+    "phrase": "At the weekend.",
+    "category": "time"
+  },
+  {
+    "id": 409,
+    "rank": 413,
+    "phrase": "You're late.",
+    "category": "time"
+  },
+  {
+    "id": 410,
+    "rank": 414,
+    "phrase": "What time shall we meet?",
+    "category": "time"
+  },
+  {
+    "id": 411,
+    "rank": 415,
+    "phrase": "Let's meet at [time].",
+    "category": "time"
+  },
+  {
+    "id": 412,
+    "rank": 416,
+    "phrase": "Is that OK for you?",
+    "category": "time"
+  },
+  {
+    "id": 413,
+    "rank": 417,
+    "phrase": "I'm free tomorrow.",
+    "category": "time"
+  },
+  {
+    "id": 414,
+    "rank": 418,
+    "phrase": "I'm busy today.",
+    "category": "time"
+  },
+  {
+    "id": 415,
+    "rank": 419,
+    "phrase": "What's the weather like?",
+    "category": "weather"
+  },
+  {
+    "id": 416,
+    "rank": 420,
+    "phrase": "It's hot.",
+    "category": "weather"
+  },
+  {
+    "id": 417,
+    "rank": 421,
+    "phrase": "It's cold.",
+    "category": "weather"
+  },
+  {
+    "id": 418,
+    "rank": 422,
+    "phrase": "It's raining.",
+    "category": "weather"
+  },
+  {
+    "id": 419,
+    "rank": 423,
+    "phrase": "It's snowing.",
+    "category": "weather"
+  },
+  {
+    "id": 420,
+    "rank": 424,
+    "phrase": "It's sunny.",
+    "category": "weather"
+  },
+  {
+    "id": 421,
+    "rank": 425,
+    "phrase": "It's windy.",
+    "category": "weather"
+  },
+  {
+    "id": 422,
+    "rank": 426,
+    "phrase": "It's a beautiful day.",
+    "category": "weather"
+  },
+  {
+    "id": 423,
+    "rank": 427,
+    "phrase": "Will it rain tomorrow?",
+    "category": "weather"
+  },
+  {
+    "id": 424,
+    "rank": 428,
+    "phrase": "I'm cold.",
+    "category": "weather"
+  },
+  {
+    "id": 425,
+    "rank": 429,
+    "phrase": "I'm hot.",
+    "category": "weather",
+    "note": "Feeling too warm. In some languages the literal translation means 'aroused'; use the natural form."
+  },
+  {
+    "id": 426,
+    "rank": 430,
+    "phrase": "What do you think?",
+    "category": "conversation"
+  },
+  {
+    "id": 427,
+    "rank": 431,
+    "phrase": "I agree.",
+    "category": "conversation"
+  },
+  {
+    "id": 428,
+    "rank": 432,
+    "phrase": "I don't agree.",
+    "category": "conversation"
+  },
+  {
+    "id": 429,
+    "rank": 433,
+    "phrase": "You're right.",
+    "category": "conversation"
+  },
+  {
+    "id": 430,
+    "rank": 434,
+    "phrase": "I'm not sure.",
+    "category": "conversation"
+  },
+  {
+    "id": 431,
+    "rank": 435,
+    "phrase": "It depends.",
+    "category": "conversation"
+  },
+  {
+    "id": 432,
+    "rank": 436,
+    "phrase": "Me too.",
+    "category": "conversation"
+  },
+  {
+    "id": 433,
+    "rank": 437,
+    "phrase": "Me neither.",
+    "category": "conversation"
+  },
+  {
+    "id": 434,
+    "rank": 438,
+    "phrase": "What about you?",
+    "category": "conversation"
+  },
+  {
+    "id": 435,
+    "rank": 439,
+    "phrase": "Tell me more.",
+    "category": "conversation"
+  },
+  {
+    "id": 436,
+    "rank": 440,
+    "phrase": "That's interesting.",
+    "category": "conversation"
+  },
+  {
+    "id": 437,
+    "rank": 441,
+    "phrase": "I see.",
+    "category": "conversation"
+  },
+  {
+    "id": 438,
+    "rank": 442,
+    "phrase": "What happened?",
+    "category": "conversation"
+  },
+  {
+    "id": 439,
+    "rank": 443,
+    "phrase": "Are you sure?",
+    "category": "conversation"
+  },
+  {
+    "id": 440,
+    "rank": 444,
+    "phrase": "Exactly.",
+    "category": "conversation"
+  },
+  {
+    "id": 441,
+    "rank": 445,
+    "phrase": "I mean ...",
+    "category": "conversation"
+  },
+  {
+    "id": 442,
+    "rank": 446,
+    "phrase": "For example ...",
+    "category": "conversation"
+  },
+  {
+    "id": 443,
+    "rank": 447,
+    "phrase": "By the way ...",
+    "category": "conversation"
+  },
+  {
+    "id": 444,
+    "rank": 448,
+    "phrase": "Let me think.",
+    "category": "conversation"
+  },
+  {
+    "id": 445,
+    "rank": 449,
+    "phrase": "How was your day?",
+    "category": "conversation"
+  },
+  {
+    "id": 446,
+    "rank": 450,
+    "phrase": "What are you doing?",
+    "category": "conversation"
+  },
+  {
+    "id": 447,
+    "rank": 451,
+    "phrase": "What are you doing tonight?",
+    "category": "conversation"
+  },
+  {
+    "id": 448,
+    "rank": 452,
+    "phrase": "Do you have any plans for the weekend?",
+    "category": "conversation"
+  },
+  {
+    "id": 449,
+    "rank": 453,
+    "phrase": "What do you do in your free time?",
+    "category": "conversation"
+  },
+  {
+    "id": 450,
+    "rank": 454,
+    "phrase": "Have you ever been to [place]?",
+    "category": "conversation"
+  },
+  {
+    "id": 451,
+    "rank": 455,
+    "phrase": "How was your trip?",
+    "category": "conversation"
+  },
+  {
+    "id": 452,
+    "rank": 456,
+    "phrase": "I've never been there.",
+    "category": "conversation"
+  },
+  {
+    "id": 453,
+    "rank": 457,
+    "phrase": "Wow!",
+    "category": "reactions"
+  },
+  {
+    "id": 454,
+    "rank": 458,
+    "phrase": "Oh no!",
+    "category": "reactions"
+  },
+  {
+    "id": 455,
+    "rank": 459,
+    "phrase": "What a pity.",
+    "category": "reactions"
+  },
+  {
+    "id": 456,
+    "rank": 460,
+    "phrase": "That's amazing.",
+    "category": "reactions"
+  },
+  {
+    "id": 457,
+    "rank": 461,
+    "phrase": "That's terrible.",
+    "category": "reactions"
+  },
+  {
+    "id": 458,
+    "rank": 462,
+    "phrase": "I can't believe it.",
+    "category": "reactions"
+  },
+  {
+    "id": 459,
+    "rank": 463,
+    "phrase": "You're joking!",
+    "category": "reactions"
+  },
+  {
+    "id": 460,
+    "rank": 464,
+    "phrase": "How nice!",
+    "category": "reactions"
+  },
+  {
+    "id": 461,
+    "rank": 465,
+    "phrase": "Well done!",
+    "category": "reactions"
+  },
+  {
+    "id": 462,
+    "rank": 466,
+    "phrase": "That's funny.",
+    "category": "reactions"
+  },
+  {
+    "id": 463,
+    "rank": 467,
+    "phrase": "Never mind.",
+    "category": "reactions"
+  },
+  {
+    "id": 464,
+    "rank": 468,
+    "phrase": "I'm happy.",
+    "category": "feelings"
+  },
+  {
+    "id": 465,
+    "rank": 469,
+    "phrase": "I'm sad.",
+    "category": "feelings"
+  },
+  {
+    "id": 466,
+    "rank": 470,
+    "phrase": "I'm bored.",
+    "category": "feelings"
+  },
+  {
+    "id": 467,
+    "rank": 471,
+    "phrase": "I'm angry.",
+    "category": "feelings"
+  },
+  {
+    "id": 468,
+    "rank": 472,
+    "phrase": "I'm nervous.",
+    "category": "feelings"
+  },
+  {
+    "id": 469,
+    "rank": 473,
+    "phrase": "I'm scared.",
+    "category": "feelings"
+  },
+  {
+    "id": 470,
+    "rank": 474,
+    "phrase": "I'm worried.",
+    "category": "feelings"
+  },
+  {
+    "id": 471,
+    "rank": 475,
+    "phrase": "I'm excited.",
+    "category": "feelings"
+  },
+  {
+    "id": 472,
+    "rank": 476,
+    "phrase": "I'm stressed.",
+    "category": "feelings"
+  },
+  {
+    "id": 473,
+    "rank": 477,
+    "phrase": "I'm in a good mood.",
+    "category": "feelings"
+  },
+  {
+    "id": 474,
+    "rank": 478,
+    "phrase": "I feel better.",
+    "category": "feelings"
+  },
+  {
+    "id": 475,
+    "rank": 479,
+    "phrase": "I miss you.",
+    "category": "feelings"
+  },
+  {
+    "id": 476,
+    "rank": 480,
+    "phrase": "I'm surprised.",
+    "category": "feelings"
+  },
+  {
+    "id": 477,
+    "rank": 481,
+    "phrase": "I'm disappointed.",
+    "category": "feelings"
+  },
+  {
+    "id": 478,
+    "rank": 482,
+    "phrase": "I feel lonely.",
+    "category": "feelings"
+  },
+  {
+    "id": 479,
+    "rank": 483,
+    "phrase": "I'm frustrated.",
+    "category": "feelings"
+  },
+  {
+    "id": 480,
+    "rank": 484,
+    "phrase": "What's wrong?",
+    "category": "feelings"
+  },
+  {
+    "id": 481,
+    "rank": 485,
+    "phrase": "Are you OK?",
+    "category": "feelings"
+  },
+  {
+    "id": 482,
+    "rank": 486,
+    "phrase": "How are you feeling?",
+    "category": "feelings"
+  },
+  {
+    "id": 483,
+    "rank": 487,
+    "phrase": "I'm OK.",
+    "category": "feelings"
+  },
+  {
+    "id": 484,
+    "rank": 488,
+    "phrase": "I love it.",
+    "category": "opinions"
+  },
+  {
+    "id": 485,
+    "rank": 489,
+    "phrase": "I hate it.",
+    "category": "opinions"
+  },
+  {
+    "id": 486,
+    "rank": 490,
+    "phrase": "It's beautiful.",
+    "category": "opinions"
+  },
+  {
+    "id": 487,
+    "rank": 491,
+    "phrase": "It's very interesting.",
+    "category": "opinions"
+  },
+  {
+    "id": 488,
+    "rank": 492,
+    "phrase": "It's boring.",
+    "category": "opinions"
+  },
+  {
+    "id": 489,
+    "rank": 493,
+    "phrase": "It's easy.",
+    "category": "opinions"
+  },
+  {
+    "id": 490,
+    "rank": 494,
+    "phrase": "It's difficult.",
+    "category": "opinions"
+  },
+  {
+    "id": 491,
+    "rank": 495,
+    "phrase": "It's important.",
+    "category": "opinions"
+  },
+  {
+    "id": 492,
+    "rank": 496,
+    "phrase": "It's cheap.",
+    "category": "opinions"
+  },
+  {
+    "id": 493,
+    "rank": 497,
+    "phrase": "It's too big.",
+    "category": "opinions"
+  },
+  {
+    "id": 494,
+    "rank": 498,
+    "phrase": "It's too small.",
+    "category": "opinions"
+  },
+  {
+    "id": 495,
+    "rank": 499,
+    "phrase": "It's perfect.",
+    "category": "opinions"
+  },
+  {
+    "id": 496,
+    "rank": 500,
+    "phrase": "It's not bad.",
+    "category": "opinions"
+  },
+  {
+    "id": 497,
+    "rank": 501,
+    "phrase": "I prefer this one.",
+    "category": "opinions"
+  },
+  {
+    "id": 498,
+    "rank": 502,
+    "phrase": "In my opinion ...",
+    "category": "opinions"
+  },
+  {
+    "id": 499,
+    "rank": 503,
+    "phrase": "I think that ...",
+    "category": "opinions"
+  },
+  {
+    "id": 500,
+    "rank": 504,
+    "phrase": "It's a good idea.",
+    "category": "opinions"
+  },
+  {
+    "id": 501,
+    "rank": 505,
+    "phrase": "It's a bad idea.",
+    "category": "opinions"
+  },
+  {
+    "id": 502,
+    "rank": 506,
+    "phrase": "Would you like to come with us?",
+    "category": "social"
+  },
+  {
+    "id": 503,
+    "rank": 507,
+    "phrase": "May I join you?",
+    "category": "social"
+  },
+  {
+    "id": 504,
+    "rank": 508,
+    "phrase": "Do you want to get a coffee?",
+    "category": "social"
+  },
+  {
+    "id": 505,
+    "rank": 509,
+    "phrase": "Would you like a drink?",
+    "category": "social"
+  },
+  {
+    "id": 506,
+    "rank": 510,
+    "phrase": "What would you like to drink?",
+    "category": "social"
+  },
+  {
+    "id": 507,
+    "rank": 511,
+    "phrase": "It's my treat.",
+    "category": "social",
+    "note": "Offering to pay for the other person."
+  },
+  {
+    "id": 508,
+    "rank": 512,
+    "phrase": "Let's go out tonight.",
+    "category": "social"
+  },
+  {
+    "id": 509,
+    "rank": 513,
+    "phrase": "Are you coming?",
+    "category": "social"
+  },
+  {
+    "id": 510,
+    "rank": 514,
+    "phrase": "I'd love to.",
+    "category": "social"
+  },
+  {
+    "id": 511,
+    "rank": 515,
+    "phrase": "Sorry, I can't.",
+    "category": "social"
+  },
+  {
+    "id": 512,
+    "rank": 516,
+    "phrase": "Maybe next time.",
+    "category": "social"
+  },
+  {
+    "id": 513,
+    "rank": 517,
+    "phrase": "Let's keep in touch.",
+    "category": "social"
+  },
+  {
+    "id": 514,
+    "rank": 518,
+    "phrase": "Can I have your number?",
+    "category": "social"
+  },
+  {
+    "id": 515,
+    "rank": 519,
+    "phrase": "Send me a message.",
+    "category": "social"
+  },
+  {
+    "id": 516,
+    "rank": 520,
+    "phrase": "Call me.",
+    "category": "social"
+  },
+  {
+    "id": 517,
+    "rank": 521,
+    "phrase": "I'll call you later.",
+    "category": "social"
+  },
+  {
+    "id": 518,
+    "rank": 522,
+    "phrase": "Can you take a photo of us?",
+    "category": "social"
+  },
+  {
+    "id": 519,
+    "rank": 523,
+    "phrase": "Please don't post that photo of me.",
+    "category": "social"
+  },
+  {
+    "id": 520,
+    "rank": 524,
+    "phrase": "Make yourself at home.",
+    "category": "social"
+  },
+  {
+    "id": 521,
+    "rank": 525,
+    "phrase": "Help yourself.",
+    "category": "social",
+    "note": "Inviting someone to take the food or drink on offer."
+  },
+  {
+    "id": 522,
+    "rank": 526,
+    "phrase": "Thank you for inviting me.",
+    "category": "social"
+  },
+  {
+    "id": 523,
+    "rank": 527,
+    "phrase": "I had a great time.",
+    "category": "social"
+  },
+  {
+    "id": 524,
+    "rank": 528,
+    "phrase": "Merry Christmas!",
+    "category": "social"
+  },
+  {
+    "id": 525,
+    "rank": 529,
+    "phrase": "Happy New Year!",
+    "category": "social"
+  },
+  {
+    "id": 526,
+    "rank": 530,
+    "phrase": "Have fun!",
+    "category": "social"
+  },
+  {
+    "id": 527,
+    "rank": 531,
+    "phrase": "Get well soon!",
+    "category": "social"
+  },
+  {
+    "id": 528,
+    "rank": 532,
+    "phrase": "I'm sorry for your loss.",
+    "category": "social"
+  },
+  {
+    "id": 529,
+    "rank": 533,
+    "phrase": "Is there anything I can do to help?",
+    "category": "social"
+  },
+  {
+    "id": 530,
+    "rank": 534,
+    "phrase": "Bless you!",
+    "category": "social",
+    "note": "Said after someone sneezes; use the local equivalent."
+  },
+  {
+    "id": 531,
+    "rank": 535,
+    "phrase": "Hello, who is speaking?",
+    "category": "phone"
+  },
+  {
+    "id": 532,
+    "rank": 536,
+    "phrase": "Can I speak to [name]?",
+    "category": "phone"
+  },
+  {
+    "id": 533,
+    "rank": 537,
+    "phrase": "Can I leave a message?",
+    "category": "phone"
+  },
+  {
+    "id": 534,
+    "rank": 538,
+    "phrase": "I'll call back later.",
+    "category": "phone"
+  },
+  {
+    "id": 535,
+    "rank": 539,
+    "phrase": "I can't talk right now.",
+    "category": "phone"
+  },
+  {
+    "id": 536,
+    "rank": 540,
+    "phrase": "Sorry, wrong number.",
+    "category": "phone"
+  },
+  {
+    "id": 537,
+    "rank": 541,
+    "phrase": "I can't hear you.",
+    "category": "phone"
+  },
+  {
+    "id": 538,
+    "rank": 542,
+    "phrase": "Where can I charge my phone?",
+    "category": "phone"
+  },
+  {
+    "id": 539,
+    "rank": 543,
+    "phrase": "Is there Wi-Fi here?",
+    "category": "phone"
+  },
+  {
+    "id": 540,
+    "rank": 544,
+    "phrase": "I don't have internet.",
+    "category": "phone"
+  },
+  {
+    "id": 541,
+    "rank": 545,
+    "phrase": "I need a SIM card.",
+    "category": "phone"
+  },
+  {
+    "id": 542,
+    "rank": 546,
+    "phrase": "Can you send it to me?",
+    "category": "phone"
+  },
+  {
+    "id": 543,
+    "rank": 547,
+    "phrase": "What's your email address?",
+    "category": "phone"
+  },
+  {
+    "id": 544,
+    "rank": 548,
+    "phrase": "I wake up at [time].",
+    "category": "daily"
+  },
+  {
+    "id": 545,
+    "rank": 549,
+    "phrase": "I'm going home.",
+    "category": "daily"
+  },
+  {
+    "id": 546,
+    "rank": 550,
+    "phrase": "I'm at home.",
+    "category": "daily"
+  },
+  {
+    "id": 547,
+    "rank": 551,
+    "phrase": "I'm on my way.",
+    "category": "daily"
+  },
+  {
+    "id": 548,
+    "rank": 552,
+    "phrase": "I'm here.",
+    "category": "daily"
+  },
+  {
+    "id": 549,
+    "rank": 553,
+    "phrase": "I'll be there in [number] minutes.",
+    "category": "daily"
+  },
+  {
+    "id": 550,
+    "rank": 554,
+    "phrase": "I have to go.",
+    "category": "daily"
+  },
+  {
+    "id": 551,
+    "rank": 555,
+    "phrase": "I need to go to the bank.",
+    "category": "daily"
+  },
+  {
+    "id": 552,
+    "rank": 556,
+    "phrase": "I'm going shopping.",
+    "category": "daily"
+  },
+  {
+    "id": 553,
+    "rank": 557,
+    "phrase": "What's for dinner?",
+    "category": "daily"
+  },
+  {
+    "id": 554,
+    "rank": 558,
+    "phrase": "I'm going for a walk.",
+    "category": "daily"
+  },
+  {
+    "id": 555,
+    "rank": 559,
+    "phrase": "I need to sleep.",
+    "category": "daily"
+  },
+  {
+    "id": 556,
+    "rank": 560,
+    "phrase": "I'm working today.",
+    "category": "daily"
+  },
+  {
+    "id": 557,
+    "rank": 561,
+    "phrase": "I have a day off.",
+    "category": "daily"
+  },
+  {
+    "id": 558,
+    "rank": 562,
+    "phrase": "I'm studying.",
+    "category": "daily"
+  },
+  {
+    "id": 559,
+    "rank": 563,
+    "phrase": "Turn on the light, please.",
+    "category": "daily"
+  },
+  {
+    "id": 560,
+    "rank": 564,
+    "phrase": "Close the door, please.",
+    "category": "daily"
+  },
+  {
+    "id": 561,
+    "rank": 565,
+    "phrase": "Open the window, please.",
+    "category": "daily"
+  },
+  {
+    "id": 562,
+    "rank": 566,
+    "phrase": "Where are my keys?",
+    "category": "daily"
+  },
+  {
+    "id": 563,
+    "rank": 567,
+    "phrase": "I can't find my [thing].",
+    "category": "daily"
+  },
+  {
+    "id": 564,
+    "rank": 568,
+    "phrase": "I found it.",
+    "category": "daily"
+  },
+  {
+    "id": 565,
+    "rank": 569,
+    "phrase": "I forgot.",
+    "category": "daily"
+  },
+  {
+    "id": 566,
+    "rank": 570,
+    "phrase": "Don't forget.",
+    "category": "daily"
+  },
+  {
+    "id": 567,
+    "rank": 571,
+    "phrase": "Is this yours?",
+    "category": "daily"
+  },
+  {
+    "id": 568,
+    "rank": 572,
+    "phrase": "Where is the bathroom?",
+    "category": "home"
+  },
+  {
+    "id": 569,
+    "rank": 573,
+    "phrase": "Do you live alone?",
+    "category": "home"
+  },
+  {
+    "id": 570,
+    "rank": 574,
+    "phrase": "I live alone.",
+    "category": "home"
+  },
+  {
+    "id": 571,
+    "rank": 575,
+    "phrase": "I live with my family.",
+    "category": "home"
+  },
+  {
+    "id": 572,
+    "rank": 576,
+    "phrase": "I rent an apartment.",
+    "category": "home"
+  },
+  {
+    "id": 573,
+    "rank": 577,
+    "phrase": "I'm looking for an apartment.",
+    "category": "home"
+  },
+  {
+    "id": 574,
+    "rank": 578,
+    "phrase": "How much is the rent?",
+    "category": "home"
+  },
+  {
+    "id": 575,
+    "rank": 579,
+    "phrase": "The heating doesn't work.",
+    "category": "home"
+  },
+  {
+    "id": 576,
+    "rank": 580,
+    "phrase": "Can you fix it?",
+    "category": "home"
+  },
+  {
+    "id": 577,
+    "rank": 581,
+    "phrase": "Come in!",
+    "category": "home"
+  },
+  {
+    "id": 578,
+    "rank": 582,
+    "phrase": "Please sit down.",
+    "category": "home"
+  },
+  {
+    "id": 579,
+    "rank": 583,
+    "phrase": "Can I help you?",
+    "category": "home"
+  },
+  {
+    "id": 580,
+    "rank": 584,
+    "phrase": "Can I borrow this?",
+    "category": "home"
+  },
+  {
+    "id": 581,
+    "rank": 585,
+    "phrase": "I have a meeting.",
+    "category": "work"
+  },
+  {
+    "id": 582,
+    "rank": 586,
+    "phrase": "I'm at work.",
+    "category": "work"
+  },
+  {
+    "id": 583,
+    "rank": 587,
+    "phrase": "What time do you finish work?",
+    "category": "work"
+  },
+  {
+    "id": 584,
+    "rank": 588,
+    "phrase": "I work from home.",
+    "category": "work"
+  },
+  {
+    "id": 585,
+    "rank": 589,
+    "phrase": "I have a lot of work.",
+    "category": "work"
+  },
+  {
+    "id": 586,
+    "rank": 590,
+    "phrase": "When do you need this finished?",
+    "category": "work"
+  },
+  {
+    "id": 587,
+    "rank": 591,
+    "phrase": "Can we schedule a meeting?",
+    "category": "work"
+  },
+  {
+    "id": 588,
+    "rank": 592,
+    "phrase": "Let's discuss it tomorrow.",
+    "category": "work"
+  },
+  {
+    "id": 589,
+    "rank": 593,
+    "phrase": "I'll send you an email.",
+    "category": "work"
+  },
+  {
+    "id": 590,
+    "rank": 594,
+    "phrase": "I'll get back to you.",
+    "category": "work",
+    "note": "Promising to reply later with an answer."
+  },
+  {
+    "id": 591,
+    "rank": 595,
+    "phrase": "I like my job.",
+    "category": "work"
+  },
+  {
+    "id": 592,
+    "rank": 596,
+    "phrase": "Can you help me with this?",
+    "category": "work"
+  },
+  {
+    "id": 593,
+    "rank": 597,
+    "phrase": "I'm finished.",
+    "category": "work"
+  },
+  {
+    "id": 594,
+    "rank": 598,
+    "phrase": "I made a mistake.",
+    "category": "work"
+  },
+  {
+    "id": 595,
+    "rank": 599,
+    "phrase": "I'll fix it.",
+    "category": "work"
+  },
+  {
+    "id": 596,
+    "rank": 600,
+    "phrase": "I'm not finished yet.",
+    "category": "work"
+  },
+  {
+    "id": 598,
+    "rank": 601,
+    "phrase": "How do you pronounce this?",
+    "category": "learning"
+  },
+  {
+    "id": 599,
+    "rank": 602,
+    "phrase": "What's the difference between [word_1] and [word_2]?",
+    "category": "learning"
+  },
+  {
+    "id": 600,
+    "rank": 603,
+    "phrase": "Can you give me an example?",
+    "category": "learning"
+  },
+  {
+    "id": 601,
+    "rank": 604,
+    "phrase": "I've been learning [language] for [duration].",
+    "category": "learning"
+  },
+  {
+    "id": 602,
+    "rank": 605,
+    "phrase": "I want to improve my [language].",
+    "category": "learning"
+  },
+  {
+    "id": 603,
+    "rank": 606,
+    "phrase": "What's the word for [thing]?",
+    "category": "learning"
+  },
+  {
+    "id": 604,
+    "rank": 607,
+    "phrase": "I forgot the word.",
+    "category": "learning"
+  },
+  {
+    "id": 605,
+    "rank": 608,
+    "phrase": "Can you explain that?",
+    "category": "learning"
+  },
+  {
+    "id": 606,
+    "rank": 609,
+    "phrase": "Now I understand.",
+    "category": "learning"
+  },
+  {
+    "id": 607,
+    "rank": 610,
+    "phrase": "I don't remember.",
+    "category": "learning"
+  },
+  {
+    "id": 608,
+    "rank": 611,
+    "phrase": "Speak to me in [language], please.",
+    "category": "learning"
+  },
+  {
+    "id": 609,
+    "rank": 612,
+    "phrase": "Does that sound natural?",
+    "category": "learning"
+  },
+  {
+    "id": 610,
+    "rank": 613,
+    "phrase": "Is there a more polite way to say this?",
+    "category": "learning"
+  },
+  {
+    "id": 611,
+    "rank": 614,
+    "phrase": "What do people usually say in this situation?",
+    "category": "learning"
+  },
+  {
+    "id": 612,
+    "rank": 615,
+    "phrase": "I understand more than I can say.",
+    "category": "learning"
+  },
+  {
+    "id": 613,
+    "rank": 616,
+    "phrase": "I need a moment to find the words.",
+    "category": "learning"
+  },
+  {
+    "id": 614,
+    "rank": 617,
+    "phrase": "Please use short sentences.",
+    "category": "learning"
+  },
+  {
+    "id": 615,
+    "rank": 618,
+    "phrase": "I use a translation app.",
+    "category": "learning"
+  },
+  {
+    "id": 616,
+    "rank": 619,
+    "phrase": "Thank you for being patient with me.",
+    "category": "learning"
+  },
+  {
+    "id": 617,
+    "rank": 620,
+    "phrase": "Can you say it in another way?",
+    "category": "learning"
+  },
+  {
+    "id": 618,
+    "rank": 621,
+    "phrase": "What does [word] mean?",
+    "category": "learning"
+  },
+  {
+    "id": 619,
+    "rank": 622,
+    "phrase": "What's going on?",
+    "category": "questions"
+  },
+  {
+    "id": 620,
+    "rank": 623,
+    "phrase": "What's the problem?",
+    "category": "questions"
+  },
+  {
+    "id": 621,
+    "rank": 624,
+    "phrase": "How much time do we have?",
+    "category": "questions"
+  },
+  {
+    "id": 622,
+    "rank": 625,
+    "phrase": "How often?",
+    "category": "questions"
+  },
+  {
+    "id": 623,
+    "rank": 626,
+    "phrase": "Is there a [place] nearby?",
+    "category": "questions"
+  },
+  {
+    "id": 624,
+    "rank": 627,
+    "phrase": "Do you know [person]?",
+    "category": "questions"
+  },
+  {
+    "id": 625,
+    "rank": 628,
+    "phrase": "Do you know where [place] is?",
+    "category": "questions"
+  },
+  {
+    "id": 626,
+    "rank": 629,
+    "phrase": "Have you seen my [thing]?",
+    "category": "questions"
+  },
+  {
+    "id": 627,
+    "rank": 630,
+    "phrase": "What should I do?",
+    "category": "questions"
+  },
+  {
+    "id": 629,
+    "rank": 631,
+    "phrase": "Why not?",
+    "category": "questions"
+  },
+  {
+    "id": 630,
+    "rank": 632,
+    "phrase": "Is it possible?",
+    "category": "questions"
+  },
+  {
+    "id": 631,
+    "rank": 633,
+    "phrase": "Is it free?",
+    "category": "questions",
+    "note": "Free of charge, not 'available'."
+  },
+  {
+    "id": 632,
+    "rank": 634,
+    "phrase": "Is it allowed?",
+    "category": "questions"
+  },
+  {
+    "id": 633,
+    "rank": 635,
+    "phrase": "Where is the museum?",
+    "category": "city"
+  },
+  {
+    "id": 634,
+    "rank": 636,
+    "phrase": "Where is the park?",
+    "category": "city"
+  },
+  {
+    "id": 635,
+    "rank": 637,
+    "phrase": "Where is the beach?",
+    "category": "city"
+  },
+  {
+    "id": 636,
+    "rank": 638,
+    "phrase": "Where is the post office?",
+    "category": "city"
+  },
+  {
+    "id": 637,
+    "rank": 639,
+    "phrase": "Where is the bank?",
+    "category": "city"
+  },
+  {
+    "id": 638,
+    "rank": 640,
+    "phrase": "Where is the market?",
+    "category": "city"
+  },
+  {
+    "id": 639,
+    "rank": 641,
+    "phrase": "What is there to see here?",
+    "category": "city"
+  },
+  {
+    "id": 640,
+    "rank": 642,
+    "phrase": "What time does the museum open?",
+    "category": "city"
+  },
+  {
+    "id": 641,
+    "rank": 643,
+    "phrase": "How much does it cost to get in?",
+    "category": "city"
+  },
+  {
+    "id": 642,
+    "rank": 644,
+    "phrase": "Is there a student discount?",
+    "category": "city"
+  },
+  {
+    "id": 643,
+    "rank": 645,
+    "phrase": "Can I take photos here?",
+    "category": "city"
+  },
+  {
+    "id": 644,
+    "rank": 646,
+    "phrase": "Is there a guided tour?",
+    "category": "city"
+  },
+  {
+    "id": 645,
+    "rank": 647,
+    "phrase": "Where can I find a good restaurant?",
+    "category": "city"
+  },
+  {
+    "id": 646,
+    "rank": 648,
+    "phrase": "Is there a café nearby?",
+    "category": "city"
+  },
+  {
+    "id": 647,
+    "rank": 649,
+    "phrase": "What do you recommend seeing?",
+    "category": "city"
+  },
+  {
+    "id": 648,
+    "rank": 650,
+    "phrase": "How much are these?",
+    "category": "shopping"
+  },
+  {
+    "id": 649,
+    "rank": 651,
+    "phrase": "Can you give me a better price?",
+    "category": "shopping"
+  },
+  {
+    "id": 650,
+    "rank": 652,
+    "phrase": "I'm looking for [thing].",
+    "category": "shopping"
+  },
+  {
+    "id": 651,
+    "rank": 653,
+    "phrase": "Where can I find [thing]?",
+    "category": "shopping"
+  },
+  {
+    "id": 652,
+    "rank": 654,
+    "phrase": "It doesn't fit.",
+    "category": "shopping"
+  },
+  {
+    "id": 653,
+    "rank": 655,
+    "phrase": "It fits well.",
+    "category": "shopping"
+  },
+  {
+    "id": 654,
+    "rank": 656,
+    "phrase": "Can I exchange it?",
+    "category": "shopping"
+  },
+  {
+    "id": 655,
+    "rank": 657,
+    "phrase": "I'd like a refund.",
+    "category": "shopping"
+  },
+  {
+    "id": 656,
+    "rank": 658,
+    "phrase": "Half a kilo, please.",
+    "category": "shopping"
+  },
+  {
+    "id": 657,
+    "rank": 659,
+    "phrase": "A kilo of [food], please.",
+    "category": "shopping"
+  },
+  {
+    "id": 658,
+    "rank": 660,
+    "phrase": "Is it fresh?",
+    "category": "shopping"
+  },
+  {
+    "id": 659,
+    "rank": 661,
+    "phrase": "Can I taste it?",
+    "category": "shopping"
+  },
+  {
+    "id": 660,
+    "rank": 662,
+    "phrase": "Where can I change money?",
+    "category": "money"
+  },
+  {
+    "id": 661,
+    "rank": 663,
+    "phrase": "What's the exchange rate?",
+    "category": "money"
+  },
+  {
+    "id": 662,
+    "rank": 664,
+    "phrase": "I have no cash.",
+    "category": "money"
+  },
+  {
+    "id": 663,
+    "rank": 665,
+    "phrase": "I don't have change.",
+    "category": "money"
+  },
+  {
+    "id": 664,
+    "rank": 666,
+    "phrase": "The card doesn't work.",
+    "category": "money"
+  },
+  {
+    "id": 665,
+    "rank": 667,
+    "phrase": "How much do I owe you?",
+    "category": "money"
+  },
+  {
+    "id": 666,
+    "rank": 668,
+    "phrase": "I think there's a mistake on the bill.",
+    "category": "money"
+  },
+  {
+    "id": 667,
+    "rank": 669,
+    "phrase": "Let's split the bill.",
+    "category": "money"
+  },
+  {
+    "id": 668,
+    "rank": 670,
+    "phrase": "Are you hungry?",
+    "category": "food"
+  },
+  {
+    "id": 669,
+    "rank": 671,
+    "phrase": "Have you eaten yet?",
+    "category": "food"
+  },
+  {
+    "id": 670,
+    "rank": 672,
+    "phrase": "Let's eat.",
+    "category": "food"
+  },
+  {
+    "id": 671,
+    "rank": 673,
+    "phrase": "Do you have a menu in [language]?",
+    "category": "food",
+    "note": "Use a language you already speak."
+  },
+  {
+    "id": 672,
+    "rank": 674,
+    "phrase": "Do you have vegetarian food?",
+    "category": "food"
+  },
+  {
+    "id": 673,
+    "rank": 675,
+    "phrase": "I'd like the same.",
+    "category": "food"
+  },
+  {
+    "id": 674,
+    "rank": 676,
+    "phrase": "It's too salty.",
+    "category": "food"
+  },
+  {
+    "id": 675,
+    "rank": 677,
+    "phrase": "A dessert, please.",
+    "category": "food"
+  },
+  {
+    "id": 676,
+    "rank": 678,
+    "phrase": "The food was excellent.",
+    "category": "food"
+  },
+  {
+    "id": 677,
+    "rank": 679,
+    "phrase": "Can I have a fork?",
+    "category": "food"
+  },
+  {
+    "id": 678,
+    "rank": 680,
+    "phrase": "Can I have a napkin?",
+    "category": "food"
+  },
+  {
+    "id": 679,
+    "rank": 681,
+    "phrase": "We don't have a reservation.",
+    "category": "food"
+  },
+  {
+    "id": 680,
+    "rank": 682,
+    "phrase": "Where is the metro?",
+    "category": "travel"
+  },
+  {
+    "id": 681,
+    "rank": 683,
+    "phrase": "Which line goes to [place]?",
+    "category": "travel"
+  },
+  {
+    "id": 682,
+    "rank": 684,
+    "phrase": "Is there a direct train?",
+    "category": "travel"
+  },
+  {
+    "id": 683,
+    "rank": 685,
+    "phrase": "What time does it arrive?",
+    "category": "travel"
+  },
+  {
+    "id": 684,
+    "rank": 686,
+    "phrase": "Is the train on time?",
+    "category": "travel"
+  },
+  {
+    "id": 685,
+    "rank": 687,
+    "phrase": "The train is late.",
+    "category": "travel"
+  },
+  {
+    "id": 686,
+    "rank": 688,
+    "phrase": "Can you drive slower, please?",
+    "category": "travel"
+  },
+  {
+    "id": 687,
+    "rank": 689,
+    "phrase": "The car broke down.",
+    "category": "travel"
+  },
+  {
+    "id": 688,
+    "rank": 690,
+    "phrase": "Where is the check-in?",
+    "category": "travel"
+  },
+  {
+    "id": 689,
+    "rank": 691,
+    "phrase": "Where is customs?",
+    "category": "travel"
+  },
+  {
+    "id": 690,
+    "rank": 692,
+    "phrase": "Do you have a single room?",
+    "category": "accommodation"
+  },
+  {
+    "id": 691,
+    "rank": 693,
+    "phrase": "Do you have a double room?",
+    "category": "accommodation"
+  },
+  {
+    "id": 692,
+    "rank": 694,
+    "phrase": "Is there parking?",
+    "category": "accommodation"
+  },
+  {
+    "id": 693,
+    "rank": 695,
+    "phrase": "Where can I wash my clothes?",
+    "category": "accommodation"
+  },
+  {
+    "id": 694,
+    "rank": 696,
+    "phrase": "I lost my key.",
+    "category": "accommodation"
+  },
+  {
+    "id": 695,
+    "rank": 697,
+    "phrase": "There's a problem with my room.",
+    "category": "accommodation"
+  },
+  {
+    "id": 696,
+    "rank": 698,
+    "phrase": "Can I change rooms?",
+    "category": "accommodation"
+  },
+  {
+    "id": 697,
+    "rank": 699,
+    "phrase": "Where does it hurt?",
+    "category": "health",
+    "note": "Usually heard from a doctor. Reply: 'It hurts here.'"
+  },
+  {
+    "id": 698,
+    "rank": 700,
+    "phrase": "I have a sore throat.",
+    "category": "health"
+  },
+  {
+    "id": 699,
+    "rank": 701,
+    "phrase": "I have a cough.",
+    "category": "health"
+  },
+  {
+    "id": 700,
+    "rank": 702,
+    "phrase": "I feel nauseous.",
+    "category": "health"
+  },
+  {
+    "id": 701,
+    "rank": 703,
+    "phrase": "I have diarrhoea.",
+    "category": "health"
+  },
+  {
+    "id": 702,
+    "rank": 704,
+    "phrase": "I'm on medication.",
+    "category": "health"
+  },
+  {
+    "id": 703,
+    "rank": 705,
+    "phrase": "I need painkillers.",
+    "category": "health"
+  },
+  {
+    "id": 704,
+    "rank": 706,
+    "phrase": "Is it serious?",
+    "category": "health"
+  },
+  {
+    "id": 705,
+    "rank": 707,
+    "phrase": "I need to make an appointment.",
+    "category": "health"
+  },
+  {
+    "id": 706,
+    "rank": 708,
+    "phrase": "I didn't sleep well.",
+    "category": "health"
+  },
+  {
+    "id": 707,
+    "rank": 709,
+    "phrase": "Call a doctor!",
+    "category": "emergency"
+  },
+  {
+    "id": 708,
+    "rank": 710,
+    "phrase": "Someone is hurt.",
+    "category": "emergency"
+  },
+  {
+    "id": 709,
+    "rank": 711,
+    "phrase": "This person isn't breathing.",
+    "category": "emergency"
+  },
+  {
+    "id": 710,
+    "rank": 712,
+    "phrase": "I've been robbed.",
+    "category": "emergency"
+  },
+  {
+    "id": 711,
+    "rank": 713,
+    "phrase": "I want to report a theft.",
+    "category": "emergency"
+  },
+  {
+    "id": 712,
+    "rank": 714,
+    "phrase": "My child is missing.",
+    "category": "emergency"
+  },
+  {
+    "id": 713,
+    "rank": 715,
+    "phrase": "We got separated from our group.",
+    "category": "emergency"
+  },
+  {
+    "id": 714,
+    "rank": 716,
+    "phrase": "Hurry up!",
+    "category": "emergency"
+  },
+  {
+    "id": 715,
+    "rank": 717,
+    "phrase": "Calm down.",
+    "category": "emergency"
+  },
+  {
+    "id": 716,
+    "rank": 718,
+    "phrase": "This is my family.",
+    "category": "family"
+  },
+  {
+    "id": 717,
+    "rank": 719,
+    "phrase": "How is your family?",
+    "category": "family"
+  },
+  {
+    "id": 718,
+    "rank": 720,
+    "phrase": "I have a big family.",
+    "category": "family"
+  },
+  {
+    "id": 719,
+    "rank": 721,
+    "phrase": "How many brothers and sisters do you have?",
+    "category": "family"
+  },
+  {
+    "id": 720,
+    "rank": 722,
+    "phrase": "Do you have pets?",
+    "category": "family"
+  },
+  {
+    "id": 721,
+    "rank": 723,
+    "phrase": "I have a dog.",
+    "category": "family"
+  },
+  {
+    "id": 722,
+    "rank": 724,
+    "phrase": "What are your hobbies?",
+    "category": "hobbies"
+  },
+  {
+    "id": 723,
+    "rank": 725,
+    "phrase": "I like reading.",
+    "category": "hobbies"
+  },
+  {
+    "id": 724,
+    "rank": 726,
+    "phrase": "I like cooking.",
+    "category": "hobbies"
+  },
+  {
+    "id": 725,
+    "rank": 727,
+    "phrase": "I like travelling.",
+    "category": "hobbies"
+  },
+  {
+    "id": 726,
+    "rank": 728,
+    "phrase": "I like music.",
+    "category": "hobbies"
+  },
+  {
+    "id": 727,
+    "rank": 729,
+    "phrase": "What kind of music do you like?",
+    "category": "hobbies"
+  },
+  {
+    "id": 728,
+    "rank": 730,
+    "phrase": "I play football.",
+    "category": "hobbies"
+  },
+  {
+    "id": 729,
+    "rank": 731,
+    "phrase": "I go to the gym.",
+    "category": "hobbies"
+  },
+  {
+    "id": 730,
+    "rank": 732,
+    "phrase": "I like watching films.",
+    "category": "hobbies"
+  },
+  {
+    "id": 731,
+    "rank": 733,
+    "phrase": "Do you play any sports?",
+    "category": "hobbies"
+  },
+  {
+    "id": 732,
+    "rank": 734,
+    "phrase": "Let's go to the cinema.",
+    "category": "hobbies"
+  },
+  {
+    "id": 733,
+    "rank": 735,
+    "phrase": "I'd like to learn [skill].",
+    "category": "hobbies"
+  },
+  {
+    "id": 734,
+    "rank": 736,
+    "phrase": "Can I say something?",
+    "category": "conversation"
+  },
+  {
+    "id": 735,
+    "rank": 737,
+    "phrase": "Sorry to interrupt.",
+    "category": "conversation"
+  },
+  {
+    "id": 736,
+    "rank": 738,
+    "phrase": "Let me explain.",
+    "category": "conversation"
+  },
+  {
+    "id": 737,
+    "rank": 739,
+    "phrase": "In other words ...",
+    "category": "conversation"
+  },
+  {
+    "id": 738,
+    "rank": 740,
+    "phrase": "Actually ...",
+    "category": "conversation"
+  },
+  {
+    "id": 739,
+    "rank": 741,
+    "phrase": "To be honest ...",
+    "category": "conversation"
+  },
+  {
+    "id": 740,
+    "rank": 742,
+    "phrase": "The thing is ...",
+    "category": "conversation"
+  },
+  {
+    "id": 741,
+    "rank": 743,
+    "phrase": "That's not what I meant.",
+    "category": "conversation"
+  },
+  {
+    "id": 742,
+    "rank": 744,
+    "phrase": "I didn't mean to.",
+    "category": "conversation"
+  },
+  {
+    "id": 743,
+    "rank": 745,
+    "phrase": "You know what I mean?",
+    "category": "conversation"
+  },
+  {
+    "id": 744,
+    "rank": 746,
+    "phrase": "Let's change the subject.",
+    "category": "conversation"
+  },
+  {
+    "id": 746,
+    "rank": 747,
+    "phrase": "Good question.",
+    "category": "conversation"
+  },
+  {
+    "id": 747,
+    "rank": 748,
+    "phrase": "I have no idea.",
+    "category": "conversation"
+  },
+  {
+    "id": 748,
+    "rank": 749,
+    "phrase": "I'll think about it.",
+    "category": "conversation"
+  },
+  {
+    "id": 749,
+    "rank": 750,
+    "phrase": "I haven't decided yet.",
+    "category": "conversation"
+  },
+  {
+    "id": 750,
+    "rank": 751,
+    "phrase": "It's up to you.",
+    "category": "conversation"
+  },
+  {
+    "id": 751,
+    "rank": 752,
+    "phrase": "As you like.",
+    "category": "conversation"
+  },
+  {
+    "id": 752,
+    "rank": 753,
+    "phrase": "Just kidding.",
+    "category": "conversation"
+  },
+  {
+    "id": 753,
+    "rank": 754,
+    "phrase": "Seriously?",
+    "category": "conversation"
+  },
+  {
+    "id": 754,
+    "rank": 755,
+    "phrase": "I hope so.",
+    "category": "conversation"
+  },
+  {
+    "id": 755,
+    "rank": 756,
+    "phrase": "I hope not.",
+    "category": "conversation"
+  },
+  {
+    "id": 756,
+    "rank": 757,
+    "phrase": "Probably.",
+    "category": "conversation"
+  },
+  {
+    "id": 757,
+    "rank": 758,
+    "phrase": "Definitely.",
+    "category": "conversation"
+  },
+  {
+    "id": 758,
+    "rank": 759,
+    "phrase": "Not really.",
+    "category": "conversation"
+  },
+  {
+    "id": 759,
+    "rank": 760,
+    "phrase": "Not at all.",
+    "category": "conversation"
+  },
+  {
+    "id": 760,
+    "rank": 761,
+    "phrase": "More or less.",
+    "category": "conversation"
+  },
+  {
+    "id": 761,
+    "rank": 762,
+    "phrase": "Sometimes.",
+    "category": "conversation"
+  },
+  {
+    "id": 762,
+    "rank": 763,
+    "phrase": "Never.",
+    "category": "conversation"
+  },
+  {
+    "id": 763,
+    "rank": 764,
+    "phrase": "Always.",
+    "category": "conversation"
+  },
+  {
+    "id": 764,
+    "rank": 765,
+    "phrase": "That makes sense.",
+    "category": "conversation"
+  },
+  {
+    "id": 765,
+    "rank": 766,
+    "phrase": "That doesn't make sense.",
+    "category": "conversation"
+  },
+  {
+    "id": 766,
+    "rank": 767,
+    "phrase": "It's true.",
+    "category": "conversation"
+  },
+  {
+    "id": 767,
+    "rank": 768,
+    "phrase": "We'll see.",
+    "category": "conversation"
+  },
+  {
+    "id": 768,
+    "rank": 769,
+    "phrase": "I like it very much.",
+    "category": "opinions"
+  },
+  {
+    "id": 769,
+    "rank": 770,
+    "phrase": "It's my favourite.",
+    "category": "opinions"
+  },
+  {
+    "id": 770,
+    "rank": 771,
+    "phrase": "It's worth it.",
+    "category": "opinions"
+  },
+  {
+    "id": 771,
+    "rank": 772,
+    "phrase": "It's strange.",
+    "category": "opinions"
+  },
+  {
+    "id": 772,
+    "rank": 773,
+    "phrase": "It's dangerous.",
+    "category": "opinions"
+  },
+  {
+    "id": 773,
+    "rank": 774,
+    "phrase": "It's safe.",
+    "category": "opinions"
+  },
+  {
+    "id": 774,
+    "rank": 775,
+    "phrase": "It's comfortable.",
+    "category": "opinions"
+  },
+  {
+    "id": 775,
+    "rank": 776,
+    "phrase": "I don't mind.",
+    "category": "opinions"
+  },
+  {
+    "id": 776,
+    "rank": 777,
+    "phrase": "I don't care.",
+    "category": "opinions",
+    "note": "Indifference, can sound dismissive. Not the same as 'I don't mind.' (no objection)."
+  },
+  {
+    "id": 777,
+    "rank": 778,
+    "phrase": "It sounds good.",
+    "category": "opinions"
+  },
+  {
+    "id": 778,
+    "rank": 779,
+    "phrase": "It tastes good.",
+    "category": "opinions"
+  },
+  {
+    "id": 779,
+    "rank": 780,
+    "phrase": "Could you do me a favour?",
+    "category": "requests"
+  },
+  {
+    "id": 780,
+    "rank": 781,
+    "phrase": "Can you give me [thing]?",
+    "category": "requests"
+  },
+  {
+    "id": 781,
+    "rank": 782,
+    "phrase": "Can you bring me [thing]?",
+    "category": "requests"
+  },
+  {
+    "id": 782,
+    "rank": 783,
+    "phrase": "Can you wait for me?",
+    "category": "requests"
+  },
+  {
+    "id": 783,
+    "rank": 784,
+    "phrase": "Can you call me back?",
+    "category": "requests"
+  },
+  {
+    "id": 784,
+    "rank": 785,
+    "phrase": "Can you open this?",
+    "category": "requests"
+  },
+  {
+    "id": 785,
+    "rank": 786,
+    "phrase": "Can you close this?",
+    "category": "requests"
+  },
+  {
+    "id": 786,
+    "rank": 787,
+    "phrase": "Could you keep an eye on my bag?",
+    "category": "requests"
+  },
+  {
+    "id": 787,
+    "rank": 788,
+    "phrase": "Could you speak quieter, please?",
+    "category": "requests"
+  },
+  {
+    "id": 788,
+    "rank": 789,
+    "phrase": "Please be quiet.",
+    "category": "requests"
+  },
+  {
+    "id": 789,
+    "rank": 790,
+    "phrase": "Please hurry.",
+    "category": "requests"
+  },
+  {
+    "id": 790,
+    "rank": 791,
+    "phrase": "Please come here.",
+    "category": "requests"
+  },
+  {
+    "id": 791,
+    "rank": 792,
+    "phrase": "Please wait here.",
+    "category": "requests"
+  },
+  {
+    "id": 792,
+    "rank": 793,
+    "phrase": "Please follow me.",
+    "category": "requests"
+  },
+  {
+    "id": 793,
+    "rank": 794,
+    "phrase": "Please sign here.",
+    "category": "requests"
+  },
+  {
+    "id": 794,
+    "rank": 795,
+    "phrase": "Please fill in this form.",
+    "category": "requests"
+  },
+  {
+    "id": 795,
+    "rank": 796,
+    "phrase": "Let me help you.",
+    "category": "requests"
+  },
+  {
+    "id": 796,
+    "rank": 797,
+    "phrase": "Let me try.",
+    "category": "requests"
+  },
+  {
+    "id": 797,
+    "rank": 798,
+    "phrase": "Let me see.",
+    "category": "requests"
+  },
+  {
+    "id": 798,
+    "rank": 799,
+    "phrase": "Let me know.",
+    "category": "requests"
+  },
+  {
+    "id": 799,
+    "rank": 800,
+    "phrase": "Give me a minute.",
+    "category": "requests"
+  },
+  {
+    "id": 800,
+    "rank": 801,
+    "phrase": "Try again.",
+    "category": "requests"
+  },
+  {
+    "id": 801,
+    "rank": 802,
+    "phrase": "Come with me.",
+    "category": "requests"
+  },
+  {
+    "id": 802,
+    "rank": 803,
+    "phrase": "What are we doing today?",
+    "category": "plans"
+  },
+  {
+    "id": 803,
+    "rank": 804,
+    "phrase": "What shall we do?",
+    "category": "plans"
+  },
+  {
+    "id": 804,
     "rank": 805,
+    "phrase": "Let's go for a walk.",
+    "category": "plans"
+  },
+  {
+    "id": 805,
+    "rank": 806,
+    "phrase": "Let's stay at home.",
+    "category": "plans"
+  },
+  {
+    "id": 806,
+    "rank": 807,
+    "phrase": "Let's have dinner together.",
+    "category": "plans"
+  },
+  {
+    "id": 807,
+    "rank": 808,
+    "phrase": "Do you want to come?",
+    "category": "plans"
+  },
+  {
+    "id": 808,
+    "rank": 809,
+    "phrase": "Where shall we meet?",
+    "category": "plans"
+  },
+  {
+    "id": 809,
+    "rank": 810,
+    "phrase": "Let's meet in front of [place].",
+    "category": "plans"
+  },
+  {
+    "id": 810,
+    "rank": 811,
+    "phrase": "I'll pick you up.",
+    "category": "plans",
+    "note": "Offering to collect someone by car."
+  },
+  {
+    "id": 811,
+    "rank": 812,
+    "phrase": "I'll wait for you here.",
+    "category": "plans"
+  },
+  {
+    "id": 812,
+    "rank": 813,
+    "phrase": "I'm going to [place] tomorrow.",
+    "category": "plans"
+  },
+  {
+    "id": 813,
+    "rank": 814,
+    "phrase": "I'm planning to [activity].",
+    "category": "plans"
+  },
+  {
+    "id": 814,
+    "rank": 815,
+    "phrase": "I want to visit [place].",
+    "category": "plans"
+  },
+  {
+    "id": 815,
+    "rank": 816,
+    "phrase": "We're leaving tomorrow.",
+    "category": "plans"
+  },
+  {
+    "id": 816,
+    "rank": 817,
+    "phrase": "We arrived yesterday.",
+    "category": "plans"
+  },
+  {
+    "id": 817,
+    "rank": 818,
+    "phrase": "When are you coming back?",
+    "category": "plans"
+  },
+  {
+    "id": 818,
+    "rank": 819,
+    "phrase": "I'll be back soon.",
+    "category": "plans"
+  },
+  {
+    "id": 819,
+    "rank": 820,
+    "phrase": "I'll be back in an hour.",
+    "category": "plans"
+  },
+  {
+    "id": 820,
+    "rank": 821,
+    "phrase": "I can't come.",
+    "category": "plans"
+  },
+  {
+    "id": 821,
+    "rank": 822,
+    "phrase": "Something came up.",
+    "category": "plans"
+  },
+  {
+    "id": 822,
+    "rank": 823,
+    "phrase": "Can we do it another day?",
+    "category": "plans"
+  },
+  {
+    "id": 823,
+    "rank": 824,
+    "phrase": "I changed my mind.",
+    "category": "plans"
+  },
+  {
+    "id": 824,
+    "rank": 825,
+    "phrase": "Let's do it.",
+    "category": "plans"
+  },
+  {
+    "id": 825,
+    "rank": 826,
+    "phrase": "I'm ready.",
+    "category": "plans"
+  },
+  {
+    "id": 826,
+    "rank": 827,
+    "phrase": "Are you ready?",
+    "category": "plans"
+  },
+  {
+    "id": 827,
+    "rank": 828,
+    "phrase": "I can't drive.",
+    "category": "abilities"
+  },
+  {
+    "id": 828,
+    "rank": 829,
+    "phrase": "I know how to do it.",
+    "category": "abilities"
+  },
+  {
+    "id": 829,
+    "rank": 830,
+    "phrase": "I don't know how to do it.",
+    "category": "abilities"
+  },
+  {
+    "id": 830,
+    "rank": 831,
+    "phrase": "Can you show me how?",
+    "category": "abilities"
+  },
+  {
+    "id": 831,
+    "rank": 832,
+    "phrase": "I can do it myself.",
+    "category": "abilities"
+  },
+  {
+    "id": 832,
+    "rank": 833,
+    "phrase": "I can't do it.",
+    "category": "abilities"
+  },
+  {
+    "id": 833,
+    "rank": 834,
+    "phrase": "It's impossible.",
+    "category": "abilities"
+  },
+  {
+    "id": 834,
+    "rank": 835,
+    "phrase": "It's possible.",
+    "category": "abilities"
+  },
+  {
+    "id": 835,
+    "rank": 836,
+    "phrase": "I'll try my best.",
+    "category": "abilities"
+  },
+  {
+    "id": 836,
+    "rank": 837,
+    "phrase": "I don't need it.",
+    "category": "needs"
+  },
+  {
+    "id": 837,
+    "rank": 838,
+    "phrase": "I need a charger.",
+    "category": "needs"
+  },
+  {
+    "id": 838,
+    "rank": 839,
+    "phrase": "I need some rest.",
+    "category": "needs"
+  },
+  {
+    "id": 840,
+    "rank": 840,
+    "phrase": "I need to go to the toilet.",
+    "category": "needs"
+  },
+  {
+    "id": 841,
+    "rank": 841,
+    "phrase": "I want to go home.",
+    "category": "needs"
+  },
+  {
+    "id": 842,
+    "rank": 842,
+    "phrase": "I want to sleep.",
+    "category": "needs"
+  },
+  {
+    "id": 843,
+    "rank": 843,
+    "phrase": "I want to eat something.",
+    "category": "needs"
+  },
+  {
+    "id": 844,
+    "rank": 844,
+    "phrase": "I'd like something to drink.",
+    "category": "needs"
+  },
+  {
+    "id": 845,
+    "rank": 845,
+    "phrase": "I'd like to buy [thing].",
+    "category": "needs"
+  },
+  {
+    "id": 846,
+    "rank": 846,
+    "phrase": "I'd like to book [thing].",
+    "category": "needs"
+  },
+  {
+    "id": 847,
+    "rank": 847,
+    "phrase": "What do you need?",
+    "category": "needs"
+  },
+  {
+    "id": 848,
+    "rank": 848,
+    "phrase": "Do you want [thing]?",
+    "category": "needs"
+  },
+  {
+    "id": 849,
+    "rank": 849,
+    "phrase": "What do you want?",
+    "category": "needs"
+  },
+  {
+    "id": 850,
+    "rank": 850,
     "phrase": "I have to.",
     "category": "needs"
   },
   {
-    "rank": 806,
+    "id": 851,
+    "rank": 851,
     "phrase": "You have to.",
     "category": "needs"
   },
   {
-    "rank": 807,
+    "id": 852,
+    "rank": 852,
     "phrase": "You don't have to.",
     "category": "needs"
   },
   {
-    "rank": 808,
-    "phrase": "You should ...",
+    "id": 853,
+    "rank": 853,
+    "phrase": "You should [activity].",
     "category": "needs"
   },
   {
-    "rank": 809,
-    "phrase": "You shouldn't ...",
+    "id": 854,
+    "rank": 854,
+    "phrase": "You shouldn't [activity].",
     "category": "needs"
   },
   {
-    "rank": 810,
+    "id": 855,
+    "rank": 855,
     "phrase": "Is it necessary to book?",
     "category": "needs"
   },
   {
-    "rank": 811,
+    "id": 856,
+    "rank": 856,
     "phrase": "What did you do yesterday?",
     "category": "past"
   },
   {
-    "rank": 812,
+    "id": 857,
+    "rank": 857,
     "phrase": "I was at home.",
     "category": "past"
   },
   {
-    "rank": 813,
-    "phrase": "I went to ...",
+    "id": 858,
+    "rank": 858,
+    "phrase": "I went to [place].",
     "category": "past"
   },
   {
-    "rank": 814,
-    "phrase": "I saw a film.",
-    "category": "past"
-  },
-  {
-    "rank": 815,
+    "id": 859,
+    "rank": 859,
     "phrase": "I met a friend.",
     "category": "past"
   },
   {
-    "rank": 816,
+    "id": 860,
+    "rank": 860,
     "phrase": "I worked all day.",
     "category": "past"
   },
   {
-    "rank": 817,
+    "id": 861,
+    "rank": 861,
     "phrase": "I was very tired.",
     "category": "past"
   },
   {
-    "rank": 818,
+    "id": 862,
+    "rank": 862,
     "phrase": "It was great.",
     "category": "past"
   },
   {
-    "rank": 819,
+    "id": 863,
+    "rank": 863,
     "phrase": "It was boring.",
     "category": "past"
   },
   {
-    "rank": 820,
-    "phrase": "It was a long day.",
-    "category": "past"
-  },
-  {
-    "rank": 821,
+    "id": 864,
+    "rank": 864,
     "phrase": "I didn't go.",
     "category": "past"
   },
   {
-    "rank": 822,
+    "id": 865,
+    "rank": 865,
     "phrase": "I didn't know.",
     "category": "past"
   },
   {
-    "rank": 823,
-    "phrase": "I didn't see it.",
-    "category": "past"
-  },
-  {
-    "rank": 824,
+    "id": 866,
+    "rank": 866,
     "phrase": "I've already eaten.",
     "category": "past"
   },
   {
-    "rank": 825,
-    "phrase": "I've already seen it.",
-    "category": "past"
-  },
-  {
-    "rank": 826,
+    "id": 867,
+    "rank": 867,
     "phrase": "I've just arrived.",
     "category": "past"
   },
   {
-    "rank": 827,
+    "id": 868,
+    "rank": 868,
     "phrase": "Have you been here before?",
     "category": "past"
   },
   {
-    "rank": 828,
+    "id": 869,
+    "rank": 869,
     "phrase": "Did you like it?",
     "category": "past"
   },
   {
-    "rank": 829,
+    "id": 870,
+    "rank": 870,
     "phrase": "Did you sleep well?",
     "category": "past"
   },
   {
-    "rank": 830,
+    "id": 871,
+    "rank": 871,
     "phrase": "What did you eat?",
     "category": "past"
   },
   {
-    "rank": 831,
+    "id": 872,
+    "rank": 872,
     "phrase": "Where did you go?",
     "category": "past"
   },
   {
-    "rank": 832,
+    "id": 873,
+    "rank": 873,
     "phrase": "When did you arrive?",
     "category": "past"
   },
   {
-    "rank": 833,
+    "id": 874,
+    "rank": 874,
     "phrase": "How did it go?",
     "category": "past"
   },
   {
-    "rank": 834,
+    "id": 875,
+    "rank": 875,
     "phrase": "It went well.",
     "category": "past"
   },
   {
-    "rank": 835,
+    "id": 876,
+    "rank": 876,
     "phrase": "It didn't go well.",
     "category": "past"
   },
   {
-    "rank": 836,
-    "phrase": "I used to live in ...",
+    "id": 877,
+    "rank": 877,
+    "phrase": "I used to live in [place].",
     "category": "past"
   },
   {
-    "rank": 837,
+    "id": 878,
+    "rank": 878,
     "phrase": "When I was a child ...",
     "category": "past"
   },
   {
-    "rank": 838,
+    "id": 879,
+    "rank": 879,
     "phrase": "What will you do tomorrow?",
     "category": "future"
   },
   {
-    "rank": 839,
+    "id": 880,
+    "rank": 880,
     "phrase": "I will call you.",
     "category": "future"
   },
   {
-    "rank": 840,
+    "id": 881,
+    "rank": 881,
     "phrase": "I will be there.",
     "category": "future"
   },
   {
-    "rank": 841,
+    "id": 882,
+    "rank": 882,
     "phrase": "I'll do it later.",
     "category": "future"
   },
   {
-    "rank": 842,
+    "id": 883,
+    "rank": 883,
     "phrase": "It will be fine.",
     "category": "future"
   },
   {
-    "rank": 843,
-    "phrase": "I'm going to study.",
-    "category": "future"
-  },
-  {
-    "rank": 844,
+    "id": 884,
+    "rank": 884,
     "phrase": "I'm going to travel.",
     "category": "future"
   },
   {
-    "rank": 845,
+    "id": 885,
+    "rank": 885,
     "phrase": "I hope to see you again.",
     "category": "future"
   },
   {
-    "rank": 846,
-    "phrase": "One day I want to ...",
+    "id": 886,
+    "rank": 886,
+    "phrase": "One day I want to [activity].",
     "category": "future"
   },
   {
-    "rank": 847,
-    "phrase": "Next year I will ...",
+    "id": 887,
+    "rank": 887,
+    "phrase": "Next year I will [activity].",
     "category": "future"
   },
   {
-    "rank": 848,
+    "id": 888,
+    "rank": 888,
     "phrase": "Will you come?",
     "category": "future"
   },
   {
-    "rank": 849,
-    "phrase": "What will happen?",
-    "category": "future"
-  },
-  {
-    "rank": 850,
+    "id": 889,
+    "rank": 889,
     "phrase": "We'll talk later.",
     "category": "future"
   },
   {
-    "rank": 851,
+    "id": 890,
+    "rank": 890,
     "phrase": "I'll let you know.",
     "category": "future"
   },
   {
-    "rank": 852,
+    "id": 891,
+    "rank": 891,
     "phrase": "I'll be right back.",
     "category": "future"
   },
   {
-    "rank": 853,
+    "id": 892,
+    "rank": 892,
     "phrase": "It's cloudy.",
     "category": "weather"
   },
   {
-    "rank": 854,
-    "phrase": "It's foggy.",
-    "category": "weather"
-  },
-  {
-    "rank": 855,
-    "phrase": "It's freezing.",
-    "category": "weather"
-  },
-  {
-    "rank": 856,
+    "id": 893,
+    "rank": 893,
     "phrase": "There's a storm.",
     "category": "weather"
   },
   {
-    "rank": 857,
+    "id": 894,
+    "rank": 894,
     "phrase": "What's the temperature?",
     "category": "weather"
   },
   {
-    "rank": 858,
-    "phrase": "It's ... degrees.",
+    "id": 895,
+    "rank": 895,
+    "phrase": "It's [number] degrees.",
     "category": "weather"
   },
   {
-    "rank": 859,
-    "phrase": "Take an umbrella.",
-    "category": "weather"
-  },
-  {
-    "rank": 860,
+    "id": 896,
+    "rank": 896,
     "phrase": "The weather is nice today.",
     "category": "weather"
   },
   {
-    "rank": 861,
-    "phrase": "The weather is bad today.",
-    "category": "weather"
-  },
-  {
-    "rank": 862,
-    "phrase": "It's getting warmer.",
-    "category": "weather"
-  },
-  {
-    "rank": 863,
-    "phrase": "It's getting colder.",
-    "category": "weather"
-  },
-  {
-    "rank": 864,
-    "phrase": "I love summer.",
-    "category": "weather"
-  },
-  {
-    "rank": 865,
-    "phrase": "I don't like winter.",
-    "category": "weather"
-  },
-  {
-    "rank": 866,
+    "id": 897,
+    "rank": 897,
     "phrase": "What's the best season to visit?",
     "category": "weather"
   },
   {
-    "rank": 867,
+    "id": 898,
+    "rank": 898,
     "phrase": "I like you.",
     "category": "relationships"
   },
   {
-    "rank": 868,
+    "id": 899,
+    "rank": 899,
     "phrase": "I love you.",
     "category": "relationships"
   },
   {
-    "rank": 869,
+    "id": 900,
+    "rank": 900,
     "phrase": "You're very kind.",
     "category": "relationships"
   },
   {
-    "rank": 870,
+    "id": 901,
+    "rank": 901,
     "phrase": "You're very nice.",
     "category": "relationships"
   },
   {
-    "rank": 871,
-    "phrase": "You're funny.",
-    "category": "relationships"
-  },
-  {
-    "rank": 872,
-    "phrase": "You're beautiful.",
-    "category": "relationships"
-  },
-  {
-    "rank": 873,
+    "id": 902,
+    "rank": 902,
     "phrase": "You're my best friend.",
     "category": "relationships"
   },
   {
-    "rank": 874,
+    "id": 903,
+    "rank": 903,
     "phrase": "I trust you.",
     "category": "relationships"
   },
   {
-    "rank": 875,
+    "id": 904,
+    "rank": 904,
     "phrase": "I'm here for you.",
     "category": "relationships"
   },
   {
-    "rank": 876,
+    "id": 905,
+    "rank": 905,
     "phrase": "I'm sorry for what I said.",
     "category": "relationships"
   },
   {
-    "rank": 877,
+    "id": 906,
+    "rank": 906,
+    "phrase": "That hurt my feelings.",
+    "category": "relationships"
+  },
+  {
+    "id": 907,
+    "rank": 907,
     "phrase": "Forgive me.",
     "category": "relationships"
   },
   {
-    "rank": 878,
+    "id": 908,
+    "rank": 908,
     "phrase": "It's OK, I forgive you.",
     "category": "relationships"
   },
   {
-    "rank": 879,
+    "id": 909,
+    "rank": 909,
     "phrase": "Can we talk?",
     "category": "relationships"
   },
   {
-    "rank": 880,
+    "id": 910,
+    "rank": 910,
     "phrase": "I need to tell you something.",
     "category": "relationships"
   },
   {
-    "rank": 881,
+    "id": 911,
+    "rank": 911,
     "phrase": "I'm listening.",
     "category": "relationships"
   },
   {
-    "rank": 882,
+    "id": 912,
+    "rank": 912,
+    "phrase": "Thank you for listening.",
+    "category": "relationships"
+  },
+  {
+    "id": 913,
+    "rank": 913,
     "phrase": "Would you like to go out with me?",
     "category": "relationships"
   },
   {
-    "rank": 883,
-    "phrase": "Are you free on Friday?",
+    "id": 914,
+    "rank": 914,
+    "phrase": "Are you free on [day]?",
     "category": "relationships"
   },
   {
-    "rank": 884,
+    "id": 915,
+    "rank": 915,
     "phrase": "I had a lovely evening.",
     "category": "relationships"
   },
   {
-    "rank": 885,
+    "id": 916,
+    "rank": 916,
     "phrase": "Can I see you again?",
     "category": "relationships"
   },
   {
-    "rank": 886,
-    "phrase": "I'm thinking of you.",
-    "category": "relationships"
-  },
-  {
-    "rank": 887,
-    "phrase": "I'm lucky to have you.",
-    "category": "relationships"
-  },
-  {
-    "rank": 888,
-    "phrase": "Hug me.",
-    "category": "relationships"
-  },
-  {
-    "rank": 889,
-    "phrase": "Let's be friends.",
-    "category": "relationships"
-  },
-  {
-    "rank": 890,
-    "phrase": "How did you meet?",
-    "category": "relationships"
-  },
-  {
-    "rank": 891,
-    "phrase": "We've known each other for years.",
-    "category": "relationships"
-  },
-  {
-    "rank": 892,
-    "phrase": "We're just friends.",
-    "category": "relationships"
-  },
-  {
-    "rank": 893,
-    "phrase": "We broke up.",
-    "category": "relationships"
-  },
-  {
-    "rank": 894,
+    "id": 917,
+    "rank": 917,
     "phrase": "How does this work?",
     "category": "technology"
   },
   {
-    "rank": 895,
+    "id": 918,
+    "rank": 918,
     "phrase": "It doesn't work.",
     "category": "technology"
   },
   {
-    "rank": 896,
+    "id": 919,
+    "rank": 919,
     "phrase": "It's broken.",
     "category": "technology"
   },
   {
-    "rank": 897,
-    "phrase": "My phone is dead.",
+    "id": 920,
+    "rank": 920,
+    "phrase": "My phone battery is empty.",
     "category": "technology"
   },
   {
-    "rank": 898,
+    "id": 921,
+    "rank": 921,
     "phrase": "Can I use your charger?",
     "category": "technology"
   },
   {
-    "rank": 899,
+    "id": 922,
+    "rank": 922,
     "phrase": "Can you send me the photo?",
     "category": "technology"
   },
   {
-    "rank": 900,
+    "id": 923,
+    "rank": 923,
     "phrase": "I'll text you.",
     "category": "technology"
   },
   {
-    "rank": 901,
+    "id": 924,
+    "rank": 924,
     "phrase": "Did you get my message?",
     "category": "technology"
   },
   {
-    "rank": 902,
+    "id": 925,
+    "rank": 925,
     "phrase": "I didn't get your message.",
     "category": "technology"
   },
   {
-    "rank": 903,
-    "phrase": "Can I print this?",
-    "category": "technology"
-  },
-  {
-    "rank": 904,
-    "phrase": "My computer is not working.",
-    "category": "technology"
-  },
-  {
-    "rank": 905,
+    "id": 926,
+    "rank": 926,
     "phrase": "I forgot my password.",
     "category": "technology"
   },
   {
-    "rank": 906,
-    "phrase": "Download the app.",
+    "id": 927,
+    "rank": 927,
+    "phrase": "I can't log in.",
     "category": "technology"
   },
   {
-    "rank": 907,
-    "phrase": "The internet is slow.",
-    "category": "technology"
-  },
-  {
-    "rank": 908,
+    "id": 928,
+    "rank": 928,
     "phrase": "I'll send you the link.",
     "category": "technology"
   },
   {
-    "rank": 909,
-    "phrase": "Can we video call?",
-    "category": "technology"
-  },
-  {
-    "rank": 910,
+    "id": 929,
+    "rank": 929,
     "phrase": "Can you hear me now?",
     "category": "technology"
   },
   {
-    "rank": 911,
-    "phrase": "Can you see my screen?",
-    "category": "technology"
-  },
-  {
-    "rank": 912,
+    "id": 930,
+    "rank": 930,
     "phrase": "Where do I sign?",
     "category": "bureaucracy"
   },
   {
-    "rank": 913,
+    "id": 931,
+    "rank": 931,
+    "phrase": "I need time to read this before signing.",
+    "category": "bureaucracy"
+  },
+  {
+    "id": 932,
+    "rank": 932,
     "phrase": "What documents do I need?",
     "category": "bureaucracy"
   },
   {
-    "rank": 914,
+    "id": 933,
+    "rank": 933,
+    "phrase": "Can I do this online?",
+    "category": "bureaucracy"
+  },
+  {
+    "id": 934,
+    "rank": 934,
     "phrase": "I need a copy of this.",
     "category": "bureaucracy"
   },
   {
-    "rank": 915,
+    "id": 935,
+    "rank": 935,
     "phrase": "Here is my ID.",
     "category": "bureaucracy"
   },
   {
-    "rank": 916,
+    "id": 936,
+    "rank": 936,
     "phrase": "Where is the office?",
     "category": "bureaucracy"
   },
   {
-    "rank": 917,
-    "phrase": "Do I need to take a number?",
-    "category": "bureaucracy"
-  },
-  {
-    "rank": 918,
+    "id": 937,
+    "rank": 937,
     "phrase": "How long does it take to process?",
     "category": "bureaucracy"
   },
   {
-    "rank": 919,
+    "id": 938,
+    "rank": 938,
     "phrase": "When will it be ready?",
     "category": "bureaucracy"
   },
   {
-    "rank": 920,
+    "id": 939,
+    "rank": 939,
     "phrase": "I'd like to register.",
     "category": "bureaucracy"
   },
   {
-    "rank": 921,
-    "phrase": "I'd like to apply for ...",
+    "id": 940,
+    "rank": 940,
+    "phrase": "I'd like to apply for [thing].",
     "category": "bureaucracy"
   },
   {
-    "rank": 922,
+    "id": 941,
+    "rank": 941,
     "phrase": "I have an appointment.",
     "category": "bureaucracy"
   },
   {
-    "rank": 923,
-    "phrase": "I'm here to pick up ...",
+    "id": 942,
+    "rank": 942,
+    "phrase": "I'm here to pick up [thing].",
     "category": "bureaucracy"
   },
   {
-    "rank": 924,
+    "id": 943,
+    "rank": 943,
     "phrase": "Who is responsible for this?",
     "category": "bureaucracy"
   },
   {
-    "rank": 925,
+    "id": 944,
+    "rank": 944,
     "phrase": "Can I speak to the manager?",
     "category": "bureaucracy"
   },
   {
-    "rank": 926,
+    "id": 945,
+    "rank": 945,
     "phrase": "I'd like to make a complaint.",
     "category": "bureaucracy"
   },
   {
-    "rank": 927,
-    "phrase": "This is not acceptable.",
-    "category": "bureaucracy"
-  },
-  {
-    "rank": 928,
+    "id": 946,
+    "rank": 946,
     "phrase": "What are the opening hours?",
     "category": "bureaucracy"
   },
   {
-    "rank": 929,
+    "id": 947,
+    "rank": 947,
     "phrase": "Where is the hairdresser?",
     "category": "services"
   },
   {
-    "rank": 930,
+    "id": 948,
+    "rank": 948,
     "phrase": "Just a trim, please.",
     "category": "services"
   },
   {
-    "rank": 931,
-    "phrase": "Not too short, please.",
-    "category": "services"
-  },
-  {
-    "rank": 932,
+    "id": 949,
+    "rank": 949,
     "phrase": "I'd like to send a package.",
     "category": "services"
   },
   {
-    "rank": 933,
+    "id": 950,
+    "rank": 950,
     "phrase": "How much is a stamp?",
     "category": "services"
   },
   {
-    "rank": 934,
+    "id": 951,
+    "rank": 951,
     "phrase": "I'd like to send this by post.",
     "category": "services"
   },
   {
-    "rank": 935,
+    "id": 952,
+    "rank": 952,
     "phrase": "Where is the laundry?",
     "category": "services"
   },
   {
-    "rank": 936,
-    "phrase": "Can you repair this?",
-    "category": "services"
-  },
-  {
-    "rank": 937,
+    "id": 953,
+    "rank": 953,
     "phrase": "How much will the repair cost?",
     "category": "services"
   },
   {
-    "rank": 938,
+    "id": 954,
+    "rank": 954,
     "phrase": "When can I pick it up?",
     "category": "services"
   },
   {
-    "rank": 939,
+    "id": 955,
+    "rank": 955,
     "phrase": "Do I need an appointment?",
     "category": "services"
   },
   {
-    "rank": 940,
-    "phrase": "Is there a waiting list?",
-    "category": "services"
-  },
-  {
-    "rank": 941,
+    "id": 956,
+    "rank": 956,
     "phrase": "Can I book online?",
     "category": "services"
   },
   {
-    "rank": 942,
+    "id": 957,
+    "rank": 957,
     "phrase": "I'd like to cancel my booking.",
     "category": "services"
   },
   {
-    "rank": 943,
+    "id": 958,
+    "rank": 958,
+    "phrase": "I'd like to cancel this subscription.",
+    "category": "services"
+  },
+  {
+    "id": 959,
+    "rank": 959,
     "phrase": "I'd like to change my booking.",
     "category": "services"
   },
   {
-    "rank": 944,
+    "id": 960,
+    "rank": 960,
     "phrase": "Let's go to the mountains.",
     "category": "nature"
   },
   {
-    "rank": 945,
+    "id": 961,
+    "rank": 961,
     "phrase": "Where does this path go?",
     "category": "nature"
   },
   {
-    "rank": 946,
-    "phrase": "Is the water clean?",
+    "id": 962,
+    "rank": 962,
+    "phrase": "Is it safe to swim here?",
     "category": "nature"
   },
   {
-    "rank": 947,
+    "id": 963,
+    "rank": 963,
     "phrase": "Can we swim here?",
     "category": "nature"
   },
   {
-    "rank": 948,
+    "id": 964,
+    "rank": 964,
     "phrase": "Can we camp here?",
     "category": "nature"
   },
   {
-    "rank": 949,
+    "id": 965,
+    "rank": 965,
     "phrase": "What a beautiful view!",
     "category": "nature"
   },
   {
-    "rank": 950,
-    "phrase": "Look at the sunset!",
-    "category": "nature"
-  },
-  {
-    "rank": 951,
+    "id": 966,
+    "rank": 966,
     "phrase": "Are there any dangerous animals?",
     "category": "nature"
   },
   {
-    "rank": 952,
-    "phrase": "The sea is calm today.",
-    "category": "nature"
-  },
-  {
-    "rank": 953,
-    "phrase": "Where can I rent a boat?",
-    "category": "nature"
-  },
-  {
-    "rank": 954,
-    "phrase": "How long is the hike?",
-    "category": "nature"
-  },
-  {
-    "rank": 955,
-    "phrase": "Is it a difficult trail?",
-    "category": "nature"
-  },
-  {
-    "rank": 956,
-    "phrase": "Is this a holiday here?",
-    "category": "culture"
-  },
-  {
-    "rank": 957,
+    "id": 967,
+    "rank": 967,
     "phrase": "What's the tradition here?",
     "category": "culture"
   },
   {
-    "rank": 958,
-    "phrase": "Is it rude to ...?",
+    "id": 968,
+    "rank": 968,
+    "phrase": "Is it rude to [activity]?",
     "category": "culture"
   },
   {
-    "rank": 959,
+    "id": 969,
+    "rank": 969,
     "phrase": "What should I wear?",
     "category": "culture"
   },
   {
-    "rank": 960,
+    "id": 970,
+    "rank": 970,
     "phrase": "Do people tip here?",
     "category": "culture"
   },
   {
-    "rank": 961,
+    "id": 971,
+    "rank": 971,
     "phrase": "How do people say hello here?",
     "category": "culture"
   },
   {
-    "rank": 962,
+    "id": 972,
+    "rank": 972,
     "phrase": "What's typical here?",
     "category": "culture"
   },
   {
-    "rank": 963,
+    "id": 973,
+    "rank": 973,
     "phrase": "What's the local dish?",
     "category": "culture"
   },
   {
-    "rank": 964,
+    "id": 974,
+    "rank": 974,
     "phrase": "What's the local drink?",
     "category": "culture"
   },
   {
-    "rank": 965,
+    "id": 975,
+    "rank": 975,
     "phrase": "Is there a concert tonight?",
     "category": "culture"
   },
   {
-    "rank": 966,
+    "id": 976,
+    "rank": 976,
     "phrase": "Where can I buy tickets for the show?",
     "category": "culture"
   },
   {
-    "rank": 967,
+    "id": 977,
+    "rank": 977,
     "phrase": "What time does the show start?",
     "category": "culture"
   },
   {
-    "rank": 968,
-    "phrase": "When was this built?",
-    "category": "culture"
-  },
-  {
-    "rank": 969,
-    "phrase": "What's the history of this place?",
-    "category": "culture"
-  },
-  {
-    "rank": 970,
-    "phrase": "I'm interested in history.",
-    "category": "culture"
-  },
-  {
-    "rank": 971,
+    "id": 978,
+    "rank": 978,
     "phrase": "I love your country.",
     "category": "culture"
   },
   {
-    "rank": 972,
+    "id": 979,
+    "rank": 979,
     "phrase": "People here are very friendly.",
     "category": "culture"
   },
   {
-    "rank": 973,
+    "id": 980,
+    "rank": 980,
     "phrase": "You can do it!",
     "category": "encouragement"
   },
   {
-    "rank": 974,
+    "id": 981,
+    "rank": 981,
     "phrase": "Don't give up.",
     "category": "encouragement"
   },
   {
-    "rank": 975,
+    "id": 982,
+    "rank": 982,
     "phrase": "Keep going.",
     "category": "encouragement"
   },
   {
-    "rank": 976,
+    "id": 983,
+    "rank": 983,
     "phrase": "You're doing great.",
     "category": "encouragement"
   },
   {
-    "rank": 977,
+    "id": 984,
+    "rank": 984,
     "phrase": "I believe in you.",
     "category": "encouragement"
   },
   {
-    "rank": 978,
+    "id": 985,
+    "rank": 985,
     "phrase": "Everything will be fine.",
     "category": "encouragement"
   },
   {
-    "rank": 979,
+    "id": 986,
+    "rank": 986,
     "phrase": "Take your time.",
     "category": "encouragement"
   },
   {
-    "rank": 980,
-    "phrase": "Relax.",
-    "category": "encouragement"
-  },
-  {
-    "rank": 981,
+    "id": 987,
+    "rank": 987,
     "phrase": "It's not your fault.",
     "category": "encouragement"
   },
   {
-    "rank": 982,
+    "id": 988,
+    "rank": 988,
     "phrase": "It happens.",
     "category": "encouragement"
   },
   {
-    "rank": 983,
+    "id": 989,
+    "rank": 989,
     "phrase": "Don't be afraid.",
     "category": "encouragement"
   },
   {
-    "rank": 984,
-    "phrase": "Cheer up!",
-    "category": "encouragement"
-  },
-  {
-    "rank": 985,
-    "phrase": "It's never too late.",
-    "category": "encouragement"
-  },
-  {
-    "rank": 986,
-    "phrase": "Practice makes perfect.",
-    "category": "encouragement"
-  },
-  {
-    "rank": 987,
+    "id": 990,
+    "rank": 990,
     "phrase": "It was nice talking to you.",
     "category": "farewell"
   },
   {
-    "rank": 988,
+    "id": 991,
+    "rank": 991,
     "phrase": "It was nice meeting you.",
     "category": "farewell"
   },
   {
-    "rank": 989,
+    "id": 992,
+    "rank": 992,
     "phrase": "I have to leave now.",
     "category": "farewell"
   },
   {
-    "rank": 990,
+    "id": 993,
+    "rank": 993,
     "phrase": "Thanks for everything.",
     "category": "farewell"
   },
   {
-    "rank": 991,
+    "id": 994,
+    "rank": 994,
     "phrase": "Say hello to your family.",
     "category": "farewell"
   },
   {
-    "rank": 992,
+    "id": 995,
+    "rank": 995,
     "phrase": "Have a safe trip home.",
     "category": "farewell"
   },
   {
-    "rank": 993,
-    "phrase": "Write to me.",
-    "category": "farewell"
-  },
-  {
-    "rank": 994,
+    "id": 996,
+    "rank": 996,
     "phrase": "Come and visit me.",
     "category": "farewell"
   },
   {
-    "rank": 995,
+    "id": 997,
+    "rank": 997,
     "phrase": "I'll miss you.",
     "category": "farewell"
   },
   {
-    "rank": 996,
+    "id": 998,
+    "rank": 998,
     "phrase": "Until next time.",
     "category": "farewell"
   },
   {
-    "rank": 997,
+    "id": 999,
+    "rank": 999,
     "phrase": "Have a good evening.",
     "category": "farewell"
   },
   {
-    "rank": 998,
-    "phrase": "Sweet dreams.",
-    "category": "farewell"
-  },
-  {
-    "rank": 999,
-    "phrase": "All the best.",
-    "category": "farewell"
-  },
-  {
+    "id": 1000,
     "rank": 1000,
     "phrase": "Good luck with everything.",
     "category": "farewell"
