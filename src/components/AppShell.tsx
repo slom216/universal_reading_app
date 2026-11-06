@@ -8,8 +8,10 @@ import staircase from '../assets/art/footer-staircase.webp';
 export function AppShell() {
   const lastLang = useProgress((s) => s.settings.lastLang);
   const NAV = [
-    { to: '/', label: 'Languages', end: true },
-    ...(lastLang ? [{ to: `/${lastLang}`, label: 'Texts', end: false }] : []),
+    { to: '/', label: 'Home', end: true },
+    // Back to the last language read, else the reading language picker.
+    { to: lastLang ? `/${lastLang}` : '/reading', label: 'Reading', end: false },
+    { to: '/phrases', label: 'Phrases', end: false },
     { to: '/progress', label: 'Progress', end: false },
     { to: '/settings', label: 'Settings', end: false },
   ];

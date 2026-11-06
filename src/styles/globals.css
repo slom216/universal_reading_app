@@ -615,6 +615,10 @@ a.button--primary::after,
   gap: var(--space-2);
 }
 
+.level-grid--two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .level-card {
   display: flex;
   flex-direction: column;
@@ -789,6 +793,32 @@ a.button--primary::after,
   flex: 1;
   gap: 2px;
   min-width: 0;
+}
+
+/* Phrasebook */
+.phrase-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.phrase-tools select {
+  font: inherit;
+  padding: 0.35em 0.6em;
+  border: var(--border-width) solid var(--color-border-strong);
+  border-radius: var(--radius-sm, 8px);
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.phrase__text {
+  font-size: var(--text-lg);
+}
+
+.phrase__play {
+  flex: 0 0 auto;
+  min-width: 2.75rem;
 }
 
 /* Reader */

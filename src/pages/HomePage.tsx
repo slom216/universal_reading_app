@@ -21,7 +21,7 @@ export function HomePage() {
   return (
     <div className="stack">
       <p className="text-sm">
-        <Link to="/">← All languages</Link>
+        <Link to="/reading">← All languages</Link>
       </p>
       <section className="hero">
         <div className="hero__copy">

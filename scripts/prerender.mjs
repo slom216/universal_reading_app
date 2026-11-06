@@ -127,14 +127,52 @@ ${related.map((r) => `<li><a href="/${lang}/text/${r.id}">${esc(r.title)}</a></l
   }
 }
 
-// The home page doubles as the SPA fallback, so it gets only the language links.
+// Phrasebook: one page per language listing every phrase in rank order.
+const english = JSON.parse(readFileSync('1000_phrases_claude.json', 'utf8')).sort(
+  (a, b) => a.rank - b.rank,
+);
+const phraseLinks = Object.entries(LANGS)
+  .map(([id, l]) => `<li><a href="/phrases/${id}">${l.name} phrases</a></li>`)
+  .join('\n');
+write(
+  '/reading',
+  'Graded reading texts in seven languages · DeuLern Polyglot',
+  'Free graded reading texts in Italian, Spanish, French, Russian, Interslavic, Turkish and Portuguese for A1, A2 and B1, with glossary and comprehension questions.',
+  `<h1>Graded reading texts in seven languages</h1>\n<ul>\n${langLinks}\n</ul>`,
+);
+write(
+  '/phrases',
+  'Everyday phrases in seven languages · DeuLern Polyglot',
+  'The 1000 most useful everyday phrases in Italian, Spanish, French, Russian, Interslavic, Turkish and Portuguese, ordered by how useful they are.',
+  `<h1>Everyday phrases in seven languages</h1>\n<ul>\n${phraseLinks}\n</ul>`,
+);
+urls.push('/reading', '/phrases');
+for (const [lang, { name }] of Object.entries(LANGS)) {
+  const tr = JSON.parse(readFileSync(`src/content/phrases/${lang}.json`, 'utf8'));
+  write(
+    `/phrases/${lang}`,
+    `1000 everyday ${name} phrases · DeuLern Polyglot`,
+    `The 1000 most useful ${name} phrases with English translations, from greetings to emergencies, ordered by how useful they are.`,
+    `<h1>1000 everyday ${name} phrases</h1>
+<ol>
+${english.map((p) => `<li><span lang="${lang}">${esc(tr[p.id])}</span> · ${esc(p.phrase)}</li>`).join('\n')}
+</ol>
+<h2>Other languages</h2>
+<ul>
+${phraseLinks}
+</ul>`,
+  );
+  urls.push(`/phrases/${lang}`);
+}
+
+// The home page doubles as the SPA fallback, so it gets only the section links.
 writeFileSync(
   'dist/index.html',
   page(
     '/',
     'DeuLern Polyglot',
-    'Free graded reading texts in Italian, Spanish, French, Russian, Interslavic, Turkish and Portuguese for A1, A2 and B1, with glossary and comprehension questions. No account needed.',
-    `<h1>DeuLern Polyglot: graded reading texts in seven languages</h1>\n<ul>\n${langLinks}\n</ul>`,
+    'Free graded reading texts and the 1000 most useful everyday phrases in Italian, Spanish, French, Russian, Interslavic, Turkish and Portuguese. No account needed.',
+    `<h1>DeuLern Polyglot: reading texts and everyday phrases in seven languages</h1>\n<ul>\n<li><a href="/reading">Graded reading texts</a></li>\n<li><a href="/phrases">Everyday phrases</a></li>\n</ul>\n<ul>\n${langLinks}\n</ul>`,
   ).replace(/\n\s*<link rel="canonical"[^>]*>/, ''),
 );
 

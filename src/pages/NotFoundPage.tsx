@@ -5,7 +5,7 @@ export function NotFoundPage() {
     <div className="stack">
       <h1>Page not found</h1>
       <p>
-        <Link to="/">Back to all languages</Link>
+        <Link to="/">Back to the home page</Link>
       </p>
     </div>
   );

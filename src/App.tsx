@@ -3,9 +3,11 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { AppShell } from './components/AppShell';
 import { LangLayout } from './components/LangLayout';
 import { HomePage } from './pages/HomePage';
+import { HubPage } from './pages/HubPage';
 import { PickerPage } from './pages/PickerPage';
 import { LevelPage } from './pages/LevelPage';
 import { NotFoundPage } from './pages/NotFoundPage';
+import { PhrasebookPage, PhrasesPage } from './pages/PhrasesPage';
 import { ProgressPage } from './pages/ProgressPage';
 import { ReaderPage } from './pages/ReaderPage';
 import { SettingsPage } from './pages/SettingsPage';
@@ -23,7 +25,10 @@ export function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<AppShell />}>
-          <Route index element={<PickerPage />} />
+          <Route index element={<HubPage />} />
+          <Route path="reading" element={<PickerPage />} />
+          <Route path="phrases" element={<PhrasebookPage />} />
+          <Route path="phrases/:lang" element={<PhrasesPage />} />
           <Route path="progress" element={<ProgressPage />} />
           <Route path="settings" element={<SettingsPage />} />
           <Route path=":lang" element={<LangLayout />}>
