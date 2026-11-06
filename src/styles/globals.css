@@ -1,0 +1,1185 @@
+@import './tokens.css';
+
+/**
+ * DeuLern poster collage (INSTRUCTIONS_FOR_NEW_LANUGAGES.md, section 4): cream paper with a faint grain, black
+ * ink, heavy geometric headlines, red for every action, blue for labels and
+ * links, cut-paper art. Corners are trimmed paper, not pills, and there are no
+ * shadows — depth comes from overlapping paper.
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  /* The table the poster sheet lies on; only shows past --sheet. */
+  background: var(--color-table);
+}
+
+body {
+  margin: 0;
+  max-width: var(--sheet);
+  margin-inline: auto;
+  overflow-x: clip; /* edge art bleeds to the sheet edge, never past it */
+  background: var(--color-bg) var(--paper-grain);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  font-weight: 500; /* body-md */
+  line-height: var(--leading-normal);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Outfit 800, tight: the poster's headline voice. */
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+  margin: 0 0 var(--space-3);
+}
+
+h1 {
+  font-size: var(--text-3xl);
+  letter-spacing: var(--tracking-display);
+}
+
+h2 {
+  font-size: var(--text-2xl);
+}
+
+h3 {
+  font-size: var(--text-xl);
+}
+
+/* Below headline-sm the scale runs out; body-lg at heading weight fills in. */
+h4 {
+  font-size: var(--text-lg);
+}
+
+p {
+  margin: 0 0 var(--space-3);
+}
+
+/* Exercises group their inputs in a fieldset; the browser default frame and
+   legend placement fight the layout, so both are reset. */
+fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: var(--space-4);
+}
+
+ul,
+ol {
+  margin: 0 0 var(--space-3);
+  padding-left: var(--space-5);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-offset);
+  border-radius: var(--radius-sm);
+}
+
+/* ------------------------------------------------------------------ */
+/* Layout                                                              */
+/* ------------------------------------------------------------------ */
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.skip-link {
+  position: absolute;
+  /* above the sticky header */
+  left: var(--space-3);
+  top: -4rem;
+  z-index: 40;
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: var(--border-width) solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  transition: top var(--transition-fast);
+}
+
+.skip-link:focus {
+  top: var(--space-3);
+}
+
+/* Sticky, so it carries the same paper as the page. The hairline under it runs
+   the content width, not the sheet's. */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--color-bg) var(--paper-grain);
+}
+
+.app-header__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  min-height: var(--header-height);
+  max-width: var(--shell-max-width);
+  margin: 0 auto;
+  padding: var(--space-3) var(--container-padding) 0;
+}
+
+.app-header__bar {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3) var(--space-5);
+  min-height: 76px;
+  border-bottom: var(--border-width) solid var(--color-border-strong);
+}
+
+.app-main__inner {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: var(--space-6) var(--container-padding) var(--space-6);
+}
+
+/* Mark, wordmark, a hairline, then the app's name — the deulern.com lockup. */
+.app-brand {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text);
+  text-decoration: none;
+  line-height: 1;
+}
+
+.app-brand__mark {
+  width: 34px;
+  height: auto;
+}
+
+.app-brand__word {
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.app-brand__app {
+  margin-left: var(--space-5);
+  padding-left: var(--space-5);
+  border-left: var(--border-width) solid var(--color-border-strong);
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.app-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  margin-inline: auto;
+}
+
+.app-nav__link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  min-height: var(--tap-target);
+  padding: var(--space-2) var(--space-1);
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-size: var(--text-md);
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.app-nav__link:hover {
+  color: var(--color-text);
+}
+
+.app-nav__link[aria-current='page'] {
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+/* The active item is marked by a red rule, not only by weight. */
+.app-nav__link[aria-current='page']::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 3px;
+  background: var(--color-red);
+}
+
+.app-main {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+
+/* Focus lands here after each navigation so the page is announced; it is not
+   a control, so it gets no ring. */
+.app-main:focus {
+  outline: none;
+}
+
+/* A hairline, the lockup and the note; the staircase art rises out of the sheet's
+   bottom-right corner behind the page. */
+.app-footer {
+  position: relative;
+  font-size: var(--text-xs);
+}
+
+.app-footer__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  max-width: var(--shell-max-width);
+  margin: 0 auto;
+  padding: 0 calc(var(--container-padding) + 120px) 0 var(--container-padding);
+}
+
+.app-footer__bar {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: var(--space-5);
+  padding-block: var(--space-4) var(--space-5);
+  border-top: var(--border-width) solid var(--color-border-strong);
+}
+
+.app-footer__brand {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding-right: var(--space-5);
+  border-right: var(--border-width) solid var(--color-border-strong);
+  color: var(--color-text);
+  font-size: 1.375rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+}
+
+.app-footer__brand img {
+  width: 30px;
+  height: auto;
+}
+
+.app-footer__note {
+  max-width: 62rem;
+  margin: 0;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+.app-footer__note a {
+  color: var(--color-text);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.app-footer__note a:hover {
+  color: var(--color-headline-accent);
+}
+
+.app-footer__art {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  width: 206px;
+  max-width: none;
+  pointer-events: none;
+}
+
+/* ------------------------------------------------------------------ */
+/* Layout and text utilities                                           */
+/* ------------------------------------------------------------------ */
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.stack--tight {
+  gap: var(--space-2);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+}
+
+.prose {
+  max-width: var(--reading-max-width);
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+.text-sm {
+  font-size: var(--text-sm);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+/** Small tracked capitals in blue above a heading. Used sparingly. */
+.eyebrow {
+  display: block;
+  margin-bottom: var(--space-2);
+  font-size: var(--text-sm);
+  font-weight: 800;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.page-header {
+  display: grid;
+  gap: var(--space-3);
+  max-width: var(--reading-max-width);
+}
+
+.page-header h1 {
+  margin: 0;
+}
+
+.lead {
+  margin: 0;
+  font-size: var(--text-lg);
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+/** A lifted sheet of paper: a lighter cream, a hairline, trimmed corners. */
+.card {
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: var(--border-width) solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+}
+
+/* Poster buttons: square-cut, bold. Red is the one action colour. */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: 44px;
+  min-width: var(--tap-target);
+  padding: 10px 24px;
+  border-radius: var(--radius-md);
+  border: 2px solid transparent;
+  font: inherit;
+  font-size: var(--text-md);
+  font-weight: 700;
+  letter-spacing: var(--tracking-wide);
+  line-height: 1.2;
+  cursor: pointer;
+  text-decoration: none;
+  transition:
+    background-color var(--transition-fast),
+    border-color var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.button--primary {
+  background: var(--color-red);
+  color: var(--color-on-red);
+}
+
+.button--primary:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--color-red) 80%, #141414);
+  color: var(--color-on-red);
+}
+
+/* A link that goes somewhere carries the poster's arrow. Drawn as a mask rather
+   than the → glyph, which sits low and thin in Manrope. */
+a.button--primary::after,
+.button--arrow::after {
+  content: '';
+  flex: none;
+  width: 18px;
+  height: 14px;
+  margin-left: var(--space-1);
+  background: currentColor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 14'%3E%3Cpath d='M0 7h15M10 1.5 15.5 7 10 12.5' fill='none' stroke='black' stroke-width='2.2'/%3E%3C/svg%3E")
+    center / contain no-repeat;
+}
+
+/* Outlined in ink on the lighter cream. */
+.button--secondary {
+  background: var(--color-surface);
+  color: var(--color-text);
+  border-color: var(--color-text);
+}
+
+.button--secondary:hover:not(:disabled) {
+  background: var(--color-text);
+  color: var(--color-bg);
+}
+
+/* The ghost (tertiary) button: text-only, label-md, square, no fill. It keeps
+   inline padding and a 44px hit area so it still clears the tap target. */
+.button--ghost {
+  background: transparent;
+  color: var(--color-text);
+  padding: 0 var(--space-4);
+  min-height: var(--tap-target);
+  border-radius: 0;
+  font-size: var(--text-label);
+  font-weight: 500;
+}
+
+.button--ghost:hover:not(:disabled) {
+  color: var(--color-accent);
+  background: transparent;
+}
+
+/* The one place the restrained error red appears as an action: outlined, so it
+   stays visually secondary to the cheerful palette. */
+.button--danger {
+  background: transparent;
+  color: var(--color-danger);
+  border-color: var(--color-danger-border);
+}
+
+.button--danger:hover:not(:disabled) {
+  background: var(--color-danger-soft);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* ------------------------------------------------------------------ */
+/* DeuLern Polyglot                                                     */
+/* ------------------------------------------------------------------ */
+
+.app-header__end {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+/* A bare icon beside the deulern.com link; it takes the accent on hover. */
+.theme-toggle {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: var(--tap-target);
+  height: var(--tap-target);
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+
+.theme-toggle:hover {
+  color: var(--color-headline-accent);
+}
+
+.app-header__home.button {
+  flex: 0 0 auto;
+  min-height: 44px;
+  padding: 8px 22px;
+  background: transparent;
+  font-size: var(--text-md);
+}
+
+.app-header__home.button:hover {
+  background: var(--color-text);
+}
+
+/* Level label: a square-cut tab in the art's light blue. */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  padding: 5px 10px;
+  border-radius: var(--radius-md);
+  background: var(--color-sky);
+  color: var(--color-ink-fixed);
+  font-size: var(--text-sm);
+  font-weight: 800;
+  line-height: 1.33;
+  white-space: nowrap;
+}
+
+.chip--soft {
+  background: var(--color-surface-muted);
+  color: var(--color-text-muted);
+}
+
+.spacer {
+  flex: 1;
+}
+
+/* Home: copy on the left, the reading collage at native size on the right. */
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--space-5);
+  align-items: center;
+}
+
+.hero__copy {
+  max-width: 40rem;
+}
+
+.hero .eyebrow {
+  margin-bottom: var(--space-3);
+}
+
+/* The poster line: Outfit 800, very tight, the second phrase in red. */
+.hero h1 {
+  margin: 0 0 var(--space-4);
+  font-size: clamp(3rem, 6.4vw, 5.75rem);
+  line-height: 0.9;
+  letter-spacing: -0.035em;
+  text-wrap: wrap;
+}
+
+.hero__accent {
+  color: var(--color-headline-accent);
+}
+
+.hero__art {
+  width: 743px;
+  max-width: 100%;
+  height: auto;
+  margin-right: calc(-1 * var(--container-padding) + var(--space-5));
+  margin-top: calc(-1 * var(--space-5));
+}
+
+.level-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-2);
+}
+
+.level-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-4) var(--space-3);
+}
+
+/* The three crops are 161–167px tall. A frame of the tallest one's proportions,
+   art sat on its bottom edge, keeps the chips and titles level across the row. */
+.level-card__frame {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: min(100%, 410px);
+  aspect-ratio: 410 / 167;
+  /* An aspect-ratio box grows to its content by default; the art must fit it. */
+  min-height: 0;
+  align-self: center;
+}
+
+/* Fits the frame, never larger than native. */
+.level-card__art {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.level-card .chip {
+  margin-top: var(--space-1);
+}
+
+.level-card h2 {
+  font-size: clamp(1.75rem, 2.6vw, 2.25rem);
+  letter-spacing: var(--tracking-tight);
+  overflow-wrap: anywhere;
+}
+
+.level-card h2,
+.level-card p {
+  margin: 0;
+}
+
+.level-card__blurb {
+  font-size: var(--text-lg);
+  line-height: 1.4;
+  color: var(--color-text-muted);
+}
+
+.level-card__meta {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+}
+
+.level-card .progress-bar {
+  margin-top: var(--space-2);
+}
+
+.level-card__actions {
+  display: grid;
+  gap: var(--space-3);
+  margin-top: auto;
+  padding-top: var(--space-1);
+}
+
+.level-card__actions .button {
+  width: 100%;
+}
+
+.upcoming-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.upcoming-list__en {
+  font-weight: 600;
+}
+
+.lang-grid {
+  display: grid;
+  /* At most 3 columns: each track is at least a third of the row. */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(max(15rem, calc((100% - 2 * var(--space-2)) / 3)), 1fr)
+  );
+  gap: var(--space-2);
+}
+
+.level-card__next {
+  color: var(--color-text-muted);
+  font-size: var(--text-base);
+  text-decoration: none;
+}
+
+.level-card__next b {
+  color: var(--color-text);
+}
+
+.level-card__next:hover {
+  color: var(--color-headline-accent);
+}
+
+.progress-bar {
+  height: 10px;
+  border-radius: var(--radius-full);
+  background: var(--color-track);
+  overflow: hidden;
+}
+
+.progress-bar > span {
+  display: block;
+  height: 100%;
+  background: var(--color-accent);
+}
+
+/* Level text list */
+.text-list {
+  display: grid;
+  gap: var(--space-3);
+  padding: 0;
+  list-style: none;
+  max-width: 48rem;
+}
+
+.text-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  color: var(--color-text);
+  text-decoration: none;
+  transition: border-color var(--transition-fast);
+}
+
+.text-card:hover {
+  color: var(--color-text);
+  border-color: var(--color-border-strong);
+}
+
+.text-card__num {
+  flex: 0 0 auto;
+  width: 2.5rem;
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 800;
+  color: var(--color-accent);
+  text-align: center;
+}
+
+.text-card__body {
+  display: grid;
+  flex: 1;
+  gap: 2px;
+  min-width: 0;
+}
+
+/* Reader */
+.reader {
+  max-width: var(--reading-max-width);
+}
+
+.reader header h1 {
+  margin: 0;
+}
+
+.reader__audio {
+  width: 100%;
+}
+
+.reading {
+  --reading-size: 1.1875rem;
+  font-size: var(--reading-size);
+  line-height: 1.75;
+}
+
+[data-font='s'] .reading,
+.reading[data-font='s'] {
+  --reading-size: 1rem;
+}
+
+[data-font='l'] .reading,
+.reading[data-font='l'] {
+  --reading-size: 1.375rem;
+}
+
+[data-font='xl'] .reading,
+.reading[data-font='xl'] {
+  --reading-size: 1.625rem;
+}
+
+.reading p {
+  margin-bottom: 1em;
+}
+
+.gloss {
+  position: relative;
+}
+
+.gloss__word {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: underline dotted var(--color-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.25em;
+}
+
+.gloss__word[aria-expanded='true'] {
+  background: var(--color-accent-soft);
+  border-radius: var(--radius-sm);
+}
+
+.gloss__tip {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 4px);
+  z-index: 10;
+  width: max-content;
+  max-width: min(18rem, 80vw);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  background: var(--color-ink-fixed);
+  color: var(--color-on-red);
+  font-size: var(--text-sm);
+  line-height: 1.4;
+  box-shadow: var(--shadow-md);
+}
+
+.glossary {
+  display: grid;
+  margin: 0;
+  border-top: var(--border-width) solid var(--color-border);
+}
+
+.glossary__row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: var(--space-3);
+  padding: var(--space-2) 0;
+  border-bottom: var(--border-width) solid var(--color-border);
+}
+
+.glossary dt {
+  font-weight: 700;
+}
+
+.glossary dd {
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+/* Quiz */
+.quiz__q legend {
+  /* Floated so the legend sits inside the card instead of on its border. */
+  float: left;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+  font-weight: 700;
+  font-size: var(--text-md);
+}
+
+.quiz__num {
+  color: var(--color-accent);
+}
+
+.quiz__choices {
+  clear: both;
+  display: grid;
+  gap: var(--space-1);
+}
+
+.quiz__choices--row {
+  grid-template-columns: repeat(2, minmax(0, 12rem));
+}
+
+.quiz__choice {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--tap-target);
+  padding: 0 var(--space-3);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+}
+
+.quiz__choice:has(input:checked) {
+  border-color: var(--color-accent);
+  background: var(--color-accent-soft);
+}
+
+.quiz__choice input {
+  accent-color: var(--color-accent);
+}
+
+.quiz__q.is-right {
+  border-color: var(--color-success-border);
+}
+
+.quiz__q.is-wrong {
+  border-color: var(--color-danger-border);
+}
+
+.quiz__feedback {
+  margin: var(--space-3) 0 0;
+  font-weight: 600;
+}
+
+.is-right .quiz__feedback {
+  color: var(--color-success);
+}
+
+.is-wrong .quiz__feedback {
+  color: var(--color-danger);
+}
+
+.quiz__result {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  background: var(--color-surface-muted);
+}
+
+.quiz__result.is-perfect {
+  background: color-mix(in oklab, var(--color-mustard) 22%, var(--color-surface));
+  border-color: var(--color-mustard);
+}
+
+.quiz__praise {
+  margin: var(--space-1) 0 0;
+}
+
+.quiz__score {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 800;
+}
+
+.reader__pager {
+  padding-top: var(--space-5);
+  border-top: var(--border-width) solid var(--color-border);
+}
+
+/* Progress */
+.stats {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+}
+
+.stat {
+  display: grid;
+  gap: var(--space-1);
+  padding: var(--space-4);
+}
+
+.stat__value {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  font-weight: 800;
+  line-height: 1;
+}
+
+.stat__label {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.calendar {
+  max-width: 26rem;
+}
+
+.calendar__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calendar__head h3 {
+  margin: 0;
+  font-size: var(--text-lg);
+}
+
+.calendar__grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+  text-align: center;
+}
+
+.calendar__weekday {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: var(--color-text-muted);
+}
+
+.calendar__day {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  border-radius: var(--radius-sm);
+  font-size: var(--text-sm);
+}
+
+.heat-0 {
+  background: var(--color-heat-0);
+}
+.heat-1 {
+  background: var(--color-heat-1);
+}
+.heat-2 {
+  background: var(--color-heat-2);
+}
+.heat-3 {
+  background: var(--color-heat-3);
+  color: var(--color-on-accent);
+}
+.heat-4 {
+  background: var(--color-heat-4);
+  color: var(--color-on-accent);
+}
+
+.calendar__day.is-today {
+  outline: 2px solid var(--color-red);
+  outline-offset: 1px;
+  font-weight: 800;
+}
+
+.table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.table th,
+.table td {
+  padding: var(--space-2);
+  border-bottom: var(--border-width) solid var(--color-border);
+  text-align: left;
+}
+
+.table th:not(:first-child) {
+  width: 4.5rem;
+}
+
+.table th:not(:first-child),
+.table td:not(:first-child) {
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Settings */
+.segmented {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.segmented label {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  min-height: var(--tap-target);
+  padding: 0 var(--space-4);
+  border: var(--border-width) solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.segmented label:has(input:checked) {
+  background: var(--color-accent-fill);
+  color: var(--color-on-accent);
+  border-color: var(--color-accent-fill);
+}
+
+.segmented input {
+  position: absolute;
+  opacity: 0;
+}
+
+.segmented label:has(input:focus-visible),
+label.button:has(input:focus-visible) {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-offset);
+}
+
+@media (max-width: 75rem) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .hero__art {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 62rem) {
+  .level-grid {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 30rem;
+  }
+
+  .app-footer__art {
+    display: none;
+  }
+
+  .app-footer__inner {
+    padding-right: var(--container-padding);
+  }
+}
+
+@media (max-width: 48rem) {
+  .app-header__bar {
+    padding-bottom: var(--space-2);
+  }
+
+  .app-nav {
+    order: 3;
+    width: 100%;
+    margin-inline: 0;
+  }
+
+  /* The toggle and the link wrap as one pair, pushed to the right. */
+  .app-header__end {
+    margin-left: auto;
+  }
+
+  .app-brand__word {
+    font-size: 1.375rem;
+  }
+
+  .app-brand__app {
+    margin-left: var(--space-2);
+    padding-left: var(--space-3);
+    font-size: 1.125rem;
+  }
+
+  .app-footer__bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-3);
+  }
+
+  .app-footer__brand {
+    border-right: 0;
+  }
+}
+
+@media (max-width: 40rem) {
+  .reader__pager .button {
+    width: 100%;
+  }
+}

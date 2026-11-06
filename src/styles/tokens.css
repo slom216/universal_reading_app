@@ -1,0 +1,178 @@
+/**
+ * Shared design tokens — the DeuLern poster collage (see INSTRUCTIONS_FOR_NEW_LANUGAGES.md, section 4). The palette
+ * and fonts are the deulern.com site's: cream paper, black ink, signal red for
+ * actions, blue for labels and links, mustard in the art and the weak-spot bars.
+ * Components only reference these variables, never raw colour or spacing values.
+ *
+ * Each `light-dark()` pair is light paper / night paper. The active side is
+ * chosen by `color-scheme`, which follows the OS by default and is overridden
+ * by the `data-theme` attribute the app stamps on <html> when the learner
+ * picks a theme explicitly (absent attribute = follow the system).
+ */
+
+/* Heavy geometric sans — the big poster headlines. */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../assets/fonts/outfit-800-latin.woff2') format('woff2');
+}
+
+/* č š ž ě ć đ for Interslavic headlines. Outfit has no Cyrillic: Russian falls back to Manrope 800. */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../assets/fonts/outfit-800-latin-ext.woff2') format('woff2');
+  unicode-range:
+    U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308,
+    U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0,
+    U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+:root {
+  color-scheme: light dark;
+
+  /* Spacing — the 6 / 14 / 28 / 40 / 88 ladder with interpolated steps. */
+  --space-1: 0.375rem; /* 6  */
+  --space-2: 0.625rem; /* 10 */
+  --space-3: 0.875rem; /* 14 */
+  --space-4: 1.25rem; /* 20 */
+  --space-5: 1.75rem; /* 28 */
+  --space-6: 2.5rem; /* 40 */
+  --space-7: 3.5rem; /* 56 */
+  --space-8: 4.5rem; /* 72 */
+  --space-9: 5.5rem; /* 88 */
+
+  /* Page gutter: 16px on phones, 44px on desktop to leave room for edge art. */
+  --container-padding: clamp(16px, 4vw, 44px);
+
+  --font-sans:
+    'Manrope Variable', 'Manrope', ui-sans-serif, system-ui, -apple-system, 'Segoe UI',
+    Roboto, Arial, sans-serif;
+  --font-display:
+    'Outfit', 'Manrope Variable', 'Futura', 'Century Gothic', system-ui, sans-serif;
+  --font-mono: ui-monospace, 'SFMono-Regular', 'Menlo', 'Consolas', monospace;
+
+  --text-xs: 0.75rem; /* 12 */
+  --text-label: 0.8125rem; /* 13 */
+  --text-sm: 0.875rem; /* 14 */
+  --text-base: 0.9375rem; /* 15 */
+  --text-md: 1rem; /* 16 — buttons */
+  --text-lg: 1.125rem; /* 18 */
+  --text-xl: clamp(1.5rem, 3vw, 1.875rem); /* 30 — section titles */
+  --text-2xl: clamp(1.75rem, 4vw, 2.25rem); /* 36 */
+  --text-3xl: clamp(2.25rem, 5vw, 3rem); /* 48 */
+  --text-4xl: clamp(2.75rem, 6.4vw, 4.25rem); /* 68 — the poster line */
+
+  --leading-normal: 1.53;
+  --leading-tight: 1.05;
+  --tracking-tight: -0.015em;
+  --tracking-display: -0.03em;
+  --tracking-wide: 0;
+  --tracking-label: 0.14em; /* tracked capitals: eyebrows, footer headings */
+
+  /* Trimmed paper, not app chrome. Only chips and the streak badge are pills. */
+  --radius-sm: 2px;
+  --radius-md: 3px;
+  --radius-lg: 3px;
+  --radius-xl: 4px;
+  --radius-full: 9999px;
+  --border-width: 1px;
+  /* No shadows in the poster; only floating layers (modal, update prompt) keep one. */
+  --shadow-sm: none;
+  --shadow-md: 0 10px 30px light-dark(rgb(20 20 20 / 18%), rgb(0 0 0 / 55%));
+
+  /* Layout. The page is one poster sheet, like deulern.com. The art is cut at native
+     size from a 1536px mockup whose content runs ~1340px wide, so the sheet stops at
+     1440px; past that it sits on a darker table. */
+  --sheet: 1440px;
+  --shell-max-width: var(--sheet);
+  --content-max-width: var(--sheet);
+  --reading-max-width: 43rem;
+  --tap-target: 44px;
+  --header-height: 60px;
+  --icon-size: 20px;
+  --icon-size-lg: 24px;
+
+  --transition-fast: 160ms ease;
+  --transition-medium: 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  /* Brand constants — the same in both themes. */
+  --color-red: #c63f1e; /* buttons carry cream text: 4.7:1 */
+  --color-on-red: #fbf5ea;
+  --color-mustard: #f2a82c;
+  --color-sky: #5aa3e8; /* the art's light blue, for the level chips; ink text 7:1 */
+  --color-ink-fixed: #141414;
+  --color-error: #c63f1e;
+  --color-overlay: light-dark(#141414b3, #000000cc);
+
+  /* Paper and ink */
+  --color-table: light-dark(#cfc4ae, #100f0d);
+  --color-bg: light-dark(#e6ddcc, #1c1a17);
+  --color-surface: light-dark(#efe8db, #25221e); /* lifted cards, fields */
+  --color-surface-muted: light-dark(#ddd3c0, #2e2a25);
+  --color-border: light-dark(#14141426, #efe6d626);
+  --color-border-strong: light-dark(#14141480, #efe6d680);
+  --color-track: light-dark(#d3c9b6, #3a352e); /* empty bars and rings */
+  --color-text: light-dark(#141414, #efe6d6);
+  --color-text-muted: light-dark(#3f3a33, #b8ad9a);
+  --color-text-inverse: light-dark(#fbf5ea, #141414);
+
+  /* Emphasis, links, selected states, progress: the poster's blue. */
+  --color-accent: light-dark(#2f5f8f, #8fb3dc);
+  --color-accent-hover: light-dark(#1f4570, #b3cdea);
+  --color-accent-soft: color-mix(in oklab, var(--color-accent) 14%, var(--color-bg));
+  --color-accent-fill: light-dark(#2f5f8f, #8fb3dc);
+  --color-on-accent: light-dark(#fbf5ea, #141414);
+  /* The red headline phrase. Large text only in dark. */
+  --color-headline-accent: light-dark(#c63f1e, #e8603f);
+
+  /* The palette has no green: success is the blue, like every earned state. */
+  --color-success: var(--color-accent);
+  --color-success-soft: var(--color-accent-soft);
+  --color-success-border: var(--color-accent);
+  --color-danger: light-dark(#b0381a, #f08a6e);
+  --color-danger-soft: color-mix(in oklab, var(--color-red) 12%, var(--color-bg));
+  --color-danger-border: var(--color-danger);
+  /* Mustard is too light for text on paper, so warning text is a burnt ochre. */
+  --color-warning: light-dark(#7a4f00, var(--color-mustard));
+  --color-warning-soft: color-mix(in oklab, var(--color-mustard) 22%, var(--color-bg));
+  --color-warning-border: light-dark(#b27a12, var(--color-mustard));
+
+  --color-focus: var(--color-accent);
+  --focus-ring: 3px solid var(--color-focus);
+  --focus-offset: 3px;
+
+  /* Sequential ramp for the activity heatmap, 0 (none) to 4 (busiest).
+     These resolve here, on :root, and inherit already-resolved. A surface that
+     re-declares its colour tokens has to restate this ramp too. */
+  --color-heat-0: var(--color-track);
+  --color-heat-1: color-mix(in oklab, var(--color-accent) 30%, var(--color-track));
+  --color-heat-2: color-mix(in oklab, var(--color-accent) 55%, var(--color-track));
+  --color-heat-3: color-mix(in oklab, var(--color-accent) 78%, var(--color-track));
+  --color-heat-4: var(--color-accent);
+
+  /* Paper grain, as on deulern.com. The dark one is lifted to pale fibres. */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .38 0 0 0 0 .28 0 0 0 .08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --grain-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .94 0 0 0 0 .88 0 0 0 0 .78 0 0 0 .06 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --paper-grain: var(--grain);
+}
+
+/* An explicit choice wins over the system setting. */
+:root[data-theme='light'] {
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --paper-grain: var(--grain-dark);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --paper-grain: var(--grain-dark);
+  }
+}

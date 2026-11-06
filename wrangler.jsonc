@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "deulern-polyglot",
+  "compatibility_date": "2026-08-15",
+  "assets": {
+    "directory": "./dist",
+    // SPA fallback: unknown paths serve index.html so deep links work.
+    "not_found_handling": "single-page-application",
+  },
+  "routes": [{ "pattern": "read.deulern.com", "custom_domain": true }],
+  "observability": { "enabled": true },
+}

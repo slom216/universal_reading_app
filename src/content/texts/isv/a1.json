@@ -1,0 +1,7241 @@
+[
+  {
+    "id": "a1-01",
+    "level": "A1",
+    "title": "Zdravo, ja jesm Kasja",
+    "topic": "Personal information",
+    "body": "Zdravo! Moje ime jest Kasja. Imam dvadset lět i živu v Krakovu, v Poljskoj. Studiram medicinu na universitetu. V subotu i nedělju rabotam v malom kafe blizu starogo rynka. Tam pravim kavu i čaj za klientov.\n\nGovorim poljski, anglijski i malo česki. Sejčas učim medžuslovjansky jezyk, zato že hoču razuměti vse slovjanske jezyky.\n\nMoje hobi sut muzika i plavanje. Vo vtorok i četvrtok hodim na bazen. Večerom ljubim čitati knigy ili gledati filmy s prijateljami. Imam takože malu mačku. Ona se zove Mila. Mila jest běla i velmi lěniva. Ona spi cely den na sofě.\n\nA ty? Kako se zoveš i čto ljubiš dělati?",
+    "glossary": [
+      {
+        "term": "ime",
+        "translation": "name"
+      },
+      {
+        "term": "žiti",
+        "translation": "to live",
+        "match": "živu"
+      },
+      {
+        "term": "studirati",
+        "translation": "to study (at university)",
+        "match": "Studiram"
+      },
+      {
+        "term": "rabotati",
+        "translation": "to work",
+        "match": "rabotam"
+      },
+      {
+        "term": "blizu",
+        "translation": "near"
+      },
+      {
+        "term": "kava",
+        "translation": "coffee",
+        "match": "kavu"
+      },
+      {
+        "term": "govoriti",
+        "translation": "to speak",
+        "match": "Govorim"
+      },
+      {
+        "term": "jezyk",
+        "translation": "language"
+      },
+      {
+        "term": "zato že",
+        "translation": "because"
+      },
+      {
+        "term": "plavanje",
+        "translation": "swimming"
+      },
+      {
+        "term": "bazen",
+        "translation": "swimming pool"
+      },
+      {
+        "term": "lěnivy",
+        "translation": "lazy",
+        "match": "lěniva"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde žive Kasja?",
+        "options": [
+          "V Pragě",
+          "V Varšavě",
+          "V Krakovu",
+          "V Gdansku"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto studiruje Kasja?",
+        "options": [
+          "Medicinu",
+          "Pravo",
+          "Muziku",
+          "Jezyky"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Kasja rabotaje v kafe vsaky den.",
+        "answer": false,
+        "explanation": "Ona rabotaje v kafe jedino v subotu i nedělju."
+      },
+      {
+        "type": "mc",
+        "prompt": "Začto Kasja uči medžuslovjansky jezyk?",
+        "options": [
+          "Ona hoče razuměti vse slovjanske jezyky",
+          "Za rabotu v kafe",
+          "Za školu",
+          "Jej mama jest iz Srbije"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Kasja imaje mačku.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kako se zove mačka?",
+        "options": [
+          "Lili",
+          "Kasja",
+          "Mila",
+          "Běla"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-02",
+    "level": "A1",
+    "title": "Moja semja",
+    "topic": "Family",
+    "body": "Zovu se Tomaš. Imam osm lět i živu v Brnu, v Češskoj.\n\nMoja mama se zove Petra. Ona jest učiteljka v školě. Moj otec se zove Jan. On rabotaje v bankě. Imam jednu sestru, Aničku. Ona jest mala, imaje jedino tri lěta. Anička mnogo plače, ale ja ju ljubim.\n\nMoja baba i moj děd žive na selu blizu Brna. V nedělju jedemo k nim na obed. Baba gotovi velmi dobry sup.\n\nNaš dom jest maly, ale imaje veliky sad. V domu jest kuhinja, gostinna i dvě spalnje. Ja imam svoju malu sobu.\n\nImamo takože psa. On se zove Rek. On jest černy i velmi veselo igraje s nami.\n\nJa ljubim moju semju!",
+    "glossary": [
+      {
+        "term": "učiteljka",
+        "translation": "teacher (f.)"
+      },
+      {
+        "term": "banka",
+        "translation": "bank",
+        "match": "bankě"
+      },
+      {
+        "term": "sestra",
+        "translation": "sister",
+        "match": "sestru"
+      },
+      {
+        "term": "plakati",
+        "translation": "to cry",
+        "match": "plače"
+      },
+      {
+        "term": "baba",
+        "translation": "grandmother"
+      },
+      {
+        "term": "děd",
+        "translation": "grandfather"
+      },
+      {
+        "term": "selo",
+        "translation": "village",
+        "match": "selu"
+      },
+      {
+        "term": "obed",
+        "translation": "lunch"
+      },
+      {
+        "term": "sad",
+        "translation": "garden"
+      },
+      {
+        "term": "spalnja",
+        "translation": "bedroom",
+        "match": "spalnje"
+      },
+      {
+        "term": "pes",
+        "translation": "dog",
+        "match": "psa"
+      },
+      {
+        "term": "semja",
+        "translation": "family",
+        "match": "semju"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Koliko lět imaje Tomaš?",
+        "options": [
+          "Pet",
+          "Osm",
+          "Deset",
+          "Tri"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde rabotaje otec?",
+        "options": [
+          "V bankě",
+          "V školě",
+          "Na selu",
+          "V magazinu"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Anička jest starša sestra.",
+        "answer": false,
+        "explanation": "Anička jest mala, ona imaje jedino tri lěta."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde žive baba i děd?",
+        "options": [
+          "Na selu blizu Brna",
+          "V Pragě",
+          "V centru Brna",
+          "V Slovakiji"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Semja imaje psa.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kako se zove pes?",
+        "options": [
+          "Bim",
+          "Jan",
+          "Tomaš",
+          "Rek"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-03",
+    "level": "A1",
+    "title": "Zavtrak v nedělju",
+    "topic": "Food and drink",
+    "body": "Jest nedělja i semja Kovač v Košicah ne spěši. Vsi spet dolgo. Okolo 10:00 mama vari kavu i otec pravi jajca.\n\nNa stolu jest svěži hlěb, maslo, syr, med i domašnji džem od babe. Dočka Lucija pije teplo mlěko s kakaom. Syn Martin ne ljubi mlěko. On pije pomarančevy sok.\n\nOtec čitaje novosti na telefonu. Mama razkazuje o svojej sestrě v Bratislavě. Lucija hoče ješče jedin kus hlěba s medom. Martin govori o futbolu.\n\nPo zavtraku vsi idut na prohodku v park. Tam jest sunce i tiho.\n\nMama govori: «V nedělju ne treba spěšiti. To jest naš najlěpši den.»",
+    "glossary": [
+      {
+        "term": "spěšiti",
+        "translation": "to hurry",
+        "match": "spěši"
+      },
+      {
+        "term": "dolgo",
+        "translation": "for a long time"
+      },
+      {
+        "term": "svěži",
+        "translation": "fresh"
+      },
+      {
+        "term": "hlěb",
+        "translation": "bread"
+      },
+      {
+        "term": "maslo",
+        "translation": "butter"
+      },
+      {
+        "term": "syr",
+        "translation": "cheese"
+      },
+      {
+        "term": "med",
+        "translation": "honey"
+      },
+      {
+        "term": "mlěko",
+        "translation": "milk"
+      },
+      {
+        "term": "sok",
+        "translation": "juice"
+      },
+      {
+        "term": "novosti",
+        "translation": "news"
+      },
+      {
+        "term": "prohodka",
+        "translation": "walk",
+        "match": "prohodku"
+      },
+      {
+        "term": "treba",
+        "translation": "it is necessary"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde žive semja Kovač?",
+        "options": [
+          "V Varšavě",
+          "V Bratislavě",
+          "V Brnu",
+          "V Košicah"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto pije Lucija?",
+        "options": [
+          "Kavu",
+          "Pomarančevy sok",
+          "Teplo mlěko s kakaom",
+          "Čaj"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Martin ljubi mlěko.",
+        "answer": false,
+        "explanation": "Martin ne ljubi mlěko, on pije sok."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto dělaje otec?",
+        "options": [
+          "Gotovi sup",
+          "Čitaje novosti na telefonu",
+          "Spi",
+          "Igraje futbol"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Po zavtraku semja ide v park.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto jest na stolu?",
+        "options": [
+          "Pica",
+          "Mjaso i ryba",
+          "Torta",
+          "Hlěb, maslo, syr i med"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-04",
+    "level": "A1",
+    "title": "Večerja za prijateljev",
+    "topic": "Shopping",
+    "body": "Ana i jej muž Ivan žive v Splitu. V subotu k nim prihodet prijatelji na večerju. V petok po rabotě Ana ide v supermarket.\n\nOna imaje spisok: ryba, krompir, pomidory, luk, salata, maslinovo maslo, hlěb i vino. Na desert ona hoče kupiti sladoled.\n\nRyba jest svěža i ne velmi draga. Ana kupuje dvě velike ryby. Pomidory sut lěpe i crvene. Vino jest dosta drago, ale to jest poseban večer.\n\nNa kase Ana plati kartoju. Vse koštaje 45 evro. Ona nese dvě polne torby domov.\n\nDoma ona otkryvaje torby i vidi: hlěba ne jest! Ona zvoni Ivanu. Ivan sejčas ide v pekarnju.",
+    "glossary": [
+      {
+        "term": "muž",
+        "translation": "husband"
+      },
+      {
+        "term": "večerja",
+        "translation": "dinner",
+        "match": "večerju"
+      },
+      {
+        "term": "spisok",
+        "translation": "list"
+      },
+      {
+        "term": "ryba",
+        "translation": "fish"
+      },
+      {
+        "term": "krompir",
+        "translation": "potatoes"
+      },
+      {
+        "term": "pomidory",
+        "translation": "tomatoes"
+      },
+      {
+        "term": "luk",
+        "translation": "onion"
+      },
+      {
+        "term": "dragy",
+        "translation": "expensive",
+        "match": "draga"
+      },
+      {
+        "term": "kasa",
+        "translation": "till, checkout",
+        "match": "kase"
+      },
+      {
+        "term": "koštati",
+        "translation": "to cost",
+        "match": "koštaje"
+      },
+      {
+        "term": "torba",
+        "translation": "bag",
+        "match": "torby"
+      },
+      {
+        "term": "pekarnja",
+        "translation": "bakery",
+        "match": "pekarnju"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde žive Ana i Ivan?",
+        "options": [
+          "V Ljubljaně",
+          "V Zagrebu",
+          "V Dubrovniku",
+          "V Splitu"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda Ana ide v supermarket?",
+        "options": [
+          "V nedělju",
+          "V subotu rano",
+          "V petok po rabotě",
+          "V ponedělok"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Ryba jest velmi draga.",
+        "answer": false,
+        "explanation": "Ryba jest svěža i ne velmi draga."
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko koštaje vse?",
+        "options": [
+          "5 evro",
+          "15 evro",
+          "100 evro",
+          "45 evro"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Doma ne jest hlěba.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kto ide v pekarnju?",
+        "options": [
+          "Prodavačka",
+          "Ana",
+          "Prijatelji",
+          "Ivan"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-05",
+    "level": "A1",
+    "title": "Moj novy stan",
+    "topic": "Home",
+    "body": "Zovu se Milan i imam novy stan v Novom Sadu. Stan jest na tretjem etaže. V domu ne jest lifta, ale to ne jest problem.\n\nStan imaje kuhinju, kupalnju, spalnju, gostinnu i maly balkon. Gostinna jest velika i světla. Z balkona vidim rěku Dunaj.\n\nV kuhinji jest novy hladilnik, ale ne jest stola i stulov. V gostinnoj jest stara sofa, ale ne jest lampy. Na stěnah ne jest kartin. V spalnji jest jedino postelja.\n\nNajem koštaje 350 evro na měsec. To jest dobra cěna.\n\nV subotu idu s bratom v magazin za mebel. Moj stan jest ješče prazny, ale on jest moj!",
+    "glossary": [
+      {
+        "term": "stan",
+        "translation": "flat, apartment"
+      },
+      {
+        "term": "etaž",
+        "translation": "floor, storey",
+        "match": "etaže"
+      },
+      {
+        "term": "lift",
+        "translation": "lift, elevator",
+        "match": "lifta"
+      },
+      {
+        "term": "kupalnja",
+        "translation": "bathroom",
+        "match": "kupalnju"
+      },
+      {
+        "term": "světly",
+        "translation": "bright",
+        "match": "světla"
+      },
+      {
+        "term": "rěka",
+        "translation": "river",
+        "match": "rěku"
+      },
+      {
+        "term": "hladilnik",
+        "translation": "fridge"
+      },
+      {
+        "term": "stul",
+        "translation": "chair",
+        "match": "stulov"
+      },
+      {
+        "term": "lampa",
+        "translation": "lamp",
+        "match": "lampy"
+      },
+      {
+        "term": "najem",
+        "translation": "rent"
+      },
+      {
+        "term": "mebel",
+        "translation": "furniture"
+      },
+      {
+        "term": "prazny",
+        "translation": "empty"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde jest stan Milana?",
+        "options": [
+          "V Novom Sadu",
+          "V Beogradu",
+          "V Nišu",
+          "V Zagrebu"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "Na kakom etaže jest stan?",
+        "options": [
+          "Na tretjem",
+          "Na prvom",
+          "Na desetom",
+          "Na pjatom"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "V domu jest lift.",
+        "answer": false,
+        "explanation": "V domu ne jest lifta."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Milan vidi z balkona?",
+        "options": [
+          "Park",
+          "More",
+          "Gory",
+          "Rěku Dunaj"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "V kuhinji jest novy hladilnik.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko koštaje najem?",
+        "options": [
+          "50 evro na měsec",
+          "100 evro na měsec",
+          "800 evro na měsec",
+          "350 evro na měsec"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-06",
+    "level": "A1",
+    "title": "Den šofera avtobusa",
+    "topic": "Daily routine",
+    "body": "Marko jest šofer avtobusa v Ljubljaně. Jego rabočy den počinaje velmi rano. Budilnik zvoni v 4:30. Marko vstavaje, pije kavu i ide na rabotu pěšo.\n\nV 5:30 on jest v garaži i prověrjaje avtobus. Prvy avtobus ide v 6:00. Rano v avtobusu jest malo ljudij. Potom, okolo 7:30, jedut učeniki i rabotniki. Vse města sut zanjate.\n\nMarko ljubi svoju rabotu. On imaje stalnyh pasažirov: babu s malym psom i studenta s gitaroju. Oni vsegda govoret: «Dobro jutro, Marko!»\n\nV 14:00 jego smena se konči. On ide domov, obeduje s ženoju i potom spi jednu godinu. Večerom on igraje s dětmi.",
+    "glossary": [
+      {
+        "term": "šofer",
+        "translation": "driver"
+      },
+      {
+        "term": "rano",
+        "translation": "early"
+      },
+      {
+        "term": "budilnik",
+        "translation": "alarm clock"
+      },
+      {
+        "term": "zvoniti",
+        "translation": "to ring",
+        "match": "zvoni"
+      },
+      {
+        "term": "vstavati",
+        "translation": "to get up",
+        "match": "vstavaje"
+      },
+      {
+        "term": "pěšo",
+        "translation": "on foot"
+      },
+      {
+        "term": "prověrjati",
+        "translation": "to check",
+        "match": "prověrjaje"
+      },
+      {
+        "term": "malo",
+        "translation": "few, little"
+      },
+      {
+        "term": "zanjaty",
+        "translation": "taken, occupied",
+        "match": "zanjate"
+      },
+      {
+        "term": "pasažir",
+        "translation": "passenger",
+        "match": "pasažirov"
+      },
+      {
+        "term": "smena",
+        "translation": "shift"
+      },
+      {
+        "term": "obedovati",
+        "translation": "to have lunch",
+        "match": "obeduje"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde rabotaje Marko?",
+        "options": [
+          "V Ljubljaně",
+          "V Mariboru",
+          "V Zagrebu",
+          "V Pragě"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda zvoni budilnik?",
+        "options": [
+          "V 7:30",
+          "V 6:00",
+          "V 4:30",
+          "V 14:00"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Marko ide na rabotu avtobusom.",
+        "answer": false,
+        "explanation": "On ide na rabotu pěšo."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kto jest stalny pasažir?",
+        "options": [
+          "Baba s malym psom",
+          "Policist",
+          "Lěkar",
+          "Turist iz Italije"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Jego smena se konči v 14:00.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Marko dělaje po obedu?",
+        "options": [
+          "Čitaje knigu",
+          "Ide na bazen",
+          "Rabotaje",
+          "Spi jednu godinu"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-07",
+    "level": "A1",
+    "title": "Kako dojti do muzeja?",
+    "topic": "Directions",
+    "body": "Turistka iz Bolgarije stoji na Staroměstskom trgu v Pragě. Ona hoče idti v Narodny muzej. Ona pyta mladogo čeloveka.\n— Izvinite, prošu. Kako mogu dojti do Narodnogo muzeja?\n— Narodny muzej? To jest nedaleko. Idite prěmo po toj ulici. Na drugom križovanju zavernite nalěvo.\n— Prěmo i potom nalěvo. Dobro.\n— Potom idete na Vaclavsky trg. Muzej jest na koncu trga. To jest veliko staro zdanje.\n— Daleko li jest?\n— Ne, okolo dvanadset minut pěšo.\n— Ili mogu jehati tramvajem?\n— Da, ale pěšo jest lěpše. Grad jest velmi krasny.\n— Hvala vam velmi!\n— Prošu. Prijatnogo dnja!",
+    "glossary": [
+      {
+        "term": "pytati",
+        "translation": "to ask",
+        "match": "pyta"
+      },
+      {
+        "term": "izvinite",
+        "translation": "excuse me"
+      },
+      {
+        "term": "dojti",
+        "translation": "to get to, reach"
+      },
+      {
+        "term": "nedaleko",
+        "translation": "not far"
+      },
+      {
+        "term": "prěmo",
+        "translation": "straight on"
+      },
+      {
+        "term": "ulica",
+        "translation": "street",
+        "match": "ulici"
+      },
+      {
+        "term": "križovanje",
+        "translation": "crossroads",
+        "match": "križovanju"
+      },
+      {
+        "term": "nalěvo",
+        "translation": "to the left"
+      },
+      {
+        "term": "zdanje",
+        "translation": "building"
+      },
+      {
+        "term": "minuta",
+        "translation": "minute",
+        "match": "minut"
+      },
+      {
+        "term": "tramvaj",
+        "translation": "tram",
+        "match": "tramvajem"
+      },
+      {
+        "term": "krasny",
+        "translation": "beautiful"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Iz kakoj zemlje jest turistka?",
+        "options": [
+          "Iz Srbije",
+          "Iz Poljskoj",
+          "Iz Bolgarije",
+          "Iz Slovakije"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Kamo hoče ona idti?",
+        "options": [
+          "V restoran",
+          "Na vokzal",
+          "V hotel",
+          "V Narodny muzej"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Muzej jest daleko.",
+        "answer": false,
+        "explanation": "Muzej jest nedaleko, okolo dvanadset minut pěšo."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde jest muzej?",
+        "options": [
+          "Na koncu Vaclavskogo trga",
+          "Na Staroměstskom trgu",
+          "Pri rěkě",
+          "Na vokzalu"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Turistka može jehati tramvajem.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Začto jest lěpše idti pěšo?",
+        "options": [
+          "Ona ljubi sport",
+          "Tramvaj jest drag",
+          "Ne jest tramvaja",
+          "Grad jest velmi krasny"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-08",
+    "level": "A1",
+    "title": "Plany na vikend",
+    "topic": "Free time",
+    "body": "Georgi i Elena sut prijatelji iz Plovdiva. V petok večerom oni pijut čaj v kafe i govoret o vikendu.\n— Elena, čto dělaš v subotu?\n— Rano idu na rynok s mamoju. Potom ne imam planov. A ty?\n— Ja hoču jehati v gory Rodopy s bratom. Imam novy rukzak! Tam idemo na dolgu prohodku.\n— Kako dolgo?\n— Okolo šest godin. Hočeš li jehati s nami?\n— Šest godin? To jest mnogo! Ja ne jesm sportivna.\n— Dobro. A v nedělju? V nedělju večerom jest koncert v Antičnom teatru.\n— O, to jest dobra ideja! Ja kupim bilety.\n— Super. Po koncertu možemo jesti picu.\n— Dogovoreno! Do nedělje!",
+    "glossary": [
+      {
+        "term": "vikend",
+        "translation": "weekend",
+        "match": "vikendu"
+      },
+      {
+        "term": "rynok",
+        "translation": "market"
+      },
+      {
+        "term": "plan",
+        "translation": "plan",
+        "match": "planov"
+      },
+      {
+        "term": "gory",
+        "translation": "mountains"
+      },
+      {
+        "term": "rukzak",
+        "translation": "backpack"
+      },
+      {
+        "term": "prohodka",
+        "translation": "walk, hike",
+        "match": "prohodku"
+      },
+      {
+        "term": "mnogo",
+        "translation": "a lot"
+      },
+      {
+        "term": "sportivny",
+        "translation": "sporty",
+        "match": "sportivna"
+      },
+      {
+        "term": "koncert",
+        "translation": "concert"
+      },
+      {
+        "term": "ideja",
+        "translation": "idea"
+      },
+      {
+        "term": "bilet",
+        "translation": "ticket",
+        "match": "bilety"
+      },
+      {
+        "term": "dogovoreno",
+        "translation": "agreed, deal"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde sut Georgi i Elena v petok večerom?",
+        "options": [
+          "V gorah",
+          "V kinu",
+          "Doma",
+          "V kafe"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "S kim Georgi jede v gory?",
+        "options": [
+          "Sam",
+          "S Elenoju",
+          "S mamoju",
+          "S bratom"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Elena hoče idti na dolgu prohodku.",
+        "answer": false,
+        "explanation": "Šest godin jest mnogo za Elenu, ona ne jest sportivna."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde jest koncert?",
+        "options": [
+          "Na rynku",
+          "V parku",
+          "V kafe",
+          "V Antičnom teatru"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Elena kupi bilety.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto oni budut jesti po koncertu?",
+        "options": [
+          "Sladoled",
+          "Sup",
+          "Picu",
+          "Rybu"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-09",
+    "level": "A1",
+    "title": "U lěkarja",
+    "topic": "Health",
+    "body": "Oksana žive v Lvovu. Ona imaje trideset četyri lěta i rabotaje v ofisu. Dnes ona se čuvstvuje zlo. Ona imaje glavobol i temperaturu. Grlo takože boli. Ona ne ide na rabotu, ona ide k lěkarju.\n— Dobry den. Čto vas boli?\n— Boli mene glava i grlo. Imam temperaturu, 38,5.\n— Otkrojte usta, prošu. Da, grlo jest crveno. To jest prostuda.\n— Treba li mně antibiotik?\n— Ne. Pijte mnogo teplogo čaja s medom i ostavajte doma tri dni. Tut jest recept za tablety protiv temperatury.\n— Mogu li rabotati doma?\n— Ne, vy treba spati i odpočivati.\n\nOksana ide v apteku i potom domov, v postelju.",
+    "glossary": [
+      {
+        "term": "čuvstvovati se",
+        "translation": "to feel",
+        "match": "čuvstvuje"
+      },
+      {
+        "term": "glavobol",
+        "translation": "headache"
+      },
+      {
+        "term": "temperatura",
+        "translation": "fever, temperature",
+        "match": "temperaturu"
+      },
+      {
+        "term": "grlo",
+        "translation": "throat"
+      },
+      {
+        "term": "boliti",
+        "translation": "to hurt",
+        "match": "boli"
+      },
+      {
+        "term": "lěkar",
+        "translation": "doctor",
+        "match": "lěkarju"
+      },
+      {
+        "term": "usta",
+        "translation": "mouth"
+      },
+      {
+        "term": "prostuda",
+        "translation": "cold (illness)"
+      },
+      {
+        "term": "ostavati",
+        "translation": "to stay",
+        "match": "ostavajte"
+      },
+      {
+        "term": "recept",
+        "translation": "prescription"
+      },
+      {
+        "term": "odpočivati",
+        "translation": "to rest"
+      },
+      {
+        "term": "apteka",
+        "translation": "pharmacy",
+        "match": "apteku"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde žive Oksana?",
+        "options": [
+          "V Minsku",
+          "V Kyjevu",
+          "V Lvovu",
+          "V Odesě"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto boli Oksanu?",
+        "options": [
+          "Život",
+          "Noga",
+          "Glava i grlo",
+          "Zuby"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Oksana treba antibiotik.",
+        "answer": false,
+        "explanation": "Lěkar govori, že ne treba antibiotika."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Oksana treba piti?",
+        "options": [
+          "Teply čaj s medom",
+          "Kavu",
+          "Studeny sok",
+          "Mlěko"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Oksana ostavaje doma tri dni.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kamo ide Oksana po lěkarju?",
+        "options": [
+          "V park",
+          "Na rabotu",
+          "V magazin",
+          "V apteku"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-10",
+    "level": "A1",
+    "title": "Vlakom v Gdansk",
+    "topic": "Travel",
+    "body": "Agnieška žive v Varšavě. Jej prijateljka Ola žive v Gdansku. V subotu Agnieška jede k nej vlakom.\n\nOna kupuje bilet v internetu. Vlak odhodi s Centralnogo vokzala v 8:15. Put traje tri godiny. Agnieška imaje město pri oknu.\n\nVo vlaku ona čitaje knigu i sluhaje muziku. Za oknom sut polja, lěsy i mala sela. V 10:00 ona ide v vagon-restoran i kupuje kavu i sendvič.\n\nV 11:15 vlak prihodi v Gdansk. Ola čekaje na peronu s cvětami. Prijateljky se obnimajut i smejut se. Potom oni idut v staro město na obed.\n\nAgnieška ostavaje v Gdansku do nedělje.",
+    "glossary": [
+      {
+        "term": "vlak",
+        "translation": "train",
+        "match": "vlakom"
+      },
+      {
+        "term": "bilet",
+        "translation": "ticket"
+      },
+      {
+        "term": "vokzal",
+        "translation": "railway station",
+        "match": "vokzala"
+      },
+      {
+        "term": "put",
+        "translation": "journey, way"
+      },
+      {
+        "term": "trajati",
+        "translation": "to last",
+        "match": "traje"
+      },
+      {
+        "term": "godina",
+        "translation": "hour",
+        "match": "godiny"
+      },
+      {
+        "term": "okno",
+        "translation": "window",
+        "match": "oknu"
+      },
+      {
+        "term": "sluhati",
+        "translation": "to listen",
+        "match": "sluhaje"
+      },
+      {
+        "term": "polje",
+        "translation": "field",
+        "match": "polja"
+      },
+      {
+        "term": "lěs",
+        "translation": "forest",
+        "match": "lěsy"
+      },
+      {
+        "term": "čekati",
+        "translation": "to wait",
+        "match": "čekaje"
+      },
+      {
+        "term": "peron",
+        "translation": "platform",
+        "match": "peronu"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde žive Ola?",
+        "options": [
+          "V Varšavě",
+          "V Gdansku",
+          "V Krakovu",
+          "V Poznanju"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Kako dolgo traje put?",
+        "options": [
+          "Deset godin",
+          "Jednu godinu",
+          "Pet godin",
+          "Tri godiny"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Agnieška kupuje bilet na vokzalu.",
+        "answer": false,
+        "explanation": "Ona kupuje bilet v internetu."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Agnieška dělaje vo vlaku?",
+        "options": [
+          "Govori po telefonu",
+          "Spi",
+          "Rabotaje",
+          "Čitaje knigu i sluhaje muziku"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Ola čekaje na peronu s cvětami.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Do kogda Agnieška ostavaje v Gdansku?",
+        "options": [
+          "Do ponedělka",
+          "Do večera",
+          "Do nedělje",
+          "Na jedin měsec"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-11",
+    "level": "A1",
+    "title": "V kafe v starom gradu",
+    "topic": "Food and drink",
+    "body": "Jest subota v Bratislavě. Brat i sestra, Peter i Zuzana, gulajut po starom gradu. Jest teplo i oni sedajut v malom kafe na trgu. Prihodi kelnerka.\n— Dobry den! Čto vam dati?\n— Dobry den. Ja hoču veliku kavu s mlěkom, prošu, — govori Zuzana.\n— I ja hoču limonadu. Imate li torty?\n— Da, imamo jablučny štrudel i čokoladnu tortu.\n— Jedin štrudel, prošu. A ty, Zuzana?\n— Ja ne hoču sladko. Imate li sendvič?\n— Da, sendvič s syrom i pomidorom.\n— Dobro, jedin sendvič.\n\nPo jednoj godině Peter pyta račun. Vse koštaje 14 evro. Zuzana plati i ostavlja dva evro napojnice.",
+    "glossary": [
+      {
+        "term": "gulati",
+        "translation": "to stroll",
+        "match": "gulajut"
+      },
+      {
+        "term": "sedati",
+        "translation": "to sit down",
+        "match": "sedajut"
+      },
+      {
+        "term": "trg",
+        "translation": "square",
+        "match": "trgu"
+      },
+      {
+        "term": "kelnerka",
+        "translation": "waitress"
+      },
+      {
+        "term": "dati",
+        "translation": "to give"
+      },
+      {
+        "term": "limonada",
+        "translation": "lemonade",
+        "match": "limonadu"
+      },
+      {
+        "term": "torta",
+        "translation": "cake",
+        "match": "torty"
+      },
+      {
+        "term": "jablučny",
+        "translation": "apple (adj.)"
+      },
+      {
+        "term": "sladko",
+        "translation": "something sweet"
+      },
+      {
+        "term": "račun",
+        "translation": "bill"
+      },
+      {
+        "term": "ostavljati",
+        "translation": "to leave",
+        "match": "ostavlja"
+      },
+      {
+        "term": "napojnica",
+        "translation": "tip",
+        "match": "napojnice"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde sut Peter i Zuzana?",
+        "options": [
+          "V Vědnju",
+          "V Košicah",
+          "V Pragě",
+          "V Bratislavě"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto pije Zuzana?",
+        "options": [
+          "Vodu",
+          "Limonadu",
+          "Čaj",
+          "Veliku kavu s mlěkom"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Zuzana hoče čokoladnu tortu.",
+        "answer": false,
+        "explanation": "Zuzana ne hoče sladko, ona hoče sendvič."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto beret Peter?",
+        "options": [
+          "Sendvič",
+          "Jablučny štrudel",
+          "Čokoladnu tortu",
+          "Picu"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Zuzana plati račun.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko koštaje vse?",
+        "options": [
+          "10 evro",
+          "2 evro",
+          "40 evro",
+          "14 evro"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-12",
+    "level": "A1",
+    "title": "Moj pes Medo",
+    "topic": "Animals",
+    "body": "Zovu se Luka i živu v Zagrebu. Imam psa. On se zove Medo, zato že jest veliky i hnědy kako medvěd. Medo imaje pet lět. On imaje dolge uši i krupny černy nos.\n\nMedo jest velmi dobry pes. On ljubi děti i nikogda ne laje na ljudij. Ale on ne ljubi mačky!\n\nKaždo jutro ja idu s Medom na prohodku v park. Tam on běži za mjačem i igraje s drugymi psami. Večerom idemo ješče raz, okolo rěky Save.\n\nMedo velmi ljubi jesti. Rano i večerom on dostaje svoju hranu. Ale on takože hoče hlěb i syr s stola!\n\nKogda ja jesm na rabotě, Medo spi pri dverjah i čekaje na mene.",
+    "glossary": [
+      {
+        "term": "hnědy",
+        "translation": "brown"
+      },
+      {
+        "term": "medvěd",
+        "translation": "bear"
+      },
+      {
+        "term": "uho",
+        "translation": "ear",
+        "match": "uši"
+      },
+      {
+        "term": "nos",
+        "translation": "nose"
+      },
+      {
+        "term": "nikogda",
+        "translation": "never"
+      },
+      {
+        "term": "lajati",
+        "translation": "to bark",
+        "match": "laje"
+      },
+      {
+        "term": "každy",
+        "translation": "every",
+        "match": "Každo"
+      },
+      {
+        "term": "běžati",
+        "translation": "to run",
+        "match": "běži"
+      },
+      {
+        "term": "mjač",
+        "translation": "ball",
+        "match": "mjačem"
+      },
+      {
+        "term": "raz",
+        "translation": "time, once"
+      },
+      {
+        "term": "hrana",
+        "translation": "food",
+        "match": "hranu"
+      },
+      {
+        "term": "dveri",
+        "translation": "door",
+        "match": "dverjah"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Začto se pes zove Medo?",
+        "options": [
+          "On jest černy",
+          "On ljubi med",
+          "On jest maly",
+          "On jest veliky i hnědy kako medvěd"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko lět imaje Medo?",
+        "options": [
+          "Pet",
+          "Dva",
+          "Deset",
+          "Jedin"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Medo ljubi mačky.",
+        "answer": false,
+        "explanation": "Medo ne ljubi mačky."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde Luka i Medo gulajut večerom?",
+        "options": [
+          "Na morju",
+          "V gorah",
+          "V centru grada",
+          "Okolo rěky Save"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Medo hoče jesti hlěb i syr s stola.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto dělaje Medo, kogda Luka jest na rabotě?",
+        "options": [
+          "Laje",
+          "Igraje v parku",
+          "Spi pri dverjah",
+          "Jest"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-13",
+    "level": "A1",
+    "title": "Četyri godišnja vremena v Sarajevu",
+    "topic": "Weather and seasons",
+    "body": "Sarajevo jest grad v dolině. Okolo grada sut gory. Zato tu sut četyri ostro razlišna godišnja vremena.\n\nZima jest dolga i studena. V januaru temperatura často jest minus deset. Na gorah jest mnogo sněga i ljudi jedut na Jahorinu na lyže. V gradu jest inogda magla.\n\nVesna počinaje v aprilu. Jest dožd, ale takože sunce. Drěva i cvěty v parkah sut zelene.\n\nLěto jest toplo, inogda vrělo. V julu jest trideset stupnjev. Ljudi sedet v kafe do noči i pijut bosansku kavu.\n\nJesen jest moje ljubime vrěme. V oktobru jest teplo i lěsy na gorah sut žolte i crvene. To jest velmi krasno!",
+    "glossary": [
+      {
+        "term": "dolina",
+        "translation": "valley",
+        "match": "dolině"
+      },
+      {
+        "term": "godišnje vrěme",
+        "translation": "season",
+        "match": "godišnja vremena"
+      },
+      {
+        "term": "zima",
+        "translation": "winter"
+      },
+      {
+        "term": "studeny",
+        "translation": "cold",
+        "match": "studena"
+      },
+      {
+        "term": "sněg",
+        "translation": "snow",
+        "match": "sněga"
+      },
+      {
+        "term": "lyže",
+        "translation": "skis"
+      },
+      {
+        "term": "magla",
+        "translation": "fog"
+      },
+      {
+        "term": "vesna",
+        "translation": "spring"
+      },
+      {
+        "term": "dožd",
+        "translation": "rain"
+      },
+      {
+        "term": "lěto",
+        "translation": "summer"
+      },
+      {
+        "term": "stupenj",
+        "translation": "degree",
+        "match": "stupnjev"
+      },
+      {
+        "term": "jesen",
+        "translation": "autumn"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde jest Sarajevo?",
+        "options": [
+          "Na ravnině",
+          "Na morju",
+          "Na ostrovu",
+          "V dolině"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "Kamo jedut ljudi zimoju na lyže?",
+        "options": [
+          "V Zagreb",
+          "Na more",
+          "Na Jahorinu",
+          "V park"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Zima v Sarajevu jest kratka i tepla.",
+        "answer": false,
+        "explanation": "Zima jest dolga i studena."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kakova jest temperatura v julu?",
+        "options": [
+          "Trideset stupnjev",
+          "Minus deset",
+          "Pet stupnjev",
+          "Nula"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Jesen jest ljubime vrěme avtora.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kakovy sut lěsy v oktobru?",
+        "options": [
+          "Sine",
+          "Běle",
+          "Černe",
+          "Žolte i crvene"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-14",
+    "level": "A1",
+    "title": "Nove čevlje",
+    "topic": "Shopping and clothes",
+    "body": "Maja žive v Mariboru i rabotaje v ofisu. Jej stare čevlje sut slomljene. Po rabotě, v 17:00, ona ide v magazin s obuvju v centru.\n— Dobry den. Iščem čevlje za rabotu. Ne visoke, prošu.\n— Kaky razmer imate?\n— Razmer 38.\n— Kaky kolor hočete?\n— Černy ili hnědy.\n\nProdavačka prinosi tri para. Maja proba prve čevlje. Oni sut krasne, ale male. Druge čevlje sut velike. Tretje sut hněde i velmi udobne.\n— Koliko koštajut?\n— 65 evro. Ale sejčas jest popust, 20 procentov.\n— Super! Beru jih.\n\nMaja plati kartoju i ide domov v novyh čevljah.",
+    "glossary": [
+      {
+        "term": "čevlje",
+        "translation": "shoes"
+      },
+      {
+        "term": "slomljeny",
+        "translation": "broken",
+        "match": "slomljene"
+      },
+      {
+        "term": "obuv",
+        "translation": "footwear",
+        "match": "obuvju"
+      },
+      {
+        "term": "iskati",
+        "translation": "to look for",
+        "match": "Iščem"
+      },
+      {
+        "term": "visoky",
+        "translation": "high",
+        "match": "visoke"
+      },
+      {
+        "term": "razmer",
+        "translation": "size"
+      },
+      {
+        "term": "kolor",
+        "translation": "colour"
+      },
+      {
+        "term": "para",
+        "translation": "pair"
+      },
+      {
+        "term": "probovati",
+        "translation": "to try on",
+        "match": "proba"
+      },
+      {
+        "term": "udobny",
+        "translation": "comfortable",
+        "match": "udobne"
+      },
+      {
+        "term": "popust",
+        "translation": "discount"
+      },
+      {
+        "term": "brati",
+        "translation": "to take",
+        "match": "Beru"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde žive Maja?",
+        "options": [
+          "V Splitu",
+          "V Ljubljaně",
+          "V Zagrebu",
+          "V Mariboru"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "Kaky razmer imaje Maja?",
+        "options": [
+          "38",
+          "36",
+          "40",
+          "42"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Prve čevlje sut velike.",
+        "answer": false,
+        "explanation": "Prve čevlje sut krasne, ale male."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kakovy sut tretje čevlje?",
+        "options": [
+          "Černe i visoke",
+          "Hněde i udobne",
+          "Crvene",
+          "Běle"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "V magazinu jest popust.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kako Maja plati?",
+        "options": [
+          "Ne plati",
+          "Gotovinoju",
+          "Telefonom",
+          "Kartoju"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-15",
+    "level": "A1",
+    "title": "Babi jest osemdeset lět",
+    "topic": "Family and celebrations",
+    "body": "Dnes jest velika data v semji Petrović v Nišu. Baba Desanka imaje osemdeset lět!\n\nVsa semja jest v jej domu: jej troje dětij, šest vnukov i dva pravnuka. Jest dvadset ljudij za velikim stolom v sadu.\n\nDočka Jelena gotovi sarmu, mjaso i salatu. Vnuk Stefan pravi veliku tortu s osemdeset svěčkami. Vsi pějut: «Mnogaja lěta!»\n\nBaba Desanka jest velmi sčastliva. Ona razkazuje stare istorije o svojej mladosti. Ded Milorad igraje na harmonike i ljudi tancujut.\n\nPodarok od semje jest novy televizor. Ale baba govori: «Najlěpši podarok jest to, že vy vsi jeste tut.»",
+    "glossary": [
+      {
+        "term": "data",
+        "translation": "date, occasion"
+      },
+      {
+        "term": "vnuk",
+        "translation": "grandson, grandchild",
+        "match": "vnukov"
+      },
+      {
+        "term": "pravnuk",
+        "translation": "great-grandchild",
+        "match": "pravnuka"
+      },
+      {
+        "term": "stol",
+        "translation": "table",
+        "match": "stolom"
+      },
+      {
+        "term": "mjaso",
+        "translation": "meat"
+      },
+      {
+        "term": "svěčka",
+        "translation": "candle",
+        "match": "svěčkami"
+      },
+      {
+        "term": "pěti",
+        "translation": "to sing",
+        "match": "pějut"
+      },
+      {
+        "term": "sčastlivy",
+        "translation": "happy",
+        "match": "sčastliva"
+      },
+      {
+        "term": "mladost",
+        "translation": "youth",
+        "match": "mladosti"
+      },
+      {
+        "term": "harmonika",
+        "translation": "accordion",
+        "match": "harmonike"
+      },
+      {
+        "term": "tancovati",
+        "translation": "to dance",
+        "match": "tancujut"
+      },
+      {
+        "term": "podarok",
+        "translation": "present, gift"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Koliko lět imaje baba Desanka?",
+        "options": [
+          "Devetdeset",
+          "Šestdeset",
+          "Osemdeset",
+          "Sedemdeset"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde jest semja?",
+        "options": [
+          "V parku",
+          "V restoranu",
+          "V sadu babinogo doma",
+          "V hotelu"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Jelena pravi tortu.",
+        "answer": false,
+        "explanation": "Jelena gotovi sarmu, mjaso i salatu. Tortu pravi vnuk Stefan."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto dělaje děd Milorad?",
+        "options": [
+          "Gotovi",
+          "Igraje na harmonike",
+          "Spi",
+          "Pěje sam"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Baba imaje šest vnukov.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kaky jest podarok od semje?",
+        "options": [
+          "Novy televizor",
+          "Pes",
+          "Kniga",
+          "Telefon"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-16",
+    "level": "A1",
+    "title": "Moj kurs makedonskogo jezyka",
+    "topic": "School and education",
+    "body": "Zovu se Žan i jesm iz Francije. Sejčas živu v Skopju, zato že moja žena jest Makedonka. Ja ne govorim dobro makedonski, zato idu na kurs.\n\nKurs jest v jezykovoj školě v centru grada. Uroki sut v ponedělok, srědu i petok, od 18:00 do 20:00. V grupě jest osm studentov. Oni sut iz Italije, Germanije, Turcije i Japonije.\n\nNaša učiteljka se zove Biljana. Ona jest velmi trpeliva i vesela. Na uroku my čitajemo teksty, sluhajemo dialogy i mnogo govorimo. Ja imam problem s gramatikoju, ale ljubim nove slova.\n\nDoma ja pišu domašnje zadanje. Večerom govorim makedonski s ženoju i jej mamoju. Uže malo razuměju!",
+    "glossary": [
+      {
+        "term": "kurs",
+        "translation": "course"
+      },
+      {
+        "term": "jezykovy",
+        "translation": "language (adj.)",
+        "match": "jezykovoj"
+      },
+      {
+        "term": "urok",
+        "translation": "lesson",
+        "match": "Uroki"
+      },
+      {
+        "term": "grupa",
+        "translation": "group",
+        "match": "grupě"
+      },
+      {
+        "term": "trpelivy",
+        "translation": "patient",
+        "match": "trpeliva"
+      },
+      {
+        "term": "vesely",
+        "translation": "cheerful",
+        "match": "vesela"
+      },
+      {
+        "term": "tekst",
+        "translation": "text",
+        "match": "teksty"
+      },
+      {
+        "term": "gramatika",
+        "translation": "grammar",
+        "match": "gramatikoju"
+      },
+      {
+        "term": "slovo",
+        "translation": "word",
+        "match": "slova"
+      },
+      {
+        "term": "pisati",
+        "translation": "to write",
+        "match": "pišu"
+      },
+      {
+        "term": "domašnje zadanje",
+        "translation": "homework"
+      },
+      {
+        "term": "uže",
+        "translation": "already"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Iz kakoj zemlje jest Žan?",
+        "options": [
+          "Iz Makedonije",
+          "Iz Italije",
+          "Iz Germanije",
+          "Iz Francije"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "Začto Žan žive v Skopju?",
+        "options": [
+          "Za studije",
+          "Za rabotu",
+          "Jego žena jest Makedonka",
+          "On ljubi gory"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Uroki sut každy den.",
+        "answer": false,
+        "explanation": "Uroki sut v ponedělok, srědu i petok."
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko studentov jest v grupě?",
+        "options": [
+          "Pet",
+          "Osm",
+          "Dvanadset",
+          "Tri"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Žan imaje problem s gramatikoju.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "S kim Žan govori makedonski doma?",
+        "options": [
+          "S ženoju i jej mamoju",
+          "S učiteljkoju",
+          "S sosědom",
+          "S nikim"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-17",
+    "level": "A1",
+    "title": "Ja jesm frizerka",
+    "topic": "Work",
+    "body": "Zovu se Milica. Imam trideset lět i jesm frizerka v Podgorici. Moj salon jest maly: tam sut jedino tri kresla. Ja rabotam tam s kolegoju Natašoju.\n\nMoj rabočy den počinaje v 9:00. Najprvo ja varim kavu i čistim salon. Potom prihodet klienti. Rano prihodet stare gospože. Oni hočut kratke vlasy. Popoludne prihodet mlade děvojky. Oni hočut nove kolory: crvene, plave ili rozove.\n\nJa ljubim moju rabotu, zato že každy den jest drugy. Klienti razkazujut mně o svojej semji i o svojih problemah. Inogda jesm frizerka i psiholog!\n\nV subotu jest mnogo raboty: svadby i zabavy. V nedělju salon jest zatvoreny.",
+    "glossary": [
+      {
+        "term": "frizerka",
+        "translation": "hairdresser (f.)"
+      },
+      {
+        "term": "kreslo",
+        "translation": "armchair, salon chair",
+        "match": "kresla"
+      },
+      {
+        "term": "kolega",
+        "translation": "colleague",
+        "match": "kolegoju"
+      },
+      {
+        "term": "najprvo",
+        "translation": "first of all"
+      },
+      {
+        "term": "čistiti",
+        "translation": "to clean",
+        "match": "čistim"
+      },
+      {
+        "term": "gospoža",
+        "translation": "lady",
+        "match": "gospože"
+      },
+      {
+        "term": "vlasy",
+        "translation": "hair"
+      },
+      {
+        "term": "popoludne",
+        "translation": "in the afternoon"
+      },
+      {
+        "term": "děvojka",
+        "translation": "girl",
+        "match": "děvojky"
+      },
+      {
+        "term": "svadba",
+        "translation": "wedding",
+        "match": "svadby"
+      },
+      {
+        "term": "zabava",
+        "translation": "party",
+        "match": "zabavy"
+      },
+      {
+        "term": "zatvoreny",
+        "translation": "closed"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde rabotaje Milica?",
+        "options": [
+          "V Beogradu",
+          "V Kotoru",
+          "V Podgorici",
+          "V Sarajevu"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko kresel jest v salonu?",
+        "options": [
+          "Tri",
+          "Pet",
+          "Jedno",
+          "Deset"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Stare gospože hočut nove kolory.",
+        "answer": false,
+        "explanation": "Stare gospože hočut kratke vlasy. Nove kolory hočut mlade děvojky."
+      },
+      {
+        "type": "mc",
+        "prompt": "Začto Milica ljubi svoju rabotu?",
+        "options": [
+          "Ona mnogo zarabotaje",
+          "Rabota jest lehka",
+          "Každy den jest drugy",
+          "Ona rabotaje doma"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "V nedělju salon jest zatvoreny.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Začto v subotu jest mnogo raboty?",
+        "options": [
+          "Sut svadby i zabavy",
+          "Nataša ne rabotaje",
+          "Jest popust",
+          "Salon jest novy"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-18",
+    "level": "A1",
+    "title": "Pismo iz Minska",
+    "topic": "Communication",
+    "body": "Zdravo, Ira!\n\nKako se imaš? Ja sejčas živu v Minsku! Imam novu rabotu v IT-firmě i novy stan.\n\nStan jest maly, ale krasny. On imaje jednu sobu, kuhinju i kupalnju. Okna sut velike i v stanu jest mnogo světla. Stan jest na šestom etaže, i z okna vidim park.\n\nMoj dom jest blizu stancije metro. Do raboty jedu jedino dvanadset minut. Blizu jest takože supermarket, apteka i malo kafe.\n\nMinsk jest veliky i čisty grad. Ulicy sut široke. Večerom ja gulaju v parku pri rěkě Svisloč.\n\nKogda imaš vrěme? Prihodi na vikend! Moja sofa jest tvoja.\n\nPozdravy,\nTvoja Daša",
+    "glossary": [
+      {
+        "term": "kako se imaš",
+        "translation": "how are you"
+      },
+      {
+        "term": "firma",
+        "translation": "company",
+        "match": "firmě"
+      },
+      {
+        "term": "světlo",
+        "translation": "light",
+        "match": "světla"
+      },
+      {
+        "term": "stancija",
+        "translation": "station",
+        "match": "stancije"
+      },
+      {
+        "term": "metro",
+        "translation": "underground, metro"
+      },
+      {
+        "term": "jehati",
+        "translation": "to travel, ride",
+        "match": "jedu"
+      },
+      {
+        "term": "čisty",
+        "translation": "clean"
+      },
+      {
+        "term": "široky",
+        "translation": "wide",
+        "match": "široke"
+      },
+      {
+        "term": "gulati",
+        "translation": "to stroll",
+        "match": "gulaju"
+      },
+      {
+        "term": "vrěme",
+        "translation": "time"
+      },
+      {
+        "term": "prihoditi",
+        "translation": "to come",
+        "match": "Prihodi"
+      },
+      {
+        "term": "pozdravy",
+        "translation": "greetings, regards"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde sejčas žive Daša?",
+        "options": [
+          "V Grodnu",
+          "V Minsku",
+          "V Moskvě",
+          "V Kyjevu"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde Daša rabotaje?",
+        "options": [
+          "V kafe",
+          "V apteke",
+          "V IT-firmě",
+          "V školě"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Stan imaje tri soby.",
+        "answer": false,
+        "explanation": "Stan imaje jednu sobu, kuhinju i kupalnju."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Daša vidi z okna?",
+        "options": [
+          "Metro",
+          "Rěku",
+          "Park",
+          "Supermarket"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Do raboty Daša jede dvanadset minut.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde Daša gulaje večerom?",
+        "options": [
+          "Na stanciji",
+          "V supermarketu",
+          "V parku pri rěkě",
+          "V centru"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-19",
+    "level": "A1",
+    "title": "V hotelu v Varně",
+    "topic": "Travel",
+    "body": "Paul i Monika sut iz Avstrije. Oni imajut odpust na morju v Varně, v Bolgariji. Oni prihodet v hotel v 15:00.\n— Dobry den. Imamo rezervaciju na ime Gruber.\n— Dobry den! Jedin moment... Da, dvojna soba s balkonom, na sedm noči.\n— Točno.\n— Vaše pasporty, prošu.\n\nRecepcionistka daje jim ključ.\n— Vaša soba jest 412, na četvrtom etaže. Lift jest tam, nalěvo. Zavtrak jest od 7:00 do 10:00 v restoranu.\n— Jest li v sobě internet?\n— Da, Bezžičny internet jest bezplatny. Paroli jest na kartě.\n— I kde jest plaža?\n— Plaža jest prěmo za hotelom, dvě minuty pěšo.\n— Odlično! Hvala!",
+    "glossary": [
+      {
+        "term": "odpust",
+        "translation": "holiday, leave"
+      },
+      {
+        "term": "more",
+        "translation": "sea",
+        "match": "morju"
+      },
+      {
+        "term": "rezervacija",
+        "translation": "booking",
+        "match": "rezervaciju"
+      },
+      {
+        "term": "dvojny",
+        "translation": "double",
+        "match": "dvojna"
+      },
+      {
+        "term": "noč",
+        "translation": "night",
+        "match": "noči"
+      },
+      {
+        "term": "točno",
+        "translation": "exactly"
+      },
+      {
+        "term": "pasport",
+        "translation": "passport",
+        "match": "pasporty"
+      },
+      {
+        "term": "ključ",
+        "translation": "key"
+      },
+      {
+        "term": "bezplatny",
+        "translation": "free (of charge)"
+      },
+      {
+        "term": "paroli",
+        "translation": "password"
+      },
+      {
+        "term": "plaža",
+        "translation": "beach"
+      },
+      {
+        "term": "odlično",
+        "translation": "excellent"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Iz kakoj zemlje sut Paul i Monika?",
+        "options": [
+          "Iz Francije",
+          "Iz Bolgarije",
+          "Iz Poljske",
+          "Iz Avstrije"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "Na koliko noči jest rezervacija?",
+        "options": [
+          "Na tri",
+          "Na sedm",
+          "Na dvě",
+          "Na deset"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Soba jest na prvom etaže.",
+        "answer": false,
+        "explanation": "Soba 412 jest na četvrtom etaže."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda jest zavtrak?",
+        "options": [
+          "Od 10:00 do 12:00",
+          "Od 7:00 do 10:00",
+          "V 15:00",
+          "Ne jest zavtraka"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Internet v hotelu jest bezplatny.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde jest plaža?",
+        "options": [
+          "Daleko od hotela",
+          "Prěmo za hotelom",
+          "V centru grada",
+          "Na drugom ostrovu"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-20",
+    "level": "A1",
+    "title": "Subotny rynok",
+    "topic": "Shopping",
+    "body": "Každu subotu rano pan Lukaš ide na rynok v Poznanju. Rynok jest blizu jego doma. Tam jest mnogo ljudij i mnogo šuma.\n\nNajprvo Lukaš kupuje ovošče: pomidory, ogurky i kapustu. Prodavačka Halina jest jego stara znakoma. Ona vsegda daje jemu jedno jabloko za bezplatno.\n\nPotom on ide k pekaru. Tam kupuje čorny hlěb i šest bulok. Potom kupuje jajca i syr od fermera iz sela. Syr jest domašnji i velmi vkusny.\n\nNa koncu Lukaš kupuje cvěty za ženu. Dnes sut tulipany, žolte i crvene.\n\nVse koštaje okolo 80 zlotyh. Lukaš nese dvě polne torby domov. Žena čekaje s kavoju.",
+    "glossary": [
+      {
+        "term": "šum",
+        "translation": "noise",
+        "match": "šuma"
+      },
+      {
+        "term": "ovošče",
+        "translation": "vegetables"
+      },
+      {
+        "term": "ogurok",
+        "translation": "cucumber",
+        "match": "ogurky"
+      },
+      {
+        "term": "kapusta",
+        "translation": "cabbage",
+        "match": "kapustu"
+      },
+      {
+        "term": "znakomy",
+        "translation": "acquaintance",
+        "match": "znakoma"
+      },
+      {
+        "term": "jabloko",
+        "translation": "apple"
+      },
+      {
+        "term": "pekar",
+        "translation": "baker",
+        "match": "pekaru"
+      },
+      {
+        "term": "bulka",
+        "translation": "bread roll",
+        "match": "bulok"
+      },
+      {
+        "term": "jajce",
+        "translation": "egg",
+        "match": "jajca"
+      },
+      {
+        "term": "vkusny",
+        "translation": "tasty"
+      },
+      {
+        "term": "cvět",
+        "translation": "flower",
+        "match": "cvěty"
+      },
+      {
+        "term": "polny",
+        "translation": "full",
+        "match": "polne"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kogda Lukaš ide na rynok?",
+        "options": [
+          "V nedělju",
+          "Každu subotu rano",
+          "Každy den",
+          "V petok večerom"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Halina daje Lukašu?",
+        "options": [
+          "Hlěb",
+          "Cvěty",
+          "Jedno jabloko",
+          "Kavu"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Lukaš kupuje syr v supermarketu.",
+        "answer": false,
+        "explanation": "On kupuje syr od fermera iz sela na rynku."
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko bulok kupuje Lukaš?",
+        "options": [
+          "Deset",
+          "Dvě",
+          "Šest",
+          "Jednu"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Lukaš kupuje cvěty za ženu.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko koštaje vse?",
+        "options": [
+          "Okolo 20 zlotyh",
+          "Okolo 8 zlotyh",
+          "Okolo 200 zlotyh",
+          "Okolo 80 zlotyh"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-21",
+    "level": "A1",
+    "title": "Moja soba",
+    "topic": "Home",
+    "body": "Zovu se Andrij. Imam pjatnadset lět i živu s roditeljami v Kyjevu. Moja soba jest mala, ale ja ju ljubim.\n\nPri oknu stoji moj pisalny stol. Na nem jest kompjuter, lampa i mnogo knig. Tut ja pišu domašnje zadanje i igraju igry. Moj stul jest černy i velmi udoben.\n\nMoja postelja jest pri stěně. Nad posteljoju visi velika karta světa. Ja hoču viděti vse zemje! Na drugoj stěně sut plakaty mojih ljubimyh muzykantov.\n\nV uglu jest gitara. Ja igraju na gitare každy večer. Mama govori, že to jest glasno.\n\nV šafu sut moja odežda i sportivne rěči. Na podu jest kover. Mama hoče, da moja soba bude čista. Ale ona často jest v neporjadku!",
+    "glossary": [
+      {
+        "term": "roditelji",
+        "translation": "parents",
+        "match": "roditeljami"
+      },
+      {
+        "term": "pisalny stol",
+        "translation": "desk"
+      },
+      {
+        "term": "kompjuter",
+        "translation": "computer"
+      },
+      {
+        "term": "igra",
+        "translation": "game",
+        "match": "igry"
+      },
+      {
+        "term": "stěna",
+        "translation": "wall",
+        "match": "stěně"
+      },
+      {
+        "term": "karta světa",
+        "translation": "world map"
+      },
+      {
+        "term": "ugol",
+        "translation": "corner",
+        "match": "uglu"
+      },
+      {
+        "term": "glasno",
+        "translation": "loud"
+      },
+      {
+        "term": "šaf",
+        "translation": "wardrobe",
+        "match": "šafu"
+      },
+      {
+        "term": "odežda",
+        "translation": "clothes"
+      },
+      {
+        "term": "kover",
+        "translation": "carpet, rug"
+      },
+      {
+        "term": "neporjadok",
+        "translation": "mess",
+        "match": "neporjadku"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Koliko lět imaje Andrij?",
+        "options": [
+          "Dvadset",
+          "Deset",
+          "Pjatnadset",
+          "Dvanadset"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto jest na pisalnom stolu?",
+        "options": [
+          "Gitara",
+          "Kompjuter, lampa i knigy",
+          "Karta světa",
+          "Televizor"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Soba Andrija jest velika.",
+        "answer": false,
+        "explanation": "Jego soba jest mala."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto visi nad posteljoju?",
+        "options": [
+          "Plakat",
+          "Gitara",
+          "Lampa",
+          "Velika karta světa"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Andrij igraje na gitare každy večer.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto govori mama o gitare?",
+        "options": [
+          "To jest drago",
+          "To jest krasno",
+          "To jest glasno",
+          "Ničto"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-22",
+    "level": "A1",
+    "title": "Futbol v subotu",
+    "topic": "Sport",
+    "body": "Jest subota rano v Ostravě. Na malom stadionu blizu školy igraje dětska futbolna komanda «Mlade lvy». Děti imajut devet ili deset lět.\n\nTrener Pavel kriči: «Dajte, děti! Bežite!» Roditelji sedet na tribunah i aplaudirujut. Jest studeno, ale vsi sut veseli.\n\nV komandě igraje maly Vojtěh. On jest vratar. On jest maly, ale velmi bystry. Jego mama i baba sut na tribunah s velikym flagom.\n\nV prvom poluvremenu protivnik daje gol. Jedin nula. Vojtěh jest smutny. Ale vo vtorom poluvremenu «Mlade lvy» davajut dva gola! Dva jedin!\n\nPo igrě trener daje vsim dětem sok i jabloka. Vojtěh se směje. Dnes jest dobry den!",
+    "glossary": [
+      {
+        "term": "komanda",
+        "translation": "team"
+      },
+      {
+        "term": "trener",
+        "translation": "coach"
+      },
+      {
+        "term": "kričati",
+        "translation": "to shout",
+        "match": "kriči"
+      },
+      {
+        "term": "tribuna",
+        "translation": "stand (in a stadium)",
+        "match": "tribunah"
+      },
+      {
+        "term": "aplaudirovati",
+        "translation": "to clap",
+        "match": "aplaudirujut"
+      },
+      {
+        "term": "vratar",
+        "translation": "goalkeeper"
+      },
+      {
+        "term": "bystry",
+        "translation": "quick"
+      },
+      {
+        "term": "flag",
+        "translation": "flag",
+        "match": "flagom"
+      },
+      {
+        "term": "poluvrěme",
+        "translation": "half (of a match)",
+        "match": "poluvremenu"
+      },
+      {
+        "term": "protivnik",
+        "translation": "opponent"
+      },
+      {
+        "term": "smutny",
+        "translation": "sad"
+      },
+      {
+        "term": "smějati se",
+        "translation": "to laugh",
+        "match": "se směje"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde jest igra?",
+        "options": [
+          "Na velikom stadionu",
+          "V parku",
+          "V Pragě",
+          "Na malom stadionu blizu školy"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "Kto jest Vojtěh v komandě?",
+        "options": [
+          "Trener",
+          "Vratar",
+          "Kapitan",
+          "Sudija"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "V prvom poluvremenu «Mlade lvy» davajut gol.",
+        "answer": false,
+        "explanation": "V prvom poluvremenu protivnik daje gol."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kto jest na tribunah s flagom?",
+        "options": [
+          "Mama i baba Vojtěha",
+          "Trener Pavel",
+          "Učitelj",
+          "Otec"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "«Mlade lvy» pobědjajut dva jedin.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto trener daje dětem po igrě?",
+        "options": [
+          "Picu",
+          "Sladoled",
+          "Medalje",
+          "Sok i jabloka"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-23",
+    "level": "A1",
+    "title": "Den v zooparku",
+    "topic": "Free time",
+    "body": "V nedělju semja Jovanović ide v zoopark v Beogradu. Zoopark jest v starom parku Kalemegdan, nad dvěma rěkami.\n\nBilet za vzroslyh koštaje 800 dinarov, za děti 500. Syn Nikola imaje sedm lět i dočka Sara imaje četyri lěta.\n\nNajprvo oni vidut slonov. Oni sut ogromne! Sara se boji i drži ruku otca. Potom idut k žirafam i zebram. Nikola ljubi lvov, ale lvy spet pod drěvom.\n\nV 12:00 jest obed za pingvinov. Rabotnik daje jim rybu i děti aplaudirujut. Majmuny sut najsměšnejše: oni skačut i kričet.\n\nNa obed semja imaje sendviči na travě. Večerom děti sut ustale, ale sčastlive.",
+    "glossary": [
+      {
+        "term": "zoopark",
+        "translation": "zoo"
+      },
+      {
+        "term": "vzrosly",
+        "translation": "adult",
+        "match": "vzroslyh"
+      },
+      {
+        "term": "slon",
+        "translation": "elephant",
+        "match": "slonov"
+      },
+      {
+        "term": "ogromny",
+        "translation": "huge",
+        "match": "ogromne"
+      },
+      {
+        "term": "bojati se",
+        "translation": "to be afraid",
+        "match": "se boji"
+      },
+      {
+        "term": "ruka",
+        "translation": "hand",
+        "match": "ruku"
+      },
+      {
+        "term": "lev",
+        "translation": "lion",
+        "match": "lvov"
+      },
+      {
+        "term": "pingvin",
+        "translation": "penguin",
+        "match": "pingvinov"
+      },
+      {
+        "term": "majmun",
+        "translation": "monkey",
+        "match": "Majmuny"
+      },
+      {
+        "term": "skakati",
+        "translation": "to jump",
+        "match": "skačut"
+      },
+      {
+        "term": "trava",
+        "translation": "grass",
+        "match": "travě"
+      },
+      {
+        "term": "ustaly",
+        "translation": "tired",
+        "match": "ustale"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde jest zoopark?",
+        "options": [
+          "Na selu",
+          "V centru Novogo Sada",
+          "V parku Kalemegdan",
+          "Pri morju"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko koštaje bilet za děti?",
+        "options": [
+          "100 dinarov",
+          "800 dinarov",
+          "500 dinarov",
+          "Bezplatno"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Lvy igrajut s dětmi.",
+        "answer": false,
+        "explanation": "Lvy spet pod drěvom."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kto se boji slonov?",
+        "options": [
+          "Nikola",
+          "Sara",
+          "Mama",
+          "Otec"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "V 12:00 pingviny dostajut rybu.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kako se děti čuvstvujut večerom?",
+        "options": [
+          "Ustale, ale sčastlive",
+          "Smutne",
+          "Bolne",
+          "Zle"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-24",
+    "level": "A1",
+    "title": "Novi sosědi",
+    "topic": "Neighbours",
+    "body": "Jest subota, 11:00. V stanu gospože Hany v Žilině zvoni zvonok. Za dverjami stoji mlada para s malym dětetom.\n— Dobry den! My jesmo vaši novi sosědi. Živemo v stanu 7, na vašem etaže.\n— O, dobry den! Ja jesm Hana. Velmi mi jest prijatno!\n— Ja jesm Jakub, a to jest moja žena Kristina. A to jest naš syn Filip. On imaje jedin god.\n— Kaky krasny maly! Odkud jeste?\n— Iz Trenčina. My sejčas rabotajemo v Žilině.\n— Dobro došli! Imate li vse? Jesli potrěbujete něčto, prošu, zvonite.\n— Hvala. Imamo jedin vopros: kde jest blizky supermarket?\n— Za uglom, na ulici Hurbanovoj.\n\nHana daje jim kolače. Ona jest rada.",
+    "glossary": [
+      {
+        "term": "sosěd",
+        "translation": "neighbour",
+        "match": "sosědi"
+      },
+      {
+        "term": "zvonok",
+        "translation": "doorbell"
+      },
+      {
+        "term": "para",
+        "translation": "couple"
+      },
+      {
+        "term": "dete",
+        "translation": "child",
+        "match": "dětetom"
+      },
+      {
+        "term": "prijatno",
+        "translation": "pleasant, nice"
+      },
+      {
+        "term": "god",
+        "translation": "year"
+      },
+      {
+        "term": "odkud",
+        "translation": "where from"
+      },
+      {
+        "term": "dobro došli",
+        "translation": "welcome"
+      },
+      {
+        "term": "jesli",
+        "translation": "if"
+      },
+      {
+        "term": "vopros",
+        "translation": "question"
+      },
+      {
+        "term": "blizky",
+        "translation": "nearby"
+      },
+      {
+        "term": "kolač",
+        "translation": "cake, pastry",
+        "match": "kolače"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kto zvoni na dveri?",
+        "options": [
+          "Jej syn",
+          "Poštar",
+          "Mlada para s dětetom",
+          "Policist"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Kako se zove syn?",
+        "options": [
+          "Filip",
+          "Jakub",
+          "Peter",
+          "Martin"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Jakub i Kristina sut iz Žiliny.",
+        "answer": false,
+        "explanation": "Oni sut iz Trenčina."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto hočut znati novi sosědi?",
+        "options": [
+          "Kde jest škola",
+          "Kde jest blizky supermarket",
+          "Koliko koštaje stan",
+          "Kde jest vokzal"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Filip imaje jedin god.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Hana daje sosědam?",
+        "options": [
+          "Kavu",
+          "Cvěty",
+          "Kolače",
+          "Vino"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-25",
+    "level": "A1",
+    "title": "Roždenny den v restoranu",
+    "topic": "Food and drink",
+    "body": "Dnes Ivana imaje roždenny den. Jej muž Dimitr imaje rezervaciju v restoranu v centru Sofije. Restoran jest maly i tihy, s bulgarskoju kuhnjeju.\n\nKelner prinosi jim meni. Najprvo oni beret šopsku salatu: pomidory, ogurky, luk i běly syr. Potom Dimitr beret mjaso na grilu s krompirom. Ivana jest vegetarianka, ona beret pečene ovošče s rižem.\n\nOni pijut červeno vino. Dimitr daje Ivaně maly podarok: srěbrne serežki. Ivana jest velmi sčastliva.\n\nNa desert kelner prinosi malu tortu so svěčkoju. Vsi kelneri pějut «Čestit roždenny den!». Ivana se směje.\n\nRačun jest 120 levov. Dimitr plati i daje dobru napojnicu.",
+    "glossary": [
+      {
+        "term": "roždenny den",
+        "translation": "birthday"
+      },
+      {
+        "term": "tihy",
+        "translation": "quiet"
+      },
+      {
+        "term": "kuhnja",
+        "translation": "cuisine",
+        "match": "kuhnjeju"
+      },
+      {
+        "term": "kelner",
+        "translation": "waiter"
+      },
+      {
+        "term": "meni",
+        "translation": "menu"
+      },
+      {
+        "term": "gril",
+        "translation": "grill",
+        "match": "grilu"
+      },
+      {
+        "term": "vegetarianka",
+        "translation": "vegetarian (f.)"
+      },
+      {
+        "term": "pečeny",
+        "translation": "roasted, baked",
+        "match": "pečene"
+      },
+      {
+        "term": "riž",
+        "translation": "rice",
+        "match": "rižem"
+      },
+      {
+        "term": "červeny",
+        "translation": "red",
+        "match": "červeno"
+      },
+      {
+        "term": "srěbrny",
+        "translation": "silver (adj.)",
+        "match": "srěbrne"
+      },
+      {
+        "term": "serežki",
+        "translation": "earrings"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde jest restoran?",
+        "options": [
+          "V Varně",
+          "V Plovdivu",
+          "V centru Sofije",
+          "Na selu"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto jest v šopskoj salatě?",
+        "options": [
+          "Jajca i mjaso",
+          "Ryba i riž",
+          "Pomidory, ogurky, luk i běly syr",
+          "Jabloka"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Ivana beret mjaso na grilu.",
+        "answer": false,
+        "explanation": "Ivana jest vegetarianka, ona beret pečene ovošče s rižem."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kaky podarok daje Dimitr?",
+        "options": [
+          "Srěbrne serežki",
+          "Cvěty",
+          "Knigu",
+          "Telefon"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Kelneri pějut za Ivanu.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko jest račun?",
+        "options": [
+          "50 levov",
+          "12 levov",
+          "120 levov",
+          "300 levov"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-26",
+    "level": "A1",
+    "title": "Prvy raz v biblioteke",
+    "topic": "Services",
+    "body": "Marta žive v Vroclavu uže jedin měsec. Ona ljubi čitati, ale knigy sut drage. Zato ona ide v gradsku biblioteku.\n\nBiblioteka jest v starom zdanju blizu rynka. Vnutri jest tiho i světlo. Marta ide k informaciji.\n— Dobry den. Hoču čitati knigy. Čto treba dělati?\n— Dobry den! Treba karta čitatelja. Imate li dokument i adres?\n— Da, tut jest moja osobna karta.\n— Dobro. Karta jest bezplatna. Možete brati pet knig na tri tydnja.\n\nBibliotekarka pokazuje Martě police: romany, istorija, knigy za děti i filmy. Marta beret dva romana i knigu o Vroclavu.\n\nNa vyhodu jest malo kafe. Marta pije kavu i čitaje prvu stranicu.",
+    "glossary": [
+      {
+        "term": "biblioteka",
+        "translation": "library",
+        "match": "biblioteku"
+      },
+      {
+        "term": "gradsky",
+        "translation": "city, municipal",
+        "match": "gradsku"
+      },
+      {
+        "term": "vnutri",
+        "translation": "inside"
+      },
+      {
+        "term": "karta čitatelja",
+        "translation": "library card"
+      },
+      {
+        "term": "dokument",
+        "translation": "document, ID"
+      },
+      {
+        "term": "adres",
+        "translation": "address"
+      },
+      {
+        "term": "osobna karta",
+        "translation": "identity card"
+      },
+      {
+        "term": "tydenj",
+        "translation": "week",
+        "match": "tydnja"
+      },
+      {
+        "term": "polica",
+        "translation": "shelf",
+        "match": "police"
+      },
+      {
+        "term": "roman",
+        "translation": "novel",
+        "match": "romana"
+      },
+      {
+        "term": "vyhod",
+        "translation": "exit",
+        "match": "vyhodu"
+      },
+      {
+        "term": "stranica",
+        "translation": "page",
+        "match": "stranicu"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Koliko vrěmene Marta žive v Vroclavu?",
+        "options": [
+          "Jedin měsec",
+          "Jedin god",
+          "Jedin tydenj",
+          "Pet lět"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "Začto Marta ide v biblioteku?",
+        "options": [
+          "Knigy sut drage",
+          "Ona tam rabotaje",
+          "Ona hoče piti kavu",
+          "Ona iščet prijateljku"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Karta čitatelja koštaje deset zlotyh.",
+        "answer": false,
+        "explanation": "Karta jest bezplatna."
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko knig Marta može brati?",
+        "options": [
+          "Dvě",
+          "Pet",
+          "Deset",
+          "Jednu"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Marta beret knigu o Vroclavu.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde Marta pije kavu?",
+        "options": [
+          "V malom kafe na vyhodu",
+          "Doma",
+          "Na rynku",
+          "V parku"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-27",
+    "level": "A1",
+    "title": "Paket za vnuka",
+    "topic": "Services",
+    "body": "Gospoža Vida žive v Celju, v Sloveniji. Jej vnuk Tim žive v Kanadě. Za deset dnij on imaje roždenny den. Vida ide na poštu s velikym paketom.\n\nV paketu jest teply sveter, ktory ona sama pletla, slovenska čokolada i maly album s fotografijami.\n— Dobry den. Hoču poslati ovy paket v Kanadu.\n— Dobro. Postavite ga na vagu, prošu... Dva kilograma.\n— Koliko koštaje?\n— Normalno 35 evro, jedin do dva tydnja. Ekspres koštaje 60 evro, pet dnij.\n— Normalno, prošu. Tim imaje roždenny den za deset dnij.\n— Napišite adres tut i čto jest v paketu.\n\nVida piše adres i plati. Ona jest rada, že paket ide.",
+    "glossary": [
+      {
+        "term": "pošta",
+        "translation": "post office",
+        "match": "poštu"
+      },
+      {
+        "term": "paket",
+        "translation": "parcel",
+        "match": "paketom"
+      },
+      {
+        "term": "teply",
+        "translation": "warm"
+      },
+      {
+        "term": "sveter",
+        "translation": "jumper, sweater"
+      },
+      {
+        "term": "plesti",
+        "translation": "to knit",
+        "match": "pletla"
+      },
+      {
+        "term": "čokolada",
+        "translation": "chocolate"
+      },
+      {
+        "term": "poslati",
+        "translation": "to send"
+      },
+      {
+        "term": "vaga",
+        "translation": "scales",
+        "match": "vagu"
+      },
+      {
+        "term": "kilogram",
+        "translation": "kilogram",
+        "match": "kilograma"
+      },
+      {
+        "term": "normalno",
+        "translation": "standard, normally"
+      },
+      {
+        "term": "napisati",
+        "translation": "to write down",
+        "match": "Napišite"
+      },
+      {
+        "term": "rad",
+        "translation": "glad",
+        "match": "rada"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde žive vnuk Tim?",
+        "options": [
+          "V Kanadě",
+          "V Celju",
+          "V Ljubljaně",
+          "V Avstraliji"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto jest v paketu?",
+        "options": [
+          "Igry",
+          "Knigy",
+          "Dengi",
+          "Sveter, čokolada i album"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Vida kupuje sveter v magazinu.",
+        "answer": false,
+        "explanation": "Vida sama pletla sveter."
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko važi paket?",
+        "options": [
+          "Dva kilograma",
+          "Pet kilogramov",
+          "Jedin kilogram",
+          "Deset kilogramov"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Vida beret normalnu poštu.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko koštaje normalna pošta?",
+        "options": [
+          "35 evro",
+          "60 evro",
+          "10 evro",
+          "100 evro"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-28",
+    "level": "A1",
+    "title": "Račun v bankě",
+    "topic": "Banking and money",
+    "body": "Olena jest iz Ukrainy. Ona žive v Plzenju i imaje novu rabotu v fabrikě. Firma hoče platiti plaću na račun v bankě. Zato Olena ide v banku.\n— Dobry den. Hoču otkryti račun.\n— Dobry den. Prošu, sedite. Imate li pasport i dozvolu za bytje?\n— Da, tut sut.\n— I dogovor o rabotě?\n— Da, tut.\n\nBankir piše na kompjuteru. Potom on pokazuje Oleně dokumenty.\n— Račun koštaje 50 korun na měsec. Dostanete kartu i aplikaciju za telefon.\n— Kogda dostanu kartu?\n— Za pet dnij, po pošte.\n\nOlena podpisuje dokumenty. Teper ona imaje račun v Češskoj!",
+    "glossary": [
+      {
+        "term": "fabrika",
+        "translation": "factory",
+        "match": "fabrikě"
+      },
+      {
+        "term": "plaća",
+        "translation": "salary",
+        "match": "plaću"
+      },
+      {
+        "term": "račun",
+        "translation": "bank account"
+      },
+      {
+        "term": "otkryti",
+        "translation": "to open"
+      },
+      {
+        "term": "dozvola za bytje",
+        "translation": "residence permit",
+        "match": "dozvolu za bytje"
+      },
+      {
+        "term": "dogovor",
+        "translation": "contract"
+      },
+      {
+        "term": "bankir",
+        "translation": "bank clerk"
+      },
+      {
+        "term": "pokazovati",
+        "translation": "to show",
+        "match": "pokazuje"
+      },
+      {
+        "term": "kruna",
+        "translation": "crown (currency)",
+        "match": "korun"
+      },
+      {
+        "term": "dostati",
+        "translation": "to get, receive",
+        "match": "Dostanete"
+      },
+      {
+        "term": "aplikacija",
+        "translation": "app",
+        "match": "aplikaciju"
+      },
+      {
+        "term": "podpisovati",
+        "translation": "to sign",
+        "match": "podpisuje"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Iz kakoj zemlje jest Olena?",
+        "options": [
+          "Iz Bělorusije",
+          "Iz Poljske",
+          "Iz Slovakije",
+          "Iz Ukrainy"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde rabotaje Olena?",
+        "options": [
+          "V bankě",
+          "V fabrikě",
+          "V školě",
+          "V magazinu"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Račun jest bezplatny.",
+        "answer": false,
+        "explanation": "Račun koštaje 50 korun na měsec."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda Olena dostane kartu?",
+        "options": [
+          "Zavtra",
+          "Sejčas",
+          "Za jedin měsec",
+          "Za pet dnij"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Olena dostane aplikaciju za telefon.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kako karta pride?",
+        "options": [
+          "Po elektronnoj pošte",
+          "Bankir ju nese domov",
+          "Po pošte",
+          "Olena ju beret v bankě"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-29",
+    "level": "A1",
+    "title": "Zapis k frizeru",
+    "topic": "Services",
+    "body": "V subotu jest svadba jej sestry. Amra iz Mostara hoče idti k frizeru. Ona zvoni v salon «Lijepa kosa».\n— Dobry den, salon «Lijepa kosa».\n— Dobry den. Hoču zapis za petok, prošu. V subotu jest svadba mojej sestry.\n— Kaky zapis? Strižka, kolor ili frizura?\n— Strižka i krasna frizura za svadbu.\n— Momenat... V petok imamo vrěme v 10:00 ili v 16:30.\n— V 16:30, prošu. Rano rabotam.\n— Dobro. Kako se zovete?\n— Amra Hodžić.\n— I vaš telefon?\n— 061 234 567.\n— Hvala. Strižka i frizura koštajut 40 maraka. Ako ne možete prijdti, prošu, zvonite.\n— Dobro. Hvala, do petka!",
+    "glossary": [
+      {
+        "term": "zapis",
+        "translation": "appointment"
+      },
+      {
+        "term": "frizer",
+        "translation": "hairdresser",
+        "match": "frizeru"
+      },
+      {
+        "term": "kosa",
+        "translation": "hair"
+      },
+      {
+        "term": "strižka",
+        "translation": "haircut"
+      },
+      {
+        "term": "frizura",
+        "translation": "hairstyle"
+      },
+      {
+        "term": "momenat",
+        "translation": "moment"
+      },
+      {
+        "term": "kako se zovete",
+        "translation": "what is your name"
+      },
+      {
+        "term": "telefon",
+        "translation": "phone number, phone"
+      },
+      {
+        "term": "marka",
+        "translation": "mark (currency)",
+        "match": "maraka"
+      },
+      {
+        "term": "ako",
+        "translation": "if"
+      },
+      {
+        "term": "prijdti",
+        "translation": "to come"
+      },
+      {
+        "term": "do petka",
+        "translation": "see you Friday"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Začto Amra hoče zapis?",
+        "options": [
+          "Ona ide na odpust",
+          "Ona imaje roždenny den",
+          "Ona ide na rabotu",
+          "V subotu jest svadba sestry"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Amra hoče?",
+        "options": [
+          "Jedino kolor",
+          "Strižku i frizuru",
+          "Manikjur",
+          "Masažu"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Amra beret zapis v 10:00.",
+        "answer": false,
+        "explanation": "Ona beret zapis v 16:30, zato že rano rabotaje."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kako se zove salon?",
+        "options": [
+          "«Amra»",
+          "«Lijepa kosa»",
+          "«Mostar»",
+          "«Svadba»"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Strižka i frizura koštajut 40 maraka.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda jest zapis?",
+        "options": [
+          "V subotu",
+          "V petok",
+          "V ponedělok",
+          "V nedělju"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-30",
+    "level": "A1",
+    "title": "Prazna šina",
+    "topic": "Transport",
+    "body": "Sergej žive v Sankt-Peterburgu. On jede na rabotu na velosipedu každy den. Put traje dvadset minut, po naberežnoj rěky.\n\nDnes jest ponedělok. V 8:20 Sergej jede po mostu i vdrug slyši: «Pšššš!» Zadnja šina jest prazna. Ne jest vozduha!\n\nSergej stoji na ulici. Ne imaje pumpy. V 9:00 on imaje važny sastanok. Čto dělati?\n\nOn vidi blizu malu velosipednu masterskuju. Majster jest star i dobry čelovek.\n— Dobro jutro. Imam praznu šinu.\n— Ne problem. Pet minut.\n\nMajster bystro popravlja šinu. Koštaje 300 rubljev. Sergej plati i jede dalje. On prihodi na rabotu v 8:58. Uh!",
+    "glossary": [
+      {
+        "term": "prazny",
+        "translation": "flat, empty",
+        "match": "prazna"
+      },
+      {
+        "term": "šina",
+        "translation": "tyre"
+      },
+      {
+        "term": "naberežna",
+        "translation": "embankment",
+        "match": "naberežnoj"
+      },
+      {
+        "term": "most",
+        "translation": "bridge",
+        "match": "mostu"
+      },
+      {
+        "term": "vdrug",
+        "translation": "suddenly"
+      },
+      {
+        "term": "zadnji",
+        "translation": "back, rear",
+        "match": "Zadnja"
+      },
+      {
+        "term": "vozduh",
+        "translation": "air",
+        "match": "vozduha"
+      },
+      {
+        "term": "pumpa",
+        "translation": "pump",
+        "match": "pumpy"
+      },
+      {
+        "term": "važny",
+        "translation": "important"
+      },
+      {
+        "term": "sastanok",
+        "translation": "meeting"
+      },
+      {
+        "term": "masterska",
+        "translation": "workshop",
+        "match": "masterskuju"
+      },
+      {
+        "term": "popravljati",
+        "translation": "to repair",
+        "match": "popravlja"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kako Sergej jede na rabotu?",
+        "options": [
+          "Na velosipedu",
+          "Na avtobusu",
+          "Na metro",
+          "Pěšo"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda imaje Sergej važny sastanok?",
+        "options": [
+          "V 10:00",
+          "V 8:20",
+          "V 9:00",
+          "V 12:00"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Sergej imaje pumpu.",
+        "answer": false,
+        "explanation": "On ne imaje pumpy."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kto popravlja šinu?",
+        "options": [
+          "Sergej sam",
+          "Star majster",
+          "Kolega",
+          "Policist"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Popravka koštaje 300 rubljev.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda Sergej prihodi na rabotu?",
+        "options": [
+          "V 10:00",
+          "V 9:30",
+          "V 8:00",
+          "V 8:58"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-31",
+    "level": "A1",
+    "title": "Palačinky s tatom",
+    "topic": "Cooking",
+    "body": "Jest nedělja v Olomoucu. Mama spi dolgo, i otec Radek i dočka Ema imajut plan: palačinky za zavtrak!\n\nNajprvo oni beret veliku misku. Ema daje dva jajca, mlěko i muku. Radek dodaje malo soli i cukra. Ema měša vse lžicoju. «Ne tako bystro!» — směje se otec.\n\nPotom Radek grěje skovradu s maslom. On lije tonky sloj testa na skovradu. Po jednoj minutě on obračaje palačinku. Prva palačinka jest ne krasna, ale vkusna.\n\nEma klade na palačinky džem, ovoče i šlehačku. Kuhinja jest běla od muky!\n\nV 10:00 mama prihodi v kuhinju. Na stolu jest dvanadset palačinok. «Kaky prijatny sjurpriz!» — govori ona.",
+    "glossary": [
+      {
+        "term": "palačinka",
+        "translation": "pancake",
+        "match": "palačinky"
+      },
+      {
+        "term": "miska",
+        "translation": "bowl",
+        "match": "misku"
+      },
+      {
+        "term": "muka",
+        "translation": "flour",
+        "match": "muku"
+      },
+      {
+        "term": "dodavati",
+        "translation": "to add",
+        "match": "dodaje"
+      },
+      {
+        "term": "sol",
+        "translation": "salt",
+        "match": "soli"
+      },
+      {
+        "term": "cukor",
+        "translation": "sugar",
+        "match": "cukra"
+      },
+      {
+        "term": "měšati",
+        "translation": "to stir, mix",
+        "match": "měša"
+      },
+      {
+        "term": "lžica",
+        "translation": "spoon",
+        "match": "lžicoju"
+      },
+      {
+        "term": "skovrada",
+        "translation": "frying pan",
+        "match": "skovradu"
+      },
+      {
+        "term": "tonky",
+        "translation": "thin"
+      },
+      {
+        "term": "testo",
+        "translation": "batter, dough",
+        "match": "testa"
+      },
+      {
+        "term": "sjurpriz",
+        "translation": "surprise"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kto pravi palačinky?",
+        "options": [
+          "Baba",
+          "Mama",
+          "Otec i dočka",
+          "Ema sama"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Ema daje v misku?",
+        "options": [
+          "Jajca, mlěko i muku",
+          "Džem i ovoče",
+          "Maslo",
+          "Čokoladu"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Prva palačinka jest velmi krasna.",
+        "answer": false,
+        "explanation": "Prva palačinka jest ne krasna, ale vkusna."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Ema klade na palačinky?",
+        "options": [
+          "Syr",
+          "Džem, ovoče i šlehačku",
+          "Mjaso",
+          "Sol"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Kuhinja jest běla od muky.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko palačinok jest na stolu?",
+        "options": [
+          "Dvadset",
+          "Tri",
+          "Šest",
+          "Dvanadset"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-32",
+    "level": "A1",
+    "title": "Vigilija v Poljskoj",
+    "topic": "Holidays",
+    "body": "Džon jest iz Anglije i studiruje v Lublinu. Jego prijateljka Basja priglašaje jego na Vigiliju k svojej semji. To jest 24. decembra, najvažnějši večer v godu v Poljskoj.\n\nVečerom vsi stojat pri okně i čekajut na prvu zvězdu na nebu. Potom vsi lomajut oplatek, tonky běly hlěb, i govoret dobre želanja.\n\nNa stolu jest dvanadset jedl, bez mjasa: borš s pirožkami, karp, pirogi s kapustoju, grib i sladky mak. Pod stolom jest malo sěna.\n\nNa stolu jest takože jedno prazno město. To jest za nepoznanogo gostja. Basja govori: «Dnes ty jesi naš gost!»\n\nPo večerje vsi pějut koledy i otkryvajut podarky pod jelkoju.",
+    "glossary": [
+      {
+        "term": "priglašati",
+        "translation": "to invite",
+        "match": "priglašaje"
+      },
+      {
+        "term": "zvězda",
+        "translation": "star",
+        "match": "zvězdu"
+      },
+      {
+        "term": "nebo",
+        "translation": "sky",
+        "match": "nebu"
+      },
+      {
+        "term": "lomati",
+        "translation": "to break",
+        "match": "lomajut"
+      },
+      {
+        "term": "želanje",
+        "translation": "wish",
+        "match": "želanja"
+      },
+      {
+        "term": "jedlo",
+        "translation": "dish",
+        "match": "jedl"
+      },
+      {
+        "term": "bez",
+        "translation": "without"
+      },
+      {
+        "term": "grib",
+        "translation": "mushroom"
+      },
+      {
+        "term": "sěno",
+        "translation": "hay",
+        "match": "sěna"
+      },
+      {
+        "term": "nepoznany",
+        "translation": "unknown",
+        "match": "nepoznanogo"
+      },
+      {
+        "term": "gost",
+        "translation": "guest"
+      },
+      {
+        "term": "jelka",
+        "translation": "Christmas tree",
+        "match": "jelkoju"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Iz kakoj zemlje jest Džon?",
+        "options": [
+          "Iz Ameriky",
+          "Iz Poljske",
+          "Iz Anglije",
+          "Iz Irlandije"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda jest Vigilija?",
+        "options": [
+          "24. decembra",
+          "1. januara",
+          "31. decembra",
+          "25. decembra"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Na stolu jest mnogo mjasa.",
+        "answer": false,
+        "explanation": "Dvanadset jedl jest bez mjasa."
+      },
+      {
+        "type": "mc",
+        "prompt": "Na čto čekajut vsi pri okně?",
+        "options": [
+          "Na sněg",
+          "Na prvu zvězdu",
+          "Na gostej",
+          "Na polnoč"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Na stolu jest prazno město za gostja.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde sut podarky?",
+        "options": [
+          "V kuhinji",
+          "Na stolu",
+          "Pod jelkoju",
+          "Pod stolom"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-33",
+    "level": "A1",
+    "title": "Vrěly den na bazenu",
+    "topic": "Leisure",
+    "body": "Jest julij v Osijeku. Na ulici jest 35 stupnjev. To jest vrěly den. Ivan i jego dva prijatelja, Dario i Toni, ne hočut sedeti doma. Oni idut na gradsky bazen.\n\nBilet koštaje 4 evro. Na bazenu jest mnogo ljudij: děti, roditelji, studenti. Vsi hočut studenu vodu.\n\nNajprvo prijatelji kladut ručniky na travu pod drěvom. Tam jest sěnj. Potom oni skačut v vodu. Voda jest studena i čista. Krasno!\n\nDario dobro plava, on plava sto metrov. Toni ne plava dobro, on igraje s mjačem v malom bazenu. Ivan leži na sunci i čitaje.\n\nV 15:00 oni kupujut sladoled. Ivan imaje crvenu kožu. Toni govori: «Ivan, ty jesi kako pomidor!»",
+    "glossary": [
+      {
+        "term": "vrěly",
+        "translation": "hot"
+      },
+      {
+        "term": "sedeti",
+        "translation": "to sit",
+        "match": "sedeti"
+      },
+      {
+        "term": "voda",
+        "translation": "water",
+        "match": "vodu"
+      },
+      {
+        "term": "ručnik",
+        "translation": "towel",
+        "match": "ručniky"
+      },
+      {
+        "term": "drěvo",
+        "translation": "tree",
+        "match": "drěvom"
+      },
+      {
+        "term": "sěnj",
+        "translation": "shade"
+      },
+      {
+        "term": "plavati",
+        "translation": "to swim",
+        "match": "plava"
+      },
+      {
+        "term": "metr",
+        "translation": "metre",
+        "match": "metrov"
+      },
+      {
+        "term": "ležati",
+        "translation": "to lie",
+        "match": "leži"
+      },
+      {
+        "term": "sunce",
+        "translation": "sun",
+        "match": "sunci"
+      },
+      {
+        "term": "sladoled",
+        "translation": "ice cream"
+      },
+      {
+        "term": "koža",
+        "translation": "skin",
+        "match": "kožu"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kaka jest temperatura?",
+        "options": [
+          "15 stupnjev",
+          "20 stupnjev",
+          "35 stupnjev",
+          "40 stupnjev"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde prijatelji kladut ručniky?",
+        "options": [
+          "Pri vodě",
+          "Na travu pod drěvom",
+          "V kafe",
+          "Na ulici"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Toni plava sto metrov.",
+        "answer": false,
+        "explanation": "Dario plava sto metrov. Toni ne plava dobro."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto dělaje Ivan?",
+        "options": [
+          "Plava",
+          "Leži na sunci i čitaje",
+          "Igraje s mjačem",
+          "Spi"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Oni kupujut sladoled.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Začto Ivan jest kako pomidor?",
+        "options": [
+          "On jest pomidor",
+          "On imaje crvenu kožu",
+          "On imaje crvenu majicu",
+          "On ljubi pomidory"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-34",
+    "level": "A1",
+    "title": "Moj rozvrh",
+    "topic": "School",
+    "body": "Zovu se Matej. Imam dvanadset lět i učim se v školě v Nitrě. Jesm v šestom klasu. Tut jest moj rozvrh.\n\nŠkola počinaje v 8:00. V ponedělok imam matematiku, slovačsky jezyk, istoriju i fizkulturu. Fizkultura jest moj ljubimy predmet! Vo vtorok imam anglijsky jezyk, biologiju i muziku.\n\nV srědu jest najtežky den: šest urokov. Imamo matematiku dvaždy. V četvrtok imamo geografiju i informatiku. To jest zanimavo.\n\nV petok imamo jedino četyri uroka i ja idu domov v 11:40. Super!\n\nVelika pauza jest v 9:40. Togda ja jem sendvič i igraju s prijateljami na dvoru. Po školě ja idu na trening futbola.",
+    "glossary": [
+      {
+        "term": "rozvrh",
+        "translation": "timetable"
+      },
+      {
+        "term": "klas",
+        "translation": "class, grade",
+        "match": "klasu"
+      },
+      {
+        "term": "matematika",
+        "translation": "maths",
+        "match": "matematiku"
+      },
+      {
+        "term": "fizkultura",
+        "translation": "PE"
+      },
+      {
+        "term": "ljubimy",
+        "translation": "favourite"
+      },
+      {
+        "term": "predmet",
+        "translation": "school subject"
+      },
+      {
+        "term": "težky",
+        "translation": "hard, difficult",
+        "match": "najtežky"
+      },
+      {
+        "term": "dvaždy",
+        "translation": "twice"
+      },
+      {
+        "term": "zanimavo",
+        "translation": "interesting"
+      },
+      {
+        "term": "pauza",
+        "translation": "break"
+      },
+      {
+        "term": "dvor",
+        "translation": "yard, playground",
+        "match": "dvoru"
+      },
+      {
+        "term": "trening",
+        "translation": "training"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "V kakom klasu jest Matej?",
+        "options": [
+          "V prvom",
+          "V šestom",
+          "V devetom",
+          "V tretjem"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Kaky jest ljubimy predmet Mateja?",
+        "options": [
+          "Fizkultura",
+          "Matematika",
+          "Muzika",
+          "Istorija"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "V petok jest šest urokov.",
+        "answer": false,
+        "explanation": "V petok jest jedino četyri uroka. Šest urokov jest v srědu."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda jest velika pauza?",
+        "options": [
+          "V 9:40",
+          "V 8:00",
+          "V 11:40",
+          "V 13:00"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Po školě Matej ide na trening futbola.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kaky den jest najtežky?",
+        "options": [
+          "Vtorok",
+          "Ponedělok",
+          "Petok",
+          "Srěda"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-35",
+    "level": "A1",
+    "title": "Fo od Linja",
+    "topic": "Food and drink",
+    "body": "Linj jest iz Vietnama. On žive v Liberecu uže pet lět i rabotaje v restoranu. V subotu on priglašaje kolegov na obed v svoj stan. On gotovi svoje ljubimo jedlo: fo.\n\nFo jest sup s rižovoju lapšoju i govedinoju. Linj vari bulon cely den. V bulonu jest luk, imbir, cimet i anis. Cely stan pahne krasno.\n\nV 13:00 prihodet kolegi: Tereza, Jiri i Monika. Linj daje každomu veliku misku. V miskě jest lapša, tonke kusky mjasa i gorjači bulon. Na stolu jest svěža zelenina, limeta i čili.\n\nJiri prvy raz probuje palečky. To jest težko! Vsi se smejut.\n\nTereza govori: «To jest najlěpši sup v mojem žitju!»",
+    "glossary": [
+      {
+        "term": "kolega",
+        "translation": "colleague",
+        "match": "kolegov"
+      },
+      {
+        "term": "lapša",
+        "translation": "noodles",
+        "match": "lapšoju"
+      },
+      {
+        "term": "govedina",
+        "translation": "beef",
+        "match": "govedinoju"
+      },
+      {
+        "term": "variti",
+        "translation": "to cook, boil",
+        "match": "vari"
+      },
+      {
+        "term": "bulon",
+        "translation": "broth"
+      },
+      {
+        "term": "imbir",
+        "translation": "ginger"
+      },
+      {
+        "term": "cimet",
+        "translation": "cinnamon"
+      },
+      {
+        "term": "pahnuti",
+        "translation": "to smell",
+        "match": "pahne"
+      },
+      {
+        "term": "gorjači",
+        "translation": "hot"
+      },
+      {
+        "term": "zelenina",
+        "translation": "herbs, greens"
+      },
+      {
+        "term": "palečky",
+        "translation": "chopsticks",
+        "match": "palečky"
+      },
+      {
+        "term": "žitje",
+        "translation": "life",
+        "match": "žitju"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Iz kakoj zemlje jest Linj?",
+        "options": [
+          "Iz Vietnama",
+          "Iz Kitaja",
+          "Iz Japonije",
+          "Iz Tailanda"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto jest fo?",
+        "options": [
+          "Torta",
+          "Salata",
+          "Sup s lapšoju i govedinoju",
+          "Riž s ryboju"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Linj vari bulon jednu godinu.",
+        "answer": false,
+        "explanation": "On vari bulon cely den."
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko kolegov prihodi?",
+        "options": [
+          "Deset",
+          "Pet",
+          "Jedin",
+          "Tri"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Za Jirija palečky sut težke.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde rabotaje Linj?",
+        "options": [
+          "V školě",
+          "V restoranu",
+          "V bankě",
+          "V fabrikě"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-36",
+    "level": "A1",
+    "title": "Izlet v Tatry",
+    "topic": "Travel",
+    "body": "Paulina i Kamil živut v Krakovu. V subotu oni jedut na izlet v gory, v Tatry. Avtobus do Zakopanego jede dvě godiny.\n\nV Zakopanem oni kupujut karty i vodu. Oni hočut idti k jezeru Morskoje Oko. Put jest dolgy, okolo devet kilometrov, ale ne težky.\n\nV lěsu jest tiho i studeno. Oni vidut potok i velike kamenje. Po trem godinam oni sut pri jezeru. Voda jest zelena i čista. Okolo jezera sut visoke gory so sněgom.\n\nOni sedet na kamenju i imajut obed. Pri jezeru jest mala hata. Tam oni pijut gorjači čaj s jablučnym štrudelem.\n\nVečerom oni sut ustali, ale sčastlivi. «Do drugogo raza!»",
+    "glossary": [
+      {
+        "term": "izlet",
+        "translation": "trip, excursion"
+      },
+      {
+        "term": "karta",
+        "translation": "map",
+        "match": "karty"
+      },
+      {
+        "term": "jezero",
+        "translation": "lake",
+        "match": "jezeru"
+      },
+      {
+        "term": "dolgy",
+        "translation": "long"
+      },
+      {
+        "term": "kilometr",
+        "translation": "kilometre",
+        "match": "kilometrov"
+      },
+      {
+        "term": "potok",
+        "translation": "stream"
+      },
+      {
+        "term": "kamenje",
+        "translation": "stones, rocks"
+      },
+      {
+        "term": "visoky",
+        "translation": "high",
+        "match": "visoke"
+      },
+      {
+        "term": "hata",
+        "translation": "mountain hut"
+      },
+      {
+        "term": "ustaly",
+        "translation": "tired",
+        "match": "ustali"
+      },
+      {
+        "term": "zeleny",
+        "translation": "green",
+        "match": "zelena"
+      },
+      {
+        "term": "do drugogo raza",
+        "translation": "until next time"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kako jedut Paulina i Kamil do Zakopanego?",
+        "options": [
+          "Vlakom",
+          "Avtobusom",
+          "Avtom",
+          "Pěšo"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko kilometrov jest put do jezera?",
+        "options": [
+          "Okolo dvadset",
+          "Okolo tri",
+          "Okolo devet",
+          "Okolo pet"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Put do jezera jest velmi težky.",
+        "answer": false,
+        "explanation": "Put jest dolgy, ale ne težky."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kaka jest voda v jezeru?",
+        "options": [
+          "Černa",
+          "Zelena i čista",
+          "Topla",
+          "Mutna"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "V hatě oni pijut gorjači čaj.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto jest okolo jezera?",
+        "options": [
+          "Polja",
+          "Velik grad",
+          "More",
+          "Visoke gory so sněgom"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-37",
+    "level": "A1",
+    "title": "Na letišču",
+    "topic": "Travel",
+    "body": "Ana žive v Beogradu. Dnes ona leti v Rim na tri dni. Lět jest v 10:15. Ona prihodi na letišče v 8:00.\n\nNajprvo ona ide k stoliku registracije. Ona imaje jedino maly kufer i rukzak.\n— Dobro jutro. Vaš pasport i bilet, prošu.\n— Izvolite.\n— Hočete li město pri oknu?\n— Da, prošu.\n— Vaš kufer može idti s vami v salon. Izlaz jest A5. Posadka počinaje v 9:40.\n\nPotom Ana ide na kontrolu. Ona klade rukzak, telefon i pojas v korobku. Vse jest v porjadku.\n\nPri izlazu A5 ona pije kavu i čitaje. V 9:40 ona vhodi v samolet. Ona sedi pri oknu. Dobry put!",
+    "glossary": [
+      {
+        "term": "letěti",
+        "translation": "to fly",
+        "match": "leti"
+      },
+      {
+        "term": "lět",
+        "translation": "flight"
+      },
+      {
+        "term": "letišče",
+        "translation": "airport"
+      },
+      {
+        "term": "registracija",
+        "translation": "check-in",
+        "match": "registracije"
+      },
+      {
+        "term": "kufer",
+        "translation": "suitcase"
+      },
+      {
+        "term": "izvolite",
+        "translation": "here you are"
+      },
+      {
+        "term": "izlaz",
+        "translation": "gate",
+        "match": "Izlaz"
+      },
+      {
+        "term": "posadka",
+        "translation": "boarding"
+      },
+      {
+        "term": "kontrola",
+        "translation": "security check",
+        "match": "kontrolu"
+      },
+      {
+        "term": "pojas",
+        "translation": "belt"
+      },
+      {
+        "term": "korobka",
+        "translation": "box, tray",
+        "match": "korobku"
+      },
+      {
+        "term": "samolet",
+        "translation": "aeroplane"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kamo leti Ana?",
+        "options": [
+          "V London",
+          "V Pariž",
+          "V Rim",
+          "V Beograd"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda jest lět?",
+        "options": [
+          "V 12:00",
+          "V 8:00",
+          "V 9:40",
+          "V 10:15"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Ana imaje veliky kufer.",
+        "answer": false,
+        "explanation": "Ona imaje jedino maly kufer i rukzak."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kaky izlaz imaje Ana?",
+        "options": [
+          "A5",
+          "B2",
+          "A1",
+          "C7"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Ana sedi pri oknu.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Ana klade v korobku?",
+        "options": [
+          "Pasport",
+          "Kufer",
+          "Rukzak, telefon i pojas",
+          "Bilet"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-38",
+    "level": "A1",
+    "title": "Podarok za tatu",
+    "topic": "Shopping",
+    "body": "Otec Nikolaja i Marije imaje pjatdeset lět v nedělju. Děti žive v Burgasu i imajut 60 levov. Oni idut v torgovy centr za podarkom.\n\nNajprvo oni idut v magazin s odeždoju. Marija vidi krasnu košulju.\n— Tata ne ljubi košulje. On vsegda nosi majice, — govori Nikolaj.\n\nPotom oni idut v magazin s knigami. Nikolaj hoče knigu o ribolovstvu. Tata ljubi lovti rybu na morju. Ale kniga koštaje 70 levov. To jest drago.\n\nV sportivnom magazinu oni vidut novy kapelj za ribolovstvo i dobry nož. Kapelj koštaje 25 levov, nož 30.\n— Beremo oba! — govori Marija.\n\nOni kupujut i krasnu kartičku. Na kartičkě pišut: «Najlěpšemu tatě!»",
+    "glossary": [
+      {
+        "term": "torgovy centr",
+        "translation": "shopping centre"
+      },
+      {
+        "term": "košulja",
+        "translation": "shirt",
+        "match": "košulju"
+      },
+      {
+        "term": "nositi",
+        "translation": "to wear",
+        "match": "nosi"
+      },
+      {
+        "term": "majica",
+        "translation": "T-shirt",
+        "match": "majice"
+      },
+      {
+        "term": "ribolovstvo",
+        "translation": "fishing"
+      },
+      {
+        "term": "lovti",
+        "translation": "to catch"
+      },
+      {
+        "term": "drago",
+        "translation": "expensive"
+      },
+      {
+        "term": "kapelj",
+        "translation": "hat, cap"
+      },
+      {
+        "term": "nož",
+        "translation": "knife"
+      },
+      {
+        "term": "oba",
+        "translation": "both"
+      },
+      {
+        "term": "kartička",
+        "translation": "card",
+        "match": "kartičku"
+      },
+      {
+        "term": "najlěpši",
+        "translation": "the best",
+        "match": "Najlěpšemu"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Koliko lět imaje otec?",
+        "options": [
+          "Četyrideset",
+          "Šestdeset",
+          "Pjatdeset",
+          "Trideset"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko deneg imajut děti?",
+        "options": [
+          "70 levov",
+          "100 levov",
+          "30 levov",
+          "60 levov"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Děti kupujut knigu o ribolovstvu.",
+        "answer": false,
+        "explanation": "Kniga jest draga, 70 levov."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto tata ljubi dělati?",
+        "options": [
+          "Igrati futbol",
+          "Čitati",
+          "Gotoviti",
+          "Lovti rybu"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Děti kupujut kapelj i nož.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde děti kupujut podarok?",
+        "options": [
+          "V internetu",
+          "V magazinu s odeždoju",
+          "Na rynku",
+          "V sportivnom magazinu"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-39",
+    "level": "A1",
+    "title": "Vse ide zlo!",
+    "topic": "Daily routine",
+    "body": "Dnes jest važny den za Dmitra iz Odesy. V 9:00 on imaje sastanok s novym klientom. Ale vse ide zlo.\n\nBudilnik ne zvoni. Dmitro vstavaje v 8:10! On běži v kupalnju, ale ne jest gorjačej vody. On se myje studenoju vodoju. Brrr!\n\nV kuhinji on lije kavu, ale kava pada na jego bělu košulju. On iščet drugu košulju. Ne jest čistoj! On beret sinju majicu i sako.\n\nV 8:35 on běži na ostanovku. Avtobus odjezdžaje pred jego nosom. On beret taksi. Na ulicah jest probka.\n\nDmitro prihodi v 9:15. Ale klient takože kasni! Klient govori: «Izvinite, avtobus, probka...» Dmitro se směje.",
+    "glossary": [
+      {
+        "term": "zlo",
+        "translation": "badly"
+      },
+      {
+        "term": "myti se",
+        "translation": "to wash oneself",
+        "match": "se myje"
+      },
+      {
+        "term": "padati",
+        "translation": "to fall",
+        "match": "pada"
+      },
+      {
+        "term": "čisty",
+        "translation": "clean",
+        "match": "čistoj"
+      },
+      {
+        "term": "siny",
+        "translation": "blue",
+        "match": "sinju"
+      },
+      {
+        "term": "sako",
+        "translation": "jacket, blazer"
+      },
+      {
+        "term": "ostanovka",
+        "translation": "bus stop",
+        "match": "ostanovku"
+      },
+      {
+        "term": "odjezdžati",
+        "translation": "to leave, drive off",
+        "match": "odjezdžaje"
+      },
+      {
+        "term": "taksi",
+        "translation": "taxi"
+      },
+      {
+        "term": "probka",
+        "translation": "traffic jam"
+      },
+      {
+        "term": "kasniti",
+        "translation": "to be late",
+        "match": "kasni"
+      },
+      {
+        "term": "klient",
+        "translation": "client",
+        "match": "klientom"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kogda jest sastanok?",
+        "options": [
+          "V 9:15",
+          "V 8:10",
+          "V 9:00",
+          "V 10:00"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda Dmitro vstavaje?",
+        "options": [
+          "V 8:10",
+          "V 7:00",
+          "V 6:30",
+          "V 9:00"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "V kupalnji jest gorjača voda.",
+        "answer": false,
+        "explanation": "Ne jest gorjačej vody, on se myje studenoju vodoju."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto pada na košulju?",
+        "options": [
+          "Čaj",
+          "Kava",
+          "Sok",
+          "Voda"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Klient takože kasni.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kako Dmitro jede na sastanok?",
+        "options": [
+          "Velosipedom",
+          "Avtobusom",
+          "Pěšo",
+          "Taksijem"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-40",
+    "level": "A1",
+    "title": "Bilety na koncert",
+    "topic": "Free time",
+    "body": "Katja i Igor žive v Grodnu. Jih ljubima grupa, «Lětnji dožd», igraje v Minsku 15. junija. Katja hoče kupiti bilety.\n\nV ponedělok v 10:00 počinaje prodaža v internetu. Katja sedi pri kompjuteru v 9:55. V 10:00 ona klikaje, ale sajt ne rabotaje. Mnogo ljudij hoče bilety!\n\nV 10:12 sajt rabotaje. Ostavajut jedino bilety za 80 rubljev, ne za 40. To jest drago, ale Katja kupuje dva bileta.\n\nVečerom ona govori Igoru:\n— Imam bilety na «Lětnji dožd»!\n— Super! Kogda jest koncert?\n— 15. junija, v subotu, v 20:00.\n— Kako jedemo v Minsk?\n— Vlakom. Ja kupim i bilety na vlak.",
+    "glossary": [
+      {
+        "term": "grupa",
+        "translation": "band",
+        "match": "grupa"
+      },
+      {
+        "term": "prodaža",
+        "translation": "sale"
+      },
+      {
+        "term": "klikati",
+        "translation": "to click",
+        "match": "klikaje"
+      },
+      {
+        "term": "sajt",
+        "translation": "website"
+      },
+      {
+        "term": "ostavati",
+        "translation": "to remain",
+        "match": "Ostavajut"
+      },
+      {
+        "term": "lětnji",
+        "translation": "summer (adj.)"
+      },
+      {
+        "term": "dožd",
+        "translation": "rain"
+      },
+      {
+        "term": "rubelj",
+        "translation": "rouble",
+        "match": "rubljev"
+      },
+      {
+        "term": "junij",
+        "translation": "June",
+        "match": "junija"
+      },
+      {
+        "term": "koncert",
+        "translation": "concert"
+      },
+      {
+        "term": "kupiti",
+        "translation": "to buy",
+        "match": "kupim"
+      },
+      {
+        "term": "vlak",
+        "translation": "train",
+        "match": "vlak"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde igraje grupa?",
+        "options": [
+          "V Grodnu",
+          "V Minsku",
+          "V Brestu",
+          "V Vilnju"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda počinaje prodaža?",
+        "options": [
+          "V ponedělok v 10:00",
+          "V subotu",
+          "15. junija",
+          "V nedělju v 20:00"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Katja kupuje bilety za 40 rubljev.",
+        "answer": false,
+        "explanation": "Ostavajut jedino bilety za 80 rubljev."
+      },
+      {
+        "type": "mc",
+        "prompt": "Začto sajt ne rabotaje?",
+        "options": [
+          "Ne jest interneta",
+          "Kompjuter jest slomljeny",
+          "Mnogo ljudij hoče bilety",
+          "Prodaža jest zavtra"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Katja kupuje dva bileta.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kako Katja i Igor jedut v Minsk?",
+        "options": [
+          "Avtobusom",
+          "Vlakom",
+          "Avtom",
+          "Samoletom"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-41",
+    "level": "A1",
+    "title": "Moja najlěpša prijateljka",
+    "topic": "Relationships",
+    "body": "Zovu se Jovana i živu v Kotoru. Moja najlěpša prijateljka se zove Teodora. My se znajemo od dětstva. My žili v jednom domu, ona na prvom etaže, ja na tretjem.\n\nTeodora jest visoka i imaje dolge černe vlasy. Ona jest velmi smešna i dobra. Ona rabotaje kako medsestra v bolnici.\n\nMy ne jesmo jednake. Ja ljubim knigy i tiho, Teodora ljubi muziku i zabavy. Ale my vsegda razumějemo jedna drugu.\n\nKaždu srědu večerom my pijemo kavu na naberežnoj i govorimo o vsem. V lěto my plavajemo v morju.\n\nKogda imam problem, ja zvonim Teodorě. Ona vsegda slušaje. To jest prava prijateljka!",
+    "glossary": [
+      {
+        "term": "znati se",
+        "translation": "to know each other",
+        "match": "se znajemo"
+      },
+      {
+        "term": "dětstvo",
+        "translation": "childhood",
+        "match": "dětstva"
+      },
+      {
+        "term": "visoky",
+        "translation": "tall",
+        "match": "visoka"
+      },
+      {
+        "term": "smešny",
+        "translation": "funny",
+        "match": "smešna"
+      },
+      {
+        "term": "medsestra",
+        "translation": "nurse"
+      },
+      {
+        "term": "bolnica",
+        "translation": "hospital",
+        "match": "bolnici"
+      },
+      {
+        "term": "jednaky",
+        "translation": "the same, alike",
+        "match": "jednake"
+      },
+      {
+        "term": "razuměti",
+        "translation": "to understand",
+        "match": "razumějemo"
+      },
+      {
+        "term": "jedna druga",
+        "translation": "each other (f.)",
+        "match": "jedna drugu"
+      },
+      {
+        "term": "o vsem",
+        "translation": "about everything"
+      },
+      {
+        "term": "slušati",
+        "translation": "to listen",
+        "match": "slušaje"
+      },
+      {
+        "term": "pravy",
+        "translation": "true, real",
+        "match": "prava"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde žive Jovana?",
+        "options": [
+          "V Podgorici",
+          "V Kotoru",
+          "V Budvě",
+          "V Beogradu"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde rabotaje Teodora?",
+        "options": [
+          "V bankě",
+          "V školě",
+          "V kafe",
+          "V bolnici"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Jovana i Teodora ljubet jednake rěči.",
+        "answer": false,
+        "explanation": "Jovana ljubi knigy i tiho, Teodora ljubi muziku i zabavy."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda prijateljky pijut kavu?",
+        "options": [
+          "V subotu rano",
+          "Každy den",
+          "Každu srědu večerom",
+          "V nedělju"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Teodora imaje dolge černe vlasy.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto dělaje Jovana, kogda imaje problem?",
+        "options": [
+          "Ide na plažu",
+          "Čitaje knigu",
+          "Zvoni Teodorě",
+          "Spi"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-42",
+    "level": "A1",
+    "title": "Kto čto dělaje doma",
+    "topic": "Home",
+    "body": "Semja Marković žive v Kragujevcu. Mama i tata oba rabotajut, zato vsi dělajut domašnje raboty.\n\nV ponedělok i četvrtok tata gotovi večerju. On gotovi dobro, najlěpše pasta i ryba. Mama pere bělje i glača v subotu.\n\nSyn Luka imaje četyrnadset lět. On vynosi smetje každy večer i myje posudu po večerji. On ne ljubi myti posudu, ale to jest jego zadača.\n\nDočka Milena imaje deset lět. Ona hrani mačku i poliva cvěty na balkonu. V subotu ona pomagaje mamě pylesosati stan.\n\nNa tabli v kuhinji visi plan. Kto dělaje svoju rabotu, dostaje zvězdu. Na koncu měseca, kto imaje mnogo zvězd, izbiraje film na večer!",
+    "glossary": [
+      {
+        "term": "domašnja rabota",
+        "translation": "housework",
+        "match": "domašnje raboty"
+      },
+      {
+        "term": "prati",
+        "translation": "to wash (clothes)",
+        "match": "pere"
+      },
+      {
+        "term": "bělje",
+        "translation": "laundry"
+      },
+      {
+        "term": "glačati",
+        "translation": "to iron",
+        "match": "glača"
+      },
+      {
+        "term": "vynositi",
+        "translation": "to take out",
+        "match": "vynosi"
+      },
+      {
+        "term": "smetje",
+        "translation": "rubbish"
+      },
+      {
+        "term": "posuda",
+        "translation": "dishes",
+        "match": "posudu"
+      },
+      {
+        "term": "zadača",
+        "translation": "task, job"
+      },
+      {
+        "term": "hraniti",
+        "translation": "to feed",
+        "match": "hrani"
+      },
+      {
+        "term": "polivati",
+        "translation": "to water",
+        "match": "poliva"
+      },
+      {
+        "term": "pylesosati",
+        "translation": "to vacuum"
+      },
+      {
+        "term": "izbirati",
+        "translation": "to choose",
+        "match": "izbiraje"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kto gotovi večerju v ponedělok?",
+        "options": [
+          "Mama",
+          "Tata",
+          "Luka",
+          "Milena"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Luka dělaje každy večer?",
+        "options": [
+          "Gotovi večerju",
+          "Vynosi smetje i myje posudu",
+          "Hrani mačku",
+          "Glača"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Luka ljubi myti posudu.",
+        "answer": false,
+        "explanation": "On ne ljubi myti posudu, ale to jest jego zadača."
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko lět imaje Milena?",
+        "options": [
+          "Pet",
+          "Četyrnadset",
+          "Deset",
+          "Dvanadset"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Milena poliva cvěty na balkonu.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto dostaje tot, kto imaje mnogo zvězd?",
+        "options": [
+          "Dengi",
+          "Izbiraje film na večer",
+          "Sladoled",
+          "Novu igru"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-43",
+    "level": "A1",
+    "title": "Taksi v dožd",
+    "topic": "Transport",
+    "body": "Jest petok večerom v Harkovu. Natalija imaje vlak do Kyjeva v 19:40. Jest 19:05 i jest silny dožd. Ona ne imaje zontika.\n\nNatalija zvoni po taksi v aplikaciji. Po pet minutah prihodi bělo avto.\n— Dobry večer. Na vokzal, prošu. Bystro, moj vlak jest v 19:40!\n— Dobro. Ale v dožd jest mnogo avt na ulicah.\n\nŠofer jede bystro, ale ostrožno. Na mostu jest probka. Natalija gleda na časovnik každu minutu. 19:25... 19:30...\n\nV 19:33 taksi prihodi na vokzal. Jizda koštaje 180 grivnj. Natalija plati kartoju i daje napojnicu.\n— Hvala vam! Vy jeste geroj!\n\nOna běži na peron. Vlak jest tam. Ona vhodi v 19:38. Uh!",
+    "glossary": [
+      {
+        "term": "silny",
+        "translation": "heavy, strong"
+      },
+      {
+        "term": "zontik",
+        "translation": "umbrella",
+        "match": "zontika"
+      },
+      {
+        "term": "zvoniti po",
+        "translation": "to call (a taxi)",
+        "match": "zvoni po"
+      },
+      {
+        "term": "avto",
+        "translation": "car"
+      },
+      {
+        "term": "bystro",
+        "translation": "quickly"
+      },
+      {
+        "term": "ostrožno",
+        "translation": "carefully"
+      },
+      {
+        "term": "gledati",
+        "translation": "to look",
+        "match": "gleda"
+      },
+      {
+        "term": "časovnik",
+        "translation": "watch, clock"
+      },
+      {
+        "term": "jizda",
+        "translation": "ride, trip"
+      },
+      {
+        "term": "grivnja",
+        "translation": "hryvnia",
+        "match": "grivnj"
+      },
+      {
+        "term": "geroj",
+        "translation": "hero"
+      },
+      {
+        "term": "vhoditi",
+        "translation": "to get on, enter",
+        "match": "vhodi"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kamo jede Natalija vlakom?",
+        "options": [
+          "Do Minska",
+          "Do Lvova",
+          "Do Odesy",
+          "Do Kyjeva"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda jest vlak?",
+        "options": [
+          "V 20:00",
+          "V 19:05",
+          "V 19:33",
+          "V 19:40"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Natalija imaje zontik.",
+        "answer": false,
+        "explanation": "Ona ne imaje zontika."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde jest probka?",
+        "options": [
+          "Na mostu",
+          "Pri vokzalu",
+          "V centru",
+          "Pri domu"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Natalija prihodi na vlak.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko koštaje jizda?",
+        "options": [
+          "500 grivnj",
+          "80 grivnj",
+          "180 grivnj",
+          "18 grivnj"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-44",
+    "level": "A1",
+    "title": "Registracija v novom gradu",
+    "topic": "Bureaucracy",
+    "body": "Marija jest iz Španije. Ona žive v Prešovu od ponedělka, zato že ona uči španjolsky jezyk v gimnaziji. Ona treba registrovati svoj pobyt v policiji za cudzincev.\n\nV srědu rano ona ide v urad. Tam jest dolga čerga. Ona beret listok s nomerom 47.\n\nPo jednoj godině jest jej red. Činovnica daje jej formular.\n— Napišite tut vaše ime, priimenje, datum roždenja i adres v Prešovu.\n— Moj adres jest ulica Masarykova 12.\n— Imate li dogovor o stanu?\n— Da, tut jest.\n\nMarija piše vse. Činovnica stavi pečat.\n— Gotovo. Za dva tydnja dostanete potvrdženje po pošte.\n\nMarija jest rada. Jej prvy urad v Slovakiji jest za nej!",
+    "glossary": [
+      {
+        "term": "registrovati",
+        "translation": "to register"
+      },
+      {
+        "term": "pobyt",
+        "translation": "stay, residence"
+      },
+      {
+        "term": "cudzinec",
+        "translation": "foreigner",
+        "match": "cudzincev"
+      },
+      {
+        "term": "urad",
+        "translation": "office (public)"
+      },
+      {
+        "term": "čerga",
+        "translation": "queue"
+      },
+      {
+        "term": "nomer",
+        "translation": "number",
+        "match": "nomerom"
+      },
+      {
+        "term": "red",
+        "translation": "turn"
+      },
+      {
+        "term": "činovnica",
+        "translation": "civil servant (f.)"
+      },
+      {
+        "term": "formular",
+        "translation": "form"
+      },
+      {
+        "term": "priimenje",
+        "translation": "surname"
+      },
+      {
+        "term": "pečat",
+        "translation": "stamp"
+      },
+      {
+        "term": "potvrdženje",
+        "translation": "confirmation"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Iz kakoj zemlje jest Marija?",
+        "options": [
+          "Iz Slovakije",
+          "Iz Italije",
+          "Iz Španije",
+          "Iz Francije"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Marija rabotaje v Prešovu?",
+        "options": [
+          "Rabotaje v kafe",
+          "Rabotaje v policiji",
+          "Studiruje",
+          "Uči španjolsky jezyk"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "V uradu ne jest ljudij.",
+        "answer": false,
+        "explanation": "Tam jest dolga čerga."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kaky nomer imaje Marija?",
+        "options": [
+          "47",
+          "12",
+          "7",
+          "74"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Činovnica stavi pečat.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda Marija dostane potvrdženje?",
+        "options": [
+          "Sejčas",
+          "Za dva tydnja",
+          "Zavtra",
+          "Za jedin god"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-45",
+    "level": "A1",
+    "title": "Joga po jutram",
+    "topic": "Health",
+    "body": "Pjotr žive v Lodži i rabotaje v bankě. Cely den on sedi pri kompjuteru, osm godin. Uže dva měseca jego spina boli.\n\nLěkar govori: «Vy treba gibati se. Probujte jogu.»\n\nTeper Pjotr vstavaje v 6:30, dvadset minut ranše. On klade koberčik na pod v gostinnoj i gleda video v internetu. Učiteljka jogy govori spokojno i jasno.\n\nNajprvo Pjotr glboko dyše. Potom on dělaje proste pozicije: «kot», «pes» i «drěvo». Pozicija «drěvo» jest težka! Pjotr stoji na jednoj nogě i padaje.\n\nPo dvoh tydnjah spina boli menše. Pjotr jest takože bolje spokojny na rabotě. Teper i jego žena dělaje jogu s nim.",
+    "glossary": [
+      {
+        "term": "spina",
+        "translation": "back"
+      },
+      {
+        "term": "gibati se",
+        "translation": "to move, exercise"
+      },
+      {
+        "term": "joga",
+        "translation": "yoga",
+        "match": "jogu"
+      },
+      {
+        "term": "ranše",
+        "translation": "earlier"
+      },
+      {
+        "term": "koberčik",
+        "translation": "mat"
+      },
+      {
+        "term": "pod",
+        "translation": "floor"
+      },
+      {
+        "term": "spokojno",
+        "translation": "calmly"
+      },
+      {
+        "term": "glboko",
+        "translation": "deeply"
+      },
+      {
+        "term": "dyhati",
+        "translation": "to breathe",
+        "match": "dyše"
+      },
+      {
+        "term": "pozicija",
+        "translation": "pose, position",
+        "match": "pozicije"
+      },
+      {
+        "term": "noga",
+        "translation": "leg, foot",
+        "match": "nogě"
+      },
+      {
+        "term": "menše",
+        "translation": "less"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde rabotaje Pjotr?",
+        "options": [
+          "V bankě",
+          "V školě",
+          "V bolnici",
+          "V fabrikě"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko dolgo Pjotra boli spina?",
+        "options": [
+          "Jedin tydenj",
+          "Dva dni",
+          "Dva lěta",
+          "Dva měseca"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Pjotr ide v sportivny klub na jogu.",
+        "answer": false,
+        "explanation": "On dělaje jogu doma s video v internetu."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kaka pozicija jest težka za Pjotra?",
+        "options": [
+          "«Drěvo»",
+          "«Kot»",
+          "«Pes»",
+          "Vse"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Po dvoh tydnjah spina boli menše.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kto teper dělaje jogu s Pjotrom?",
+        "options": [
+          "Lěkar",
+          "Jego kolega",
+          "Jego žena",
+          "Jego syn"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-46",
+    "level": "A1",
+    "title": "Prvy školny den",
+    "topic": "School and education",
+    "body": "Jest 15. septembra v Ruse, v Bolgariji. To jest prvy školny den. Maly Boris imaje sedm lět i dnes on ide v prvy klas!\n\nBoris nosi novu bělu košulju i imaje novy rukzak s knigami i olovkami. V rukah on drži veliky buket cvětov za učiteljku. Mama, tata i baba idut s nim.\n\nPri školě jest mnogo dětij i roditeljev. Direktor govori krasnu rěč. Potom zvoni prvy zvonok. Po bulgarskoj tradiciji baba lije vodu pred Borisom. To znači: «Neka učenje ide lehko, kako voda!»\n\nUčiteljka se zove gospoža Ivanova. Ona jest mlada i vesela. Boris daje jej cvěty. V klasu jest dvadset dětij. Boris sedi s novym prijateljem, Petrom.",
+    "glossary": [
+      {
+        "term": "školny",
+        "translation": "school (adj.)"
+      },
+      {
+        "term": "olovka",
+        "translation": "pencil",
+        "match": "olovkami"
+      },
+      {
+        "term": "buket",
+        "translation": "bouquet"
+      },
+      {
+        "term": "direktor",
+        "translation": "head teacher"
+      },
+      {
+        "term": "rěč",
+        "translation": "speech"
+      },
+      {
+        "term": "tradicija",
+        "translation": "tradition",
+        "match": "tradiciji"
+      },
+      {
+        "term": "liti",
+        "translation": "to pour",
+        "match": "lije"
+      },
+      {
+        "term": "pred",
+        "translation": "in front of"
+      },
+      {
+        "term": "značiti",
+        "translation": "to mean",
+        "match": "znači"
+      },
+      {
+        "term": "učenje",
+        "translation": "learning"
+      },
+      {
+        "term": "lehko",
+        "translation": "easily"
+      },
+      {
+        "term": "mlady",
+        "translation": "young",
+        "match": "mlada"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kogda počinaje škola v Bolgariji?",
+        "options": [
+          "15. septembra",
+          "1. septembra",
+          "1. oktobra",
+          "15. avgusta"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko lět imaje Boris?",
+        "options": [
+          "Sedm",
+          "Pet",
+          "Deset",
+          "Šest"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Boris ide v školu sam.",
+        "answer": false,
+        "explanation": "Mama, tata i baba idut s nim."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto dělaje baba po tradiciji?",
+        "options": [
+          "Daje cvěty",
+          "Daje jemu dengi",
+          "Pěje pesnju",
+          "Lije vodu pred Borisom"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "V klasu jest dvadset dětij.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "S kim sedi Boris?",
+        "options": [
+          "S učiteljkoju",
+          "S Petrom",
+          "S mamoju",
+          "Sam"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-47",
+    "level": "A1",
+    "title": "Treba nam bolši stan",
+    "topic": "Housing",
+    "body": "Petra i Marin žive v Rijeci. Oni imajut maly stan: jednu sobu, kuhinju i kupalnju. Ale v avgustu prijde dete! Oni treba bolši stan.\n\nV subotu oni gledajut tri stany. Prvy stan jest v centru, blizu morja. On jest krasny, ale drag: 900 evro na měsec. Drugy stan jest deševy, ale na petom etaže bez lifta. S detetom i kolicami to jest težko.\n\nTretji stan jest v mirnom kvartalu. On imaje dvě spalnje, veliku kuhinju i balkon. Blizu jest park i dětsky sad. Najem jest 650 evro.\n— Čto misliš? — pyta Marin.\n— Mně se nravi. Spalnja za dete jest světla.\n\nOni podpisujut dogovor. V julu oni se prestavljajut.",
+    "glossary": [
+      {
+        "term": "bolši",
+        "translation": "bigger"
+      },
+      {
+        "term": "gledati",
+        "translation": "to view, look at",
+        "match": "gledajut"
+      },
+      {
+        "term": "drag",
+        "translation": "expensive"
+      },
+      {
+        "term": "deševy",
+        "translation": "cheap",
+        "match": "deševy"
+      },
+      {
+        "term": "kolica",
+        "translation": "pram",
+        "match": "kolicami"
+      },
+      {
+        "term": "mirny",
+        "translation": "quiet, peaceful",
+        "match": "mirnom"
+      },
+      {
+        "term": "kvartal",
+        "translation": "neighbourhood",
+        "match": "kvartalu"
+      },
+      {
+        "term": "dětsky sad",
+        "translation": "nursery, kindergarten"
+      },
+      {
+        "term": "misliti",
+        "translation": "to think",
+        "match": "misliš"
+      },
+      {
+        "term": "nraviti se",
+        "translation": "to like",
+        "match": "se nravi"
+      },
+      {
+        "term": "dogovor",
+        "translation": "contract"
+      },
+      {
+        "term": "prestavljati se",
+        "translation": "to move house",
+        "match": "se prestavljajut"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Začto Petra i Marin treba bolši stan?",
+        "options": [
+          "Oni imajut psa",
+          "V avgustu prijde dete",
+          "Stan jest drag",
+          "Oni hočut sad"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko koštaje prvy stan?",
+        "options": [
+          "650 evro",
+          "900 evro",
+          "500 evro",
+          "300 evro"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Drugy stan imaje lift.",
+        "answer": false,
+        "explanation": "Drugy stan jest na petom etaže bez lifta."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto jest blizu tretjego stana?",
+        "options": [
+          "Vokzal",
+          "More",
+          "Park i dětsky sad",
+          "Bolnica"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Oni izbirajut tretji stan.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda oni se prestavljajut?",
+        "options": [
+          "V maju",
+          "V avgustu",
+          "V decembru",
+          "V julu"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-48",
+    "level": "A1",
+    "title": "Aprilj v sadu",
+    "topic": "Home",
+    "body": "Jest teply aprilsky den v Banja Luci. Sunce světi i ptice pějut. Đorđe i jego žena Vesna rabotajut v svojem sadu za domom.\n\nNajprvo Đorđe kopaje zemlju. Vesna sadi semena: mrkvu, luk i salatu. Potom ona sadi male pomidory i papriky v rjad.\n\nV sadu sut takože tri stare drěva: jablonja, sliva i čerešnja. Čerešnja jest sejčas vsa běla od cvětov. Velmi krasno!\n\nV 12:00 Vesna nese kavu i kolače. Oni sedet na skamejkě pod jablonjeju i odpočivajut. Jih mačka spi na teplom kamenju.\n\nPopoludne Đorđe poliva vse z vědrom. Ruky sut grjazne, ale oba sut sčastlivi. V lěto budut svěže ovošče!",
+    "glossary": [
+      {
+        "term": "aprilsky",
+        "translation": "April (adj.)"
+      },
+      {
+        "term": "ptica",
+        "translation": "bird",
+        "match": "ptice"
+      },
+      {
+        "term": "kopati",
+        "translation": "to dig",
+        "match": "kopaje"
+      },
+      {
+        "term": "zemja",
+        "translation": "soil, earth",
+        "match": "zemlju"
+      },
+      {
+        "term": "saditi",
+        "translation": "to plant",
+        "match": "sadi"
+      },
+      {
+        "term": "seme",
+        "translation": "seed",
+        "match": "semena"
+      },
+      {
+        "term": "mrkva",
+        "translation": "carrot",
+        "match": "mrkvu"
+      },
+      {
+        "term": "rjad",
+        "translation": "row"
+      },
+      {
+        "term": "čerešnja",
+        "translation": "cherry tree"
+      },
+      {
+        "term": "skamejka",
+        "translation": "bench",
+        "match": "skamejkě"
+      },
+      {
+        "term": "vědro",
+        "translation": "bucket",
+        "match": "vědrom"
+      },
+      {
+        "term": "grjazny",
+        "translation": "dirty",
+        "match": "grjazne"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde žive Đorđe i Vesna?",
+        "options": [
+          "V Beogradu",
+          "V Sarajevu",
+          "V Mostaru",
+          "V Banja Luci"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto dělaje Đorđe najprvo?",
+        "options": [
+          "Poliva",
+          "Sadi semena",
+          "Pije kavu",
+          "Kopaje zemlju"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "V sadu ne jest drěv.",
+        "answer": false,
+        "explanation": "V sadu sut tri stare drěva."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kaka jest čerešnja sejčas?",
+        "options": [
+          "Zelena",
+          "Běla od cvětov",
+          "Crvena od plodov",
+          "Suha"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Mačka spi na teplom kamenju.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Vesna nese v 12:00?",
+        "options": [
+          "Sok",
+          "Čaj i hlěb",
+          "Vodu",
+          "Kavu i kolače"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-49",
+    "level": "A1",
+    "title": "Španjolsky v telefonu",
+    "topic": "School and education",
+    "body": "Urška žive v Kranju i rabotaje kako medsestra. V oktobru ona ide na odpust v Španiju. Ona hoče govoriti malo španjolsky. Ale ona ne imaje vrěmene za kurs.\n\nZato ona uči se s aplikacijoju na telefonu. Každy den ona dělaje jedin urok, pjatnadset minut. Rano v avtobusu ili večerom v posteli.\n\nAplikacija jest zabavna. Tam sut slova, kartinky i male igry. Urška slušaje i ponavlja frazy. Za každy urok ona dostaje točky. Jesli ona ne uči se jedin den, aplikacija piše: «Urška, kde jesi?»\n\nUže dva měseca ona uči se každy den. Ona zna okolo 300 slov. Ona uže može pytati po-španjolsky, kde jest plaža!",
+    "glossary": [
+      {
+        "term": "učiti se",
+        "translation": "to learn",
+        "match": "uči se"
+      },
+      {
+        "term": "aplikacija",
+        "translation": "app",
+        "match": "aplikacijoju"
+      },
+      {
+        "term": "zabavny",
+        "translation": "fun",
+        "match": "zabavna"
+      },
+      {
+        "term": "kartinka",
+        "translation": "picture",
+        "match": "kartinky"
+      },
+      {
+        "term": "ponavljati",
+        "translation": "to repeat",
+        "match": "ponavlja"
+      },
+      {
+        "term": "fraza",
+        "translation": "phrase",
+        "match": "frazy"
+      },
+      {
+        "term": "točka",
+        "translation": "point",
+        "match": "točky"
+      },
+      {
+        "term": "postelj",
+        "translation": "bed",
+        "match": "posteli"
+      },
+      {
+        "term": "znati",
+        "translation": "to know",
+        "match": "zna"
+      },
+      {
+        "term": "odpust",
+        "translation": "holiday"
+      },
+      {
+        "term": "vrěme",
+        "translation": "time",
+        "match": "vrěmene"
+      },
+      {
+        "term": "medsestra",
+        "translation": "nurse"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kamo Urška ide v oktobru?",
+        "options": [
+          "V Franciju",
+          "V Italiju",
+          "V Španiju",
+          "V Grčiju"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko dolgo traje jedin urok?",
+        "options": [
+          "Tri godiny",
+          "Jednu godinu",
+          "Pet minut",
+          "Pjatnadset minut"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Urška ide na kurs španjolskogo.",
+        "answer": false,
+        "explanation": "Ona ne imaje vrěmene za kurs, ona uči se s aplikacijoju."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Urška dostaje za každy urok?",
+        "options": [
+          "Bilet",
+          "Dengi",
+          "Knigu",
+          "Točky"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Urška zna okolo 300 slov.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde Urška dělaje uroky?",
+        "options": [
+          "V školě",
+          "V avtobusu ili v posteli",
+          "Na rabotě",
+          "V biblioteke"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-50",
+    "level": "A1",
+    "title": "Pozdrav iz Ohrida",
+    "topic": "Travel",
+    "body": "Draga Kristina!\n\nPozdravy iz Ohrida! Ja jesm tut s mojimi roditeljami na odpustu. Mnogo mi se nravi!\n\nOhridsko jezero jest ogromno i voda jest čista i sinja. Rano my plavajemo i potom ležimo na plaži. Voda jest studena, ale prijatna.\n\nStary grad jest na gorě nad jezerom. Tam sut male ulicy i stare cerkvi. Najkrasnějša jest cerkva Svetogo Jovana nad vodoju. Na zakatu ona jest kako na kartinkě!\n\nVečerom my jemo ohridsku pastrmku v restoranu pri jezeru. Velmi vkusno!\n\nVrěme jest teplo, 28 stupnjev, i ne jest dožda. V subotu my jedemo domov.\n\nDo skorogo viděnja!\nTvoja Lena",
+    "glossary": [
+      {
+        "term": "drag",
+        "translation": "dear",
+        "match": "Draga"
+      },
+      {
+        "term": "pozdravy",
+        "translation": "greetings"
+      },
+      {
+        "term": "ogromny",
+        "translation": "huge",
+        "match": "ogromno"
+      },
+      {
+        "term": "siny",
+        "translation": "blue",
+        "match": "sinja"
+      },
+      {
+        "term": "prijatny",
+        "translation": "pleasant",
+        "match": "prijatna"
+      },
+      {
+        "term": "gora",
+        "translation": "hill, mountain",
+        "match": "gorě"
+      },
+      {
+        "term": "cerkva",
+        "translation": "church"
+      },
+      {
+        "term": "zakat",
+        "translation": "sunset",
+        "match": "zakatu"
+      },
+      {
+        "term": "pastrmka",
+        "translation": "trout",
+        "match": "pastrmku"
+      },
+      {
+        "term": "vrěme",
+        "translation": "weather"
+      },
+      {
+        "term": "teplo",
+        "translation": "warm"
+      },
+      {
+        "term": "do skorogo viděnja",
+        "translation": "see you soon"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "S kim Lena jest v Ohridu?",
+        "options": [
+          "S Kristinoju",
+          "S roditeljami",
+          "S prijateljami",
+          "Sama"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Kaka jest voda v jezeru?",
+        "options": [
+          "Zelena",
+          "Grjazna",
+          "Vrěla",
+          "Čista i sinja"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Voda v jezeru jest topla.",
+        "answer": false,
+        "explanation": "Voda jest studena, ale prijatna."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde jest cerkva Svetogo Jovana?",
+        "options": [
+          "Nad vodoju",
+          "V centru grada",
+          "Na plaži",
+          "V gorah daleko"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrěme jest teplo i ne jest dožda.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda Lena jede domov?",
+        "options": [
+          "Za měsec",
+          "V nedělju",
+          "Zavtra",
+          "V subotu"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-51",
+    "level": "A1",
+    "title": "Piknik v parku",
+    "topic": "Free time",
+    "body": "Jest subota v Hradcu Kralove. Sunce světi i jest 24 stupnja. Tri prijateljky, Lucie, Klara i Barbora, imajut piknik v gradskom parku.\n\nKaždy nese něčto. Lucie nese veliku dekku i košik s hlěbom, syrom i šunkoju. Klara nese ovoče: jahody, čerešnje i arbuz. Barbora nese limonadu i domašnji kolač s makom.\n\nOni sedet na dekkě pod velikym drěvom pri rěkě. Pri nih igrajut děti i psi běgajut po travě.\n\nPo jedlu Klara igraje na gitarě i vsi pějut. Barbora čitaje knigu. Lucie spi na sunci.\n\nV 17:00 jest vetrno i studeno. Prijateljky sbirajut vse i nesut smetje v kontejner. Krasny den!",
+    "glossary": [
+      {
+        "term": "piknik",
+        "translation": "picnic"
+      },
+      {
+        "term": "něčto",
+        "translation": "something"
+      },
+      {
+        "term": "dekka",
+        "translation": "blanket",
+        "match": "dekku"
+      },
+      {
+        "term": "košik",
+        "translation": "basket"
+      },
+      {
+        "term": "šunka",
+        "translation": "ham",
+        "match": "šunkoju"
+      },
+      {
+        "term": "jahoda",
+        "translation": "strawberry",
+        "match": "jahody"
+      },
+      {
+        "term": "arbuz",
+        "translation": "watermelon"
+      },
+      {
+        "term": "mak",
+        "translation": "poppy seed",
+        "match": "makom"
+      },
+      {
+        "term": "běgati",
+        "translation": "to run around",
+        "match": "běgajut"
+      },
+      {
+        "term": "vetrno",
+        "translation": "windy"
+      },
+      {
+        "term": "sbirati",
+        "translation": "to collect, pack up",
+        "match": "sbirajut"
+      },
+      {
+        "term": "kontejner",
+        "translation": "bin, container"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Koliko prijateljek imaje piknik?",
+        "options": [
+          "Tri",
+          "Dvě",
+          "Četyri",
+          "Pet"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto nese Klara?",
+        "options": [
+          "Dekku",
+          "Limonadu",
+          "Ovoče",
+          "Kolač"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Prijateljky sedet na skamejkě.",
+        "answer": false,
+        "explanation": "Oni sedet na dekkě pod velikym drěvom."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto dělaje Lucie po jedlu?",
+        "options": [
+          "Čitaje knigu",
+          "Igraje na gitarě",
+          "Spi na sunci",
+          "Plava"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "V 17:00 jest vetrno.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kakovy kolač nese Barbora?",
+        "options": [
+          "Jablučny štrudel",
+          "Čokoladny tort",
+          "Kolač s makom",
+          "Kolač s jahodami"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-52",
+    "level": "A1",
+    "title": "Moj maly grad",
+    "topic": "Places in town",
+    "body": "Zovu se Nenad i živu v Sremskih Karlovcah. To jest maly grad pri Dunaju, blizu Novogo Sada. Tut žive okolo osm tysuč ljudij.\n\nV centru jest krasny trg s fontanoju i staroju cerkvoju. Tut jest takože stara gimnazija, muzej i dvě kafe. Na trgu jest rynok v subotu.\n\nV gradu sut dva supermarketa, pekarnja, apteka i pošta. Okolo grada sut vinogrady. Mnogo turistov prihodi piti vino.\n\nAle v gradu ne jest kina, ne jest bazena i ne jest velikogo magazina s odeždoju. Za to my jedemo avtobusom v Novi Sad, dvadset minut.\n\nJa ljubim moj grad. Tut jest tiho i vsi se znajut.",
+    "glossary": [
+      {
+        "term": "tysuč",
+        "translation": "thousand"
+      },
+      {
+        "term": "fontana",
+        "translation": "fountain",
+        "match": "fontanoju"
+      },
+      {
+        "term": "gimnazija",
+        "translation": "grammar school"
+      },
+      {
+        "term": "muzej",
+        "translation": "museum"
+      },
+      {
+        "term": "vinograd",
+        "translation": "vineyard",
+        "match": "vinogrady"
+      },
+      {
+        "term": "turist",
+        "translation": "tourist",
+        "match": "turistov"
+      },
+      {
+        "term": "vino",
+        "translation": "wine"
+      },
+      {
+        "term": "kino",
+        "translation": "cinema",
+        "match": "kina"
+      },
+      {
+        "term": "bazen",
+        "translation": "swimming pool",
+        "match": "bazena"
+      },
+      {
+        "term": "za to",
+        "translation": "for that"
+      },
+      {
+        "term": "tiho",
+        "translation": "quiet"
+      },
+      {
+        "term": "vsi",
+        "translation": "everyone"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Pri kakoj rěkě jest grad?",
+        "options": [
+          "Pri Moravě",
+          "Pri Savě",
+          "Pri Dunaju",
+          "Pri Drinje"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto jest na trgu?",
+        "options": [
+          "Veliky magazin",
+          "Kino",
+          "Bazen",
+          "Fontana i stara cerkva"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "V gradu jest kino.",
+        "answer": false,
+        "explanation": "V gradu ne jest kina."
+      },
+      {
+        "type": "mc",
+        "prompt": "Začto prihodet turisti?",
+        "options": [
+          "Piti vino",
+          "Plavati",
+          "Kupovati odeždu",
+          "Gledati filmy"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Rynok jest v subotu.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kako dolgo jede avtobus v Novi Sad?",
+        "options": [
+          "Dvě godiny",
+          "Dvadset minut",
+          "Pet minut",
+          "Jednu godinu"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-53",
+    "level": "A1",
+    "title": "Koliko jest časa?",
+    "topic": "Daily routine",
+    "body": "Agata žive v Torunju i studiruje biologiju. Koliko jest časa? Dnes jest vtorok. Prošu, posmotrite jej den.\n\nV 7:00 zvoni budilnik. V 7:15 Agata jest v kupalnji. V 7:30 ona pije kavu i jest jogurt s ovočem.\n\nV 8:10 ona ide na tramvaj. V 8:30 počinaje lekcija. Lekcija traje do 10:00.\n\nV 12:00 jest obed v studentskoj stolovoj. Ot 13:00 do 16:00 Agata rabotaje v laboratoriji.\n\nV 16:30 ona ide v sportivny klub. V 18:00 ona jest doma i gotovi večerju. Ot 19:00 do 21:00 ona uči se.\n\nV 22:00 Agata gleda seriju. V 23:00 ona spi. Dobru noč!",
+    "glossary": [
+      {
+        "term": "koliko jest časa",
+        "translation": "what time is it"
+      },
+      {
+        "term": "posmotriti",
+        "translation": "to look at",
+        "match": "posmotrite"
+      },
+      {
+        "term": "jogurt",
+        "translation": "yoghurt"
+      },
+      {
+        "term": "lekcija",
+        "translation": "lecture"
+      },
+      {
+        "term": "do",
+        "translation": "until"
+      },
+      {
+        "term": "studentsky",
+        "translation": "student (adj.)",
+        "match": "studentskoj"
+      },
+      {
+        "term": "stolova",
+        "translation": "canteen",
+        "match": "stolovoj"
+      },
+      {
+        "term": "ot",
+        "translation": "from"
+      },
+      {
+        "term": "laboratorija",
+        "translation": "laboratory",
+        "match": "laboratoriji"
+      },
+      {
+        "term": "klub",
+        "translation": "club"
+      },
+      {
+        "term": "serija",
+        "translation": "series, episode",
+        "match": "seriju"
+      },
+      {
+        "term": "dobru noč",
+        "translation": "good night"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Čto studiruje Agata?",
+        "options": [
+          "Istoriju",
+          "Medicinu",
+          "Biologiju",
+          "Matematiku"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda počinaje lekcija?",
+        "options": [
+          "V 12:00",
+          "V 7:00",
+          "V 10:00",
+          "V 8:30"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Agata obeduje doma.",
+        "answer": false,
+        "explanation": "Obed jest v studentskoj stolovoj."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde Agata rabotaje ot 13:00 do 16:00?",
+        "options": [
+          "V klubu",
+          "V kafe",
+          "V biblioteke",
+          "V laboratoriji"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Agata uči se ot 19:00 do 21:00.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda Agata spi?",
+        "options": [
+          "V 23:00",
+          "V 21:00",
+          "V 22:00",
+          "V 1:00"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-54",
+    "level": "A1",
+    "title": "Idemo v kino?",
+    "topic": "Communication",
+    "body": "Ivan piše SMS svojej prijateljce Mateje v Zadru.\n\nIvan: Zdravo, Matea! Kako se imaš? Imaš li vrěme v petok večerom?\n\nMatea: Zdravo! Dobro, hvala. Da, v petok jesm slobodna. Čemu?\n\nIvan: V kinu «Zona» jest novy film o morskyh kitah. Hočeš li idti?\n\nMatea: O, da! Ja ljubim filmy o prirodě. Kogda jest film?\n\nIvan: V 19:30 ili v 21:45.\n\nMatea: V 19:30, prošu. Potom možemo idti na picu.\n\nIvan: Super ideja! Ja kupim bilety v internetu. Jedin bilet koštaje 6 evro.\n\nMatea: Dobro, ja plaću picu. Kde se srětajemo?\n\nIvan: Pri vhodu v kino, v 19:15. Do petka!",
+    "glossary": [
+      {
+        "term": "pisati",
+        "translation": "to write",
+        "match": "piše"
+      },
+      {
+        "term": "slobodny",
+        "translation": "free, available",
+        "match": "slobodna"
+      },
+      {
+        "term": "čemu",
+        "translation": "why (what for)"
+      },
+      {
+        "term": "film",
+        "translation": "film"
+      },
+      {
+        "term": "morsky",
+        "translation": "sea (adj.)",
+        "match": "morskyh"
+      },
+      {
+        "term": "kit",
+        "translation": "whale",
+        "match": "kitah"
+      },
+      {
+        "term": "priroda",
+        "translation": "nature",
+        "match": "prirodě"
+      },
+      {
+        "term": "ideja",
+        "translation": "idea"
+      },
+      {
+        "term": "platiti",
+        "translation": "to pay",
+        "match": "plaću"
+      },
+      {
+        "term": "srětati se",
+        "translation": "to meet",
+        "match": "se srětajemo"
+      },
+      {
+        "term": "vhod",
+        "translation": "entrance",
+        "match": "vhodu"
+      },
+      {
+        "term": "do petka",
+        "translation": "see you Friday"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kogda Ivan hoče idti v kino?",
+        "options": [
+          "V petok večerom",
+          "V subotu",
+          "Dnes",
+          "V nedělju"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "O čem jest film?",
+        "options": [
+          "O vojně",
+          "O ljubvi",
+          "O futbolu",
+          "O morskyh kitah"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Matea hoče film v 21:45.",
+        "answer": false,
+        "explanation": "Ona hoče film v 19:30."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kto kupi bilety?",
+        "options": [
+          "Matea",
+          "Ivan",
+          "Oba",
+          "Nikto"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Matea plati picu.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde se oni srětajut?",
+        "options": [
+          "Pri vhodu v kino",
+          "V picerii",
+          "Na plaži",
+          "Doma"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-55",
+    "level": "A1",
+    "title": "Jesm bolna",
+    "topic": "Health",
+    "body": "Jest ponedělok rano v Trnavě. Zuzana se probuđaje v 6:30 i čuvstvuje se zlo. Ona imaje vysoku temperaturu, kašelj i nos ne dyše. Vse telo boli.\n\nZuzana ne može idti na rabotu. Ona zvoni svojemu šefu.\n— Dobro jutro, gospodin Novak. To jest Zuzana. Izvinite, ale ja jesm bolna. Imam temperaturu 38,7.\n— O, to jest zlo. Ostavajte doma i odpočivajte.\n— Hvala. Ja idu k lěkarju i pošlju vam bolnični list.\n— Dobro. Bystro ozdravjte!\n\nZuzana pije čaj s limonom i medom. Ona leži v posteli i spi cely den. Jej muž kupuje lěky v apteke i vari kurju juhu. Večerom jej jest malo bolje.",
+    "glossary": [
+      {
+        "term": "bolny",
+        "translation": "ill, sick",
+        "match": "bolna"
+      },
+      {
+        "term": "probuđati se",
+        "translation": "to wake up",
+        "match": "se probuđaje"
+      },
+      {
+        "term": "vysoky",
+        "translation": "high",
+        "match": "vysoku"
+      },
+      {
+        "term": "kašelj",
+        "translation": "cough"
+      },
+      {
+        "term": "telo",
+        "translation": "body"
+      },
+      {
+        "term": "šef",
+        "translation": "boss",
+        "match": "šefu"
+      },
+      {
+        "term": "poslati",
+        "translation": "to send",
+        "match": "pošlju"
+      },
+      {
+        "term": "bolnični list",
+        "translation": "sick note"
+      },
+      {
+        "term": "ozdraviti",
+        "translation": "to get well",
+        "match": "ozdravjte"
+      },
+      {
+        "term": "limon",
+        "translation": "lemon",
+        "match": "limonom"
+      },
+      {
+        "term": "lěk",
+        "translation": "medicine",
+        "match": "lěky"
+      },
+      {
+        "term": "juha",
+        "translation": "soup",
+        "match": "juhu"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kaka temperatura jest u Zuzany?",
+        "options": [
+          "36,6",
+          "38,7",
+          "40,1",
+          "37,0"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Komu zvoni Zuzana?",
+        "options": [
+          "Lěkarju",
+          "Svojej mamě",
+          "Svojemu šefu",
+          "Prijateljce"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Zuzana ide na rabotu.",
+        "answer": false,
+        "explanation": "Ona ne može idti na rabotu, ona jest bolna."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto pije Zuzana?",
+        "options": [
+          "Kavu",
+          "Čaj s limonom i medom",
+          "Mlěko",
+          "Sok"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Muž kupuje lěky v apteke.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto vari muž?",
+        "options": [
+          "Pastu",
+          "Kavu",
+          "Čaj",
+          "Kurju juhu"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-56",
+    "level": "A1",
+    "title": "Čto obleči dnes?",
+    "topic": "Weather and clothes",
+    "body": "Jest januar v Jekaterinburgu. Rano Olga gleda v okno i na telefon. Telefon govori: minus 22 stupnja, sněg i vetr. Brrr!\n\nOlga otkryvaje šaf. Čto obleči?\n\nNajprvo ona oblečaje teplo bělje i debele čarapy. Potom džinsy i šerstjany sveter. Na sveter ona oblečaje dolgu zimnju kurtku. Kurtka jest černa i velmi topla.\n\nNa glavu ona oblečaje šapku, na šiju šal i na ruky rukavice. Na nogah ona imaje vysoke zimnje čevlje.\n\nJej dočka Sonja imaje šest lět. Ona ne hoče šapku. «Mama, šapka jest smešna!» Ale mama govori: «Bez šapky ne ideš nikamo!»\n\nV 8:00 oni idut na ulicu. Sonja ide v šapke.",
+    "glossary": [
+      {
+        "term": "obleči",
+        "translation": "to put on (clothes)"
+      },
+      {
+        "term": "vetr",
+        "translation": "wind"
+      },
+      {
+        "term": "debely",
+        "translation": "thick",
+        "match": "debele"
+      },
+      {
+        "term": "čarapy",
+        "translation": "socks"
+      },
+      {
+        "term": "šerstjany",
+        "translation": "woollen"
+      },
+      {
+        "term": "zimnji",
+        "translation": "winter (adj.)",
+        "match": "zimnju"
+      },
+      {
+        "term": "kurtka",
+        "translation": "jacket, coat"
+      },
+      {
+        "term": "šapka",
+        "translation": "hat",
+        "match": "šapku"
+      },
+      {
+        "term": "šija",
+        "translation": "neck",
+        "match": "šiju"
+      },
+      {
+        "term": "šal",
+        "translation": "scarf"
+      },
+      {
+        "term": "rukavice",
+        "translation": "gloves"
+      },
+      {
+        "term": "nikamo",
+        "translation": "nowhere"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kaka jest temperatura?",
+        "options": [
+          "Minus 2 stupnja",
+          "Plus 22 stupnja",
+          "Minus 22 stupnja",
+          "Nula"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Kakogo kolora jest kurtka?",
+        "options": [
+          "Crvena",
+          "Běla",
+          "Černa",
+          "Sinja"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Sonja hoče nositi šapku.",
+        "answer": false,
+        "explanation": "Sonja ne hoče šapku, ona govori, že šapka jest smešna."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Olga oblečaje na šiju?",
+        "options": [
+          "Sveter",
+          "Šapku",
+          "Rukavice",
+          "Šal"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Na koncu Sonja ide v šapke.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Koliko lět imaje Sonja?",
+        "options": [
+          "Osm",
+          "Tri",
+          "Deset",
+          "Šest"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-57",
+    "level": "A1",
+    "title": "Lěto na jezeru",
+    "topic": "Holidays",
+    "body": "Jest avgust. Semja Kos iz Ljubljany jede na den na Bledsko jezero. Ot Ljubljany do Bleda jest jedino 50 kilometrov.\n\nNa jezeru jest mnogo turistov, ale semja nahodi tiho město pod drěvami. Mama klade dekku na travu. Otec i syn Jaka idut plavati. Voda jest čista i zelena, 23 stupnja.\n\nPotom oni beret malu lodku na prokat. Otec vesluje k ostrovu v srědině jezera. Na ostrovu jest mala cerkva. Turisti zvonet v zvon za sčastje. Jaka takože zvoni!\n\nNa obed semja kupuje bledsku kremšnitu, sladky kolač s kremom. To jest tradicija na Bledu.\n\nVečerom oni sut ustali i opaljene od sunca. Krasny lětnji den!",
+    "glossary": [
+      {
+        "term": "nahoditi",
+        "translation": "to find",
+        "match": "nahodi"
+      },
+      {
+        "term": "plavati",
+        "translation": "to swim"
+      },
+      {
+        "term": "lodka",
+        "translation": "boat",
+        "match": "lodku"
+      },
+      {
+        "term": "na prokat",
+        "translation": "for hire"
+      },
+      {
+        "term": "veslovati",
+        "translation": "to row",
+        "match": "vesluje"
+      },
+      {
+        "term": "ostrov",
+        "translation": "island",
+        "match": "ostrovu"
+      },
+      {
+        "term": "srědina",
+        "translation": "middle",
+        "match": "srědině"
+      },
+      {
+        "term": "zvon",
+        "translation": "bell"
+      },
+      {
+        "term": "sčastje",
+        "translation": "luck, happiness"
+      },
+      {
+        "term": "krem",
+        "translation": "cream",
+        "match": "kremom"
+      },
+      {
+        "term": "opaljeny",
+        "translation": "sunburnt",
+        "match": "opaljene"
+      },
+      {
+        "term": "lětnji",
+        "translation": "summer (adj.)"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kako daleko jest Bled ot Ljubljany?",
+        "options": [
+          "5 kilometrov",
+          "50 kilometrov",
+          "200 kilometrov",
+          "500 kilometrov"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Kaka jest voda?",
+        "options": [
+          "Vrěla",
+          "Grjazna",
+          "Čista i zelena",
+          "Černa"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Mama vesluje k ostrovu.",
+        "answer": false,
+        "explanation": "Otec vesluje k ostrovu."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto jest na ostrovu?",
+        "options": [
+          "Hotel",
+          "Restoran",
+          "Mala cerkva",
+          "Plaža"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Jaka zvoni v zvon.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto jest kremšnita?",
+        "options": [
+          "Napitok",
+          "Ryba",
+          "Sup",
+          "Sladky kolač s kremom"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-58",
+    "level": "A1",
+    "title": "Stara fotografija",
+    "topic": "Family",
+    "body": "Amela žive v Tuzli. V nedělju ona iščet něčto v starom šafu i nahodi album. Na prvoj stranicě jest fotografija iz 2006. goda. To jest dvadset lět nazad!\n\nNa fotografiji jest cela semja pri morju v Neumu. V srědině stoji jej otec. On jest mlad, imaje černe vlasy i usy. Sejčas on jest sědy!\n\nPri njem stoji mama v crvenom platju. Ona drži malu Amelu na rukah. Amela imaje tri lěta i veliky sladoled. Brat Adnan imaje osm lět i nosi smešny kapelj.\n\nZa nimi jest staro avto, ktoro otec ljubi. Amela fotografuje fotografiju telefonom i posyla ju roditeljam. Mama odgovarja: «Ah, kako mladi my byli!»",
+    "glossary": [
+      {
+        "term": "album",
+        "translation": "photo album"
+      },
+      {
+        "term": "nazad",
+        "translation": "ago"
+      },
+      {
+        "term": "cely",
+        "translation": "whole",
+        "match": "cela"
+      },
+      {
+        "term": "usy",
+        "translation": "moustache"
+      },
+      {
+        "term": "sědy",
+        "translation": "grey-haired"
+      },
+      {
+        "term": "platje",
+        "translation": "dress",
+        "match": "platju"
+      },
+      {
+        "term": "deržati",
+        "translation": "to hold",
+        "match": "drži"
+      },
+      {
+        "term": "kapelj",
+        "translation": "hat"
+      },
+      {
+        "term": "za nimi",
+        "translation": "behind them"
+      },
+      {
+        "term": "fotografovati",
+        "translation": "to photograph",
+        "match": "fotografuje"
+      },
+      {
+        "term": "posylati",
+        "translation": "to send",
+        "match": "posyla"
+      },
+      {
+        "term": "odgovarjati",
+        "translation": "to answer",
+        "match": "odgovarja"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde Amela nahodi album?",
+        "options": [
+          "Pod posteljoju",
+          "V starom šafu",
+          "U baby",
+          "V internetu"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Iz kakogo goda jest fotografija?",
+        "options": [
+          "Iz 2016.",
+          "Iz 1996.",
+          "Iz 2006.",
+          "Iz 1986."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Sejčas otec imaje černe vlasy.",
+        "answer": false,
+        "explanation": "Sejčas on jest sědy."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto imaje mala Amela na fotografiji?",
+        "options": [
+          "Mjač",
+          "Kapelj",
+          "Veliky sladoled",
+          "Knigu"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Brat Adnan nosi smešny kapelj.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde jest semja na fotografiji?",
+        "options": [
+          "V gorah",
+          "Pri morju v Neumu",
+          "Doma v Tuzli",
+          "V Sarajevu"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-59",
+    "level": "A1",
+    "title": "Moj tydenj na recepciji",
+    "topic": "Daily routine",
+    "body": "Zovu se Danilo i rabotam na recepciji v hotelu v Budvě. Moja rabota se měnjaje každy tydenj.\n\nV ponedělok i vtorok imam rannju smenu, od 7:00 do 15:00. Rano gosti hočut kavu, taksi i informacije o plažah.\n\nV srědu i četvrtok imam večernju smenu, od 15:00 do 23:00. Večerom prihodet novi gosti. Ja registrujem jih i daju jim ključe.\n\nV petok imam nočnu smenu, od 23:00 do 7:00. V noči jest tiho. Ja čitaju i pišu e-poštu.\n\nV subotu i nedělju ja ne rabotam. Togda spim dolgo, idu na plažu i gotovim s mojeju děvojkoju. V lěto jest mnogo raboty, ale ja ljubim kontakt s ljudmi.",
+    "glossary": [
+      {
+        "term": "recepcija",
+        "translation": "reception",
+        "match": "recepciji"
+      },
+      {
+        "term": "měnjati se",
+        "translation": "to change",
+        "match": "se měnjaje"
+      },
+      {
+        "term": "ranny",
+        "translation": "morning (adj.)",
+        "match": "rannju"
+      },
+      {
+        "term": "informacija",
+        "translation": "information",
+        "match": "informacije"
+      },
+      {
+        "term": "večernji",
+        "translation": "evening (adj.)",
+        "match": "večernju"
+      },
+      {
+        "term": "registrovati",
+        "translation": "to check in, register",
+        "match": "registrujem"
+      },
+      {
+        "term": "ključ",
+        "translation": "key",
+        "match": "ključe"
+      },
+      {
+        "term": "nočny",
+        "translation": "night (adj.)",
+        "match": "nočnu"
+      },
+      {
+        "term": "e-pošta",
+        "translation": "email",
+        "match": "e-poštu"
+      },
+      {
+        "term": "togda",
+        "translation": "then"
+      },
+      {
+        "term": "děvojka",
+        "translation": "girlfriend",
+        "match": "děvojkoju"
+      },
+      {
+        "term": "kontakt",
+        "translation": "contact"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde rabotaje Danilo?",
+        "options": [
+          "V restoranu",
+          "Na recepciji v hotelu",
+          "Na plaži",
+          "V taksi"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Kogda Danilo imaje nočnu smenu?",
+        "options": [
+          "V ponedělok",
+          "V petok",
+          "V srědu",
+          "V nedělju"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Danilo rabotaje v subotu.",
+        "answer": false,
+        "explanation": "V subotu i nedělju on ne rabotaje."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto gosti hočut rano?",
+        "options": [
+          "Večerju",
+          "Ključe",
+          "Kavu, taksi i informacije o plažah",
+          "Tiho"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "V noči v hotelu jest tiho.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Danilo ljubi v svojej rabotě?",
+        "options": [
+          "Kontakt s ljudmi",
+          "Nočne smeny",
+          "Tiho",
+          "Mnogo raboty"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-60",
+    "level": "A1",
+    "title": "Priglašenje na roždenny den",
+    "topic": "Celebrations",
+    "body": "Od: Tereza\nKomu: prijatelji\nTema: Moji 30!\n\nDragi prijatelji!\n\nV subotu, 14. junija, mně jest 30 lět! Ja hoču to slaviti s vami. To jest moje priglašenje!\n\nZabava jest v mojem sadu, ulica Lannova 8, v Českyh Budějovicah. Počinaje v 18:00. Budet grill, salaty, napitki i velika torta. Moj brat Ondrej budet DJ!\n\nProšu, prinesite dobro nastrojenje. Podarky ne sut potrěbne! Jesli hočete, prinesite jedno jedlo ili desert.\n\nJesli bude dožd, zabava jest v garaži. Ne bojte se!\n\nProšu, napišite mi do 7. junija, jesli prijdete i s kim.\n\nČekaju na vas!\nTereza",
+    "glossary": [
+      {
+        "term": "priglašenje",
+        "translation": "invitation"
+      },
+      {
+        "term": "tema",
+        "translation": "subject"
+      },
+      {
+        "term": "dragi",
+        "translation": "dear"
+      },
+      {
+        "term": "slaviti",
+        "translation": "to celebrate"
+      },
+      {
+        "term": "napitok",
+        "translation": "drink",
+        "match": "napitki"
+      },
+      {
+        "term": "prinesti",
+        "translation": "to bring",
+        "match": "prinesite"
+      },
+      {
+        "term": "nastrojenje",
+        "translation": "mood"
+      },
+      {
+        "term": "potrěbny",
+        "translation": "necessary",
+        "match": "potrěbne"
+      },
+      {
+        "term": "desert",
+        "translation": "dessert"
+      },
+      {
+        "term": "garaža",
+        "translation": "garage",
+        "match": "garaži"
+      },
+      {
+        "term": "ne bojte se",
+        "translation": "don't worry"
+      },
+      {
+        "term": "prijdti",
+        "translation": "to come",
+        "match": "prijdete"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Koliko lět bude Terezě?",
+        "options": [
+          "20",
+          "30",
+          "40",
+          "25"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde jest zabava?",
+        "options": [
+          "V sadu Terezy",
+          "V restoranu",
+          "V parku",
+          "V klubu"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Gosti treba prinesti podarky.",
+        "answer": false,
+        "explanation": "Podarky ne sut potrěbne."
+      },
+      {
+        "type": "mc",
+        "prompt": "Kto bude DJ?",
+        "options": [
+          "Brat Terezy",
+          "Tereza",
+          "Prijatelj",
+          "Sosěd"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "Jesli bude dožd, zabava jest v garaži.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Do kogda treba napisati Terezě?",
+        "options": [
+          "Do 30. junija",
+          "Do 14. junija",
+          "Do 7. junija",
+          "Do suboty"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+]
