@@ -1,6 +1,6 @@
 import type { Level } from './content/schema';
 
-export const LANG_IDS = ['it', 'es', 'fr', 'ru', 'isv', 'tr', 'pt', 'ar', 'pl'] as const;
+export const LANG_IDS = ['it', 'es', 'fr', 'ru', 'isv', 'tr', 'pt', 'ar', 'pl', 'el'] as const;
 export type LangId = (typeof LANG_IDS)[number];
 
 export type Lang = {
@@ -200,6 +200,26 @@ export const LANGS: Record<LangId, Lang> = {
     },
     counts: { A1: 60, A2: 100, B1: 140 },
   },
+  el: {
+    id: 'el',
+    code: 'el',
+    name: 'Greek',
+    native: 'Ελληνικά',
+    trueLabel: 'Σωστό',
+    falseLabel: 'Λάθος',
+    quizHeading: 'Τα κατάλαβες όλα;',
+    glossHeading: 'Λέξεις από το κείμενο',
+    perfect: 'Τέλεια! 🎉',
+    sample: 'Αυτή είναι μια πρόταση για δοκιμή στο μέγεθος που διάλεξες.',
+    // Modern Greek, monotonic; other cases and verb forms go in `match`.
+    articles: /^(?:ο|η|το|οι|τα|ένας|μια|μία|ένα)\s+/i,
+    blurb: {
+      A1: 'Short everyday texts from Greece and Cyprus in the present tense: family, food, home, getting around.',
+      A2: 'Longer stories about work, travel and health, told in the aorist and imperfect.',
+      B1: 'Articles and reports on Greek society, work and daily life, with the perfect, να-clauses and the conditional.',
+    },
+    counts: { A1: 60, A2: 100, B1: 140 },
+  },
 };
 
 /**
@@ -214,7 +234,6 @@ export const UPCOMING: { code: string; name: string; native: string }[] = [
   { code: 'ku', name: 'Kurdish', native: 'Kurdî' },
   { code: 'fa', name: 'Persian', native: 'فارسی' },
   { code: 'hr', name: 'Croatian', native: 'Hrvatski' },
-  { code: 'el', name: 'Greek', native: 'Ελληνικά' },
   { code: 'sr', name: 'Serbian', native: 'Srpski / Српски' },
   { code: 'bs', name: 'Bosnian', native: 'Bosanski' },
   { code: 'bg', name: 'Bulgarian', native: 'Български' },
