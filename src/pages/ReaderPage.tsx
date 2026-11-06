@@ -4,6 +4,7 @@ import { countWords } from '../content/schema';
 import { GlossaryText } from '../components/GlossaryText';
 import { Quiz } from '../components/Quiz';
 import { ScriptToggle } from '../components/ScriptToggle';
+import { track } from '../lib/track';
 import { useLang } from '../lib/useLang';
 import { useProgress } from '../store/progress';
 import { NotFoundPage } from './NotFoundPage';
@@ -28,6 +29,10 @@ export function ReaderPage() {
   useEffect(() => {
     if (found) openedText(lang.id);
   }, [found, lang.id, openedText]);
+  const level = text?.level;
+  useEffect(() => {
+    if (level) track('text_open', { reading_language: lang.id, level, text_id: id });
+  }, [lang.id, level, id]);
   if (!text) return <NotFoundPage />;
 
   const siblings = byLevel(text.level);
@@ -36,6 +41,8 @@ export function ReaderPage() {
   const next = siblings[index + 1];
   const levelPath = `${base}/level/${text.level.toLowerCase()}`;
   const audioUrl = audio[`../assets/audio/${key(text.id)}.mp3`];
+  const params = { reading_language: lang.id, level: text.level, text_id: text.id };
+  const nextClicked = () => track('next_text', params);
 
   return (
     <article className="reader stack" data-font={fontSize}>
@@ -63,6 +70,8 @@ export function ReaderPage() {
           preload="none"
           src={audioUrl}
           aria-label={`Listen to ${tr(text.title)}`}
+          // Resuming after a pause fires play again; only count plays from the start.
+          onPlay={(e) => e.currentTarget.currentTime < 1 && track('audio_play', params)}
         />
       )}
 
@@ -91,7 +100,10 @@ export function ReaderPage() {
         <Quiz
           key={text.id}
           questions={text.questions}
-          onComplete={(s) => complete(key(text.id), s)}
+          onComplete={(s) => {
+            complete(key(text.id), s);
+            track('quiz_complete', { ...params, score: Math.round(s * 100) });
+          }}
           labels={{
             trueLabel: tr(lang.trueLabel),
             falseLabel: tr(lang.falseLabel),
@@ -101,7 +113,11 @@ export function ReaderPage() {
           tr={tr}
           next={
             next
-              ? { to: `${base}/text/${next.id}`, label: `Next text: ${tr(next.title)} →` }
+              ? {
+                  to: `${base}/text/${next.id}`,
+                  label: `Next text: ${tr(next.title)} →`,
+                  onClick: nextClicked,
+                }
               : { to: levelPath, label: `Back to level ${text.level}` }
           }
         />
@@ -115,7 +131,11 @@ export function ReaderPage() {
         )}
         <span className="spacer" />
         {next ? (
-          <Link className="button button--secondary" to={`${base}/text/${next.id}`}>
+          <Link
+            className="button button--secondary"
+            to={`${base}/text/${next.id}`}
+            onClick={nextClicked}
+          >
             <span lang={code}>{tr(next.title)}</span> →
           </Link>
         ) : (

@@ -18,7 +18,12 @@ const text = (id: string): ReadingText => ({
 const renderReader = (id: string) =>
   render(
     <LangCtx
-      value={{ lang: LANGS.it, texts: [text('a1-01'), text('a1-02')], code: 'it', tr: (s) => s }}
+      value={{
+        lang: LANGS.it,
+        texts: [text('a1-01'), text('a1-02')],
+        code: 'it',
+        tr: (s) => s,
+      }}
     >
       <MemoryRouter initialEntries={[`/it/text/${id}`]}>
         <Routes>
@@ -40,5 +45,19 @@ describe('ReaderPage audio', () => {
     const { container } = renderReader('a1-02');
     expect(screen.getByRole('heading', { name: 'Testo a1-02' })).toBeInTheDocument();
     expect(container.querySelector('audio')).toBeNull();
+  });
+});
+
+describe('ReaderPage analytics', () => {
+  afterEach(() => delete window.gtag);
+
+  it('reports the opened text with language and level', () => {
+    window.gtag = vi.fn();
+    renderReader('a1-02');
+    expect(window.gtag).toHaveBeenCalledWith('event', 'text_open', {
+      reading_language: 'it',
+      level: 'A1',
+      text_id: 'a1-02',
+    });
   });
 });

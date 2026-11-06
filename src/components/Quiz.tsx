@@ -20,7 +20,7 @@ export function Quiz({
   questions: Question[];
   onComplete: (score: number) => void;
   /** Where to go after the quiz: the next text, or back to the level list. */
-  next: { to: string; label: string };
+  next: { to: string; label: string; onClick?: () => void };
   labels: QuizLabels;
   /** `lang` of the questions and options. */
   code: string;
@@ -129,7 +129,11 @@ export function Quiz({
                   whole text.
                 </p>
               </div>
-              <Link className="button button--primary" to={next.to}>
+              <Link
+                className="button button--primary"
+                to={next.to}
+                onClick={next.onClick}
+              >
                 {next.label}
               </Link>
             </>
@@ -139,7 +143,11 @@ export function Quiz({
                 {correct} / {questions.length} correct
               </p>
               <div className="row">
-                <Link className="button button--ghost" to={next.to}>
+                <Link
+                  className="button button--ghost"
+                  to={next.to}
+                  onClick={next.onClick}
+                >
                   {next.label}
                 </Link>
                 <button type="button" className="button button--primary" onClick={retry}>

@@ -697,6 +697,23 @@ a.button--primary::after,
   font-weight: 600;
 }
 
+.upcoming-list__vote {
+  gap: 0.25em;
+  border: var(--border-width) solid transparent;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.upcoming-list__vote:hover:not(:disabled) {
+  border-color: var(--color-border-strong);
+}
+
+.upcoming-list__vote:disabled {
+  background: var(--color-sky);
+  color: var(--color-ink-fixed);
+  cursor: default;
+}
+
 .lang-grid {
   display: grid;
   /* At most 3 columns: each track is at least a third of the row. */
@@ -1182,4 +1199,25 @@ label.button:has(input:focus-visible) {
   .reader__pager .button {
     width: 100%;
   }
+}
+
+/* Cookie banner, built by public/analytics.js. */
+.consent {
+  position: fixed;
+  inset-inline: 14px;
+  bottom: 14px;
+  z-index: 1000;
+  max-width: 640px;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 8px 32px #0003;
+}
+
+.consent p {
+  flex: 1 1 240px;
+  margin: 0;
 }

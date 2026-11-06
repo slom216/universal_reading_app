@@ -1,3 +1,4 @@
+import { track } from '../lib/track';
 import { useProgress, type Settings } from '../store/progress';
 
 const SCRIPTS: { value: Settings['isvScript']; label: string; lang: string }[] = [
@@ -17,7 +18,10 @@ export function ScriptToggle() {
             type="radio"
             name="isv-script"
             checked={script === s.value}
-            onChange={() => setSettings({ isvScript: s.value })}
+            onChange={() => {
+              setSettings({ isvScript: s.value });
+              track('script_change', { script: s.value });
+            }}
           />
           {s.label}
         </label>

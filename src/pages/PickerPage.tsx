@@ -1,9 +1,30 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { LANG_IDS, LANGS, UPCOMING, totalTexts } from '../languages';
+import { track } from '../lib/track';
 import { useProgress } from '../store/progress';
 import heroArt from '../assets/art/hero-reading.webp';
 
+// Kept out of the progress store so an import or reset does not bring back the vote buttons.
+const VOTES_KEY = 'deulern-polyglot-votes';
+
+function readVotes(): string[] {
+  try {
+    return JSON.parse(localStorage.getItem(VOTES_KEY) ?? '[]') as string[];
+  } catch {
+    return [];
+  }
+}
+
 export function PickerPage() {
+  const [votes, setVotes] = useState(readVotes);
+  // ponytail: one vote per language per browser, counted in GA only after cookie consent.
+  const vote = (code: string) => {
+    const next = [...votes, code];
+    setVotes(next);
+    localStorage.setItem(VOTES_KEY, JSON.stringify(next));
+    track('language_vote', { voted_language: code });
+  };
   const results = useProgress((s) => s.results);
   const keys = Object.keys(results);
   const recent = useProgress((s) => s.recentLangs);
@@ -57,15 +78,29 @@ export function PickerPage() {
 
       <section className="stack" aria-labelledby="upcoming-heading">
         <h2 id="upcoming-heading">Coming soon</h2>
+        <p className="text-muted">
+          Which language should come next? Tap the ones you want.
+        </p>
         <ul className="upcoming-list">
-          {UPCOMING.map((l) => (
-            <li key={l.code} className="chip chip--soft">
-              <span lang={l.code} dir="auto">
-                {l.native}
-              </span>
-              <span className="upcoming-list__en"> · {l.name}</span>
-            </li>
-          ))}
+          {UPCOMING.map((l) => {
+            const voted = votes.includes(l.code);
+            return (
+              <li key={l.code}>
+                <button
+                  type="button"
+                  className="chip chip--soft upcoming-list__vote"
+                  disabled={voted}
+                  onClick={() => vote(l.code)}
+                >
+                  {voted && '✓ '}
+                  <span lang={l.code} dir="auto">
+                    {l.native}
+                  </span>
+                  <span className="upcoming-list__en"> · {l.name}</span>
+                </button>
+              </li>
+            );
+          })}
         </ul>
       </section>
     </div>
