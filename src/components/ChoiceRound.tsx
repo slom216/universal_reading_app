@@ -17,6 +17,7 @@ export function ChoiceRound<T>({
   onFinish,
   exit,
   onRestart,
+  result,
 }: {
   items: T[];
   /** The question, shown as the legend. */
@@ -36,6 +37,8 @@ export function ChoiceRound<T>({
   exit: { to: string; label: string };
   /** "Try again": the parent starts a fresh round. */
   onRestart: () => void;
+  /** Replaces the score card at the end of the round. */
+  result?: ReactNode;
 }) {
   const [round, setRound] = useState(items);
   const [i, setI] = useState(0);
@@ -50,6 +53,7 @@ export function ChoiceRound<T>({
   );
 
   if (q === undefined) {
+    if (result) return result;
     const score = round.length - missed.length;
     const perfect = missed.length === 0;
     return (

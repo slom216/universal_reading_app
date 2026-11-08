@@ -7,8 +7,10 @@ import { HubPage } from './pages/HubPage';
 import { PickerPage } from './pages/PickerPage';
 import { LevelPage } from './pages/LevelPage';
 import { NotFoundPage } from './pages/NotFoundPage';
+import { GapsPage } from './pages/GapsPage';
 import { PhrasePracticePage } from './pages/PhrasePracticePage';
 import { PhrasebookPage, PhrasesPage } from './pages/PhrasesPage';
+import { PlacementPage } from './pages/PlacementPage';
 import { PronunciationIndexPage, PronunciationPage } from './pages/PronunciationPage';
 import { ProgressPage } from './pages/ProgressPage';
 import { ReaderPage } from './pages/ReaderPage';
@@ -42,6 +44,8 @@ export function App() {
             <Route path="level/:level" element={<LevelPage />} />
             <Route path="text/:id" element={<ReaderPage />} />
             <Route path="words" element={<WordsPage />} />
+            <Route path="gaps" element={<GapsPage />} />
+            <Route path="level-check" element={<PlacementPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
           <Route path="*" element={<NotFoundPage />} />

@@ -868,6 +868,14 @@ a.button--primary::after,
   min-width: 2.75rem;
 }
 
+/* Fill the gaps: the blank where the missing word goes. */
+.gap {
+  display: inline-block;
+  min-width: 4em;
+  margin-inline: 0.15em;
+  border-bottom: 2px solid var(--color-border-strong);
+}
+
 /* Phrase practice: the choices are buttons styled like quiz options. */
 .practice__note {
   clear: both;

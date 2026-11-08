@@ -21,6 +21,7 @@ export function HomePage() {
   const words = useProgress((s) => s.words);
   const { lang, base, byLevel, key, tr, code, texts } = useLang();
   const due = dueWords(lang.id, texts, { results, words }, dayKey()).length;
+  const anyRead = texts.some((t) => results[key(t.id)]);
 
   return (
     <div className="stack">
@@ -37,6 +38,10 @@ export function HomePage() {
             Pick a text at your level and read it. Tap an underlined word to see its
             meaning, then answer a few questions to check what you understood. You can
             read the texts in any order.
+          </p>
+          <p>
+            Not sure which level fits?{' '}
+            <Link to={`${base}/level-check`}>Take the two-minute level check</Link>.
           </p>
         </div>
         <img className="hero__art" src={heroArt} alt="" width={743} height={371} />
@@ -105,6 +110,21 @@ export function HomePage() {
           <p>
             <Link className="button button--primary" to={`${base}/words`}>
               Review {Math.min(due, ROUND)} {due === 1 ? 'word' : 'words'}
+            </Link>
+          </p>
+        )}
+      </section>
+
+      <section className="card stack stack--tight" aria-labelledby="gaps-heading">
+        <h2 id="gaps-heading">Fill the gaps</h2>
+        <p>
+          Sentences from the texts you have finished, each missing one glossary word. Pick
+          the word that fits.
+        </p>
+        {anyRead && (
+          <p>
+            <Link className="button button--primary" to={`${base}/gaps`}>
+              Fill {ROUND} gaps
             </Link>
           </p>
         )}

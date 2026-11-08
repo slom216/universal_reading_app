@@ -38,12 +38,29 @@ const paras = (body) =>
     .map((p) => `<p>${esc(p).replace(/\n/g, '<br>')}</p>`)
     .join('\n');
 
+// Link previews (WhatsApp, Telegram, Facebook, X…). The square app icon suits the small
+// "summary" card. ponytail: one image for every page; per-language 1200×630 art would
+// give the large card if shares become a real channel.
+const social = (path, title, description) =>
+  [
+    ['og:type', 'website'],
+    ['og:site_name', 'DeuLern Polyglot'],
+    ['og:title', title],
+    ['og:description', description],
+    ['og:url', `${ORIGIN}${path}`],
+    ['og:image', `${ORIGIN}/pwa-512x512.png`],
+    ['og:image:alt', 'DeuLern Polyglot'],
+  ]
+    .map(([p, c]) => `<meta property="${p}" content="${esc(c)}" />`)
+    .concat('<meta name="twitter:card" content="summary" />')
+    .join('\n    ');
+
 function page(path, title, description, main) {
   return shell
     .replace(/<title>[^<]*<\/title>/, `<title>${esc(title)}</title>`)
     .replace(
       /<meta\s+name="description"\s+content="[^"]*"\s*\/>/,
-      `<meta name="description" content="${esc(description)}" />\n    <link rel="canonical" href="${ORIGIN}${path}" />`,
+      `<meta name="description" content="${esc(description)}" />\n    <link rel="canonical" href="${ORIGIN}${path}" />\n    ${social(path, title, description)}`,
     )
     .replace('<div id="root"></div>', `<div id="root"><main>\n${main}\n</main></div>`);
 }
@@ -189,7 +206,9 @@ write(
 );
 urls.push('/pronunciation');
 for (const [lang, { name }] of Object.entries(LANGS)) {
-  const rules = JSON.parse(readFileSync(`src/content/pronunciation/${lang}.json`, 'utf8'));
+  const rules = JSON.parse(
+    readFileSync(`src/content/pronunciation/${lang}.json`, 'utf8'),
+  );
   write(
     `/pronunciation/${lang}`,
     `${name} pronunciation · DeuLern Polyglot`,
