@@ -885,6 +885,12 @@ a.button--primary::after,
   direction: rtl;
 }
 
+/* Hindi: Devanagari comes from the browser's system fallback (Manrope and Outfit have
+   none); a little more leading for the vowel signs above and below the line. */
+.reading:lang(hi) {
+  line-height: 1.95;
+}
+
 .gloss {
   position: relative;
 }

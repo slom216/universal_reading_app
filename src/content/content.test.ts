@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { z } from 'zod';
 import { LANG_IDS, LANGS } from '../languages';
-import { ISV_LETTERS, SR_LETTERS } from '../lib/isvCyrillic';
+import { HI_LETTERS, ISV_LETTERS, SR_LETTERS } from '../lib/isvCyrillic';
 import {
   LEVELS,
   WORD_RANGE,
@@ -63,7 +63,7 @@ describe.each(LANG_IDS)('%s texts', (id) => {
     },
   );
 
-  const letters = { isv: ISV_LETTERS, sr: SR_LETTERS }[id as string];
+  const letters = { isv: ISV_LETTERS, sr: SR_LETTERS, hi: HI_LETTERS }[id as string];
   if (letters) {
     it.each(TEXTS.map((t) => [t.id, t] as const))(
       '%s uses only the standard alphabet',

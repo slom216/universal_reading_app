@@ -62,3 +62,6 @@ export function toLatin(s: string): string {
 
 /** The 30 letters of the Serbian Cyrillic alphabet (content tests check sr against it). */
 export const SR_LETTERS = /^[абвгдђежзијклљмнњопрстћуфхцчџш]$/iu;
+
+/** Hindi letters and vowel signs: the Devanagari block (content tests check hi against it). */
+export const HI_LETTERS = /^[ऀ-ॿ]$/u;

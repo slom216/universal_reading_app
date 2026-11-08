@@ -22,6 +22,7 @@ const LANGS = {
   pl: { name: 'Polish', tf: 'Prawda czy fałsz?' },
   el: { name: 'Greek', tf: 'Σωστό ή λάθος;' },
   sr: { name: 'Serbian', tf: 'Тачно или нетачно?' },
+  hi: { name: 'Hindi', tf: 'सही या ग़लत?' },
 };
 const shell = readFileSync('dist/index.html', 'utf8');
 
@@ -146,15 +147,15 @@ const phraseLinks = PHRASE_LANGS.map(
 ).join('\n');
 write(
   '/reading',
-  'Graded reading texts in twelve languages · DeuLern Polyglot',
-  'Free graded reading texts in English, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek and Serbian for A1, A2 and B1, with glossary and comprehension questions.',
-  `<h1>Graded reading texts in twelve languages</h1>\n<ul>\n${langLinks}\n</ul>`,
+  'Graded reading texts in fourteen languages · DeuLern Polyglot',
+  'Free graded reading texts in English, German, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek, Serbian and Hindi for A1, A2 and B1, with glossary and comprehension questions.',
+  `<h1>Graded reading texts in fourteen languages</h1>\n<ul>\n${langLinks}\n</ul>`,
 );
 write(
   '/phrases',
-  'Everyday phrases in twelve languages · DeuLern Polyglot',
-  'The 1000 most useful everyday phrases in English, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek and Serbian, ordered by how useful they are.',
-  `<h1>Everyday phrases in twelve languages</h1>\n<ul>\n${phraseLinks}\n</ul>`,
+  'Everyday phrases in fourteen languages · DeuLern Polyglot',
+  'The 1000 most useful everyday phrases in English, German, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek, Serbian and Hindi, ordered by how useful they are.',
+  `<h1>Everyday phrases in fourteen languages</h1>\n<ul>\n${phraseLinks}\n</ul>`,
 );
 urls.push('/reading', '/phrases');
 for (const [lang, { name }] of PHRASE_LANGS) {
@@ -181,8 +182,8 @@ writeFileSync(
   page(
     '/',
     'DeuLern Polyglot',
-    'Free graded reading texts and the 1000 most useful everyday phrases in English, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek and Serbian. No account needed.',
-    `<h1>DeuLern Polyglot: reading texts and everyday phrases in twelve languages</h1>\n<ul>\n<li><a href="/reading">Graded reading texts</a></li>\n<li><a href="/phrases">Everyday phrases</a></li>\n</ul>\n<ul>\n${langLinks}\n</ul>`,
+    'Free graded reading texts and the 1000 most useful everyday phrases in English, German, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek, Serbian and Hindi. No account needed.',
+    `<h1>DeuLern Polyglot: reading texts and everyday phrases in fourteen languages</h1>\n<ul>\n<li><a href="/reading">Graded reading texts</a></li>\n<li><a href="/phrases">Everyday phrases</a></li>\n</ul>\n<ul>\n${langLinks}\n</ul>`,
   ).replace(/\n\s*<link rel="canonical"[^>]*>/, ''),
 );
 

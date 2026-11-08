@@ -14,6 +14,7 @@ export const LANG_IDS = [
   'pl',
   'el',
   'sr',
+  'hi',
 ] as const;
 export type LangId = (typeof LANG_IDS)[number];
 
@@ -292,6 +293,27 @@ export const LANGS: Record<LangId, Lang> = {
       A1: 'Short everyday texts from Serbia in the present tense, with the first cases: family, food, home.',
       A2: 'Longer stories about work, travel and health, told in the perfect tense, with all seven cases.',
       B1: 'Articles and reports on Serbian society, work and daily life, with aspect, the conditional and који clauses.',
+    },
+    counts: { A1: 60, A2: 100, B1: 140 },
+  },
+  hi: {
+    id: 'hi',
+    code: 'hi',
+    name: 'Hindi',
+    native: 'हिन्दी',
+    trueLabel: 'सही',
+    falseLabel: 'ग़लत',
+    quizHeading: 'क्या आपको सब समझ में आया?',
+    glossHeading: 'पाठ के शब्द',
+    perfect: 'बहुत बढ़िया! 🎉',
+    sample: 'यह आपके चुने हुए आकार में एक उदाहरण वाक्य है।',
+    // Devanagari, NFC-normalised (nukta letters decomposed). No articles; inflected
+    // forms (लड़के, ख़रीदी) go in `match`.
+    articles: null,
+    blurb: {
+      A1: 'Short everyday texts from across India in the present tense, with postpositions and का/के/की: family, food, home.',
+      A2: 'Longer stories about work, travel and health, told in the past tense with ने, the past continuous and the future.',
+      B1: 'Articles and reports on Indian society, work and daily life, with the subjunctive, the passive and जो…वह clauses.',
     },
     counts: { A1: 60, A2: 100, B1: 140 },
   },

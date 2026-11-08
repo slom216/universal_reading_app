@@ -35,13 +35,13 @@ export function PickerPage() {
     <div className="stack">
       <section className="hero">
         <div className="hero__copy">
-          <p className="eyebrow">A1–B1 reading in twelve languages</p>
+          <p className="eyebrow">A1–B1 reading in fourteen languages</p>
           <h1>
             Read your way <span className="hero__accent">into a new language.</span>
           </h1>
           <p className="lead">
-            Graded texts in English, Italian, Spanish, French, Russian, Interslavic,
-            Turkish, Portuguese, Arabic, Polish, Greek and Serbian,
+            Graded texts in English, German, Italian, Spanish, French, Russian, Interslavic,
+            Turkish, Portuguese, Arabic, Polish, Greek, Serbian and Hindi,
             each set in the places where the language is spoken. Tap an underlined word to
             see its meaning, then answer a few questions to check what you understood.
           </p>
