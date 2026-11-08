@@ -1,0 +1,1044 @@
+[
+  {
+    "title": "ب ت د ز س ش ف ك ل م ن sound as in English",
+    "body": "These are b, t, d, z, s, sh, f, k, l, m, n. س is always “s”, never “z”; ل is a clear, light “l” as in “leaf”.",
+    "pattern": "[\\u0628\\u062A\\u062F\\u0632\\u0633\\u0634\\u0641\\u0643\\u0645\\u0646]|\\u0644(?!\\p{L}\\p{M}*\\u0651)",
+    "examples": [
+      {
+        "word": "كَتَبَ",
+        "say": "KA-ta-ba",
+        "en": "he wrote"
+      },
+      {
+        "word": "مِنْ",
+        "say": "min",
+        "en": "from"
+      },
+      {
+        "word": "سَنَةً",
+        "say": "SA-na-tan",
+        "en": "a year"
+      },
+      {
+        "word": "شُكْرًا",
+        "say": "SHUK-ran",
+        "en": "thank you"
+      }
+    ]
+  },
+  {
+    "title": "Fatha (ـَ), a slanted line above, is a short “a”",
+    "body": "Arabic letters are consonants; short vowels are small marks. A slanted line above the letter is a short “a”, between “a” in “cat” and “father”. Next to heavy letters it sounds deeper (see that rule).",
+    "pattern": "\\u064E",
+    "examples": [
+      {
+        "word": "كَتَبَ",
+        "say": "KA-ta-ba",
+        "en": "he wrote"
+      },
+      {
+        "word": "مَعَ",
+        "say": "MA-ʿa",
+        "en": "with"
+      },
+      {
+        "word": "أَنَا",
+        "say": "A-naa",
+        "en": "I"
+      },
+      {
+        "word": "بَعْدَ",
+        "say": "BAʿ-da",
+        "en": "after"
+      }
+    ]
+  },
+  {
+    "title": "Stress a long or closed syllable near the end",
+    "body": "Stress is not written. Ignore the last syllable; stress the one before it if it has a long vowel or ends in a consonant, otherwise the one before that. Regions differ, and stress matters less than in English.",
+    "pattern": "[\\p{L}\\p{M}]*[\\u064B-\\u0650\\u0670][\\p{L}\\p{M}]*?[\\u064B-\\u0650\\u0670][\\p{L}\\p{M}]*",
+    "examples": [
+      {
+        "word": "كَتَبَ",
+        "say": "KA-ta-ba",
+        "en": "he wrote"
+      },
+      {
+        "word": "كَبِيرٌ",
+        "say": "ka-BEE-run",
+        "en": "big"
+      },
+      {
+        "word": "عِنْدَمَا",
+        "say": "ʿIN-da-maa",
+        "en": "when"
+      },
+      {
+        "word": "مُعَلِّمٌ",
+        "say": "mu-ʿAL-li-mun",
+        "en": "a teacher"
+      }
+    ]
+  },
+  {
+    "title": "Kasra (ـِ), a slanted line below, is a short “i”",
+    "body": "A slanted line under the letter is a short “i” as in “sit”.",
+    "pattern": "\\u0650",
+    "examples": [
+      {
+        "word": "مِنْ",
+        "say": "min",
+        "en": "from"
+      },
+      {
+        "word": "عِنْدَ",
+        "say": "ʿIN-da",
+        "en": "at, with"
+      },
+      {
+        "word": "إِذَا",
+        "say": "I-dhaa",
+        "en": "if"
+      },
+      {
+        "word": "بِدُونِ",
+        "say": "bi-DOO-ni",
+        "en": "without"
+      }
+    ]
+  },
+  {
+    "title": "Sukun (ـْ), a small circle, means no vowel",
+    "body": "A small circle above a letter means the consonant has no vowel after it: it closes the syllable or joins the next consonant.",
+    "pattern": "\\u0652",
+    "examples": [
+      {
+        "word": "مِنْ",
+        "say": "min",
+        "en": "from"
+      },
+      {
+        "word": "لَمْ",
+        "say": "lam",
+        "en": "did not"
+      },
+      {
+        "word": "بَعْدَ",
+        "say": "BAʿ-da",
+        "en": "after"
+      },
+      {
+        "word": "فَقَطْ",
+        "say": "FA-qaṭ",
+        "en": "only"
+      }
+    ]
+  },
+  {
+    "title": "Damma (ـُ), a small و above, is a short “u”",
+    "body": "A small curl like a tiny و above the letter is a short “u” as in “put”, never the “u” of “cup”.",
+    "pattern": "\\u064F",
+    "examples": [
+      {
+        "word": "مُنْذُ",
+        "say": "MUN-dhu",
+        "en": "since, ago"
+      },
+      {
+        "word": "هُوَ",
+        "say": "HU-wa",
+        "en": "he"
+      },
+      {
+        "word": "كُلُّ",
+        "say": "KUL-lu",
+        "en": "every, all"
+      },
+      {
+        "word": "رَجُلٌ",
+        "say": "RA-ju-lun",
+        "en": "a man"
+      }
+    ]
+  },
+  {
+    "title": "ا after fatha is a long “aa”",
+    "body": "Alif after a fatha stretches the “a” to twice its length, as in “baa”. Written “aa” in the respellings. At the start of a word alif is a hamza seat or a helper vowel instead (see those rules).",
+    "pattern": "\\u064E\\u0651?\\u0627(?!\\p{L}(?:\\u0652|(?!\\p{M})))",
+    "examples": [
+      {
+        "word": "كَانَ",
+        "say": "KAA-na",
+        "en": "was"
+      },
+      {
+        "word": "قَالَ",
+        "say": "QAA-la",
+        "en": "he said"
+      },
+      {
+        "word": "هُنَاكَ",
+        "say": "hu-NAA-ka",
+        "en": "there"
+      },
+      {
+        "word": "أَمَامَ",
+        "say": "a-MAA-ma",
+        "en": "in front of"
+      }
+    ]
+  },
+  {
+    "title": "و and ي with a vowel mark are “w” and “y”",
+    "body": "When و or ي carries its own vowel mark (or shadda), it is a consonant: و is “w” as in “we”, ي is “y” as in “yes”.",
+    "pattern": "[\\u0648\\u064A](?=[\\u064B-\\u0651])",
+    "examples": [
+      {
+        "word": "وَقَالَ",
+        "say": "wa-QAA-la",
+        "en": "and he said"
+      },
+      {
+        "word": "هُوَ",
+        "say": "HU-wa",
+        "en": "he"
+      },
+      {
+        "word": "هِيَ",
+        "say": "HI-ya",
+        "en": "she"
+      },
+      {
+        "word": "يَا",
+        "say": "yaa",
+        "en": "O (calling someone)"
+      }
+    ]
+  },
+  {
+    "title": "ر is a tapped or rolled “r”",
+    "body": "ر is a flick of the tongue tip, as in Spanish “pero”; doubled (رّ) it is rolled. Always pronounce it, also before a consonant and at the end of a word.",
+    "pattern": "\\u0631",
+    "examples": [
+      {
+        "word": "رَجُلٌ",
+        "say": "RA-ju-lun",
+        "en": "a man"
+      },
+      {
+        "word": "مَرَّةً",
+        "say": "MAR-ra-tan",
+        "en": "once"
+      },
+      {
+        "word": "شُكْرًا",
+        "say": "SHUK-ran",
+        "en": "thank you"
+      },
+      {
+        "word": "الْبَحْرِ",
+        "say": "al-BAḤ-ri",
+        "en": "the sea"
+      }
+    ]
+  },
+  {
+    "title": "Hamzat al-wasl: a bare ا at the start of a word is skipped",
+    "body": "A plain ا with no mark at the start of a word (in ال, اسْم, ابْن…) is a helper vowel. Said first, it is “a” in ال and “i” elsewhere (sometimes “u”). After another word it is silent and the words join.",
+    "pattern": "(?<![\\p{L}\\p{M}])(?:[\\u0648\\u0641\\u0628\\u0643]\\p{M}+)?\\u0627(?=\\p{L}(?:\\u0652|(?!\\p{M})))",
+    "examples": [
+      {
+        "word": "اسْمِي",
+        "say": "IS-mee",
+        "en": "my name"
+      },
+      {
+        "word": "ابْنِي",
+        "say": "IB-nee",
+        "en": "my son"
+      },
+      {
+        "word": "وَالشَّايَ",
+        "say": "wash-SHAA-ya",
+        "en": "and the tea"
+      },
+      {
+        "word": "وَالْقَهْوَةَ",
+        "say": "wal-QAH-wa-ta",
+        "en": "and the coffee"
+      }
+    ]
+  },
+  {
+    "title": "At a pause, drop the last short vowel",
+    "body": "Before a full stop or comma, drop the final short vowel or “-un”, “-in”; ـًا becomes “-aa”, ة is just “a”. A long syllable left at the end takes the stress: كَبِيرٌ becomes “ka-BEER”.",
+    "pattern": "[\\u064B-\\u0650]\\u0651?\\u0627?(?=\\s*[.،!؟:؛…»]|\\n|$)",
+    "examples": [
+      {
+        "word": "الْبَيْتِ",
+        "say": "al-BAYT",
+        "en": "the house (at a pause)"
+      },
+      {
+        "word": "كَبِيرٌ",
+        "say": "ka-BEER",
+        "en": "big (at a pause)"
+      },
+      {
+        "word": "سَاعَةٍ",
+        "say": "SAA-ʿa",
+        "en": "an hour (at a pause)"
+      },
+      {
+        "word": "جِدًّا",
+        "say": "JID-daa",
+        "en": "very (at a pause)"
+      }
+    ]
+  },
+  {
+    "title": "Hamza (ء أ إ ؤ ئ) is a catch in the throat",
+    "body": "Hamza is a short stop of the breath, like the break in “uh-oh”. It sits alone (ء) or on a seat, ا, و or ى-shape (أ إ ؤ ئ); the seat is silent. Written ' in the respellings, left out at the start of a word.",
+    "pattern": "[\\u0621\\u0623\\u0625\\u0624\\u0626]",
+    "examples": [
+      {
+        "word": "وَأَنَا",
+        "say": "wa-'A-naa",
+        "en": "and I"
+      },
+      {
+        "word": "سُؤَالٌ",
+        "say": "su-'AA-lun",
+        "en": "a question"
+      },
+      {
+        "word": "شَيْءٍ",
+        "say": "SHAY-'in",
+        "en": "a thing"
+      },
+      {
+        "word": "دَقَائِقَ",
+        "say": "da-QAA-'i-qa",
+        "en": "minutes"
+      }
+    ]
+  },
+  {
+    "title": "Tanwin (ـً ـٌ ـٍ): a doubled mark adds “n”",
+    "body": "A doubled vowel mark at the end of a word adds “n”: ـً “-an”, ـٌ “-un”, ـٍ “-in”. It usually marks a word as “a, an”. The alif that usually follows ـً (ـًا) is silent.",
+    "pattern": "[\\u064B-\\u064D]",
+    "examples": [
+      {
+        "word": "رَجُلٌ",
+        "say": "RA-ju-lun",
+        "en": "a man"
+      },
+      {
+        "word": "شَيْءٍ",
+        "say": "SHAY-'in",
+        "en": "a thing"
+      },
+      {
+        "word": "جِدًّا",
+        "say": "JID-dan",
+        "en": "very"
+      },
+      {
+        "word": "أَيْضًا",
+        "say": "AY-ḍan",
+        "en": "also"
+      }
+    ]
+  },
+  {
+    "title": "ي after kasra is a long “ee”",
+    "body": "ي with no mark of its own after a kasra stretches the “i” into a long “ee” as in “see”.",
+    "pattern": "\\u0650\\u0651?\\u064A(?!\\p{M})",
+    "examples": [
+      {
+        "word": "فِي",
+        "say": "fee",
+        "en": "in"
+      },
+      {
+        "word": "لِي",
+        "say": "lee",
+        "en": "for me"
+      },
+      {
+        "word": "كَبِيرٌ",
+        "say": "ka-BEE-run",
+        "en": "big"
+      },
+      {
+        "word": "أُرِيدُ",
+        "say": "u-REE-du",
+        "en": "I want"
+      }
+    ]
+  },
+  {
+    "title": "Heavy letters darken the “a” next to them",
+    "body": "After ص ض ط ظ and ق خ غ, the “a” and “aa” sound deeper and further back, like “a” in “father” or even “u” in “sun”, never like “a” in “cat”.",
+    "pattern": "[\\u0635\\u0636\\u0637\\u0638\\u0642\\u062E\\u063A]\\u064E",
+    "examples": [
+      {
+        "word": "صَبَاحًا",
+        "say": "ṣa-BAA-ḥan",
+        "en": "in the morning"
+      },
+      {
+        "word": "قَالَ",
+        "say": "QAA-la",
+        "en": "he said"
+      },
+      {
+        "word": "خَمْسَ",
+        "say": "KHAM-sa",
+        "en": "five"
+      },
+      {
+        "word": "طَبْعًا",
+        "say": "ṬAB-ʿan",
+        "en": "of course"
+      }
+    ]
+  },
+  {
+    "title": "ع is a tight squeeze in the throat",
+    "body": "ع has no English match: tighten the deep throat, as if starting to gag, while voicing the vowel. It is a real consonant, not a silent letter. Written “ʿ” in the respellings.",
+    "pattern": "\\u0639",
+    "examples": [
+      {
+        "word": "مَعَ",
+        "say": "MA-ʿa",
+        "en": "with"
+      },
+      {
+        "word": "عَلَى",
+        "say": "ʿA-laa",
+        "en": "on"
+      },
+      {
+        "word": "بَعْدَ",
+        "say": "BAʿ-da",
+        "en": "after"
+      },
+      {
+        "word": "عِنْدَمَا",
+        "say": "ʿIN-da-maa",
+        "en": "when"
+      }
+    ]
+  },
+  {
+    "title": "Shadda (ـّ) doubles the consonant",
+    "body": "The small “w”-shaped mark means the consonant is doubled: hold it for twice as long, as in “book case”. The vowel mark goes with it. Doubling can change the word, so never skip it.",
+    "pattern": "(?<!(?:\\u0627\\u0644|\\u0644\\u0650\\u0644)\\p{L}\\p{M}*)\\u0651",
+    "examples": [
+      {
+        "word": "ثُمَّ",
+        "say": "THUM-ma",
+        "en": "then"
+      },
+      {
+        "word": "حَتَّى",
+        "say": "ḤAT-taa",
+        "en": "until, even"
+      },
+      {
+        "word": "مَرَّةً",
+        "say": "MAR-ra-tan",
+        "en": "once"
+      },
+      {
+        "word": "عَمَّانَ",
+        "say": "ʿam-MAA-na",
+        "en": "Amman"
+      }
+    ]
+  },
+  {
+    "title": "ة (ta marbuta) is “t” before an ending, “a” at a pause",
+    "body": "ة, an ه with two dots, ends many feminine words. Before the vowel ending it is a “t”: ـَةً “-tan”, ـَةِ “-ti”. At the end of a sentence the ending drops and only “a” is heard.",
+    "pattern": "\\u0629",
+    "examples": [
+      {
+        "word": "سَنَةً",
+        "say": "SA-na-tan",
+        "en": "a year"
+      },
+      {
+        "word": "سَاعَةٍ",
+        "say": "SAA-ʿa-tin",
+        "en": "an hour"
+      },
+      {
+        "word": "مَرَّةً",
+        "say": "MAR-ra-tan",
+        "en": "once"
+      }
+    ]
+  },
+  {
+    "title": "Moon letters: الْ is said “al”",
+    "body": "Before all other letters, the ل of “the” carries a sukun and is pronounced: الْ is “al”. The next letter is not doubled.",
+    "pattern": "(?:\\u0627|\\u0644\\u0650)\\u0644\\u0652",
+    "examples": [
+      {
+        "word": "الْبَيْتِ",
+        "say": "al-BAY-ti",
+        "en": "the house"
+      },
+      {
+        "word": "الْيَوْمَ",
+        "say": "al-YAW-ma",
+        "en": "today"
+      },
+      {
+        "word": "الْبَحْرِ",
+        "say": "al-BAḤ-ri",
+        "en": "the sea"
+      },
+      {
+        "word": "الْقَهْوَةَ",
+        "say": "al-QAH-wa-ta",
+        "en": "the coffee"
+      }
+    ]
+  },
+  {
+    "title": "ه is “h”, said everywhere",
+    "body": "ه is the “h” of “hat”, but it is always pronounced, also at the end of a word or before another consonant, where English would drop it.",
+    "pattern": "\\u0647",
+    "examples": [
+      {
+        "word": "هُنَا",
+        "say": "HU-naa",
+        "en": "here"
+      },
+      {
+        "word": "لَهُ",
+        "say": "LA-hu",
+        "en": "to him, he has"
+      },
+      {
+        "word": "مَقْهًى",
+        "say": "MAQ-han",
+        "en": "a café"
+      }
+    ]
+  },
+  {
+    "title": "ق is a deep “k” from the back of the throat",
+    "body": "ق is a “k” made much further back, where you gargle. It deepens the vowels around it. Many dialects say it as “g” or a catch, but in reading it is “q”.",
+    "pattern": "\\u0642",
+    "examples": [
+      {
+        "word": "قَالَ",
+        "say": "QAA-la",
+        "en": "he said"
+      },
+      {
+        "word": "قَبْلَ",
+        "say": "QAB-la",
+        "en": "before"
+      },
+      {
+        "word": "فَقَطْ",
+        "say": "FA-qaṭ",
+        "en": "only"
+      },
+      {
+        "word": "الْقَهْوَةَ",
+        "say": "al-QAH-wa-ta",
+        "en": "the coffee"
+      }
+    ]
+  },
+  {
+    "title": "ح is a strong breathy “h” from deep in the throat",
+    "body": "Squeeze the throat and breathe out hard, like a loud whisper when you fog up glasses. Unlike ه, it is raspy and tight. Written “ḥ” in the respellings.",
+    "pattern": "\\u062D",
+    "examples": [
+      {
+        "word": "حَتَّى",
+        "say": "ḤAT-taa",
+        "en": "until, even"
+      },
+      {
+        "word": "تَحْتَ",
+        "say": "TAḤ-ta",
+        "en": "under"
+      },
+      {
+        "word": "أَحْيَانًا",
+        "say": "aḥ-YAA-nan",
+        "en": "sometimes"
+      },
+      {
+        "word": "صَبَاحًا",
+        "say": "ṣa-BAA-ḥan",
+        "en": "in the morning"
+      }
+    ]
+  },
+  {
+    "title": "Sun letters: the ل of ال is silent, the next letter doubles",
+    "body": "Before ت ث د ذ ر ز س ش ص ض ط ظ ل ن the ل of “al-” is not said; instead the next letter, marked with shadda, is doubled: الشَّايَ is “ash-SHAA-ya”, not “al-shaa-ya”.",
+    "pattern": "(?<=\\u0627\\u0644|\\u0644\\u0650\\u0644)[تثدذرزسشصضطظلن](?=\\p{M}*\\u0651)",
+    "examples": [
+      {
+        "word": "الشَّايَ",
+        "say": "ash-SHAA-ya",
+        "en": "the tea"
+      },
+      {
+        "word": "الصَّبَاحِ",
+        "say": "aṣ-ṣa-BAA-ḥi",
+        "en": "the morning"
+      },
+      {
+        "word": "النَّاسُ",
+        "say": "an-NAA-su",
+        "en": "the people"
+      },
+      {
+        "word": "اللَّيْلِ",
+        "say": "al-LAY-li",
+        "en": "the night"
+      }
+    ]
+  },
+  {
+    "title": "ج sounds “j” as in “jam”",
+    "body": "In standard Arabic ج is “j” as in “jam”. In Egypt it is “g” as in “go”, in the Levant often like the “s” in “pleasure”.",
+    "pattern": "\\u062C",
+    "examples": [
+      {
+        "word": "جِدًّا",
+        "say": "JID-dan",
+        "en": "very"
+      },
+      {
+        "word": "جَاءَ",
+        "say": "JAA-'a",
+        "en": "he came"
+      },
+      {
+        "word": "رَجُلٌ",
+        "say": "RA-ju-lun",
+        "en": "a man"
+      },
+      {
+        "word": "جَدِيدٌ",
+        "say": "ja-DEE-dun",
+        "en": "new"
+      }
+    ]
+  },
+  {
+    "title": "ـَيْ is “ay”, ـَوْ is “aw”",
+    "body": "Fatha followed by ي or و with sukun makes a gliding vowel: ـَيْ “ay” as in “my”, ـَوْ “aw” as in “cow”.",
+    "pattern": "\\u064E\\u0651?[\\u0648\\u064A]\\u0652",
+    "examples": [
+      {
+        "word": "بَيْتِ",
+        "say": "BAY-ti",
+        "en": "house (of)"
+      },
+      {
+        "word": "يَوْمَ",
+        "say": "YAW-ma",
+        "en": "day"
+      },
+      {
+        "word": "أَوْ",
+        "say": "aw",
+        "en": "or"
+      },
+      {
+        "word": "لَيْسَ",
+        "say": "LAY-sa",
+        "en": "is not"
+      }
+    ]
+  },
+  {
+    "title": "لا is ل followed by ا",
+    "body": "When ل is followed by ا (or أ, إ, آ), the two are joined into one shape, لا. Read it as “l” plus the alif: لَا is “laa”.",
+    "pattern": "\\u0644\\p{M}*[\\u0627\\u0623\\u0625\\u0622]",
+    "examples": [
+      {
+        "word": "لَا",
+        "say": "laa",
+        "en": "no, not"
+      },
+      {
+        "word": "قَلِيلًا",
+        "say": "qa-LEE-lan",
+        "en": "a little"
+      },
+      {
+        "word": "إِلَّا",
+        "say": "IL-laa",
+        "en": "except"
+      },
+      {
+        "word": "الْأُسْبُوعِ",
+        "say": "al-'us-BOO-ʿi",
+        "en": "the week"
+      }
+    ]
+  },
+  {
+    "title": "و after damma is a long “oo”",
+    "body": "و with no mark of its own after a damma stretches the “u” into a long “oo” as in “food”.",
+    "pattern": "\\u064F\\u0651?\\u0648(?!\\p{M})",
+    "examples": [
+      {
+        "word": "بِدُونِ",
+        "say": "bi-DOO-ni",
+        "en": "without"
+      },
+      {
+        "word": "يَقُولُ",
+        "say": "ya-QOO-lu",
+        "en": "he says"
+      },
+      {
+        "word": "السُّوقِ",
+        "say": "as-SOO-qi",
+        "en": "the market"
+      }
+    ]
+  },
+  {
+    "title": "A long vowel shortens before a skipped ا",
+    "body": "When a word ending in a long vowel (فِي, إِلَى, عَلَى) is followed by a skipped ا, the long vowel becomes short and runs straight into the next word: فِي الْبَيْتِ is “fil-BAY-ti”.",
+    "pattern": "(?:\\u0650\\u064A|\\u064E[\\u0627\\u0649]|\\u064F\\u0648\\u0627?) (?=\\u0627\\p{L}(?:\\u0652|(?!\\p{M})))",
+    "examples": [
+      {
+        "word": "فِي الْبَيْتِ",
+        "say": "fil-BAY-ti",
+        "en": "at home"
+      },
+      {
+        "word": "فِي الصَّبَاحِ",
+        "say": "fiṣ-ṣa-BAA-ḥi",
+        "en": "in the morning"
+      },
+      {
+        "word": "إِلَى الْبَيْتِ",
+        "say": "i-lal-BAY-ti",
+        "en": "(to) home"
+      }
+    ]
+  },
+  {
+    "title": "ص is a heavy “s”",
+    "body": "ص is one of four heavy letters: say “s” with the back of the tongue raised, giving a deep, hollow sound. Compare س in “sat” with ص in “sod”. Written “ṣ” in the respellings.",
+    "pattern": "\\u0635",
+    "examples": [
+      {
+        "word": "صَبَاحًا",
+        "say": "ṣa-BAA-ḥan",
+        "en": "in the morning"
+      },
+      {
+        "word": "صَغِيرٌ",
+        "say": "ṣa-GHEE-run",
+        "en": "small"
+      },
+      {
+        "word": "الصَّيْفِ",
+        "say": "aṣ-ṢAY-fi",
+        "en": "the summer"
+      }
+    ]
+  },
+  {
+    "title": "ط is a heavy “t”",
+    "body": "ط is the heavy partner of ت: a “t” with the back of the tongue raised, as in “top” rather than “tip”, and without a puff of air. Written “ṭ” in the respellings.",
+    "pattern": "\\u0637",
+    "examples": [
+      {
+        "word": "طَوِيلٌ",
+        "say": "ṭa-WEE-lun",
+        "en": "long, tall"
+      },
+      {
+        "word": "طَبْعًا",
+        "say": "ṬAB-ʿan",
+        "en": "of course"
+      },
+      {
+        "word": "فَقَطْ",
+        "say": "FA-qaṭ",
+        "en": "only"
+      },
+      {
+        "word": "الطَّرِيقِ",
+        "say": "aṭ-ṭa-REE-qi",
+        "en": "the road"
+      }
+    ]
+  },
+  {
+    "title": "خ sounds like “ch” in Scottish “loch”",
+    "body": "خ is a rough, scraping “kh” from the back of the mouth, like Scottish “loch” or German “Bach”.",
+    "pattern": "\\u062E",
+    "examples": [
+      {
+        "word": "خَمْسَ",
+        "say": "KHAM-sa",
+        "en": "five"
+      },
+      {
+        "word": "الْخُبْزَ",
+        "say": "al-KHUB-za",
+        "en": "the bread"
+      },
+      {
+        "word": "أُخْرَى",
+        "say": "UKH-raa",
+        "en": "other (feminine)"
+      },
+      {
+        "word": "أَخِيرًا",
+        "say": "a-KHEE-ran",
+        "en": "finally"
+      }
+    ]
+  },
+  {
+    "title": "ى at the end of a word (alif maqsura) is a long “aa”",
+    "body": "ى, a ي without dots, appears only at the end of a word and sounds like ا: a long “aa”. With a tanwin (ـًى) it is “-an”.",
+    "pattern": "\\u0649",
+    "examples": [
+      {
+        "word": "إِلَى",
+        "say": "I-laa",
+        "en": "to"
+      },
+      {
+        "word": "عَلَى",
+        "say": "ʿA-laa",
+        "en": "on"
+      },
+      {
+        "word": "لَيْلَى",
+        "say": "LAY-laa",
+        "en": "Layla (name)"
+      },
+      {
+        "word": "مَقْهًى",
+        "say": "MAQ-han",
+        "en": "a café"
+      }
+    ]
+  },
+  {
+    "title": "ث sounds like “th” in “thin”",
+    "body": "ث is the soft, breathy “th” of “thin” and “three”, never “t”.",
+    "pattern": "\\u062B",
+    "examples": [
+      {
+        "word": "ثُمَّ",
+        "say": "THUM-ma",
+        "en": "then"
+      },
+      {
+        "word": "ثَلَاثَةِ",
+        "say": "tha-LAA-tha-ti",
+        "en": "three"
+      },
+      {
+        "word": "الثَّانِي",
+        "say": "ath-THAA-nee",
+        "en": "the second"
+      }
+    ]
+  },
+  {
+    "title": "ذ sounds like “th” in “this”",
+    "body": "ذ is the buzzing “th” of “this” and “mother”, never “d” or “z”. Written “dh” in the respellings.",
+    "pattern": "\\u0630",
+    "examples": [
+      {
+        "word": "هٰذَا",
+        "say": "HAA-dhaa",
+        "en": "this"
+      },
+      {
+        "word": "ذَهَبَ",
+        "say": "DHA-ha-ba",
+        "en": "he went"
+      },
+      {
+        "word": "إِذَا",
+        "say": "I-dhaa",
+        "en": "if"
+      },
+      {
+        "word": "مُنْذُ",
+        "say": "MUN-dhu",
+        "en": "since, ago"
+      }
+    ]
+  },
+  {
+    "title": "ض is a heavy “d”",
+    "body": "ض is the heavy partner of د: a “d” with the back of the tongue raised, as in “dodge” rather than “dad”. Written “ḍ” in the respellings.",
+    "pattern": "\\u0636",
+    "examples": [
+      {
+        "word": "أَيْضًا",
+        "say": "AY-ḍan",
+        "en": "also"
+      },
+      {
+        "word": "ضَحِكَ",
+        "say": "ḌA-ḥi-ka",
+        "en": "he laughed"
+      },
+      {
+        "word": "الْأَرْضِ",
+        "say": "al-'AR-ḍi",
+        "en": "the ground, the earth"
+      }
+    ]
+  },
+  {
+    "title": "غ is a gargled “gh”, like a French r",
+    "body": "غ is the buzzing, voiced partner of خ, made in the same place: close to the “r” of Parisian French. Written “gh” in the respellings.",
+    "pattern": "\\u063A",
+    "examples": [
+      {
+        "word": "صَغِيرٌ",
+        "say": "ṣa-GHEE-run",
+        "en": "small"
+      },
+      {
+        "word": "غَدًا",
+        "say": "GHA-dan",
+        "en": "tomorrow"
+      },
+      {
+        "word": "الْفَرَاغِ",
+        "say": "al-fa-RAA-ghi",
+        "en": "free time, emptiness"
+      }
+    ]
+  },
+  {
+    "title": "A small upright alif (ـٰ) is a hidden long “aa”",
+    "body": "A few very common words write their long “aa” as a tiny vertical stroke above the letter instead of a full alif. Read it exactly like ا.",
+    "pattern": "\\u0670",
+    "examples": [
+      {
+        "word": "هٰذَا",
+        "say": "HAA-dhaa",
+        "en": "this"
+      },
+      {
+        "word": "هٰذِهِ",
+        "say": "HAA-dhi-hi",
+        "en": "this (feminine)"
+      },
+      {
+        "word": "ذٰلِكَ",
+        "say": "DHAA-li-ka",
+        "en": "that"
+      },
+      {
+        "word": "لٰكِنَّ",
+        "say": "laa-KIN-na",
+        "en": "but"
+      }
+    ]
+  },
+  {
+    "title": "ظ is a heavy “th” as in “this”",
+    "body": "ظ is the heavy partner of ذ: the “th” of “this” with the back of the tongue raised. Many speakers say it as a heavy “z”. Written “ẓ” in the respellings.",
+    "pattern": "\\u0638",
+    "examples": [
+      {
+        "word": "الظُّهْرِ",
+        "say": "aẓ-ẒUH-ri",
+        "en": "noon"
+      },
+      {
+        "word": "نَظَرَ",
+        "say": "NA-ẓa-ra",
+        "en": "he looked"
+      }
+    ]
+  },
+  {
+    "title": "آ (alif with madda) is hamza plus a long “aa”",
+    "body": "The wavy line on آ stands for a hamza followed by a long “aa”: a catch in the throat, then “aa”.",
+    "pattern": "\\u0622",
+    "examples": [
+      {
+        "word": "الْآنَ",
+        "say": "al-'AA-na",
+        "en": "now"
+      },
+      {
+        "word": "آخِرِ",
+        "say": "AA-khi-ri",
+        "en": "the end of, last"
+      },
+      {
+        "word": "آسِفٌ",
+        "say": "AA-si-fun",
+        "en": "sorry"
+      }
+    ]
+  },
+  {
+    "title": "ا after a final و (ـُوا) is silent",
+    "body": "Verbs ending in “-oo” for “they” are written with an extra alif after the و. It is only a spelling mark; do not read it.",
+    "pattern": "(?<=[\\u064E\\u064F]\\u0651?)\\u0648\\u0652?\\u0627(?![\\p{L}\\p{M}])",
+    "examples": [
+      {
+        "word": "كَانُوا",
+        "say": "KAA-noo",
+        "en": "they were"
+      },
+      {
+        "word": "قَالُوا",
+        "say": "QAA-loo",
+        "en": "they said"
+      },
+      {
+        "word": "وَصَلُوا",
+        "say": "WA-ṣa-loo",
+        "en": "they arrived"
+      }
+    ]
+  },
+  {
+    "title": "اللّٰه is said with a deep, heavy “l”",
+    "body": "In the word for God (Allah) the double l is deep and dark, as in “full”, unless an “i” comes just before it, as in لِلّٰهِ.",
+    "pattern": "\\u0644\\u0651\\u0670\\u0647",
+    "examples": [
+      {
+        "word": "إِنْ شَاءَ اللّٰهُ",
+        "say": "in SHAA-'al-LAA-hu",
+        "en": "God willing"
+      },
+      {
+        "word": "عَبْدُ اللّٰهِ",
+        "say": "ʿAB-dul-LAA-hi",
+        "en": "Abdullah (name)"
+      },
+      {
+        "word": "الْحَمْدُ لِلّٰهِ",
+        "say": "al-ḤAM-du lil-LAA-hi",
+        "en": "thank God (light l)"
+      }
+    ]
+  }
+]

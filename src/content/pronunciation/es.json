@@ -1,0 +1,1025 @@
+[
+  {
+    "title": "f, k, l, m, n, p, t and w sound much as in English",
+    "body": "These letters are close to English. l is always the clear “l” of “leaf”, even at the end of a word (hotel, final). t and d are made with the tongue against the upper teeth. k and w occur only in foreign words (kilo, web).",
+    "pattern": "[fklmnptw]",
+    "examples": [
+      {
+        "word": "la familia",
+        "say": "lah fah-MEE-lyah",
+        "en": "family"
+      },
+      {
+        "word": "final",
+        "say": "fee-NAHL",
+        "en": "final, end"
+      },
+      {
+        "word": "el tiempo",
+        "say": "el TYEHM-poh",
+        "en": "time, weather"
+      },
+      {
+        "word": "los kilómetros",
+        "say": "lohs kee-LOH-meh-trohs",
+        "en": "kilometres"
+      }
+    ]
+  },
+  {
+    "title": "a is always “ah”",
+    "body": "a sounds like the “a” in “father”, but short. It keeps that full sound in unstressed syllables too, never the weak “uh” of English “about”: Spanish vowels are always clear.",
+    "pattern": "[aá]",
+    "examples": [
+      {
+        "word": "la plaza",
+        "say": "lah PLAH-thah",
+        "en": "square"
+      },
+      {
+        "word": "mañana",
+        "say": "mah-NYAH-nah",
+        "en": "tomorrow, morning"
+      },
+      {
+        "word": "el agua",
+        "say": "el AH-gwah",
+        "en": "water"
+      },
+      {
+        "word": "hablar",
+        "say": "ah-BLAHR",
+        "en": "to speak"
+      }
+    ]
+  },
+  {
+    "title": "e is always “eh”",
+    "body": "e sounds like the “e” in “bed”, never “ee”. It keeps the same full sound when unstressed, and a final e is always pronounced: noche has two syllables.",
+    "pattern": "[eé]",
+    "examples": [
+      {
+        "word": "el mes",
+        "say": "el mehs",
+        "en": "month"
+      },
+      {
+        "word": "la noche",
+        "say": "lah NOH-cheh",
+        "en": "night"
+      },
+      {
+        "word": "verde",
+        "say": "BEHR-deh",
+        "en": "green"
+      },
+      {
+        "word": "tres",
+        "say": "trehs",
+        "en": "three"
+      }
+    ]
+  },
+  {
+    "title": "p, t and k sounds have no puff of air",
+    "body": "English p, t and k at the start of a word come with a small puff of air (hold a hand in front of your mouth and say “pat”). Spanish p, t and the “k” sound have none, so to English ears they can sound close to b, d and g.",
+    "pattern": "p|t|c(?![eiéíh])|qu|k",
+    "examples": [
+      {
+        "word": "pero",
+        "say": "PEH-roh",
+        "en": "but"
+      },
+      {
+        "word": "tarde",
+        "say": "TAHR-deh",
+        "en": "late, afternoon"
+      },
+      {
+        "word": "cuatro",
+        "say": "KWAH-troh",
+        "en": "four"
+      },
+      {
+        "word": "el padre",
+        "say": "el PAH-dreh",
+        "en": "father"
+      }
+    ]
+  },
+  {
+    "title": "Ending in a vowel, n or s: stress the second-to-last syllable",
+    "body": "A word without a written accent that ends in a vowel, n or s is stressed on its second-to-last syllable. This covers most Spanish words, including verb forms ending in -an, -en and -as.",
+    "pattern": "(?<!\\p{L})[a-zñü]*[aeiou][bcdfghjklmnpqrstvwxyzñ]+[a-zñü]*[aeiouns](?!\\p{L})",
+    "examples": [
+      {
+        "word": "la casa",
+        "say": "lah KAH-sah",
+        "en": "house"
+      },
+      {
+        "word": "hablan",
+        "say": "AH-blahn",
+        "en": "they speak"
+      },
+      {
+        "word": "la semana",
+        "say": "lah seh-MAH-nah",
+        "en": "week"
+      },
+      {
+        "word": "los años",
+        "say": "lohs AH-nyohs",
+        "en": "years"
+      }
+    ]
+  },
+  {
+    "title": "o is a short, pure “oh”",
+    "body": "o sounds like the “o” in “port”, said short and pure, without the “w” glide at the end of English “go”. It keeps its full sound when unstressed and at the end of a word.",
+    "pattern": "[oó]",
+    "examples": [
+      {
+        "word": "como",
+        "say": "KOH-moh",
+        "en": "like, as"
+      },
+      {
+        "word": "todo",
+        "say": "TOH-doh",
+        "en": "all, everything"
+      },
+      {
+        "word": "dos",
+        "say": "dohs",
+        "en": "two"
+      },
+      {
+        "word": "solo",
+        "say": "SOH-loh",
+        "en": "only, alone"
+      }
+    ]
+  },
+  {
+    "title": "s is always a hissing “s”",
+    "body": "s is the “s” of “see”, even between vowels: casa is never “kaza”. Before b, d, g, l, m and n it softens towards “z” (mismo). In southern Spain and the Caribbean, s before a consonant or at the end of a word often weakens to a breathy “h”.",
+    "pattern": "s",
+    "examples": [
+      {
+        "word": "el piso",
+        "say": "el PEE-soh",
+        "en": "flat, apartment"
+      },
+      {
+        "word": "la mesa",
+        "say": "lah MEH-sah",
+        "en": "table"
+      },
+      {
+        "word": "solo",
+        "say": "SOH-loh",
+        "en": "only, alone"
+      },
+      {
+        "word": "mismo",
+        "say": "MEEZ-moh",
+        "en": "same"
+      }
+    ]
+  },
+  {
+    "title": "A single r is a quick tap",
+    "body": "Between vowels, after a consonant and at the end of a word, r is one quick flick of the tongue tip, like the “tt” in American “better”. It is never the English “r” and never silent: pero (but) and perro (dog) are different words.",
+    "pattern": "(?<=[a-zñáéíóúü])(?<![nlsr])r(?!r)",
+    "examples": [
+      {
+        "word": "pero",
+        "say": "PEH-roh",
+        "en": "but"
+      },
+      {
+        "word": "para",
+        "say": "PAH-rah",
+        "en": "for"
+      },
+      {
+        "word": "tres",
+        "say": "trehs",
+        "en": "three"
+      },
+      {
+        "word": "hablar",
+        "say": "ah-BLAHR",
+        "en": "to speak"
+      }
+    ]
+  },
+  {
+    "title": "i is always “ee”",
+    "body": "i sounds like the “ee” in “see”, but short, never like the “i” in “sit”. Next to another vowel it usually glides into a “y” sound (see that rule).",
+    "pattern": "í|(?<![aeouáéóú])i(?![aeouáéóú])",
+    "examples": [
+      {
+        "word": "sí",
+        "say": "see",
+        "en": "yes"
+      },
+      {
+        "word": "mi",
+        "say": "mee",
+        "en": "my"
+      },
+      {
+        "word": "vivir",
+        "say": "bee-BEER",
+        "en": "to live"
+      },
+      {
+        "word": "la vida",
+        "say": "lah BEE-dah",
+        "en": "life"
+      }
+    ]
+  },
+  {
+    "title": "Vowels meeting across words merge",
+    "body": "When one word ends in a vowel and the next begins with one (h is silent), they are said in one breath, without a break. Two identical vowels usually become one: la amiga sounds like “lamiga”.",
+    "pattern": "[aeiouáéíóú] (?=h?[aeiouáéíóú])",
+    "examples": [
+      {
+        "word": "la amiga",
+        "say": "lah-MEE-gah",
+        "en": "the friend (female)"
+      },
+      {
+        "word": "su hermano",
+        "say": "swehr-MAH-noh",
+        "en": "his/her brother"
+      },
+      {
+        "word": "de España",
+        "say": "dehs-PAH-nyah",
+        "en": "from Spain"
+      }
+    ]
+  },
+  {
+    "title": "i and u before another vowel glide into “y” and “w”",
+    "body": "An unaccented i or u next to a, e or o runs into it in one syllable: ie is “yeh”, ia “yah”, ue “weh”, ua “wah”. When i and u meet, the first one glides: ciudad, muy.",
+    "pattern": "i(?=[aeouáéóú])|(?<!q)u(?=[aoáó])|(?<![qg])u(?=[eiéíy])",
+    "examples": [
+      {
+        "word": "bien",
+        "say": "byehn",
+        "en": "well"
+      },
+      {
+        "word": "siempre",
+        "say": "SYEHM-preh",
+        "en": "always"
+      },
+      {
+        "word": "bueno",
+        "say": "BWEH-noh",
+        "en": "good"
+      },
+      {
+        "word": "cuando",
+        "say": "KWAHN-doh",
+        "en": "when"
+      }
+    ]
+  },
+  {
+    "title": "b and v sound the same",
+    "body": "Spanish has no separate “v” sound: b and v are both “b”. After a pause, m or n it is a full “b”; between vowels the lips barely touch, so it sounds softer, like a “v” made with both lips.",
+    "pattern": "[bv]",
+    "examples": [
+      {
+        "word": "el vino",
+        "say": "el BEE-noh",
+        "en": "wine"
+      },
+      {
+        "word": "bien",
+        "say": "byehn",
+        "en": "well"
+      },
+      {
+        "word": "nuevo",
+        "say": "NWEH-boh",
+        "en": "new"
+      },
+      {
+        "word": "vivir",
+        "say": "bee-BEER",
+        "en": "to live"
+      }
+    ]
+  },
+  {
+    "title": "c before a, o, u or a consonant is “k”",
+    "body": "Elsewhere c is a “k” sound, as in “cat”. To write the “k” sound before e or i, Spanish uses qu instead.",
+    "pattern": "c(?![eiéíh])",
+    "examples": [
+      {
+        "word": "la casa",
+        "say": "lah KAH-sah",
+        "en": "house"
+      },
+      {
+        "word": "poco",
+        "say": "POH-koh",
+        "en": "little"
+      },
+      {
+        "word": "claro",
+        "say": "KLAH-roh",
+        "en": "clear, of course"
+      },
+      {
+        "word": "con",
+        "say": "kohn",
+        "en": "with"
+      }
+    ]
+  },
+  {
+    "title": "u is always “oo”",
+    "body": "u sounds like the “oo” in “food”, but short, never like the “u” in “but” or “use”. It is silent in que, qui, gue and gui, and glides into “w” before another vowel (see those rules).",
+    "pattern": "ú|(?<![aeoáéóq])u(?![aeioáéíó]|y(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "uno",
+        "say": "OO-noh",
+        "en": "one"
+      },
+      {
+        "word": "mucho",
+        "say": "MOO-choh",
+        "en": "much, a lot"
+      },
+      {
+        "word": "la música",
+        "say": "lah MOO-see-kah",
+        "en": "music"
+      },
+      {
+        "word": "su",
+        "say": "soo",
+        "en": "his, her, their"
+      }
+    ]
+  },
+  {
+    "title": "A written accent marks the stressed syllable",
+    "body": "An accent (á, é, í, ó, ú) overrides both stress rules: stress that syllable. It never changes the vowel's sound. On short words it only tells words apart, said the same way: tú (you) and tu (your), sí (yes) and si (if), qué (what) and que (that).",
+    "pattern": "[áéíóú]",
+    "examples": [
+      {
+        "word": "el café",
+        "say": "el kah-FEH",
+        "en": "coffee"
+      },
+      {
+        "word": "el sábado",
+        "say": "el SAH-bah-doh",
+        "en": "Saturday"
+      },
+      {
+        "word": "también",
+        "say": "tahm-BYEHN",
+        "en": "also"
+      },
+      {
+        "word": "el móvil",
+        "say": "el MOH-beel",
+        "en": "mobile phone"
+      }
+    ]
+  },
+  {
+    "title": "A final consonant links to the next word's vowel",
+    "body": "Spanish speech flows without breaks between words. A consonant at the end of a word moves over to start the next word when that begins with a vowel or silent h: los amigos sounds like “lo samigos”.",
+    "pattern": "(?<=[bcdfghjklmnpqrstvwxzñ]) (?=h?[aeiouáéíóú])",
+    "examples": [
+      {
+        "word": "los amigos",
+        "say": "loh-sah-MEE-gohs",
+        "en": "the friends"
+      },
+      {
+        "word": "el hotel",
+        "say": "eh-loh-TEL",
+        "en": "the hotel"
+      },
+      {
+        "word": "un año",
+        "say": "oo-NAH-nyoh",
+        "en": "a year"
+      },
+      {
+        "word": "el examen",
+        "say": "eh-lehk-SAH-mehn",
+        "en": "the exam"
+      }
+    ]
+  },
+  {
+    "title": "d between vowels is soft, like “th” in “this”",
+    "body": "After a vowel, r or s, d softens to something close to the “th” in “this”. At the end of a word it is very weak and often dropped: Madrid, usted. At the start of a phrase and after n or l it is a normal “d”.",
+    "pattern": "(?<=[aeiouáéíóúrs])d",
+    "examples": [
+      {
+        "word": "todo",
+        "say": "TOH-doh",
+        "en": "all, everything"
+      },
+      {
+        "word": "nada",
+        "say": "NAH-dah",
+        "en": "nothing"
+      },
+      {
+        "word": "cada",
+        "say": "KAH-dah",
+        "en": "each, every"
+      },
+      {
+        "word": "usted",
+        "say": "oos-TEH",
+        "en": "you (polite)"
+      }
+    ]
+  },
+  {
+    "title": "c before e or i: “th” in Spain, “s” in Latin America",
+    "body": "In most of Spain, c before e or i is the “th” of “think”. In Latin America, the Canary Islands and parts of southern Spain it is the “s” of “see”. Both are correct; the respellings here show the Spain sound.",
+    "pattern": "c(?=[eiéí])",
+    "examples": [
+      {
+        "word": "cinco",
+        "say": "THEEN-koh",
+        "en": "five"
+      },
+      {
+        "word": "la cena",
+        "say": "lah THEH-nah",
+        "en": "dinner"
+      },
+      {
+        "word": "hace",
+        "say": "AH-theh",
+        "en": "he/she does, makes"
+      },
+      {
+        "word": "gracias",
+        "say": "GRAH-thyahs",
+        "en": "thank you"
+      }
+    ]
+  },
+  {
+    "title": "Ending in any other consonant: stress the last syllable",
+    "body": "A word without a written accent that ends in a consonant other than n or s (y counts as a consonant here) is stressed on its last syllable. This includes every verb in its dictionary form: hablar, comer, vivir.",
+    "pattern": "(?<!\\p{L})[a-zñü]*[aeiou][a-zñü]*[aeiou][a-zñü]*[bcdfghjklmpqrtvwxyzñ](?!\\p{L})",
+    "examples": [
+      {
+        "word": "el hotel",
+        "say": "el oh-TEL",
+        "en": "hotel"
+      },
+      {
+        "word": "la ciudad",
+        "say": "lah thyoo-DAHD",
+        "en": "city"
+      },
+      {
+        "word": "hablar",
+        "say": "ah-BLAHR",
+        "en": "to speak"
+      },
+      {
+        "word": "estoy",
+        "say": "ehs-TOY",
+        "en": "I am"
+      }
+    ]
+  },
+  {
+    "title": "y on its own or at the end of a word is a vowel",
+    "body": "The word y (and) is just “ee”. At the end of a word, y glides off the vowel before it: hoy is “oy”, muy is “mwee”. For stress it counts as a consonant, so estoy is stressed on the end.",
+    "pattern": "y(?!\\p{L})",
+    "examples": [
+      {
+        "word": "y",
+        "say": "ee",
+        "en": "and"
+      },
+      {
+        "word": "muy",
+        "say": "mwee",
+        "en": "very"
+      },
+      {
+        "word": "voy",
+        "say": "boy",
+        "en": "I go"
+      },
+      {
+        "word": "estoy",
+        "say": "ehs-TOY",
+        "en": "I am"
+      }
+    ]
+  },
+  {
+    "title": "g before a, o, u or a consonant is a hard “g”",
+    "body": "Elsewhere g is the “g” of “go”. Between vowels it is softer, with the back of the tongue not quite closing, as in amigos and luego.",
+    "pattern": "g(?![eiéí])",
+    "examples": [
+      {
+        "word": "grande",
+        "say": "GRAHN-deh",
+        "en": "big"
+      },
+      {
+        "word": "tengo",
+        "say": "TEHN-goh",
+        "en": "I have"
+      },
+      {
+        "word": "los amigos",
+        "say": "lohs ah-MEE-gohs",
+        "en": "friends"
+      },
+      {
+        "word": "luego",
+        "say": "LWEH-goh",
+        "en": "later, then"
+      }
+    ]
+  },
+  {
+    "title": "qu is “k”, with a silent u",
+    "body": "qu comes only before e or i and is a plain “k”: que is “keh”, never “kweh”. The “kw” sound is written cu, as in cuando.",
+    "pattern": "qu",
+    "examples": [
+      {
+        "word": "que",
+        "say": "keh",
+        "en": "that, which"
+      },
+      {
+        "word": "qué",
+        "say": "keh",
+        "en": "what"
+      },
+      {
+        "word": "quería",
+        "say": "keh-REE-ah",
+        "en": "he/she wanted"
+      },
+      {
+        "word": "el parque",
+        "say": "el PAHR-keh",
+        "en": "park"
+      }
+    ]
+  },
+  {
+    "title": "h is always silent",
+    "body": "Spanish h is never pronounced: hay is “eye”, hola is “OH-lah”. At the start of a word, hue sounds like “weh” (huevo). Only in ch does h have a part in the sound.",
+    "pattern": "(?<!c)h",
+    "examples": [
+      {
+        "word": "hola",
+        "say": "OH-lah",
+        "en": "hello"
+      },
+      {
+        "word": "la hora",
+        "say": "lah OH-rah",
+        "en": "hour"
+      },
+      {
+        "word": "ahora",
+        "say": "ah-OH-rah",
+        "en": "now"
+      },
+      {
+        "word": "los huevos",
+        "say": "lohs WEH-bohs",
+        "en": "eggs"
+      }
+    ]
+  },
+  {
+    "title": "An accent on í or ú splits it from the next vowel",
+    "body": "A written í or ú next to another vowel is a full, stressed “ee” or “oo” in its own syllable, not a glide. This is very common in past forms ending in -ía: había, tenía, quería.",
+    "pattern": "(?<=[aeoáéó])[íú]|[íú](?=[aeoáéó])",
+    "examples": [
+      {
+        "word": "el día",
+        "say": "el DEE-ah",
+        "en": "day"
+      },
+      {
+        "word": "había",
+        "say": "ah-BEE-ah",
+        "en": "there was, had"
+      },
+      {
+        "word": "el país",
+        "say": "el pah-EES",
+        "en": "country"
+      },
+      {
+        "word": "todavía",
+        "say": "toh-dah-BEE-ah",
+        "en": "still, yet"
+      }
+    ]
+  },
+  {
+    "title": "rr and r at the start of a word are rolled",
+    "body": "rr, r at the start of a word, and r after n, l or s are a trill: the tongue tip flutters several times against the ridge behind the upper teeth. The respellings show it as “rr”.",
+    "pattern": "rr|(?<!\\p{L})r|(?<=[nls])r",
+    "examples": [
+      {
+        "word": "el perro",
+        "say": "el PEH-rroh",
+        "en": "dog"
+      },
+      {
+        "word": "el barrio",
+        "say": "el BAH-rryoh",
+        "en": "neighbourhood"
+      },
+      {
+        "word": "rápido",
+        "say": "RRAH-pee-doh",
+        "en": "fast"
+      },
+      {
+        "word": "la radio",
+        "say": "lah RRAH-dyoh",
+        "en": "radio"
+      }
+    ]
+  },
+  {
+    "title": "j is a breathy sound from the back of the throat",
+    "body": "In Spain j is a rough “kh”, like the “ch” in Scottish “loch”. In Latin America it is softer, like the “h” in “hat”. It is never the “j” of “jam”. At the end of a word, as in reloj, it is weak or silent.",
+    "pattern": "j",
+    "examples": [
+      {
+        "word": "el trabajo",
+        "say": "el trah-BAH-khoh",
+        "en": "work, job"
+      },
+      {
+        "word": "dijo",
+        "say": "DEE-khoh",
+        "en": "he/she said"
+      },
+      {
+        "word": "joven",
+        "say": "KHOH-behn",
+        "en": "young"
+      },
+      {
+        "word": "el hijo",
+        "say": "el EE-khoh",
+        "en": "son"
+      }
+    ]
+  },
+  {
+    "title": "n before b, v, p or m sounds like “m”",
+    "body": "When the next sound is made with the lips (b, v, p, m), n turns into “m”, inside a word and across words: un poco is said “oom POH-koh”, and invierno starts with “eem”.",
+    "pattern": "n(?= ?[bvpm])",
+    "examples": [
+      {
+        "word": "un poco",
+        "say": "oom POH-koh",
+        "en": "a little"
+      },
+      {
+        "word": "invierno",
+        "say": "eem-BYEHR-noh",
+        "en": "winter"
+      },
+      {
+        "word": "en verano",
+        "say": "ehm beh-RAH-noh",
+        "en": "in summer"
+      },
+      {
+        "word": "un vaso",
+        "say": "oom BAH-soh",
+        "en": "a glass"
+      }
+    ]
+  },
+  {
+    "title": "ñ sounds like “ny” in “canyon”",
+    "body": "ñ is a letter of its own: say it like the “ny” in “canyon”, running into the next vowel. Leaving off the wavy line changes the word: cana (grey hair) and caña (cane, small beer) are different words.",
+    "pattern": "ñ",
+    "examples": [
+      {
+        "word": "mañana",
+        "say": "mah-NYAH-nah",
+        "en": "tomorrow, morning"
+      },
+      {
+        "word": "el año",
+        "say": "el AH-nyoh",
+        "en": "year"
+      },
+      {
+        "word": "pequeño",
+        "say": "peh-KEH-nyoh",
+        "en": "small"
+      },
+      {
+        "word": "España",
+        "say": "ehs-PAH-nyah",
+        "en": "Spain"
+      }
+    ]
+  },
+  {
+    "title": "ll sounds like “y” in “yes”",
+    "body": "ll is never an “l” sound. Most speakers say it exactly like y, the “y” in “yes”. In Argentina and Uruguay it is “sh” or the “s” in “pleasure”, and a few speakers in Spain and the Andes say “ly” as in “million”.",
+    "pattern": "ll",
+    "examples": [
+      {
+        "word": "la calle",
+        "say": "lah KAH-yeh",
+        "en": "street"
+      },
+      {
+        "word": "ella",
+        "say": "EH-yah",
+        "en": "she"
+      },
+      {
+        "word": "me llamo",
+        "say": "meh YAH-moh",
+        "en": "my name is"
+      },
+      {
+        "word": "Sevilla",
+        "say": "seh-BEE-yah",
+        "en": "Seville"
+      }
+    ]
+  },
+  {
+    "title": "ai, ei, oi, au and eu run together in one syllable",
+    "body": "When a, e or o comes first, the i, u or final y after it is a quick glide in the same syllable: ai and ay are “eye”, ei and ey like “ay” in “day”, oi and oy “oy”, au “ow”, and eu a quick “eh-oo” (euro).",
+    "pattern": "[aeoáéó](?:[iu](?![aeoáéó])|y(?![aeiouáéíóú]))",
+    "examples": [
+      {
+        "word": "hay",
+        "say": "eye",
+        "en": "there is, there are"
+      },
+      {
+        "word": "veinte",
+        "say": "BAYN-teh",
+        "en": "twenty"
+      },
+      {
+        "word": "hoy",
+        "say": "oy",
+        "en": "today"
+      },
+      {
+        "word": "aunque",
+        "say": "OWN-keh",
+        "en": "although"
+      }
+    ]
+  },
+  {
+    "title": "z: “th” in Spain, “s” in Latin America",
+    "body": "z always has the same sound as c before e or i: the “th” of “think” in most of Spain, the “s” of “see” in Latin America. It is never the buzzing English “z”.",
+    "pattern": "z",
+    "examples": [
+      {
+        "word": "diez",
+        "say": "dyehth",
+        "en": "ten"
+      },
+      {
+        "word": "la vez",
+        "say": "lah behth",
+        "en": "time (occasion)"
+      },
+      {
+        "word": "empezó",
+        "say": "ehm-peh-THOH",
+        "en": "he/she started"
+      },
+      {
+        "word": "la plaza",
+        "say": "lah PLAH-thah",
+        "en": "square"
+      }
+    ]
+  },
+  {
+    "title": "ch sounds like “ch” in “church”",
+    "body": "ch is always the “ch” of “church”, never “k” as in “school” or “sh” as in “machine”.",
+    "pattern": "ch",
+    "examples": [
+      {
+        "word": "mucho",
+        "say": "MOO-choh",
+        "en": "much, a lot"
+      },
+      {
+        "word": "ocho",
+        "say": "OH-choh",
+        "en": "eight"
+      },
+      {
+        "word": "el coche",
+        "say": "el KOH-cheh",
+        "en": "car"
+      },
+      {
+        "word": "la leche",
+        "say": "lah LEH-cheh",
+        "en": "milk"
+      }
+    ]
+  },
+  {
+    "title": "y before a vowel sounds like “y” in “yes”",
+    "body": "Before a vowel, y is a consonant like the “y” in “yes”, often a little stronger, close to the “j” in “jam” at the start of a word. In Argentina and Uruguay it sounds like “sh” or the “s” in “pleasure”.",
+    "pattern": "y(?=[aeiouáéíóú])",
+    "examples": [
+      {
+        "word": "ya",
+        "say": "yah",
+        "en": "already"
+      },
+      {
+        "word": "yo",
+        "say": "yoh",
+        "en": "I"
+      },
+      {
+        "word": "mayo",
+        "say": "MAH-yoh",
+        "en": "May"
+      },
+      {
+        "word": "ayer",
+        "say": "ah-YEHR",
+        "en": "yesterday"
+      }
+    ]
+  },
+  {
+    "title": "g before e or i sounds like Spanish j",
+    "body": "Before e or i, g has the same breathy “kh” sound as j, so gente and jefe begin alike. To keep a hard “g” before e or i, Spanish writes gu (see that rule).",
+    "pattern": "g(?=[eiéí])",
+    "examples": [
+      {
+        "word": "la gente",
+        "say": "lah KHEHN-teh",
+        "en": "people"
+      },
+      {
+        "word": "la página",
+        "say": "lah PAH-khee-nah",
+        "en": "page"
+      },
+      {
+        "word": "el gimnasio",
+        "say": "el kheem-NAH-syoh",
+        "en": "gym"
+      }
+    ]
+  },
+  {
+    "title": "x is “ks”, sometimes “s” or “kh”",
+    "body": "Between vowels x is “ks”, as in examen. Before a consonant many speakers simplify it to “s” (explicar). In México and a few other names it has the old sound of j.",
+    "pattern": "x",
+    "examples": [
+      {
+        "word": "el examen",
+        "say": "el ehk-SAH-mehn",
+        "en": "exam"
+      },
+      {
+        "word": "el taxi",
+        "say": "el TAHK-see",
+        "en": "taxi"
+      },
+      {
+        "word": "explicó",
+        "say": "ehks-plee-KOH",
+        "en": "he/she explained"
+      },
+      {
+        "word": "México",
+        "say": "MEH-khee-koh",
+        "en": "Mexico"
+      }
+    ]
+  },
+  {
+    "title": "In gue and gui the u is silent",
+    "body": "gu before e or i is just a hard “g”: the u is there only to keep the g hard. So guerra starts like “get” and seguir ends like “gear” without the English r.",
+    "pattern": "gu(?=[eiéí])",
+    "examples": [
+      {
+        "word": "seguir",
+        "say": "seh-GEER",
+        "en": "to follow, continue"
+      },
+      {
+        "word": "alguien",
+        "say": "AHL-gyehn",
+        "en": "someone"
+      },
+      {
+        "word": "siguiente",
+        "say": "see-GYEHN-teh",
+        "en": "next"
+      },
+      {
+        "word": "la guerra",
+        "say": "lah GEH-rrah",
+        "en": "war"
+      }
+    ]
+  },
+  {
+    "title": "Adverbs ending in -mente have two stresses",
+    "body": "A word ending in -mente keeps the stress of the adjective it is built on, and -mente itself is stressed too: normalmente has strong “MAHL” and “MEHN”. Any written accent stays: rápidamente.",
+    "pattern": "(?<=\\p{L})mente(?!\\p{L})",
+    "examples": [
+      {
+        "word": "normalmente",
+        "say": "nohr-MAHL-MEHN-teh",
+        "en": "normally"
+      },
+      {
+        "word": "exactamente",
+        "say": "ehk-SAHK-tah-MEHN-teh",
+        "en": "exactly"
+      },
+      {
+        "word": "finalmente",
+        "say": "fee-NAHL-MEHN-teh",
+        "en": "finally"
+      }
+    ]
+  },
+  {
+    "title": "cc before e or i is “k” followed by “th”",
+    "body": "In words like dirección the first c is a “k” and the second follows the rule for c before e or i: “kth” in Spain, “ks” in Latin America.",
+    "pattern": "cc(?=[eiéí])",
+    "examples": [
+      {
+        "word": "la dirección",
+        "say": "lah dee-rehk-THYOHN",
+        "en": "address, direction"
+      },
+      {
+        "word": "el accidente",
+        "say": "el ahk-thee-DEHN-teh",
+        "en": "accident"
+      },
+      {
+        "word": "la lección",
+        "say": "lah lehk-THYOHN",
+        "en": "lesson"
+      }
+    ]
+  },
+  {
+    "title": "ü in güe and güi is said as “w”",
+    "body": "The two dots tell you to pronounce the u after g: güe is “gweh” and güi is “gwee”, unlike the silent u of gue and gui.",
+    "pattern": "ü",
+    "examples": [
+      {
+        "word": "la vergüenza",
+        "say": "lah behr-GWEHN-thah",
+        "en": "shame, embarrassment"
+      },
+      {
+        "word": "los pingüinos",
+        "say": "lohs peen-GWEE-nohs",
+        "en": "penguins"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1104 @@
+[
+  {
+    "title": "b, d, f, k, l, m, n, p, s, t, z sound as in English",
+    "body": "These letters are close to English, with small differences: p, t and k have no puff of air after them, t and d are made with the tongue touching the teeth, and s is always “s” as in “sun”, never “z”.",
+    "pattern": "[bfklmpt]|d(?![zżź])|n(?!i)|s(?![zi])|(?<![scdr])z(?!i)",
+    "examples": [
+      {
+        "word": "sklep",
+        "say": "sklep",
+        "en": "shop"
+      },
+      {
+        "word": "lato",
+        "say": "LA-to",
+        "en": "summer"
+      },
+      {
+        "word": "zupa",
+        "say": "ZOO-pa",
+        "en": "soup"
+      },
+      {
+        "word": "bilet",
+        "say": "BEE-let",
+        "en": "ticket"
+      }
+    ]
+  },
+  {
+    "title": "Stress falls on the second-to-last syllable",
+    "body": "Almost every Polish word is stressed on the next-to-last syllable, so you can read stress straight off the page. The stress moves when an ending adds a syllable: telefon “te-LE-fon”, but telefonu “te-le-FO-noo”. One-syllable words such as nie or się usually lean on the word next to them.",
+    "pattern": "(?<!\\p{L})\\p{L}*?[aąeęioóuy]+[^aąeęioóuy\\P{L}]+[aąeęioóuy]\\p{L}*",
+    "examples": [
+      {
+        "word": "telefon",
+        "say": "te-LE-fon",
+        "en": "telephone"
+      },
+      {
+        "word": "mieszkanie",
+        "say": "myesh-KA-nyeh",
+        "en": "flat, apartment"
+      },
+      {
+        "word": "dziewczyna",
+        "say": "jef-CHIH-na",
+        "en": "girl"
+      },
+      {
+        "word": "Polska",
+        "say": "POL-ska",
+        "en": "Poland"
+      }
+    ]
+  },
+  {
+    "title": "a sounds like “a” in “father”, but short",
+    "body": "Polish a is always an open, short “a”, never the “a” of “cat” or “late”. It keeps this sound in every syllable, stressed or not.",
+    "pattern": "a",
+    "examples": [
+      {
+        "word": "tak",
+        "say": "tak",
+        "en": "yes"
+      },
+      {
+        "word": "mama",
+        "say": "MA-ma",
+        "en": "mum"
+      },
+      {
+        "word": "kawa",
+        "say": "KA-va",
+        "en": "coffee"
+      },
+      {
+        "word": "pani",
+        "say": "PA-nee",
+        "en": "Mrs, you (polite, to a woman)"
+      }
+    ]
+  },
+  {
+    "title": "e sounds like “e” in “bed”, even at the end of a word",
+    "body": "e is always the short “e” of “bed”, never “ee”. Polish has no silent e: a final e is clearly said, as in mleko or nie.",
+    "pattern": "e",
+    "examples": [
+      {
+        "word": "teraz",
+        "say": "TE-ras",
+        "en": "now"
+      },
+      {
+        "word": "ten",
+        "say": "ten",
+        "en": "this"
+      },
+      {
+        "word": "mleko",
+        "say": "MLE-ko",
+        "en": "milk"
+      },
+      {
+        "word": "nie",
+        "say": "nyeh",
+        "en": "no, not"
+      }
+    ]
+  },
+  {
+    "title": "o sounds like “o” in British “lot”",
+    "body": "o is a short, open “o”, never the “oh” glide of English “go”. It keeps this sound in unstressed syllables too.",
+    "pattern": "o",
+    "examples": [
+      {
+        "word": "dom",
+        "say": "dom",
+        "en": "house, home"
+      },
+      {
+        "word": "woda",
+        "say": "VO-da",
+        "en": "water"
+      },
+      {
+        "word": "okno",
+        "say": "OK-no",
+        "en": "window"
+      },
+      {
+        "word": "kot",
+        "say": "kot",
+        "en": "cat"
+      }
+    ]
+  },
+  {
+    "title": "w sounds like “v”",
+    "body": "Polish w is the English “v”. It turns into “f” after voiceless consonants, before them and at the end of a word (see those rules).",
+    "pattern": "w",
+    "examples": [
+      {
+        "word": "wino",
+        "say": "VEE-no",
+        "en": "wine"
+      },
+      {
+        "word": "wieczór",
+        "say": "VYE-choor",
+        "en": "evening"
+      },
+      {
+        "word": "nowy",
+        "say": "NO-vih",
+        "en": "new"
+      },
+      {
+        "word": "Warszawa",
+        "say": "var-SHA-va",
+        "en": "Warsaw"
+      }
+    ]
+  },
+  {
+    "title": "i sounds like “ee” in “see”",
+    "body": "When i is a vowel of its own it is a clear “ee”, a little shorter than in English. Before another vowel it usually only softens the consonant in front of it (see the rules for si, ci, ni and for kie, mia, wie).",
+    "pattern": "i(?![aąeęoóu])",
+    "examples": [
+      {
+        "word": "kino",
+        "say": "KEE-no",
+        "en": "cinema"
+      },
+      {
+        "word": "nic",
+        "say": "neets",
+        "en": "nothing"
+      },
+      {
+        "word": "miły",
+        "say": "MEE-wih",
+        "en": "nice, kind"
+      },
+      {
+        "word": "list",
+        "say": "leest",
+        "en": "letter"
+      }
+    ]
+  },
+  {
+    "title": "y sounds like “i” in “bit”, never “ee”",
+    "body": "y is always a vowel in Polish, like the “i” in “bit” said a little further back. Keep it apart from i: my “mih” means “we”, but mi “mee” means “to me”.",
+    "pattern": "y",
+    "examples": [
+      {
+        "word": "był",
+        "say": "biw",
+        "en": "he was"
+      },
+      {
+        "word": "ty",
+        "say": "tih",
+        "en": "you"
+      },
+      {
+        "word": "my",
+        "say": "mih",
+        "en": "we"
+      },
+      {
+        "word": "syn",
+        "say": "sin",
+        "en": "son"
+      }
+    ]
+  },
+  {
+    "title": "r is rolled or tapped",
+    "body": "r is a quick tap or roll of the tip of the tongue, as in Spanish or Scottish English. Always pronounce it, also before consonants and at the end of a word. (rz is a different sound.)",
+    "pattern": "r(?!z)",
+    "examples": [
+      {
+        "word": "rano",
+        "say": "RA-no",
+        "en": "morning"
+      },
+      {
+        "word": "praca",
+        "say": "PRA-tsa",
+        "en": "work"
+      },
+      {
+        "word": "dobry",
+        "say": "DO-brih",
+        "en": "good"
+      },
+      {
+        "word": "rower",
+        "say": "RO-ver",
+        "en": "bicycle"
+      }
+    ]
+  },
+  {
+    "title": "u and ó both sound like “oo” in “boot”",
+    "body": "u and ó are two spellings of the same sound, a short “oo”. ó is never an “o” sound, so który and kura have the same vowel.",
+    "pattern": "[uó]",
+    "examples": [
+      {
+        "word": "ulica",
+        "say": "oo-LEE-tsa",
+        "en": "street"
+      },
+      {
+        "word": "mówi",
+        "say": "MOO-vee",
+        "en": "he/she speaks"
+      },
+      {
+        "word": "córka",
+        "say": "TSOOR-ka",
+        "en": "daughter"
+      },
+      {
+        "word": "który",
+        "say": "KTOO-rih",
+        "en": "which, who"
+      }
+    ]
+  },
+  {
+    "title": "ł sounds like “w” in “water”",
+    "body": "ł is the English “w”, made with rounded lips. It is never an “l” in modern standard Polish.",
+    "pattern": "ł",
+    "examples": [
+      {
+        "word": "mały",
+        "say": "MA-wih",
+        "en": "small"
+      },
+      {
+        "word": "szkoła",
+        "say": "SHKO-wa",
+        "en": "school"
+      },
+      {
+        "word": "ładny",
+        "say": "WAD-nih",
+        "en": "pretty"
+      },
+      {
+        "word": "było",
+        "say": "BIH-wo",
+        "en": "it was"
+      }
+    ]
+  },
+  {
+    "title": "j sounds like “y” in “yes”",
+    "body": "j is always the “y” of “yes”, never the English “j”. After a vowel it forms a glide, like “oy” in “boy”.",
+    "pattern": "j",
+    "examples": [
+      {
+        "word": "jest",
+        "say": "yest",
+        "en": "is"
+      },
+      {
+        "word": "ja",
+        "say": "ya",
+        "en": "I"
+      },
+      {
+        "word": "moja",
+        "say": "MO-ya",
+        "en": "my (feminine)"
+      },
+      {
+        "word": "pokój",
+        "say": "PO-kooy",
+        "en": "room"
+      }
+    ]
+  },
+  {
+    "title": "ń and ni sound like “ny” in “canyon”",
+    "body": "ń is a soft “n”, like “ny” in “canyon”. Before a vowel it is written ni, and the i is not said separately: nie is one syllable. At the end of a word, as in dzień, it is a short soft “n” with a hint of “y”.",
+    "pattern": "ń|ni",
+    "examples": [
+      {
+        "word": "nie",
+        "say": "nyeh",
+        "en": "no, not"
+      },
+      {
+        "word": "niedziela",
+        "say": "nye-JE-la",
+        "en": "Sunday"
+      },
+      {
+        "word": "koniec",
+        "say": "KO-nyets",
+        "en": "end"
+      },
+      {
+        "word": "pani",
+        "say": "PA-nee",
+        "en": "Mrs, you (polite, to a woman)"
+      }
+    ]
+  },
+  {
+    "title": "i before a vowel after b, p, m, w, k, g, l sounds like “y”",
+    "body": "After consonants other than s, c, z, n and dz, an i in front of a vowel is a short “y” glide, not a separate syllable: miasto has two syllables, “MYAS-to”. Borrowed words such as radio and historia work the same way.",
+    "pattern": "(?<=[bpmwfkglhrtd])i(?=[aąeęoóu])",
+    "examples": [
+      {
+        "word": "kiedy",
+        "say": "KYE-dih",
+        "en": "when"
+      },
+      {
+        "word": "miasto",
+        "say": "MYAS-to",
+        "en": "city, town"
+      },
+      {
+        "word": "wiem",
+        "say": "vyem",
+        "en": "I know"
+      },
+      {
+        "word": "biały",
+        "say": "BYA-wih",
+        "en": "white"
+      }
+    ]
+  },
+  {
+    "title": "ś and si sound like a soft “sh”",
+    "body": "ś is a soft “sh”, made with the middle of the tongue raised and the lips spread, softer than sz. Before a vowel it is written si, and the i is not said separately: siedem has two syllables.",
+    "pattern": "ś|si",
+    "examples": [
+      {
+        "word": "coś",
+        "say": "tsosh",
+        "en": "something"
+      },
+      {
+        "word": "jeśli",
+        "say": "YESH-lee",
+        "en": "if"
+      },
+      {
+        "word": "siedem",
+        "say": "SHE-dem",
+        "en": "seven"
+      },
+      {
+        "word": "osiem",
+        "say": "O-shem",
+        "en": "eight"
+      }
+    ]
+  },
+  {
+    "title": "g is always hard, as in “go”",
+    "body": "g is always the “g” of “go”, also before e and i. It is never the “j” sound of “gem”.",
+    "pattern": "g",
+    "examples": [
+      {
+        "word": "noga",
+        "say": "NO-ga",
+        "en": "leg"
+      },
+      {
+        "word": "głowa",
+        "say": "GWO-va",
+        "en": "head"
+      },
+      {
+        "word": "drogi",
+        "say": "DRO-gee",
+        "en": "expensive, dear"
+      },
+      {
+        "word": "gotowy",
+        "say": "go-TO-vih",
+        "en": "ready"
+      }
+    ]
+  },
+  {
+    "title": "ć and ci sound like a soft “ch”",
+    "body": "ć is a soft “ch”, as in “cheese” said with the lips spread, softer than cz. Before a vowel it is written ci, and the i is not said separately: ciasto has two syllables.",
+    "pattern": "ć|ci",
+    "examples": [
+      {
+        "word": "być",
+        "say": "bich",
+        "en": "to be"
+      },
+      {
+        "word": "ciasto",
+        "say": "CHAS-to",
+        "en": "cake"
+      },
+      {
+        "word": "dzieci",
+        "say": "JE-chee",
+        "en": "children"
+      },
+      {
+        "word": "cicho",
+        "say": "CHEE-kho",
+        "en": "quietly"
+      }
+    ]
+  },
+  {
+    "title": "Voiced consonants before p, t, k, s, sz, ch… turn voiceless",
+    "body": "Before a voiceless consonant, b, d, g, w, z, ż/rz, ź become p, t, k, f, s, sh, soft sh. This also happens across words with the little words w and z: w pracy “f PRA-tsih”, z Polski “s POL-skee”.",
+    "pattern": "(?:[bdgwżź]|(?<![scr])z|rz)(?=[ptkfscćśh])|(?<!\\p{L})[wz](?= [ptkfscćśh])",
+    "examples": [
+      {
+        "word": "wszystko",
+        "say": "FSHIST-ko",
+        "en": "everything"
+      },
+      {
+        "word": "wczoraj",
+        "say": "FCHO-rai",
+        "en": "yesterday"
+      },
+      {
+        "word": "łóżko",
+        "say": "WOOSH-ko",
+        "en": "bed"
+      },
+      {
+        "word": "w pracy",
+        "say": "f PRA-tsih",
+        "en": "at work"
+      }
+    ]
+  },
+  {
+    "title": "c sounds like “ts” in “cats”",
+    "body": "c on its own is always “ts”, also at the start and end of a word. It is never “k” or “s”. (cz, ch and ci are different sounds, see their rules.)",
+    "pattern": "c(?![zhi])",
+    "examples": [
+      {
+        "word": "co",
+        "say": "tso",
+        "en": "what"
+      },
+      {
+        "word": "noc",
+        "say": "nots",
+        "en": "night"
+      },
+      {
+        "word": "cena",
+        "say": "TSE-na",
+        "en": "price"
+      },
+      {
+        "word": "centrum",
+        "say": "TSEN-troom",
+        "en": "centre"
+      }
+    ]
+  },
+  {
+    "title": "rz and ż both sound like “s” in “measure”",
+    "body": "rz and ż are two spellings of one sound, the “zh” in “measure” or “vision”. So morze (sea) and może (maybe) sound the same.",
+    "pattern": "(?<![ptkh])rz|ż",
+    "examples": [
+      {
+        "word": "rzeka",
+        "say": "ZHE-ka",
+        "en": "river"
+      },
+      {
+        "word": "żona",
+        "say": "ZHO-na",
+        "en": "wife"
+      },
+      {
+        "word": "morze",
+        "say": "MO-zheh",
+        "en": "sea"
+      },
+      {
+        "word": "może",
+        "say": "MO-zheh",
+        "en": "maybe"
+      }
+    ]
+  },
+  {
+    "title": "sz sounds like “sh” in “shop”",
+    "body": "sz is one sound, a firm “sh” said with the tongue pulled slightly back. Compare the softer ś (see its rule).",
+    "pattern": "sz",
+    "examples": [
+      {
+        "word": "szybko",
+        "say": "SHIP-ko",
+        "en": "quickly"
+      },
+      {
+        "word": "nasz",
+        "say": "nash",
+        "en": "our"
+      },
+      {
+        "word": "koszula",
+        "say": "ko-SHOO-la",
+        "en": "shirt"
+      },
+      {
+        "word": "szafa",
+        "say": "SHA-fa",
+        "en": "wardrobe"
+      }
+    ]
+  },
+  {
+    "title": "cz sounds like “ch” in “church”",
+    "body": "cz is one sound, a firm “ch” said with the tongue pulled slightly back. Compare the softer ć (see its rule).",
+    "pattern": "cz",
+    "examples": [
+      {
+        "word": "czas",
+        "say": "chas",
+        "en": "time"
+      },
+      {
+        "word": "czy",
+        "say": "chih",
+        "en": "whether; question word"
+      },
+      {
+        "word": "czarny",
+        "say": "CHAR-nih",
+        "en": "black"
+      },
+      {
+        "word": "czekać",
+        "say": "CHE-kach",
+        "en": "to wait"
+      }
+    ]
+  },
+  {
+    "title": "Voiced consonants at the end of a word turn voiceless",
+    "body": "At the end of a word b, d, g, w, z, ż/rz, ź, dz are said as p, t, k, f, s, sh, soft sh, ts. So the very common ending -ów sounds “oof”.",
+    "pattern": "(?<=\\p{L})(?:[bdgwżź]|rz|dz)(?!\\p{L})|(?<=[^\\P{L}scrd])z(?!\\p{L})",
+    "examples": [
+      {
+        "word": "obiad",
+        "say": "O-byat",
+        "en": "lunch"
+      },
+      {
+        "word": "Kraków",
+        "say": "KRA-koof",
+        "en": "Kraków"
+      },
+      {
+        "word": "też",
+        "say": "tesh",
+        "en": "also"
+      },
+      {
+        "word": "raz",
+        "say": "ras",
+        "en": "once, one time"
+      }
+    ]
+  },
+  {
+    "title": "dź and dzi sound like a soft “j” in “jeep”",
+    "body": "dź is a soft “j”, as in “jeep” said with the lips spread, softer than dż. Before a vowel it is written dzi, and the i is not said separately: dziecko has two syllables.",
+    "pattern": "dź|dzi",
+    "examples": [
+      {
+        "word": "dzisiaj",
+        "say": "JEE-shai",
+        "en": "today"
+      },
+      {
+        "word": "dziecko",
+        "say": "JETS-ko",
+        "en": "child"
+      },
+      {
+        "word": "gdzie",
+        "say": "gjeh",
+        "en": "where"
+      },
+      {
+        "word": "dziadek",
+        "say": "JA-dek",
+        "en": "grandfather"
+      }
+    ]
+  },
+  {
+    "title": "ch and h both sound like “ch” in Scottish “loch”",
+    "body": "ch and h are the same sound: a breathy “kh” from the back of the mouth, softer than in German. It is never the “ch” of “church”.",
+    "pattern": "ch|(?<!c)h",
+    "examples": [
+      {
+        "word": "chleb",
+        "say": "khlep",
+        "en": "bread"
+      },
+      {
+        "word": "herbata",
+        "say": "kher-BA-ta",
+        "en": "tea"
+      },
+      {
+        "word": "trochę",
+        "say": "TRO-kheh",
+        "en": "a little"
+      },
+      {
+        "word": "hotel",
+        "say": "KHO-tel",
+        "en": "hotel"
+      }
+    ]
+  },
+  {
+    "title": "ę at the end of a word sounds like a plain “e”",
+    "body": "In everyday speech a final ę is said like an ordinary e, with at most a light nasal touch. This covers very common words such as się and the -ę of many verbs and nouns.",
+    "pattern": "ę(?!\\p{L})",
+    "examples": [
+      {
+        "word": "się",
+        "say": "sheh",
+        "en": "oneself"
+      },
+      {
+        "word": "proszę",
+        "say": "PRO-sheh",
+        "en": "please"
+      },
+      {
+        "word": "mogę",
+        "say": "MO-geh",
+        "en": "I can"
+      },
+      {
+        "word": "kawę",
+        "say": "KA-veh",
+        "en": "coffee (object)"
+      }
+    ]
+  },
+  {
+    "title": "rz after p, t, k, ch sounds like “sh”",
+    "body": "Right after p, t, k and ch, rz loses its voice and is said “sh”. This makes very common words like przez, przy and trzy start with “psh” and “tsh”.",
+    "pattern": "(?<=[ptkh])rz",
+    "examples": [
+      {
+        "word": "przez",
+        "say": "pshes",
+        "en": "through"
+      },
+      {
+        "word": "przy",
+        "say": "pshih",
+        "en": "at, by"
+      },
+      {
+        "word": "trzy",
+        "say": "tshih",
+        "en": "three"
+      },
+      {
+        "word": "krzesło",
+        "say": "KSHES-wo",
+        "en": "chair"
+      }
+    ]
+  },
+  {
+    "title": "ą and ę before t, d, c, ć, k, g become “on/en” or “ong/eng”",
+    "body": "Before t, d, c, cz, ć and dz the nasal vowels become a plain vowel plus a clear “n”; before k and g they become a vowel plus “ng” as in “finger”.",
+    "pattern": "[ąę](?=[tdcćkg])",
+    "examples": [
+      {
+        "word": "piątek",
+        "say": "PYON-tek",
+        "en": "Friday"
+      },
+      {
+        "word": "pięć",
+        "say": "pyench",
+        "en": "five"
+      },
+      {
+        "word": "będzie",
+        "say": "BEN-jeh",
+        "en": "will be"
+      },
+      {
+        "word": "ręka",
+        "say": "RENG-ka",
+        "en": "hand"
+      }
+    ]
+  },
+  {
+    "title": "ą is a nasal “on”",
+    "body": "ą is an “o” said through the nose, as in French “bon”; the “n” is not fully pronounced. At the end of a word it sounds like a nasal “own”. Before p, b, t, d, k, g and c it changes (see the next rules).",
+    "pattern": "ą(?![pbtdcćkg])",
+    "examples": [
+      {
+        "word": "są",
+        "say": "sown",
+        "en": "they are"
+      },
+      {
+        "word": "kawą",
+        "say": "KA-vown",
+        "en": "with coffee"
+      },
+      {
+        "word": "sąsiad",
+        "say": "SON-shat",
+        "en": "neighbour"
+      },
+      {
+        "word": "mąż",
+        "say": "monsh",
+        "en": "husband"
+      }
+    ]
+  },
+  {
+    "title": "dz sounds like “ds” in “adds”",
+    "body": "dz is one sound, the voiced partner of c: “dz” as in “adds”. (dzi, dź and dż are different sounds, see their rules.)",
+    "pattern": "dz(?!i)",
+    "examples": [
+      {
+        "word": "bardzo",
+        "say": "BAR-dzo",
+        "en": "very"
+      },
+      {
+        "word": "jedzenie",
+        "say": "ye-DZE-nyeh",
+        "en": "food"
+      },
+      {
+        "word": "widzę",
+        "say": "VEE-dzeh",
+        "en": "I see"
+      },
+      {
+        "word": "pieniądze",
+        "say": "pye-NYON-dzeh",
+        "en": "money"
+      }
+    ]
+  },
+  {
+    "title": "w after p, t, k, s, sz, cz, ch sounds like “f”",
+    "body": "Right after a voiceless consonant, w is not voiced and is said “f”. This is why twój sounds “tfooy” and czwartek starts with “chf”.",
+    "pattern": "(?<=[ptkfcćśh]|sz|cz)w",
+    "examples": [
+      {
+        "word": "twój",
+        "say": "tfooy",
+        "en": "your"
+      },
+      {
+        "word": "kwiaty",
+        "say": "KFYA-tih",
+        "en": "flowers"
+      },
+      {
+        "word": "czwartek",
+        "say": "CHFAR-tek",
+        "en": "Thursday"
+      },
+      {
+        "word": "świat",
+        "say": "shfyat",
+        "en": "world"
+      }
+    ]
+  },
+  {
+    "title": "ź and zi sound like a soft “zh”",
+    "body": "ź is a soft version of the “s” in “measure”, softer than ż. Before a vowel it is written zi, and the i is not said separately: zima has two syllables.",
+    "pattern": "(?<!d)ź|(?<!d)zi",
+    "examples": [
+      {
+        "word": "źle",
+        "say": "zhleh",
+        "en": "badly"
+      },
+      {
+        "word": "zima",
+        "say": "ZHEE-ma",
+        "en": "winter"
+      },
+      {
+        "word": "później",
+        "say": "POOZH-nyey",
+        "en": "later"
+      },
+      {
+        "word": "jezioro",
+        "say": "ye-ZHO-ro",
+        "en": "lake"
+      }
+    ]
+  },
+  {
+    "title": "Double consonants are held longer",
+    "body": "A doubled letter is said as a long consonant, not as a single one: Anna has a held “n”, and lekko a held “k”. Each letter of the pair is clearly heard.",
+    "pattern": "([bcdfghjklłmnprstw])\\1",
+    "examples": [
+      {
+        "word": "Anna",
+        "say": "AN-na",
+        "en": "Anna"
+      },
+      {
+        "word": "lekko",
+        "say": "LEK-ko",
+        "en": "lightly"
+      },
+      {
+        "word": "inny",
+        "say": "EEN-nih",
+        "en": "other, different"
+      },
+      {
+        "word": "oddać",
+        "say": "OD-dach",
+        "en": "to give back"
+      }
+    ]
+  },
+  {
+    "title": "szcz sounds like “shch” in “fresh cheese”",
+    "body": "szcz is simply sz followed by cz. Say it like the joined sounds in “fresh cheese”.",
+    "pattern": "szcz",
+    "examples": [
+      {
+        "word": "jeszcze",
+        "say": "YESH-cheh",
+        "en": "still, yet"
+      },
+      {
+        "word": "deszcz",
+        "say": "deshch",
+        "en": "rain"
+      },
+      {
+        "word": "barszcz",
+        "say": "barshch",
+        "en": "beetroot soup"
+      },
+      {
+        "word": "szczęście",
+        "say": "SHCHENSH-cheh",
+        "en": "happiness, luck"
+      }
+    ]
+  },
+  {
+    "title": "ę inside a word is a nasal “en”",
+    "body": "ę is an “e” said through the nose; the “n” is not fully pronounced. Before l and ł it loses the nasal sound and is a plain “e”, as in zaczęła. At the end of a word and before p, b, t, d, k, g and c it changes (see those rules).",
+    "pattern": "ę(?=\\p{L})(?![pbtdcćkglł])",
+    "examples": [
+      {
+        "word": "często",
+        "say": "CHENS-to",
+        "en": "often"
+      },
+      {
+        "word": "język",
+        "say": "YEN-zik",
+        "en": "language, tongue"
+      },
+      {
+        "word": "mięso",
+        "say": "MYEN-so",
+        "en": "meat"
+      },
+      {
+        "word": "zaczęła",
+        "say": "za-CHE-wa",
+        "en": "she began"
+      }
+    ]
+  },
+  {
+    "title": "Final ł after a consonant is usually silent",
+    "body": "In everyday speech a ł at the end of a word after another consonant is normally dropped, as in past-tense forms like mógł and poszedł. Careful speakers may still say a light “w”.",
+    "pattern": "(?<=\\p{L}[bcdfghjklmnprstwzćśźż])ł(?!\\p{L})",
+    "examples": [
+      {
+        "word": "mógł",
+        "say": "mook",
+        "en": "he could"
+      },
+      {
+        "word": "poszedł",
+        "say": "PO-shet",
+        "en": "he went"
+      },
+      {
+        "word": "przyszedł",
+        "say": "PSHIH-shet",
+        "en": "he came"
+      },
+      {
+        "word": "pomysł",
+        "say": "PO-mis",
+        "en": "idea"
+      }
+    ]
+  },
+  {
+    "title": "ą and ę before p or b become “om” and “em”",
+    "body": "Before p and b the nasal vowels turn into a plain vowel plus a clear “m”.",
+    "pattern": "[ąę](?=[pb])",
+    "examples": [
+      {
+        "word": "zęby",
+        "say": "ZEM-bih",
+        "en": "teeth"
+      },
+      {
+        "word": "następny",
+        "say": "na-STEMP-nih",
+        "en": "next"
+      },
+      {
+        "word": "ząb",
+        "say": "zomp",
+        "en": "tooth"
+      },
+      {
+        "word": "kąpiel",
+        "say": "KOM-pyel",
+        "en": "bath"
+      }
+    ]
+  },
+  {
+    "title": "-liśmy, -łyście and -łabym endings do not move the stress",
+    "body": "In past-tense forms with -śmy or -ście, and conditional forms with -bym, -byś or -by, the stress stays where it was before the ending was added. So it lands on the third-to-last syllable: byli “BIH-lee”, but byliśmy “BIH-lee-shmih”.",
+    "pattern": "(?<=\\p{L})(?:li|ły)(?:śmy|ście)(?!\\p{L})|(?<=\\p{L}{2})(?:ła|ło|ły|li)by(?:m|ś|śmy|ście)?(?!\\p{L})",
+    "examples": [
+      {
+        "word": "byliśmy",
+        "say": "BIH-lee-shmih",
+        "en": "we were"
+      },
+      {
+        "word": "mieliśmy",
+        "say": "MYE-lee-shmih",
+        "en": "we had"
+      },
+      {
+        "word": "chciałabym",
+        "say": "KHCHA-wa-bim",
+        "en": "I (woman) would like"
+      },
+      {
+        "word": "zrobiłaby",
+        "say": "zro-BEE-wa-bih",
+        "en": "she would do"
+      }
+    ]
+  },
+  {
+    "title": "Voiceless consonants before b, d, g, ż, z turn voiced",
+    "body": "The opposite also happens: before b, d, g, z, ż, ź and dz, the consonants k, t, p, s, ś, cz, ć become g, d, b, z, ź, dż, dź. (w does not cause this.)",
+    "pattern": "(?:sz|cz|ch|[ptkfść]|s(?!z)|c(?![zh]))(?=[bdgżź]|z)",
+    "examples": [
+      {
+        "word": "także",
+        "say": "TAG-zheh",
+        "en": "also"
+      },
+      {
+        "word": "prośba",
+        "say": "PROZH-ba",
+        "en": "request"
+      },
+      {
+        "word": "liczba",
+        "say": "LEEJ-ba",
+        "en": "number"
+      },
+      {
+        "word": "jakby",
+        "say": "YAG-bih",
+        "en": "as if"
+      }
+    ]
+  },
+  {
+    "title": "dż sounds like “j” in “jam”",
+    "body": "dż is the firm “j” of “jam”, the voiced partner of cz. It is rare and appears mostly in borrowed words and in verbs like jeździć → jeżdżę.",
+    "pattern": "dż",
+    "examples": [
+      {
+        "word": "dżem",
+        "say": "jem",
+        "en": "jam"
+      },
+      {
+        "word": "budżet",
+        "say": "BOO-jet",
+        "en": "budget"
+      },
+      {
+        "word": "dżinsy",
+        "say": "JEEN-sih",
+        "en": "jeans"
+      }
+    ]
+  },
+  {
+    "title": "Words like muzyka and matematyka stress the third-to-last syllable",
+    "body": "Many borrowed words ending in -yka or -ika (school subjects, Ameryka, Afryka) are stressed one syllable earlier than usual, in the forms -ka, -ki, -ce, -kę and -ką. Polish names such as Weronika or Monika follow the normal rule.",
+    "pattern": "(?<!\\p{L})(?:matematy|informaty|muzy|fizy|elektroni|prakty|gramaty|polity|techni|fabry|republi|amery|afry)(?:ka|ki|ce|kę|ką)(?!\\p{L})",
+    "examples": [
+      {
+        "word": "muzyka",
+        "say": "MOO-zih-ka",
+        "en": "music"
+      },
+      {
+        "word": "matematyka",
+        "say": "ma-te-MA-tih-ka",
+        "en": "mathematics"
+      },
+      {
+        "word": "informatyka",
+        "say": "een-for-MA-tih-ka",
+        "en": "computer science"
+      },
+      {
+        "word": "fizyka",
+        "say": "FEE-zih-ka",
+        "en": "physics"
+      }
+    ]
+  }
+]

@@ -12,6 +12,7 @@ export function AppShell() {
     // Back to the last language read, else the reading language picker.
     { to: lastLang ? `/${lastLang}` : '/reading', label: 'Reading', end: false },
     { to: '/phrases', label: 'Phrases', end: false },
+    { to: '/pronunciation', label: 'Pronunciation', end: false },
     { to: '/progress', label: 'Progress', end: false },
     { to: '/settings', label: 'Settings', end: false },
   ];

@@ -1,0 +1,1261 @@
+[
+  {
+    "title": "b, d, f, m, n, p, s, t, z sound as in English",
+    "body": "These letters are close to English. s is always the “s” of “sun”, never “z”, and z is always “z”. Every letter is said: Turkish has no silent letters.",
+    "pattern": "[bdfmnpstz]",
+    "examples": [
+      {
+        "word": "ben",
+        "say": "ben",
+        "en": "I"
+      },
+      {
+        "word": "deniz",
+        "say": "deh-NEEZ",
+        "en": "sea"
+      },
+      {
+        "word": "para",
+        "say": "pah-RAH",
+        "en": "money"
+      },
+      {
+        "word": "su",
+        "say": "soo",
+        "en": "water"
+      }
+    ]
+  },
+  {
+    "title": "Stress usually falls on the last syllable",
+    "body": "Most words are stressed lightly on the final syllable, and the stress moves along as endings are added: ev, evler “ev-LER”, evlerde “ev-ler-DEH”. Turkish stress is gentle, and unstressed vowels keep their full sound.",
+    "pattern": "(?<!\\p{L})[^\\P{L}aeıioöuüâîû]*[aeıioöuüâîû]+[^\\P{L}aeıioöuüâîû]+[aeıioöuüâîû]\\p{L}*",
+    "examples": [
+      {
+        "word": "güzel",
+        "say": "gü-ZEL",
+        "en": "beautiful"
+      },
+      {
+        "word": "arkadaş",
+        "say": "ahr-kah-DAHSH",
+        "en": "friend"
+      },
+      {
+        "word": "evlerde",
+        "say": "ev-ler-DEH",
+        "en": "in the houses"
+      },
+      {
+        "word": "kitaplar",
+        "say": "kee-tahp-LAHR",
+        "en": "books"
+      }
+    ]
+  },
+  {
+    "title": "a is always “ah”",
+    "body": "a is a short, open “ah” as in “father”, never the “a” of “cat” or “late”. It keeps this sound in every syllable, stressed or not.",
+    "pattern": "a",
+    "examples": [
+      {
+        "word": "ama",
+        "say": "AH-mah",
+        "en": "but"
+      },
+      {
+        "word": "hafta",
+        "say": "hahf-TAH",
+        "en": "week"
+      },
+      {
+        "word": "araba",
+        "say": "ah-rah-BAH",
+        "en": "car"
+      },
+      {
+        "word": "var",
+        "say": "vahr",
+        "en": "there is"
+      }
+    ]
+  },
+  {
+    "title": "e sounds like “e” in “bed”",
+    "body": "e is a short “e” as in “bed”, never “ee”. In short words before l, m, n or r, Istanbul speakers open it a little toward the “a” of “cat”: gel, ben, sen.",
+    "pattern": "e",
+    "examples": [
+      {
+        "word": "ev",
+        "say": "ev",
+        "en": "house"
+      },
+      {
+        "word": "yemek",
+        "say": "yeh-MEK",
+        "en": "food, meal"
+      },
+      {
+        "word": "gel",
+        "say": "gel",
+        "en": "come!"
+      },
+      {
+        "word": "yeni",
+        "say": "yeh-NEE",
+        "en": "new"
+      }
+    ]
+  },
+  {
+    "title": "i (with a dot) is “ee”",
+    "body": "i is always “ee” as in “see”, but short, never the “i” of “bit” or “bike”. Its capital keeps the dot: İ, as in İstanbul.",
+    "pattern": "i",
+    "examples": [
+      {
+        "word": "iki",
+        "say": "ee-KEE",
+        "en": "two"
+      },
+      {
+        "word": "iyi",
+        "say": "ee-YEE",
+        "en": "good"
+      },
+      {
+        "word": "bir",
+        "say": "beer",
+        "en": "one, a"
+      },
+      {
+        "word": "ilk",
+        "say": "eelk",
+        "en": "first"
+      }
+    ]
+  },
+  {
+    "title": "r is a quick tap",
+    "body": "Flick the tip of your tongue once against the ridge behind your top teeth, like the “tt” in American “butter”. r is always said, also before a consonant, as in kırk and Türk.",
+    "pattern": "r(?=\\p{L})",
+    "examples": [
+      {
+        "word": "para",
+        "say": "pah-RAH",
+        "en": "money"
+      },
+      {
+        "word": "sonra",
+        "say": "SON-rah",
+        "en": "then, after"
+      },
+      {
+        "word": "kırk",
+        "say": "kuhrk",
+        "en": "forty"
+      },
+      {
+        "word": "araba",
+        "say": "ah-rah-BAH",
+        "en": "car"
+      }
+    ]
+  },
+  {
+    "title": "ı (no dot) is a short “uh”",
+    "body": "Say “ee”, then pull your tongue back without rounding your lips: the result is close to the “e” in “taken”. Mind the dot: the capital of ı is I, and the capital of i is İ.",
+    "pattern": "ı",
+    "examples": [
+      {
+        "word": "kız",
+        "say": "kuhz",
+        "en": "girl"
+      },
+      {
+        "word": "yıl",
+        "say": "yuhl",
+        "en": "year"
+      },
+      {
+        "word": "hanım",
+        "say": "hah-NUHM",
+        "en": "Mrs, lady"
+      },
+      {
+        "word": "altı",
+        "say": "ahl-TUH",
+        "en": "six"
+      }
+    ]
+  },
+  {
+    "title": "o is a pure “oh”",
+    "body": "o is a short, round “oh” with no “w” glide at the end as in English “go”. In native words it appears only in the first syllable, apart from the ending -yor.",
+    "pattern": "o",
+    "examples": [
+      {
+        "word": "on",
+        "say": "on",
+        "en": "ten"
+      },
+      {
+        "word": "okul",
+        "say": "oh-KOOL",
+        "en": "school"
+      },
+      {
+        "word": "doktor",
+        "say": "dok-TOR",
+        "en": "doctor"
+      },
+      {
+        "word": "yok",
+        "say": "yok",
+        "en": "there isn't"
+      }
+    ]
+  },
+  {
+    "title": "k and g with e, i, ö, ü lean toward “ky” and “gy”",
+    "body": "When the nearest vowel is e, i, ö or ü, k and g are made further forward, with a hint of “y” after them, like the “k” in “cute” and the “g” in “argue”.",
+    "pattern": "[kg](?=[^\\P{L}aeıioöuüâîû]*[eiöüâîû])|(?<=[eiöüî][^\\P{L}aeıioöuüâîû]*)[kg](?![^\\P{L}aeıioöuüâîû]*[aeıioöuüâîû])",
+    "examples": [
+      {
+        "word": "iki",
+        "say": "ee-KEE",
+        "en": "two"
+      },
+      {
+        "word": "gün",
+        "say": "gün",
+        "en": "day"
+      },
+      {
+        "word": "küçük",
+        "say": "kü-CHÜK",
+        "en": "small"
+      },
+      {
+        "word": "gece",
+        "say": "geh-JEH",
+        "en": "night"
+      }
+    ]
+  },
+  {
+    "title": "u is “oo”",
+    "body": "u is always “oo” as in “food”, but short, never the “u” of “cup” or “cute”.",
+    "pattern": "u",
+    "examples": [
+      {
+        "word": "su",
+        "say": "soo",
+        "en": "water"
+      },
+      {
+        "word": "uzun",
+        "say": "oo-ZOON",
+        "en": "long"
+      },
+      {
+        "word": "usta",
+        "say": "oos-TAH",
+        "en": "master, craftsman"
+      },
+      {
+        "word": "bu",
+        "say": "boo",
+        "en": "this"
+      }
+    ]
+  },
+  {
+    "title": "y before a vowel sounds like “y” in “yes”",
+    "body": "y is always a consonant in Turkish, the “y” of “yes”. Endings often add a y between two vowels: Ankara'ya, iyiyim.",
+    "pattern": "y(?=[aeıioöuüâîû])",
+    "examples": [
+      {
+        "word": "yeni",
+        "say": "yeh-NEE",
+        "en": "new"
+      },
+      {
+        "word": "yıl",
+        "say": "yuhl",
+        "en": "year"
+      },
+      {
+        "word": "iyi",
+        "say": "ee-YEE",
+        "en": "good"
+      },
+      {
+        "word": "yok",
+        "say": "yok",
+        "en": "there isn't"
+      }
+    ]
+  },
+  {
+    "title": "k and g with a, ı, o, u are made far back",
+    "body": "When the nearest vowel is a, ı, o or u, k and g are made at the back of the mouth, like the “k” in “cool” and the “g” in “go”. g is always hard, never the “g” of “gem”.",
+    "pattern": "[kg](?=[^\\P{L}aeıioöuüâîû]*[aıou])|(?<=[aıou][^\\P{L}aeıioöuüâîû]*)[kg](?![^\\P{L}aeıioöuüâîû]*[aeıioöuüâîû])",
+    "examples": [
+      {
+        "word": "kadar",
+        "say": "KAH-dahr",
+        "en": "until, as much as"
+      },
+      {
+        "word": "çok",
+        "say": "chok",
+        "en": "very, a lot"
+      },
+      {
+        "word": "kız",
+        "say": "kuhz",
+        "en": "girl"
+      },
+      {
+        "word": "garson",
+        "say": "gahr-SON",
+        "en": "waiter"
+      }
+    ]
+  },
+  {
+    "title": "l with a, ı, o, u is a dark “l”",
+    "body": "Next to a, ı, o, u, l is dark, with the back of the tongue raised, like the “l” in “full” or “all”.",
+    "pattern": "l(?=[^\\P{L}aeıioöuüâîû]*[aıou])|(?<=[aıou][^\\P{L}aeıioöuüâîû]*)l(?![^\\P{L}aeıioöuüâîû]*[aeıioöuüâîû])",
+    "examples": [
+      {
+        "word": "okul",
+        "say": "oh-KOOL",
+        "en": "school"
+      },
+      {
+        "word": "yol",
+        "say": "yol",
+        "en": "road, way"
+      },
+      {
+        "word": "yıl",
+        "say": "yuhl",
+        "en": "year"
+      },
+      {
+        "word": "olarak",
+        "say": "oh-lah-RAHK",
+        "en": "as"
+      }
+    ]
+  },
+  {
+    "title": "l with e, i, ö, ü is a clear “l”",
+    "body": "Next to e, i, ö, ü (and before â), l is light, with the tongue high and forward as in “leaf”.",
+    "pattern": "l(?=[^\\P{L}aeıioöuüâîû]*[eiöüâîû])|(?<=[eiöüî][^\\P{L}aeıioöuüâîû]*)l(?![^\\P{L}aeıioöuüâîû]*[aeıioöuüâîû])",
+    "examples": [
+      {
+        "word": "gel",
+        "say": "gel",
+        "en": "come!"
+      },
+      {
+        "word": "bile",
+        "say": "bee-LEH",
+        "en": "even"
+      },
+      {
+        "word": "elli",
+        "say": "el-LEE",
+        "en": "fifty"
+      },
+      {
+        "word": "güzel",
+        "say": "gü-ZEL",
+        "en": "beautiful"
+      }
+    ]
+  },
+  {
+    "title": "Two-way endings use e or a to match the word",
+    "body": "This is vowel harmony: endings copy the type of the last vowel. After e, i, ö, ü you hear e (evler, evde); after a, ı, o, u you hear a (kızlar, okulda). The ending sounds like part of the word, not a separate piece.",
+    "pattern": "(?<=\\p{L}{2})l[ae]r|(?<=\\p{L}{2}[^\\P{L}pçtkfhsş])d[ae]n?(?!\\p{L})|(?<=\\p{L}{2}[pçtkfhsş])(?<!(?<!\\p{L})(?:haf|hat))t[ae]n?(?!\\p{L})",
+    "examples": [
+      {
+        "word": "evler",
+        "say": "ev-LER",
+        "en": "houses"
+      },
+      {
+        "word": "kızlar",
+        "say": "kuhz-LAHR",
+        "en": "girls"
+      },
+      {
+        "word": "evde",
+        "say": "ev-DEH",
+        "en": "at home"
+      },
+      {
+        "word": "okulda",
+        "say": "oh-kool-DAH",
+        "en": "at school"
+      }
+    ]
+  },
+  {
+    "title": "r at the end of a word has a soft hiss",
+    "body": "At the end of a word, r is often said with breath and no voice, so it sounds a little like a soft “sh” after the tap. Don't drop it as in British English.",
+    "pattern": "r(?!\\p{L})",
+    "examples": [
+      {
+        "word": "bir",
+        "say": "beer",
+        "en": "one, a"
+      },
+      {
+        "word": "var",
+        "say": "vahr",
+        "en": "there is"
+      },
+      {
+        "word": "her",
+        "say": "her",
+        "en": "every"
+      },
+      {
+        "word": "kadar",
+        "say": "KAH-dahr",
+        "en": "until, as much as"
+      }
+    ]
+  },
+  {
+    "title": "Four-way endings use i, ı, ü or u to match the word",
+    "body": "Many endings, such as the past tense -di, have four forms. After e or i you hear i, after a or ı you hear ı, after ö or ü you hear ü, after o or u you hear u. After p, ç, t, k, f, h, s, ş the d of the ending turns into t.",
+    "pattern": "(?<=\\p{L}{2})(?<!(?<!\\p{L})(?:şim|bü|al|ken|ye|yar|ka|kö|ku|cid))[dt][ıiuü](?:m|n|k|l[ae]r|n[ıiuü]z)?(?!\\p{L})",
+    "examples": [
+      {
+        "word": "geldi",
+        "say": "gel-DEE",
+        "en": "came"
+      },
+      {
+        "word": "aldı",
+        "say": "ahl-DUH",
+        "en": "took, bought"
+      },
+      {
+        "word": "gördü",
+        "say": "gör-DÜ",
+        "en": "saw"
+      },
+      {
+        "word": "oldu",
+        "say": "ol-DOO",
+        "en": "became, happened"
+      }
+    ]
+  },
+  {
+    "title": "Final e is always said",
+    "body": "An e at the end of a word is never silent as in English “cake”. Say it clearly as “eh”, and it often carries the stress.",
+    "pattern": "(?<=\\p{L})e(?!\\p{L})",
+    "examples": [
+      {
+        "word": "anne",
+        "say": "ahn-NEH",
+        "en": "mother"
+      },
+      {
+        "word": "kahve",
+        "say": "kahh-VEH",
+        "en": "coffee"
+      },
+      {
+        "word": "gece",
+        "say": "geh-JEH",
+        "en": "night"
+      },
+      {
+        "word": "ne",
+        "say": "neh",
+        "en": "what"
+      }
+    ]
+  },
+  {
+    "title": "ü is “ee” said with rounded lips",
+    "body": "Say “ee” and round your lips tightly as for “oo”, like German ü or French u. Don't say “oo” or “yoo”.",
+    "pattern": "ü",
+    "examples": [
+      {
+        "word": "gün",
+        "say": "gün",
+        "en": "day"
+      },
+      {
+        "word": "üç",
+        "say": "üch",
+        "en": "three"
+      },
+      {
+        "word": "küçük",
+        "say": "kü-CHÜK",
+        "en": "small"
+      },
+      {
+        "word": "büyük",
+        "say": "bü-YÜK",
+        "en": "big"
+      }
+    ]
+  },
+  {
+    "title": "ş sounds like “sh” in “shop”",
+    "body": "With a cedilla, ş is the “sh” of “shop”. Plain s is always a hissing “s”.",
+    "pattern": "ş",
+    "examples": [
+      {
+        "word": "şey",
+        "say": "shay",
+        "en": "thing"
+      },
+      {
+        "word": "şimdi",
+        "say": "SHEEM-dee",
+        "en": "now"
+      },
+      {
+        "word": "beş",
+        "say": "besh",
+        "en": "five"
+      },
+      {
+        "word": "şeker",
+        "say": "sheh-KER",
+        "en": "sugar"
+      }
+    ]
+  },
+  {
+    "title": "A final consonant links to the next word's vowel",
+    "body": "Turkish flows without breaks: when a word ends in a consonant and the next starts with a vowel, the consonant moves over to start the next word. bir ev sounds like “bee-rev”.",
+    "pattern": "(?<=[^\\P{L}aeıioöuüâîû]) (?=[aeıioöuüâîû])",
+    "examples": [
+      {
+        "word": "bir ev",
+        "say": "bee-REV",
+        "en": "a house"
+      },
+      {
+        "word": "on iki",
+        "say": "oh-nee-KEE",
+        "en": "twelve"
+      },
+      {
+        "word": "çok iyi",
+        "say": "choh-kee-YEE",
+        "en": "very good"
+      },
+      {
+        "word": "her akşam",
+        "say": "heh-rahk-SHAHM",
+        "en": "every evening"
+      }
+    ]
+  },
+  {
+    "title": "ç sounds like “ch” in “church”",
+    "body": "With a cedilla, ç is the “ch” of “church”, at the start, in the middle and at the end of a word.",
+    "pattern": "ç",
+    "examples": [
+      {
+        "word": "çay",
+        "say": "chai",
+        "en": "tea"
+      },
+      {
+        "word": "çok",
+        "say": "chok",
+        "en": "very, a lot"
+      },
+      {
+        "word": "üç",
+        "say": "üch",
+        "en": "three"
+      },
+      {
+        "word": "için",
+        "say": "ee-CHEEN",
+        "en": "for"
+      }
+    ]
+  },
+  {
+    "title": "v is a soft “v”",
+    "body": "v is like English “v” but lighter, with less buzz. Next to o, u, ö or ü it can drift toward a “w”: tavuk sounds like “tah-WOOK”.",
+    "pattern": "v",
+    "examples": [
+      {
+        "word": "ev",
+        "say": "ev",
+        "en": "house"
+      },
+      {
+        "word": "ve",
+        "say": "veh",
+        "en": "and"
+      },
+      {
+        "word": "tavuk",
+        "say": "tah-VOOK",
+        "en": "chicken"
+      },
+      {
+        "word": "evet",
+        "say": "EH-vet",
+        "en": "yes"
+      }
+    ]
+  },
+  {
+    "title": "h is always breathed",
+    "body": "Say h wherever it is written: at the start, before a consonant and at the end of a word. After a, ı, o, u it can sound rough, close to “ch” in Scottish “loch”. In fast speech, h before a consonant may just lengthen the vowel: kahve “kaa-VEH”.",
+    "pattern": "h",
+    "examples": [
+      {
+        "word": "hafta",
+        "say": "hahf-TAH",
+        "en": "week"
+      },
+      {
+        "word": "sabah",
+        "say": "sah-BAHH",
+        "en": "morning"
+      },
+      {
+        "word": "kahve",
+        "say": "kahh-VEH",
+        "en": "coffee"
+      },
+      {
+        "word": "merhaba",
+        "say": "MER-hah-bah",
+        "en": "hello"
+      }
+    ]
+  },
+  {
+    "title": "c sounds like “j” in “jam”",
+    "body": "Plain c is never “k” or “s”. It is always the “j” of “jam”, wherever it stands in the word.",
+    "pattern": "c",
+    "examples": [
+      {
+        "word": "cuma",
+        "say": "joo-MAH",
+        "en": "Friday"
+      },
+      {
+        "word": "gece",
+        "say": "geh-JEH",
+        "en": "night"
+      },
+      {
+        "word": "can",
+        "say": "jahn",
+        "en": "soul; a name"
+      },
+      {
+        "word": "sadece",
+        "say": "SAH-deh-jeh",
+        "en": "only"
+      }
+    ]
+  },
+  {
+    "title": "Many adverbs and little words stress the first syllable",
+    "body": "Common adverbs, question words and linking words break the last-syllable rule and are stressed at the start. Learn the stress with the word.",
+    "pattern": "(?<!\\p{L})(?:şimdi|sonra|önce|yarın|belki|hemen|sadece|bazen|burada|orada|şurada|nerede|nasıl|neden|ama|ancak|evet|hayır|lütfen|merhaba|çünkü|yani|işte|sanki|şöyle|böyle|bugün|aslında|artık|daha|kadar|gibi|mutlaka|henüz|hâlâ|yine)(?!\\p{L})",
+    "examples": [
+      {
+        "word": "şimdi",
+        "say": "SHEEM-dee",
+        "en": "now"
+      },
+      {
+        "word": "sonra",
+        "say": "SON-rah",
+        "en": "then, after"
+      },
+      {
+        "word": "ama",
+        "say": "AH-mah",
+        "en": "but"
+      },
+      {
+        "word": "yarın",
+        "say": "YAH-ruhn",
+        "en": "tomorrow"
+      },
+      {
+        "word": "nasıl",
+        "say": "NAH-suhl",
+        "en": "how"
+      },
+      {
+        "word": "evet",
+        "say": "EH-vet",
+        "en": "yes"
+      }
+    ]
+  },
+  {
+    "title": "ö is “e” in “bed” said with rounded lips",
+    "body": "ö has no English equivalent. Say the “e” of “bed” and round your lips as for “oh”, like German ö. It is close to the vowel of British “bird”, without any r.",
+    "pattern": "ö",
+    "examples": [
+      {
+        "word": "önce",
+        "say": "ÖN-jeh",
+        "en": "before, first"
+      },
+      {
+        "word": "dört",
+        "say": "dört",
+        "en": "four"
+      },
+      {
+        "word": "göz",
+        "say": "göz",
+        "en": "eye"
+      },
+      {
+        "word": "önemli",
+        "say": "ö-nem-LEE",
+        "en": "important"
+      }
+    ]
+  },
+  {
+    "title": "ay sounds like “eye”, ey like “ay”, oy like “boy”",
+    "body": "A vowel followed by y and then a consonant or the end of the word makes one gliding syllable: ay is “eye”, ey is “ay” in “day”, oy and öy are like “boy”, uy is “ooy”.",
+    "pattern": "[aeıioöuü]y(?![aeıioöuüâîû])",
+    "examples": [
+      {
+        "word": "çay",
+        "say": "chai",
+        "en": "tea"
+      },
+      {
+        "word": "şey",
+        "say": "shay",
+        "en": "thing"
+      },
+      {
+        "word": "köy",
+        "say": "köy",
+        "en": "village"
+      },
+      {
+        "word": "kolay",
+        "say": "koh-LIE",
+        "en": "easy"
+      }
+    ]
+  },
+  {
+    "title": "-yor never changes, but the vowel before it does",
+    "body": "The present tense ending -yor is always “yor”, even after front vowels. The vowel before it follows harmony (i, ı, ü or u) and takes the stress.",
+    "pattern": "[ıiuü]yor",
+    "examples": [
+      {
+        "word": "geliyor",
+        "say": "geh-LEE-yor",
+        "en": "is coming"
+      },
+      {
+        "word": "gidiyor",
+        "say": "gee-DEE-yor",
+        "en": "is going"
+      },
+      {
+        "word": "okuyor",
+        "say": "oh-KOO-yor",
+        "en": "is reading"
+      },
+      {
+        "word": "görüyor",
+        "say": "gö-RÜ-yor",
+        "en": "is seeing"
+      }
+    ]
+  },
+  {
+    "title": "Double consonants are held longer",
+    "body": "A doubled letter is held for twice as long, the way English joins “t” in “hot tea”. anne is “ahn-NEH”, not “AH-neh”.",
+    "pattern": "([bcçdfgğhjklmnprsştvyz])\\1",
+    "examples": [
+      {
+        "word": "anne",
+        "say": "ahn-NEH",
+        "en": "mother"
+      },
+      {
+        "word": "elli",
+        "say": "el-LEE",
+        "en": "fifty"
+      },
+      {
+        "word": "etti",
+        "say": "et-TEE",
+        "en": "did, made"
+      },
+      {
+        "word": "dikkat",
+        "say": "deek-KAHT",
+        "en": "attention, careful"
+      }
+    ]
+  },
+  {
+    "title": "p, ç, t, k at the end turn into b, c, d, ğ before a vowel",
+    "body": "Turkish words rarely end in b, c, d or g. Many words ending in p, ç, t or k soften that sound when an ending starting with a vowel is added, and the spelling shows it: kitap but kitabı, çocuk but çocuğu.",
+    "pattern": "(?<!\\p{L})(?:kitab|sahib|hesab|grub|kulüb|ekib|mektub|cevab|dolab|kebab|ceb|sebeb|ağac|ihtiyac|ilac|kâğıd|vücud|umud|gid|çocuğ|yemeğ|ekmeğ|köpeğ|sokağ|mutfağ|yatağ|durağ|bardağ|ocağ|uçağ|bacağ|tabağ|toprağ|ayağ)(?=[aeıioöuü])|(?<=\\p{L}[ae]c[ae])ğ(?=[aeıioöuü])|(?<=\\p{L}(?:[dt][ıiuü]|l[ıiuü]))ğ(?=[aeıioöuü])",
+    "examples": [
+      {
+        "word": "kitabı",
+        "say": "kee-tah-BUH",
+        "en": "the book (kitap)"
+      },
+      {
+        "word": "ağacı",
+        "say": "aa-ah-JUH",
+        "en": "the tree (ağaç)"
+      },
+      {
+        "word": "çocuğu",
+        "say": "choh-joo-OO",
+        "en": "his or her child (çocuk)"
+      },
+      {
+        "word": "gidiyor",
+        "say": "gee-DEE-yor",
+        "en": "is going (git)"
+      }
+    ]
+  },
+  {
+    "title": "n before b or p sounds like “m”",
+    "body": "Before b or p, also across a word boundary, n is said with closed lips as “m”. İstanbul is “ees-TAHM-bool” and on beş is “om-BESH”.",
+    "pattern": "n(?= ?[bp])",
+    "examples": [
+      {
+        "word": "on beş",
+        "say": "om-BESH",
+        "en": "fifteen"
+      },
+      {
+        "word": "İstanbul",
+        "say": "ees-TAHM-bool",
+        "en": "Istanbul"
+      },
+      {
+        "word": "zeytinyağlı",
+        "say": "zey-teen-yaa-LUH",
+        "en": "cooked in olive oil"
+      }
+    ]
+  },
+  {
+    "title": "An apostrophe joins a name to its ending",
+    "body": "Endings on names are split off with an apostrophe, but you read straight through it. The ending follows the name's vowels and the stress stays on the name: İzmir'de is “EEZ-meer-deh”.",
+    "pattern": "(?<=\\p{L})['’](?=\\p{L})",
+    "examples": [
+      {
+        "word": "İzmir'de",
+        "say": "EEZ-meer-deh",
+        "en": "in Izmir"
+      },
+      {
+        "word": "Ankara'ya",
+        "say": "AHN-kah-rah-yah",
+        "en": "to Ankara"
+      },
+      {
+        "word": "Türkiye'de",
+        "say": "TÜR-kee-yeh-deh",
+        "en": "in Turkey"
+      }
+    ]
+  },
+  {
+    "title": "ğ between a, ı, o, u is silent",
+    "body": "Between two back vowels, ğ disappears and the vowels run together. Two different vowels glide into each other, sometimes with a light “w” between o or u; two of the same make one long vowel.",
+    "pattern": "(?<=[aıou])ğ(?=[aıou])",
+    "examples": [
+      {
+        "word": "doğum",
+        "say": "doh-OOM",
+        "en": "birth"
+      },
+      {
+        "word": "soğuk",
+        "say": "soh-OOK",
+        "en": "cold"
+      },
+      {
+        "word": "ağaç",
+        "say": "aa-AHCH",
+        "en": "tree"
+      },
+      {
+        "word": "çocuğu",
+        "say": "choh-joo-OO",
+        "en": "his or her child"
+      }
+    ]
+  },
+  {
+    "title": "ğ between e, i, ö, ü is a soft “y”",
+    "body": "Between two front vowels, ğ is a weak “y” glide or nothing at all, so değil can sound like “deh-YEEL” or “deel”. Never make it a “g”.",
+    "pattern": "(?<=[eiöü])ğ(?=[eiöü])",
+    "examples": [
+      {
+        "word": "değil",
+        "say": "deh-YEEL",
+        "en": "not"
+      },
+      {
+        "word": "diğer",
+        "say": "dee-YER",
+        "en": "other"
+      },
+      {
+        "word": "yemeği",
+        "say": "yeh-meh-YEE",
+        "en": "his or her food"
+      }
+    ]
+  },
+  {
+    "title": "de and da meaning “too” are never stressed",
+    "body": "Written as a separate word, de or da means “too, also” or “and”. It follows harmony but never turns into te or ta, and it leans on the word before it without stress. Compare evde “ev-DEH”, at home.",
+    "pattern": "(?<!\\p{L})d[ae](?!\\p{L})",
+    "examples": [
+      {
+        "word": "ben de",
+        "say": "BEN deh",
+        "en": "me too"
+      },
+      {
+        "word": "o da",
+        "say": "OH dah",
+        "en": "he or she too"
+      },
+      {
+        "word": "ailem de",
+        "say": "ah-ee-LEM deh",
+        "en": "my family too"
+      }
+    ]
+  },
+  {
+    "title": "ğ before a consonant or at the end makes the vowel long",
+    "body": "ğ, the “soft g”, is never said as “g”. After a vowel and before a consonant or the end of the word, it simply stretches the vowel before it. After e it can sound like a faint “y”: eğlence “ey-len-JEH”.",
+    "pattern": "(?<=[aeıioöuü])ğ(?![aeıioöuü])",
+    "examples": [
+      {
+        "word": "dağ",
+        "say": "daa",
+        "en": "mountain"
+      },
+      {
+        "word": "yağmur",
+        "say": "yaa-MOOR",
+        "en": "rain"
+      },
+      {
+        "word": "sağlık",
+        "say": "saa-LUHK",
+        "en": "health"
+      },
+      {
+        "word": "öğretmen",
+        "say": "öö-ret-MEN",
+        "en": "teacher"
+      }
+    ]
+  },
+  {
+    "title": "Endings for “am, are, is” and -le are not stressed",
+    "body": "Personal endings such as -(y)ım “I am”, the ending -dır “is”, and -le “with” don't take the stress: it stays on the syllable before them.",
+    "pattern": "(?<=[aeıioöuüâîû])(?<!(?<!\\p{L})(?:gi|dene))y[ıiuü]m(?!\\p{L})|(?<=\\p{L}{3})(?<!kül)[dt][ıiuü]r(?!\\p{L})|(?<=\\p{L}{2}[^\\P{L}aeıioöuüâîûl])(?<!(?<!\\p{L})(?:faz|dam|tav|cüm|ley|böy|şöy))l[ae](?!\\p{L})",
+    "examples": [
+      {
+        "word": "yaşındayım",
+        "say": "yah-shuhn-DAH-yuhm",
+        "en": "I am ... years old"
+      },
+      {
+        "word": "iyiyim",
+        "say": "ee-YEE-yeem",
+        "en": "I am well"
+      },
+      {
+        "word": "telefonla",
+        "say": "teh-leh-FON-lah",
+        "en": "by phone"
+      },
+      {
+        "word": "öğretmenim",
+        "say": "öö-ret-MEN-eem",
+        "en": "I am a teacher"
+      }
+    ]
+  },
+  {
+    "title": "Negative -me and -ma pull the stress before them",
+    "body": "In verbs, the negative ending -me or -ma is never stressed: the syllable just before it is. So geldi is “gel-DEE” but gelmedi is “GEL-meh-dee”.",
+    "pattern": "(?<=\\p{L}{2})(?:m[ae]d[ıi]|m[ıiuü]yor|m[ae]y[ae]c[ae][kğ]|(?<!yıl)m[ae]z(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "gelmedi",
+        "say": "GEL-meh-dee",
+        "en": "didn't come"
+      },
+      {
+        "word": "yapmadı",
+        "say": "YAHP-mah-duh",
+        "en": "didn't do"
+      },
+      {
+        "word": "bilmiyorum",
+        "say": "BEEL-mee-yoh-room",
+        "en": "I don't know"
+      },
+      {
+        "word": "olmaz",
+        "say": "OL-mahz",
+        "en": "it won't do, no way"
+      }
+    ]
+  },
+  {
+    "title": "Two different vowels side by side are both said",
+    "body": "When two different vowels meet inside a word, say each one in its own syllable. aile is three syllables: “ah-ee-LEH”.",
+    "pattern": "([aeıioöuü])(?!\\1)(?=[aeıioöuü])",
+    "examples": [
+      {
+        "word": "aile",
+        "say": "ah-ee-LEH",
+        "en": "family"
+      },
+      {
+        "word": "daire",
+        "say": "dah-ee-REH",
+        "en": "flat, apartment"
+      },
+      {
+        "word": "muayene",
+        "say": "moo-ah-yeh-NEH",
+        "en": "medical check-up"
+      },
+      {
+        "word": "video",
+        "say": "vee-deh-OH",
+        "en": "video"
+      }
+    ]
+  },
+  {
+    "title": "A doubled vowel is one long vowel",
+    "body": "Two of the same vowel, as in saat and maaş, make one long vowel, not two syllables. Some speakers add a tiny break, but “saht” held long is the normal sound.",
+    "pattern": "([aeıioöuü])\\1",
+    "examples": [
+      {
+        "word": "saat",
+        "say": "saat",
+        "en": "hour, clock"
+      },
+      {
+        "word": "maaş",
+        "say": "maash",
+        "en": "salary"
+      },
+      {
+        "word": "tabii",
+        "say": "tah-BEE",
+        "en": "of course"
+      },
+      {
+        "word": "şiir",
+        "say": "sheer",
+        "en": "poem"
+      }
+    ]
+  },
+  {
+    "title": "Place names often stress an earlier syllable",
+    "body": "Most town and country names are stressed before the last syllable, and endings never move it: İstanbul'da is “ees-TAHM-bool-dah”.",
+    "pattern": "(?<!\\p{L})(?:istanbul|ankara|izmir|türkiye|bursa|almanya|antalya|konya|trabzon|avrupa|italya|samsun|mersin|kayseri|sivas|erzurum|mardin|hollanda|londra|paris|amerika|ispanya|fransa|yunanistan|rusya|manisa|kastamonu|kapadokya|sofya)(?!\\p{L})",
+    "examples": [
+      {
+        "word": "İstanbul",
+        "say": "ees-TAHM-bool",
+        "en": "Istanbul"
+      },
+      {
+        "word": "Ankara",
+        "say": "AHN-kah-rah",
+        "en": "Ankara"
+      },
+      {
+        "word": "İzmir",
+        "say": "EEZ-meer",
+        "en": "Izmir"
+      },
+      {
+        "word": "Türkiye",
+        "say": "TÜR-kee-yeh",
+        "en": "Turkey"
+      },
+      {
+        "word": "Almanya",
+        "say": "ahl-MAHN-yah",
+        "en": "Germany"
+      }
+    ]
+  },
+  {
+    "title": "Some Arabic and Persian loans hide a long vowel",
+    "body": "Many words borrowed from Arabic or Persian have a long vowel that the spelling doesn't show. Learn them as you meet them: hayat, mavi, kabul and memur all have one.",
+    "pattern": "(?<!\\p{L})(?:hayat|lazım|tarih|mavi|ilaç|ilac|rica|kabul|memur|beraber)",
+    "examples": [
+      {
+        "word": "hayat",
+        "say": "hah-YAAT",
+        "en": "life"
+      },
+      {
+        "word": "mavi",
+        "say": "maa-VEE",
+        "en": "blue"
+      },
+      {
+        "word": "lazım",
+        "say": "laa-ZUHM",
+        "en": "needed"
+      },
+      {
+        "word": "ilaç",
+        "say": "ee-LAACH",
+        "en": "medicine"
+      }
+    ]
+  },
+  {
+    "title": "j sounds like “s” in “measure”",
+    "body": "j appears mostly in words from French and English. It is the soft “zh” sound of “measure”, never the “j” of “jam” (that is Turkish c).",
+    "pattern": "j",
+    "examples": [
+      {
+        "word": "mesaj",
+        "say": "meh-SAHZH",
+        "en": "message"
+      },
+      {
+        "word": "proje",
+        "say": "proh-ZHEH",
+        "en": "project"
+      },
+      {
+        "word": "japon",
+        "say": "zhah-PON",
+        "en": "Japanese"
+      },
+      {
+        "word": "teknoloji",
+        "say": "tek-noh-loh-ZHEE",
+        "en": "technology"
+      }
+    ]
+  },
+  {
+    "title": "â after k, g, l adds a “y” sound",
+    "body": "The hat on â after k, g or l softens the consonant, as if a light “y” came after it, and makes the a long. Without the hat these words would sound wrong: kâğıt is “kyaa-UHT”.",
+    "pattern": "(?<=[kgl])â",
+    "examples": [
+      {
+        "word": "kâğıt",
+        "say": "kyaa-UHT",
+        "en": "paper"
+      },
+      {
+        "word": "dükkân",
+        "say": "dük-KYAAN",
+        "en": "shop"
+      },
+      {
+        "word": "rüzgâr",
+        "say": "rüz-GYAAR",
+        "en": "wind"
+      },
+      {
+        "word": "hikâye",
+        "say": "hee-kyaa-YEH",
+        "en": "story"
+      }
+    ]
+  },
+  {
+    "title": "mi, mı, mu, mü turn a sentence into a yes/no question",
+    "body": "The question particle is written as a separate word and follows vowel harmony, but it is never stressed. The voice rises on the syllable just before it: var mı? is “VAHR muh?”.",
+    "pattern": "(?<!\\p{L})m[iıuü](?:s[ıiuü]n(?:[ıiuü]z)?|y[ıiuü]m|y[ıiuü]z|d[ıiuü]r)?(?!\\p{L})",
+    "examples": [
+      {
+        "word": "var mı?",
+        "say": "VAHR muh",
+        "en": "is there?"
+      },
+      {
+        "word": "değil mi?",
+        "say": "deh-YEEL mee",
+        "en": "isn't it?"
+      },
+      {
+        "word": "olur mu?",
+        "say": "oh-LOOR moo",
+        "en": "is that OK?"
+      },
+      {
+        "word": "mümkün mü?",
+        "say": "müm-KÜN mü",
+        "en": "is it possible?"
+      }
+    ]
+  },
+  {
+    "title": "â and î elsewhere are long vowels",
+    "body": "After other letters the hat just makes the vowel long. î marks the long “ee” of adjectives like resmî; û, rarely seen, is a long “oo”.",
+    "pattern": "(?<![kgl])â|[îû]",
+    "examples": [
+      {
+        "word": "hâlâ",
+        "say": "HAA-lyaa",
+        "en": "still"
+      },
+      {
+        "word": "resmî",
+        "say": "res-MEE",
+        "en": "official"
+      },
+      {
+        "word": "millî",
+        "say": "meel-LEE",
+        "en": "national"
+      }
+    ]
+  }
+]

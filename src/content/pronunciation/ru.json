@@ -1,0 +1,1202 @@
+[
+  {
+    "title": "Unstressed о and а sound like “a” or “uh”",
+    "body": "О keeps its “o” sound only when stressed. Right before the stress, and at the start of a word, о and а are a short “a”; in other unstressed syllables they are weaker still, like the “a” in “sofa”.",
+    "pattern": "(?<=[аеёиоуыэюя]\\p{L}*)[оа]|[оа](?=\\p{L}*[аеёиоуыэюя])",
+    "examples": [
+      {
+        "word": "вода́",
+        "say": "va-DA",
+        "en": "water"
+      },
+      {
+        "word": "молоко́",
+        "say": "muh-la-KO",
+        "en": "milk"
+      },
+      {
+        "word": "хорошо́",
+        "say": "khuh-ra-SHO",
+        "en": "good, well"
+      },
+      {
+        "word": "э́то",
+        "say": "EH-tuh",
+        "en": "this, it"
+      }
+    ]
+  },
+  {
+    "title": "A consonant before е, ё, и, ю, я or ь is soft",
+    "body": "Soft means said with the middle of the tongue raised toward the roof of the mouth, as if a tiny “y” followed, like the “n” in British “new”. It changes meaning: брат is “brother”, брать “to take”. In the respellings, “y” or ' marks a soft consonant.",
+    "pattern": "[бвгдзклмнпрстфх](?=[еёиюяь])",
+    "examples": [
+      {
+        "word": "нет",
+        "say": "nyet",
+        "en": "no"
+      },
+      {
+        "word": "день",
+        "say": "dyen'",
+        "en": "day"
+      },
+      {
+        "word": "лю́ди",
+        "say": "LYOO-di",
+        "en": "people"
+      },
+      {
+        "word": "тётя",
+        "say": "TYO-tyuh",
+        "en": "aunt"
+      }
+    ]
+  },
+  {
+    "title": "Every word has one stressed syllable, and it is not marked",
+    "body": "One syllable in each word is said louder and longer; the others are weak and short. Our texts do not mark it, it can fall on any syllable, and it can move between forms of one word (рука́, but ру́ку). Learn the stress with each word.",
+    "pattern": "(?<!\\p{L})\\p{L}*[аеёиоуыэюя]\\p{L}*[аеёиоуыэюя]\\p{L}*",
+    "examples": [
+      {
+        "word": "ма́ма",
+        "say": "MA-muh",
+        "en": "mom"
+      },
+      {
+        "word": "вода́",
+        "say": "va-DA",
+        "en": "water"
+      },
+      {
+        "word": "рука́",
+        "say": "ru-KA",
+        "en": "hand"
+      },
+      {
+        "word": "ру́ку",
+        "say": "ROO-ku",
+        "en": "hand (as object)"
+      }
+    ]
+  },
+  {
+    "title": "к, м, т look and sound like English k, m, t",
+    "body": "Said as in English, but к and т without the puff of air, like the “k” in “skin” and the “t” in “stop”. т is made with the tongue touching the back of the top teeth.",
+    "pattern": "[кмт]",
+    "examples": [
+      {
+        "word": "кот",
+        "say": "kot",
+        "en": "cat"
+      },
+      {
+        "word": "там",
+        "say": "tam",
+        "en": "there"
+      },
+      {
+        "word": "так",
+        "say": "tak",
+        "en": "so, like this"
+      },
+      {
+        "word": "ма́ма",
+        "say": "MA-muh",
+        "en": "mom"
+      }
+    ]
+  },
+  {
+    "title": "о sounds like “o” in “or” when stressed",
+    "body": "A short, rounded “o”, never the “oh” glide of English “go”. Unstressed, it changes to “a” or “uh” (see that rule).",
+    "pattern": "о",
+    "examples": [
+      {
+        "word": "дом",
+        "say": "dom",
+        "en": "house"
+      },
+      {
+        "word": "кот",
+        "say": "kot",
+        "en": "cat"
+      },
+      {
+        "word": "сок",
+        "say": "sok",
+        "en": "juice"
+      },
+      {
+        "word": "по́чта",
+        "say": "POCH-tuh",
+        "en": "post office, mail"
+      }
+    ]
+  },
+  {
+    "title": "б, д, з, п, ф sound like English b, d, z, p, f",
+    "body": "Said as in English, with п less breathy, like the “p” in “spin”. At the end of a word or before a voiceless consonant б, д, з turn into п, т, с (see devoicing).",
+    "pattern": "[бдзпф]",
+    "examples": [
+      {
+        "word": "да",
+        "say": "da",
+        "en": "yes"
+      },
+      {
+        "word": "па́па",
+        "say": "PA-puh",
+        "en": "dad"
+      },
+      {
+        "word": "зима́",
+        "say": "zi-MA",
+        "en": "winter"
+      },
+      {
+        "word": "фо́то",
+        "say": "FO-tuh",
+        "en": "photo"
+      }
+    ]
+  },
+  {
+    "title": "а sounds like “a” in “father”",
+    "body": "Open and clear when stressed. Unstressed it becomes a short “a” or a weak “uh” (see the rule on unstressed о and а).",
+    "pattern": "а",
+    "examples": [
+      {
+        "word": "да",
+        "say": "da",
+        "en": "yes"
+      },
+      {
+        "word": "так",
+        "say": "tak",
+        "en": "so, like this"
+      },
+      {
+        "word": "ма́ма",
+        "say": "MA-muh",
+        "en": "mom"
+      },
+      {
+        "word": "брат",
+        "say": "brat",
+        "en": "brother"
+      }
+    ]
+  },
+  {
+    "title": "е says “ye”, or “e” after a consonant it softens",
+    "body": "At the start of a word or after a vowel, е is “ye” as in “yes”. After a consonant it softens that consonant and sounds like the “e” in “met”. After ж, ш, ц it is a plain “e”; unstressed, it becomes a short “i”.",
+    "pattern": "е",
+    "examples": [
+      {
+        "word": "есть",
+        "say": "yest'",
+        "en": "there is; to eat"
+      },
+      {
+        "word": "нет",
+        "say": "nyet",
+        "en": "no"
+      },
+      {
+        "word": "где",
+        "say": "gdye",
+        "en": "where"
+      },
+      {
+        "word": "мне",
+        "say": "mnye",
+        "en": "to me"
+      }
+    ]
+  },
+  {
+    "title": "и sounds like “ee” in “see”",
+    "body": "Short and clear, and it softens the consonant before it. After ж, ш and ц it sounds like ы instead (see that rule).",
+    "pattern": "и",
+    "examples": [
+      {
+        "word": "и",
+        "say": "ee",
+        "en": "and"
+      },
+      {
+        "word": "три",
+        "say": "tree",
+        "en": "three"
+      },
+      {
+        "word": "мир",
+        "say": "meer",
+        "en": "world, peace"
+      },
+      {
+        "word": "спаси́бо",
+        "say": "spa-SEE-buh",
+        "en": "thank you"
+      }
+    ]
+  },
+  {
+    "title": "н looks like English H but sounds like “n”",
+    "body": "A plain “n”, made with the tongue against the back of the top teeth. Before е, ё, и, ю, я, ь it is soft, like the “ny” in “canyon”.",
+    "pattern": "н",
+    "examples": [
+      {
+        "word": "но",
+        "say": "no",
+        "en": "but"
+      },
+      {
+        "word": "она́",
+        "say": "a-NA",
+        "en": "she"
+      },
+      {
+        "word": "нос",
+        "say": "nos",
+        "en": "nose"
+      },
+      {
+        "word": "нет",
+        "say": "nyet",
+        "en": "no"
+      }
+    ]
+  },
+  {
+    "title": "с looks like English C but always sounds like “s”",
+    "body": "Always a hissing “s” as in “sun”, never “k” and never “z” between vowels. Before б, г, д, ж, з it becomes “z” (see voicing).",
+    "pattern": "с",
+    "examples": [
+      {
+        "word": "сок",
+        "say": "sok",
+        "en": "juice"
+      },
+      {
+        "word": "сын",
+        "say": "sihn",
+        "en": "son"
+      },
+      {
+        "word": "суп",
+        "say": "soop",
+        "en": "soup"
+      },
+      {
+        "word": "сестра́",
+        "say": "sis-TRA",
+        "en": "sister"
+      }
+    ]
+  },
+  {
+    "title": "л is a dark “l”, or a light one when soft",
+    "body": "Plain л is said with the back of the tongue raised, like the deep “l” in “full”, even before а, о, у. Before е, ё, и, ю, я or ь it is light, like the “l” in “leaf”.",
+    "pattern": "л",
+    "examples": [
+      {
+        "word": "стол",
+        "say": "stol",
+        "en": "table"
+      },
+      {
+        "word": "ла́мпа",
+        "say": "LAM-puh",
+        "en": "lamp"
+      },
+      {
+        "word": "ле́то",
+        "say": "LYE-tuh",
+        "en": "summer"
+      },
+      {
+        "word": "лю́ди",
+        "say": "LYOO-di",
+        "en": "people"
+      }
+    ]
+  },
+  {
+    "title": "р looks like English P but is a rolled “r”",
+    "body": "Tap or trill the tip of the tongue behind the top teeth, as in Spanish or Scottish “r”. Before е, ё, и, ю, я, ь it is soft, with the tongue raised.",
+    "pattern": "р",
+    "examples": [
+      {
+        "word": "рука́",
+        "say": "ru-KA",
+        "en": "hand"
+      },
+      {
+        "word": "брат",
+        "say": "brat",
+        "en": "brother"
+      },
+      {
+        "word": "ры́ба",
+        "say": "RIH-buh",
+        "en": "fish"
+      },
+      {
+        "word": "три",
+        "say": "tree",
+        "en": "three"
+      }
+    ]
+  },
+  {
+    "title": "Unstressed е and я sound like a short “i”",
+    "body": "Away from the stress, е and я lose their own vowel and become a short “i” as in “bit”, still softening the consonant before them. Unstressed а after ч and щ does the same. At the very end of a word, unstressed я is a weak “yuh”.",
+    "pattern": "(?<=[бвгдзклмнпрстфхчщ])[ея](?=\\p{L}*[аеёиоуыэюя])|(?<=[чщ])а(?=\\p{L}*[аеёиоуыэюя])",
+    "examples": [
+      {
+        "word": "сестра́",
+        "say": "sis-TRA",
+        "en": "sister"
+      },
+      {
+        "word": "тепе́рь",
+        "say": "ti-PYER'",
+        "en": "now"
+      },
+      {
+        "word": "язы́к",
+        "say": "yi-ZIHK",
+        "en": "language, tongue"
+      },
+      {
+        "word": "часы́",
+        "say": "chi-SIH",
+        "en": "clock, watch"
+      }
+    ]
+  },
+  {
+    "title": "в looks like English B but sounds like “v”",
+    "body": "A plain “v”. Before a voiceless consonant and at the end of a word it becomes “f” (всё is “fsyo”). It never makes the consonant before it voiced.",
+    "pattern": "в",
+    "examples": [
+      {
+        "word": "вот",
+        "say": "vot",
+        "en": "here is"
+      },
+      {
+        "word": "ваш",
+        "say": "vash",
+        "en": "your"
+      },
+      {
+        "word": "вода́",
+        "say": "va-DA",
+        "en": "water"
+      },
+      {
+        "word": "Москва́",
+        "say": "mask-VA",
+        "en": "Moscow"
+      }
+    ]
+  },
+  {
+    "title": "у looks like English y but sounds like “oo”",
+    "body": "A short “oo” with rounded lips, as in “moon” but shorter; never “yoo” and never “uh”. Unstressed it stays “oo”-like, just weaker, like the “u” in “put”.",
+    "pattern": "у",
+    "examples": [
+      {
+        "word": "у",
+        "say": "oo",
+        "en": "at, by"
+      },
+      {
+        "word": "суп",
+        "say": "soop",
+        "en": "soup"
+      },
+      {
+        "word": "у́тро",
+        "say": "OO-truh",
+        "en": "morning"
+      },
+      {
+        "word": "уро́к",
+        "say": "u-ROK",
+        "en": "lesson"
+      }
+    ]
+  },
+  {
+    "title": "ь has no sound: it softens the consonant before it",
+    "body": "The soft sign makes the consonant before it soft (день, мать). Before е, ё, и, ю, я it also adds a full “y”: семья́ is “sim-YA”. After ж, ш, ч, щ it changes nothing in sound.",
+    "pattern": "ь",
+    "examples": [
+      {
+        "word": "день",
+        "say": "dyen'",
+        "en": "day"
+      },
+      {
+        "word": "мать",
+        "say": "mat'",
+        "en": "mother"
+      },
+      {
+        "word": "семья́",
+        "say": "sim-YA",
+        "en": "family"
+      },
+      {
+        "word": "ночь",
+        "say": "noch",
+        "en": "night"
+      }
+    ]
+  },
+  {
+    "title": "я says “ya”, or softens a consonant and says “a”",
+    "body": "At the start of a word, after a vowel, or after ь and ъ, я is “ya” as in “yard”. After a consonant it softens that consonant and adds “a”. Unstressed, it becomes a short “i”.",
+    "pattern": "я",
+    "examples": [
+      {
+        "word": "я",
+        "say": "ya",
+        "en": "I"
+      },
+      {
+        "word": "моя́",
+        "say": "ma-YA",
+        "en": "my (feminine)"
+      },
+      {
+        "word": "пять",
+        "say": "pyat'",
+        "en": "five"
+      },
+      {
+        "word": "мя́со",
+        "say": "MYA-suh",
+        "en": "meat"
+      }
+    ]
+  },
+  {
+    "title": "ы is a deep “i” with the tongue pulled back",
+    "body": "No exact English match: say the “i” of “bit”, then pull the tongue back without rounding the lips. The consonant before ы is always hard: compare бы (“bih”) with би (“bee”).",
+    "pattern": "ы",
+    "examples": [
+      {
+        "word": "мы",
+        "say": "mih",
+        "en": "we"
+      },
+      {
+        "word": "ты",
+        "say": "tih",
+        "en": "you"
+      },
+      {
+        "word": "был",
+        "say": "bihl",
+        "en": "was"
+      },
+      {
+        "word": "сыр",
+        "say": "sihr",
+        "en": "cheese"
+      }
+    ]
+  },
+  {
+    "title": "г is a hard “g” as in “go”",
+    "body": "Always hard, never “j” as in “gem”, even before е and и. Two exceptions have their own rules: the endings -ого/-его (“v”), and г before к or ч (“kh”).",
+    "pattern": "г",
+    "examples": [
+      {
+        "word": "где",
+        "say": "gdye",
+        "en": "where"
+      },
+      {
+        "word": "го́род",
+        "say": "GO-rut",
+        "en": "city"
+      },
+      {
+        "word": "газе́та",
+        "say": "ga-ZYE-tuh",
+        "en": "newspaper"
+      },
+      {
+        "word": "нога́",
+        "say": "na-GA",
+        "en": "leg, foot"
+      }
+    ]
+  },
+  {
+    "title": "ч sounds like “ch” in “cheese”",
+    "body": "Always soft, with the tongue raised, so а after it is never a hard “a”. In что, чтобы, конечно and скучно it says “sh” (see that rule).",
+    "pattern": "ч",
+    "examples": [
+      {
+        "word": "чай",
+        "say": "chai",
+        "en": "tea"
+      },
+      {
+        "word": "час",
+        "say": "chas",
+        "en": "hour"
+      },
+      {
+        "word": "о́чень",
+        "say": "O-chin'",
+        "en": "very"
+      },
+      {
+        "word": "ве́чер",
+        "say": "VYE-chir",
+        "en": "evening"
+      }
+    ]
+  },
+  {
+    "title": "й is a short “y” as in “boy”",
+    "body": "It is never a vowel on its own: it glides off the vowel before it. ай sounds like “eye”, ой like “oy” in “boy”, ей like “ay” in “day”.",
+    "pattern": "й",
+    "examples": [
+      {
+        "word": "мой",
+        "say": "moy",
+        "en": "my"
+      },
+      {
+        "word": "чай",
+        "say": "chai",
+        "en": "tea"
+      },
+      {
+        "word": "домо́й",
+        "say": "da-MOY",
+        "en": "home (going home)"
+      },
+      {
+        "word": "музе́й",
+        "say": "mu-ZYEY",
+        "en": "museum"
+      }
+    ]
+  },
+  {
+    "title": "One-letter prepositions в, с, к join the next word",
+    "body": "They have no vowel, so they are said as the first sound of the next word, and they take on its voicing: в before a voiceless consonant is “f”, с before a voiced one is “z”.",
+    "pattern": "(?<!\\p{L})[вск](?= \\p{L})",
+    "examples": [
+      {
+        "word": "в шко́ле",
+        "say": "FSHKO-li",
+        "en": "at school"
+      },
+      {
+        "word": "с дру́гом",
+        "say": "ZDROO-guhm",
+        "en": "with a friend"
+      },
+      {
+        "word": "к ма́ме",
+        "say": "KMA-mi",
+        "en": "to mom"
+      }
+    ]
+  },
+  {
+    "title": "After ж, ш, ц, the letter и sounds like ы and е like э",
+    "body": "These three consonants are always hard, so the vowel after them is said the hard way: жи, ши, ци sound like “zhih”, “shih”, “tsih”, and же, ше, це have no “y”.",
+    "pattern": "[жшц][ие]",
+    "examples": [
+      {
+        "word": "жить",
+        "say": "zhiht'",
+        "en": "to live"
+      },
+      {
+        "word": "маши́на",
+        "say": "ma-SHIH-nuh",
+        "en": "car"
+      },
+      {
+        "word": "ста́нция",
+        "say": "STAN-tsih-yuh",
+        "en": "station"
+      },
+      {
+        "word": "шесть",
+        "say": "shest'",
+        "en": "six"
+      }
+    ]
+  },
+  {
+    "title": "ж sounds like the “s” in “measure”",
+    "body": "The voiced partner of ш, always hard: и after it sounds like ы. At the end of a word or before a voiceless consonant it becomes “sh”.",
+    "pattern": "ж",
+    "examples": [
+      {
+        "word": "жена́",
+        "say": "zhih-NA",
+        "en": "wife"
+      },
+      {
+        "word": "жить",
+        "say": "zhiht'",
+        "en": "to live"
+      },
+      {
+        "word": "журна́л",
+        "say": "zhur-NAL",
+        "en": "magazine"
+      },
+      {
+        "word": "муж",
+        "say": "moosh",
+        "en": "husband"
+      }
+    ]
+  },
+  {
+    "title": "Neighbouring consonants match in voice",
+    "body": "Before a voiceless consonant (к, п, с, т, ф, х, ц, ч, ш, щ), the letters б, в, г, д, ж, з turn into п, ф, к, т, ш, с. Before б, г, д, ж, з (but not в) a voiceless consonant becomes voiced: с turns into “z”, к into “g”, т into “d”.",
+    "pattern": "[бвгджз](?=[кпстфхцчшщ])|[кпстфхцчшщ](?=[бгджз])",
+    "examples": [
+      {
+        "word": "всё",
+        "say": "fsyo",
+        "en": "everything, all"
+      },
+      {
+        "word": "вто́рник",
+        "say": "FTOR-nik",
+        "en": "Tuesday"
+      },
+      {
+        "word": "ло́жка",
+        "say": "LOSH-kuh",
+        "en": "spoon"
+      },
+      {
+        "word": "сде́лать",
+        "say": "ZDYE-luht'",
+        "en": "to do, to make"
+      }
+    ]
+  },
+  {
+    "title": "ш sounds like a hard “sh”",
+    "body": "Like English “sh”, but with the tongue pulled back and the lips not rounded, which gives a deeper sound. It is always hard: и after it sounds like ы.",
+    "pattern": "ш",
+    "examples": [
+      {
+        "word": "шко́ла",
+        "say": "SHKO-luh",
+        "en": "school"
+      },
+      {
+        "word": "шесть",
+        "say": "shest'",
+        "en": "six"
+      },
+      {
+        "word": "ваш",
+        "say": "vash",
+        "en": "your"
+      },
+      {
+        "word": "маши́на",
+        "say": "ma-SHIH-nuh",
+        "en": "car"
+      }
+    ]
+  },
+  {
+    "title": "х sounds like the “ch” in Scottish “loch”",
+    "body": "A rough, breathy sound from the back of the mouth, never silent and never “ks”. Before е and и it is softer, closer to the “h” in “huge”.",
+    "pattern": "х",
+    "examples": [
+      {
+        "word": "хлеб",
+        "say": "khlyep",
+        "en": "bread"
+      },
+      {
+        "word": "хорошо́",
+        "say": "khuh-ra-SHO",
+        "en": "good, well"
+      },
+      {
+        "word": "их",
+        "say": "eekh",
+        "en": "them, their"
+      },
+      {
+        "word": "хо́лодно",
+        "say": "KHO-luhd-nuh",
+        "en": "cold"
+      }
+    ]
+  },
+  {
+    "title": "б, в, г, д, ж, з at the end of a word lose their voice",
+    "body": "At the end of a word they are said as п, ф, к, т, ш, с: хлеб is “khlyep”, год is “got”. The spelling does not change.",
+    "pattern": "(?<=\\p{L})[бвгджз](?!\\p{L})",
+    "examples": [
+      {
+        "word": "хлеб",
+        "say": "khlyep",
+        "en": "bread"
+      },
+      {
+        "word": "год",
+        "say": "got",
+        "en": "year"
+      },
+      {
+        "word": "друг",
+        "say": "drook",
+        "en": "friend"
+      },
+      {
+        "word": "раз",
+        "say": "ras",
+        "en": "time, once"
+      }
+    ]
+  },
+  {
+    "title": "ю says “yu”, or softens a consonant and says “u”",
+    "body": "At the start of a word, after a vowel, or after ь and ъ, ю is “yoo” as in “you”. After a consonant it softens that consonant and adds “oo”.",
+    "pattern": "ю",
+    "examples": [
+      {
+        "word": "лю́ди",
+        "say": "LYOO-di",
+        "en": "people"
+      },
+      {
+        "word": "Ю́ля",
+        "say": "YOO-lyuh",
+        "en": "Yulia (name)"
+      },
+      {
+        "word": "люблю́",
+        "say": "lyu-BLYOO",
+        "en": "I love"
+      },
+      {
+        "word": "неде́лю",
+        "say": "ni-DYE-lyu",
+        "en": "week (as object)"
+      }
+    ]
+  },
+  {
+    "title": "ц sounds like “ts” in “cats”",
+    "body": "One quick sound, even at the start of a word. It is always hard: и after it sounds like ы, and е like э.",
+    "pattern": "ц",
+    "examples": [
+      {
+        "word": "центр",
+        "say": "tsentr",
+        "en": "centre"
+      },
+      {
+        "word": "у́лица",
+        "say": "OO-li-tsuh",
+        "en": "street"
+      },
+      {
+        "word": "оте́ц",
+        "say": "a-TYETS",
+        "en": "father"
+      },
+      {
+        "word": "цветы́",
+        "say": "tsvi-TIH",
+        "en": "flowers"
+      }
+    ]
+  },
+  {
+    "title": "ё is always stressed and says “yo”",
+    "body": "Our texts print ё with its dots, so it shows you the stress. At the start of a word or after a vowel it is “yo”; after a consonant it softens it and adds “o”. After ж, ш, ч, щ it is just “o”.",
+    "pattern": "ё",
+    "examples": [
+      {
+        "word": "всё",
+        "say": "fsyo",
+        "en": "everything, all"
+      },
+      {
+        "word": "её",
+        "say": "yi-YO",
+        "en": "her"
+      },
+      {
+        "word": "идёт",
+        "say": "i-DYOT",
+        "en": "goes, is going"
+      },
+      {
+        "word": "пошёл",
+        "say": "pa-SHOL",
+        "en": "went"
+      }
+    ]
+  },
+  {
+    "title": "Double consonants are held a little longer",
+    "body": "Between vowels, especially right after the stress, a double letter is held longer, like the “nn” in “unnamed”. Next to another consonant, at the end of a word, or in many longer words it is said as a single sound.",
+    "pattern": "([бвгджзклмнпрстфхцчшщ])\\1",
+    "examples": [
+      {
+        "word": "А́нна",
+        "say": "AN-nuh",
+        "en": "Anna"
+      },
+      {
+        "word": "ва́нная",
+        "say": "VAN-nuh-yuh",
+        "en": "bathroom"
+      },
+      {
+        "word": "класс",
+        "say": "klas",
+        "en": "class"
+      },
+      {
+        "word": "ру́сский",
+        "say": "ROOS-kiy",
+        "en": "Russian"
+      }
+    ]
+  },
+  {
+    "title": "ч sounds like “sh” in что, чтобы, конечно, скучно",
+    "body": "In these common words ч is said “sh”: что is “shto”. Elsewhere, including ничего and most words with чн, it stays “ch”.",
+    "pattern": "(?<!\\p{L})(?:ни)?что|конечно(?!\\p{L})|скучн",
+    "examples": [
+      {
+        "word": "что",
+        "say": "shto",
+        "en": "what, that"
+      },
+      {
+        "word": "что́бы",
+        "say": "SHTO-buh",
+        "en": "in order to"
+      },
+      {
+        "word": "коне́чно",
+        "say": "ka-NYESH-nuh",
+        "en": "of course"
+      },
+      {
+        "word": "ску́чно",
+        "say": "SKOOSH-nuh",
+        "en": "boring"
+      }
+    ]
+  },
+  {
+    "title": "г in the endings -ого and -его sounds like “v”",
+    "body": "In these adjective and pronoun endings, and in сегодня, г is said “v”. Where -ого is part of the word itself, not an ending, г stays “g”: много, дорого.",
+    "pattern": "(?<!\\p{L})(?!(?:не|на)?мног|дорог|строг)\\p{L}*[ое]го(?!\\p{L})|сегодня",
+    "examples": [
+      {
+        "word": "его́",
+        "say": "yi-VO",
+        "en": "him, his"
+      },
+      {
+        "word": "ничего́",
+        "say": "ni-chi-VO",
+        "en": "nothing"
+      },
+      {
+        "word": "сего́дня",
+        "say": "si-VOD-nyuh",
+        "en": "today"
+      },
+      {
+        "word": "но́вого",
+        "say": "NO-vuh-vuh",
+        "en": "new (of)"
+      }
+    ]
+  },
+  {
+    "title": "э sounds like “e” in “met”",
+    "body": "A plain “e” with no “y” in front, and it does not soften the consonant before it. It is used mainly at the start of words and in borrowed words.",
+    "pattern": "э",
+    "examples": [
+      {
+        "word": "э́то",
+        "say": "EH-tuh",
+        "en": "this, it"
+      },
+      {
+        "word": "эта́ж",
+        "say": "eh-TASH",
+        "en": "floor, storey"
+      },
+      {
+        "word": "экза́мен",
+        "say": "eg-ZA-min",
+        "en": "exam"
+      },
+      {
+        "word": "поэ́тому",
+        "say": "pa-EH-tuh-mu",
+        "en": "so, therefore"
+      }
+    ]
+  },
+  {
+    "title": "щ is a long soft “sh”",
+    "body": "Hold a soft “sh” a little longer, with the middle of the tongue raised, like “sh sh” in “fresh sheets” run together. Older books describe it as “shch”. It is always soft.",
+    "pattern": "щ",
+    "examples": [
+      {
+        "word": "ещё",
+        "say": "yi-SHSHO",
+        "en": "still, more"
+      },
+      {
+        "word": "же́нщина",
+        "say": "ZHEN-shshi-nuh",
+        "en": "woman"
+      },
+      {
+        "word": "вещь",
+        "say": "vyeshsh",
+        "en": "thing"
+      },
+      {
+        "word": "по́мощь",
+        "say": "PO-muhshsh",
+        "en": "help"
+      }
+    ]
+  },
+  {
+    "title": "-тся and -ться at the end of a verb sound like “tsuh”",
+    "body": "Both spellings sound the same: a long “ts” followed by a weak “uh”. The soft sign makes no difference here.",
+    "pattern": "ть?ся(?!\\p{L})",
+    "examples": [
+      {
+        "word": "нра́вится",
+        "say": "NRA-vit-suh",
+        "en": "is liked"
+      },
+      {
+        "word": "учи́ться",
+        "say": "u-CHEET-suh",
+        "en": "to study"
+      },
+      {
+        "word": "ка́жется",
+        "say": "KA-zhiht-suh",
+        "en": "it seems"
+      },
+      {
+        "word": "начина́ется",
+        "say": "nuh-chi-NA-yit-suh",
+        "en": "begins"
+      }
+    ]
+  },
+  {
+    "title": "т and д merge with a following ц, ч or ск",
+    "body": "тц and дц are one long “ts”, тч and дч one long “ch”, and тск, дск are said “tsk”. So два́дцать is “DVA-tsuht'”.",
+    "pattern": "(?<!р)[тд](?=[цч]|ск)",
+    "examples": [
+      {
+        "word": "два́дцать",
+        "say": "DVA-tsuht'",
+        "en": "twenty"
+      },
+      {
+        "word": "три́дцать",
+        "say": "TREE-tsuht'",
+        "en": "thirty"
+      },
+      {
+        "word": "отца́",
+        "say": "at-TSA",
+        "en": "father (of)"
+      },
+      {
+        "word": "де́тский",
+        "say": "DYETS-kiy",
+        "en": "children's"
+      }
+    ]
+  },
+  {
+    "title": "Some consonants in clusters are silent",
+    "body": "In a few clusters one letter drops out: the first в in вств, л in лнц, д in рдц and здн, т in стн and стл. So здра́вствуйте is “ZDRAST-vuy-tye” and со́лнце is “SON-tsuh”.",
+    "pattern": "в(?=ств)|л(?=нц)|(?<=р)д(?=ц)|(?<=з)д(?=н)|(?<=с)т(?=[нл])",
+    "examples": [
+      {
+        "word": "здра́вствуйте",
+        "say": "ZDRAST-vuy-tye",
+        "en": "hello"
+      },
+      {
+        "word": "со́лнце",
+        "say": "SON-tsuh",
+        "en": "sun"
+      },
+      {
+        "word": "пра́здник",
+        "say": "PRAZ-nik",
+        "en": "holiday"
+      },
+      {
+        "word": "се́рдце",
+        "say": "SYER-tsuh",
+        "en": "heart"
+      }
+    ]
+  },
+  {
+    "title": "сч, зч and жч sound like щ",
+    "body": "These pairs merge into one long soft “sh”, exactly like щ: счёт is “shshot”.",
+    "pattern": "[сзж]ч",
+    "examples": [
+      {
+        "word": "мужчи́на",
+        "say": "mu-SHSHEE-nuh",
+        "en": "man"
+      },
+      {
+        "word": "счёт",
+        "say": "shshot",
+        "en": "bill, account"
+      },
+      {
+        "word": "счита́ть",
+        "say": "shshi-TAT'",
+        "en": "to count, to consider"
+      }
+    ]
+  },
+  {
+    "title": "In some borrowed words е does not soften the consonant",
+    "body": "In a number of borrowed words the consonant before е stays hard and е sounds like э: кафе́ is “ka-FEH”, not “ka-FYE”. Common ones are кафе, интернет, отель, тест, модель, компьютер, менеджер.",
+    "pattern": "(?<!\\p{L})(?:кафе|интернет\\p{L}*|тест(?!о)\\p{L}*|отел\\p{L}*|компьютер\\p{L}*|менеджер\\p{L}*|модел\\p{L}*)(?!\\p{L})",
+    "examples": [
+      {
+        "word": "кафе́",
+        "say": "ka-FEH",
+        "en": "café"
+      },
+      {
+        "word": "интерне́т",
+        "say": "in-ter-NET",
+        "en": "internet"
+      },
+      {
+        "word": "оте́ль",
+        "say": "a-TEL'",
+        "en": "hotel"
+      },
+      {
+        "word": "компью́тер",
+        "say": "kam-PYOO-ter",
+        "en": "computer"
+      }
+    ]
+  },
+  {
+    "title": "ъ has no sound: it splits a consonant from a “y” sound",
+    "body": "The hard sign appears after a prefix, before е, ё, ю, я. It keeps the consonant before it hard and makes the vowel start with a clear “y”: подъе́зд is “pad-YEST”.",
+    "pattern": "ъ",
+    "examples": [
+      {
+        "word": "объясни́л",
+        "say": "ab-yis-NEEL",
+        "en": "explained"
+      },
+      {
+        "word": "подъе́зд",
+        "say": "pad-YEST",
+        "en": "entrance (of a building)"
+      },
+      {
+        "word": "объявле́ние",
+        "say": "ab-yiv-LYE-ni-yuh",
+        "en": "notice, announcement"
+      }
+    ]
+  },
+  {
+    "title": "зж, жж, сш and зш merge into a long “zh” or “sh”",
+    "body": "The first consonant takes on the sound of the second, and the two are said as one long sound: по́зже is “POZH-zhih”.",
+    "pattern": "[зсж]ж|[зс]ш",
+    "examples": [
+      {
+        "word": "по́зже",
+        "say": "POZH-zhih",
+        "en": "later"
+      },
+      {
+        "word": "приезжа́ет",
+        "say": "pri-yizh-ZHA-yit",
+        "en": "arrives"
+      },
+      {
+        "word": "уезжа́ть",
+        "say": "u-yizh-ZHAT'",
+        "en": "to leave (by transport)"
+      },
+      {
+        "word": "вы́сшее",
+        "say": "VIH-shih-yuh",
+        "en": "higher (education)"
+      }
+    ]
+  },
+  {
+    "title": "г before к or ч sounds like “kh”",
+    "body": "In легко, мягкий and related words, г is said like х, the rough “ch” of Scottish “loch”.",
+    "pattern": "г(?=[кч])",
+    "examples": [
+      {
+        "word": "легко́",
+        "say": "likh-KO",
+        "en": "easy, easily"
+      },
+      {
+        "word": "лёгкий",
+        "say": "LYOKH-kiy",
+        "en": "light, easy"
+      },
+      {
+        "word": "мя́гкий",
+        "say": "MYAKH-kiy",
+        "en": "soft"
+      },
+      {
+        "word": "ле́гче",
+        "say": "LYEKH-chi",
+        "en": "easier"
+      }
+    ]
+  }
+]

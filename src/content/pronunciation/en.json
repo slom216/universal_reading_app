@@ -1,0 +1,29 @@
+[
+  {
+    "title": "A silent e changes the vowel before it",
+    "body": "A final e is not pronounced, but it makes the vowel before it say its letter name: a as in “day”, i as in “eye”, o as in “go”, u as in “you”. Without the e, the vowel stays short.",
+    "pattern": "[aeiou][bcdfgklmnprstvz]e\\b",
+    "examples": [
+      {
+        "word": "cap → cape",
+        "say": "kap → kayp",
+        "en": "a hat → a cloak"
+      },
+      {
+        "word": "kit → kite",
+        "say": "kit → kyte",
+        "en": "a set of tools → a toy that flies"
+      },
+      {
+        "word": "hop → hope",
+        "say": "hop → hohp",
+        "en": "to jump → to wish"
+      },
+      {
+        "word": "cut → cute",
+        "say": "kut → kyoot",
+        "en": "to slice → sweet, pretty"
+      }
+    ]
+  }
+]

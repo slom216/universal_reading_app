@@ -1,0 +1,1339 @@
+[
+  {
+    "title": "b, d, f, g, k, l, m, n, p, t, x sound as in English",
+    "body": "These letters sound roughly as in English. g is always hard as in “go” (except French words like Garage, with “zh”), and l is always clear as in “leaf”, never the dark l of “full”.",
+    "pattern": "[fklmnptx]|[bd](?=[aeiouäöüylr])|(?<!n)g(?=[aeiouäöüylr])",
+    "examples": [
+      {
+        "word": "geben",
+        "say": "GAY-buhn",
+        "en": "to give"
+      },
+      {
+        "word": "kalt",
+        "say": "kalt",
+        "en": "cold"
+      },
+      {
+        "word": "der Text",
+        "say": "dare text",
+        "en": "text"
+      },
+      {
+        "word": "der Film",
+        "say": "dare film",
+        "en": "film"
+      }
+    ]
+  },
+  {
+    "title": "Most words stress the first syllable",
+    "body": "German usually stresses the first syllable, and in compounds the first part. Separable prefixes such as an-, auf-, aus-, ein-, mit- take the stress too. The exceptions are a few unstressed prefixes and many loanwords (see those rules).",
+    "pattern": "(?<!\\p{L})[^\\P{L}aeiouäöüy]*[aeiouäöüy]+[^\\P{L}aeiouäöüy]+[aeiouäöüy]",
+    "examples": [
+      {
+        "word": "der Bahnhof",
+        "say": "dare BAHN-hohf",
+        "en": "station"
+      },
+      {
+        "word": "arbeiten",
+        "say": "AR-bye-tuhn",
+        "en": "to work"
+      },
+      {
+        "word": "anrufen",
+        "say": "AN-roo-fuhn",
+        "en": "to call"
+      },
+      {
+        "word": "das Wochenende",
+        "say": "dass VO-khuhn-en-duh",
+        "en": "weekend"
+      }
+    ]
+  },
+  {
+    "title": "a is always an open “ah”",
+    "body": "a is the “a” of “father”: long when the vowel is long, the same sound said quickly when it is short. It is never the “a” of “cat” or “late”.",
+    "pattern": "(?<!a)a(?![aiuy])",
+    "examples": [
+      {
+        "word": "machen",
+        "say": "MA-khuhn",
+        "en": "to make, to do"
+      },
+      {
+        "word": "danke",
+        "say": "DAN-kuh",
+        "en": "thanks"
+      },
+      {
+        "word": "der Mann",
+        "say": "dare man",
+        "en": "man"
+      },
+      {
+        "word": "der Abend",
+        "say": "dare AH-buhnt",
+        "en": "evening"
+      }
+    ]
+  },
+  {
+    "title": "A vowel before one consonant and a vowel is long",
+    "body": "A vowel followed by a single consonant and then another vowel is usually long. Short words ending in one consonant vary: gut and Tag are long, but mit, das, in, an and um are short.",
+    "pattern": "[aeiouäöü](?=[bdfgklmnprstvwzß][aeiouäöüy])",
+    "examples": [
+      {
+        "word": "der Name",
+        "say": "dare NAH-muh",
+        "en": "name"
+      },
+      {
+        "word": "leben",
+        "say": "LAY-buhn",
+        "en": "to live"
+      },
+      {
+        "word": "der Ofen",
+        "say": "dare OH-fuhn",
+        "en": "oven"
+      },
+      {
+        "word": "sagen",
+        "say": "ZAH-guhn",
+        "en": "to say"
+      }
+    ]
+  },
+  {
+    "title": "r after a vowel melts into a soft “uh”",
+    "body": "When r follows a vowel and no vowel comes after it, it is not a real r: it becomes a soft “uh” or just lengthens the vowel. In Austria and the south you may hear a light r instead.",
+    "pattern": "(?<=[aeiouäöüy]h?)r(?![aeiouäöüyr])",
+    "examples": [
+      {
+        "word": "hier",
+        "say": "hee-uh",
+        "en": "here"
+      },
+      {
+        "word": "vier",
+        "say": "fee-uh",
+        "en": "four"
+      },
+      {
+        "word": "die Uhr",
+        "say": "dee oo-uh",
+        "en": "clock, o'clock"
+      },
+      {
+        "word": "sehr",
+        "say": "zay-uh",
+        "en": "very"
+      }
+    ]
+  },
+  {
+    "title": "A word starting with a vowel begins with a small catch",
+    "body": "German doesn't run words together. A word that starts with a vowel begins with a tiny catch in the throat, as in “uh-oh”, so am Abend is not “a-mabend”. The same happens after a prefix inside a word.",
+    "pattern": "(?<=\\p{L} )[aeiouäöü]",
+    "examples": [
+      {
+        "word": "am Abend",
+        "say": "am AH-buhnt",
+        "en": "in the evening"
+      },
+      {
+        "word": "ich esse",
+        "say": "ikh ES-uh",
+        "en": "I eat"
+      },
+      {
+        "word": "beantworten",
+        "say": "buh-ANT-vor-tuhn",
+        "en": "to answer"
+      },
+      {
+        "word": "der Verein",
+        "say": "dare fair-INE",
+        "en": "club"
+      }
+    ]
+  },
+  {
+    "title": "Stressed e is “ay” when long, “e” in “bed” when short",
+    "body": "Long e is like “ay” in “say”, but pure, without the glide to “ee”. Short e is like the “e” in “bed”. Unstressed e in endings and prefixes is a weak “uh”.",
+    "pattern": "(?<![ie])e(?![iuey]|[lmnrst]?(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "der Weg",
+        "say": "dare vayk",
+        "en": "way, path"
+      },
+      {
+        "word": "lesen",
+        "say": "LAY-zuhn",
+        "en": "to read"
+      },
+      {
+        "word": "sehen",
+        "say": "ZAY-uhn",
+        "en": "to see"
+      },
+      {
+        "word": "gestern",
+        "say": "GES-tuhn",
+        "en": "yesterday"
+      }
+    ]
+  },
+  {
+    "title": "i is “ee” when long, “i” in “bit” when short",
+    "body": "Long i (often written ie or ih) is the “ee” of “see”. Short i, before two consonants or in small words, is the “i” of “bit”. It is never the “eye” of English “mine”.",
+    "pattern": "(?<![ae])i(?!e)",
+    "examples": [
+      {
+        "word": "mit",
+        "say": "mit",
+        "en": "with"
+      },
+      {
+        "word": "bis",
+        "say": "bis",
+        "en": "until"
+      },
+      {
+        "word": "das Kino",
+        "say": "dass KEE-noh",
+        "en": "cinema"
+      },
+      {
+        "word": "die Minute",
+        "say": "dee mee-NOO-tuh",
+        "en": "minute"
+      }
+    ]
+  },
+  {
+    "title": "Unstressed -en, -el, -em, -es, -et have a weak “uh”",
+    "body": "In these unstressed endings the e is a weak “uh”. In everyday speech -en is often reduced to a plain “n”, so haben sounds close to “HAH-bn”.",
+    "pattern": "(?<=\\p{L}{2})(?<![ie])e[nlmst](?!\\p{L})",
+    "examples": [
+      {
+        "word": "haben",
+        "say": "HAH-buhn",
+        "en": "to have"
+      },
+      {
+        "word": "der Onkel",
+        "say": "dare ONG-kuhl",
+        "en": "uncle"
+      },
+      {
+        "word": "dieses",
+        "say": "DEE-zuhs",
+        "en": "this"
+      },
+      {
+        "word": "arbeitet",
+        "say": "AR-bye-tuht",
+        "en": "works"
+      }
+    ]
+  },
+  {
+    "title": "u is “oo” as in “moon”, short like “put”",
+    "body": "Long u is the “oo” of “moon”; short u is the “u” of “put”. It is never the “u” of “cut” or “cute”.",
+    "pattern": "(?<![aeäq])u",
+    "examples": [
+      {
+        "word": "gut",
+        "say": "goot",
+        "en": "good"
+      },
+      {
+        "word": "zu",
+        "say": "tsoo",
+        "en": "to, too"
+      },
+      {
+        "word": "und",
+        "say": "oont",
+        "en": "and"
+      },
+      {
+        "word": "die Stunde",
+        "say": "dee SHTOON-duh",
+        "en": "hour"
+      }
+    ]
+  },
+  {
+    "title": "A vowel before a double consonant, ck or tz is short",
+    "body": "Two consonant letters after a vowel show that the vowel is short and crisp. The consonant itself is said only once, not held: ck is just “k” and tz is “ts”.",
+    "pattern": "[aeiouäöü](?=bb|dd|ff|gg|ll|mm|nn|pp|rr|ss|tt|ck|tz)",
+    "examples": [
+      {
+        "word": "kommen",
+        "say": "KOM-uhn",
+        "en": "to come"
+      },
+      {
+        "word": "essen",
+        "say": "ES-uhn",
+        "en": "to eat"
+      },
+      {
+        "word": "die Katze",
+        "say": "dee KAT-suh",
+        "en": "cat"
+      },
+      {
+        "word": "das Bett",
+        "say": "dass bet",
+        "en": "bed"
+      }
+    ]
+  },
+  {
+    "title": "o is a pure “oh” when long, short like “hot”",
+    "body": "Long o is a pure “oh” with rounded lips, without the “w” glide of English “go”. Short o is like the “o” in British “hot”.",
+    "pattern": "(?<!o)o(?![ou])",
+    "examples": [
+      {
+        "word": "wohnen",
+        "say": "VOH-nuhn",
+        "en": "to live (somewhere)"
+      },
+      {
+        "word": "oben",
+        "say": "OH-buhn",
+        "en": "up, upstairs"
+      },
+      {
+        "word": "oft",
+        "say": "oft",
+        "en": "often"
+      },
+      {
+        "word": "die Sonne",
+        "say": "dee ZON-uh",
+        "en": "sun"
+      }
+    ]
+  },
+  {
+    "title": "Final e is never silent: say “uh”",
+    "body": "An e at the end of a word is always pronounced, as a short weak “uh” like the “a” in “sofa”. Only ee (Tee, Idee) and ie (die, Sie) are different.",
+    "pattern": "(?<=\\p{L})(?<![ie])e(?!\\p{L})",
+    "examples": [
+      {
+        "word": "ich habe",
+        "say": "ikh HAH-buh",
+        "en": "I have"
+      },
+      {
+        "word": "bitte",
+        "say": "BIT-uh",
+        "en": "please"
+      },
+      {
+        "word": "die Tasche",
+        "say": "dee TASH-uh",
+        "en": "bag"
+      },
+      {
+        "word": "alle",
+        "say": "AL-uh",
+        "en": "all"
+      }
+    ]
+  },
+  {
+    "title": "r before a vowel is made in the throat",
+    "body": "Before a vowel, r is a light gargled sound at the back of the throat, close to a soft French r. A rolled tongue-tip r, common in Bavaria and Austria, is also correct. Never use the English r.",
+    "pattern": "r(?=[aeiouäöüy])",
+    "examples": [
+      {
+        "word": "rot",
+        "say": "roht",
+        "en": "red"
+      },
+      {
+        "word": "das Radio",
+        "say": "dass RAH-dee-oh",
+        "en": "radio"
+      },
+      {
+        "word": "die Reise",
+        "say": "dee RYE-zuh",
+        "en": "trip"
+      },
+      {
+        "word": "hören",
+        "say": "HÖ-ruhn",
+        "en": "to hear"
+      }
+    ]
+  },
+  {
+    "title": "ei and ai sound like “eye”",
+    "body": "Both ei and ai are said like English “eye”. Read the second letter wrongly and ei turns into ie, a different word.",
+    "pattern": "ei|ai",
+    "examples": [
+      {
+        "word": "mein",
+        "say": "mine",
+        "en": "my"
+      },
+      {
+        "word": "drei",
+        "say": "dry",
+        "en": "three"
+      },
+      {
+        "word": "die Zeit",
+        "say": "dee tsite",
+        "en": "time"
+      },
+      {
+        "word": "der Mai",
+        "say": "dare my",
+        "en": "May"
+      }
+    ]
+  },
+  {
+    "title": "ie sounds like “ee”",
+    "body": "ie is a long “ee” as in “see”, never “eye”. In a few words from Latin the letters are said apart, “ee-uh”: Familie, Ferien, Italien.",
+    "pattern": "ie",
+    "examples": [
+      {
+        "word": "die",
+        "say": "dee",
+        "en": "the"
+      },
+      {
+        "word": "die Liebe",
+        "say": "dee LEE-buh",
+        "en": "love"
+      },
+      {
+        "word": "viel",
+        "say": "feel",
+        "en": "much"
+      },
+      {
+        "word": "die Familie",
+        "say": "dee fa-MEE-lee-uh",
+        "en": "family"
+      }
+    ]
+  },
+  {
+    "title": "s before a vowel sounds like “z”",
+    "body": "Before a vowel, s is a buzzing “z”: sie, also, Sohn. In southern Germany, Austria and Switzerland it is often a plain “s”.",
+    "pattern": "(?<!\\p{L})s(?=[aeiouäöüy])|(?<=[aeiouäöüylrnm])s(?=[aeiouäöüy])",
+    "examples": [
+      {
+        "word": "sie",
+        "say": "zee",
+        "en": "she, they"
+      },
+      {
+        "word": "also",
+        "say": "AL-zoh",
+        "en": "so, well"
+      },
+      {
+        "word": "der Sohn",
+        "say": "dare zohn",
+        "en": "son"
+      },
+      {
+        "word": "unser",
+        "say": "OON-zuh",
+        "en": "our"
+      }
+    ]
+  },
+  {
+    "title": "b, d, g at the end of a syllable sound like p, t, k",
+    "body": "At the end of a word or syllable, and before most consonants, b, d and g lose their buzz and become “p”, “t”, “k”. dt is also a plain “t”: Stadt.",
+    "pattern": "(?:b|d|(?<!n|(?<!e)i)g)(?![aeiouäöüylrj])",
+    "examples": [
+      {
+        "word": "und",
+        "say": "oont",
+        "en": "and"
+      },
+      {
+        "word": "der Tag",
+        "say": "dare tahk",
+        "en": "day"
+      },
+      {
+        "word": "halb",
+        "say": "halp",
+        "en": "half"
+      },
+      {
+        "word": "das Kind",
+        "say": "dass kint",
+        "en": "child"
+      }
+    ]
+  },
+  {
+    "title": "w sounds like English “v”",
+    "body": "w is always the English “v”. German has no “w” sound of English “water”.",
+    "pattern": "w",
+    "examples": [
+      {
+        "word": "was",
+        "say": "vas",
+        "en": "what"
+      },
+      {
+        "word": "wo",
+        "say": "voh",
+        "en": "where"
+      },
+      {
+        "word": "die Woche",
+        "say": "dee VO-khuh",
+        "en": "week"
+      },
+      {
+        "word": "die Welt",
+        "say": "dee velt",
+        "en": "world"
+      }
+    ]
+  },
+  {
+    "title": "h after a vowel is silent and makes it long",
+    "body": "After a vowel, h is not pronounced. Before a consonant or at the end of a word it only shows that the vowel is long; between two vowels it is silent too.",
+    "pattern": "(?<=[aeiouäöü])h",
+    "examples": [
+      {
+        "word": "die Bahn",
+        "say": "dee bahn",
+        "en": "train, railway"
+      },
+      {
+        "word": "zehn",
+        "say": "tsayn",
+        "en": "ten"
+      },
+      {
+        "word": "fahren",
+        "say": "FAH-ruhn",
+        "en": "to drive, to go"
+      },
+      {
+        "word": "gehen",
+        "say": "GAY-uhn",
+        "en": "to go, to walk"
+      }
+    ]
+  },
+  {
+    "title": "z and tz sound like “ts”",
+    "body": "z is always “ts” as in “cats”, even at the start of a word. tz is the same sound.",
+    "pattern": "z",
+    "examples": [
+      {
+        "word": "das Zimmer",
+        "say": "dass TSIM-uh",
+        "en": "room"
+      },
+      {
+        "word": "zwei",
+        "say": "tsvye",
+        "en": "two"
+      },
+      {
+        "word": "jetzt",
+        "say": "yetst",
+        "en": "now"
+      },
+      {
+        "word": "der Platz",
+        "say": "dare plats",
+        "en": "place, square"
+      }
+    ]
+  },
+  {
+    "title": "ch after e, i, ä, ö, ü and consonants is a soft hiss",
+    "body": "After other vowels, after ei, eu and consonants, and in -chen, ch is soft: put your tongue as for the “y” in “yes” and breathe out, like the “h” in “huge”. Don't make it “sh” or “k”.",
+    "pattern": "(?<=[eiäöüylrnmdt]|[eä]u)ch(?!s)",
+    "examples": [
+      {
+        "word": "ich",
+        "say": "ikh",
+        "en": "I"
+      },
+      {
+        "word": "nicht",
+        "say": "nikht",
+        "en": "not"
+      },
+      {
+        "word": "die Milch",
+        "say": "dee milkh",
+        "en": "milk"
+      },
+      {
+        "word": "das Mädchen",
+        "say": "dass MAYT-khuhn",
+        "en": "girl"
+      }
+    ]
+  },
+  {
+    "title": "Final -er sounds like a short “uh”",
+    "body": "Unstressed -er (also -ern, -ers) at the end of a word has no real r. It is a short open “uh”, a little more open than the final e: Lehrer ends like “LAY-ruh”.",
+    "pattern": "(?<=\\p{L}{2})(?<![ie])er(?=[ns]?(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "aber",
+        "say": "AH-buh",
+        "en": "but"
+      },
+      {
+        "word": "das Wasser",
+        "say": "dass VAS-uh",
+        "en": "water"
+      },
+      {
+        "word": "immer",
+        "say": "IM-uh",
+        "en": "always"
+      },
+      {
+        "word": "der Lehrer",
+        "say": "dare LAY-ruh",
+        "en": "teacher"
+      }
+    ]
+  },
+  {
+    "title": "h at the start of a word or syllable is an English “h”",
+    "body": "At the start of a word or of a word part, h is a breathy “h” as in “house”.",
+    "pattern": "(?<![aeiouäöücspt])h",
+    "examples": [
+      {
+        "word": "helfen",
+        "say": "HEL-fuhn",
+        "en": "to help"
+      },
+      {
+        "word": "der Bahnhof",
+        "say": "dare BAHN-hohf",
+        "en": "station"
+      },
+      {
+        "word": "hundert",
+        "say": "HOON-duht",
+        "en": "hundred"
+      }
+    ]
+  },
+  {
+    "title": "be-, ge-, ver-, er-, ent-, emp-, zer- are never stressed",
+    "body": "These prefixes are always unstressed, so the stress falls on the syllable after them. be- and ge- have a weak “uh”; ver- and er- sound like “fair” and “air” without the r.",
+    "pattern": "(?<!\\p{L})(?:be|ge|ver|zer|ent|emp|er)(?=\\p{L}{3})(?!i|hen|ben|stern|rn|gen(?!\\p{L})|sser|st(?:e[nrs]?)?(?!\\p{L})|de|nst)",
+    "examples": [
+      {
+        "word": "bezahlen",
+        "say": "buh-TSAH-luhn",
+        "en": "to pay"
+      },
+      {
+        "word": "das Gemüse",
+        "say": "dass guh-MÜ-zuh",
+        "en": "vegetables"
+      },
+      {
+        "word": "verstehen",
+        "say": "fair-SHTAY-uhn",
+        "en": "to understand"
+      },
+      {
+        "word": "erzählen",
+        "say": "air-TSAY-luhn",
+        "en": "to tell"
+      }
+    ]
+  },
+  {
+    "title": "au sounds like “ow” in “how”",
+    "body": "au is the “ow” of “how”, never the “aw” of “law”.",
+    "pattern": "au",
+    "examples": [
+      {
+        "word": "kaufen",
+        "say": "KOW-fuhn",
+        "en": "to buy"
+      },
+      {
+        "word": "die Frau",
+        "say": "dee frow",
+        "en": "woman"
+      },
+      {
+        "word": "aus",
+        "say": "ows",
+        "en": "out, from"
+      },
+      {
+        "word": "das Haus",
+        "say": "dass hows",
+        "en": "house"
+      }
+    ]
+  },
+  {
+    "title": "ch after a, o, u, au is a throaty “kh” as in “loch”",
+    "body": "After a, o, u and au, ch is a rough sound from the back of the throat, like Scottish “loch”. It is never “ch” as in “church” and never a plain “k”.",
+    "pattern": "(?<=[aou])(?<![eä]u)ch(?!s)",
+    "examples": [
+      {
+        "word": "das Buch",
+        "say": "dass bookh",
+        "en": "book"
+      },
+      {
+        "word": "acht",
+        "say": "akht",
+        "en": "eight"
+      },
+      {
+        "word": "noch",
+        "say": "nokh",
+        "en": "still, yet"
+      },
+      {
+        "word": "auch",
+        "say": "owkh",
+        "en": "also"
+      }
+    ]
+  },
+  {
+    "title": "sch sounds like “sh”",
+    "body": "sch is always the English “sh”.",
+    "pattern": "sch",
+    "examples": [
+      {
+        "word": "die Schule",
+        "say": "dee SHOO-luh",
+        "en": "school"
+      },
+      {
+        "word": "schnell",
+        "say": "shnel",
+        "en": "fast"
+      },
+      {
+        "word": "der Fisch",
+        "say": "dare fish",
+        "en": "fish"
+      },
+      {
+        "word": "schreiben",
+        "say": "SHRYE-buhn",
+        "en": "to write"
+      }
+    ]
+  },
+  {
+    "title": "ü is “ee” said with rounded lips",
+    "body": "Say “ee” and round your lips tightly as for “oo”, like French u. Short ü is the same with the “i” of “bit”. Don't say “oo” or “yoo”.",
+    "pattern": "ü",
+    "examples": [
+      {
+        "word": "über",
+        "say": "Ü-buh",
+        "en": "over, about"
+      },
+      {
+        "word": "fünf",
+        "say": "fünf",
+        "en": "five"
+      },
+      {
+        "word": "müde",
+        "say": "MÜ-duh",
+        "en": "tired"
+      },
+      {
+        "word": "die Küche",
+        "say": "dee KÜ-khuh",
+        "en": "kitchen"
+      }
+    ]
+  },
+  {
+    "title": "ss and ß are a sharp “s”",
+    "body": "Both are the sharp “s” of “miss”, never “z”. ß comes after long vowels and ei, au, eu, while ss comes after short vowels, so they also tell you the vowel length.",
+    "pattern": "ss|ß",
+    "examples": [
+      {
+        "word": "groß",
+        "say": "grohs",
+        "en": "big"
+      },
+      {
+        "word": "der Fuß",
+        "say": "dare foos",
+        "en": "foot"
+      },
+      {
+        "word": "heißen",
+        "say": "HYE-suhn",
+        "en": "to be called"
+      },
+      {
+        "word": "wissen",
+        "say": "VIS-uhn",
+        "en": "to know"
+      }
+    ]
+  },
+  {
+    "title": "v usually sounds like “f”",
+    "body": "In German words v is “f”: Vater, viel, von. In words from Latin or French it is “v”: November, Universität, Video, Klavier.",
+    "pattern": "v",
+    "examples": [
+      {
+        "word": "der Vater",
+        "say": "dare FAH-tuh",
+        "en": "father"
+      },
+      {
+        "word": "von",
+        "say": "fon",
+        "en": "from, of"
+      },
+      {
+        "word": "voll",
+        "say": "fol",
+        "en": "full"
+      },
+      {
+        "word": "der November",
+        "say": "dare no-VEM-buh",
+        "en": "November"
+      }
+    ]
+  },
+  {
+    "title": "ng is one sound, as in “singer”",
+    "body": "ng is the single sound of “singer”, with no g after it as in “finger”; nk is “ngk” as in “think”. When n and g belong to different word parts, both are said: an-ge-kommen.",
+    "pattern": "(?<!(?<!\\p{L})(?:a|ei|hi|u))ng|(?<!\\p{L})angst",
+    "examples": [
+      {
+        "word": "lang",
+        "say": "lahng",
+        "en": "long"
+      },
+      {
+        "word": "die Zeitung",
+        "say": "dee TSYE-toong",
+        "en": "newspaper"
+      },
+      {
+        "word": "der Finger",
+        "say": "dare FING-uh",
+        "en": "finger"
+      },
+      {
+        "word": "singen",
+        "say": "ZING-uhn",
+        "en": "to sing"
+      }
+    ]
+  },
+  {
+    "title": "sp and st at the start of a word are “shp”, “sht”",
+    "body": "At the start of a word or word part, sp and st are said “shp” and “sht”. Inside or at the end of a word they are a plain “sp” and “st”: Fenster, ist, gestern.",
+    "pattern": "(?<!\\p{L})(?:ver)?s[pt]",
+    "examples": [
+      {
+        "word": "sprechen",
+        "say": "SHPREKH-uhn",
+        "en": "to speak"
+      },
+      {
+        "word": "die Stadt",
+        "say": "dee shtat",
+        "en": "city, town"
+      },
+      {
+        "word": "die Straße",
+        "say": "dee SHTRAH-suh",
+        "en": "street"
+      },
+      {
+        "word": "spät",
+        "say": "shpayt",
+        "en": "late"
+      }
+    ]
+  },
+  {
+    "title": "ä sounds like the German e",
+    "body": "ä is said like e: short ä is the “e” of “bed”; long ä is a long open “eh”, which many speakers say like long e, “ay”.",
+    "pattern": "ä(?!u)",
+    "examples": [
+      {
+        "word": "später",
+        "say": "SHPAY-tuh",
+        "en": "later"
+      },
+      {
+        "word": "die Äpfel",
+        "say": "dee EP-fuhl",
+        "en": "apples"
+      },
+      {
+        "word": "erklären",
+        "say": "air-KLAY-ruhn",
+        "en": "to explain"
+      },
+      {
+        "word": "hätte",
+        "say": "HET-uh",
+        "en": "would have"
+      }
+    ]
+  },
+  {
+    "title": "eu and äu sound like “oy” in “boy”",
+    "body": "Both eu and äu are said like the “oy” of “boy”. In a few loanwords e and u are separate: Museum is “moo-ZAY-oom”.",
+    "pattern": "(?<!us)eu|äu",
+    "examples": [
+      {
+        "word": "heute",
+        "say": "HOY-tuh",
+        "en": "today"
+      },
+      {
+        "word": "neu",
+        "say": "noy",
+        "en": "new"
+      },
+      {
+        "word": "der Euro",
+        "say": "dare OY-roh",
+        "en": "euro"
+      },
+      {
+        "word": "die Verkäuferin",
+        "say": "dee fair-KOY-fuh-rin",
+        "en": "saleswoman"
+      }
+    ]
+  },
+  {
+    "title": "j sounds like “y” in “yes”",
+    "body": "j is the “y” of “yes”. Some English and French loanwords keep their own sound, such as Job and Journalist.",
+    "pattern": "j",
+    "examples": [
+      {
+        "word": "ja",
+        "say": "yah",
+        "en": "yes"
+      },
+      {
+        "word": "das Jahr",
+        "say": "dass yaa",
+        "en": "year"
+      },
+      {
+        "word": "die Jacke",
+        "say": "dee YAK-uh",
+        "en": "jacket"
+      },
+      {
+        "word": "der Januar",
+        "say": "dare YAN-oo-ar",
+        "en": "January"
+      }
+    ]
+  },
+  {
+    "title": "ö is “ay” said with rounded lips",
+    "body": "ö has no English equivalent. Say “ay” and round your lips as for “oh”; for short ö, say the “e” of “bed” with rounded lips. It is close to the vowel of British “bird”.",
+    "pattern": "ö",
+    "examples": [
+      {
+        "word": "schön",
+        "say": "shön",
+        "en": "beautiful, nice"
+      },
+      {
+        "word": "möchte",
+        "say": "MÖKH-tuh",
+        "en": "would like"
+      },
+      {
+        "word": "können",
+        "say": "KÖN-uhn",
+        "en": "can"
+      },
+      {
+        "word": "zwölf",
+        "say": "tsvölf",
+        "en": "twelve"
+      }
+    ]
+  },
+  {
+    "title": "-ig at the end sounds like “ikh”",
+    "body": "At the end of a word, or before a consonant, -ig is said with the soft ch of ich: “ikh”. In southern Germany, Austria and Switzerland you will also hear “ik”.",
+    "pattern": "(?<!e)ig(?![aeiouäöüyl])",
+    "examples": [
+      {
+        "word": "zwanzig",
+        "say": "TSVAN-tsikh",
+        "en": "twenty"
+      },
+      {
+        "word": "richtig",
+        "say": "RIKH-tikh",
+        "en": "right, correct"
+      },
+      {
+        "word": "wichtig",
+        "say": "VIKH-tikh",
+        "en": "important"
+      },
+      {
+        "word": "ruhig",
+        "say": "ROO-ikh",
+        "en": "quiet, calm"
+      }
+    ]
+  },
+  {
+    "title": "Loanwords often stress the end: -ieren, -tät, -ei",
+    "body": "Many words from French, Latin or English stress a late syllable: verbs in -ieren stress the ie, nouns in -tät and -ei stress that ending. Musik, Büro and Café also stress the last syllable.",
+    "pattern": "(?<=\\p{L}{3})(?<!e)ier(?=en|t|e|st)|tät|(?<=\\p{L}{4})ei(?!\\p{L})",
+    "examples": [
+      {
+        "word": "studieren",
+        "say": "shtoo-DEE-ruhn",
+        "en": "to study"
+      },
+      {
+        "word": "die Universität",
+        "say": "dee oo-nee-ver-zee-TAYT",
+        "en": "university"
+      },
+      {
+        "word": "die Polizei",
+        "say": "dee po-lee-TSYE",
+        "en": "police"
+      },
+      {
+        "word": "das Büro",
+        "say": "dass bü-ROH",
+        "en": "office"
+      }
+    ]
+  },
+  {
+    "title": "aa, ee, oo are long vowels",
+    "body": "A doubled vowel is simply long. aa is a long “ah”, oo a long “oh”, and ee a long “ay”, as in Tee and Idee.",
+    "pattern": "aa|ee|oo",
+    "examples": [
+      {
+        "word": "ein paar",
+        "say": "ine paa",
+        "en": "a few"
+      },
+      {
+        "word": "die Idee",
+        "say": "dee ee-DAY",
+        "en": "idea"
+      },
+      {
+        "word": "der Tee",
+        "say": "dare tay",
+        "en": "tea"
+      },
+      {
+        "word": "das Boot",
+        "say": "dass boht",
+        "en": "boat"
+      }
+    ]
+  },
+  {
+    "title": "y is like ü in Greek words, English in English ones",
+    "body": "In words from Greek, y is said like ü: Typ, Physik. In English loanwords it keeps its English sound: Handy, Party. In names it varies.",
+    "pattern": "y",
+    "examples": [
+      {
+        "word": "der Typ",
+        "say": "dare tüp",
+        "en": "guy, type"
+      },
+      {
+        "word": "die Physik",
+        "say": "dee fü-ZEEK",
+        "en": "physics"
+      },
+      {
+        "word": "das Handy",
+        "say": "dass HEN-dee",
+        "en": "mobile phone"
+      },
+      {
+        "word": "die Party",
+        "say": "dee PAR-tee",
+        "en": "party"
+      }
+    ]
+  },
+  {
+    "title": "c alone, in loanwords, is mostly “k”",
+    "body": "c on its own appears in loanwords and names. Before a, o, u and consonants it is “k”: Café, Computer, Cola. Before e and i it is often “s” or “ts”.",
+    "pattern": "c(?![hk])",
+    "examples": [
+      {
+        "word": "das Café",
+        "say": "dass ka-FAY",
+        "en": "café"
+      },
+      {
+        "word": "der Computer",
+        "say": "dare kom-PYOO-tuh",
+        "en": "computer"
+      },
+      {
+        "word": "die Cola",
+        "say": "dee KOH-la",
+        "en": "cola"
+      }
+    ]
+  },
+  {
+    "title": "tsch sounds like English “ch”",
+    "body": "tsch is the “ch” of “church”, as in Deutsch.",
+    "pattern": "tsch",
+    "examples": [
+      {
+        "word": "Deutsch",
+        "say": "doych",
+        "en": "German"
+      },
+      {
+        "word": "Deutschland",
+        "say": "DOYCH-lant",
+        "en": "Germany"
+      },
+      {
+        "word": "die Zeitschrift",
+        "say": "dee TSITE-shrift",
+        "en": "magazine"
+      }
+    ]
+  },
+  {
+    "title": "pf: say both the p and the f",
+    "body": "pf is “p” and “f” said together in one quick sound, as in English “cupful”. Don't drop the p.",
+    "pattern": "pf",
+    "examples": [
+      {
+        "word": "der Apfel",
+        "say": "dare AP-fuhl",
+        "en": "apple"
+      },
+      {
+        "word": "der Kopf",
+        "say": "dare kopf",
+        "en": "head"
+      },
+      {
+        "word": "empfehlen",
+        "say": "emp-FAY-luhn",
+        "en": "to recommend"
+      }
+    ]
+  },
+  {
+    "title": "th sounds like a plain “t”",
+    "body": "th is just “t”, never the English “th”. In compounds like Rathaus, t and h belong to different parts and are said separately.",
+    "pattern": "(?<![stz]|en)th(?!aus|in(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "das Theater",
+        "say": "dass tay-AH-tuh",
+        "en": "theatre"
+      },
+      {
+        "word": "das Thema",
+        "say": "dass TAY-ma",
+        "en": "topic"
+      },
+      {
+        "word": "die Apotheke",
+        "say": "dee a-po-TAY-kuh",
+        "en": "pharmacy"
+      },
+      {
+        "word": "die Bibliothek",
+        "say": "dee bib-lee-o-TAYK",
+        "en": "library"
+      }
+    ]
+  },
+  {
+    "title": "-tion sounds like “tsyohn” and is stressed",
+    "body": "The ending -tion is said “tsyohn”, with the stress on it. The t is a “ts”, never the “sh” of English “nation”.",
+    "pattern": "tion",
+    "examples": [
+      {
+        "word": "die Information",
+        "say": "dee in-for-ma-TSYOHN",
+        "en": "information"
+      },
+      {
+        "word": "die Rezeption",
+        "say": "dee re-tsep-TSYOHN",
+        "en": "reception desk"
+      },
+      {
+        "word": "die Situation",
+        "say": "dee zi-too-a-TSYOHN",
+        "en": "situation"
+      },
+      {
+        "word": "die Tradition",
+        "say": "dee tra-di-TSYOHN",
+        "en": "tradition"
+      }
+    ]
+  },
+  {
+    "title": "chs inside a word sounds like “ks”",
+    "body": "Inside a word, chs is said “ks”: sechs, wechseln, wachsen. When the s belongs to an ending or a new word part, ch keeps its own sound: nächste, machst, Buchstabe.",
+    "pattern": "(?:se|wa|wä|we|sa|fu|bü)chs(?![tc])",
+    "examples": [
+      {
+        "word": "sechs",
+        "say": "zeks",
+        "en": "six"
+      },
+      {
+        "word": "wechseln",
+        "say": "VEK-suhln",
+        "en": "to change, to exchange"
+      },
+      {
+        "word": "wachsen",
+        "say": "VAK-suhn",
+        "en": "to grow"
+      },
+      {
+        "word": "die Erwachsene",
+        "say": "dee air-VAK-suh-nuh",
+        "en": "adult (woman)"
+      }
+    ]
+  },
+  {
+    "title": "ch at the start of a word: “sh” or “k”",
+    "body": "A word only starts with ch in loanwords. French words have “sh” (Chef, Chance); Chor, Chaos and Charakter have “k”; English words such as Chat keep the English “ch”.",
+    "pattern": "(?<!\\p{L})ch",
+    "examples": [
+      {
+        "word": "der Chef",
+        "say": "dare shef",
+        "en": "boss"
+      },
+      {
+        "word": "die Chance",
+        "say": "dee SHAHN-suh",
+        "en": "chance"
+      },
+      {
+        "word": "der Chor",
+        "say": "dare koh-uh",
+        "en": "choir"
+      },
+      {
+        "word": "das Chaos",
+        "say": "dass KAH-os",
+        "en": "chaos"
+      }
+    ]
+  },
+  {
+    "title": "qu sounds like “kv”",
+    "body": "qu is “k” followed by the German w, so “kv”, never the “kw” of English “queen”.",
+    "pattern": "qu",
+    "examples": [
+      {
+        "word": "bequem",
+        "say": "buh-KVAYM",
+        "en": "comfortable"
+      },
+      {
+        "word": "die Quittung",
+        "say": "dee KVIT-oong",
+        "en": "receipt"
+      },
+      {
+        "word": "der Quadratmeter",
+        "say": "dare kva-DRAHT-may-tuh",
+        "en": "square metre"
+      }
+    ]
+  },
+  {
+    "title": "ph sounds like “f”",
+    "body": "ph appears in words from Greek and is said “f”, as in English “phone”.",
+    "pattern": "ph",
+    "examples": [
+      {
+        "word": "die Physik",
+        "say": "dee fü-ZEEK",
+        "en": "physics"
+      },
+      {
+        "word": "die Katastrophe",
+        "say": "dee ka-tas-TROH-fuh",
+        "en": "disaster"
+      },
+      {
+        "word": "die Atmosphäre",
+        "say": "dee at-mos-FAY-ruh",
+        "en": "atmosphere"
+      }
+    ]
+  },
+  {
+    "title": "é in French words is a long “ay”",
+    "body": "The accent in words like Café marks a long “ay”, and that syllable is stressed.",
+    "pattern": "é",
+    "examples": [
+      {
+        "word": "das Café",
+        "say": "dass ka-FAY",
+        "en": "café"
+      },
+      {
+        "word": "das Sprachcafé",
+        "say": "dass SHPRAHKH-ka-fay",
+        "en": "language café"
+      }
+    ]
+  }
+]

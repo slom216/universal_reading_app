@@ -1,0 +1,1648 @@
+[
+  {
+    "title": "Every character is one syllable",
+    "body": "Each Chinese character is read as exactly one syllable with its own tone. Words are often two or more characters, written with no spaces between words.",
+    "pattern": "\\p{sc=Han}",
+    "examples": [
+      {
+        "word": "我 (wǒ)",
+        "say": "waw, dipping",
+        "en": "I"
+      },
+      {
+        "word": "中国 (Zhōngguó)",
+        "say": "joong-GWAW, high + rising",
+        "en": "China"
+      },
+      {
+        "word": "学生 (xuésheng)",
+        "say": "SHÜEH-shung, rising + neutral",
+        "en": "student"
+      }
+    ]
+  },
+  {
+    "title": "Tone 4 (à) falls sharply",
+    "body": "The fourth tone starts high and drops fast to the bottom, like a firm “No!”.",
+    "pattern": "(?<![a-zü])[a-zü]+4(?!\\d)",
+    "examples": [
+      {
+        "word": "是 (shì)",
+        "say": "shr, falling",
+        "en": "to be"
+      },
+      {
+        "word": "去 (qù)",
+        "say": "chü, falling",
+        "en": "to go"
+      },
+      {
+        "word": "大 (dà)",
+        "say": "dah, falling",
+        "en": "big"
+      },
+      {
+        "word": "对 (duì)",
+        "say": "dway, falling",
+        "en": "correct"
+      }
+    ]
+  },
+  {
+    "title": "Tone 1 (ā) is high and level",
+    "body": "The first tone is high and flat, like holding one sung note. Keep the pitch steady to the end.",
+    "pattern": "(?<![a-zü])[a-zü]+1(?!\\d)",
+    "examples": [
+      {
+        "word": "他 (tā)",
+        "say": "tah, high",
+        "en": "he"
+      },
+      {
+        "word": "妈 (mā)",
+        "say": "mah, high",
+        "en": "mother"
+      },
+      {
+        "word": "天 (tiān)",
+        "say": "tyen, high",
+        "en": "day, sky"
+      },
+      {
+        "word": "书 (shū)",
+        "say": "shoo, high",
+        "en": "book"
+      }
+    ]
+  },
+  {
+    "title": "Tone 3 (ǎ) is low, and dips only at the end",
+    "body": "The third tone is low. Said alone or at the end of a phrase it dips down and rises again. Before another syllable it just stays low and does not rise.",
+    "pattern": "(?<![a-zü])[a-zü]+3(?!\\d)",
+    "examples": [
+      {
+        "word": "我 (wǒ)",
+        "say": "waw, dipping",
+        "en": "I"
+      },
+      {
+        "word": "你 (nǐ)",
+        "say": "nee, dipping",
+        "en": "you"
+      },
+      {
+        "word": "好 (hǎo)",
+        "say": "how, dipping",
+        "en": "good"
+      },
+      {
+        "word": "我们 (wǒmen)",
+        "say": "WAW-mun, low + neutral",
+        "en": "we"
+      }
+    ]
+  },
+  {
+    "title": "b, d, g have no puff of air",
+    "body": "Pinyin b, d, g are softer than English b, d, g and have no puff of air, like the p in “spin”, the t in “stop”, the k in “skin”.",
+    "pattern": "(?<![a-zü])[bdg]",
+    "examples": [
+      {
+        "word": "爸 (bà)",
+        "say": "bah, falling",
+        "en": "dad"
+      },
+      {
+        "word": "大 (dà)",
+        "say": "dah, falling",
+        "en": "big"
+      },
+      {
+        "word": "个 (gè)",
+        "say": "guh, falling",
+        "en": "(measure word)"
+      },
+      {
+        "word": "都 (dōu)",
+        "say": "doh, high",
+        "en": "all"
+      }
+    ]
+  },
+  {
+    "title": "m, f, n, l, s sound as in English",
+    "body": "These initials are close to English m, f, n, l and s.",
+    "pattern": "(?<![a-zü])(?:[mfnl]|s(?!h))",
+    "examples": [
+      {
+        "word": "妈 (mā)",
+        "say": "mah, high",
+        "en": "mother"
+      },
+      {
+        "word": "饭 (fàn)",
+        "say": "fahn, falling",
+        "en": "meal, rice"
+      },
+      {
+        "word": "你 (nǐ)",
+        "say": "nee, dipping",
+        "en": "you"
+      },
+      {
+        "word": "三 (sān)",
+        "say": "sahn, high",
+        "en": "three"
+      }
+    ]
+  },
+  {
+    "title": "Tone 2 (á) rises",
+    "body": "The second tone starts in the middle and rises, like the English question “What?”.",
+    "pattern": "(?<![a-zü])[a-zü]+2(?!\\d)",
+    "examples": [
+      {
+        "word": "来 (lái)",
+        "say": "lie, rising",
+        "en": "to come"
+      },
+      {
+        "word": "人 (rén)",
+        "say": "run, rising",
+        "en": "person"
+      },
+      {
+        "word": "没 (méi)",
+        "say": "may, rising",
+        "en": "not (have)"
+      },
+      {
+        "word": "学 (xué)",
+        "say": "shüeh, rising",
+        "en": "to learn"
+      }
+    ]
+  },
+  {
+    "title": "y and w only mark a syllable starting with i, u or ü",
+    "body": "At the start of a syllable, pinyin writes y and w instead of i, u, ü: yi is “ee”, wu is “oo”, yu is ü, ya is ia, wo is uo, wei is uei. Say them as the vowels they stand for.",
+    "pattern": "(?<![a-zü])[yw]",
+    "examples": [
+      {
+        "word": "一 (yī)",
+        "say": "ee, high",
+        "en": "one"
+      },
+      {
+        "word": "五 (wǔ)",
+        "say": "woo, dipping",
+        "en": "five"
+      },
+      {
+        "word": "鱼 (yú)",
+        "say": "yü, rising",
+        "en": "fish"
+      },
+      {
+        "word": "我 (wǒ)",
+        "say": "waw, dipping",
+        "en": "I"
+      }
+    ]
+  },
+  {
+    "title": "e on its own is a throaty “uh”",
+    "body": "Pinyin e alone is an “uh” said from the back of the throat, a little like the “u” in “fur” without the r. In ie, üe it is “eh”; in ei it is “ay”; in en, eng it is the “u” of “fun”.",
+    "pattern": "(?<![a-zü])(?:[mdtnlgkhzcsr]|zh|ch|sh)?e(?=\\d)",
+    "examples": [
+      {
+        "word": "喝 (hē)",
+        "say": "huh, high",
+        "en": "to drink"
+      },
+      {
+        "word": "个 (gè)",
+        "say": "guh, falling",
+        "en": "(measure word)"
+      },
+      {
+        "word": "车 (chē)",
+        "say": "chuh, high",
+        "en": "car"
+      },
+      {
+        "word": "热 (rè)",
+        "say": "ruh, falling",
+        "en": "hot"
+      }
+    ]
+  },
+  {
+    "title": "i after most initials, and yi, is “ee”",
+    "body": "Pinyin i after b, p, m, d, t, n, l, j, q, x, and the syllable yi, is “ee” as in “see”. After z, c, s and zh, ch, sh, r it is a different sound (see the next rules).",
+    "pattern": "(?<![a-zü])(?:[bpmdtnljqx]|y)i(?=\\d)",
+    "examples": [
+      {
+        "word": "你 (nǐ)",
+        "say": "nee, dipping",
+        "en": "you"
+      },
+      {
+        "word": "几 (jǐ)",
+        "say": "jee, dipping",
+        "en": "how many"
+      },
+      {
+        "word": "七 (qī)",
+        "say": "chee, high",
+        "en": "seven"
+      },
+      {
+        "word": "一 (yī)",
+        "say": "ee, high",
+        "en": "one"
+      }
+    ]
+  },
+  {
+    "title": "Some characters have more than one reading",
+    "body": "A few common characters change their sound with their meaning: 觉 is jué in 觉得 but jiào in 睡觉; 长 is cháng (long) or zhǎng (to grow); 还 is hái (still) or huán (to give back); 了 is le or liǎo. Learn them with the word.",
+    "pattern": "[了的得地着还行长重觉都好为乐]",
+    "examples": [
+      {
+        "word": "觉得 (juéde)",
+        "say": "JÜEH-duh, rising + neutral",
+        "en": "to feel, to think"
+      },
+      {
+        "word": "睡觉 (shuìjiào)",
+        "say": "shway-JYOW, falling + falling",
+        "en": "to sleep"
+      },
+      {
+        "word": "长 (cháng)",
+        "say": "chahng, rising",
+        "en": "long"
+      },
+      {
+        "word": "长大 (zhǎngdà)",
+        "say": "jahng-DAH, low + falling",
+        "en": "to grow up"
+      }
+    ]
+  },
+  {
+    "title": "The neutral tone is short and light",
+    "body": "Some syllables have no tone mark: grammar words like 的, 了, 吗 and the second part of many words. Say them short and soft; their pitch follows the syllable before.",
+    "pattern": "(?<![a-zü])[a-zü]+0",
+    "examples": [
+      {
+        "word": "的 (de)",
+        "say": "duh, neutral",
+        "en": "(possessive marker)"
+      },
+      {
+        "word": "了 (le)",
+        "say": "luh, neutral",
+        "en": "(completed action)"
+      },
+      {
+        "word": "吗 (ma)",
+        "say": "mah, neutral",
+        "en": "(question marker)"
+      },
+      {
+        "word": "妈妈 (māma)",
+        "say": "MAH-mah, high + neutral",
+        "en": "mum"
+      }
+    ]
+  },
+  {
+    "title": "p, t, k come with a strong puff of air",
+    "body": "Pinyin p, t, k are said with a strong puff of air, stronger than English “pot”, “top”, “kit”. This puff is the only difference between p and b, t and d, k and g.",
+    "pattern": "(?<![a-zü])[ptk]",
+    "examples": [
+      {
+        "word": "怕 (pà)",
+        "say": "pah, falling",
+        "en": "to fear"
+      },
+      {
+        "word": "他 (tā)",
+        "say": "tah, high",
+        "en": "he"
+      },
+      {
+        "word": "看 (kàn)",
+        "say": "kahn, falling",
+        "en": "to look"
+      },
+      {
+        "word": "跑 (pǎo)",
+        "say": "pow, dipping",
+        "en": "to run"
+      }
+    ]
+  },
+  {
+    "title": "sh is an “sh” with the tongue curled back",
+    "body": "Pinyin sh is like the “sh” in “shoe”, with the tongue tip curled up a little.",
+    "pattern": "(?<![a-zü])sh",
+    "examples": [
+      {
+        "word": "是 (shì)",
+        "say": "shr, falling",
+        "en": "to be"
+      },
+      {
+        "word": "说 (shuō)",
+        "say": "shwaw, high",
+        "en": "to say"
+      },
+      {
+        "word": "上 (shàng)",
+        "say": "shahng, falling",
+        "en": "on, up"
+      },
+      {
+        "word": "书 (shū)",
+        "say": "shoo, high",
+        "en": "book"
+      }
+    ]
+  },
+  {
+    "title": "j is like “j” in “jeep”, with the tongue flat",
+    "body": "Pinyin j is close to the “j” in “jeep”, but with no voice and the tip of the tongue resting behind the lower front teeth. It only comes before i or ü.",
+    "pattern": "(?<![a-zü])j",
+    "examples": [
+      {
+        "word": "家 (jiā)",
+        "say": "jyah, high",
+        "en": "home, family"
+      },
+      {
+        "word": "就 (jiù)",
+        "say": "jyoh, falling",
+        "en": "just, then"
+      },
+      {
+        "word": "几 (jǐ)",
+        "say": "jee, dipping",
+        "en": "how many"
+      },
+      {
+        "word": "见 (jiàn)",
+        "say": "jyen, falling",
+        "en": "to see"
+      }
+    ]
+  },
+  {
+    "title": "h is rougher than English “h”",
+    "body": "Pinyin h comes from further back in the throat than English h, halfway to the “ch” of Scottish “loch”.",
+    "pattern": "(?<![a-zü])h",
+    "examples": [
+      {
+        "word": "好 (hǎo)",
+        "say": "how, dipping",
+        "en": "good"
+      },
+      {
+        "word": "喝 (hē)",
+        "say": "huh, high",
+        "en": "to drink"
+      },
+      {
+        "word": "会 (huì)",
+        "say": "hway, falling",
+        "en": "can, will"
+      },
+      {
+        "word": "和 (hé)",
+        "say": "huh, rising",
+        "en": "and"
+      }
+    ]
+  },
+  {
+    "title": "a is “ah”",
+    "body": "Pinyin a on its own after an initial is an open “ah”, as in “father”.",
+    "pattern": "(?<![a-zü])(?:[bpmfdtnlgkhzcsr]|zh|ch|sh)?a(?=\\d)",
+    "examples": [
+      {
+        "word": "大 (dà)",
+        "say": "dah, falling",
+        "en": "big"
+      },
+      {
+        "word": "他 (tā)",
+        "say": "tah, high",
+        "en": "he"
+      },
+      {
+        "word": "那 (nà)",
+        "say": "nah, falling",
+        "en": "that"
+      },
+      {
+        "word": "茶 (chá)",
+        "say": "chah, rising",
+        "en": "tea"
+      }
+    ]
+  },
+  {
+    "title": "x is a soft “sh”, said with a smile",
+    "body": "Pinyin x is never “ks”. It is a soft “sh” with the lips spread and the tongue tip behind the lower teeth, between English “s” and “sh”. It only comes before i or ü.",
+    "pattern": "(?<![a-zü])x",
+    "examples": [
+      {
+        "word": "小 (xiǎo)",
+        "say": "shyow, dipping",
+        "en": "small"
+      },
+      {
+        "word": "想 (xiǎng)",
+        "say": "shyahng, dipping",
+        "en": "to want, to think"
+      },
+      {
+        "word": "学 (xué)",
+        "say": "shüeh, rising",
+        "en": "to learn"
+      },
+      {
+        "word": "谢 (xiè)",
+        "say": "shyeh, falling",
+        "en": "to thank"
+      }
+    ]
+  },
+  {
+    "title": "ian (yan) is “yen”, not “yahn”",
+    "body": "In ian, written yan at the start of a syllable, the a sounds like the “e” in “yes”: ian is “yen”.",
+    "pattern": "(?:ian|(?<![a-zü])yan)(?=\\d)",
+    "examples": [
+      {
+        "word": "见 (jiàn)",
+        "say": "jyen, falling",
+        "en": "to see"
+      },
+      {
+        "word": "钱 (qián)",
+        "say": "chyen, rising",
+        "en": "money"
+      },
+      {
+        "word": "天 (tiān)",
+        "say": "tyen, high",
+        "en": "day, sky"
+      },
+      {
+        "word": "点 (diǎn)",
+        "say": "dyen, dipping",
+        "en": "o'clock, a bit"
+      }
+    ]
+  },
+  {
+    "title": "ai is “eye”",
+    "body": "Pinyin ai sounds like English “eye”.",
+    "pattern": "(?<![a-zü])(?:[bpmfdtnlgkhzcsr]|zh|ch|sh)?ai(?=\\d)",
+    "examples": [
+      {
+        "word": "来 (lái)",
+        "say": "lie, rising",
+        "en": "to come"
+      },
+      {
+        "word": "爱 (ài)",
+        "say": "eye, falling",
+        "en": "to love"
+      },
+      {
+        "word": "还 (hái)",
+        "say": "high, rising",
+        "en": "still"
+      },
+      {
+        "word": "买 (mǎi)",
+        "say": "my, dipping",
+        "en": "to buy"
+      }
+    ]
+  },
+  {
+    "title": "u is “oo”",
+    "body": "Pinyin u after b, p, m, f, d, t, n, l, g, k, h, z, c, s, zh, ch, sh, r, and the syllable wu, is “oo” as in “food”.",
+    "pattern": "(?<![a-zü])(?:(?:[bpmfdtnlgkhzcsr]|zh|ch|sh)|w)u(?=\\d)",
+    "examples": [
+      {
+        "word": "不 (bù)",
+        "say": "boo, falling",
+        "en": "not"
+      },
+      {
+        "word": "书 (shū)",
+        "say": "shoo, high",
+        "en": "book"
+      },
+      {
+        "word": "住 (zhù)",
+        "say": "joo, falling",
+        "en": "to live"
+      },
+      {
+        "word": "五 (wǔ)",
+        "say": "woo, dipping",
+        "en": "five"
+      }
+    ]
+  },
+  {
+    "title": "i after zh, ch, sh, r is an “r”-like buzz",
+    "body": "In zhi, chi, shi, ri the i is not “ee”: hold the curled tongue and let the sound ring on, like the end of American “shirr”.",
+    "pattern": "(?<![a-zü])(?:zh|ch|sh|r)i(?=\\d)",
+    "examples": [
+      {
+        "word": "是 (shì)",
+        "say": "shr, falling",
+        "en": "to be"
+      },
+      {
+        "word": "吃 (chī)",
+        "say": "chr, high",
+        "en": "to eat"
+      },
+      {
+        "word": "知道 (zhīdao)",
+        "say": "JR-dow, high + neutral",
+        "en": "to know"
+      },
+      {
+        "word": "日 (rì)",
+        "say": "rr, falling",
+        "en": "day, sun"
+      }
+    ]
+  },
+  {
+    "title": "zh is a “j” with the tongue curled back",
+    "body": "Pinyin zh is like the “j” in “jug”, but with no voice and the tongue tip curled up toward the roof of the mouth. No puff of air.",
+    "pattern": "(?<![a-zü])zh",
+    "examples": [
+      {
+        "word": "这 (zhè)",
+        "say": "juh, falling",
+        "en": "this"
+      },
+      {
+        "word": "中 (zhōng)",
+        "say": "joong, high",
+        "en": "middle"
+      },
+      {
+        "word": "住 (zhù)",
+        "say": "joo, falling",
+        "en": "to live"
+      },
+      {
+        "word": "找 (zhǎo)",
+        "say": "jow, dipping",
+        "en": "to look for"
+      }
+    ]
+  },
+  {
+    "title": "uo (wo) is “waw”",
+    "body": "Pinyin uo, written wo at the start of a syllable, is “w” plus the “aw” of “law”.",
+    "pattern": "(?:uo|(?<![a-zü])wo)(?=\\d)",
+    "examples": [
+      {
+        "word": "我 (wǒ)",
+        "say": "waw, dipping",
+        "en": "I"
+      },
+      {
+        "word": "说 (shuō)",
+        "say": "shwaw, high",
+        "en": "to say"
+      },
+      {
+        "word": "多 (duō)",
+        "say": "dwaw, high",
+        "en": "many"
+      },
+      {
+        "word": "国 (guó)",
+        "say": "gwaw, rising",
+        "en": "country"
+      }
+    ]
+  },
+  {
+    "title": "z is “ds” as in “beds”",
+    "body": "Pinyin z is the “ds” at the end of “beds”, with no voice and no puff of air.",
+    "pattern": "(?<![a-zü])z(?!h)",
+    "examples": [
+      {
+        "word": "走 (zǒu)",
+        "say": "dzoh, dipping",
+        "en": "to walk, to leave"
+      },
+      {
+        "word": "字 (zì)",
+        "say": "dzuh, falling",
+        "en": "character"
+      },
+      {
+        "word": "坐 (zuò)",
+        "say": "dzwaw, falling",
+        "en": "to sit"
+      },
+      {
+        "word": "早 (zǎo)",
+        "say": "dzow, dipping",
+        "en": "early"
+      }
+    ]
+  },
+  {
+    "title": "ao is “ow” as in “cow”",
+    "body": "Pinyin ao sounds like “ow” in “cow”, never like “oh”.",
+    "pattern": "(?<![a-zü])(?:[bpmfdtnlgkhzcsr]|zh|ch|sh)?ao(?=\\d)",
+    "examples": [
+      {
+        "word": "好 (hǎo)",
+        "say": "how, dipping",
+        "en": "good"
+      },
+      {
+        "word": "到 (dào)",
+        "say": "dow, falling",
+        "en": "to arrive"
+      },
+      {
+        "word": "早 (zǎo)",
+        "say": "dzow, dipping",
+        "en": "early"
+      },
+      {
+        "word": "跑 (pǎo)",
+        "say": "pow, dipping",
+        "en": "to run"
+      }
+    ]
+  },
+  {
+    "title": "After j, q, x and y, a written u is ü",
+    "body": "j, q, x and y are never followed by the “oo” sound, so pinyin drops the two dots there: ju, qu, xu, yu, and xue, yuan, yun are all said with ü. After n and l the dots stay (nü, lü).",
+    "pattern": "(?<![a-zü])[jqxy]u",
+    "examples": [
+      {
+        "word": "句 (jù)",
+        "say": "jü, falling",
+        "en": "sentence"
+      },
+      {
+        "word": "学 (xué)",
+        "say": "shüeh, rising",
+        "en": "to learn"
+      },
+      {
+        "word": "鱼 (yú)",
+        "say": "yü, rising",
+        "en": "fish"
+      },
+      {
+        "word": "元 (yuán)",
+        "say": "yüen, rising",
+        "en": "yuan (money)"
+      }
+    ]
+  },
+  {
+    "title": "ang is “ahng”",
+    "body": "Pinyin ang is “ah” followed by the “ng” of “sing”, with the mouth open wide.",
+    "pattern": "(?<![a-zü])(?:[bpmfdtnlgkhzcsr]|zh|ch|sh)?ang(?=\\d)",
+    "examples": [
+      {
+        "word": "上 (shàng)",
+        "say": "shahng, falling",
+        "en": "on, up"
+      },
+      {
+        "word": "忙 (máng)",
+        "say": "mahng, rising",
+        "en": "busy"
+      },
+      {
+        "word": "让 (ràng)",
+        "say": "rahng, falling",
+        "en": "to let"
+      },
+      {
+        "word": "房 (fáng)",
+        "say": "fahng, rising",
+        "en": "house"
+      }
+    ]
+  },
+  {
+    "title": "en is “un” as in “fun”",
+    "body": "Pinyin en sounds like “un” in “fun”, not like English “ten”.",
+    "pattern": "(?<![a-zü])(?:[bpmfdtnlgkhzcsr]|zh|ch|sh)?en(?=\\d)",
+    "examples": [
+      {
+        "word": "人 (rén)",
+        "say": "run, rising",
+        "en": "person"
+      },
+      {
+        "word": "很 (hěn)",
+        "say": "hun, dipping",
+        "en": "very"
+      },
+      {
+        "word": "们 (men)",
+        "say": "mun, neutral",
+        "en": "(plural marker)"
+      },
+      {
+        "word": "分 (fēn)",
+        "say": "fun, high",
+        "en": "minute; cent"
+      }
+    ]
+  },
+  {
+    "title": "an is “ahn”",
+    "body": "Pinyin an is “ah” plus n, as in “Khan”. After i and y it changes (see ian), and after j, q, x, y in uan it is “üen”.",
+    "pattern": "(?<![a-zü])(?:[bpmfdtnlgkhzcsr]|zh|ch|sh)?an(?=\\d)",
+    "examples": [
+      {
+        "word": "看 (kàn)",
+        "say": "kahn, falling",
+        "en": "to look"
+      },
+      {
+        "word": "饭 (fàn)",
+        "say": "fahn, falling",
+        "en": "meal, rice"
+      },
+      {
+        "word": "三 (sān)",
+        "say": "sahn, high",
+        "en": "three"
+      },
+      {
+        "word": "半 (bàn)",
+        "say": "bahn, falling",
+        "en": "half"
+      }
+    ]
+  },
+  {
+    "title": "q is like “ch” in “cheap”, with a puff",
+    "body": "Pinyin q is never “kw”. It sounds like the “ch” in “cheap”, with a puff of air and the tongue tip behind the lower teeth. It only comes before i or ü.",
+    "pattern": "(?<![a-zü])q",
+    "examples": [
+      {
+        "word": "去 (qù)",
+        "say": "chü, falling",
+        "en": "to go"
+      },
+      {
+        "word": "七 (qī)",
+        "say": "chee, high",
+        "en": "seven"
+      },
+      {
+        "word": "钱 (qián)",
+        "say": "chyen, rising",
+        "en": "money"
+      },
+      {
+        "word": "请 (qǐng)",
+        "say": "cheeng, dipping",
+        "en": "please"
+      }
+    ]
+  },
+  {
+    "title": "ou is “oh”",
+    "body": "Pinyin ou sounds like “oh” in “go”.",
+    "pattern": "(?<![a-zü])(?:[bpmfdtnlgkhzcsr]|zh|ch|sh)?ou(?=\\d)",
+    "examples": [
+      {
+        "word": "都 (dōu)",
+        "say": "doh, high",
+        "en": "all"
+      },
+      {
+        "word": "走 (zǒu)",
+        "say": "dzoh, dipping",
+        "en": "to walk, to leave"
+      },
+      {
+        "word": "后 (hòu)",
+        "say": "hoh, falling",
+        "en": "after"
+      },
+      {
+        "word": "手 (shǒu)",
+        "say": "shoh, dipping",
+        "en": "hand"
+      }
+    ]
+  },
+  {
+    "title": "Two 3rd tones in a row: the first becomes rising",
+    "body": "When a 3rd tone comes before another 3rd tone, the first one is said as a 2nd (rising) tone. Pinyin still writes ǎ, so you have to make the change yourself.",
+    "pattern": "(?<![a-zü])[a-zü]+3 [a-zü]+3(?!\\d)",
+    "examples": [
+      {
+        "word": "你好 (nǐ hǎo)",
+        "say": "nee-HOW, rising + dipping",
+        "en": "hello"
+      },
+      {
+        "word": "很好 (hěn hǎo)",
+        "say": "hun-HOW, rising + dipping",
+        "en": "very good"
+      },
+      {
+        "word": "可以 (kěyǐ)",
+        "say": "kuh-YEE, rising + dipping",
+        "en": "can, may"
+      },
+      {
+        "word": "水果 (shuǐguǒ)",
+        "say": "shway-GWAW, rising + dipping",
+        "en": "fruit"
+      }
+    ]
+  },
+  {
+    "title": "iu (you) is “yoh”: iu is short for iou",
+    "body": "Pinyin iu is a short spelling of iou and is said “yoh”, with the o clearly heard, especially in the 3rd and 4th tones. At the start of a syllable it is written you.",
+    "pattern": "(?:iu|(?<![a-zü])you)(?=\\d)",
+    "examples": [
+      {
+        "word": "就 (jiù)",
+        "say": "jyoh, falling",
+        "en": "just, then"
+      },
+      {
+        "word": "有 (yǒu)",
+        "say": "yoh, dipping",
+        "en": "to have"
+      },
+      {
+        "word": "六 (liù)",
+        "say": "lyoh, falling",
+        "en": "six"
+      },
+      {
+        "word": "九 (jiǔ)",
+        "say": "jyoh, dipping",
+        "en": "nine"
+      }
+    ]
+  },
+  {
+    "title": "ch is a “ch” with the tongue curled back and a puff",
+    "body": "Pinyin ch is like the “ch” in “church”, with the tongue tip curled up and a strong puff of air.",
+    "pattern": "(?<![a-zü])ch",
+    "examples": [
+      {
+        "word": "吃 (chī)",
+        "say": "chr, high",
+        "en": "to eat"
+      },
+      {
+        "word": "车 (chē)",
+        "say": "chuh, high",
+        "en": "car"
+      },
+      {
+        "word": "茶 (chá)",
+        "say": "chah, rising",
+        "en": "tea"
+      },
+      {
+        "word": "出 (chū)",
+        "say": "choo, high",
+        "en": "to go out"
+      }
+    ]
+  },
+  {
+    "title": "ing (ying) is “eeng”",
+    "body": "Pinyin ing, written ying at the start of a syllable, is “ee” followed by the “ng” of “sing”.",
+    "pattern": "(?<![a-zü])(?:[bpmdtnljqx]|y)ing(?=\\d)",
+    "examples": [
+      {
+        "word": "请 (qǐng)",
+        "say": "cheeng, dipping",
+        "en": "please"
+      },
+      {
+        "word": "明天 (míngtiān)",
+        "say": "meeng-TYEN, rising + high",
+        "en": "tomorrow"
+      },
+      {
+        "word": "听 (tīng)",
+        "say": "teeng, high",
+        "en": "to listen"
+      },
+      {
+        "word": "星期 (xīngqī)",
+        "say": "sheeng-CHEE, high + high",
+        "en": "week"
+      }
+    ]
+  },
+  {
+    "title": "一 changes its tone before other syllables",
+    "body": "一 (yī, one) becomes yí before a 4th tone and yì before a 1st, 2nd or 3rd tone. It stays yī alone, at the end of a word, when counting, and in 第一 or 十一.",
+    "pattern": "(?<![第十])一(?=\\p{sc=Han})",
+    "examples": [
+      {
+        "word": "一样 (yíyàng)",
+        "say": "ee-YAHNG, rising + falling",
+        "en": "the same"
+      },
+      {
+        "word": "一起 (yìqǐ)",
+        "say": "ee-CHEE, falling + dipping",
+        "en": "together"
+      },
+      {
+        "word": "一天 (yìtiān)",
+        "say": "ee-TYEN, falling + high",
+        "en": "one day"
+      },
+      {
+        "word": "第一 (dì-yī)",
+        "say": "dee-EE, falling + high",
+        "en": "first"
+      }
+    ]
+  },
+  {
+    "title": "ong is “oong”",
+    "body": "Pinyin ong is the “oo” of “book” followed by “ng”, never the “ong” of “long”.",
+    "pattern": "(?<![a-zü])(?:[dtnlgkhzcsr]|zh|ch|sh)ong(?=\\d)",
+    "examples": [
+      {
+        "word": "中 (zhōng)",
+        "say": "joong, high",
+        "en": "middle"
+      },
+      {
+        "word": "东 (dōng)",
+        "say": "doong, high",
+        "en": "east"
+      },
+      {
+        "word": "工 (gōng)",
+        "say": "goong, high",
+        "en": "work"
+      },
+      {
+        "word": "从 (cóng)",
+        "say": "tsoong, rising",
+        "en": "from"
+      }
+    ]
+  },
+  {
+    "title": "ui (wei) is “way”: ui is short for uei",
+    "body": "Pinyin ui is a short spelling of uei and is said “way”, never “wee”. At the start of a syllable it is written wei.",
+    "pattern": "(?:ui|(?<![a-zü])wei)(?=\\d)",
+    "examples": [
+      {
+        "word": "会 (huì)",
+        "say": "hway, falling",
+        "en": "can, will"
+      },
+      {
+        "word": "对 (duì)",
+        "say": "dway, falling",
+        "en": "correct"
+      },
+      {
+        "word": "为 (wèi)",
+        "say": "way, falling",
+        "en": "for"
+      },
+      {
+        "word": "水 (shuǐ)",
+        "say": "shway, dipping",
+        "en": "water"
+      }
+    ]
+  },
+  {
+    "title": "iao (yao) is “yow”",
+    "body": "Pinyin iao, written yao at the start of a syllable, is “y” plus “ow” of “cow”.",
+    "pattern": "(?:iao|(?<![a-zü])yao)(?=\\d)",
+    "examples": [
+      {
+        "word": "小 (xiǎo)",
+        "say": "shyow, dipping",
+        "en": "small"
+      },
+      {
+        "word": "要 (yào)",
+        "say": "yow, falling",
+        "en": "to want"
+      },
+      {
+        "word": "叫 (jiào)",
+        "say": "jyow, falling",
+        "en": "to be called"
+      },
+      {
+        "word": "票 (piào)",
+        "say": "pyow, falling",
+        "en": "ticket"
+      }
+    ]
+  },
+  {
+    "title": "eng is “ung” as in “lung”",
+    "body": "Pinyin eng sounds like “ung” in “lung”.",
+    "pattern": "(?<![a-zü])(?:[bpmfdtnlgkhzcsr]|zh|ch|sh)?eng(?=\\d)",
+    "examples": [
+      {
+        "word": "能 (néng)",
+        "say": "nung, rising",
+        "en": "can"
+      },
+      {
+        "word": "等 (děng)",
+        "say": "dung, dipping",
+        "en": "to wait"
+      },
+      {
+        "word": "朋友 (péngyou)",
+        "say": "PUNG-yoh, rising + neutral",
+        "en": "friend"
+      },
+      {
+        "word": "生 (shēng)",
+        "say": "shung, high",
+        "en": "to be born"
+      }
+    ]
+  },
+  {
+    "title": "ie (ye) is “yeh”",
+    "body": "Pinyin ie, written ye at the start of a syllable, is “yeh”, as in “yes”.",
+    "pattern": "(?:ie|(?<![a-zü])ye)(?=\\d)",
+    "examples": [
+      {
+        "word": "谢 (xiè)",
+        "say": "shyeh, falling",
+        "en": "to thank"
+      },
+      {
+        "word": "也 (yě)",
+        "say": "yeh, dipping",
+        "en": "also"
+      },
+      {
+        "word": "姐 (jiě)",
+        "say": "jyeh, dipping",
+        "en": "older sister"
+      },
+      {
+        "word": "别 (bié)",
+        "say": "byeh, rising",
+        "en": "don't"
+      }
+    ]
+  },
+  {
+    "title": "ü is “ee” with rounded lips",
+    "body": "Say “ee” and, keeping the tongue where it is, round your lips as for “oo”, like German ü or French u. It is written ü after n and l, and plain u after j, q, x, y.",
+    "pattern": "ü(?=\\d)|(?<![a-zü])[jqxy]u(?=\\d)",
+    "examples": [
+      {
+        "word": "女 (nǚ)",
+        "say": "nü, dipping",
+        "en": "woman"
+      },
+      {
+        "word": "绿 (lǜ)",
+        "say": "lü, falling",
+        "en": "green"
+      },
+      {
+        "word": "旅游 (lǚyóu)",
+        "say": "lü-YOH, low + rising",
+        "en": "to travel"
+      },
+      {
+        "word": "去 (qù)",
+        "say": "chü, falling",
+        "en": "to go"
+      }
+    ]
+  },
+  {
+    "title": "ei is “ay”",
+    "body": "Pinyin ei sounds like “ay” in “say”.",
+    "pattern": "(?<![a-zü])(?:[bpmfdtnlgkhzcsr]|zh|ch|sh)?ei(?=\\d)",
+    "examples": [
+      {
+        "word": "没 (méi)",
+        "say": "may, rising",
+        "en": "not (have)"
+      },
+      {
+        "word": "给 (gěi)",
+        "say": "gay, dipping",
+        "en": "to give"
+      },
+      {
+        "word": "北 (běi)",
+        "say": "bay, dipping",
+        "en": "north"
+      },
+      {
+        "word": "累 (lèi)",
+        "say": "lay, falling",
+        "en": "tired"
+      }
+    ]
+  },
+  {
+    "title": "in (yin) is “een”",
+    "body": "Pinyin in, written yin at the start of a syllable, is “ee” followed by n.",
+    "pattern": "(?<![a-zü])(?:[bpmnljqx]|y)in(?=\\d)",
+    "examples": [
+      {
+        "word": "今 (jīn)",
+        "say": "jeen, high",
+        "en": "today, now"
+      },
+      {
+        "word": "新 (xīn)",
+        "say": "sheen, high",
+        "en": "new"
+      },
+      {
+        "word": "您 (nín)",
+        "say": "neen, rising",
+        "en": "you (polite)"
+      },
+      {
+        "word": "音乐 (yīnyuè)",
+        "say": "een-YÜEH, high + falling",
+        "en": "music"
+      }
+    ]
+  },
+  {
+    "title": "ia (ya) is “yah”",
+    "body": "Pinyin ia, written ya at the start of a syllable, is “yah”.",
+    "pattern": "(?:(?<![a-zü])[ljqx]ia|(?<![a-zü])ya)(?=\\d)",
+    "examples": [
+      {
+        "word": "家 (jiā)",
+        "say": "jyah, high",
+        "en": "home, family"
+      },
+      {
+        "word": "下 (xià)",
+        "say": "shyah, falling",
+        "en": "down, below"
+      },
+      {
+        "word": "俩 (liǎ)",
+        "say": "lyah, dipping",
+        "en": "the two of"
+      }
+    ]
+  },
+  {
+    "title": "iang (yang) is “yahng”",
+    "body": "Pinyin iang, written yang at the start of a syllable, is “y” plus “ahng”.",
+    "pattern": "(?:iang|(?<![a-zü])yang)(?=\\d)",
+    "examples": [
+      {
+        "word": "想 (xiǎng)",
+        "say": "shyahng, dipping",
+        "en": "to want, to think"
+      },
+      {
+        "word": "两 (liǎng)",
+        "say": "lyahng, dipping",
+        "en": "two"
+      },
+      {
+        "word": "样 (yàng)",
+        "say": "yahng, falling",
+        "en": "kind, way"
+      }
+    ]
+  },
+  {
+    "title": "i after z, c, s is a buzz, not “ee”",
+    "body": "In zi, ci, si the i is not “ee”: keep the z, c or s buzzing and let a short, dull vowel ring on, like “zz” with a hint of “uh”.",
+    "pattern": "(?<![a-zü])[zcs]i(?=\\d)",
+    "examples": [
+      {
+        "word": "字 (zì)",
+        "say": "dzuh, falling",
+        "en": "character"
+      },
+      {
+        "word": "次 (cì)",
+        "say": "tsuh, falling",
+        "en": "time, occurrence"
+      },
+      {
+        "word": "四 (sì)",
+        "say": "suh, falling",
+        "en": "four"
+      }
+    ]
+  },
+  {
+    "title": "r is like “r” in “run”, with a buzz",
+    "body": "Pinyin r is close to English “r” in “run”, with a slight buzz like the “s” in “pleasure”. The tongue tip curls up but does not touch.",
+    "pattern": "(?<![a-zü])r",
+    "examples": [
+      {
+        "word": "人 (rén)",
+        "say": "run, rising",
+        "en": "person"
+      },
+      {
+        "word": "热 (rè)",
+        "say": "ruh, falling",
+        "en": "hot"
+      },
+      {
+        "word": "日 (rì)",
+        "say": "rr, falling",
+        "en": "day, sun"
+      },
+      {
+        "word": "让 (ràng)",
+        "say": "rahng, falling",
+        "en": "to let"
+      }
+    ]
+  },
+  {
+    "title": "uan (wan) is “wahn”",
+    "body": "Pinyin uan, written wan at the start of a syllable, is “wahn”. After j, q, x, y it is üan instead (next rule).",
+    "pattern": "(?:(?<![a-zü])(?:[dtnlgkhzcsr]|zh|ch|sh)uan|(?<![a-zü])wan)(?=\\d)",
+    "examples": [
+      {
+        "word": "晚 (wǎn)",
+        "say": "wahn, dipping",
+        "en": "late, evening"
+      },
+      {
+        "word": "玩 (wán)",
+        "say": "wahn, rising",
+        "en": "to play"
+      },
+      {
+        "word": "关 (guān)",
+        "say": "gwahn, high",
+        "en": "to close"
+      },
+      {
+        "word": "短 (duǎn)",
+        "say": "dwahn, dipping",
+        "en": "short"
+      }
+    ]
+  },
+  {
+    "title": "üe (yue, xue) is “ü” plus “eh”",
+    "body": "Pinyin üe is ü followed by the “e” of “yes”. After j, q, x, y it is written ue (yue, xue).",
+    "pattern": "(?:üe|(?<![a-zü])[jqxy]ue)(?=\\d)",
+    "examples": [
+      {
+        "word": "学 (xué)",
+        "say": "shüeh, rising",
+        "en": "to learn"
+      },
+      {
+        "word": "月 (yuè)",
+        "say": "yüeh, falling",
+        "en": "month, moon"
+      },
+      {
+        "word": "觉得 (juéde)",
+        "say": "JÜEH-duh, rising + neutral",
+        "en": "to feel, to think"
+      }
+    ]
+  },
+  {
+    "title": "c is “ts” as in “cats”, with a puff",
+    "body": "Pinyin c is never “k” or “s”. It is the “ts” in “cats”, followed by a strong puff of air.",
+    "pattern": "(?<![a-zü])c(?!h)",
+    "examples": [
+      {
+        "word": "次 (cì)",
+        "say": "tsuh, falling",
+        "en": "time, occurrence"
+      },
+      {
+        "word": "从 (cóng)",
+        "say": "tsoong, rising",
+        "en": "from"
+      },
+      {
+        "word": "错 (cuò)",
+        "say": "tswaw, falling",
+        "en": "wrong"
+      },
+      {
+        "word": "草 (cǎo)",
+        "say": "tsow, dipping",
+        "en": "grass"
+      }
+    ]
+  },
+  {
+    "title": "üan (yuan, quan) is “ü” plus “en”",
+    "body": "After j, q, x, y, the written uan is üan: ü followed by “en”, like ian. It is not “wahn”.",
+    "pattern": "(?<![a-zü])[jqxy]uan(?=\\d)",
+    "examples": [
+      {
+        "word": "元 (yuán)",
+        "say": "yüen, rising",
+        "en": "yuan (money)"
+      },
+      {
+        "word": "远 (yuǎn)",
+        "say": "yüen, dipping",
+        "en": "far"
+      },
+      {
+        "word": "全 (quán)",
+        "say": "chüen, rising",
+        "en": "whole"
+      },
+      {
+        "word": "选 (xuǎn)",
+        "say": "shüen, dipping",
+        "en": "to choose"
+      }
+    ]
+  },
+  {
+    "title": "un (wen) is “wun”: un is short for uen",
+    "body": "Pinyin un after most initials is a short spelling of uen, said “wun” as in “one”. At the start of a syllable it is written wen. After j, q, x, y, un is ün instead.",
+    "pattern": "(?:(?<![a-zü])(?:[dtlgkhzcsr]|zh|ch|sh)un|(?<![a-zü])wen)(?=\\d)",
+    "examples": [
+      {
+        "word": "问 (wèn)",
+        "say": "wun, falling",
+        "en": "to ask"
+      },
+      {
+        "word": "文 (wén)",
+        "say": "wun, rising",
+        "en": "writing, language"
+      },
+      {
+        "word": "春 (chūn)",
+        "say": "chwun, high",
+        "en": "spring"
+      },
+      {
+        "word": "准 (zhǔn)",
+        "say": "jwun, dipping",
+        "en": "accurate"
+      }
+    ]
+  },
+  {
+    "title": "er is like American “are”",
+    "body": "The syllable er is an “ah” with the tongue curled back, like American “are”. It is a full syllable in 二, 儿子 and 女儿.",
+    "pattern": "(?<![a-zü])er[1-4]",
+    "examples": [
+      {
+        "word": "二 (èr)",
+        "say": "ar, falling",
+        "en": "two"
+      },
+      {
+        "word": "儿子 (érzi)",
+        "say": "AR-dzuh, rising + neutral",
+        "en": "son"
+      },
+      {
+        "word": "女儿 (nǚ'ér)",
+        "say": "nü-AR, low + rising",
+        "en": "daughter"
+      },
+      {
+        "word": "而且 (érqiě)",
+        "say": "ar-CHYEH, rising + dipping",
+        "en": "moreover"
+      }
+    ]
+  },
+  {
+    "title": "uang (wang) is “wahng”",
+    "body": "Pinyin uang, written wang at the start of a syllable, is “w” plus “ahng”.",
+    "pattern": "(?:uang|(?<![a-zü])wang)(?=\\d)",
+    "examples": [
+      {
+        "word": "王 (wáng)",
+        "say": "wahng, rising",
+        "en": "Wang (surname); king"
+      },
+      {
+        "word": "床 (chuáng)",
+        "say": "chwahng, rising",
+        "en": "bed"
+      },
+      {
+        "word": "光 (guāng)",
+        "say": "gwahng, high",
+        "en": "light"
+      }
+    ]
+  },
+  {
+    "title": "uai (wai) is “why”",
+    "body": "Pinyin uai, written wai at the start of a syllable, sounds like English “why”.",
+    "pattern": "(?:uai|(?<![a-zü])wai)(?=\\d)",
+    "examples": [
+      {
+        "word": "外 (wài)",
+        "say": "why, falling",
+        "en": "outside"
+      },
+      {
+        "word": "快 (kuài)",
+        "say": "kwai, falling",
+        "en": "fast"
+      },
+      {
+        "word": "坏 (huài)",
+        "say": "hwai, falling",
+        "en": "bad, broken"
+      }
+    ]
+  },
+  {
+    "title": "不 becomes rising before a 4th tone",
+    "body": "不 (bù, not) is said bú before a 4th tone. In the middle of a yes-no question like 是不是 it is short and neutral.",
+    "pattern": "(?<![a-zü])bu4 [a-zü]+4(?!\\d)",
+    "examples": [
+      {
+        "word": "不是 (bú shì)",
+        "say": "boo-SHR, rising + falling",
+        "en": "is not"
+      },
+      {
+        "word": "不对 (bú duì)",
+        "say": "boo-DWAY, rising + falling",
+        "en": "not right"
+      },
+      {
+        "word": "不要 (bú yào)",
+        "say": "boo-YOW, rising + falling",
+        "en": "don't"
+      },
+      {
+        "word": "不好 (bù hǎo)",
+        "say": "boo-HOW, falling + dipping",
+        "en": "not good"
+      }
+    ]
+  },
+  {
+    "title": "ua (wa) is “wah”",
+    "body": "Pinyin ua, written wa at the start of a syllable, is “wah”.",
+    "pattern": "(?:(?<![a-zü])(?:[gkh]|zh|ch|sh)ua|(?<![a-zü])wa)(?=\\d)",
+    "examples": [
+      {
+        "word": "话 (huà)",
+        "say": "hwah, falling",
+        "en": "speech, words"
+      },
+      {
+        "word": "花 (huā)",
+        "say": "hwah, high",
+        "en": "flower"
+      },
+      {
+        "word": "刷 (shuā)",
+        "say": "shwah, high",
+        "en": "to brush"
+      }
+    ]
+  },
+  {
+    "title": "iong (yong) is “yoong”",
+    "body": "Pinyin iong, written yong at the start of a syllable, is “y” plus “oong”.",
+    "pattern": "(?:iong|(?<![a-zü])yong)(?=\\d)",
+    "examples": [
+      {
+        "word": "用 (yòng)",
+        "say": "yoong, falling",
+        "en": "to use"
+      },
+      {
+        "word": "熊 (xióng)",
+        "say": "shyoong, rising",
+        "en": "bear"
+      },
+      {
+        "word": "游泳 (yóuyǒng)",
+        "say": "yoh-YOONG, rising + dipping",
+        "en": "to swim"
+      }
+    ]
+  },
+  {
+    "title": "o after b, p, m, f is “waw”",
+    "body": "After b, p, m and f, pinyin o is said with a small “w” glide before it: bo is “bwaw”.",
+    "pattern": "(?<![a-zü])[bpmf]?o(?=\\d)",
+    "examples": [
+      {
+        "word": "婆 (pó)",
+        "say": "pwaw, rising",
+        "en": "grandmother (in 外婆)"
+      },
+      {
+        "word": "破 (pò)",
+        "say": "pwaw, falling",
+        "en": "broken"
+      },
+      {
+        "word": "摸 (mō)",
+        "say": "mwaw, high",
+        "en": "to touch"
+      }
+    ]
+  },
+  {
+    "title": "儿 after a word adds an “r” to the last syllable",
+    "body": "In words like 一点儿 and 哪儿, 儿 is not a syllable of its own: it adds an American “r” to the syllable before, and a final n or i drops. In 儿子 and 女儿 it is a full syllable, ér.",
+    "pattern": "(?<=[点哪会这那玩事活鸟片])儿",
+    "examples": [
+      {
+        "word": "一点儿 (yìdiǎnr)",
+        "say": "ee-DYAR, falling + dipping",
+        "en": "a little"
+      },
+      {
+        "word": "哪儿 (nǎr)",
+        "say": "nar, dipping",
+        "en": "where"
+      },
+      {
+        "word": "这儿 (zhèr)",
+        "say": "jer, falling",
+        "en": "here"
+      },
+      {
+        "word": "玩儿 (wánr)",
+        "say": "wahr, rising",
+        "en": "to play, have fun"
+      }
+    ]
+  },
+  {
+    "title": "ün (yun, qun) is “ü” plus n",
+    "body": "After j, q, x, y, the written un is ün: ü followed by n. It is not “wun”.",
+    "pattern": "(?<![a-zü])[jqxy]un(?=\\d)",
+    "examples": [
+      {
+        "word": "云 (yún)",
+        "say": "yün, rising",
+        "en": "cloud"
+      },
+      {
+        "word": "运动 (yùndòng)",
+        "say": "yün-DOONG, falling + falling",
+        "en": "sport, exercise"
+      },
+      {
+        "word": "裙子 (qúnzi)",
+        "say": "CHÜN-dzuh, rising + neutral",
+        "en": "skirt"
+      }
+    ]
+  }
+]

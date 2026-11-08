@@ -1,0 +1,900 @@
+[
+  {
+    "title": "b, d, f, l, m, n, p, t, v sound much as in English",
+    "body": "These letters are close to English. d, t, n and l are made with the tongue against the upper teeth, and l is always the clear “l” of “leaf”, even before a consonant (molto, alto).",
+    "pattern": "[bdflmnptv]",
+    "examples": [
+      {
+        "word": "il pane",
+        "say": "eel PAH-neh",
+        "en": "bread"
+      },
+      {
+        "word": "molto",
+        "say": "MOHL-toh",
+        "en": "very, a lot"
+      },
+      {
+        "word": "la vita",
+        "say": "lah VEE-tah",
+        "en": "life"
+      },
+      {
+        "word": "il treno",
+        "say": "eel TREH-noh",
+        "en": "train"
+      }
+    ]
+  },
+  {
+    "title": "p, t and k sounds have no puff of air",
+    "body": "English p, t and k at the start of a syllable come with a small puff of air. Italian p, t and hard c have none, so to English ears they can sound close to b, d and g.",
+    "pattern": "p|t|c(?![eièéìí])|qu|k",
+    "examples": [
+      {
+        "word": "il papà",
+        "say": "eel pah-PAH",
+        "en": "dad"
+      },
+      {
+        "word": "tre",
+        "say": "treh",
+        "en": "three"
+      },
+      {
+        "word": "tardi",
+        "say": "TAHR-dee",
+        "en": "late"
+      },
+      {
+        "word": "la casa",
+        "say": "lah KAH-zah",
+        "en": "house"
+      }
+    ]
+  },
+  {
+    "title": "a is always “ah”",
+    "body": "a sounds like the “a” in “father”, never the “a” of “cat” or the weak “uh” of “about”. It keeps its full sound in unstressed and final syllables too: casa ends in a clear “ah”.",
+    "pattern": "[aà]",
+    "examples": [
+      {
+        "word": "anche",
+        "say": "AHN-keh",
+        "en": "also, too"
+      },
+      {
+        "word": "andare",
+        "say": "ahn-DAH-reh",
+        "en": "to go"
+      },
+      {
+        "word": "la mamma",
+        "say": "lah MAHM-mah",
+        "en": "mum"
+      },
+      {
+        "word": "va",
+        "say": "vah",
+        "en": "he/she goes"
+      }
+    ]
+  },
+  {
+    "title": "Most words stress the second-to-last syllable",
+    "body": "A word with no written accent is usually stressed on its second-to-last syllable. Give that syllable a little more weight and length; the other vowels stay clear and full.",
+    "pattern": "(?<!\\p{L})[a-z]*[aeiou][bcdfghjklmnpqrstvwxyz]+[a-z]*[aeiou](?![\\p{L}'’])",
+    "examples": [
+      {
+        "word": "la casa",
+        "say": "lah KAH-zah",
+        "en": "house"
+      },
+      {
+        "word": "il lavoro",
+        "say": "eel lah-VOH-roh",
+        "en": "work, job"
+      },
+      {
+        "word": "la settimana",
+        "say": "lah seht-tee-MAH-nah",
+        "en": "week"
+      },
+      {
+        "word": "sempre",
+        "say": "SEHM-preh",
+        "en": "always"
+      }
+    ]
+  },
+  {
+    "title": "e is “eh”, open or closed",
+    "body": "e sounds like the “e” in “bed”. A stressed e can be open (bene) or closed, nearer the “ay” of “say” without its glide (sera). The spelling does not show which and regions differ, so a clear “eh” is fine. A final e is never silent.",
+    "pattern": "e",
+    "examples": [
+      {
+        "word": "bene",
+        "say": "BEH-neh",
+        "en": "well"
+      },
+      {
+        "word": "la sera",
+        "say": "lah SEH-rah",
+        "en": "evening"
+      },
+      {
+        "word": "sette",
+        "say": "SEHT-teh",
+        "en": "seven"
+      },
+      {
+        "word": "che",
+        "say": "keh",
+        "en": "that, what"
+      }
+    ]
+  },
+  {
+    "title": "o is “oh”, open or closed",
+    "body": "o is a pure “oh”, without the “w” glide of English “go”. A stressed o can be closed (sono) or open, nearer the “o” of “or” (notte, cosa); the spelling does not show which, and the respellings write both as “oh”. A final o is always a short, clear “oh”.",
+    "pattern": "[oòó]",
+    "examples": [
+      {
+        "word": "sono",
+        "say": "SOH-noh",
+        "en": "I am, they are"
+      },
+      {
+        "word": "dopo",
+        "say": "DOH-poh",
+        "en": "after"
+      },
+      {
+        "word": "la notte",
+        "say": "lah NOHT-teh",
+        "en": "night"
+      },
+      {
+        "word": "ho",
+        "say": "oh",
+        "en": "I have"
+      }
+    ]
+  },
+  {
+    "title": "i is “ee”",
+    "body": "i sounds like the “ee” in “see”, but short, never like the “i” in “sit”. Before another vowel it usually glides into “y”, and after c, g or sc it can be silent (see those rules).",
+    "pattern": "[ìí]|(?<![aeoàèéò])i(?![aeouàèéòóù])",
+    "examples": [
+      {
+        "word": "di",
+        "say": "dee",
+        "en": "of"
+      },
+      {
+        "word": "qui",
+        "say": "kwee",
+        "en": "here"
+      },
+      {
+        "word": "il vino",
+        "say": "eel VEE-noh",
+        "en": "wine"
+      },
+      {
+        "word": "i bambini",
+        "say": "ee bahm-BEE-nee",
+        "en": "the children"
+      }
+    ]
+  },
+  {
+    "title": "r is tapped or rolled with the tongue tip",
+    "body": "A single r is a quick tap of the tongue tip, like the “tt” in American “better”, or a short trill. rr is a long, strong roll. r is always pronounced, also before a consonant and at the end of a word: parlare, per, terra.",
+    "pattern": "rr?",
+    "examples": [
+      {
+        "word": "vero",
+        "say": "VEH-roh",
+        "en": "true"
+      },
+      {
+        "word": "Roma",
+        "say": "ROH-mah",
+        "en": "Rome"
+      },
+      {
+        "word": "parlare",
+        "say": "pahr-LAH-reh",
+        "en": "to speak"
+      },
+      {
+        "word": "la terra",
+        "say": "lah TEHR-rah",
+        "en": "earth, ground"
+      }
+    ]
+  },
+  {
+    "title": "Double consonants are held longer",
+    "body": "A doubled consonant is held for about twice as long, as in “bookcase” or “hot tea”, and the vowel before it is short. It changes meaning: sete (thirst) and sette (seven), caro (dear) and carro (cart).",
+    "pattern": "([bcdfghjklmnpqrstvwxyz])\\1",
+    "examples": [
+      {
+        "word": "tutto",
+        "say": "TOOT-toh",
+        "en": "all, everything"
+      },
+      {
+        "word": "gli anni",
+        "say": "lyee AHN-nee",
+        "en": "years"
+      },
+      {
+        "word": "fatto",
+        "say": "FAHT-toh",
+        "en": "done, made"
+      },
+      {
+        "word": "la mamma",
+        "say": "lah MAHM-mah",
+        "en": "mum"
+      }
+    ]
+  },
+  {
+    "title": "s at the start of a word, before p, t, c, f and as ss is “s”",
+    "body": "At the start of a word before a vowel, before p, t, hard c, f or q, after a consonant, and doubled as ss, s is always the hissing “s” of “see”: sono, stesso, pensare.",
+    "pattern": "ss|(?<!\\p{L})s(?=[aeiouàèéìòóù])|s(?=[ptfq]|c(?![eièéìí]))|(?<=[lnr])s(?=[aeiouàèéìòóù])",
+    "examples": [
+      {
+        "word": "stesso",
+        "say": "STEHS-soh",
+        "en": "same"
+      },
+      {
+        "word": "sono",
+        "say": "SOH-noh",
+        "en": "I am, they are"
+      },
+      {
+        "word": "il sole",
+        "say": "eel SOH-leh",
+        "en": "sun"
+      },
+      {
+        "word": "pensare",
+        "say": "pehn-SAH-reh",
+        "en": "to think"
+      }
+    ]
+  },
+  {
+    "title": "c before a, o, u or a consonant is “k”",
+    "body": "Elsewhere c is a “k” sound, as in “cat”. Before q it simply lengthens the “k” of qu: acqua is “AHK-kwah”.",
+    "pattern": "cc(?![eièéìíh])|c(?![ceièéìíh])",
+    "examples": [
+      {
+        "word": "come",
+        "say": "KOH-meh",
+        "en": "how, like"
+      },
+      {
+        "word": "poco",
+        "say": "POH-koh",
+        "en": "little"
+      },
+      {
+        "word": "con",
+        "say": "kohn",
+        "en": "with"
+      },
+      {
+        "word": "la cosa",
+        "say": "lah KOH-zah",
+        "en": "thing"
+      }
+    ]
+  },
+  {
+    "title": "u is “oo”",
+    "body": "u sounds like the “oo” in “food”, but short, never like the “u” in “but” or “use”. Before another vowel it usually glides into “w” (see that rule).",
+    "pattern": "[ùú]|(?<![aeoàèéò])u(?![aeioàèéìòó])",
+    "examples": [
+      {
+        "word": "uno",
+        "say": "OO-noh",
+        "en": "one"
+      },
+      {
+        "word": "tutto",
+        "say": "TOOT-toh",
+        "en": "all, everything"
+      },
+      {
+        "word": "su",
+        "say": "soo",
+        "en": "on"
+      },
+      {
+        "word": "lungo",
+        "say": "LOON-goh",
+        "en": "long"
+      }
+    ]
+  },
+  {
+    "title": "Unstressed i and u before a vowel glide into “y” and “w”",
+    "body": "An unstressed i or u in front of another vowel joins it in one syllable: ie is “yeh”, ia “yah”, uo “woh”, ua “wah”. When the i or u itself is stressed it stays a full vowel: mio, via, due, tuo, lui, farmacia, polizia.",
+    "pattern": "(?<![cg]|gl)i(?=[aeouàèéòóù])(?!(?<=(?<!\\p{L})[dmsvz]?i)[aeo](?!\\p{L}))|(?<!q)u(?=[aeioàèéìòó])(?!(?<=(?<!\\p{L})[dst]u)[aeo](?!\\p{L}))(?!(?<=(?<!\\p{L})[cl]u)i(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "ieri",
+        "say": "YEH-ree",
+        "en": "yesterday"
+      },
+      {
+        "word": "l'Italia",
+        "say": "lee-TAH-lyah",
+        "en": "Italy"
+      },
+      {
+        "word": "l'uomo",
+        "say": "LWOH-moh",
+        "en": "man"
+      },
+      {
+        "word": "la scuola",
+        "say": "lah SKWOH-lah",
+        "en": "school"
+      }
+    ]
+  },
+  {
+    "title": "After a, da, è, più and similar words, the next consonant doubles",
+    "body": "In central and southern Italy, the first consonant of a word is said long after a, da, e, è, o, ma, tra, che, più and other words ending in a stressed vowel. Northern speakers usually do not do this; both are standard.",
+    "pattern": "(?<!\\p{L})(?:a|da|e|o|ma|tra|fra|che|\\p{L}*[àèéìòóù]) (?=[bcdfgjlmnpqrtvz]|s[aeiouàèéìòóù])",
+    "examples": [
+      {
+        "word": "a Roma",
+        "say": "ahr-ROH-mah",
+        "en": "in/to Rome"
+      },
+      {
+        "word": "da me",
+        "say": "dahm-MEH",
+        "en": "at my place"
+      },
+      {
+        "word": "è vero",
+        "say": "ehv-VEH-roh",
+        "en": "it's true"
+      },
+      {
+        "word": "più tardi",
+        "say": "pyoot-TAHR-dee",
+        "en": "later"
+      }
+    ]
+  },
+  {
+    "title": "c before e or i sounds like “ch” in “church”",
+    "body": "Before e or i, c is the “ch” of “church”, and cc is a longer “t-ch” (faccio). Before a, o, u or a consonant it is a hard “k”; to keep it hard before e or i, Italian writes ch.",
+    "pattern": "(?<!s)c(?=[eièéìí])",
+    "examples": [
+      {
+        "word": "dieci",
+        "say": "DYEH-chee",
+        "en": "ten"
+      },
+      {
+        "word": "cinque",
+        "say": "CHEEN-kweh",
+        "en": "five"
+      },
+      {
+        "word": "la cena",
+        "say": "lah CHEH-nah",
+        "en": "dinner"
+      },
+      {
+        "word": "faccio",
+        "say": "FAHT-choh",
+        "en": "I do, I make"
+      }
+    ]
+  },
+  {
+    "title": "A written accent marks a stressed final vowel",
+    "body": "Italian writes an accent only when the last vowel of a word is stressed: città, perché, più. On one-syllable words it mostly tells words apart, with no change in sound: è (is) and e (and), sì (yes) and si, là (there) and la.",
+    "pattern": "[àèéìíòóùú](?!\\p{L})",
+    "examples": [
+      {
+        "word": "la città",
+        "say": "lah cheet-TAH",
+        "en": "city"
+      },
+      {
+        "word": "perché",
+        "say": "pehr-KEH",
+        "en": "why, because"
+      },
+      {
+        "word": "più",
+        "say": "pyoo",
+        "en": "more"
+      },
+      {
+        "word": "il caffè",
+        "say": "eel kahf-FEH",
+        "en": "coffee"
+      }
+    ]
+  },
+  {
+    "title": "z is “ts” or “dz”",
+    "body": "z is either “ts” as in “cats” or “dz” as in “adze”; the spelling does not show which, and regions differ. Between vowels a single z is always said long: stazione is “staht-TSYOH-neh”.",
+    "pattern": "z",
+    "examples": [
+      {
+        "word": "la pizza",
+        "say": "lah PEET-tsah",
+        "en": "pizza"
+      },
+      {
+        "word": "grazie",
+        "say": "GRAHT-tsyeh",
+        "en": "thank you"
+      },
+      {
+        "word": "zero",
+        "say": "DZEH-roh",
+        "en": "zero"
+      },
+      {
+        "word": "mezzo",
+        "say": "MEHD-dzoh",
+        "en": "half"
+      }
+    ]
+  },
+  {
+    "title": "ch is a hard “k”",
+    "body": "ch appears only before e or i and is always “k”, never the English “ch”: che is “keh”, chi is “kee”. So sch is “sk”, as in schermo.",
+    "pattern": "ch",
+    "examples": [
+      {
+        "word": "che",
+        "say": "keh",
+        "en": "that, what"
+      },
+      {
+        "word": "anche",
+        "say": "AHN-keh",
+        "en": "also, too"
+      },
+      {
+        "word": "mi chiamo",
+        "say": "mee KYAH-moh",
+        "en": "my name is"
+      },
+      {
+        "word": "chi",
+        "say": "kee",
+        "en": "who"
+      }
+    ]
+  },
+  {
+    "title": "s between vowels: “z” in the north, “s” further south",
+    "body": "A single s between vowels is a buzzing “z” in northern Italy and a hissing “s” in much of the centre and south. Both are standard and understood; the respellings here use “z”.",
+    "pattern": "(?<=[aeiouàèéìòóù])s(?=[aeiouàèéìòóù])",
+    "examples": [
+      {
+        "word": "la casa",
+        "say": "lah KAH-zah",
+        "en": "house"
+      },
+      {
+        "word": "il mese",
+        "say": "eel MEH-zeh",
+        "en": "month"
+      },
+      {
+        "word": "così",
+        "say": "koh-ZEE",
+        "en": "so, like this"
+      },
+      {
+        "word": "il paese",
+        "say": "eel pah-EH-zeh",
+        "en": "country, village"
+      }
+    ]
+  },
+  {
+    "title": "h is always silent",
+    "body": "h is never pronounced. On its own it appears only in forms of avere (ho, hai, ha, hanno) and in foreign words; after c and g it only keeps them hard (che, ghiaccio).",
+    "pattern": "(?<![cg])h",
+    "examples": [
+      {
+        "word": "ho",
+        "say": "oh",
+        "en": "I have"
+      },
+      {
+        "word": "ha",
+        "say": "ah",
+        "en": "he/she has"
+      },
+      {
+        "word": "hanno",
+        "say": "AHN-noh",
+        "en": "they have"
+      }
+    ]
+  },
+  {
+    "title": "g before e or i sounds like “j” in “jam”",
+    "body": "Before e or i, g is the “j” of “jam”, and gg is a longer “d-j” (oggi). Before a, o, u or a consonant it is hard; to keep it hard before e or i, Italian writes gh.",
+    "pattern": "g(?=[eièéìí])",
+    "examples": [
+      {
+        "word": "la gente",
+        "say": "lah JEHN-teh",
+        "en": "people"
+      },
+      {
+        "word": "il gelato",
+        "say": "eel jeh-LAH-toh",
+        "en": "ice cream"
+      },
+      {
+        "word": "oggi",
+        "say": "OHJ-jee",
+        "en": "today"
+      },
+      {
+        "word": "leggere",
+        "say": "LEHJ-jeh-reh",
+        "en": "to read"
+      }
+    ]
+  },
+  {
+    "title": "In cia, cio, ciu, gia, gio, giu the i is silent",
+    "body": "After c, g or sc, an i before a, o or u only shows that the consonant is soft: ciao is “chow”, giorno is “JOHR-noh”. The same is usually true before e (cielo). Only when the i is stressed is it heard: farmacia, bugia.",
+    "pattern": "[cg]i(?=[aeouàèéòóù])",
+    "examples": [
+      {
+        "word": "ciao",
+        "say": "chow",
+        "en": "hi, bye"
+      },
+      {
+        "word": "già",
+        "say": "jah",
+        "en": "already"
+      },
+      {
+        "word": "il giorno",
+        "say": "eel JOHR-noh",
+        "en": "day"
+      },
+      {
+        "word": "Giulia",
+        "say": "JOO-lyah",
+        "en": "Giulia (a name)"
+      }
+    ]
+  },
+  {
+    "title": "An apostrophe joins two words into one",
+    "body": "The apostrophe shows a dropped vowel, and the two words are said as one: l'acqua is “LAHK-kwah”, c'è (ci è) is “cheh”. In un po' it marks a shortened word (poco) and adds no sound.",
+    "pattern": "\\p{L}['’](?=\\p{L})|(?<!\\p{L})po['’]",
+    "examples": [
+      {
+        "word": "c'è",
+        "say": "cheh",
+        "en": "there is"
+      },
+      {
+        "word": "un'ora",
+        "say": "oo-NOH-rah",
+        "en": "an hour"
+      },
+      {
+        "word": "all'inizio",
+        "say": "ahl-lee-NEET-tsyoh",
+        "en": "at the beginning"
+      },
+      {
+        "word": "un po'",
+        "say": "oon poh",
+        "en": "a bit"
+      }
+    ]
+  },
+  {
+    "title": "g before a, o, u or a consonant is a hard “g”",
+    "body": "Elsewhere g is the “g” of “go”, including before l in words like inglese. The exceptions are gn and gli, which have sounds of their own.",
+    "pattern": "gg(?![eièéìíh])|g(?![geièéìíhn]|li)",
+    "examples": [
+      {
+        "word": "grande",
+        "say": "GRAHN-deh",
+        "en": "big"
+      },
+      {
+        "word": "pagare",
+        "say": "pah-GAH-reh",
+        "en": "to pay"
+      },
+      {
+        "word": "inglese",
+        "say": "een-GLEH-zeh",
+        "en": "English"
+      },
+      {
+        "word": "lungo",
+        "say": "LOON-goh",
+        "en": "long"
+      }
+    ]
+  },
+  {
+    "title": "Some words stress the third-to-last syllable",
+    "body": "Quite a few words are stressed one syllable earlier, and the spelling does not show it, so learn them as you meet them. This includes many verbs ending in -ere (but not avere, vedere, potere) and forms such as erano and vengono.",
+    "pattern": "(?<!\\p{L})(?:sabato|macchin[ae]|telefon[oi]|piccol[oaie]|subito|musica|medic[oi]|simpatic[oai]|simpatiche|camer[ae]|tavol[oaie]|numer[oi]|util[ei]|facil[ei]|difficil[ei]|ultim[oaie]|unic[oai]|uniche|pagin[ae]|isol[ae]|erano|avevano|essere|prendere|vivere|chiedere|scrivere|leggere|mettere|credere|rispondere|chiudere|scegliere|perdere|ridere|correre|decidere|spendere|vendere|ricevere|conoscere|vincere|nascere|piangere|possibil[ei]|impossibil[ei]|mobil[ei]|semplic[ei]|giovan[ei]|alber[oi]|ospit[ei]|ottim[oaie]|napoli|genova|parlano|lavorano|arrivano|dicono|vivono|prendono|vengono)(?!\\p{L})",
+    "examples": [
+      {
+        "word": "il sabato",
+        "say": "eel SAH-bah-toh",
+        "en": "Saturday"
+      },
+      {
+        "word": "la macchina",
+        "say": "lah MAHK-kee-nah",
+        "en": "car"
+      },
+      {
+        "word": "il telefono",
+        "say": "eel teh-LEH-foh-noh",
+        "en": "telephone"
+      },
+      {
+        "word": "erano",
+        "say": "EH-rah-noh",
+        "en": "they were"
+      }
+    ]
+  },
+  {
+    "title": "ai, ei, oi, au and eu glide in one syllable",
+    "body": "When a, e or o comes first, a following i or u is a quick glide in the same syllable: ai is “eye”, ei like “ay” in “day”, oi “oy”, au “ow”, and eu a quick “eh-oo” (euro). Both vowels are heard.",
+    "pattern": "[aeoàèéò][iu](?![aeiouàèéìòóù])",
+    "examples": [
+      {
+        "word": "mai",
+        "say": "my",
+        "en": "never"
+      },
+      {
+        "word": "poi",
+        "say": "poy",
+        "en": "then"
+      },
+      {
+        "word": "lei",
+        "say": "lay",
+        "en": "she"
+      },
+      {
+        "word": "l'auto",
+        "say": "LOW-toh",
+        "en": "car"
+      }
+    ]
+  },
+  {
+    "title": "qu sounds like “kw”",
+    "body": "qu is always “kw”, as in “quick”. cu before a vowel has the same sound (cuore, scuola), and cqu is a long “kkw”: acqua is “AHK-kwah”.",
+    "pattern": "qu",
+    "examples": [
+      {
+        "word": "quando",
+        "say": "KWAHN-doh",
+        "en": "when"
+      },
+      {
+        "word": "questo",
+        "say": "KWEHS-toh",
+        "en": "this"
+      },
+      {
+        "word": "quattro",
+        "say": "KWAHT-troh",
+        "en": "four"
+      },
+      {
+        "word": "l'acqua",
+        "say": "LAHK-kwah",
+        "en": "water"
+      }
+    ]
+  },
+  {
+    "title": "è is an open “eh”, é a closed one",
+    "body": "The accent in è marks the open “e” of “bed”: è (is), caffè. The accent in é marks a closed e, a little nearer the “ay” of “say” but without its glide: perché, né. The respellings here write both as “eh”.",
+    "pattern": "[èé]",
+    "examples": [
+      {
+        "word": "è",
+        "say": "eh",
+        "en": "is"
+      },
+      {
+        "word": "c'è",
+        "say": "cheh",
+        "en": "there is"
+      },
+      {
+        "word": "perché",
+        "say": "pehr-KEH",
+        "en": "why, because"
+      },
+      {
+        "word": "né",
+        "say": "neh",
+        "en": "nor"
+      }
+    ]
+  },
+  {
+    "title": "gli sounds like “lli” in “million”",
+    "body": "gli is a soft “ly” sound, made with the middle of the tongue against the roof of the mouth. Between vowels it is long, and before another vowel the i is silent: figlio is “FEEL-lyoh”. The word gli (the) is “lyee”.",
+    "pattern": "gli",
+    "examples": [
+      {
+        "word": "gli",
+        "say": "lyee",
+        "en": "the (plural)"
+      },
+      {
+        "word": "la famiglia",
+        "say": "lah fah-MEEL-lyah",
+        "en": "family"
+      },
+      {
+        "word": "il figlio",
+        "say": "eel FEEL-lyoh",
+        "en": "son"
+      },
+      {
+        "word": "voglio",
+        "say": "VOHL-lyoh",
+        "en": "I want"
+      }
+    ]
+  },
+  {
+    "title": "gn sounds like “ny” in “canyon”",
+    "body": "gn is one sound, like the “ny” in “canyon”, never a “g” followed by “n”. Between vowels it is always long: bagno is “BAHN-nyoh”.",
+    "pattern": "gn",
+    "examples": [
+      {
+        "word": "il bagno",
+        "say": "eel BAHN-nyoh",
+        "en": "bathroom"
+      },
+      {
+        "word": "ogni",
+        "say": "OHN-nyee",
+        "en": "every"
+      },
+      {
+        "word": "la signora",
+        "say": "lah seen-NYOH-rah",
+        "en": "lady, Mrs"
+      }
+    ]
+  },
+  {
+    "title": "sc before e or i sounds like “sh”",
+    "body": "sce and sci begin with the “sh” of “ship”; before a, o or u the i is silent (lasciare). Between vowels the “sh” is long: pesce. Before a, o, u, h or a consonant, sc is a plain “sk” (scuola, schermo).",
+    "pattern": "sc(?=[eièéìí])",
+    "examples": [
+      {
+        "word": "il pesce",
+        "say": "eel PEHSH-sheh",
+        "en": "fish"
+      },
+      {
+        "word": "uscire",
+        "say": "oosh-SHEE-reh",
+        "en": "to go out"
+      },
+      {
+        "word": "lasciare",
+        "say": "lahsh-SHAH-reh",
+        "en": "to leave, to let"
+      }
+    ]
+  },
+  {
+    "title": "j, k, w, x and y appear only in foreign words",
+    "body": "These letters are used only in borrowed words and names, which keep roughly their original sound: weekend, taxi, yogurt. In older Italian names j is “y”: Jacopo.",
+    "pattern": "[jkwxy]",
+    "examples": [
+      {
+        "word": "il weekend",
+        "say": "eel WEE-kehnd",
+        "en": "weekend"
+      },
+      {
+        "word": "il taxi",
+        "say": "eel TAHK-see",
+        "en": "taxi"
+      },
+      {
+        "word": "lo yogurt",
+        "say": "loh YOH-goort",
+        "en": "yogurt"
+      },
+      {
+        "word": "Jacopo",
+        "say": "YAH-koh-poh",
+        "en": "Jacopo (a name)"
+      }
+    ]
+  },
+  {
+    "title": "s before b, d, g, l, m, n, r, v sounds like “z”",
+    "body": "Before these voiced consonants s buzzes like the “z” in “zoo”, also at the start of a word: sveglia is “ZVEHL-lyah”. Before p, t, c, f and q it stays a hissing “s”.",
+    "pattern": "s(?=[bdglmnrv])",
+    "examples": [
+      {
+        "word": "la sveglia",
+        "say": "lah ZVEHL-lyah",
+        "en": "alarm clock"
+      },
+      {
+        "word": "sbagliato",
+        "say": "zbahl-LYAH-toh",
+        "en": "wrong"
+      },
+      {
+        "word": "smettere",
+        "say": "ZMEHT-teh-reh",
+        "en": "to stop (doing)"
+      }
+    ]
+  },
+  {
+    "title": "gh is a hard “g”",
+    "body": "gh appears only before e or i and keeps the g hard, as in “get”: colleghi, funghi. It is never the “j” sound.",
+    "pattern": "gh",
+    "examples": [
+      {
+        "word": "i colleghi",
+        "say": "ee kohl-LEH-gee",
+        "en": "colleagues"
+      },
+      {
+        "word": "lunghi",
+        "say": "LOON-gee",
+        "en": "long (plural)"
+      },
+      {
+        "word": "i funghi",
+        "say": "ee FOON-gee",
+        "en": "mushrooms"
+      },
+      {
+        "word": "il ghiaccio",
+        "say": "eel GYAHT-choh",
+        "en": "ice"
+      }
+    ]
+  }
+]

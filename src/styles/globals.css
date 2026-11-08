@@ -615,10 +615,6 @@ a.button--primary::after,
   gap: var(--space-2);
 }
 
-.level-grid--two {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .level-card {
   display: flex;
   flex-direction: column;
@@ -793,6 +789,57 @@ a.button--primary::after,
   flex: 1;
   gap: 2px;
   min-width: 0;
+}
+
+/* Pronunciation: numbered rule cards, most frequent first. */
+.rule-list {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: rule;
+}
+
+.rule-list > li {
+  counter-increment: rule;
+}
+
+.rule-list h2::before {
+  content: counter(rule) '. ';
+  color: var(--color-text-muted);
+}
+
+/* Each example: the word, then its respelling and meaning. */
+.say-list {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+}
+
+.say-list > div {
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  align-items: baseline;
+  gap: 2px var(--space-4);
+}
+
+.say-list dt {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  /* Arabic words too sit at the column's left edge, next to their respelling. */
+  text-align: left;
+}
+
+@media (max-width: 40rem) {
+  .say-list > div {
+    grid-template-columns: 1fr;
+  }
+}
+
+.say-list dd {
+  margin: 0;
+  color: var(--color-text-muted);
 }
 
 /* Phrasebook */
@@ -1277,6 +1324,8 @@ label.button:has(input:focus-visible) {
     order: 3;
     width: 100%;
     margin-inline: 0;
+    /* Six links outgrow a phone screen; let the row scroll instead of clipping. */
+    overflow-x: auto;
   }
 
   /* The toggle and the link wrap as one pair, pushed to the right. */

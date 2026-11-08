@@ -8,6 +8,7 @@ import { PickerPage } from './pages/PickerPage';
 import { LevelPage } from './pages/LevelPage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { PhrasebookPage, PhrasesPage } from './pages/PhrasesPage';
+import { PronunciationIndexPage, PronunciationPage } from './pages/PronunciationPage';
 import { ProgressPage } from './pages/ProgressPage';
 import { ReaderPage } from './pages/ReaderPage';
 import { SettingsPage } from './pages/SettingsPage';
@@ -29,6 +30,8 @@ export function App() {
           <Route path="reading" element={<PickerPage />} />
           <Route path="phrases" element={<PhrasebookPage />} />
           <Route path="phrases/:lang" element={<PhrasesPage />} />
+          <Route path="pronunciation" element={<PronunciationIndexPage />} />
+          <Route path="pronunciation/:lang" element={<PronunciationPage />} />
           <Route path="progress" element={<ProgressPage />} />
           <Route path="settings" element={<SettingsPage />} />
           <Route path=":lang" element={<LangLayout />}>

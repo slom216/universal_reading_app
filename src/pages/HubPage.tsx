@@ -3,6 +3,7 @@ import { LANG_IDS, LANGS } from '../languages';
 import heroArt from '../assets/art/hero-reading.webp';
 import artA1 from '../assets/art/level-a1-family.webp';
 import artA2 from '../assets/art/level-a2-travel.webp';
+import artB1 from '../assets/art/level-b1-city.webp';
 
 const SECTIONS = [
   {
@@ -25,6 +26,16 @@ const SECTIONS = [
     meta: '1000 phrases per language',
     cta: 'Learn phrases',
   },
+  {
+    to: '/pronunciation',
+    art: { src: artB1, width: 410, height: 161 },
+    chip: 'Sounds',
+    title: 'Pronunciation',
+    blurb:
+      'How each language sounds, rule by rule, with example words and an English-style respelling.',
+    meta: 'Rules for every language',
+    cta: 'Learn the sounds',
+  },
 ];
 
 export function HubPage() {
@@ -44,7 +55,7 @@ export function HubPage() {
         <img className="hero__art" src={heroArt} alt="" width={743} height={371} />
       </section>
 
-      <div className="level-grid level-grid--two">
+      <div className="level-grid">
         {SECTIONS.map((s) => (
           <article key={s.to} className="card level-card">
             <div className="level-card__frame">

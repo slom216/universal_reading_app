@@ -177,6 +177,43 @@ ${phraseLinks}
   urls.push(`/phrases/${lang}`);
 }
 
+// Pronunciation: an index plus one page of rules per language.
+const sayLinks = Object.entries(LANGS)
+  .map(([id, l]) => `<li><a href="/pronunciation/${id}">${l.name} pronunciation</a></li>`)
+  .join('\n');
+write(
+  '/pronunciation',
+  'Pronunciation rules for fifteen languages · DeuLern Polyglot',
+  'How English, German, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek, Serbian, Hindi and Chinese sound, rule by rule, with example words.',
+  `<h1>Pronunciation rules for fifteen languages</h1>\n<ul>\n${sayLinks}\n</ul>`,
+);
+urls.push('/pronunciation');
+for (const [lang, { name }] of Object.entries(LANGS)) {
+  const rules = JSON.parse(readFileSync(`src/content/pronunciation/${lang}.json`, 'utf8'));
+  write(
+    `/pronunciation/${lang}`,
+    `${name} pronunciation · DeuLern Polyglot`,
+    `How ${name} sounds: ${rules.length} pronunciation rule${rules.length > 1 ? 's' : ''}, most frequent first, with example words and an English-style respelling.`,
+    `<h1>${name} pronunciation</h1>
+<ol>
+${rules
+  .map(
+    (r) => `<li><h2>${esc(r.title)}</h2>
+<p>${esc(r.body)}</p>
+<ul>
+${r.examples.map((e) => `<li><span lang="${lang}">${esc(e.word)}</span> “${esc(e.say)}” · ${esc(e.en)}</li>`).join('\n')}
+</ul></li>`,
+  )
+  .join('\n')}
+</ol>
+<h2>Other languages</h2>
+<ul>
+${sayLinks}
+</ul>`,
+  );
+  urls.push(`/pronunciation/${lang}`);
+}
+
 // The home page doubles as the SPA fallback, so it gets only the section links.
 writeFileSync(
   'dist/index.html',
@@ -184,7 +221,7 @@ writeFileSync(
     '/',
     'DeuLern Polyglot',
     'Free graded reading texts and the 1000 most useful everyday phrases in English, German, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek, Serbian, Hindi and Chinese. No account needed.',
-    `<h1>DeuLern Polyglot: reading texts and everyday phrases in fifteen languages</h1>\n<ul>\n<li><a href="/reading">Graded reading texts</a></li>\n<li><a href="/phrases">Everyday phrases</a></li>\n</ul>\n<ul>\n${langLinks}\n</ul>`,
+    `<h1>DeuLern Polyglot: reading texts and everyday phrases in fifteen languages</h1>\n<ul>\n<li><a href="/reading">Graded reading texts</a></li>\n<li><a href="/phrases">Everyday phrases</a></li>\n<li><a href="/pronunciation">Pronunciation</a></li>\n</ul>\n<ul>\n${langLinks}\n</ul>`,
   ).replace(/\n\s*<link rel="canonical"[^>]*>/, ''),
 );
 

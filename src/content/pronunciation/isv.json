@@ -1,0 +1,640 @@
+[
+  {
+    "title": "b, d, f, k, l, m, n, p, s, t, v, z sound as in English",
+    "body": "These letters are close to English, but p, t and k have no puff of air after them, and s is always “s” as in “spin”, never “z”.",
+    "pattern": "[bfkmpstvz]|d(?!ž)|l(?!j)|n(?!j)",
+    "examples": [
+      {
+        "word": "brat",
+        "say": "brat",
+        "en": "brother"
+      },
+      {
+        "word": "tam",
+        "say": "tam",
+        "en": "there"
+      },
+      {
+        "word": "zdravo",
+        "say": "ZDRA-vo",
+        "en": "hello"
+      },
+      {
+        "word": "kafe",
+        "say": "KA-feh",
+        "en": "café"
+      }
+    ]
+  },
+  {
+    "title": "Stress is free; two-syllable words are safest on the first",
+    "body": "Interslavic has no fixed stress and any Slavic habit is accepted. Safe guide: two syllables, stress the first; three, the first or second; four, the second or third. Keep the stress on the same syllable when endings change (běly “BYE-lih”, bělogo “BYE-lo-go”) and avoid stressing endings.",
+    "pattern": "(?<!\\p{L})\\p{L}*?[aeiouyě]+[^aeiouyě\\P{L}]+[aeiouyě]\\p{L}*",
+    "examples": [
+      {
+        "word": "voda",
+        "say": "VO-da",
+        "en": "water"
+      },
+      {
+        "word": "sestra",
+        "say": "SES-tra",
+        "en": "sister"
+      },
+      {
+        "word": "rabota",
+        "say": "ra-BO-ta",
+        "en": "work"
+      },
+      {
+        "word": "govoriti",
+        "say": "go-vo-REE-tee",
+        "en": "to speak"
+      }
+    ]
+  },
+  {
+    "title": "a sounds like “a” in “father”",
+    "body": "a is an open “a”, never the “a” of “cat” or “late”. Every vowel keeps its full sound in unstressed syllables too.",
+    "pattern": "a",
+    "examples": [
+      {
+        "word": "mama",
+        "say": "MA-ma",
+        "en": "mum"
+      },
+      {
+        "word": "na",
+        "say": "na",
+        "en": "on"
+      },
+      {
+        "word": "kava",
+        "say": "KA-va",
+        "en": "coffee"
+      },
+      {
+        "word": "grad",
+        "say": "grad",
+        "en": "city"
+      }
+    ]
+  },
+  {
+    "title": "o sounds like “o” in “or”, also when unstressed",
+    "body": "o is an open “o”, never the “oh” glide of English “go”. Keep it an “o” in unstressed syllables too; do not turn it into “a” as in Russian.",
+    "pattern": "o",
+    "examples": [
+      {
+        "word": "ona",
+        "say": "O-na",
+        "en": "she"
+      },
+      {
+        "word": "dom",
+        "say": "dom",
+        "en": "house"
+      },
+      {
+        "word": "doma",
+        "say": "DO-ma",
+        "en": "at home"
+      },
+      {
+        "word": "mnogo",
+        "say": "MNO-go",
+        "en": "much, many"
+      }
+    ]
+  },
+  {
+    "title": "i sounds like “ee” in “beat”",
+    "body": "i is a clear “ee”, a little shorter than in English.",
+    "pattern": "i",
+    "examples": [
+      {
+        "word": "i",
+        "say": "ee",
+        "en": "and"
+      },
+      {
+        "word": "tri",
+        "say": "tree",
+        "en": "three"
+      },
+      {
+        "word": "ili",
+        "say": "EE-lee",
+        "en": "or"
+      },
+      {
+        "word": "ljudi",
+        "say": "LYOO-dee",
+        "en": "people"
+      }
+    ]
+  },
+  {
+    "title": "e sounds like “e” in “best”, even at the end of a word",
+    "body": "e is the short “e” of “best”, never “ee”. There are no silent letters, so a final e is always said.",
+    "pattern": "e",
+    "examples": [
+      {
+        "word": "žena",
+        "say": "ZHE-na",
+        "en": "woman, wife"
+      },
+      {
+        "word": "ne",
+        "say": "neh",
+        "en": "no, not"
+      },
+      {
+        "word": "den",
+        "say": "den",
+        "en": "day"
+      },
+      {
+        "word": "ime",
+        "say": "EE-meh",
+        "en": "name"
+      }
+    ]
+  },
+  {
+    "title": "r is rolled",
+    "body": "r is a rolled or tapped r made with the tip of the tongue, as in Spanish or Scottish English. Always pronounce it, also before consonants and at the end of a word.",
+    "pattern": "(?<![bcčćdđfghjklmnpsštvzž])r|r(?=[aeiouyě])",
+    "examples": [
+      {
+        "word": "raz",
+        "say": "raz",
+        "en": "once, time"
+      },
+      {
+        "word": "rabota",
+        "say": "ra-BO-ta",
+        "en": "work"
+      },
+      {
+        "word": "dobro",
+        "say": "DO-bro",
+        "en": "well, good"
+      },
+      {
+        "word": "tri",
+        "say": "tree",
+        "en": "three"
+      }
+    ]
+  },
+  {
+    "title": "j sounds like “y” in “yard”",
+    "body": "j is always the “y” of “yard”, never the English “j”. After a vowel it forms a glide, like “oy” in “boy”.",
+    "pattern": "j",
+    "examples": [
+      {
+        "word": "ja",
+        "say": "ya",
+        "en": "I"
+      },
+      {
+        "word": "jest",
+        "say": "yest",
+        "en": "is"
+      },
+      {
+        "word": "moj",
+        "say": "moy",
+        "en": "my"
+      },
+      {
+        "word": "jutro",
+        "say": "YOO-tro",
+        "en": "morning"
+      }
+    ]
+  },
+  {
+    "title": "u sounds like “oo” in “book”",
+    "body": "u is always a short “oo”, never the “u” of “cup” or “use”.",
+    "pattern": "u",
+    "examples": [
+      {
+        "word": "sut",
+        "say": "soot",
+        "en": "they are"
+      },
+      {
+        "word": "ju",
+        "say": "yoo",
+        "en": "her (object)"
+      },
+      {
+        "word": "kavu",
+        "say": "KA-voo",
+        "en": "coffee (object)"
+      },
+      {
+        "word": "muž",
+        "say": "moozh",
+        "en": "man, husband"
+      }
+    ]
+  },
+  {
+    "title": "y sounds like “i” in “bit” (or simply “ee”)",
+    "body": "y is like the “i” in “bit”. Polish and Russian speakers say it a little further back, while South Slavs simply say “ee”. All of these are correct.",
+    "pattern": "y",
+    "examples": [
+      {
+        "word": "byl",
+        "say": "bil",
+        "en": "he was"
+      },
+      {
+        "word": "ty",
+        "say": "tih",
+        "en": "you"
+      },
+      {
+        "word": "my",
+        "say": "mih",
+        "en": "we"
+      },
+      {
+        "word": "novy",
+        "say": "NO-vih",
+        "en": "new"
+      }
+    ]
+  },
+  {
+    "title": "g is always hard, as in “good”",
+    "body": "g is the “g” of “good”, also before e and i, never the “j” sound of “gem”. Ukrainian and Belarusian speakers may say it as an “h”; that is accepted too.",
+    "pattern": "g",
+    "examples": [
+      {
+        "word": "kogda",
+        "say": "KOG-da",
+        "en": "when"
+      },
+      {
+        "word": "grad",
+        "say": "grad",
+        "en": "city"
+      },
+      {
+        "word": "knigy",
+        "say": "KNEE-gih",
+        "en": "books"
+      },
+      {
+        "word": "drugy",
+        "say": "DROO-gih",
+        "en": "other, second"
+      }
+    ]
+  },
+  {
+    "title": "ě sounds like “ye” in “yet” (or plain “e”)",
+    "body": "The ideal sound is “ye” as in “yet”, with the consonant before it slightly softened: dělo is close to “DYE-lo”. A plain “e”, as South Slavs say it, is also understood. Pick one and use it consistently.",
+    "pattern": "ě",
+    "examples": [
+      {
+        "word": "lět",
+        "say": "lyet",
+        "en": "years (of age)"
+      },
+      {
+        "word": "děti",
+        "say": "DYE-tee",
+        "en": "children"
+      },
+      {
+        "word": "město",
+        "say": "MYES-to",
+        "en": "town, place"
+      },
+      {
+        "word": "trěba",
+        "say": "TRYE-ba",
+        "en": "it is necessary"
+      }
+    ]
+  },
+  {
+    "title": "č sounds like “ch” in “church”",
+    "body": "č is the “ch” of “church”.",
+    "pattern": "č",
+    "examples": [
+      {
+        "word": "čaj",
+        "say": "chai",
+        "en": "tea"
+      },
+      {
+        "word": "čto",
+        "say": "chto",
+        "en": "what"
+      },
+      {
+        "word": "večer",
+        "say": "VE-cher",
+        "en": "evening"
+      },
+      {
+        "word": "čas",
+        "say": "chas",
+        "en": "hour, time"
+      }
+    ]
+  },
+  {
+    "title": "Final voiced consonants may stay voiced or harden",
+    "body": "At the end of a word, b, d, g, z, ž, v may be said as written or hardened to p, t, k, s, š, f, as most Slavs do. Both are correct (also prosba as “PROZ-ba”); staying close to the spelling is recommended.",
+    "pattern": "(?<=\\p{L})(?:[bdgzžvđ]|dž)(?!\\p{L})",
+    "examples": [
+      {
+        "word": "god",
+        "say": "god (or got)",
+        "en": "year"
+      },
+      {
+        "word": "grad",
+        "say": "grad (or grat)",
+        "en": "city"
+      },
+      {
+        "word": "sněg",
+        "say": "snyeg (or snyek)",
+        "en": "snow"
+      },
+      {
+        "word": "obed",
+        "say": "O-bed (or O-bet)",
+        "en": "lunch"
+      }
+    ]
+  },
+  {
+    "title": "lj and nj are soft “ly” and “ny” sounds",
+    "body": "lj is one soft sound like “lli” in “million”, and nj like “ny” in “canyon”. In nouns ending in -nje (plavanje, rěšenje) you may also say n and j separately.",
+    "pattern": "[ln]j",
+    "examples": [
+      {
+        "word": "ljudi",
+        "say": "LYOO-dee",
+        "en": "people"
+      },
+      {
+        "word": "bolje",
+        "say": "BO-lyeh",
+        "en": "better"
+      },
+      {
+        "word": "menje",
+        "say": "ME-nyeh",
+        "en": "less"
+      },
+      {
+        "word": "kuhinja",
+        "say": "KOO-khee-nya",
+        "en": "kitchen"
+      }
+    ]
+  },
+  {
+    "title": "š sounds like “sh” in “shop”",
+    "body": "š is the “sh” of “shop”.",
+    "pattern": "š",
+    "examples": [
+      {
+        "word": "šest",
+        "say": "shest",
+        "en": "six"
+      },
+      {
+        "word": "škola",
+        "say": "SHKO-la",
+        "en": "school"
+      },
+      {
+        "word": "naš",
+        "say": "nash",
+        "en": "our"
+      },
+      {
+        "word": "ješče",
+        "say": "YESH-cheh",
+        "en": "still, yet"
+      }
+    ]
+  },
+  {
+    "title": "h sounds like “ch” in Scottish “loch”",
+    "body": "h is a breathy “kh” from the back of the mouth, as in Scottish “loch”. A softer English “h” is also understood.",
+    "pattern": "h",
+    "examples": [
+      {
+        "word": "hlěb",
+        "say": "khlyeb",
+        "en": "bread"
+      },
+      {
+        "word": "tiho",
+        "say": "TEE-kho",
+        "en": "quietly"
+      },
+      {
+        "word": "hvala",
+        "say": "KHVA-la",
+        "en": "thanks"
+      },
+      {
+        "word": "hotěl",
+        "say": "KHO-tyel",
+        "en": "he wanted"
+      }
+    ]
+  },
+  {
+    "title": "ž sounds like “s” in “vision”",
+    "body": "ž is the “zh” sound in “vision” or “measure”.",
+    "pattern": "ž",
+    "examples": [
+      {
+        "word": "že",
+        "say": "zheh",
+        "en": "that (conjunction)"
+      },
+      {
+        "word": "život",
+        "say": "ZHEE-vot",
+        "en": "life"
+      },
+      {
+        "word": "može",
+        "say": "MO-zheh",
+        "en": "can, may"
+      },
+      {
+        "word": "každy",
+        "say": "KAZH-dih",
+        "en": "every"
+      }
+    ]
+  },
+  {
+    "title": "c sounds like “ts” in “bits”",
+    "body": "c is always “ts”, also at the start of a word. It is never “k” or “s”.",
+    "pattern": "c",
+    "examples": [
+      {
+        "word": "otec",
+        "say": "O-tets",
+        "en": "father"
+      },
+      {
+        "word": "cěna",
+        "say": "TSYE-na",
+        "en": "price"
+      },
+      {
+        "word": "sunce",
+        "say": "SOON-tseh",
+        "en": "sun"
+      },
+      {
+        "word": "konec",
+        "say": "KO-nets",
+        "en": "end"
+      }
+    ]
+  },
+  {
+    "title": "r between consonants acts as a vowel: “uhr”",
+    "body": "After a consonant and not followed by a vowel, r forms a syllable of its own. Say it with a short “uh” before it, a bit like the “ur” in “Murphy” but with a rolled r.",
+    "pattern": "(?<=[bcčćdđfghklmnpsštvzž])r(?![aeiouyě])",
+    "examples": [
+      {
+        "word": "prvy",
+        "say": "PUHR-vih",
+        "en": "first"
+      },
+      {
+        "word": "vrlo",
+        "say": "VUHR-lo",
+        "en": "very"
+      },
+      {
+        "word": "četvrtok",
+        "say": "CHE-tvuhr-tok",
+        "en": "Thursday"
+      },
+      {
+        "word": "trg",
+        "say": "tuhrg",
+        "en": "square, market"
+      }
+    ]
+  },
+  {
+    "title": "ć sounds like “ch” in “cheap”, or simply like č",
+    "body": "ć is a softer “ch”, as in “cheap” said with the lips spread, like Croatian ć or Polish ć. Saying it exactly like č is equally correct.",
+    "pattern": "ć",
+    "examples": [
+      {
+        "word": "noć",
+        "say": "noch",
+        "en": "night"
+      },
+      {
+        "word": "plaća",
+        "say": "PLA-cha",
+        "en": "salary"
+      },
+      {
+        "word": "pomoć",
+        "say": "PO-moch",
+        "en": "help"
+      },
+      {
+        "word": "srěćny",
+        "say": "SRYECH-nih",
+        "en": "happy, lucky"
+      }
+    ]
+  },
+  {
+    "title": "A short “uh” may ease a hard final consonant cluster",
+    "body": "Where a word ends in a consonant plus l, m or n, you may slip in a short “uh” to make it easier: jesm can be “YE-suhm”. Saying it as written is equally correct.",
+    "pattern": "(?<=\\p{L}[bcčćdđfghkpsštvzž])[lmn](?!\\p{L})",
+    "examples": [
+      {
+        "word": "jesm",
+        "say": "yesm (or YE-suhm)",
+        "en": "I am"
+      },
+      {
+        "word": "mogl",
+        "say": "mogl (or MO-guhl)",
+        "en": "he could"
+      },
+      {
+        "word": "sedm",
+        "say": "sedm (or SE-duhm)",
+        "en": "seven"
+      },
+      {
+        "word": "osm",
+        "say": "osm (or O-suhm)",
+        "en": "eight"
+      }
+    ]
+  },
+  {
+    "title": "đ sounds like “j” in “jeep”, or simply like dž",
+    "body": "đ is a softer “j”, as in “jeep” said with the lips spread, like Croatian đ. Saying it exactly like dž is equally correct.",
+    "pattern": "đ",
+    "examples": [
+      {
+        "word": "gospođa",
+        "say": "gos-PO-ja",
+        "en": "Mrs, lady"
+      },
+      {
+        "word": "rođendan",
+        "say": "RO-jen-dan",
+        "en": "birthday"
+      },
+      {
+        "word": "mađarsky",
+        "say": "MA-jar-skih",
+        "en": "Hungarian"
+      }
+    ]
+  },
+  {
+    "title": "dž sounds like “j” in “John”",
+    "body": "dž is one sound, the English “j” of “John” or “jam”, not d followed by ž.",
+    "pattern": "dž",
+    "examples": [
+      {
+        "word": "budžet",
+        "say": "BOO-jet",
+        "en": "budget"
+      },
+      {
+        "word": "džem",
+        "say": "jem",
+        "en": "jam"
+      },
+      {
+        "word": "medžu",
+        "say": "ME-joo",
+        "en": "between"
+      }
+    ]
+  }
+]

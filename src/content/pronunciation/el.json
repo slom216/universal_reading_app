@@ -1,0 +1,924 @@
+[
+  {
+    "title": "κ λ μ ν π τ φ ζ sound much as in English",
+    "body": "κ, λ, μ, ν, π, τ, φ, ζ are “k, l, m, n, p, t, f, z”. Say π, τ, κ without the puff of air English adds. Before e and i sounds κ is nearer “ky”.",
+    "pattern": "(?<!γ)κ|λ|μ(?!π)|ν(?!τ)|(?<!μ)π|(?<!ν)τ(?![σζ])|φ|(?<!τ)ζ",
+    "examples": [
+      {
+        "word": "καφέ",
+        "say": "ka-FE",
+        "en": "coffee"
+      },
+      {
+        "word": "μόνο",
+        "say": "MO-no",
+        "en": "only"
+      },
+      {
+        "word": "πολύ",
+        "say": "po-LEE",
+        "en": "very, much"
+      },
+      {
+        "word": "ζωή",
+        "say": "zo-EE",
+        "en": "life"
+      }
+    ]
+  },
+  {
+    "title": "The accent mark shows the stress",
+    "body": "Every Greek word with more than one syllable carries an accent mark (΄) on the vowel you stress. Moving the stress can change the word, so always follow the mark.",
+    "pattern": "[άέήίόύώΐΰ]",
+    "examples": [
+      {
+        "word": "καλημέρα",
+        "say": "ka-lee-ME-ra",
+        "en": "good morning"
+      },
+      {
+        "word": "νερό",
+        "say": "ne-RO",
+        "en": "water"
+      },
+      {
+        "word": "πόλη",
+        "say": "PO-lee",
+        "en": "city"
+      },
+      {
+        "word": "ποτέ / πότε",
+        "say": "po-TE / PO-te",
+        "en": "never / when"
+      }
+    ]
+  },
+  {
+    "title": "α sounds like “a” in “father”, but short",
+    "body": "α is always an open “a”, as in “father” but kept short. It never turns into the “a” of “cat” or “late”, stressed or not. Only αι and αυ are different (see their rules).",
+    "pattern": "α(?![ιίυύ])|ά",
+    "examples": [
+      {
+        "word": "μαμά",
+        "say": "ma-MA",
+        "en": "mum"
+      },
+      {
+        "word": "αλλά",
+        "say": "a-LA",
+        "en": "but"
+      },
+      {
+        "word": "πάντα",
+        "say": "PAN-da",
+        "en": "always"
+      },
+      {
+        "word": "τα",
+        "say": "ta",
+        "en": "the (plural)"
+      }
+    ]
+  },
+  {
+    "title": "ι, η and υ all sound “ee”",
+    "body": "Three letters share one sound: ι, η and υ are all “ee” as in “see”, but short. υ is never “u” or “y” on its own; it only changes in the pairs ου, αυ, ευ.",
+    "pattern": "(?<![αεο])[ιί]|[ηή]|(?<![αεοη])[υύ]",
+    "examples": [
+      {
+        "word": "η",
+        "say": "ee",
+        "en": "the (feminine)"
+      },
+      {
+        "word": "σπίτι",
+        "say": "SPEE-tee",
+        "en": "house"
+      },
+      {
+        "word": "μικρή",
+        "say": "mee-KREE",
+        "en": "small"
+      },
+      {
+        "word": "δύο",
+        "say": "DHEE-o",
+        "en": "two"
+      }
+    ]
+  },
+  {
+    "title": "ο and ω both sound “o”",
+    "body": "ο and ω are the same sound: a short, pure “o”, between “o” in “hot” and “aw” in “law”. Never glide it into “oh-oo” as in English “go”.",
+    "pattern": "ο(?![ιίυύ])|ό|[ωώ]",
+    "examples": [
+      {
+        "word": "το",
+        "say": "to",
+        "en": "the (neuter)"
+      },
+      {
+        "word": "ώρα",
+        "say": "O-ra",
+        "en": "hour"
+      },
+      {
+        "word": "δωμάτιο",
+        "say": "dho-MA-tyo",
+        "en": "room"
+      },
+      {
+        "word": "πρωί",
+        "say": "pro-EE",
+        "en": "morning"
+      }
+    ]
+  },
+  {
+    "title": "ε sounds like “e” in “bet”",
+    "body": "ε is a short, clear “e” as in “bet”, also at the end of a word, where it is never silent. In the respellings “e” always means this sound.",
+    "pattern": "ε(?![ιίυύ])|έ",
+    "examples": [
+      {
+        "word": "με",
+        "say": "me",
+        "en": "with"
+      },
+      {
+        "word": "μέρα",
+        "say": "ME-ra",
+        "en": "day"
+      },
+      {
+        "word": "πέντε",
+        "say": "PEN-de",
+        "en": "five"
+      },
+      {
+        "word": "εδώ",
+        "say": "e-DHO",
+        "en": "here"
+      }
+    ]
+  },
+  {
+    "title": "σ and final ς both sound “s”",
+    "body": "Sigma has two shapes: ς at the end of a word, σ everywhere else. Both are a sharp “s” as in “see”, never the “z” of “rose” (except before soft consonants, see the next rule).",
+    "pattern": "σ(?![βγδμνλρ])|ς",
+    "examples": [
+      {
+        "word": "σας",
+        "say": "sas",
+        "en": "you, your (polite)"
+      },
+      {
+        "word": "σπίτι",
+        "say": "SPEE-tee",
+        "en": "house"
+      },
+      {
+        "word": "Νίκος",
+        "say": "NEE-kos",
+        "en": "Nikos (name)"
+      },
+      {
+        "word": "ένας",
+        "say": "E-nas",
+        "en": "one, a"
+      }
+    ]
+  },
+  {
+    "title": "ρ is a quick tapped “r”",
+    "body": "ρ is a light flick of the tongue tip, like the “tt” in American “better”, or rolled a little. Always pronounce it, also before consonants and at the end of a word.",
+    "pattern": "ρ",
+    "examples": [
+      {
+        "word": "μέρα",
+        "say": "ME-ra",
+        "en": "day"
+      },
+      {
+        "word": "ώρα",
+        "say": "O-ra",
+        "en": "hour"
+      },
+      {
+        "word": "πρωί",
+        "say": "pro-EE",
+        "en": "morning"
+      },
+      {
+        "word": "ρώτησε",
+        "say": "RO-tee-se",
+        "en": "asked"
+      }
+    ]
+  },
+  {
+    "title": "ει, οι and υι also sound “ee”",
+    "body": "These pairs are one vowel, the same “ee” as ι. υι is rare (υιοθεσία “adoption”). Only an accent on the first letter or a diaeresis (οϊ) splits them.",
+    "pattern": "[εο][ιί]|υ[ιί]",
+    "examples": [
+      {
+        "word": "οι",
+        "say": "ee",
+        "en": "the (plural)"
+      },
+      {
+        "word": "είκοσι",
+        "say": "EE-ko-see",
+        "en": "twenty"
+      },
+      {
+        "word": "οικογένεια",
+        "say": "ee-ko-YE-nya",
+        "en": "family"
+      },
+      {
+        "word": "γονείς",
+        "say": "gho-NEES",
+        "en": "parents"
+      }
+    ]
+  },
+  {
+    "title": "Unstressed i sound before a vowel becomes “y”",
+    "body": "An unstressed ι, ει, οι, η or υ before another vowel glides into a quick “y” and joins that vowel: ιά is “ya”. After λ and ν this gives “ly” as in “million” and “ny” as in “canyon”.",
+    "pattern": "(?<=\\p{L})(?:ι|ει|οι|η|υ)(?=[αάεέοόωώ])",
+    "examples": [
+      {
+        "word": "παιδιά",
+        "say": "pe-DHYA",
+        "en": "children"
+      },
+      {
+        "word": "χρόνια",
+        "say": "KHRO-nya",
+        "en": "years"
+      },
+      {
+        "word": "δουλειά",
+        "say": "dhoo-LYA",
+        "en": "work, job"
+      },
+      {
+        "word": "βοήθεια",
+        "say": "vo-EE-thya",
+        "en": "help"
+      }
+    ]
+  },
+  {
+    "title": "ου sounds “oo”",
+    "body": "The pair ου is one vowel, “oo” as in “food”, but short. It is the only way Greek writes this sound.",
+    "pattern": "ο[υύ]",
+    "examples": [
+      {
+        "word": "του",
+        "say": "too",
+        "en": "his"
+      },
+      {
+        "word": "μου",
+        "say": "moo",
+        "en": "my"
+      },
+      {
+        "word": "δουλειά",
+        "say": "dhoo-LYA",
+        "en": "work, job"
+      },
+      {
+        "word": "ούτε",
+        "say": "OO-te",
+        "en": "not even, neither"
+      }
+    ]
+  },
+  {
+    "title": "δ sounds like “th” in “this”",
+    "body": "δ is always the soft, buzzing “th” of “this” and “mother”, never “d”. Written “dh” in the respellings. Greek writes “d” as ντ.",
+    "pattern": "δ",
+    "examples": [
+      {
+        "word": "δεν",
+        "say": "dhen",
+        "en": "not"
+      },
+      {
+        "word": "δύο",
+        "say": "DHEE-o",
+        "en": "two"
+      },
+      {
+        "word": "εδώ",
+        "say": "e-DHO",
+        "en": "here"
+      },
+      {
+        "word": "βράδυ",
+        "say": "VRA-dhee",
+        "en": "evening"
+      }
+    ]
+  },
+  {
+    "title": "αι sounds like ε, “e” in “bet”",
+    "body": "The pair αι is one vowel, the same “e” as ε. If the accent sits on the ι (αί) it is still one “e”; only ά before ι or a diaeresis (αϊ) splits it.",
+    "pattern": "α[ιί]",
+    "examples": [
+      {
+        "word": "και",
+        "say": "ke",
+        "en": "and"
+      },
+      {
+        "word": "είναι",
+        "say": "EE-ne",
+        "en": "is, are"
+      },
+      {
+        "word": "γυναίκα",
+        "say": "yee-NE-ka",
+        "en": "woman"
+      },
+      {
+        "word": "παιδιά",
+        "say": "pe-DHYA",
+        "en": "children"
+      }
+    ]
+  },
+  {
+    "title": "χ is a rough “kh”, softer before e and i sounds",
+    "body": "Before α, ο, ω, ου and consonants, χ is the rough “kh” of Scottish “loch”. Before e and i sounds it moves forward to a hiss like the “h” in “huge”, written “h” in the respellings.",
+    "pattern": "(?<!γ)χ",
+    "examples": [
+      {
+        "word": "χρόνια",
+        "say": "KHRO-nya",
+        "en": "years"
+      },
+      {
+        "word": "χωριό",
+        "say": "kho-RYO",
+        "en": "village"
+      },
+      {
+        "word": "όχι",
+        "say": "O-hee",
+        "en": "no"
+      },
+      {
+        "word": "έχει",
+        "say": "E-hee",
+        "en": "has"
+      }
+    ]
+  },
+  {
+    "title": "γ before e and i sounds is “y” as in “yes”",
+    "body": "Before ε, αι, ι, η, υ, ει, οι, γ sounds like “y” in “yes”. In γι before another vowel the ι is not heard: γιατί is “ya-TEE”.",
+    "pattern": "(?<!γ)γ(?=[εέηήιίυύϊΐ]|ο[ιί])",
+    "examples": [
+      {
+        "word": "γεια",
+        "say": "ya",
+        "en": "hi, bye"
+      },
+      {
+        "word": "γιαγιά",
+        "say": "ya-YA",
+        "en": "grandmother"
+      },
+      {
+        "word": "γιατί",
+        "say": "ya-TEE",
+        "en": "why, because"
+      },
+      {
+        "word": "γυναίκα",
+        "say": "yee-NE-ka",
+        "en": "woman"
+      }
+    ]
+  },
+  {
+    "title": "θ sounds like “th” in “thin”",
+    "body": "θ is always the hard, breathy “th” of “thin” and “bath”, never the “th” of “this” (that one is δ).",
+    "pattern": "θ",
+    "examples": [
+      {
+        "word": "θα",
+        "say": "tha",
+        "en": "will"
+      },
+      {
+        "word": "θάλασσα",
+        "say": "THA-la-sa",
+        "en": "sea"
+      },
+      {
+        "word": "Αθήνα",
+        "say": "a-THEE-na",
+        "en": "Athens"
+      },
+      {
+        "word": "θέλω",
+        "say": "THE-lo",
+        "en": "I want"
+      }
+    ]
+  },
+  {
+    "title": "β sounds “v”, never “b”",
+    "body": "β is always “v” as in “very”. Greek writes the “b” sound with μπ instead (see that rule).",
+    "pattern": "β",
+    "examples": [
+      {
+        "word": "βιβλία",
+        "say": "vee-VLEE-a",
+        "en": "books"
+      },
+      {
+        "word": "βράδυ",
+        "say": "VRA-dhee",
+        "en": "evening"
+      },
+      {
+        "word": "εβδομάδα",
+        "say": "ev-dho-MA-dha",
+        "en": "week"
+      }
+    ]
+  },
+  {
+    "title": "γ is a soft, breathy “gh” before a, o, u sounds",
+    "body": "Before α, ο, ω, ου and consonants, γ is a “g” said without closing the throat: air keeps flowing, giving a soft gargling “gh”. Written “gh” in the respellings.",
+    "pattern": "(?<!γ)γ(?![εέηήιίυύϊΐγκχξ]|ο[ιί])",
+    "examples": [
+      {
+        "word": "γάλα",
+        "say": "GHA-la",
+        "en": "milk"
+      },
+      {
+        "word": "μεγάλο",
+        "say": "me-GHA-lo",
+        "en": "big"
+      },
+      {
+        "word": "γρήγορα",
+        "say": "GHREE-gho-ra",
+        "en": "quickly"
+      },
+      {
+        "word": "γλυκά",
+        "say": "ghlee-KA",
+        "en": "sweets"
+      }
+    ]
+  },
+  {
+    "title": "Final ν joins a following π, τ, κ as “mb”, “nd”, “ng”",
+    "body": "When a word ending in ν (τον, την, δεν, στον, έναν) is followed by π, τ or κ, they blend like μπ, ντ, γκ inside a word: “mb”, “nd”, “ng”. Say the two words as one.",
+    "pattern": "ν (?=[πτκ])",
+    "examples": [
+      {
+        "word": "τον καφέ",
+        "say": "tong ga-FE",
+        "en": "the coffee"
+      },
+      {
+        "word": "την πόρτα",
+        "say": "teem BOR-ta",
+        "en": "the door"
+      },
+      {
+        "word": "δεν το",
+        "say": "dhen do",
+        "en": "not ... it"
+      },
+      {
+        "word": "στην παραλία",
+        "say": "steem ba-ra-LEE-a",
+        "en": "at the beach"
+      }
+    ]
+  },
+  {
+    "title": "ξ sounds “ks”, ψ sounds “ps”",
+    "body": "Each is one letter for two sounds: ξ is “ks” as in “box”, ψ is “ps” as in “lips”. Both work at the start of a word too.",
+    "pattern": "[ξψ]",
+    "examples": [
+      {
+        "word": "έξι",
+        "say": "E-ksee",
+        "en": "six"
+      },
+      {
+        "word": "ξανά",
+        "say": "ksa-NA",
+        "en": "again"
+      },
+      {
+        "word": "ψωμί",
+        "say": "pso-MEE",
+        "en": "bread"
+      },
+      {
+        "word": "ψάρι",
+        "say": "PSA-ree",
+        "en": "fish"
+      }
+    ]
+  },
+  {
+    "title": "Double consonants sound single",
+    "body": "Two identical consonants (σσ, λλ, ββ, νν, μμ…) are said as one, not held longer. Only γγ is different (see its rule).",
+    "pattern": "([βδθκλμνπρστφχ])\\1",
+    "examples": [
+      {
+        "word": "θάλασσα",
+        "say": "THA-la-sa",
+        "en": "sea"
+      },
+      {
+        "word": "αλλά",
+        "say": "a-LA",
+        "en": "but"
+      },
+      {
+        "word": "Σάββατο",
+        "say": "SA-va-to",
+        "en": "Saturday"
+      },
+      {
+        "word": "εννιά",
+        "say": "e-NYA",
+        "en": "nine"
+      }
+    ]
+  },
+  {
+    "title": "ντ sounds “d” (often “nd” inside a word)",
+    "body": "At the start of a word ντ is a plain “d”. Inside a word it is usually “nd”, as in “window”, or just “d”.",
+    "pattern": "ντ",
+    "examples": [
+      {
+        "word": "ντομάτα",
+        "say": "do-MA-ta",
+        "en": "tomato"
+      },
+      {
+        "word": "πέντε",
+        "say": "PEN-de",
+        "en": "five"
+      },
+      {
+        "word": "πάντα",
+        "say": "PAN-da",
+        "en": "always"
+      },
+      {
+        "word": "κοντά",
+        "say": "kon-DA",
+        "en": "near"
+      }
+    ]
+  },
+  {
+    "title": "αυ, ευ sound “av”, “ev” before vowels and soft consonants",
+    "body": "Before a vowel or one of β γ δ ζ λ μ ν ρ, the υ of αυ and ευ turns into a “v”: “av”, “ev”. The accent on αύ, εύ falls on the “a” or “e”.",
+    "pattern": "[αε][υύ](?=[αάεέηήιίοόωώυύβγδζλμνρ])",
+    "examples": [
+      {
+        "word": "ευρώ",
+        "say": "ev-RO",
+        "en": "euro"
+      },
+      {
+        "word": "δουλεύω",
+        "say": "dhoo-LE-vo",
+        "en": "I work"
+      },
+      {
+        "word": "Παρασκευή",
+        "say": "pa-ras-ke-VEE",
+        "en": "Friday"
+      },
+      {
+        "word": "αύριο",
+        "say": "AV-ree-o",
+        "en": "tomorrow"
+      }
+    ]
+  },
+  {
+    "title": "αυ, ευ sound “af”, “ef” before hard consonants",
+    "body": "Before θ κ ξ π σ τ φ χ ψ and at the end of a word, the υ of αυ and ευ becomes an “f”: “af”, “ef”.",
+    "pattern": "[αε][υύ](?=[θκξπστφχψ]|(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "αυτό",
+        "say": "af-TO",
+        "en": "this, it"
+      },
+      {
+        "word": "αυτοκίνητο",
+        "say": "af-to-KEE-nee-to",
+        "en": "car"
+      },
+      {
+        "word": "ευχαριστώ",
+        "say": "ef-kha-ree-STO",
+        "en": "thank you"
+      },
+      {
+        "word": "αυτή",
+        "say": "af-TEE",
+        "en": "she, this"
+      }
+    ]
+  },
+  {
+    "title": "μπ sounds “b” (often “mb” inside a word)",
+    "body": "At the start of a word μπ is a plain “b”. Inside a word most speakers say “mb”, some just “b”. Both are fine.",
+    "pattern": "μπ",
+    "examples": [
+      {
+        "word": "μπορώ",
+        "say": "bo-RO",
+        "en": "I can"
+      },
+      {
+        "word": "μπαλκόνι",
+        "say": "bal-KO-nee",
+        "en": "balcony"
+      },
+      {
+        "word": "ομπρέλα",
+        "say": "om-BRE-la",
+        "en": "umbrella"
+      },
+      {
+        "word": "μπαμπάς",
+        "say": "ba-BAS",
+        "en": "dad"
+      }
+    ]
+  },
+  {
+    "title": "σ sounds “z” before β, γ, δ, λ, μ, ν, ρ",
+    "body": "Before these soft, buzzing consonants σ buzzes too and becomes “z”. Most often you meet it in σμ.",
+    "pattern": "σ(?=[βγδμνλρ])",
+    "examples": [
+      {
+        "word": "κόσμος",
+        "say": "KOZ-mos",
+        "en": "people, world"
+      },
+      {
+        "word": "διαμέρισμα",
+        "say": "dhya-ME-reez-ma",
+        "en": "flat, apartment"
+      },
+      {
+        "word": "κουρασμένη",
+        "say": "koo-raz-ME-nee",
+        "en": "tired"
+      }
+    ]
+  },
+  {
+    "title": "τσ sounds “ts” as in “cats”",
+    "body": "τσ is one sound, “ts” as in “cats”, and it can start a word or a syllable.",
+    "pattern": "τσ",
+    "examples": [
+      {
+        "word": "έτσι",
+        "say": "E-tsee",
+        "en": "so, like this"
+      },
+      {
+        "word": "τσάντα",
+        "say": "TSAN-da",
+        "en": "bag"
+      },
+      {
+        "word": "κορίτσι",
+        "say": "ko-REE-tsee",
+        "en": "girl"
+      },
+      {
+        "word": "παπούτσια",
+        "say": "pa-POO-tsya",
+        "en": "shoes"
+      }
+    ]
+  },
+  {
+    "title": "γγ sounds “ng-g” as in “finger”",
+    "body": "γγ is not a double “gh” but “ng” plus a hard “g”, as in “finger” or “anger”. Exception: συγγνώμη (sorry) is “see-GHNO-mee”.",
+    "pattern": "γγ",
+    "examples": [
+      {
+        "word": "αγγλικά",
+        "say": "an-glee-KA",
+        "en": "English (language)"
+      },
+      {
+        "word": "εγγόνια",
+        "say": "en-GO-nya",
+        "en": "grandchildren"
+      },
+      {
+        "word": "συγγνώμη",
+        "say": "see-GHNO-mee",
+        "en": "sorry"
+      }
+    ]
+  },
+  {
+    "title": "; is the Greek question mark",
+    "body": "Greek writes a question mark like an English semicolon (;). Read the sentence as a question, with the voice rising or falling as in English.",
+    "pattern": ";",
+    "examples": [
+      {
+        "word": "Τι κάνεις;",
+        "say": "tee KA-nees?",
+        "en": "How are you?"
+      },
+      {
+        "word": "Πού είσαι;",
+        "say": "poo EE-se?",
+        "en": "Where are you?"
+      }
+    ]
+  },
+  {
+    "title": "Two accents in one word: the second one is the main stress",
+    "body": "When μου, σου, του, μας etc. follow a word stressed three syllables from the end, it gets a second accent on its last syllable. Stress both, the second more strongly.",
+    "pattern": "[άέήίόύώ]\\p{L}*[άέήίόύώ]",
+    "examples": [
+      {
+        "word": "το όνομά μου",
+        "say": "to O-no-MA moo",
+        "en": "my name"
+      },
+      {
+        "word": "η οικογένειά μου",
+        "say": "ee ee-ko-YE-NYA moo",
+        "en": "my family"
+      },
+      {
+        "word": "το δωμάτιό μου",
+        "say": "to dho-MA-TYO moo",
+        "en": "my room"
+      }
+    ]
+  },
+  {
+    "title": "ή, πού, πώς: the accent tells a word from its twin",
+    "body": "One-syllable words carry no accent, except a few that would look like an unstressed twin: ή “or” vs η “the”, πού “where?” vs που “that, who”, πώς “how?” vs πως “that”. The marked one gets more weight.",
+    "pattern": "(?<!\\p{L})(?:ή|πού|πώς)(?!\\p{L})",
+    "examples": [
+      {
+        "word": "ή",
+        "say": "ee",
+        "en": "or"
+      },
+      {
+        "word": "πού",
+        "say": "poo",
+        "en": "where?"
+      },
+      {
+        "word": "πώς",
+        "say": "pos",
+        "en": "how?"
+      }
+    ]
+  },
+  {
+    "title": "γκ sounds “g” (often “ng” inside a word)",
+    "body": "At the start of a word γκ is a hard “g” as in “go”. Inside a word it is usually “ng-g” as in “finger”, or just “g”.",
+    "pattern": "γκ",
+    "examples": [
+      {
+        "word": "γκρίζο",
+        "say": "GREE-zo",
+        "en": "grey"
+      },
+      {
+        "word": "γκολ",
+        "say": "gol",
+        "en": "goal"
+      },
+      {
+        "word": "αγκαλιά",
+        "say": "an-ga-LYA",
+        "en": "hug"
+      },
+      {
+        "word": "πάγκο",
+        "say": "PAN-go",
+        "en": "bench, counter"
+      }
+    ]
+  },
+  {
+    "title": "Diaeresis (¨) or an accent on the first vowel splits a pair",
+    "body": "Two dots (ϊ, ϋ) mean the vowel is said on its own: αϊ is “a-ee”, not “e”. An accent on the first letter does the same: τσάι is “TSA-ee”. ΐ carries both marks.",
+    "pattern": "[ϊϋΐΰ]|[άέό]ι|ά[υ]",
+    "examples": [
+      {
+        "word": "λαϊκή",
+        "say": "la-ee-KEE",
+        "en": "street market; folk"
+      },
+      {
+        "word": "προϊόντα",
+        "say": "pro-ee-ON-da",
+        "en": "products"
+      },
+      {
+        "word": "τσάι",
+        "say": "TSA-ee",
+        "en": "tea"
+      },
+      {
+        "word": "ρολόι",
+        "say": "ro-LO-ee",
+        "en": "clock, watch"
+      }
+    ]
+  },
+  {
+    "title": "γχ sounds “nkh”, γξ sounds “nks”",
+    "body": "Before χ and ξ, γ is an “n” said at the back of the mouth, as in “ink”: γχ is “n” plus the rough “kh”, γξ is “nks”.",
+    "pattern": "γ[χξ]",
+    "examples": [
+      {
+        "word": "άγχος",
+        "say": "AN-khos",
+        "en": "stress, anxiety"
+      },
+      {
+        "word": "έλεγξε",
+        "say": "E-len-kse",
+        "en": "checked"
+      },
+      {
+        "word": "συγχαρητήρια",
+        "say": "seen-kha-ree-TEE-rya",
+        "en": "congratulations"
+      }
+    ]
+  },
+  {
+    "title": "The apostrophe (’) marks a dropped vowel",
+    "body": "A vowel has been left out, and the word is said together with the next one: γι’ αυτό is one breath, “yaf-TO”.",
+    "pattern": "’",
+    "examples": [
+      {
+        "word": "γι’ αυτό",
+        "say": "yaf-TO",
+        "en": "that's why"
+      },
+      {
+        "word": "απ’ έξω",
+        "say": "a-PE-kso",
+        "en": "by heart; from outside"
+      },
+      {
+        "word": "απ’ ό,τι",
+        "say": "a-PO-tee",
+        "en": "than"
+      }
+    ]
+  },
+  {
+    "title": "τζ sounds “dz”",
+    "body": "τζ is one sound, “dz” as in “adze”; in some loanwords it is closer to the “j” of “jam”. It is mostly found in borrowed words.",
+    "pattern": "τζ",
+    "examples": [
+      {
+        "word": "τζάκι",
+        "say": "DZA-kee",
+        "en": "fireplace"
+      },
+      {
+        "word": "τζατζίκι",
+        "say": "dza-DZEE-kee",
+        "en": "tzatziki"
+      },
+      {
+        "word": "φλιτζάνια",
+        "say": "flee-DZA-nya",
+        "en": "cups"
+      }
+    ]
+  }
+]

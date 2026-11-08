@@ -1,0 +1,2039 @@
+[
+  {
+    "title": "b, d, f, k, l, m, n, p, t, v, z sound much as in English",
+    "body": "These letters are close to English when they are pronounced. d, t, n and l are made with the tongue against the upper teeth, and l is always the clear “l” of “leaf”, even at the end of a word (il, ville). m and n are only plain consonants before a vowel; otherwise they make the vowel nasal.",
+    "pattern": "[bdfkptvz](?=[^\\P{L}h])|l(?<!ill)(?!(?<=il)l)(?!(?<=[aeuœ]il)(?!\\p{L}))|[mn](?=[aeiouyàâäéèêëîïôöûùüÿœ])",
+    "examples": [
+      {
+        "word": "la ville",
+        "say": "lah VEEL",
+        "en": "town, city"
+      },
+      {
+        "word": "le matin",
+        "say": "luh mah-TAN",
+        "en": "morning"
+      },
+      {
+        "word": "la table",
+        "say": "lah TAH-bluh",
+        "en": "table"
+      },
+      {
+        "word": "le vélo",
+        "say": "luh vay-LOH",
+        "en": "bike"
+      }
+    ]
+  },
+  {
+    "title": "French words have no strong stress",
+    "body": "English hammers one syllable in each word; French gives every syllable about the same weight and length. Do not weaken unstressed vowels: say each one clearly, and do not stress the first syllable of words like hôtel or animal.",
+    "pattern": "(?<![\\p{L}-])(?=\\p{L}*?[aeiouyàâäéèêëîïôöûùüÿœ]+[^\\P{L}aeiouyàâäéèêëîïôöûùüÿœ]+[aeiouyàâäéèêëîïôöûùüÿœ])\\p{L}+",
+    "examples": [
+      {
+        "word": "l’hôtel",
+        "say": "loh-TEL",
+        "en": "hotel"
+      },
+      {
+        "word": "l’animal",
+        "say": "lah-nee-MAHL",
+        "en": "animal"
+      },
+      {
+        "word": "le restaurant",
+        "say": "luh res-toh-RAHN",
+        "en": "restaurant"
+      },
+      {
+        "word": "l’université",
+        "say": "lew-nee-vehr-see-TAY",
+        "en": "university"
+      }
+    ]
+  },
+  {
+    "title": "p, t and k sounds have no puff of air",
+    "body": "English p, t and k at the start of a word come with a small puff of air (hold a hand in front of your mouth and say “pat”). French p, t and the “k” sound have none, so to English ears they can sound close to b, d and g.",
+    "pattern": "p(?=[^\\P{L}h])|t(?=[^\\P{L}h])|c(?=[^\\P{L}eiyéèêëîïh])|qu|k",
+    "examples": [
+      {
+        "word": "le pain",
+        "say": "luh PAN",
+        "en": "bread"
+      },
+      {
+        "word": "tout",
+        "say": "too",
+        "en": "all"
+      },
+      {
+        "word": "quatre",
+        "say": "KAH-truh",
+        "en": "four"
+      },
+      {
+        "word": "le café",
+        "say": "luh kah-FAY",
+        "en": "coffee"
+      }
+    ]
+  },
+  {
+    "title": "Final consonants are usually silent",
+    "body": "Most consonants at the end of a word are not pronounced: the t of petit, the s of vous, the d of grand, the x of deux. The common exceptions are c, r, f and l: remember them as “CaReFuL”. A few short words like bus, sud and ouest also keep their last sound.",
+    "pattern": "(?<=\\p{L})[bdgpstxz](?!\\p{L})(?<!(?<![\\p{L}-])(?:sept|huit|dix|six|sud|ouest|aoûts?|bus|autobus|tennis|os|virus|campus|terminus|erasmus|quitus|eucalyptus|lys|jazz|gaz|club|week-end|stand|food|parking|camping|marketing|jogging|planning|coworking|sitting|training|up|stop|cap|pop|whatsapp|ehpad|dvd|cd|cp|metz|biarritz|tomasz|austerlitz|ahmed|david|rachid|short|shirt|test|start|compost|brest|budapest|fast|yaourt|couscous|lopez|méndez|luz|alep|tiep|amap|parcoursup|maïs|mars|ours|bonus|cactus|fils|ex|box|sphinx|pentax|dax|aix|\\p{L}*ct))",
+    "examples": [
+      {
+        "word": "petit",
+        "say": "puh-TEE",
+        "en": "small"
+      },
+      {
+        "word": "vous",
+        "say": "voo",
+        "en": "you"
+      },
+      {
+        "word": "grand",
+        "say": "grahn",
+        "en": "big, tall"
+      },
+      {
+        "word": "deux",
+        "say": "duh",
+        "en": "two"
+      }
+    ]
+  },
+  {
+    "title": "r is made at the back of the throat",
+    "body": "French r is made with the back of the tongue near the soft palate, a soft rasp like a gentle gargle, close to the “ch” of Scottish “loch” but voiced. It is never the English r and never rolled with the tongue tip. Say it in every position: pour, merci, très.",
+    "pattern": "rr|r(?!(?<=(?<=(?<=\\p{L}{2})(?<!(?<![\\p{L}-])(?:ch|hiv|hi|fi|sup|web|int|am|kléb))er|(?<![\\p{L}-])monsieur))(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "rouge",
+        "say": "roozh",
+        "en": "red"
+      },
+      {
+        "word": "la rue",
+        "say": "lah REW",
+        "en": "street"
+      },
+      {
+        "word": "très",
+        "say": "treh",
+        "en": "very"
+      },
+      {
+        "word": "le soir",
+        "say": "luh SWAHR",
+        "en": "evening"
+      }
+    ]
+  },
+  {
+    "title": "a is “ah”",
+    "body": "a sounds like a short “a” in “father”, or a little brighter, between “cat” and “father”. It never becomes the weak “uh” of English “about”. Before n or m that is not followed by a vowel, it turns nasal (see an, en).",
+    "pattern": "(?<!e)[aàâ](?![iîuy]|[nm](?![aeiouyàâäéèêëîïôöûùüÿœnmh]))",
+    "examples": [
+      {
+        "word": "la salade",
+        "say": "lah sah-LAHD",
+        "en": "salad"
+      },
+      {
+        "word": "le chat",
+        "say": "luh SHAH",
+        "en": "cat"
+      },
+      {
+        "word": "madame",
+        "say": "mah-DAHM",
+        "en": "madam, Mrs"
+      },
+      {
+        "word": "à Paris",
+        "say": "ah pah-REE",
+        "en": "in/to Paris"
+      }
+    ]
+  },
+  {
+    "title": "Final e and -es are silent",
+    "body": "An e at the end of a word longer than one syllable is not said, and neither is -es: elle sounds like “el”, une like “ewn”. Its job is to make the consonant before it heard: petit ends in “ee”, but petite ends in a clear “t”.",
+    "pattern": "(?<=\\p{L})(?<!(?<![\\p{L}’-])(?:[cdjlmnst]|qu))e(?=s?(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "une",
+        "say": "ewn",
+        "en": "a, one (feminine)"
+      },
+      {
+        "word": "petite",
+        "say": "puh-TEET",
+        "en": "small (feminine)"
+      },
+      {
+        "word": "la porte",
+        "say": "lah PORT",
+        "en": "door"
+      },
+      {
+        "word": "les pommes",
+        "say": "lay POM",
+        "en": "apples"
+      }
+    ]
+  },
+  {
+    "title": "Lengthen the last syllable of each phrase",
+    "body": "The only stress in French falls on the last pronounced syllable of a word group: it is a little longer, not louder. In je voudrais un café, only “-FAY” stands out. A silent final e does not count as a syllable.",
+    "pattern": "\\p{L}(?=\\s?[.,!?;:…»])",
+    "examples": [
+      {
+        "word": "un café",
+        "say": "uhn kah-FAY",
+        "en": "a coffee"
+      },
+      {
+        "word": "je voudrais un café",
+        "say": "zhuh voo-dreh uhn kah-FAY",
+        "en": "I would like a coffee"
+      },
+      {
+        "word": "à demain",
+        "say": "ahd-MAN",
+        "en": "see you tomorrow"
+      },
+      {
+        "word": "la boulangerie",
+        "say": "lah boo-lahn-ZHREE",
+        "en": "bakery"
+      }
+    ]
+  },
+  {
+    "title": "i, î and y are “ee”",
+    "body": "i, î and y are the “ee” of “see”, but short and tense, never the “i” of “sit”. y on its own, as in il y a, is also “ee”.",
+    "pattern": "(?<![aeoéœ]|(?<![qg])u)[iîy](?!(?!es?(?!\\p{L})|ent(?!\\p{L})(?<=\\p{L}{2}ent)(?<!(?<![\\p{L}-])(?:souv|arg|comm|cli|cont|mécont|laur|ag|différ|accid|acc|prés|présid|pati|impati|viol|fréqu|déc|intermitt|excell|résid|torr|inconsci|couv|par|abs|urg|prud|évid|tal|serp|intellig|consci|cons)ent)(?<!(?<!(?<![\\p{L}-])(?:ai|dor))ment)(?<![vt]ient))[aeiouyàâäéèêëîïôöûùüÿœ]|[nm](?![aeiouyàâäéèêëîïôöûùüÿœnmh]))",
+    "examples": [
+      {
+        "word": "il",
+        "say": "eel",
+        "en": "he, it"
+      },
+      {
+        "word": "la vie",
+        "say": "lah VEE",
+        "en": "life"
+      },
+      {
+        "word": "il y a",
+        "say": "eel-YAH",
+        "en": "there is"
+      },
+      {
+        "word": "l’île",
+        "say": "leel",
+        "en": "island"
+      }
+    ]
+  },
+  {
+    "title": "an, am, en, em are a nasal “ahn”",
+    "body": "When n or m is not followed by a vowel, the vowel before it is said through the nose and the n or m itself is not pronounced. an, am, en and em all sound like “ah” through the nose, close to “on” in British “long” without the “ng”.",
+    "pattern": "(?:a|(?<![iyé])e)[nm](?![aeiouyàâäéèêëîïôöûùüÿœnmh])(?!t(?!\\p{L})(?<=\\p{L}{2}ent)(?<!(?<![\\p{L}-])(?:souv|arg|comm|cli|cont|mécont|laur|ag|différ|accid|acc|prés|présid|pati|impati|viol|fréqu|déc|intermitt|excell|résid|torr|inconsci|couv|par|abs|urg|prud|évid|tal|serp|intellig|consci|cons)ent)(?<!(?<!(?<![\\p{L}-])(?:ai|dor))ment)(?<![vt]ient))|(?<=i)e(?:n(?=c)|n(?=t(?!\\p{L})(?<=(?<![\\p{L}-])(?:cli|pati|impati|inconsci|ori)ent)))",
+    "examples": [
+      {
+        "word": "l’enfant",
+        "say": "lahn-FAHN",
+        "en": "child"
+      },
+      {
+        "word": "souvent",
+        "say": "soo-VAHN",
+        "en": "often"
+      },
+      {
+        "word": "la chambre",
+        "say": "lah SHAHM-bruh",
+        "en": "bedroom"
+      },
+      {
+        "word": "le temps",
+        "say": "luh TAHN",
+        "en": "time, weather"
+      }
+    ]
+  },
+  {
+    "title": "ss and s elsewhere are a hissing “s”",
+    "body": "ss is always “s” as in “see”, and so is s at the start of a word or next to a consonant: aussi, le sac, reste. In est (is) the s is silent.",
+    "pattern": "ss|(?<![saeiouyàâäéèêëîïôöûùüÿœ])s(?=[^\\P{L}s])|(?<=[aeiouyàâäéèêëîïôöûùüÿœ])s(?=[^\\P{L}aeiouyàâäéèêëîïôöûùüÿœs])(?!t(?!\\p{L})(?<=(?<![\\p{L}-])est))",
+    "examples": [
+      {
+        "word": "aussi",
+        "say": "oh-SEE",
+        "en": "also, too"
+      },
+      {
+        "word": "le sac",
+        "say": "luh SAHK",
+        "en": "bag"
+      },
+      {
+        "word": "le poisson",
+        "say": "luh pwah-SOHN",
+        "en": "fish"
+      },
+      {
+        "word": "rester",
+        "say": "res-TAY",
+        "en": "to stay"
+      }
+    ]
+  },
+  {
+    "title": "Before a vowel or a double n or m, the vowel is not nasal",
+    "body": "If n or m is followed by a vowel or doubled, the vowel stays plain and the n or m is pronounced: un (nasal) but une “ewn”, bon but bonne “bon”, an but année “ah-NAY”. A few words starting with emm- or enn- stay nasal: emmener, ennuyer.",
+    "pattern": "(?<=[aeiouyàâäéèêëîïôöûùüÿœ])(?<!(?<![\\p{L}-])e)[nm](?=[aeiouyàâäéèêëîïôöûùüÿœnm])",
+    "examples": [
+      {
+        "word": "une",
+        "say": "ewn",
+        "en": "a, one (feminine)"
+      },
+      {
+        "word": "bonne",
+        "say": "bon",
+        "en": "good (feminine)"
+      },
+      {
+        "word": "l’année",
+        "say": "lah-NAY",
+        "en": "year"
+      },
+      {
+        "word": "l’ami",
+        "say": "lah-MEE",
+        "en": "friend"
+      }
+    ]
+  },
+  {
+    "title": "é sounds like “ay” in “say”",
+    "body": "é is a clear, tight “ay” with no glide at the end, as if you stopped “say” before the “ee”. It is always pronounced, even at the end of a word: parlé and parle sound different.",
+    "pattern": "é",
+    "examples": [
+      {
+        "word": "le café",
+        "say": "luh kah-FAY",
+        "en": "coffee"
+      },
+      {
+        "word": "l’été",
+        "say": "lay-TAY",
+        "en": "summer"
+      },
+      {
+        "word": "la télé",
+        "say": "lah tay-LAY",
+        "en": "TV"
+      },
+      {
+        "word": "j’ai mangé",
+        "say": "zhay mahn-ZHAY",
+        "en": "I ate"
+      }
+    ]
+  },
+  {
+    "title": "e before two consonants or a final c, f, l, t is “eh”",
+    "body": "An e followed by a double consonant, two different consonants, x, or a pronounced final consonant is the “e” of “bed”: elle, merci, reste, avec. Before n or m with no vowel after it, e turns nasal instead (see an, en).",
+    "pattern": "(?<![aoéœe]|(?<![qg])u)e(?=([bcdfgklmnprstvz])\\1|x|[bcdfgjklpqrstvzç][^\\P{L}aeiouyàâäéèêëîïôöûùüÿœh])(?![bcdfgkptv][lr]|ch|gn|ph|th|(?<=\\p{L}{2}e)rs(?!\\p{L})(?<!(?:hiv|env|trav|univ|div)ers))|(?<![aoéœe]|(?<![qg])u)e(?=[cfl](?!\\p{L})|t(?!\\p{L})(?<!(?<![\\p{L}-])et)|r(?!\\p{L})(?<=(?<![\\p{L}-])(?:m|f|v|t|ch|hi|hiv|fi|sup|web|int|am|kléb)er))",
+    "examples": [
+      {
+        "word": "elle",
+        "say": "el",
+        "en": "she"
+      },
+      {
+        "word": "merci",
+        "say": "mehr-SEE",
+        "en": "thank you"
+      },
+      {
+        "word": "avec",
+        "say": "ah-VEK",
+        "en": "with"
+      },
+      {
+        "word": "la mer",
+        "say": "lah MEHR",
+        "en": "sea"
+      }
+    ]
+  },
+  {
+    "title": "je, le, de, que: the e is a short “uh”",
+    "body": "In the little one-syllable words je, me, te, se, le, ce, de, ne and que, the e is a short “uh” said with rounded lips. Before a vowel these words lose their e and join the next word (j’ai, l’eau).",
+    "pattern": "(?<![\\p{L}’-])(?:[cdjlmnst]|qu)e(?!\\p{L})",
+    "examples": [
+      {
+        "word": "je",
+        "say": "zhuh",
+        "en": "I"
+      },
+      {
+        "word": "le pain",
+        "say": "luh PAN",
+        "en": "the bread"
+      },
+      {
+        "word": "de",
+        "say": "duh",
+        "en": "of, from"
+      },
+      {
+        "word": "que",
+        "say": "kuh",
+        "en": "that, what"
+      }
+    ]
+  },
+  {
+    "title": "o is “oh”, or the “o” of “lot” before a sounded consonant",
+    "body": "At the end of a word or before a silent consonant, o is a pure, closed “oh” with no “w” glide: le vélo, le mot. Before a pronounced consonant it is more open, like the “o” in British “lot”: la porte, l’homme.",
+    "pattern": "o(?![iîuùûy]|[nm](?![aeiouyàâäéèêëîïôöûùüÿœnmh]))",
+    "examples": [
+      {
+        "word": "le vélo",
+        "say": "luh vay-LOH",
+        "en": "bike"
+      },
+      {
+        "word": "le mot",
+        "say": "luh MOH",
+        "en": "word"
+      },
+      {
+        "word": "la porte",
+        "say": "lah PORT",
+        "en": "door"
+      },
+      {
+        "word": "l’homme",
+        "say": "LOM",
+        "en": "man"
+      }
+    ]
+  },
+  {
+    "title": "u is “ee” said with rounded lips",
+    "body": "French u has no English equivalent: say “ee”, keep the tongue there, and round your lips as for “oo”. Do not turn it into “oo”: tu (you) and tout (all), dessus and dessous are different words. The respellings write it “ew”.",
+    "pattern": "(?<![aeoéœq])(?!(?<=g)u[eiéèêîy])[uûù](?![iî]|[nm](?![aeiouyàâäéèêëîïôöûùüÿœnmh])|eil)",
+    "examples": [
+      {
+        "word": "tu",
+        "say": "tew",
+        "en": "you"
+      },
+      {
+        "word": "la rue",
+        "say": "lah REW",
+        "en": "street"
+      },
+      {
+        "word": "sûr",
+        "say": "sewr",
+        "en": "sure"
+      },
+      {
+        "word": "le bus",
+        "say": "luh BEWS",
+        "en": "bus"
+      }
+    ]
+  },
+  {
+    "title": "c, r, f and l at the end are usually pronounced",
+    "body": "Remember “CaReFuL”: these four letters are usually said at the end of a word, unlike the others. The big exception is -er, which is silent in verbs and most other words (see that rule). A few words drop the c, like blanc and tabac, and the l of gentil and outil is silent.",
+    "pattern": "(?<=\\p{L})(?:[cfl](?<!(?<![\\p{L}-])(?:blanc|leblanc|banc|franc|tabac|estomac|caoutchouc|gentil|outil|fusil|sncf|caf|vmc|psc|mobil)|(?<=[aeuœ]i)l)|r(?!(?<=(?<=(?<=\\p{L}{2})(?<!(?<![\\p{L}-])(?:ch|hiv|hi|fi|sup|web|int|am|kléb))er|(?<![\\p{L}-])monsieur))(?!\\p{L})))(?!\\p{L})",
+    "examples": [
+      {
+        "word": "avec",
+        "say": "ah-VEK",
+        "en": "with"
+      },
+      {
+        "word": "pour",
+        "say": "poor",
+        "en": "for"
+      },
+      {
+        "word": "neuf",
+        "say": "nuhf",
+        "en": "nine, new"
+      },
+      {
+        "word": "il",
+        "say": "eel",
+        "en": "he, it"
+      }
+    ]
+  },
+  {
+    "title": "c before a, o, u or a consonant is “k”",
+    "body": "Elsewhere c is the “k” of “cat”: le café, comme, la classe. In second the c is said like “g”: “suh-GOHN”.",
+    "pattern": "c(?![eiyéèêëîïh’])(?<!(?<![\\p{L}-])(?:blan|leblan|ban|fran|taba|estoma|caoutchou)c)",
+    "examples": [
+      {
+        "word": "le café",
+        "say": "luh kah-FAY",
+        "en": "coffee"
+      },
+      {
+        "word": "comme",
+        "say": "kom",
+        "en": "like, as"
+      },
+      {
+        "word": "la classe",
+        "say": "lah KLAHS",
+        "en": "class"
+      },
+      {
+        "word": "avec",
+        "say": "ah-VEK",
+        "en": "with"
+      }
+    ]
+  },
+  {
+    "title": "ai and ei sound like “e” in “bed”",
+    "body": "ai, aî and ei are one sound, the “eh” of “bed”: mais is “meh”, la neige is “lah NEZH”. At the end of a verb, -ai is closer to “ay”: j’ai is “zhay”. Before l or ll, as in travail and soleil, see the “y” rule.",
+    "pattern": "[ae][iî](?![nm](?![aeiouyàâäéèêëîïôöûùüÿœnmh])|l(?!\\p{L})|ll)",
+    "examples": [
+      {
+        "word": "mais",
+        "say": "meh",
+        "en": "but"
+      },
+      {
+        "word": "la semaine",
+        "say": "lah suh-MEN",
+        "en": "week"
+      },
+      {
+        "word": "la neige",
+        "say": "lah NEZH",
+        "en": "snow"
+      },
+      {
+        "word": "j’ai",
+        "say": "zhay",
+        "en": "I have"
+      }
+    ]
+  },
+  {
+    "title": "Double consonants are said as one",
+    "body": "Unlike Italian, French doubled letters are not held longer: elle is “el”, la pomme “lah POM”, attendre “ah-TAHN-druh”. Doubling often just shows that the vowel before it is not nasal (bonne) or that s stays “s” (poisson).",
+    "pattern": "([bcdfgkmnprtz])\\1|(?<!i)ll",
+    "examples": [
+      {
+        "word": "elle",
+        "say": "el",
+        "en": "she"
+      },
+      {
+        "word": "la pomme",
+        "say": "lah POM",
+        "en": "apple"
+      },
+      {
+        "word": "attendre",
+        "say": "ah-TAHN-druh",
+        "en": "to wait"
+      },
+      {
+        "word": "la terre",
+        "say": "lah TEHR",
+        "en": "earth, ground"
+      }
+    ]
+  },
+  {
+    "title": "A final consonant links to a vowel in the next word",
+    "body": "A pronounced final consonant, or one before a silent e, slides into the next word if it starts with a vowel, as if the two were one word (enchaînement): il est is “ee-LEH”, elle a “eh-LAH”, avec elle “ah-veh-KEL”.",
+    "pattern": "(?<=\\p{L})(?:[cfl](?<!(?<=[aeuœ]i)l)|r(?!(?<=(?<=(?<=\\p{L}{2})(?<!(?<![\\p{L}-])(?:ch|hiv|hi|fi|sup|web|int|am|kléb))er|(?<![\\p{L}-])monsieur))(?!\\p{L}))|(?<=[^\\P{L}aeiouyàâäéèêëîïôöûùüÿœ])(?<!(?<![\\p{L}’-])(?:[cdjlmnst]|qu))e)(?= (?!(?:haut|hall|hasard|hausse|hâte|haricot|hareng|hors|honte|honteu|hublot|hachis|hanche|haie|héros|hollandais|hongr|huit|hamburger|handicap|handball|hamac|hockey|harpe|hérisson))h?[aeiouyàâäéèêëîïôöûùüÿœ])",
+    "examples": [
+      {
+        "word": "il est",
+        "say": "ee-LEH",
+        "en": "he is"
+      },
+      {
+        "word": "elle a",
+        "say": "eh-LAH",
+        "en": "she has"
+      },
+      {
+        "word": "avec elle",
+        "say": "ah-veh-KEL",
+        "en": "with her"
+      },
+      {
+        "word": "une amie",
+        "say": "ew-nah-MEE",
+        "en": "a friend"
+      }
+    ]
+  },
+  {
+    "title": "ou sounds like “oo” in “food”",
+    "body": "ou, où and oû are the “oo” of “food”, short and with rounded lips. Keep it apart from u: vous (you) is “voo”, but vu (seen) has the French u.",
+    "pattern": "o[uùû]",
+    "examples": [
+      {
+        "word": "vous",
+        "say": "voo",
+        "en": "you"
+      },
+      {
+        "word": "le jour",
+        "say": "luh ZHOOR",
+        "en": "day"
+      },
+      {
+        "word": "où",
+        "say": "oo",
+        "en": "where"
+      },
+      {
+        "word": "toujours",
+        "say": "too-ZHOOR",
+        "en": "always"
+      }
+    ]
+  },
+  {
+    "title": "on and om are a nasal “ohn”",
+    "body": "on and om, with no vowel after them, are a rounded “oh” said through the nose, without a real n. Keep the lips round. The odd one out is monsieur, said “muh-SYUH”.",
+    "pattern": "o[nm](?![aeiouyàâäéèêëîïôöûùüÿœnmh])(?!(?<=(?<![\\p{L}-])mon)sieur)",
+    "examples": [
+      {
+        "word": "bon",
+        "say": "bohn",
+        "en": "good"
+      },
+      {
+        "word": "le nom",
+        "say": "luh NOHN",
+        "en": "name"
+      },
+      {
+        "word": "nous avons",
+        "say": "noo-zah-VOHN",
+        "en": "we have"
+      },
+      {
+        "word": "bonjour",
+        "say": "bohn-ZHOOR",
+        "en": "hello"
+      }
+    ]
+  },
+  {
+    "title": "e between single consonants is a weak “uh”, often dropped",
+    "body": "An e followed by one consonant and a vowel is a short “uh” as in “about”, with rounded lips. In everyday speech it is often left out when only one consonant comes before it: samedi is “sahm-DEE”, maintenant “mant-NAHN”.",
+    "pattern": "(?<=\\p{L})(?<![aeiouyàâäéèêëîïôöûùüÿœ])e(?=(?:ch|[bcdfgjlmnpqrstvz]|[bcdfgptv][lr])[aeiouyàâäéèêëîïôöûùüÿœ])",
+    "examples": [
+      {
+        "word": "petit",
+        "say": "puh-TEE",
+        "en": "small"
+      },
+      {
+        "word": "demain",
+        "say": "duh-MAN",
+        "en": "tomorrow"
+      },
+      {
+        "word": "samedi",
+        "say": "sahm-DEE",
+        "en": "Saturday"
+      },
+      {
+        "word": "regarder",
+        "say": "ruh-gar-DAY",
+        "en": "to look at, to watch"
+      }
+    ]
+  },
+  {
+    "title": "An apostrophe joins two words into one",
+    "body": "Before a vowel or mute h, short words like le, la, je, de, ne, que and si drop their vowel and attach to the next word: l’eau is “loh”, j’ai “zhay”, qu’il “keel”, s’il “seel”. Say them as a single word.",
+    "pattern": "(?<![\\p{L}-])(?:[cdjlmnst]|qu|jusqu|lorsqu|puisqu|quoiqu|presqu|quelqu)’(?=\\p{L})",
+    "examples": [
+      {
+        "word": "l’eau",
+        "say": "loh",
+        "en": "water"
+      },
+      {
+        "word": "j’ai",
+        "say": "zhay",
+        "en": "I have"
+      },
+      {
+        "word": "c’est",
+        "say": "seh",
+        "en": "it is"
+      },
+      {
+        "word": "qu’il",
+        "say": "keel",
+        "en": "that he"
+      }
+    ]
+  },
+  {
+    "title": "i before a vowel glides into “y”",
+    "body": "An i before another vowel becomes a quick “y” sound in the same syllable: bien is “byan”, le pied is “luh PYAY”. A y at the start of a word before a vowel does the same: les yeux.",
+    "pattern": "(?<![aeiouyàâäéèêëîïôöûùüÿœ])(?<=\\p{L})i(?=[aeoéèêàâôu])(?!es?(?!\\p{L})|ent(?!\\p{L})(?<=\\p{L}{2}ent)(?<!(?<![\\p{L}-])(?:souv|arg|comm|cli|cont|mécont|laur|ag|différ|accid|acc|prés|présid|pati|impati|viol|fréqu|déc|intermitt|excell|résid|torr|inconsci|couv|par|abs|urg|prud|évid|tal|serp|intellig|consci|cons)ent)(?<!(?<!(?<![\\p{L}-])(?:ai|dor))ment)(?<![vt]ient))|(?<![\\p{L}’-])y(?=[aeiouyàâäéèêëîïôöûùüÿœ])",
+    "examples": [
+      {
+        "word": "bien",
+        "say": "byan",
+        "en": "well, good"
+      },
+      {
+        "word": "hier",
+        "say": "yehr",
+        "en": "yesterday"
+      },
+      {
+        "word": "la question",
+        "say": "lah kes-TYOHN",
+        "en": "question"
+      },
+      {
+        "word": "les yeux",
+        "say": "lay-ZYUH",
+        "en": "eyes"
+      }
+    ]
+  },
+  {
+    "title": "-ais, -ait, -aient all sound like “eh”",
+    "body": "These verb endings (je parlais, il parlait, ils parlaient) all sound the same, “eh”: the s, t and -ent are silent. Only the subject tells you who is meant.",
+    "pattern": "ai(?:s|t|ent)(?!\\p{L})",
+    "examples": [
+      {
+        "word": "j’étais",
+        "say": "zhay-TEH",
+        "en": "I was"
+      },
+      {
+        "word": "il avait",
+        "say": "ee-lah-VEH",
+        "en": "he had"
+      },
+      {
+        "word": "ils étaient",
+        "say": "eel-zay-TEH",
+        "en": "they were"
+      },
+      {
+        "word": "je voudrais",
+        "say": "zhuh voo-DREH",
+        "en": "I would like"
+      }
+    ]
+  },
+  {
+    "title": "qu sounds like “k”",
+    "body": "qu is a plain “k”, with no “w”: qui is “kee”, quatre “KAH-truh”. The u is silent.",
+    "pattern": "qu",
+    "examples": [
+      {
+        "word": "qui",
+        "say": "kee",
+        "en": "who"
+      },
+      {
+        "word": "quand",
+        "say": "kahn",
+        "en": "when"
+      },
+      {
+        "word": "quatre",
+        "say": "KAH-truh",
+        "en": "four"
+      },
+      {
+        "word": "quelque chose",
+        "say": "kel-kuh SHOHZ",
+        "en": "something"
+      }
+    ]
+  },
+  {
+    "title": "les, des, mes, ces end in “ay”",
+    "body": "In the short words les, des, mes, tes, ses and ces, -es is said “ay” (many speakers say “eh”): les is “lay”, des is “day”. The s is silent unless a vowel follows (see liaison).",
+    "pattern": "(?<![\\p{L}’-])[cdlmst]es(?!\\p{L})",
+    "examples": [
+      {
+        "word": "les enfants",
+        "say": "lay-zahn-FAHN",
+        "en": "the children"
+      },
+      {
+        "word": "des amis",
+        "say": "day-zah-MEE",
+        "en": "friends"
+      },
+      {
+        "word": "mes parents",
+        "say": "may pah-RAHN",
+        "en": "my parents"
+      },
+      {
+        "word": "ces jours",
+        "say": "say ZHOOR",
+        "en": "these days"
+      }
+    ]
+  },
+  {
+    "title": "est sounds like “eh”, et like “ay”",
+    "body": "est (is) is just “eh”: the s and t are silent. et (and) is “ay”, and its t is never linked to the next word. c’est is “seh”.",
+    "pattern": "(?<![\\p{L}-])es?t(?!\\p{L})",
+    "examples": [
+      {
+        "word": "il est",
+        "say": "ee-LEH",
+        "en": "he is"
+      },
+      {
+        "word": "c’est",
+        "say": "seh",
+        "en": "it is"
+      },
+      {
+        "word": "et",
+        "say": "ay",
+        "en": "and"
+      },
+      {
+        "word": "toi et moi",
+        "say": "twah ay MWAH",
+        "en": "you and me"
+      }
+    ]
+  },
+  {
+    "title": "c before e, i or y sounds like “s”",
+    "body": "Before e, i or y, c is the “s” of “see”: merci, la cerise. Before a, o, u or a consonant it is a hard “k”.",
+    "pattern": "c(?=[eiyéèêëîï])",
+    "examples": [
+      {
+        "word": "merci",
+        "say": "mehr-SEE",
+        "en": "thank you"
+      },
+      {
+        "word": "ce",
+        "say": "suh",
+        "en": "this, it"
+      },
+      {
+        "word": "le cinéma",
+        "say": "luh see-nay-MAH",
+        "en": "cinema"
+      },
+      {
+        "word": "la place",
+        "say": "lah PLAHS",
+        "en": "square, seat"
+      }
+    ]
+  },
+  {
+    "title": "in, ain, ein, im and ien are a nasal “an”",
+    "body": "in, im, ain, aim, ein and yn sound like the “a” of “bank” said through the nose, with no real n: le vin is “luh VAN”. After i, y or é, en has this sound too: bien is “byan”, européen “uh-roh-pay-AN”.",
+    "pattern": "(?<!o)(?:ai|ei|[iîy])[nm](?![aeiouyàâäéèêëîïôöûùüÿœnmh])(?!g(?!\\p{L}))|(?<=[iyé])e[nm](?![aeiouyàâäéèêëîïôöûùüÿœnmh])(?!c)(?!t(?!\\p{L})(?<=\\p{L}{2}ent)(?<!(?<![\\p{L}-])(?:souv|arg|comm|cli|cont|mécont|laur|ag|différ|accid|acc|prés|présid|pati|impati|viol|fréqu|déc|intermitt|excell|résid|torr|inconsci|couv|par|abs|urg|prud|évid|tal|serp|intellig|consci|cons)ent)(?<!(?<!(?<![\\p{L}-])(?:ai|dor))ment)(?<![vt]ient))(?<!(?<![\\p{L}-])(?:cli|pati|impati|inconsci|ori)en)",
+    "examples": [
+      {
+        "word": "le pain",
+        "say": "luh PAN",
+        "en": "bread"
+      },
+      {
+        "word": "le matin",
+        "say": "luh mah-TAN",
+        "en": "morning"
+      },
+      {
+        "word": "bien",
+        "say": "byan",
+        "en": "well, good"
+      },
+      {
+        "word": "plein",
+        "say": "plan",
+        "en": "full"
+      }
+    ]
+  },
+  {
+    "title": "au, eau and ô sound like “oh”",
+    "body": "au, eau and ô are all a pure, closed “oh”, with no glide at the end: beau is “boh”, aussi is “oh-SEE”. Do not say the e of eau.",
+    "pattern": "eau|au|ô",
+    "examples": [
+      {
+        "word": "aussi",
+        "say": "oh-SEE",
+        "en": "also, too"
+      },
+      {
+        "word": "beau",
+        "say": "boh",
+        "en": "beautiful"
+      },
+      {
+        "word": "l’eau",
+        "say": "loh",
+        "en": "water"
+      },
+      {
+        "word": "l’hôpital",
+        "say": "loh-pee-TAHL",
+        "en": "hospital"
+      }
+    ]
+  },
+  {
+    "title": "à, â, î, û and ù: the accent hardly changes the sound",
+    "body": "These accents mostly tell words apart in writing: à (to) and a (has), où (where) and ou (or). â can sound a little deeper, like “ah” in “father”; î and û sound just like i and u.",
+    "pattern": "[àâîûù]",
+    "examples": [
+      {
+        "word": "à",
+        "say": "ah",
+        "en": "to, at"
+      },
+      {
+        "word": "le gâteau",
+        "say": "luh gah-TOH",
+        "en": "cake"
+      },
+      {
+        "word": "l’île",
+        "say": "leel",
+        "en": "island"
+      },
+      {
+        "word": "où",
+        "say": "oo",
+        "en": "where"
+      }
+    ]
+  },
+  {
+    "title": "è and ê sound like “e” in “bed”",
+    "body": "è and ê are the open “eh” of “bed”, a little longer in ê. They are always pronounced: très is “treh”, la fête is “lah FET”.",
+    "pattern": "[èê]",
+    "examples": [
+      {
+        "word": "très",
+        "say": "treh",
+        "en": "very"
+      },
+      {
+        "word": "la mère",
+        "say": "lah MEHR",
+        "en": "mother"
+      },
+      {
+        "word": "la fête",
+        "say": "lah FET",
+        "en": "party"
+      },
+      {
+        "word": "être",
+        "say": "EH-truh",
+        "en": "to be"
+      }
+    ]
+  },
+  {
+    "title": "j sounds like “s” in “measure”",
+    "body": "j is always the soft “zh” of “measure”, never the “j” of “jam”: je is “zhuh”, le jour “luh ZHOOR”.",
+    "pattern": "j",
+    "examples": [
+      {
+        "word": "je",
+        "say": "zhuh",
+        "en": "I"
+      },
+      {
+        "word": "le jour",
+        "say": "luh ZHOOR",
+        "en": "day"
+      },
+      {
+        "word": "jamais",
+        "say": "zhah-MEH",
+        "en": "never"
+      },
+      {
+        "word": "déjà",
+        "say": "day-ZHAH",
+        "en": "already"
+      }
+    ]
+  },
+  {
+    "title": "-er and -ez at the end sound like “ay”",
+    "body": "The verb endings -er and -ez, and most other words ending in -er, end in “ay” with the r or z silent: parler, vous parlez, premier. A few short words keep the r and say “ehr”: mer, cher, hier, hiver, fier.",
+    "pattern": "(?<=\\p{L}{2})(?<!(?<![\\p{L}-])(?:ch|hiv|hi|fi|sup|web|int|am|kléb))er(?!\\p{L})|(?<=\\p{L})ez(?!\\p{L})|(?<=(?<![\\p{L}-])pi)ed(?!\\p{L})",
+    "examples": [
+      {
+        "word": "parler",
+        "say": "par-LAY",
+        "en": "to speak"
+      },
+      {
+        "word": "vous parlez",
+        "say": "voo par-LAY",
+        "en": "you speak"
+      },
+      {
+        "word": "premier",
+        "say": "pruh-MYAY",
+        "en": "first"
+      },
+      {
+        "word": "chez",
+        "say": "shay",
+        "en": "at the home of"
+      }
+    ]
+  },
+  {
+    "title": "oi sounds like “wah”",
+    "body": "oi and oî are “wah”, as in “wasp”: moi is “mwah”, trois is “trwah”. The one common exception is oignon, said “oh-NYOHN”.",
+    "pattern": "o[iî](?![nm](?![aeiouyàâäéèêëîïôöûùüÿœnmh]))",
+    "examples": [
+      {
+        "word": "moi",
+        "say": "mwah",
+        "en": "me"
+      },
+      {
+        "word": "trois",
+        "say": "trwah",
+        "en": "three"
+      },
+      {
+        "word": "le soir",
+        "say": "luh SWAHR",
+        "en": "evening"
+      },
+      {
+        "word": "la fois",
+        "say": "lah FWAH",
+        "en": "time (occasion)"
+      }
+    ]
+  },
+  {
+    "title": "A single s between vowels sounds like “z”",
+    "body": "One s between two vowels buzzes like the “z” in “zoo”: la maison is “lah meh-ZOHN”. Write ss to keep the hissing “s”: le poisson (fish) but le poison (poison).",
+    "pattern": "(?<=[aeiouyàâäéèêëîïôöûùüÿœ])s(?=[aeiouyàâäéèêëîïôöûùüÿœ])",
+    "examples": [
+      {
+        "word": "la maison",
+        "say": "lah meh-ZOHN",
+        "en": "house"
+      },
+      {
+        "word": "la chose",
+        "say": "lah SHOHZ",
+        "en": "thing"
+      },
+      {
+        "word": "rose",
+        "say": "rohz",
+        "en": "pink"
+      },
+      {
+        "word": "désolé",
+        "say": "day-zoh-LAY",
+        "en": "sorry"
+      }
+    ]
+  },
+  {
+    "title": "un and um are a nasal “uhn”",
+    "body": "un and um, with no vowel after them, are traditionally a nasal “uh”. Most people in France now say them like in, a nasal “an”, so both are fine.",
+    "pattern": "(?<![qgo])u[nm](?![aeiouyàâäéèêëîïôöûùüÿœnmh])",
+    "examples": [
+      {
+        "word": "un",
+        "say": "uhn",
+        "en": "a, one"
+      },
+      {
+        "word": "lundi",
+        "say": "luhn-DEE",
+        "en": "Monday"
+      },
+      {
+        "word": "chacun",
+        "say": "shah-KUHN",
+        "en": "each one"
+      },
+      {
+        "word": "le parfum",
+        "say": "luh par-FUHN",
+        "en": "perfume"
+      }
+    ]
+  },
+  {
+    "title": "ch sounds like “sh”",
+    "body": "ch is the “sh” of “ship”, never the “ch” of “church”: chez is “shay”, le chat “luh SHAH”. In a few Greek words it is “k”: l’orchestre, la psychologue, technique.",
+    "pattern": "ch(?!r|œ)(?<!(?:te|psy)ch)(?!(?<=orch)es)",
+    "examples": [
+      {
+        "word": "chez",
+        "say": "shay",
+        "en": "at the home of"
+      },
+      {
+        "word": "le chat",
+        "say": "luh SHAH",
+        "en": "cat"
+      },
+      {
+        "word": "la chambre",
+        "say": "lah SHAHM-bruh",
+        "en": "bedroom"
+      },
+      {
+        "word": "acheter",
+        "say": "ahsh-TAY",
+        "en": "to buy"
+      }
+    ]
+  },
+  {
+    "title": "eu and œu before a sounded consonant are an open “uh”",
+    "body": "Before a pronounced consonant, eu, œu and œ are more open, like the “u” in “fur” said without any r and with rounded lips: l’heure, la sœur, jeune.",
+    "pattern": "(?<![qg])(?:eu|œu)(?=(?:[bcdfgjklmnpqrvz]|ill?)(?:es?|ent)?s?(?!\\p{L})|[^\\P{L}aeiouyàâäéèêëîïôöûùüÿœ]{2}|[^\\P{L}aeiouyàâäéèêëîïôöûùüÿœ]ement)|œ(?!u)",
+    "examples": [
+      {
+        "word": "l’heure",
+        "say": "luhr",
+        "en": "hour"
+      },
+      {
+        "word": "la sœur",
+        "say": "lah SUHR",
+        "en": "sister"
+      },
+      {
+        "word": "jeune",
+        "say": "zhuhn",
+        "en": "young"
+      },
+      {
+        "word": "le meilleur",
+        "say": "luh meh-YUHR",
+        "en": "the best"
+      }
+    ]
+  },
+  {
+    "title": "g before a, o, u or a consonant is a hard “g”",
+    "body": "Elsewhere g is the “g” of “go”: le gâteau, la gare, grand. At the end of a word after n it is usually silent (long, le sang), and so is the g of vingt and le doigt.",
+    "pattern": "g(?![eiyéèêëîïnt])(?!(?<=(?:[^i]|oi)ng|ourg)(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "la gare",
+        "say": "lah GAHR",
+        "en": "station"
+      },
+      {
+        "word": "le gâteau",
+        "say": "luh gah-TOH",
+        "en": "cake"
+      },
+      {
+        "word": "grand",
+        "say": "grahn",
+        "en": "big, tall"
+      },
+      {
+        "word": "le légume",
+        "say": "luh lay-GEWM",
+        "en": "vegetable"
+      }
+    ]
+  },
+  {
+    "title": "g before e, i or y sounds like “s” in “measure”",
+    "body": "Before e, i or y, g is the soft “zh” of “measure” or “beige”, never the “j” of “jam”: rouge, la page, le gîte.",
+    "pattern": "g(?=[eiyéèêëîï])",
+    "examples": [
+      {
+        "word": "rouge",
+        "say": "roozh",
+        "en": "red"
+      },
+      {
+        "word": "la page",
+        "say": "lah PAHZH",
+        "en": "page"
+      },
+      {
+        "word": "les gens",
+        "say": "lay ZHAHN",
+        "en": "people"
+      },
+      {
+        "word": "la région",
+        "say": "lah ray-ZHYOHN",
+        "en": "region"
+      }
+    ]
+  },
+  {
+    "title": "eu at the end of a syllable is a closed “uh”",
+    "body": "At the end of a word, before a “z” sound or before one consonant and a vowel, eu and œu are said like “ay” with tightly rounded lips: deux, peu, heureuse. Say “ay”, then push your lips forward into a small circle. The past participle eu (had) is said like the French u instead.",
+    "pattern": "(?<![qg])(?:eu|œu)(?!(?:[bcdfgjklmnpqrvz]|ill?)(?:es?|ent)?s?(?!\\p{L})|[^\\P{L}aeiouyàâäéèêëîïôöûùüÿœ]{2}|[^\\P{L}aeiouyàâäéèêëîïôöûùüÿœ]ement)(?!(?<=(?<![\\p{L}’-])eu)e?s?(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "deux",
+        "say": "duh",
+        "en": "two"
+      },
+      {
+        "word": "un peu",
+        "say": "uhn PUH",
+        "en": "a little"
+      },
+      {
+        "word": "heureuse",
+        "say": "uh-RUHZ",
+        "en": "happy (feminine)"
+      },
+      {
+        "word": "les euros",
+        "say": "lay-zuh-ROH",
+        "en": "euros"
+      },
+      {
+        "word": "les cheveux",
+        "say": "lay shuh-VUH",
+        "en": "hair"
+      }
+    ]
+  },
+  {
+    "title": "ui sounds like a quick “wee”",
+    "body": "In ui, the French u glides quickly into “ee” in one syllable, close to “wee” but with the lips rounded and pushed forward: huit is “weet”, la nuit is “lah NWEE”.",
+    "pattern": "(?<![qgoae])u[iî](?!n(?![aeiouyàâäéèêëîïôöûùüÿœnmh]))",
+    "examples": [
+      {
+        "word": "huit",
+        "say": "weet",
+        "en": "eight"
+      },
+      {
+        "word": "la nuit",
+        "say": "lah NWEE",
+        "en": "night"
+      },
+      {
+        "word": "je suis",
+        "say": "zhuh SWEE",
+        "en": "I am"
+      },
+      {
+        "word": "depuis",
+        "say": "duh-PWEE",
+        "en": "since"
+      }
+    ]
+  },
+  {
+    "title": "Liaison after les, des, un, mon and other words before a noun",
+    "body": "A normally silent final consonant is said when the next word starts with a vowel or mute h, and it moves to that word. After articles, mon, ton, son, numbers and adjectives such as petit or grand, liaison is obligatory: les amis “lay-zah-MEE”. s and x sound “z”, d sounds “t”, n is a plain “n”.",
+    "pattern": "(?<![\\p{L}’-])(?:les|des|ces|mes|tes|ses|nos|vos|leurs|aux|quelques|plusieurs|deux|trois|un|mon|ton|son|aucun|petits?|grands?|bons?|mauvais|gros|vieux|beaux|nouveaux|anciens|premiers)(?= (?!(?:haut|hall|hasard|hausse|hâte|haricot|hareng|hors|honte|honteu|hublot|hachis|hanche|haie|héros|hollandais|hongr|huit|hamburger|handicap|handball|hamac|hockey|harpe|hérisson))h?[aeiouyàâäéèêëîïôöûùüÿœ])",
+    "examples": [
+      {
+        "word": "les amis",
+        "say": "lay-zah-MEE",
+        "en": "the friends"
+      },
+      {
+        "word": "un enfant",
+        "say": "uhn-nahn-FAHN",
+        "en": "a child"
+      },
+      {
+        "word": "mon ami",
+        "say": "moh-nah-MEE",
+        "en": "my friend"
+      },
+      {
+        "word": "deux heures",
+        "say": "duh-ZUHR",
+        "en": "two hours, two o'clock"
+      }
+    ]
+  },
+  {
+    "title": "h is silent",
+    "body": "h is never pronounced in French: l’hôtel is “loh-TEL”, l’homme “LOM”. Most words starting with h behave as if they started with a vowel, so the article drops its vowel and words link to them.",
+    "pattern": "(?<![cpst])h",
+    "examples": [
+      {
+        "word": "l’hôtel",
+        "say": "loh-TEL",
+        "en": "hotel"
+      },
+      {
+        "word": "l’homme",
+        "say": "LOM",
+        "en": "man"
+      },
+      {
+        "word": "l’heure",
+        "say": "luhr",
+        "en": "hour"
+      },
+      {
+        "word": "j’habite",
+        "say": "zhah-BEET",
+        "en": "I live"
+      }
+    ]
+  },
+  {
+    "title": "-ent at the end of a verb is silent",
+    "body": "The verb ending -ent (ils parlent, elles aiment) is not pronounced at all: ils parlent sounds exactly like il parle. In other words -ent is a nasal “ahn”: souvent, le moment, l’argent.",
+    "pattern": "ent(?!\\p{L})(?<=\\p{L}{2}ent)(?<!(?<![\\p{L}-])(?:souv|arg|comm|cli|cont|mécont|laur|ag|différ|accid|acc|prés|présid|pati|impati|viol|fréqu|déc|intermitt|excell|résid|torr|inconsci|couv|par|abs|urg|prud|évid|tal|serp|intellig|consci|cons)ent)(?<!(?<!(?<![\\p{L}-])(?:ai|dor))ment)(?<![vt]ient)",
+    "examples": [
+      {
+        "word": "ils parlent",
+        "say": "eel PARL",
+        "en": "they speak"
+      },
+      {
+        "word": "elles habitent",
+        "say": "el-zah-BEET",
+        "en": "they live"
+      },
+      {
+        "word": "ils étaient",
+        "say": "eel-zay-TEH",
+        "en": "they were"
+      },
+      {
+        "word": "ils veulent",
+        "say": "eel VUHL",
+        "en": "they want"
+      }
+    ]
+  },
+  {
+    "title": "Never link after et",
+    "body": "The t of et (and) is never pronounced, even before a vowel: toi et elle is “twah ay EL”, with a small break and no “t”.",
+    "pattern": "(?<![\\p{L}’-])et(?= (?!(?:haut|hall|hasard|hausse|hâte|haricot|hareng|hors|honte|honteu|hublot|hachis|hanche|haie|héros|hollandais|hongr|huit|hamburger|handicap|handball|hamac|hockey|harpe|hérisson))h?[aeiouyàâäéèêëîïôöûùüÿœ])",
+    "examples": [
+      {
+        "word": "et elle",
+        "say": "ay EL",
+        "en": "and she"
+      },
+      {
+        "word": "et après",
+        "say": "ay ah-PREH",
+        "en": "and after"
+      },
+      {
+        "word": "le pain et une pomme",
+        "say": "luh PAN ay ewn POM",
+        "en": "bread and an apple"
+      }
+    ]
+  },
+  {
+    "title": "Liaison after nous, vous, ils, elles, on and en",
+    "body": "Subject pronouns link to a verb starting with a vowel: nous avons is “noo-zah-VOHN”, ils ont “eel-ZOHN”, on a “oh-NAH”. Compare ils sont (“eel SOHN”, they are) with ils ont (“eel ZOHN”, they have): the liaison is the only difference.",
+    "pattern": "(?<![\\p{L}’-])(?:nous|vous|ils|elles|on|en)(?= (?!(?:haut|hall|hasard|hausse|hâte|haricot|hareng|hors|honte|honteu|hublot|hachis|hanche|haie|héros|hollandais|hongr|huit|hamburger|handicap|handball|hamac|hockey|harpe|hérisson))h?[aeiouyàâäéèêëîïôöûùüÿœ])",
+    "examples": [
+      {
+        "word": "nous avons",
+        "say": "noo-zah-VOHN",
+        "en": "we have"
+      },
+      {
+        "word": "vous êtes",
+        "say": "voo-ZET",
+        "en": "you are"
+      },
+      {
+        "word": "ils ont",
+        "say": "eel-ZOHN",
+        "en": "they have"
+      },
+      {
+        "word": "on a",
+        "say": "oh-NAH",
+        "en": "we have"
+      }
+    ]
+  },
+  {
+    "title": "tion sounds like “syohn”",
+    "body": "In -tion the t sounds like “s”: la station is “lah stah-SYOHN”. After s or x it stays “t”: la question is “lah kes-TYOHN”.",
+    "pattern": "(?<![sx])tion",
+    "examples": [
+      {
+        "word": "la station",
+        "say": "lah stah-SYOHN",
+        "en": "station"
+      },
+      {
+        "word": "l’attention",
+        "say": "lah-tahn-SYOHN",
+        "en": "attention"
+      },
+      {
+        "word": "la solution",
+        "say": "lah soh-lew-SYOHN",
+        "en": "solution"
+      },
+      {
+        "word": "la natation",
+        "say": "lah nah-tah-SYOHN",
+        "en": "swimming"
+      }
+    ]
+  },
+  {
+    "title": "plus and tous: s sometimes said",
+    "body": "plus is “plew” when it means “no more” (je n’ai plus) and often “plews” when it means “more” or “plus”. tous is “too” before a noun (tous les jours) and “toos” when it stands alone (ils sont tous là).",
+    "pattern": "(?<![\\p{L}-])(?:plus|tous)(?!\\p{L})",
+    "examples": [
+      {
+        "word": "tous les jours",
+        "say": "too lay ZHOOR",
+        "en": "every day"
+      },
+      {
+        "word": "ils sont tous là",
+        "say": "eel sohn toos LAH",
+        "en": "they are all there"
+      },
+      {
+        "word": "je n’ai plus",
+        "say": "zhuh neh PLEW",
+        "en": "I have no more"
+      },
+      {
+        "word": "plus de café",
+        "say": "plews duh kah-FAY",
+        "en": "more coffee"
+      }
+    ]
+  },
+  {
+    "title": "ail, eil, euil, ouil sound like a vowel plus “y”",
+    "body": "After a vowel, il at the end of a word and ill inside it are a “y” glide: travail is “trah-VAHY”, le soleil “luh soh-LEHY”, la feuille “lah FUHY”. The l is silent.",
+    "pattern": "(?<=[aeuœ])(?<!(?:(?<![\\p{L}-])j|[qg])u)(?:ill|il(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "le travail",
+        "say": "luh trah-VAHY",
+        "en": "work"
+      },
+      {
+        "word": "le soleil",
+        "say": "luh soh-LEHY",
+        "en": "sun"
+      },
+      {
+        "word": "la bouteille",
+        "say": "lah boo-TEHY",
+        "en": "bottle"
+      },
+      {
+        "word": "la feuille",
+        "say": "lah FUHY",
+        "en": "leaf, sheet"
+      }
+    ]
+  },
+  {
+    "title": "six, dix, huit, cinq, sept and neuf say their last consonant",
+    "body": "On their own, these numbers keep their final sound: six “sees”, dix “dees”, huit “weet”, cinq “sank”, sept “set” (the p is silent), neuf “nuhf”. Before a consonant six, dix and huit often drop it (six jours “see ZHOOR”), and before a vowel they link (dix ans “dee-ZAHN”, neuf ans “nuh-VAHN”).",
+    "pattern": "(?<![\\p{L}-])(?:six|dix|huit|cinq|sept|neuf)(?!\\p{L})",
+    "examples": [
+      {
+        "word": "six",
+        "say": "sees",
+        "en": "six"
+      },
+      {
+        "word": "dix ans",
+        "say": "dee-ZAHN",
+        "en": "ten years"
+      },
+      {
+        "word": "sept",
+        "say": "set",
+        "en": "seven"
+      },
+      {
+        "word": "cinq",
+        "say": "sank",
+        "en": "five"
+      }
+    ]
+  },
+  {
+    "title": "Liaison after dans, chez, très, sans, quand and tout",
+    "body": "Short words such as dans, chez, sans, très, plus, tout and quand usually link too: dans un an is “dahn-zuh-NAHN”, quand il pleut “kahn-teel PLUH”, tout à coup “too-tah-KOO”.",
+    "pattern": "(?<![\\p{L}’-])(?:dans|chez|sans|très|plus|tout|quand|dont)(?= (?!(?:haut|hall|hasard|hausse|hâte|haricot|hareng|hors|honte|honteu|hublot|hachis|hanche|haie|héros|hollandais|hongr|huit|hamburger|handicap|handball|hamac|hockey|harpe|hérisson))h?[aeiouyàâäéèêëîïôöûùüÿœ])",
+    "examples": [
+      {
+        "word": "dans un an",
+        "say": "dahn-zuh-NAHN",
+        "en": "in a year"
+      },
+      {
+        "word": "chez elle",
+        "say": "shay-ZEL",
+        "en": "at her place"
+      },
+      {
+        "word": "très important",
+        "say": "treh-zan-por-TAHN",
+        "en": "very important"
+      },
+      {
+        "word": "quand il",
+        "say": "kahn-TEEL",
+        "en": "when he"
+      }
+    ]
+  },
+  {
+    "title": "th sounds like “t”, ph like “f”",
+    "body": "th is a plain “t”, never the English “th”: le thé is “luh TAY”. ph is “f”: la photo is “lah foh-TOH”.",
+    "pattern": "th|ph",
+    "examples": [
+      {
+        "word": "le thé",
+        "say": "luh TAY",
+        "en": "tea"
+      },
+      {
+        "word": "Thomas",
+        "say": "toh-MAH",
+        "en": "Thomas"
+      },
+      {
+        "word": "la photo",
+        "say": "lah foh-TOH",
+        "en": "photo"
+      },
+      {
+        "word": "le téléphone",
+        "say": "luh tay-lay-FON",
+        "en": "telephone"
+      }
+    ]
+  },
+  {
+    "title": "k and w appear in borrowed words",
+    "body": "k and w are found in foreign words and names. k is “k”. w is “w” in English words (le week-end) and “v” in some German ones (le wagon).",
+    "pattern": "[kw]",
+    "examples": [
+      {
+        "word": "le week-end",
+        "say": "luh wee-KEND",
+        "en": "weekend"
+      },
+      {
+        "word": "le kilomètre",
+        "say": "luh kee-loh-MEH-truh",
+        "en": "kilometre"
+      },
+      {
+        "word": "le ticket",
+        "say": "luh tee-KEH",
+        "en": "ticket"
+      },
+      {
+        "word": "le wagon",
+        "say": "luh vah-GOHN",
+        "en": "carriage"
+      }
+    ]
+  },
+  {
+    "title": "x inside a word is “ks” or “gz”",
+    "body": "x is usually “ks” as in “taxi”, and “gz” in ex- before a vowel: exemple is “eg-ZAHMPL”. In deuxième and sixième it is “z”, and in soixante “s”. At the end of a word it is silent.",
+    "pattern": "x(?=\\p{L})",
+    "examples": [
+      {
+        "word": "le taxi",
+        "say": "luh tahk-SEE",
+        "en": "taxi"
+      },
+      {
+        "word": "excellent",
+        "say": "ek-seh-LAHN",
+        "en": "excellent"
+      },
+      {
+        "word": "l’exemple",
+        "say": "leg-ZAHMPL",
+        "en": "example"
+      },
+      {
+        "word": "deuxième",
+        "say": "duh-ZYEM",
+        "en": "second"
+      }
+    ]
+  },
+  {
+    "title": "y between vowels works like a double i",
+    "body": "Between two vowels, y works like “i + i”: the first changes the vowel before it and the second is a “y” glide. payer is “peh-YAY”, voyage “vwah-YAZH”, moyen “mwah-YAN”. Note le pays, “luh pay-EE”.",
+    "pattern": "(?<=[aeiouyàâäéèêëîïôöûùüÿœ])y(?=[aeiouyàâäéèêëîïôöûùüÿœ])",
+    "examples": [
+      {
+        "word": "payer",
+        "say": "peh-YAY",
+        "en": "to pay"
+      },
+      {
+        "word": "le voyage",
+        "say": "luh vwah-YAZH",
+        "en": "trip"
+      },
+      {
+        "word": "le loyer",
+        "say": "luh lwah-YAY",
+        "en": "rent"
+      },
+      {
+        "word": "essayer",
+        "say": "eh-seh-YAY",
+        "en": "to try"
+      }
+    ]
+  },
+  {
+    "title": "ç is always “s”",
+    "body": "The little hook under ç turns the c into an “s” before a, o or u: ça is “sah”, le garçon “luh gar-SOHN”.",
+    "pattern": "ç",
+    "examples": [
+      {
+        "word": "ça",
+        "say": "sah",
+        "en": "that, it"
+      },
+      {
+        "word": "le garçon",
+        "say": "luh gar-SOHN",
+        "en": "boy"
+      },
+      {
+        "word": "français",
+        "say": "frahn-SEH",
+        "en": "French"
+      },
+      {
+        "word": "la leçon",
+        "say": "lah luh-SOHN",
+        "en": "lesson"
+      }
+    ]
+  },
+  {
+    "title": "gn sounds like “ny” in “canyon”",
+    "body": "gn is one sound, like the “ny” in “canyon”: la montagne is “lah mohn-TAHNY”, gagner is “gah-NYAY”. Never say a separate “g”.",
+    "pattern": "gn",
+    "examples": [
+      {
+        "word": "la montagne",
+        "say": "lah mohn-TAHNY",
+        "en": "mountain"
+      },
+      {
+        "word": "gagner",
+        "say": "gah-NYAY",
+        "en": "to win, to earn"
+      },
+      {
+        "word": "l’Espagne",
+        "say": "les-PAHNY",
+        "en": "Spain"
+      },
+      {
+        "word": "mignonne",
+        "say": "mee-NYON",
+        "en": "cute (feminine)"
+      }
+    ]
+  },
+  {
+    "title": "A few common words break the rules",
+    "body": "Learn these by heart: monsieur is “muh-SYUH”, femme is “fahm”, second is “suh-GOHN”, the ai of faisons and faisais is “uh”, le pays is “luh pay-EE”, and eu (had) is just the French u.",
+    "pattern": "(?<![\\p{L}-])(?:monsieur|messieurs|femmes?|oignons?|second(?:e|es|s)?|fais(?:ons|ais|ait|aient|ant)|pays|eue?s?)(?!\\p{L})",
+    "examples": [
+      {
+        "word": "monsieur",
+        "say": "muh-SYUH",
+        "en": "sir, Mr"
+      },
+      {
+        "word": "la femme",
+        "say": "lah FAHM",
+        "en": "woman, wife"
+      },
+      {
+        "word": "nous faisons",
+        "say": "noo fuh-ZOHN",
+        "en": "we do"
+      },
+      {
+        "word": "j’ai eu",
+        "say": "zhay EW",
+        "en": "I had"
+      }
+    ]
+  },
+  {
+    "title": "ill after a consonant sounds like “ee-y”",
+    "body": "After a consonant, ill is usually “ee” followed by a “y” glide, and the l is not heard at all: la fille is “lah FEEY”. A few words keep a real “l”: ville, village, mille, million, tranquille and the city Lille.",
+    "pattern": "(?<=[^\\P{L}aeiouyàâäéèêëîïôöûùüÿœ])ill(?<!(?<!\\p{L})(?:v|m|l|g|tranqu)ill)",
+    "examples": [
+      {
+        "word": "la fille",
+        "say": "lah FEEY",
+        "en": "girl, daughter"
+      },
+      {
+        "word": "la famille",
+        "say": "lah fah-MEEY",
+        "en": "family"
+      },
+      {
+        "word": "le billet",
+        "say": "luh bee-YEH",
+        "en": "ticket"
+      },
+      {
+        "word": "gentille",
+        "say": "zhahn-TEEY",
+        "en": "kind (feminine)"
+      }
+    ]
+  },
+  {
+    "title": "gu before e or i is a hard “g”; the u is silent",
+    "body": "The u in gue and gui only keeps the g hard: la guitare is “lah gee-TAHR”, la langue “lah LAHNG”. It is not a “w” sound.",
+    "pattern": "gu(?=[eiéèêîy])",
+    "examples": [
+      {
+        "word": "la guitare",
+        "say": "lah gee-TAHR",
+        "en": "guitar"
+      },
+      {
+        "word": "la langue",
+        "say": "lah LAHNG",
+        "en": "language, tongue"
+      },
+      {
+        "word": "la baguette",
+        "say": "lah bah-GET",
+        "en": "baguette"
+      },
+      {
+        "word": "le guide",
+        "say": "luh GEED",
+        "en": "guide"
+      }
+    ]
+  },
+  {
+    "title": "Questions often rise at the end",
+    "body": "A question without a question word is often just a statement with the voice rising on the last syllable: tu viens ? is “tew VYAN?” with a rise. Questions with a question word can fall at the end, as in English.",
+    "pattern": "\\p{L}(?=\\s?\\?)",
+    "examples": [
+      {
+        "word": "tu viens ?",
+        "say": "tew VYAN",
+        "en": "are you coming?"
+      },
+      {
+        "word": "ça va ?",
+        "say": "sah VAH",
+        "en": "how are you?"
+      },
+      {
+        "word": "c’est vrai ?",
+        "say": "seh VREH",
+        "en": "really?"
+      }
+    ]
+  },
+  {
+    "title": "oin sounds like a nasal “wan”",
+    "body": "oin is “w” followed by the nasal “an” of vin: loin is “lwan”, moins is “mwan”. The n is not pronounced.",
+    "pattern": "oin(?![aeiouyàâäéèêëîïôöûùüÿœnmh])",
+    "examples": [
+      {
+        "word": "loin",
+        "say": "lwan",
+        "en": "far"
+      },
+      {
+        "word": "le besoin",
+        "say": "luh buh-ZWAN",
+        "en": "need"
+      },
+      {
+        "word": "moins",
+        "say": "mwan",
+        "en": "less"
+      },
+      {
+        "word": "le coin",
+        "say": "luh KWAN",
+        "en": "corner"
+      }
+    ]
+  },
+  {
+    "title": "Some words start with an h that blocks linking",
+    "body": "A few words start with an “aspirated” h. It is still silent, but it acts like a consonant: no l’, no liaison, no linking. Say le haut, les héros (“lay ay-ROH”), le huit. Learn them as you meet them.",
+    "pattern": "(?<![\\p{L}-])(?:haut|hall|hasard|hausse|hâte|haricot|hareng|hors|honte|honteu|hublot|hachis|hanche|haie|héros|hollandais|hongr|huit|hamburger|handicap|handball|hamac|hockey|harpe|hérisson)",
+    "examples": [
+      {
+        "word": "le huit",
+        "say": "luh WEET",
+        "en": "the eighth, number eight"
+      },
+      {
+        "word": "en haut",
+        "say": "ahn OH",
+        "en": "upstairs"
+      },
+      {
+        "word": "le hasard",
+        "say": "luh ah-ZAHR",
+        "en": "chance"
+      },
+      {
+        "word": "les haricots",
+        "say": "lay ah-ree-KOH",
+        "en": "beans"
+      }
+    ]
+  },
+  {
+    "title": "ou before a vowel glides into “w”",
+    "body": "Before another vowel, ou usually becomes a quick “w” in the same syllable: oui is “wee”, jouer is “zhway”, l’ouest is “lwest”.",
+    "pattern": "ou(?=[aiéèêî]|e(?=[rzt]|s(?=\\p{L})|ll|tt))(?!ill)",
+    "examples": [
+      {
+        "word": "oui",
+        "say": "wee",
+        "en": "yes"
+      },
+      {
+        "word": "jouer",
+        "say": "zhway",
+        "en": "to play"
+      },
+      {
+        "word": "louer",
+        "say": "lway",
+        "en": "to rent"
+      },
+      {
+        "word": "l’ouest",
+        "say": "lwest",
+        "en": "west"
+      }
+    ]
+  },
+  {
+    "title": "sc before e or i is a plain “s”",
+    "body": "In sc before e, i or y, the c adds nothing: the pair is one “s” sound. la piscine is “lah pee-SEEN”.",
+    "pattern": "sc(?=[eiyéèê])",
+    "examples": [
+      {
+        "word": "la piscine",
+        "say": "lah pee-SEEN",
+        "en": "swimming pool"
+      },
+      {
+        "word": "la science",
+        "say": "lah SYAHNS",
+        "en": "science"
+      },
+      {
+        "word": "descendre",
+        "say": "deh-SAHN-druh",
+        "en": "to go down"
+      }
+    ]
+  },
+  {
+    "title": "cc before e or i sounds like “ks”",
+    "body": "In cc before e or i, the first c is “k” and the second “s”: accepter is “ahk-sep-TAY”, l’accident “lahk-see-DAHN”.",
+    "pattern": "cc(?=[eiéèêy])",
+    "examples": [
+      {
+        "word": "l’accident",
+        "say": "lahk-see-DAHN",
+        "en": "accident"
+      },
+      {
+        "word": "accepter",
+        "say": "ahk-sep-TAY",
+        "en": "to accept"
+      },
+      {
+        "word": "le succès",
+        "say": "luh sewk-SEH",
+        "en": "success"
+      },
+      {
+        "word": "l’accent",
+        "say": "lahk-SAHN",
+        "en": "accent"
+      }
+    ]
+  },
+  {
+    "title": "ge before a or o: soft g, silent e",
+    "body": "To keep g soft before a, o or u, French adds an e that is not pronounced: nous mangeons is “noo mahn-ZHOHN”, il mangeait “eel mahn-ZHEH”.",
+    "pattern": "ge(?=[aoâôu])",
+    "examples": [
+      {
+        "word": "nous mangeons",
+        "say": "noo mahn-ZHOHN",
+        "en": "we eat"
+      },
+      {
+        "word": "Georges",
+        "say": "zhorzh",
+        "en": "George"
+      },
+      {
+        "word": "il partageait",
+        "say": "eel par-tah-ZHEH",
+        "en": "he shared"
+      },
+      {
+        "word": "le plongeon",
+        "say": "luh plohn-ZHOHN",
+        "en": "dive"
+      }
+    ]
+  },
+  {
+    "title": "est-ce que sounds like “ess-kuh”",
+    "body": "The question starter est-ce que is said “ess-kuh”, two quick syllables: est-ce que tu viens ? is “ess-kuh tew VYAN”. qu’est-ce que is “kess-kuh”.",
+    "pattern": "est-ce",
+    "examples": [
+      {
+        "word": "est-ce que",
+        "say": "ess-kuh",
+        "en": "is it that (question)"
+      },
+      {
+        "word": "qu’est-ce que",
+        "say": "kess-kuh",
+        "en": "what"
+      },
+      {
+        "word": "qu’est-ce que c’est ?",
+        "say": "kess-kuh SEH",
+        "en": "what is it?"
+      }
+    ]
+  },
+  {
+    "title": "ë and ï: say the vowel on its own",
+    "body": "The two dots on ë or ï mean the vowel is said separately from the one before it: Noël is “noh-EL”, naïf “nah-EEF”, le maïs “luh mah-EES”.",
+    "pattern": "[ëï]",
+    "examples": [
+      {
+        "word": "Noël",
+        "say": "noh-EL",
+        "en": "Christmas"
+      },
+      {
+        "word": "naïf",
+        "say": "nah-EEF",
+        "en": "naive"
+      },
+      {
+        "word": "le maïs",
+        "say": "luh mah-EES",
+        "en": "corn"
+      },
+      {
+        "word": "Loïc",
+        "say": "loh-EEK",
+        "en": "Loïc (a name)"
+      }
+    ]
+  },
+  {
+    "title": "-emment and -amment sound like “ah-MAHN”",
+    "body": "Adverbs ending in -emment and -amment both end in “ah-MAHN”, with a plain “ah”, not a nasal: récemment is “ray-sah-MAHN”.",
+    "pattern": "[ae]mment",
+    "examples": [
+      {
+        "word": "récemment",
+        "say": "ray-sah-MAHN",
+        "en": "recently"
+      },
+      {
+        "word": "notamment",
+        "say": "noh-tah-MAHN",
+        "en": "in particular"
+      },
+      {
+        "word": "suffisamment",
+        "say": "sew-fee-zah-MAHN",
+        "en": "enough"
+      },
+      {
+        "word": "prudemment",
+        "say": "prew-dah-MAHN",
+        "en": "carefully"
+      }
+    ]
+  }
+]

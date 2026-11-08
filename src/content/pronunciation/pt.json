@@ -1,0 +1,2067 @@
+[
+  {
+    "title": "b, f, l, m, n, p, v and z sound much as in English",
+    "body": "Before a vowel these letters are close to English. p has no puff of air after it, as in Spanish or French. At the end of a syllable l, m and n behave very differently (see those rules).",
+    "pattern": "[bfpv]|[lmnz](?=[aeiouáéíóúâêôãõ])",
+    "examples": [
+      {
+        "word": "o bolo",
+        "say": "oo BOH-loo",
+        "en": "cake"
+      },
+      {
+        "word": "a festa",
+        "say": "ah FEHS-tuh",
+        "en": "party"
+      },
+      {
+        "word": "o livro",
+        "say": "oo LEE-vroo",
+        "en": "book"
+      },
+      {
+        "word": "o zero",
+        "say": "oo ZEH-roo",
+        "en": "zero"
+      }
+    ]
+  },
+  {
+    "title": "Most words stress the second-to-last syllable",
+    "body": "A word with no written accent that ends in a, e or o (also with s), or in -am, -em or -ens, is stressed on its second-to-last syllable. This covers most Portuguese words, including verb forms like falam and falamos.",
+    "pattern": "(?<!\\p{L})(?!aos?(?!\\p{L}))[a-zç]*?(?:[aeio]|(?<![qg])u)[a-zç]*?(?:[aeo]s?|[ae]m|ens)(?!\\p{L})",
+    "examples": [
+      {
+        "word": "a casa",
+        "say": "ah KAH-zuh",
+        "en": "house"
+      },
+      {
+        "word": "a semana",
+        "say": "ah seh-MUH-nuh",
+        "en": "week"
+      },
+      {
+        "word": "falam",
+        "say": "FAH-lown",
+        "en": "they speak"
+      },
+      {
+        "word": "ontem",
+        "say": "OHN-tayn",
+        "en": "yesterday"
+      }
+    ]
+  },
+  {
+    "title": "a is an open “ah”",
+    "body": "a sounds like the “a” in “father”, but short. An unstressed final a is softer (see that rule), and next to m and n a turns nasal.",
+    "pattern": "á|a(?![iuo]|[mn](?![aeiouáéíóúâêôãõh])|(?:m|nh?)[aeo]s?(?!\\p{L})|s?(?!\\p{L}))|(?<![aeiouáéíóúâêôãõ]\\p{L}*)a(?=s?(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "lá",
+        "say": "lah",
+        "en": "there"
+      },
+      {
+        "word": "o sábado",
+        "say": "oo SAH-bah-doo",
+        "en": "Saturday"
+      },
+      {
+        "word": "falar",
+        "say": "fah-LAHR",
+        "en": "to speak"
+      },
+      {
+        "word": "o café",
+        "say": "oo kah-FEH",
+        "en": "coffee"
+      }
+    ]
+  },
+  {
+    "title": "t and d are plain before a, o, u and most consonants",
+    "body": "Before a, o, u, a stressed e, r or l, t and d are close to English, made with the tongue against the back of the upper teeth and with no puff of air. Before an “ee” sound they change completely (see that rule).",
+    "pattern": "t(?![ií]|es?(?!\\p{L})|[bcdfgjkmnpqvxzç]|(?!\\p{L}))|d(?![ií]|es?(?!\\p{L})|epois|[bcdfgjkmnpqsvxzç]|(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "o tempo",
+        "say": "oo TEN-poo",
+        "en": "time, weather"
+      },
+      {
+        "word": "tudo",
+        "say": "TOO-doo",
+        "en": "everything"
+      },
+      {
+        "word": "a porta",
+        "say": "ah PAWR-tuh",
+        "en": "door"
+      },
+      {
+        "word": "quatro",
+        "say": "KWAH-troo",
+        "en": "four"
+      }
+    ]
+  },
+  {
+    "title": "Final o sounds like “oo”",
+    "body": "An unstressed o at the end of a word, also before a final s, is a short “oo”, as in “book”. The words o and os (the) are “oo” and “oos”, and do, no, dos and nos are “doo”, “noo”, “doos” and “noos”.",
+    "pattern": "(?<![aã])os?(?!\\p{L})",
+    "examples": [
+      {
+        "word": "o",
+        "say": "oo",
+        "en": "the"
+      },
+      {
+        "word": "obrigado",
+        "say": "oh-bree-GAH-doo",
+        "en": "thank you"
+      },
+      {
+        "word": "o cachorro",
+        "say": "oo kah-SHOH-hoo",
+        "en": "dog"
+      },
+      {
+        "word": "o trabalho",
+        "say": "oo trah-BAH-lyoo",
+        "en": "work"
+      }
+    ]
+  },
+  {
+    "title": "Final a is a soft “uh”",
+    "body": "An unstressed a at the end of a word, also before a final s, is weaker than a full “ah”, like the “a” in “sofa”. Short words such as a, da, na and mas keep the full “ah”.",
+    "pattern": "(?<=[aeiouáéíóúâêôãõ]\\p{L}*)as?(?!\\p{L})",
+    "examples": [
+      {
+        "word": "a casa",
+        "say": "ah KAH-zuh",
+        "en": "house"
+      },
+      {
+        "word": "uma",
+        "say": "OO-muh",
+        "en": "a, one"
+      },
+      {
+        "word": "a festa",
+        "say": "ah FEHS-tuh",
+        "en": "party"
+      },
+      {
+        "word": "as pessoas",
+        "say": "ahs peh-SOH-uhs",
+        "en": "people"
+      }
+    ]
+  },
+  {
+    "title": "i is “ee”",
+    "body": "i is the “ee” of “see”, but short, never the “i” of “sit”. After a, e, o or u it glides into a “y” sound (see the diphthong rules).",
+    "pattern": "í|(?<![aeoáéóâêôãõ])(?<!(?<![qg])u)i(?![mn](?![aeiouáéíóúâêôãõh]))",
+    "examples": [
+      {
+        "word": "a vida",
+        "say": "ah VEE-duh",
+        "en": "life"
+      },
+      {
+        "word": "aqui",
+        "say": "ah-KEE",
+        "en": "here"
+      },
+      {
+        "word": "a filha",
+        "say": "ah FEE-lyuh",
+        "en": "daughter"
+      },
+      {
+        "word": "o livro",
+        "say": "oo LEE-vroo",
+        "en": "book"
+      }
+    ]
+  },
+  {
+    "title": "Unaccented e can be open “eh” or closed “ay”",
+    "body": "Without an accent mark, a stressed e may be open, as in ela (“EH-luh”), or closed, as in ele (“AY-lee”). Spelling doesn't tell you, so learn each word with its sound. Before the stress, e is a short closed “eh”.",
+    "pattern": "(?!(?<=(?<!\\p{L})d)epois)(?!(?<!\\p{L})e(?:s[bcdfgjklmnpqrtvxzç]|x[cpt])(?!st[aeo]s?(?!\\p{L})))e(?![iu]|[mn](?![aeiouáéíóúâêôãõh])|s?(?!\\p{L}))(?<![ãõ]e)",
+    "examples": [
+      {
+        "word": "ela",
+        "say": "EH-luh",
+        "en": "she"
+      },
+      {
+        "word": "ele",
+        "say": "AY-lee",
+        "en": "he"
+      },
+      {
+        "word": "a mesa",
+        "say": "ah MAY-zuh",
+        "en": "table"
+      },
+      {
+        "word": "a festa",
+        "say": "ah FEHS-tuh",
+        "en": "party"
+      },
+      {
+        "word": "o medo",
+        "say": "oo MAY-doo",
+        "en": "fear"
+      }
+    ]
+  },
+  {
+    "title": "A single r between vowels or after a consonant is a quick tap",
+    "body": "Between vowels, in groups like br, pr and tr, and at the end of a word before a vowel, r is one quick flick of the tongue tip, like the “tt” in American “better”. Mixing it up with rr changes the word: caro (expensive), carro (car).",
+    "pattern": "(?<=[aeiouáéíóúâêôãõ]|[bcdfgkptv])r(?=[aeiouáéíóúâêôãõ])|r(?= h?[aeiouáéíóúâêôãõà])",
+    "examples": [
+      {
+        "word": "para",
+        "say": "PAH-ruh",
+        "en": "for, to"
+      },
+      {
+        "word": "a hora",
+        "say": "ah AW-ruh",
+        "en": "hour, time"
+      },
+      {
+        "word": "três",
+        "say": "trays",
+        "en": "three"
+      },
+      {
+        "word": "caro",
+        "say": "KAH-roo",
+        "en": "expensive"
+      },
+      {
+        "word": "por isso",
+        "say": "poh-REE-soo",
+        "en": "that's why"
+      }
+    ]
+  },
+  {
+    "title": "Vowels meeting across words run together",
+    "body": "When one word ends in a vowel and the next begins with one (h is silent), they are said in one breath, with no break. Two a's merge into one, and a final e or o glides into the next vowel: que eu sounds like “kyehw”.",
+    "pattern": "[aeiouáéíóúâêôãõà] (?=h?[aeiouáéíóúâêôãõà])",
+    "examples": [
+      {
+        "word": "uma amiga",
+        "say": "oo-mah-MEE-guh",
+        "en": "a friend"
+      },
+      {
+        "word": "que eu",
+        "say": "kyehw",
+        "en": "that I"
+      },
+      {
+        "word": "de água",
+        "say": "JYAH-gwuh",
+        "en": "of water"
+      },
+      {
+        "word": "a escola",
+        "say": "ah-ees-KAW-luh",
+        "en": "the school"
+      }
+    ]
+  },
+  {
+    "title": "Final e sounds like “ee”",
+    "body": "An unstressed e at the end of a word, also before a final s, is a short “ee”. The little words e (and), de, que, se and me are “ee”, “jee”, “kee”, “see” and “mee”. In Portugal this e is so weak it almost disappears.",
+    "pattern": "(?<![ãõ])es?(?!\\p{L})",
+    "examples": [
+      {
+        "word": "e",
+        "say": "ee",
+        "en": "and"
+      },
+      {
+        "word": "que",
+        "say": "kee",
+        "en": "that, what"
+      },
+      {
+        "word": "o nome",
+        "say": "oo NOH-mee",
+        "en": "name"
+      },
+      {
+        "word": "os clientes",
+        "say": "oos klee-EN-chees",
+        "en": "customers"
+      }
+    ]
+  },
+  {
+    "title": "Unaccented o can be open “aw” or closed “oh”",
+    "body": "Without an accent mark, a stressed o may be open, as in porta (“PAWR-tuh”), or closed, as in todo (“TOH-doo”). Some words open up in the plural: novo is “NOH-voo” but novos is “NAW-voos”. Before the stress, o is a closed “oh”.",
+    "pattern": "o(?![iu]|[mn](?![aeiouáéíóúâêôãõh])|s?(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "a porta",
+        "say": "ah PAWR-tuh",
+        "en": "door"
+      },
+      {
+        "word": "todo",
+        "say": "TOH-doo",
+        "en": "all, whole"
+      },
+      {
+        "word": "agora",
+        "say": "ah-GAW-ruh",
+        "en": "now"
+      },
+      {
+        "word": "o bolo",
+        "say": "oo BOH-loo",
+        "en": "cake"
+      },
+      {
+        "word": "novo",
+        "say": "NOH-voo",
+        "en": "new"
+      }
+    ]
+  },
+  {
+    "title": "t and d before an “ee” sound become “ch” and “j”",
+    "body": "Before i, and before the “ee” of an unstressed final e, Brazilians say t like the “ch” in “cheese” and d like the “j” in “jeep”. So de is “jee”, and in everyday speech depois starts with “jee” too. In Portugal and parts of the Northeast, t and d stay plain.",
+    "pattern": "[td](?=[ií]|es?(?!\\p{L}))|(?<!\\p{L})d(?=epois)",
+    "examples": [
+      {
+        "word": "o leite",
+        "say": "oo LAY-chee",
+        "en": "milk"
+      },
+      {
+        "word": "a noite",
+        "say": "ah NOY-chee",
+        "en": "night"
+      },
+      {
+        "word": "a cidade",
+        "say": "ah see-DAH-jee",
+        "en": "city"
+      },
+      {
+        "word": "o dia",
+        "say": "oo JEE-uh",
+        "en": "day"
+      },
+      {
+        "word": "depois",
+        "say": "jee-POYS",
+        "en": "after, then"
+      }
+    ]
+  },
+  {
+    "title": "c before a, o, u or a consonant is “k”",
+    "body": "Elsewhere c is the “k” of “cat”. To write a “k” sound before e or i, Portuguese uses qu.",
+    "pattern": "c(?![eiéíêh])",
+    "examples": [
+      {
+        "word": "a casa",
+        "say": "ah KAH-zuh",
+        "en": "house"
+      },
+      {
+        "word": "como",
+        "say": "KOH-moo",
+        "en": "how, like"
+      },
+      {
+        "word": "claro",
+        "say": "KLAH-roo",
+        "en": "of course, light"
+      },
+      {
+        "word": "o cartão",
+        "say": "oo kar-TOWN",
+        "en": "card"
+      }
+    ]
+  },
+  {
+    "title": "s at the end of a syllable is “s”, or “sh” in Rio",
+    "body": "At the end of a word and before c, f, p, q or t, s is a plain “s” in São Paulo and most of Brazil. In Rio de Janeiro, as in Portugal, it is “sh”: mais sounds like “mysh”. Both are correct; the respellings here use “s”.",
+    "pattern": "s(?=[fpqt]|c(?![eiéíê])|(?!\\p{L})(?! h?[aeiouáéíóúâêôãõà]| [bdgjlmnrvz]))",
+    "examples": [
+      {
+        "word": "mais",
+        "say": "mice",
+        "en": "more"
+      },
+      {
+        "word": "três",
+        "say": "trays",
+        "en": "three"
+      },
+      {
+        "word": "estava",
+        "say": "ees-TAH-vuh",
+        "en": "was"
+      },
+      {
+        "word": "depois",
+        "say": "jee-POYS",
+        "en": "after, then"
+      }
+    ]
+  },
+  {
+    "title": "Words ending in r, l, z, i, u or a nasal stress the last syllable",
+    "body": "A word with no written accent that ends in r, l, z, i or u (also is, us), or in a nasal ending (-im, -um, -ns, -ã, -ão, -ões), is stressed on its last syllable. This includes every verb in its dictionary form: falar, comer, partir.",
+    "pattern": "(?<!\\p{L})[bcdfghjklmnpqrstvwxyzç]*(?:[aeio]|(?<![qg])u)+[bcdfghjklmnpqrstvwxyzç]+[a-zç]*(?:[rlzx]|[iu]s?|[iuo]ms?|[iuo]ns)(?!\\p{L})|(?<!\\p{L})[a-zç]*[aeiou][a-zç]*(?:ão|ã|õe|ãe)s?(?!\\p{L})",
+    "examples": [
+      {
+        "word": "falar",
+        "say": "fah-LAHR",
+        "en": "to speak"
+      },
+      {
+        "word": "o Brasil",
+        "say": "oo brah-ZEEW",
+        "en": "Brazil"
+      },
+      {
+        "word": "aqui",
+        "say": "ah-KEE",
+        "en": "here"
+      },
+      {
+        "word": "feliz",
+        "say": "feh-LEES",
+        "en": "happy"
+      },
+      {
+        "word": "o cartão",
+        "say": "oo kar-TOWN",
+        "en": "card"
+      }
+    ]
+  },
+  {
+    "title": "u is “oo”",
+    "body": "u is the “oo” of “food”, but short, never the “u” of “but” or “use”. It is silent in que, qui, gue and gui (see those rules).",
+    "pattern": "ú|(?<![aeioáéóâêôãõq])u(?![mn](?![aeiouáéíóúâêôãõh]))(?!(?<=gu)[eiéíê])",
+    "examples": [
+      {
+        "word": "a rua",
+        "say": "ah HOO-uh",
+        "en": "street"
+      },
+      {
+        "word": "tudo",
+        "say": "TOO-doo",
+        "en": "everything"
+      },
+      {
+        "word": "o suco",
+        "say": "oo SOO-koo",
+        "en": "juice"
+      },
+      {
+        "word": "a música",
+        "say": "ah MOO-zee-kuh",
+        "en": "music"
+      }
+    ]
+  },
+  {
+    "title": "A written accent marks the stressed syllable",
+    "body": "An acute (á é í ó ú) or circumflex (â ê ô) accent overrides both stress rules: stress that syllable. Acute also means an open vowel, circumflex a closed one. The tilde (ã, õ) marks a nasal vowel, usually stressed as well.",
+    "pattern": "[áéíóúâêô]",
+    "examples": [
+      {
+        "word": "o sábado",
+        "say": "oo SAH-bah-doo",
+        "en": "Saturday"
+      },
+      {
+        "word": "a música",
+        "say": "ah MOO-zee-kuh",
+        "en": "music"
+      },
+      {
+        "word": "o ônibus",
+        "say": "oo OH-nee-boos",
+        "en": "bus"
+      },
+      {
+        "word": "o país",
+        "say": "oo pah-EES",
+        "en": "country"
+      }
+    ]
+  },
+  {
+    "title": "s at the start of a word or after a consonant is “s”",
+    "body": "Before a vowel, at the start of a word or after another consonant, s is the hissing “s” of “see”.",
+    "pattern": "(?<!\\p{L})s(?=[aeiouáéíóúâêôãõ])|(?<=[^\\P{L}aeiouáéíóúâêôãõs])s(?=[aeiouáéíóúâêôãõ])",
+    "examples": [
+      {
+        "word": "o sábado",
+        "say": "oo SAH-bah-doo",
+        "en": "Saturday"
+      },
+      {
+        "word": "sempre",
+        "say": "SEN-pree",
+        "en": "always"
+      },
+      {
+        "word": "pensar",
+        "say": "pen-SAHR",
+        "en": "to think"
+      },
+      {
+        "word": "a bolsa",
+        "say": "ah BOW-suh",
+        "en": "bag"
+      }
+    ]
+  },
+  {
+    "title": "em and en before a consonant are a nasal “en”",
+    "body": "Before another consonant, em and en are an “e” said through the nose, close to the “en” in “ten” without fully closing for the n: tempo is “TEN-poo”.",
+    "pattern": "[eéê][mn](?![aeiouáéíóúâêôãõh]|s?(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "o tempo",
+        "say": "oo TEN-poo",
+        "en": "time, weather"
+      },
+      {
+        "word": "sempre",
+        "say": "SEN-pree",
+        "en": "always"
+      },
+      {
+        "word": "quente",
+        "say": "KEN-chee",
+        "en": "hot"
+      },
+      {
+        "word": "o centro",
+        "say": "oo SEN-troo",
+        "en": "centre"
+      }
+    ]
+  },
+  {
+    "title": "s before b, d, g, l, m, n, r or v sounds like “z”",
+    "body": "Before a voiced consonant, inside a word or across words, s buzzes into a “z”: mesmo is “MAYZ-moo” and os dias is “ooz JEE-uhs”. In Rio it becomes the “zh” of “measure”.",
+    "pattern": "s(?= ?[bdgjlmnrvz])",
+    "examples": [
+      {
+        "word": "mesmo",
+        "say": "MAYZ-moo",
+        "en": "same, even"
+      },
+      {
+        "word": "desde",
+        "say": "DAYZ-jee",
+        "en": "since"
+      },
+      {
+        "word": "os dias",
+        "say": "ooz JEE-uhs",
+        "en": "the days"
+      },
+      {
+        "word": "às vezes",
+        "say": "ahz VAY-zees",
+        "en": "sometimes"
+      }
+    ]
+  },
+  {
+    "title": "r before a consonant is a soft “h” or an English-style r",
+    "body": "Inside a word before a consonant, r varies by region: a soft “h” in Rio and much of Brazil, a light tap in São Paulo city, and in the countryside an r close to the American one. All are understood; the respellings show “r”.",
+    "pattern": "r(?=[^\\P{L}aeiouáéíóúâêôãõr])",
+    "examples": [
+      {
+        "word": "a porta",
+        "say": "ah PAWR-tuh",
+        "en": "door"
+      },
+      {
+        "word": "a tarde",
+        "say": "ah TAHR-jee",
+        "en": "afternoon"
+      },
+      {
+        "word": "perto",
+        "say": "PEHR-too",
+        "en": "near"
+      },
+      {
+        "word": "o mercado",
+        "say": "oo mehr-KAH-doo",
+        "en": "market"
+      }
+    ]
+  },
+  {
+    "title": "g before a, o, u or a consonant is a hard “g”",
+    "body": "Elsewhere g is the “g” of “go”. To keep the hard sound before e or i, Portuguese writes gu (see that rule).",
+    "pattern": "g(?![eiéíê])",
+    "examples": [
+      {
+        "word": "o grupo",
+        "say": "oo GROO-poo",
+        "en": "group"
+      },
+      {
+        "word": "o amigo",
+        "say": "oo ah-MEE-goo",
+        "en": "friend"
+      },
+      {
+        "word": "agora",
+        "say": "ah-GAW-ruh",
+        "en": "now"
+      },
+      {
+        "word": "o lugar",
+        "say": "oo loo-GAHR",
+        "en": "place"
+      }
+    ]
+  },
+  {
+    "title": "c before e or i sounds like “s”",
+    "body": "Before e or i, c is the “s” of “see”, never a “k” or a “ch”.",
+    "pattern": "(?<![sx])c(?=[eiéíê])",
+    "examples": [
+      {
+        "word": "a cidade",
+        "say": "ah see-DAH-jee",
+        "en": "city"
+      },
+      {
+        "word": "cinco",
+        "say": "SEEN-koo",
+        "en": "five"
+      },
+      {
+        "word": "o centro",
+        "say": "oo SEN-troo",
+        "en": "centre"
+      },
+      {
+        "word": "você",
+        "say": "voh-SAY",
+        "en": "you"
+      }
+    ]
+  },
+  {
+    "title": "om and on before a consonant or at the end are a nasal “ohn”",
+    "body": "om and on are a closed “oh” said through the nose, without a full n: com is “kohn” and onde is “OHN-jee”.",
+    "pattern": "[oóô][mn](?![aeiouáéíóúâêôãõh])",
+    "examples": [
+      {
+        "word": "com",
+        "say": "kohn",
+        "en": "with"
+      },
+      {
+        "word": "bom",
+        "say": "bohn",
+        "en": "good"
+      },
+      {
+        "word": "onde",
+        "say": "OHN-jee",
+        "en": "where"
+      },
+      {
+        "word": "a conta",
+        "say": "ah KOHN-tuh",
+        "en": "bill, account"
+      }
+    ]
+  },
+  {
+    "title": "Final s and z link to a vowel as “z”",
+    "body": "When the next word starts with a vowel or silent h, a final s or z moves over to start it, as a “z”: os amigos sounds like “oo-zah-MEE-goos”.",
+    "pattern": "[sz](?= h?[aeiouáéíóúâêôãõà])",
+    "examples": [
+      {
+        "word": "os amigos",
+        "say": "oo-zah-MEE-goos",
+        "en": "the friends"
+      },
+      {
+        "word": "dez anos",
+        "say": "deh-ZUH-noos",
+        "en": "ten years"
+      },
+      {
+        "word": "às oito",
+        "say": "ah-ZOY-too",
+        "en": "at eight"
+      },
+      {
+        "word": "mais alto",
+        "say": "my-ZOW-too",
+        "en": "higher, louder"
+      }
+    ]
+  },
+  {
+    "title": "In que and qui the u is usually silent",
+    "body": "qu before e or i is a plain “k”: que is “kee” and aqui is “ah-KEE”. In a few words the u is heard as a “w”: cinquenta, tranquilo.",
+    "pattern": "(?<!cin|tran)qu(?=[eiéíê])",
+    "examples": [
+      {
+        "word": "que",
+        "say": "kee",
+        "en": "that, what"
+      },
+      {
+        "word": "aqui",
+        "say": "ah-KEE",
+        "en": "here"
+      },
+      {
+        "word": "o queijo",
+        "say": "oo KAY-zhoo",
+        "en": "cheese"
+      },
+      {
+        "word": "pequeno",
+        "say": "peh-KAY-noo",
+        "en": "small"
+      },
+      {
+        "word": "quinze",
+        "say": "KEEN-zee",
+        "en": "fifteen"
+      }
+    ]
+  },
+  {
+    "title": "ou sounds like “oh”",
+    "body": "In Brazil ou is a plain closed “oh”, so ou (or) is “oh” and the past ending -ou is a stressed “OH”: ficou is “fee-KOH”. In careful speech you may hear a slight “oh-oo”.",
+    "pattern": "ou",
+    "examples": [
+      {
+        "word": "ou",
+        "say": "oh",
+        "en": "or"
+      },
+      {
+        "word": "ficou",
+        "say": "fee-KOH",
+        "en": "stayed"
+      },
+      {
+        "word": "pouco",
+        "say": "POH-koo",
+        "en": "little"
+      },
+      {
+        "word": "a roupa",
+        "say": "ah HOH-puh",
+        "en": "clothes"
+      }
+    ]
+  },
+  {
+    "title": "am and an before a consonant are a nasal “uhn”",
+    "body": "Before another consonant, am and an make one nasal vowel, the same sound as ã. The m or n itself is barely closed: campo is “KUHN-poo”, not “camp-oh”.",
+    "pattern": "[aâ][mn](?![aeiouáéíóúâêôãõh]|(?<=m)(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "quando",
+        "say": "KWUHN-doo",
+        "en": "when"
+      },
+      {
+        "word": "o campo",
+        "say": "oo KUHN-poo",
+        "en": "field, countryside"
+      },
+      {
+        "word": "grande",
+        "say": "GRUHN-jee",
+        "en": "big"
+      },
+      {
+        "word": "antes",
+        "say": "UHN-chees",
+        "en": "before"
+      }
+    ]
+  },
+  {
+    "title": "r at the start of a word and rr sound like “h”",
+    "body": "At the start of a word, as rr, and after n, l or s, r is a breathy sound from the throat, much like the “h” in “hot” (a little rougher in Rio). It is never an English “r”: carro is “KAH-hoo”.",
+    "pattern": "rr|(?<!\\p{L})r|(?<=[nls])r",
+    "examples": [
+      {
+        "word": "o Rio",
+        "say": "oo HEE-oo",
+        "en": "Rio"
+      },
+      {
+        "word": "a rua",
+        "say": "ah HOO-uh",
+        "en": "street"
+      },
+      {
+        "word": "o carro",
+        "say": "oo KAH-hoo",
+        "en": "car"
+      },
+      {
+        "word": "o cachorro",
+        "say": "oo kah-SHOH-hoo",
+        "en": "dog"
+      },
+      {
+        "word": "Henrique",
+        "say": "en-HEE-kee",
+        "en": "Henrique"
+      }
+    ]
+  },
+  {
+    "title": "l at the end of a syllable sounds like “w”",
+    "body": "In Brazil an l at the end of a syllable is not an “l” at all but a “w”: Brasil is “brah-ZEEW”, and al sounds like “ow” in “how”. In Portugal it stays a dark “l”, as in English “full”.",
+    "pattern": "l(?![aeiouáéíóúâêôãõh])",
+    "examples": [
+      {
+        "word": "o Brasil",
+        "say": "oo brah-ZEEW",
+        "en": "Brazil"
+      },
+      {
+        "word": "mil",
+        "say": "meew",
+        "en": "thousand"
+      },
+      {
+        "word": "alto",
+        "say": "OW-too",
+        "en": "tall, loud"
+      },
+      {
+        "word": "o hospital",
+        "say": "oo ohs-pee-TOW",
+        "en": "hospital"
+      },
+      {
+        "word": "o papel",
+        "say": "oo pah-PEHW",
+        "en": "paper"
+      }
+    ]
+  },
+  {
+    "title": "-em and -ens at the end of a word sound like a nasal “ayn”",
+    "body": "A final -em (also -ém, -êm, -ens) is a nasal “ay” sliding into “y”, like “ain” in “rain” said through the nose without a full n: bem is “bayn”, também is “tuhn-BAYN”.",
+    "pattern": "[eéê](?:m|ns)(?!\\p{L})",
+    "examples": [
+      {
+        "word": "em",
+        "say": "ayn",
+        "en": "in"
+      },
+      {
+        "word": "tem",
+        "say": "tayn",
+        "en": "has"
+      },
+      {
+        "word": "também",
+        "say": "tuhn-BAYN",
+        "en": "also"
+      },
+      {
+        "word": "ninguém",
+        "say": "neen-GAYN",
+        "en": "nobody"
+      },
+      {
+        "word": "a viagem",
+        "say": "ah vee-AH-zhayn",
+        "en": "trip"
+      }
+    ]
+  },
+  {
+    "title": "Final r is soft and often dropped",
+    "body": "A final r has the same regional sounds as r before a consonant, but weaker still. In the dictionary form of verbs Brazilians often drop it completely: falar sounds like “fah-LAH”. Before a vowel in the next word it becomes a tap.",
+    "pattern": "r(?!\\p{L})(?! h?[aeiouáéíóúâêôãõà])",
+    "examples": [
+      {
+        "word": "falar",
+        "say": "fah-LAHR",
+        "en": "to speak"
+      },
+      {
+        "word": "fazer",
+        "say": "fah-ZEHR",
+        "en": "to do, make"
+      },
+      {
+        "word": "melhor",
+        "say": "meh-LYAWR",
+        "en": "better"
+      },
+      {
+        "word": "o lugar",
+        "say": "oo loo-GAHR",
+        "en": "place"
+      }
+    ]
+  },
+  {
+    "title": "um and un before a consonant or at the end are a nasal “oon”",
+    "body": "um and un are an “oo” said through the nose, without a full n: um is “oon” and mundo is “MOON-doo”.",
+    "pattern": "[uú][mn](?![aeiouáéíóúâêôãõh])",
+    "examples": [
+      {
+        "word": "um",
+        "say": "oon",
+        "en": "a, one"
+      },
+      {
+        "word": "o mundo",
+        "say": "oo MOON-doo",
+        "en": "world"
+      },
+      {
+        "word": "nunca",
+        "say": "NOON-kuh",
+        "en": "never"
+      },
+      {
+        "word": "algum",
+        "say": "ow-GOON",
+        "en": "some"
+      }
+    ]
+  },
+  {
+    "title": "ei sounds like “ay” in “say”",
+    "body": "ei glides from “e” to “ee” in one syllable. Before r, x or j Brazilians often drop the glide: primeiro can sound like “pree-MEH-roo”, and feira like “FEH-ruh”. éi, as in papéis, starts with an open “eh”.",
+    "pattern": "[eéê]i",
+    "examples": [
+      {
+        "word": "primeiro",
+        "say": "pree-MAY-roo",
+        "en": "first"
+      },
+      {
+        "word": "o dinheiro",
+        "say": "oo jee-NYAY-roo",
+        "en": "money"
+      },
+      {
+        "word": "seis",
+        "say": "says",
+        "en": "six"
+      },
+      {
+        "word": "a feira",
+        "say": "ah FAY-ruh",
+        "en": "market, weekday"
+      }
+    ]
+  },
+  {
+    "title": "s between vowels sounds like “z”",
+    "body": "A single s between two vowels is the buzzing “z” of “zoo”: casa is “KAH-zuh”. For an “s” sound there, Portuguese writes ss or ç.",
+    "pattern": "(?<=[aeiouáéíóúâêôãõ])s(?=[aeiouáéíóúâêôãõ])",
+    "examples": [
+      {
+        "word": "a casa",
+        "say": "ah KAH-zuh",
+        "en": "house"
+      },
+      {
+        "word": "a mesa",
+        "say": "ah MAY-zuh",
+        "en": "table"
+      },
+      {
+        "word": "o museu",
+        "say": "oo moo-ZEHW",
+        "en": "museum"
+      },
+      {
+        "word": "quase",
+        "say": "KWAH-zee",
+        "en": "almost"
+      }
+    ]
+  },
+  {
+    "title": "j, and g before e or i, sound like “s” in “measure”",
+    "body": "This is the soft “zh” sound in the middle of “measure” or “pleasure”, never the “j” of “jam”: hoje is “OH-zhee”. Before a, o and u, g stays hard.",
+    "pattern": "j|g(?=[eiéíê])",
+    "examples": [
+      {
+        "word": "hoje",
+        "say": "OH-zhee",
+        "en": "today"
+      },
+      {
+        "word": "já",
+        "say": "zhah",
+        "en": "already"
+      },
+      {
+        "word": "a gente",
+        "say": "ah ZHEN-chee",
+        "en": "we, people"
+      },
+      {
+        "word": "a viagem",
+        "say": "ah vee-AH-zhayn",
+        "en": "trip"
+      }
+    ]
+  },
+  {
+    "title": "im and in before a consonant or at the end are a nasal “een”",
+    "body": "im and in are an “ee” said through the nose, without a full n: sim is “seen” and cinco is “SEEN-koo”.",
+    "pattern": "[ií][mn](?![aeiouáéíóúâêôãõh])",
+    "examples": [
+      {
+        "word": "o fim",
+        "say": "oo feen",
+        "en": "end"
+      },
+      {
+        "word": "sim",
+        "say": "seen",
+        "en": "yes"
+      },
+      {
+        "word": "vinte",
+        "say": "VEEN-chee",
+        "en": "twenty"
+      },
+      {
+        "word": "ainda",
+        "say": "ah-EEN-duh",
+        "en": "still, yet"
+      }
+    ]
+  },
+  {
+    "title": "ão sounds like “own” in “town”, through the nose",
+    "body": "ão is a nasal “ow”: say “town” through your nose and stop before the n. It is one of the most frequent Portuguese sounds, in não, são and every word ending in -ção.",
+    "pattern": "ão",
+    "examples": [
+      {
+        "word": "não",
+        "say": "nown",
+        "en": "no, not"
+      },
+      {
+        "word": "são",
+        "say": "sown",
+        "en": "they are"
+      },
+      {
+        "word": "o pão",
+        "say": "oo pown",
+        "en": "bread"
+      },
+      {
+        "word": "o cartão",
+        "say": "oo kar-TOWN",
+        "en": "card"
+      }
+    ]
+  },
+  {
+    "title": "Unstressed i and u before a final vowel glide into “y” and “w”",
+    "body": "In accented words ending in -ia, -io, -ua and similar, the i or u after the stress is a quick glide, not a full syllable: família is “fah-MEE-lyuh” and água is “AH-gwuh”.",
+    "pattern": "(?<=[áéíóúâêô]\\p{L}*)[iu](?=[aeo]s?(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "a família",
+        "say": "ah fah-MEE-lyuh",
+        "en": "family"
+      },
+      {
+        "word": "a história",
+        "say": "ah ees-TAW-ryuh",
+        "en": "story, history"
+      },
+      {
+        "word": "o horário",
+        "say": "oo oh-RAH-ryoo",
+        "en": "timetable"
+      },
+      {
+        "word": "a água",
+        "say": "ah AH-gwuh",
+        "en": "water"
+      }
+    ]
+  },
+  {
+    "title": "nh sounds like “ny” in “canyon”",
+    "body": "nh is the same sound as Spanish ñ: “n” and “y” said together as one sound.",
+    "pattern": "nh",
+    "examples": [
+      {
+        "word": "minha",
+        "say": "MEE-nyuh",
+        "en": "my"
+      },
+      {
+        "word": "tinha",
+        "say": "CHEE-nyuh",
+        "en": "had"
+      },
+      {
+        "word": "a manhã",
+        "say": "ah mah-NYUHN",
+        "en": "morning"
+      },
+      {
+        "word": "a cozinha",
+        "say": "ah koh-ZEE-nyuh",
+        "en": "kitchen"
+      }
+    ]
+  },
+  {
+    "title": "é is an open “eh”",
+    "body": "é is the “e” of “bed”, with the mouth fairly open, and it is always stressed. The word é (is) is just “eh”.",
+    "pattern": "é",
+    "examples": [
+      {
+        "word": "é",
+        "say": "eh",
+        "en": "is"
+      },
+      {
+        "word": "o café",
+        "say": "oo kah-FEH",
+        "en": "coffee"
+      },
+      {
+        "word": "até",
+        "say": "ah-TEH",
+        "en": "until"
+      },
+      {
+        "word": "o pé",
+        "say": "oo peh",
+        "en": "foot"
+      }
+    ]
+  },
+  {
+    "title": "ss is always a hissing “s”",
+    "body": "Double s is one sharp “s”, as in “miss”. It keeps the sound between vowels from turning into “z”: compare casa (“KAH-zuh”) with passa (“PAH-suh”).",
+    "pattern": "ss",
+    "examples": [
+      {
+        "word": "as pessoas",
+        "say": "ahs peh-SOH-uhs",
+        "en": "people"
+      },
+      {
+        "word": "isso",
+        "say": "EE-soo",
+        "en": "that"
+      },
+      {
+        "word": "passou",
+        "say": "pah-SOH",
+        "en": "passed, spent"
+      },
+      {
+        "word": "nosso",
+        "say": "NAW-soo",
+        "en": "our"
+      }
+    ]
+  },
+  {
+    "title": "es- and ex- at the start of a word sound like “ees”",
+    "body": "At the start of a word, e before s plus a consonant (or x plus a consonant) is a short “ee” in Brazil: escola is “ees-KAW-luh”. The words este and esta (this) are exceptions, with a stressed “e”.",
+    "pattern": "(?<!\\p{L})e(?=s[bcdfgjklmnpqrtvxzç]|x[cpt])(?!st[aeo]s?(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "estava",
+        "say": "ees-TAH-vuh",
+        "en": "was"
+      },
+      {
+        "word": "a escola",
+        "say": "ah ees-KAW-luh",
+        "en": "school"
+      },
+      {
+        "word": "está",
+        "say": "ees-TAH",
+        "en": "is"
+      },
+      {
+        "word": "explicou",
+        "say": "ees-plee-KOH",
+        "en": "explained"
+      }
+    ]
+  },
+  {
+    "title": "oi sounds like “oy” in “boy”",
+    "body": "oi is one syllable, gliding from “o” into a quick “ee”. ói, as in herói, has the same glide.",
+    "pattern": "[oó]i",
+    "examples": [
+      {
+        "word": "oi",
+        "say": "oy",
+        "en": "hi"
+      },
+      {
+        "word": "a noite",
+        "say": "ah NOY-chee",
+        "en": "night"
+      },
+      {
+        "word": "dois",
+        "say": "doys",
+        "en": "two"
+      },
+      {
+        "word": "oito",
+        "say": "OY-too",
+        "en": "eight"
+      }
+    ]
+  },
+  {
+    "title": "ç always sounds like “s”",
+    "body": "The little hook under the c (the cedilla) gives it the “s” sound before a, o and u. ç never starts a word. The ending -ção is “SOWN”.",
+    "pattern": "ç",
+    "examples": [
+      {
+        "word": "a praça",
+        "say": "ah PRAH-suh",
+        "en": "square"
+      },
+      {
+        "word": "o almoço",
+        "say": "oo ow-MOH-soo",
+        "en": "lunch"
+      },
+      {
+        "word": "começou",
+        "say": "koh-meh-SOH",
+        "en": "began"
+      },
+      {
+        "word": "as opções",
+        "say": "ahs oh-pee-SOYNS",
+        "en": "options"
+      }
+    ]
+  },
+  {
+    "title": "â, and a stressed a before m, n or nh, is a nasal “uh”",
+    "body": "A stressed a before m, n or nh plus a vowel closes to the “u” in “but”, with a little air through the nose: semana is “seh-MUH-nuh”. The circumflex â marks this sound and the stress at once.",
+    "pattern": "â|a(?=(?:m|nh?)[aeo]s?(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "a semana",
+        "say": "ah seh-MUH-nuh",
+        "en": "week"
+      },
+      {
+        "word": "o ano",
+        "say": "oo UH-noo",
+        "en": "year"
+      },
+      {
+        "word": "a banana",
+        "say": "ah bah-NUH-nuh",
+        "en": "banana"
+      },
+      {
+        "word": "a câmera",
+        "say": "ah KUH-meh-ruh",
+        "en": "camera"
+      }
+    ]
+  },
+  {
+    "title": "ai sounds like “eye”",
+    "body": "ai is one syllable, like the English “eye”: mais rhymes with “mice” and pai with “pie”.",
+    "pattern": "ai(?![mn](?![aeiouáéíóúâêôãõh])|u|nh|z|r(?!\\p{L}))",
+    "examples": [
+      {
+        "word": "mais",
+        "say": "mice",
+        "en": "more"
+      },
+      {
+        "word": "o pai",
+        "say": "oo pye",
+        "en": "father"
+      },
+      {
+        "word": "a praia",
+        "say": "ah PRY-uh",
+        "en": "beach"
+      },
+      {
+        "word": "a caixa",
+        "say": "ah KYE-shuh",
+        "en": "box"
+      }
+    ]
+  },
+  {
+    "title": "-am at the end of a word is an unstressed “own”",
+    "body": "Verb forms ending in -am end in the same nasal “ow” as ão, but without stress: falam is “FAH-lown”. Only the stress tells falaram (they spoke) from falarão (they will speak).",
+    "pattern": "am(?!\\p{L})",
+    "examples": [
+      {
+        "word": "falam",
+        "say": "FAH-lown",
+        "en": "they speak"
+      },
+      {
+        "word": "estavam",
+        "say": "ees-TAH-vown",
+        "en": "they were"
+      },
+      {
+        "word": "chegaram",
+        "say": "sheh-GAH-rown",
+        "en": "they arrived"
+      },
+      {
+        "word": "eram",
+        "say": "EH-rown",
+        "en": "they were"
+      }
+    ]
+  },
+  {
+    "title": "eu sounds like “eh” plus a quick “oo”",
+    "body": "eu glides from “e” to a short “oo” in one syllable: eu (I) is “ehw” and meu is “mehw”. Don't split it into two syllables.",
+    "pattern": "[eéê]u(?!ni)",
+    "examples": [
+      {
+        "word": "eu",
+        "say": "ehw",
+        "en": "I"
+      },
+      {
+        "word": "meu",
+        "say": "mehw",
+        "en": "my"
+      },
+      {
+        "word": "o museu",
+        "say": "oo moo-ZEHW",
+        "en": "museum"
+      },
+      {
+        "word": "deu",
+        "say": "dehw",
+        "en": "gave"
+      }
+    ]
+  },
+  {
+    "title": "h is always silent",
+    "body": "On its own, h is never pronounced: hoje is “OH-zhee” and hora is “AW-ruh”. It only matters in ch, lh and nh, which are sounds of their own.",
+    "pattern": "(?<![clns])h",
+    "examples": [
+      {
+        "word": "hoje",
+        "say": "OH-zhee",
+        "en": "today"
+      },
+      {
+        "word": "a hora",
+        "say": "ah AW-ruh",
+        "en": "hour, time"
+      },
+      {
+        "word": "há",
+        "say": "ah",
+        "en": "there is, ago"
+      },
+      {
+        "word": "o hotel",
+        "say": "oo oh-TEHW",
+        "en": "hotel"
+      }
+    ]
+  },
+  {
+    "title": "lh sounds like “lli” in “million”",
+    "body": "lh is an l and a “y” melted into one sound, made with the middle of the tongue against the roof of the mouth. It is never an l followed by an h.",
+    "pattern": "lh",
+    "examples": [
+      {
+        "word": "o trabalho",
+        "say": "oo trah-BAH-lyoo",
+        "en": "work"
+      },
+      {
+        "word": "a filha",
+        "say": "ah FEE-lyuh",
+        "en": "daughter"
+      },
+      {
+        "word": "melhor",
+        "say": "meh-LYAWR",
+        "en": "better"
+      },
+      {
+        "word": "a mulher",
+        "say": "ah moo-LYEHR",
+        "en": "woman, wife"
+      }
+    ]
+  },
+  {
+    "title": "ch sounds like “sh” in “shop”",
+    "body": "ch is always “sh”, never the “ch” of “church” or the “k” of “school”. The English “ch” sound comes from t before an “ee” sound instead (see that rule).",
+    "pattern": "ch",
+    "examples": [
+      {
+        "word": "chegou",
+        "say": "sheh-GOH",
+        "en": "arrived"
+      },
+      {
+        "word": "a chuva",
+        "say": "ah SHOO-vuh",
+        "en": "rain"
+      },
+      {
+        "word": "acho",
+        "say": "AH-shoo",
+        "en": "I think"
+      },
+      {
+        "word": "o chá",
+        "say": "oo shah",
+        "en": "tea"
+      }
+    ]
+  },
+  {
+    "title": "qu before a or o is “kw”",
+    "body": "Before a or o the u is heard: qu is the “kw” of “quick”. The same “kw” is said in cinquenta and tranquilo.",
+    "pattern": "qu(?=[aoáóâã])|(?<=cin|tran)qu(?=[eiéíê])",
+    "examples": [
+      {
+        "word": "quando",
+        "say": "KWUHN-doo",
+        "en": "when"
+      },
+      {
+        "word": "quatro",
+        "say": "KWAH-troo",
+        "en": "four"
+      },
+      {
+        "word": "quase",
+        "say": "KWAH-zee",
+        "en": "almost"
+      },
+      {
+        "word": "cinquenta",
+        "say": "seen-KWEN-tuh",
+        "en": "fifty"
+      }
+    ]
+  },
+  {
+    "title": "ê is a closed “ay”",
+    "body": "ê is said with the mouth more closed, like the “ay” in “say” but without sliding into a “y”. It is always stressed.",
+    "pattern": "ê",
+    "examples": [
+      {
+        "word": "você",
+        "say": "voh-SAY",
+        "en": "you"
+      },
+      {
+        "word": "três",
+        "say": "trays",
+        "en": "three"
+      },
+      {
+        "word": "o mês",
+        "say": "oo mays",
+        "en": "month"
+      },
+      {
+        "word": "o português",
+        "say": "oo por-too-GAYS",
+        "en": "Portuguese"
+      }
+    ]
+  },
+  {
+    "title": "ó is an open “aw”",
+    "body": "ó is the open “o” of “thought” or British “hot”, and it is always stressed. Compare avó (grandmother), “ah-VAW”, with avô (grandfather), “ah-VOH”.",
+    "pattern": "ó",
+    "examples": [
+      {
+        "word": "só",
+        "say": "saw",
+        "en": "only"
+      },
+      {
+        "word": "a avó",
+        "say": "ah ah-VAW",
+        "en": "grandmother"
+      },
+      {
+        "word": "próximo",
+        "say": "PRAW-see-moo",
+        "en": "next"
+      },
+      {
+        "word": "a história",
+        "say": "ah ees-TAW-ryuh",
+        "en": "story, history"
+      }
+    ]
+  },
+  {
+    "title": "au and ao sound like “ow” in “how”",
+    "body": "au, and the little words ao and aos (to the), are one syllable, like “ow” in “how”. A final l after a gives the same sound, so mau (bad) and mal (badly) sound alike.",
+    "pattern": "au|(?<!\\p{L})aos?(?!\\p{L})",
+    "examples": [
+      {
+        "word": "a aula",
+        "say": "ah OW-luh",
+        "en": "lesson, class"
+      },
+      {
+        "word": "ao",
+        "say": "ow",
+        "en": "to the"
+      },
+      {
+        "word": "a saudade",
+        "say": "ah sow-DAH-jee",
+        "en": "longing"
+      },
+      {
+        "word": "São Paulo",
+        "say": "sown POW-loo",
+        "en": "São Paulo"
+      }
+    ]
+  },
+  {
+    "title": "à and às are just a plain “ah”",
+    "body": "The grave accent marks a and a joined into one word (“to the”, “at the”): à noite, às oito. It sounds the same as a and does not mark stress.",
+    "pattern": "à",
+    "examples": [
+      {
+        "word": "à noite",
+        "say": "ah NOY-chee",
+        "en": "at night"
+      },
+      {
+        "word": "às oito",
+        "say": "ah-ZOY-too",
+        "en": "at eight"
+      },
+      {
+        "word": "à tarde",
+        "say": "ah TAHR-jee",
+        "en": "in the afternoon"
+      }
+    ]
+  },
+  {
+    "title": "iu sounds like “ee” plus a quick “oo”",
+    "body": "iu is one syllable, “ee” gliding into a short “oo”. It is the ending of many past-tense verbs: viu, pediu, abriu.",
+    "pattern": "iu",
+    "examples": [
+      {
+        "word": "viu",
+        "say": "veew",
+        "en": "saw"
+      },
+      {
+        "word": "pediu",
+        "say": "peh-JEEW",
+        "en": "asked for"
+      },
+      {
+        "word": "abriu",
+        "say": "ah-BREEW",
+        "en": "opened"
+      },
+      {
+        "word": "conseguiu",
+        "say": "kohn-seh-GEEW",
+        "en": "managed"
+      }
+    ]
+  },
+  {
+    "title": "In gue and gui the u is usually silent",
+    "body": "gu before e or i is just a hard “g”: the u is only there to keep the g hard, so seguinte is “seh-GEEN-chee”. In a few words the u is heard as a “w”: linguiça, bilíngue, aguentar.",
+    "pattern": "(?<!(?<!\\p{L})a|l[ií]n)gu(?=[eiéíê])",
+    "examples": [
+      {
+        "word": "ninguém",
+        "say": "neen-GAYN",
+        "en": "nobody"
+      },
+      {
+        "word": "o português",
+        "say": "oo por-too-GAYS",
+        "en": "Portuguese"
+      },
+      {
+        "word": "seguinte",
+        "say": "seh-GEEN-chee",
+        "en": "following, next"
+      },
+      {
+        "word": "o aluguel",
+        "say": "oo ah-loo-GEHW",
+        "en": "rent"
+      }
+    ]
+  },
+  {
+    "title": "z at the end of a word sounds like “s”",
+    "body": "A final z is a plain “s” (“sh” in Rio), unless the next word starts with a vowel: then it is “z” again.",
+    "pattern": "z(?!\\p{L})(?! h?[aeiouáéíóúâêôãõà])",
+    "examples": [
+      {
+        "word": "a vez",
+        "say": "ah vays",
+        "en": "time, turn"
+      },
+      {
+        "word": "dez",
+        "say": "dehs",
+        "en": "ten"
+      },
+      {
+        "word": "a luz",
+        "say": "ah loos",
+        "en": "light"
+      },
+      {
+        "word": "feliz",
+        "say": "feh-LEES",
+        "en": "happy"
+      }
+    ]
+  },
+  {
+    "title": "An extra “ee” slips in between some consonants",
+    "body": "Where two consonants meet that Portuguese doesn't normally join (pn, ps, bj, dv, dm, tm, cn, gn, pç), Brazilians add a short “ee” between them, and also after a final consonant in loanwords. That “ee” turns t and d into “ch” and “j”: internet is “een-tehr-NEH-chee”.",
+    "pattern": "(?<=[aeiouáéíóúâêôy]|(?<!\\p{L}))(?!(?<=desi)g)([bdfgpt])(?!\\1|(?<=t)s)(?=[bcdfgjkmnpqstvxzç])|c(?=[nçt])|(?<=[aeiouy]\\p{L}?)(?:[bdkpt]|(?<!n)g)(?!\\p{L})",
+    "examples": [
+      {
+        "word": "o advogado",
+        "say": "oo ah-jee-voh-GAH-doo",
+        "en": "lawyer"
+      },
+      {
+        "word": "o técnico",
+        "say": "oo TEH-kee-nee-koo",
+        "en": "technician"
+      },
+      {
+        "word": "o pneu",
+        "say": "oo pee-NEHW",
+        "en": "tyre"
+      },
+      {
+        "word": "a internet",
+        "say": "ah een-tehr-NEH-chee",
+        "en": "internet"
+      },
+      {
+        "word": "o ritmo",
+        "say": "oo HEE-chee-moo",
+        "en": "rhythm"
+      }
+    ]
+  },
+  {
+    "title": "muito has a hidden nasal sound",
+    "body": "muito, muita, muitos and muitas are said with a nasal “ooy”, as if they were spelled “muinto”. No other common word does this.",
+    "pattern": "(?<!\\p{L})muit",
+    "examples": [
+      {
+        "word": "muito",
+        "say": "MOOYN-too",
+        "en": "very, a lot"
+      },
+      {
+        "word": "muita",
+        "say": "MOOYN-tuh",
+        "en": "a lot of"
+      },
+      {
+        "word": "muitos",
+        "say": "MOOYN-toos",
+        "en": "many"
+      }
+    ]
+  },
+  {
+    "title": "x before a consonant sounds like “s”",
+    "body": "Before c, p or t, x is a plain “s”: texto is “TAYS-too”. A few common words have this “s” between vowels too: próximo, máximo, trouxe, auxiliar.",
+    "pattern": "x(?=[cpt])|(?<=(?<!\\p{L})(?:pró|má|apro|trou|au))x",
+    "examples": [
+      {
+        "word": "explicou",
+        "say": "ees-plee-KOH",
+        "en": "explained"
+      },
+      {
+        "word": "a sexta",
+        "say": "ah SAYS-tuh",
+        "en": "Friday"
+      },
+      {
+        "word": "próximo",
+        "say": "PRAW-see-moo",
+        "en": "next"
+      },
+      {
+        "word": "trouxe",
+        "say": "TROH-see",
+        "en": "brought"
+      }
+    ]
+  },
+  {
+    "title": "x is usually “sh”",
+    "body": "At the start of a word, after ai, ei, ou or en, and in many other words, x is the “sh” of “shop”. x has three other sounds (“z”, “s” and “ks”, each with its own rule), and you learn which one word by word.",
+    "pattern": "(?<!(?<!\\p{L})(?:in)?e)(?<!(?<!\\p{L})(?:pró|má|apro|trou|au|tá|fi|pi|ane|cone|fle|ino|re|o|tó))x(?![cpt])",
+    "examples": [
+      {
+        "word": "o lixo",
+        "say": "oo LEE-shoo",
+        "en": "rubbish"
+      },
+      {
+        "word": "a caixa",
+        "say": "ah KYE-shuh",
+        "en": "box"
+      },
+      {
+        "word": "o peixe",
+        "say": "oo PAY-shee",
+        "en": "fish"
+      },
+      {
+        "word": "deixou",
+        "say": "day-SHOH",
+        "en": "left, let"
+      },
+      {
+        "word": "o xadrez",
+        "say": "oo shah-DRAYS",
+        "en": "chess"
+      }
+    ]
+  },
+  {
+    "title": "k, w and y appear only in foreign words and names",
+    "body": "These letters turn up only in borrowed words and names, said roughly as in the original language, with Brazilian sounds mixed in: notebook ends in “BOO-kee”. w is “w” in English words and often “v” in German names (Wagner).",
+    "pattern": "[kwy]",
+    "examples": [
+      {
+        "word": "o notebook",
+        "say": "oo noh-chee-BOO-kee",
+        "en": "laptop"
+      },
+      {
+        "word": "o show",
+        "say": "oo shoh",
+        "en": "show, concert"
+      },
+      {
+        "word": "a bike",
+        "say": "ah BYE-kee",
+        "en": "bike"
+      }
+    ]
+  },
+  {
+    "title": "ô is a closed “oh”",
+    "body": "ô is a pure, closed “oh”, without the “w” glide at the end of English “go”. It is always stressed.",
+    "pattern": "ô",
+    "examples": [
+      {
+        "word": "o ônibus",
+        "say": "oo OH-nee-boos",
+        "en": "bus"
+      },
+      {
+        "word": "o avô",
+        "say": "oo ah-VOH",
+        "en": "grandfather"
+      },
+      {
+        "word": "o metrô",
+        "say": "oo meh-TROH",
+        "en": "underground, subway"
+      },
+      {
+        "word": "os quilômetros",
+        "say": "oos kee-LOH-meh-troos",
+        "en": "kilometres"
+      }
+    ]
+  },
+  {
+    "title": "ã is a nasal “uhn”",
+    "body": "Say “uh” and let air out through your nose at the same time, without closing your mouth for a real “n”. The tilde usually marks the stress too: manhã is “mah-NYUHN”.",
+    "pattern": "ã(?![oe])",
+    "examples": [
+      {
+        "word": "a manhã",
+        "say": "ah mah-NYUHN",
+        "en": "morning"
+      },
+      {
+        "word": "a irmã",
+        "say": "ah eer-MUHN",
+        "en": "sister"
+      },
+      {
+        "word": "amanhã",
+        "say": "ah-mah-NYUHN",
+        "en": "tomorrow"
+      },
+      {
+        "word": "a maçã",
+        "say": "ah mah-SUHN",
+        "en": "apple"
+      }
+    ]
+  },
+  {
+    "title": "õe sounds like a nasal “oyn”",
+    "body": "õe is the “oy” of “boy” said through the nose. It mostly appears in the plural of words ending in -ão: opção, opções.",
+    "pattern": "õe",
+    "examples": [
+      {
+        "word": "as opções",
+        "say": "ahs oh-pee-SOYNS",
+        "en": "options"
+      },
+      {
+        "word": "as informações",
+        "say": "ahs een-for-mah-SOYNS",
+        "en": "information"
+      },
+      {
+        "word": "as reuniões",
+        "say": "ahs heh-oo-nee-OYNS",
+        "en": "meetings"
+      },
+      {
+        "word": "os milhões",
+        "say": "oos mee-LYOYNS",
+        "en": "millions"
+      }
+    ]
+  },
+  {
+    "title": "gu before a or o is “gw”",
+    "body": "Before a or o the u is heard: gu is the “gw” of “Gwen”. The same “gw” is said in linguiça, bilíngue and aguentar.",
+    "pattern": "gu(?=[aoáóâã])|(?<=(?<!\\p{L})a|l[ií]n)gu(?=[eiéíê])",
+    "examples": [
+      {
+        "word": "a água",
+        "say": "ah AH-gwuh",
+        "en": "water"
+      },
+      {
+        "word": "a língua",
+        "say": "ah LEEN-gwuh",
+        "en": "language, tongue"
+      },
+      {
+        "word": "guardar",
+        "say": "gwar-DAHR",
+        "en": "to keep, put away"
+      },
+      {
+        "word": "igual",
+        "say": "ee-GWOW",
+        "en": "same, equal"
+      },
+      {
+        "word": "a linguiça",
+        "say": "ah leen-GWEE-suh",
+        "en": "sausage"
+      }
+    ]
+  },
+  {
+    "title": "sc before e or i is a single “s”",
+    "body": "In Brazil sc before e or i is just one “s”: nascer is “nah-SEHR” and piscina is “pee-SEE-nuh”.",
+    "pattern": "sc(?=[eiéíê])",
+    "examples": [
+      {
+        "word": "nasceu",
+        "say": "nah-SEHW",
+        "en": "was born"
+      },
+      {
+        "word": "a piscina",
+        "say": "ah pee-SEE-nuh",
+        "en": "swimming pool"
+      },
+      {
+        "word": "cresceu",
+        "say": "kreh-SEHW",
+        "en": "grew"
+      },
+      {
+        "word": "descer",
+        "say": "deh-SEHR",
+        "en": "to go down, get off"
+      }
+    ]
+  },
+  {
+    "title": "ãe sounds like a nasal “eye”",
+    "body": "ãe is the “y” of “my” said through the nose, with the mouth a little less open: mãe sounds like “mine” without a full n. It appears in a handful of words: mãe, pães, cães.",
+    "pattern": "ãe",
+    "examples": [
+      {
+        "word": "a mãe",
+        "say": "ah mine",
+        "en": "mother"
+      },
+      {
+        "word": "os pães",
+        "say": "oos pines",
+        "en": "bread rolls"
+      },
+      {
+        "word": "os cães",
+        "say": "oos kines",
+        "en": "dogs"
+      }
+    ]
+  },
+  {
+    "title": "ex- before a vowel: x sounds like “z”",
+    "body": "At the start of a word, ex followed by a vowel is “ehz”: exame is “eh-ZUH-mee”. The same goes for exemplo, exato, exercício and existir.",
+    "pattern": "(?<=(?<!\\p{L})(?:in)?e)x(?=[aeiouáéíóúâêôãõh])",
+    "examples": [
+      {
+        "word": "o exame",
+        "say": "oo eh-ZUH-mee",
+        "en": "exam, test"
+      },
+      {
+        "word": "o exemplo",
+        "say": "oo eh-ZEN-ploo",
+        "en": "example"
+      },
+      {
+        "word": "exatamente",
+        "say": "eh-zah-tuh-MEN-chee",
+        "en": "exactly"
+      },
+      {
+        "word": "existe",
+        "say": "eh-ZEES-chee",
+        "en": "exists"
+      }
+    ]
+  },
+  {
+    "title": "ui sounds like “ooy”",
+    "body": "ui is one syllable, “oo” gliding into a quick “ee”, as in fui (“fooy”). In que, qui, gue and gui the u is silent instead.",
+    "pattern": "(?<![qg])(?<!(?<!\\p{L})m)ui(?![nmrzçu])",
+    "examples": [
+      {
+        "word": "fui",
+        "say": "fooy",
+        "en": "I went, I was"
+      },
+      {
+        "word": "cuidar",
+        "say": "kooy-DAHR",
+        "en": "to take care"
+      },
+      {
+        "word": "o cuidado",
+        "say": "oo kooy-DAH-doo",
+        "en": "care"
+      },
+      {
+        "word": "gratuito",
+        "say": "grah-TOOY-too",
+        "en": "free of charge"
+      }
+    ]
+  },
+  {
+    "title": "In a few words x is “ks”",
+    "body": "Mostly in learned or foreign words, x is the “ks” of “taxi”: táxi, fixo, conexão and the payment system Pix. After a final x Brazilians add a short “ee”: Pix is “PEEK-see”.",
+    "pattern": "(?<=(?<!\\p{L})(?:tá|fi|pi|ane|cone|fle|ino|re|o|tó))x|(?<=(?<!\\p{L})e)x(?!\\p{L})",
+    "examples": [
+      {
+        "word": "o táxi",
+        "say": "oo TAHK-see",
+        "en": "taxi"
+      },
+      {
+        "word": "fixo",
+        "say": "FEEK-soo",
+        "en": "fixed"
+      },
+      {
+        "word": "o Pix",
+        "say": "oo PEEK-see",
+        "en": "instant bank transfer"
+      },
+      {
+        "word": "a conexão",
+        "say": "ah koh-nehk-SOWN",
+        "en": "connection"
+      }
+    ]
+  }
+]

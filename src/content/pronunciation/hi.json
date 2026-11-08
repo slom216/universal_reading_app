@@ -1,0 +1,1211 @@
+[
+  {
+    "title": "ग, ज, ब, म, न, ल, स, य sound as in English",
+    "body": "These letters are close to English g (as in “go”), j, b, m, n, l, s and y. न and ल are said with the tongue a little further forward, touching the teeth.",
+    "pattern": "[गजबमनलसय](?!़)",
+    "examples": [
+      {
+        "word": "नाम",
+        "say": "naam",
+        "en": "name"
+      },
+      {
+        "word": "बस",
+        "say": "bas",
+        "en": "bus; enough"
+      },
+      {
+        "word": "जब",
+        "say": "jab",
+        "en": "when"
+      },
+      {
+        "word": "याद",
+        "say": "yaad",
+        "en": "memory"
+      }
+    ]
+  },
+  {
+    "title": "A consonant on its own carries a short “a”",
+    "body": "A consonant with no vowel sign is read with a short “a”, like the “u” in “but”. The letter अ is the same sound at the start of a syllable. This “a” is often dropped (see the rules on the silent “a”).",
+    "pattern": "अ|[क-ह]़?(?![़ा-्])(?=[\\p{L}\\p{M}])",
+    "examples": [
+      {
+        "word": "अब",
+        "say": "ab",
+        "en": "now"
+      },
+      {
+        "word": "कल",
+        "say": "kal",
+        "en": "yesterday, tomorrow"
+      },
+      {
+        "word": "दस",
+        "say": "das",
+        "en": "ten"
+      },
+      {
+        "word": "हम",
+        "say": "ham",
+        "en": "we"
+      }
+    ]
+  },
+  {
+    "title": "The “a” at the end of a word is silent",
+    "body": "A consonant at the end of a word, with no vowel sign, is said without its “a”: घर is “ghar”, not “gha-ra”. The one-letter word न (“not”) keeps it: “na”.",
+    "pattern": "[क-ह]़?(?![\\p{L}\\p{M}])",
+    "examples": [
+      {
+        "word": "घर",
+        "say": "ghar",
+        "en": "home"
+      },
+      {
+        "word": "दिन",
+        "say": "din",
+        "en": "day"
+      },
+      {
+        "word": "रात",
+        "say": "raat",
+        "en": "night"
+      },
+      {
+        "word": "एक",
+        "say": "ayk",
+        "en": "one"
+      }
+    ]
+  },
+  {
+    "title": "क, च, प have no puff of air",
+    "body": "क, च and प are k, ch and p said without the puff of air English puts after them, like the k in “skin” or the p in “spin”. Hold a hand before your mouth: you should feel almost nothing.",
+    "pattern": "[कचप](?!़)",
+    "examples": [
+      {
+        "word": "काम",
+        "say": "kaam",
+        "en": "work"
+      },
+      {
+        "word": "चाय",
+        "say": "chaay",
+        "en": "tea"
+      },
+      {
+        "word": "पर",
+        "say": "par",
+        "en": "on; but"
+      },
+      {
+        "word": "चार",
+        "say": "chaar",
+        "en": "four"
+      }
+    ]
+  },
+  {
+    "title": "आ and ा are a long “aa”",
+    "body": "आ at the start of a syllable and the sign ा after a consonant are a long “aa”, as in “father”. Keep it long even when the syllable is not stressed.",
+    "pattern": "[आा]",
+    "examples": [
+      {
+        "word": "आज",
+        "say": "aaj",
+        "en": "today"
+      },
+      {
+        "word": "काम",
+        "say": "kaam",
+        "en": "work"
+      },
+      {
+        "word": "साल",
+        "say": "saal",
+        "en": "year"
+      },
+      {
+        "word": "नाम",
+        "say": "naam",
+        "en": "name"
+      }
+    ]
+  },
+  {
+    "title": "Stress is light and goes to the heaviest syllable",
+    "body": "Hindi stress is weak and never shortens a vowel. It goes to the heaviest syllable: a long vowel plus a consonant (TAAB) beats a long vowel or a closing consonant alone, which beats a short open syllable. If two tie, stress the one before the last syllable.",
+    "pattern": "(?<![\\p{L}\\p{M}])(?:[\\p{L}\\p{M}]*?[अ-औा-ौ]){2}",
+    "examples": [
+      {
+        "word": "किताब",
+        "say": "ki-TAAB",
+        "en": "book"
+      },
+      {
+        "word": "कमरा",
+        "say": "KAM-raa",
+        "en": "room"
+      },
+      {
+        "word": "बाज़ार",
+        "say": "baa-ZAAR",
+        "en": "market"
+      },
+      {
+        "word": "नमस्ते",
+        "say": "na-MAS-tay",
+        "en": "hello"
+      }
+    ]
+  },
+  {
+    "title": "ए and े are “ay” without the glide",
+    "body": "ए and the sign े are a long pure “e”, like “ay” in “say” but without sliding into “ee” at the end.",
+    "pattern": "[एे]",
+    "examples": [
+      {
+        "word": "के",
+        "say": "kay",
+        "en": "of"
+      },
+      {
+        "word": "से",
+        "say": "say",
+        "en": "from, with"
+      },
+      {
+        "word": "एक",
+        "say": "ayk",
+        "en": "one"
+      },
+      {
+        "word": "मेरा",
+        "say": "MAY-raa",
+        "en": "my"
+      }
+    ]
+  },
+  {
+    "title": "र is a quick tap of the tongue",
+    "body": "र is a light tap of the tongue tip, like the “tt” in American “butter”, or a lightly rolled r. Always say it, also at the end of a word and before a consonant.",
+    "pattern": "र",
+    "examples": [
+      {
+        "word": "रात",
+        "say": "raat",
+        "en": "night"
+      },
+      {
+        "word": "चार",
+        "say": "chaar",
+        "en": "four"
+      },
+      {
+        "word": "और",
+        "say": "awr",
+        "en": "and"
+      },
+      {
+        "word": "घर",
+        "say": "ghar",
+        "en": "home"
+      }
+    ]
+  },
+  {
+    "title": "ई and ी are a long “ee”",
+    "body": "ई and the sign ी are a long “ee”, as in “see”. Keep them clearly longer than ि.",
+    "pattern": "[ईी]",
+    "examples": [
+      {
+        "word": "तीन",
+        "say": "teen",
+        "en": "three"
+      },
+      {
+        "word": "जी",
+        "say": "jee",
+        "en": "yes (polite)"
+      },
+      {
+        "word": "पानी",
+        "say": "PAA-nee",
+        "en": "water"
+      },
+      {
+        "word": "ठीक",
+        "say": "theek",
+        "en": "fine, right"
+      }
+    ]
+  },
+  {
+    "title": "त and द touch the teeth",
+    "body": "त and द are a t and d with the tip of the tongue pressed against the back of the upper front teeth, softer than English t and d, as in Spanish or Italian. त has no puff of air.",
+    "pattern": "[तद]",
+    "examples": [
+      {
+        "word": "तीन",
+        "say": "teen",
+        "en": "three"
+      },
+      {
+        "word": "दो",
+        "say": "doh",
+        "en": "two"
+      },
+      {
+        "word": "दस",
+        "say": "das",
+        "en": "ten"
+      },
+      {
+        "word": "तक",
+        "say": "tak",
+        "en": "until"
+      }
+    ]
+  },
+  {
+    "title": "ह is always said",
+    "body": "ह is like English “h”, a little breathier. Say it everywhere, also between vowels and at the end of a word.",
+    "pattern": "ह",
+    "examples": [
+      {
+        "word": "हम",
+        "say": "ham",
+        "en": "we"
+      },
+      {
+        "word": "है",
+        "say": "hae",
+        "en": "is"
+      },
+      {
+        "word": "हर",
+        "say": "har",
+        "en": "every"
+      },
+      {
+        "word": "हाथ",
+        "say": "haath",
+        "en": "hand"
+      }
+    ]
+  },
+  {
+    "title": "इ and ि are a short “i”",
+    "body": "इ and the sign ि are a short “i”, as in “bit”. The sign ि is written before the consonant but said after it: दिन is d + i + n.",
+    "pattern": "[इि]",
+    "examples": [
+      {
+        "word": "दिन",
+        "say": "din",
+        "en": "day"
+      },
+      {
+        "word": "इस",
+        "say": "is",
+        "en": "this"
+      },
+      {
+        "word": "फिर",
+        "say": "phir",
+        "en": "then, again"
+      },
+      {
+        "word": "किताबें",
+        "say": "ki-TAA-bayn",
+        "en": "books"
+      }
+    ]
+  },
+  {
+    "title": "The “a” between two sounded vowels is dropped",
+    "body": "When a consonant with no vowel sign sits between a vowel and a consonant that has a vowel sign, its “a” is usually skipped: कमरा is “kam-raa”, not “ka-ma-raa”.",
+    "pattern": "(?<=[अ-ह़ा-ौँं])[क-ह]़?(?=[क-ह]़?[ा-ौ])",
+    "examples": [
+      {
+        "word": "कमरा",
+        "say": "KAM-raa",
+        "en": "room"
+      },
+      {
+        "word": "लड़की",
+        "say": "LAR-kee",
+        "en": "girl"
+      },
+      {
+        "word": "करना",
+        "say": "KAR-naa",
+        "en": "to do"
+      },
+      {
+        "word": "कपड़े",
+        "say": "KAP-ray",
+        "en": "clothes"
+      }
+    ]
+  },
+  {
+    "title": "A half letter or ् means no vowel",
+    "body": "When a consonant has no vowel, it is written as a half letter joined to the next one (स्त in दोस्त), or with a small slanted stroke ् under it. Say the two consonants together.",
+    "pattern": "्",
+    "examples": [
+      {
+        "word": "क्या",
+        "say": "kyaa",
+        "en": "what"
+      },
+      {
+        "word": "दोस्त",
+        "say": "dohst",
+        "en": "friend"
+      },
+      {
+        "word": "ज़्यादा",
+        "say": "ZYAA-daa",
+        "en": "more"
+      },
+      {
+        "word": "ध्यान",
+        "say": "dhyaan",
+        "en": "attention"
+      }
+    ]
+  },
+  {
+    "title": "ओ and ो are a pure “oh”",
+    "body": "ओ and the sign ो are a long pure “o”, like “oh” but without sliding into “oo” at the end.",
+    "pattern": "[ओो]",
+    "examples": [
+      {
+        "word": "दो",
+        "say": "doh",
+        "en": "two"
+      },
+      {
+        "word": "को",
+        "say": "koh",
+        "en": "to"
+      },
+      {
+        "word": "लोग",
+        "say": "lohg",
+        "en": "people"
+      },
+      {
+        "word": "ओर",
+        "say": "ohr",
+        "en": "side, direction"
+      }
+    ]
+  },
+  {
+    "title": "ं with no consonant after it makes the vowel nasal",
+    "body": "Where no consonant follows, the dot ं means the vowel is said partly through the nose, as in French “bon”. It is used instead of ँ when a vowel sign sits above the line. The respellings write this as n.",
+    "pattern": "ं(?![क-ह])",
+    "examples": [
+      {
+        "word": "मैं",
+        "say": "maen",
+        "en": "I"
+      },
+      {
+        "word": "में",
+        "say": "mayn",
+        "en": "in"
+      },
+      {
+        "word": "हैं",
+        "say": "haen",
+        "en": "are"
+      },
+      {
+        "word": "नहीं",
+        "say": "na-HEEN",
+        "en": "no, not"
+      }
+    ]
+  },
+  {
+    "title": "उ and ु are a short “u” as in “put”",
+    "body": "उ and the sign ु (under the consonant) are a short “u”, as in “put”, never as in “cut”.",
+    "pattern": "[उु]",
+    "examples": [
+      {
+        "word": "कुछ",
+        "say": "kuchh",
+        "en": "something"
+      },
+      {
+        "word": "उस",
+        "say": "us",
+        "en": "that"
+      },
+      {
+        "word": "मुश्किल",
+        "say": "MUSH-kil",
+        "en": "difficult"
+      }
+    ]
+  },
+  {
+    "title": "ऐ and ै are like the “a” in “bad”",
+    "body": "ऐ and the sign ै are a long open “e”, like the “a” in “bad”, stretched. Many speakers in eastern India say it more like “ai” in “aisle”.",
+    "pattern": "[ऐै]",
+    "examples": [
+      {
+        "word": "है",
+        "say": "hae",
+        "en": "is"
+      },
+      {
+        "word": "पैसे",
+        "say": "PAE-say",
+        "en": "money"
+      },
+      {
+        "word": "ऐसे",
+        "say": "AE-say",
+        "en": "like this"
+      },
+      {
+        "word": "ऐप",
+        "say": "aep",
+        "en": "app"
+      }
+    ]
+  },
+  {
+    "title": "ट and ड are said with the tongue curled back",
+    "body": "For ट and ड, curl the tip of the tongue back and touch the roof of the mouth behind the gum ridge. They sound a bit like an American t and d, but harder. Keep them apart from त and द.",
+    "pattern": "ट|ड(?!़)",
+    "examples": [
+      {
+        "word": "टीम",
+        "say": "teem",
+        "en": "team"
+      },
+      {
+        "word": "ट्रेन",
+        "say": "trayn",
+        "en": "train"
+      },
+      {
+        "word": "डर",
+        "say": "dar",
+        "en": "fear"
+      },
+      {
+        "word": "डॉक्टर",
+        "say": "DOK-tar",
+        "en": "doctor"
+      }
+    ]
+  },
+  {
+    "title": "व is between “v” and “w”",
+    "body": "व is a soft sound between English v and w: touch the upper teeth lightly to the lower lip. After a consonant (स्व, द्व) it is closer to “w”.",
+    "pattern": "व",
+    "examples": [
+      {
+        "word": "वाले",
+        "say": "VAA-lay",
+        "en": "the ones"
+      },
+      {
+        "word": "वापस",
+        "say": "VAA-pas",
+        "en": "back"
+      },
+      {
+        "word": "सवाल",
+        "say": "sa-VAAL",
+        "en": "question"
+      },
+      {
+        "word": "स्वाद",
+        "say": "swaad",
+        "en": "taste"
+      }
+    ]
+  },
+  {
+    "title": "ख, छ, फ come with a strong puff of air",
+    "body": "ख, छ and फ are k, ch and p followed by a strong puff of air, stronger than in English “kit”. ख is not the throaty “loch” sound (that is ख़). Many speakers say फ as “f”.",
+    "pattern": "[खछफ](?!़)",
+    "examples": [
+      {
+        "word": "खाना",
+        "say": "KHAA-naa",
+        "en": "food"
+      },
+      {
+        "word": "छोटा",
+        "say": "CHHOH-taa",
+        "en": "small"
+      },
+      {
+        "word": "फिर",
+        "say": "phir",
+        "en": "then, again"
+      },
+      {
+        "word": "कुछ",
+        "say": "kuchh",
+        "en": "something"
+      }
+    ]
+  },
+  {
+    "title": "ं before a consonant is an “n” or “m”",
+    "body": "The dot ं before a consonant is an n-sound made where the next consonant is: “m” before प, ब, म; “ng” before क, ग; “n” elsewhere.",
+    "pattern": "ं(?=[क-ह])",
+    "examples": [
+      {
+        "word": "हिंदी",
+        "say": "HIN-dee",
+        "en": "Hindi"
+      },
+      {
+        "word": "अंदर",
+        "say": "AN-dar",
+        "en": "inside"
+      },
+      {
+        "word": "घंटे",
+        "say": "GHAN-tay",
+        "en": "hours"
+      },
+      {
+        "word": "लंबी",
+        "say": "LAM-bee",
+        "en": "long"
+      }
+    ]
+  },
+  {
+    "title": "थ and ध are never English “th”",
+    "body": "थ and ध are the teeth sounds त and द followed by a puff of air or a breathy “h”, as in “at home” and “mad house” said quickly. They are never the “th” of “think” or “this”.",
+    "pattern": "[थध]",
+    "examples": [
+      {
+        "word": "था",
+        "say": "thaa",
+        "en": "was"
+      },
+      {
+        "word": "साथ",
+        "say": "saath",
+        "en": "with, together"
+      },
+      {
+        "word": "दूध",
+        "say": "doodh",
+        "en": "milk"
+      },
+      {
+        "word": "धीरे",
+        "say": "DHEE-ray",
+        "en": "slowly"
+      }
+    ]
+  },
+  {
+    "title": "A short “a” before ह sounds like “e”",
+    "body": "When ह has no vowel sign of its own, the short “a” before it sounds like the “e” in “bed”: कहना is “keh-naa”, यह is “yeh”. वह is usually said “voh”.",
+    "pattern": "[क-ह]़?ह(?![ा-्])",
+    "examples": [
+      {
+        "word": "पहले",
+        "say": "PEH-lay",
+        "en": "before, first"
+      },
+      {
+        "word": "कहना",
+        "say": "KEH-naa",
+        "en": "to say"
+      },
+      {
+        "word": "यह",
+        "say": "yeh",
+        "en": "this"
+      },
+      {
+        "word": "रहता",
+        "say": "REH-taa",
+        "en": "lives, stays"
+      }
+    ]
+  },
+  {
+    "title": "औ and ौ are like the “aw” in “law”",
+    "body": "औ and the sign ौ are a long open “o”, like “aw” in “law”. Many speakers in eastern India say it more like “ow” in “cow”.",
+    "pattern": "[औौ]",
+    "examples": [
+      {
+        "word": "और",
+        "say": "awr",
+        "en": "and"
+      },
+      {
+        "word": "सौ",
+        "say": "saw",
+        "en": "hundred"
+      },
+      {
+        "word": "नौ",
+        "say": "naw",
+        "en": "nine"
+      },
+      {
+        "word": "नौकरी",
+        "say": "NAWK-ree",
+        "en": "job"
+      }
+    ]
+  },
+  {
+    "title": "घ, झ, भ are a g, j, b with a breathy “h”",
+    "body": "घ, झ and भ are g, j and b followed by a breathy “h”, as in “doghouse”, “hedgehog”, “clubhouse” said quickly as one sound.",
+    "pattern": "[घझभ]",
+    "examples": [
+      {
+        "word": "घर",
+        "say": "ghar",
+        "en": "home"
+      },
+      {
+        "word": "भी",
+        "say": "bhee",
+        "en": "also"
+      },
+      {
+        "word": "घंटे",
+        "say": "GHAN-tay",
+        "en": "hours"
+      },
+      {
+        "word": "झील",
+        "say": "jheel",
+        "en": "lake"
+      }
+    ]
+  },
+  {
+    "title": "श and ष are both “sh”",
+    "body": "श and ष are both said “sh”, as in “shop”. ष comes in words from Sanskrit.",
+    "pattern": "[शष]",
+    "examples": [
+      {
+        "word": "शाम",
+        "say": "shaam",
+        "en": "evening"
+      },
+      {
+        "word": "शादी",
+        "say": "SHAA-dee",
+        "en": "wedding"
+      },
+      {
+        "word": "भाषा",
+        "say": "BHAA-shaa",
+        "en": "language"
+      },
+      {
+        "word": "कक्षा",
+        "say": "KAK-shaa",
+        "en": "class, grade"
+      }
+    ]
+  },
+  {
+    "title": "ऊ and ू are a long “oo”",
+    "body": "ऊ and the sign ू are a long “oo”, as in “food”.",
+    "pattern": "[ऊू]",
+    "examples": [
+      {
+        "word": "दूध",
+        "say": "doodh",
+        "en": "milk"
+      },
+      {
+        "word": "दूर",
+        "say": "door",
+        "en": "far"
+      },
+      {
+        "word": "पूरा",
+        "say": "POO-raa",
+        "en": "whole, full"
+      },
+      {
+        "word": "ऊपर",
+        "say": "OO-par",
+        "en": "up, above"
+      }
+    ]
+  },
+  {
+    "title": "ँ makes the vowel nasal",
+    "body": "The moon-and-dot ँ means the vowel is said partly through the nose, without a full n after it. The respellings write this as n.",
+    "pattern": "ँ",
+    "examples": [
+      {
+        "word": "हूँ",
+        "say": "hoon",
+        "en": "am"
+      },
+      {
+        "word": "माँ",
+        "say": "maan",
+        "en": "mother"
+      },
+      {
+        "word": "यहाँ",
+        "say": "ya-HAAN",
+        "en": "here"
+      },
+      {
+        "word": "पाँच",
+        "say": "paanch",
+        "en": "five"
+      }
+    ]
+  },
+  {
+    "title": "फ़ is “f”",
+    "body": "फ with a dot below (फ़) is an English “f”.",
+    "pattern": "फ़",
+    "examples": [
+      {
+        "word": "फ़ोन",
+        "say": "fohn",
+        "en": "phone"
+      },
+      {
+        "word": "साफ़",
+        "say": "saaf",
+        "en": "clean"
+      },
+      {
+        "word": "सिर्फ़",
+        "say": "sirf",
+        "en": "only"
+      },
+      {
+        "word": "दफ़्तर",
+        "say": "DAF-tar",
+        "en": "office"
+      }
+    ]
+  },
+  {
+    "title": "ड़ is a quick flap, close to “r”",
+    "body": "ड़ (ड with a dot) is made by curling the tongue back and flicking it forward against the roof of the mouth. It sounds like a quick “r”. It never starts a word.",
+    "pattern": "ड़",
+    "examples": [
+      {
+        "word": "लड़की",
+        "say": "LAR-kee",
+        "en": "girl"
+      },
+      {
+        "word": "गाड़ी",
+        "say": "GAA-ree",
+        "en": "car, vehicle"
+      },
+      {
+        "word": "थोड़ा",
+        "say": "THOH-raa",
+        "en": "a little"
+      },
+      {
+        "word": "भीड़",
+        "say": "bheer",
+        "en": "crowd"
+      }
+    ]
+  },
+  {
+    "title": "A small hook on top is an r said first",
+    "body": "An r with no vowel before another consonant is written as a small hook (र्) on top of that consonant, or on top of its vowel sign. Say the r first: in कार्ड the hook sits on ड but the r comes before it.",
+    "pattern": "र्(?=[क-ह])",
+    "examples": [
+      {
+        "word": "सिर्फ़",
+        "say": "sirf",
+        "en": "only"
+      },
+      {
+        "word": "कार्ड",
+        "say": "kaard",
+        "en": "card"
+      },
+      {
+        "word": "दर्द",
+        "say": "dard",
+        "en": "pain"
+      },
+      {
+        "word": "पार्क",
+        "say": "paark",
+        "en": "park"
+      }
+    ]
+  },
+  {
+    "title": "A slanted stroke at the foot of a letter is an r after it",
+    "body": "An r right after a consonant is a small slanted stroke at the foot of that consonant (प्र is “pr”). Under ट and ड it is a small “^” shape (ट्र, ड्र).",
+    "pattern": "्र",
+    "examples": [
+      {
+        "word": "ट्रेन",
+        "say": "trayn",
+        "en": "train"
+      },
+      {
+        "word": "ग्रुप",
+        "say": "grup",
+        "en": "group"
+      },
+      {
+        "word": "ग्राहक",
+        "say": "GRAA-hak",
+        "en": "customer"
+      },
+      {
+        "word": "उम्र",
+        "say": "umr",
+        "en": "age"
+      }
+    ]
+  },
+  {
+    "title": "ज़ is “z”",
+    "body": "ज with a dot below (ज़) is an English “z”, in words from Persian, Arabic and English. Some speakers say it as ज, and some texts leave out the dot.",
+    "pattern": "ज़",
+    "examples": [
+      {
+        "word": "ज़्यादा",
+        "say": "ZYAA-daa",
+        "en": "more"
+      },
+      {
+        "word": "रोज़",
+        "say": "rohz",
+        "en": "every day"
+      },
+      {
+        "word": "बाज़ार",
+        "say": "baa-ZAAR",
+        "en": "market"
+      },
+      {
+        "word": "ज़रूरी",
+        "say": "za-ROO-ree",
+        "en": "necessary"
+      }
+    ]
+  },
+  {
+    "title": "A doubled consonant is held longer",
+    "body": "A consonant written twice (च्च, ल्ल, म्म; च्छ is च + छ) is held for a moment before release, as in “book case” or “midday”. Making it short can change the word.",
+    "pattern": "([क-ह]़?)्\\1|च्छ|त्थ|द्ध|क्ख|ग्घ|ज्झ|ट्ठ|ड्ढ|प्फ|ब्भ",
+    "examples": [
+      {
+        "word": "अच्छा",
+        "say": "ACH-chhaa",
+        "en": "good"
+      },
+      {
+        "word": "बच्चे",
+        "say": "BACH-chay",
+        "en": "children"
+      },
+      {
+        "word": "मम्मी",
+        "say": "MAM-mee",
+        "en": "mum"
+      },
+      {
+        "word": "छुट्टी",
+        "say": "CHHUT-tee",
+        "en": "holiday, day off"
+      }
+    ]
+  },
+  {
+    "title": "ठ and ढ are the curled-back sounds with breath",
+    "body": "ठ and ढ are ट and ड (tongue curled back) followed by a puff of air or a breathy “h”.",
+    "pattern": "ठ|ढ(?!़)",
+    "examples": [
+      {
+        "word": "ठीक",
+        "say": "theek",
+        "en": "fine, right"
+      },
+      {
+        "word": "आठ",
+        "say": "aath",
+        "en": "eight"
+      },
+      {
+        "word": "ढेर",
+        "say": "dhayr",
+        "en": "a heap, lots"
+      },
+      {
+        "word": "ढाई",
+        "say": "DHAA-ee",
+        "en": "two and a half"
+      }
+    ]
+  },
+  {
+    "title": "ख़ is the throaty “kh” of “loch”",
+    "body": "ख with a dot below (ख़) is a rough sound from the back of the throat, like Scottish “loch”. Many speakers say it as ख.",
+    "pattern": "ख़",
+    "examples": [
+      {
+        "word": "ख़र्च",
+        "say": "kharch",
+        "en": "expense"
+      },
+      {
+        "word": "ख़ुद",
+        "say": "khud",
+        "en": "oneself"
+      },
+      {
+        "word": "ख़ाली",
+        "say": "KHAA-lee",
+        "en": "empty, free"
+      },
+      {
+        "word": "आख़िर",
+        "say": "AA-khir",
+        "en": "finally, after all"
+      }
+    ]
+  },
+  {
+    "title": "ऑ and ॉ are the “o” in “hot”",
+    "body": "ऑ and the sign ॉ (a small moon over ा) are used in English words for the short “o” of British “hot”, “doctor”, “copy”.",
+    "pattern": "[ऑॉ]",
+    "examples": [
+      {
+        "word": "डॉक्टर",
+        "say": "DOK-tar",
+        "en": "doctor"
+      },
+      {
+        "word": "कॉपी",
+        "say": "KO-pee",
+        "en": "notebook"
+      },
+      {
+        "word": "हॉस्टल",
+        "say": "HOS-tal",
+        "en": "hostel"
+      },
+      {
+        "word": "लैपटॉप",
+        "say": "LAEP-top",
+        "en": "laptop"
+      }
+    ]
+  },
+  {
+    "title": "ढ़ is the same flap with a breathy “h”",
+    "body": "ढ़ (ढ with a dot) is the flap of ड़ followed by a breathy “h”, written here “rh”.",
+    "pattern": "ढ़",
+    "examples": [
+      {
+        "word": "पढ़ती",
+        "say": "PARH-tee",
+        "en": "reads, studies"
+      },
+      {
+        "word": "साढ़े",
+        "say": "SAA-rhay",
+        "en": "plus a half"
+      },
+      {
+        "word": "पढ़ाई",
+        "say": "pa-RHAA-ee",
+        "en": "studies"
+      },
+      {
+        "word": "बढ़",
+        "say": "barh",
+        "en": "grow"
+      }
+    ]
+  },
+  {
+    "title": "त्र and श्र are t + r and sh + r",
+    "body": "त्र and श्र have their own shapes, but they are just त + र (“tr”, with the tongue on the teeth) and श + र (“shr”).",
+    "pattern": "[तश]्र",
+    "examples": [
+      {
+        "word": "यात्रा",
+        "say": "YAA-traa",
+        "en": "journey"
+      },
+      {
+        "word": "मिश्रा",
+        "say": "MISH-raa",
+        "en": "Mishra (surname)"
+      },
+      {
+        "word": "श्री",
+        "say": "shree",
+        "en": "Mr, Shri"
+      }
+    ]
+  },
+  {
+    "title": "क़ is a “k” from deep in the throat",
+    "body": "क with a dot below (क़) is a k made further back, where you swallow. Many speakers say it as an ordinary क.",
+    "pattern": "क़",
+    "examples": [
+      {
+        "word": "क़ीमत",
+        "say": "KEE-mat",
+        "en": "price"
+      },
+      {
+        "word": "बाक़ी",
+        "say": "BAA-kee",
+        "en": "the rest"
+      },
+      {
+        "word": "तरीक़ा",
+        "say": "ta-REE-kaa",
+        "en": "way, method"
+      }
+    ]
+  },
+  {
+    "title": "ण is an n with the tongue curled back",
+    "body": "ण is an n said with the tongue curled back, like ट. Many speakers say it as an ordinary n. It never starts a word.",
+    "pattern": "ण",
+    "examples": [
+      {
+        "word": "कारण",
+        "say": "KAA-ran",
+        "en": "reason"
+      },
+      {
+        "word": "घोषणा",
+        "say": "GHOSH-naa",
+        "en": "announcement"
+      },
+      {
+        "word": "दक्षिण",
+        "say": "DAK-shin",
+        "en": "south"
+      }
+    ]
+  },
+  {
+    "title": "क्ष is “ksh”",
+    "body": "क्ष looks like a single letter but is क + ष, said “ksh”.",
+    "pattern": "क्ष",
+    "examples": [
+      {
+        "word": "कक्षा",
+        "say": "KAK-shaa",
+        "en": "class, grade"
+      },
+      {
+        "word": "परीक्षा",
+        "say": "pa-REEK-shaa",
+        "en": "exam"
+      },
+      {
+        "word": "शिक्षक",
+        "say": "SHIK-shak",
+        "en": "teacher"
+      }
+    ]
+  },
+  {
+    "title": "ग़ is a gargled “gh”",
+    "body": "ग with a dot below (ग़) is a soft gargling sound at the back of the throat, close to a French “r”. Many speakers say it as ग.",
+    "pattern": "ग़",
+    "examples": [
+      {
+        "word": "ग़लती",
+        "say": "GHAL-tee",
+        "en": "mistake"
+      },
+      {
+        "word": "काग़ज़",
+        "say": "KAA-ghaz",
+        "en": "paper"
+      },
+      {
+        "word": "दिमाग़",
+        "say": "di-MAAGH",
+        "en": "mind, brain"
+      }
+    ]
+  },
+  {
+    "title": "ऋ and ृ are said “ri”",
+    "body": "ऋ and the small hook ृ under a consonant appear in words from Sanskrit. In Hindi they are said “ri”, as in “rip”.",
+    "pattern": "[ऋृ]",
+    "examples": [
+      {
+        "word": "पृथ्वी",
+        "say": "PRITH-vee",
+        "en": "Earth"
+      },
+      {
+        "word": "संस्कृत",
+        "say": "SANS-krit",
+        "en": "Sanskrit"
+      }
+    ]
+  },
+  {
+    "title": "ज्ञ is said “gy”",
+    "body": "ज्ञ is written ज + ञ, but in Hindi it is said “gy”, as in “big yard” said quickly.",
+    "pattern": "ज्ञ",
+    "examples": [
+      {
+        "word": "विज्ञापन",
+        "say": "vig-YAA-pan",
+        "en": "advertisement"
+      },
+      {
+        "word": "विज्ञान",
+        "say": "vig-YAAN",
+        "en": "science"
+      }
+    ]
+  },
+  {
+    "title": "ः is a light “h” after the vowel",
+    "body": "The two dots ः (visarga) occur in a few formal words from Sanskrit. Say a light “h” after the vowel; in some words it is hardly heard.",
+    "pattern": "ः",
+    "examples": [
+      {
+        "word": "अतः",
+        "say": "a-TAH",
+        "en": "therefore"
+      },
+      {
+        "word": "प्रातः",
+        "say": "PRAA-tah",
+        "en": "early morning"
+      }
+    ]
+  }
+]

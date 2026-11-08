@@ -1,0 +1,807 @@
+[
+  {
+    "title": "Write as you speak, read as it is written",
+    "body": "Each Serbian letter stands for one sound, in Cyrillic and Latin alike, and every letter is pronounced: no silent letters, no letter changing its sound by position. Unstressed vowels are never weakened to “uh”.",
+    "pattern": "\\p{L}",
+    "examples": [
+      {
+        "word": "вода (voda)",
+        "say": "VO-da",
+        "en": "water"
+      },
+      {
+        "word": "хлеб (hleb)",
+        "say": "khleb",
+        "en": "bread"
+      },
+      {
+        "word": "школа (škola)",
+        "say": "SHKO-la",
+        "en": "school"
+      },
+      {
+        "word": "књига (knjiga)",
+        "say": "KNYEE-ga",
+        "en": "book"
+      }
+    ]
+  },
+  {
+    "title": "б, д, з, к, л, м, п, т, ф sound as in English",
+    "body": "These are said much as in English. к, п and т have less puff of air, like the “p” in “spin”, and д and т are made with the tongue touching the back of the top teeth.",
+    "pattern": "[бдзклмптф]",
+    "examples": [
+      {
+        "word": "дан (dan)",
+        "say": "dan",
+        "en": "day"
+      },
+      {
+        "word": "пет (pet)",
+        "say": "pet",
+        "en": "five"
+      },
+      {
+        "word": "за (za)",
+        "say": "za",
+        "en": "for"
+      },
+      {
+        "word": "тата (tata)",
+        "say": "TA-ta",
+        "en": "dad"
+      }
+    ]
+  },
+  {
+    "title": "Pitch and vowel length exist but are optional for learners",
+    "body": "A stressed syllable has a rising or a falling pitch, and some vowels are long, but none of this is written. You will be understood if you just stress the right syllable. One useful fact: when the stress is not on the first syllable, the pitch is always rising.",
+    "pattern": "(?<!\\p{L})\\p{L}*[аеиоу]\\p{L}*",
+    "examples": [
+      {
+        "word": "кућа (kuća)",
+        "say": "KOO-cha, falling",
+        "en": "house"
+      },
+      {
+        "word": "мама (mama)",
+        "say": "MA-ma, falling",
+        "en": "mom"
+      },
+      {
+        "word": "вода (voda)",
+        "say": "VO-da, rising",
+        "en": "water"
+      },
+      {
+        "word": "жена (žena)",
+        "say": "ZHE-na, rising",
+        "en": "woman, wife"
+      }
+    ]
+  },
+  {
+    "title": "Stress is never on the last syllable",
+    "body": "Words of two or more syllables are stressed on any syllable except the last, most often the first. Stress is not written, so learn it with each word; a few loanwords and names break the rule.",
+    "pattern": "(?<!\\p{L})\\p{L}*[аеиоу]\\p{L}*[аеиоу]\\p{L}*",
+    "examples": [
+      {
+        "word": "човек (čovek)",
+        "say": "CHO-vek",
+        "en": "man, person"
+      },
+      {
+        "word": "девојка (devojka)",
+        "say": "DE-voy-ka",
+        "en": "girl"
+      },
+      {
+        "word": "понедељак (ponedeljak)",
+        "say": "po-NE-de-lyak",
+        "en": "Monday"
+      },
+      {
+        "word": "универзитет (univerzitet)",
+        "say": "oo-nee-ver-ZEE-tet",
+        "en": "university"
+      }
+    ]
+  },
+  {
+    "title": "а sounds like “a” in “father”",
+    "body": "Open and clear in every syllable, stressed or not.",
+    "pattern": "а",
+    "examples": [
+      {
+        "word": "да (da)",
+        "say": "da",
+        "en": "yes"
+      },
+      {
+        "word": "мама (mama)",
+        "say": "MA-ma",
+        "en": "mom"
+      },
+      {
+        "word": "кафа (kafa)",
+        "say": "KA-fa",
+        "en": "coffee"
+      },
+      {
+        "word": "брат (brat)",
+        "say": "brat",
+        "en": "brother"
+      }
+    ]
+  },
+  {
+    "title": "е sounds like “e” in “bed”",
+    "body": "Always this short, pure “e”, never “ee” and never silent, even at the end of a word: дете has two full syllables.",
+    "pattern": "е",
+    "examples": [
+      {
+        "word": "не (ne)",
+        "say": "ne",
+        "en": "no, not"
+      },
+      {
+        "word": "жена (žena)",
+        "say": "ZHE-na",
+        "en": "woman, wife"
+      },
+      {
+        "word": "време (vreme)",
+        "say": "VRE-me",
+        "en": "time, weather"
+      },
+      {
+        "word": "дете (dete)",
+        "say": "DE-te",
+        "en": "child"
+      }
+    ]
+  },
+  {
+    "title": "о sounds like “o” in “or”, without the “oh” glide",
+    "body": "A short, rounded “o”. Do not slide into “oh-oo” as in English “go”.",
+    "pattern": "о",
+    "examples": [
+      {
+        "word": "он (on)",
+        "say": "on",
+        "en": "he"
+      },
+      {
+        "word": "сто (sto)",
+        "say": "sto",
+        "en": "hundred; table"
+      },
+      {
+        "word": "добро (dobro)",
+        "say": "DO-bro",
+        "en": "well, good"
+      },
+      {
+        "word": "ово (ovo)",
+        "say": "O-vo",
+        "en": "this"
+      }
+    ]
+  },
+  {
+    "title": "и sounds like “ee” in “see”",
+    "body": "Always “ee”, never the short “i” of “bit” and never “eye”.",
+    "pattern": "и",
+    "examples": [
+      {
+        "word": "и (i)",
+        "say": "ee",
+        "en": "and"
+      },
+      {
+        "word": "три (tri)",
+        "say": "tree",
+        "en": "three"
+      },
+      {
+        "word": "вино (vino)",
+        "say": "VEE-no",
+        "en": "wine"
+      },
+      {
+        "word": "сир (sir)",
+        "say": "seer",
+        "en": "cheese"
+      }
+    ]
+  },
+  {
+    "title": "н looks like English H but sounds like “n”",
+    "body": "A plain “n”. Do not confuse it with н + ј or with њ, which is a different letter (see њ).",
+    "pattern": "н",
+    "examples": [
+      {
+        "word": "не (ne)",
+        "say": "ne",
+        "en": "no, not"
+      },
+      {
+        "word": "она (ona)",
+        "say": "O-na",
+        "en": "she"
+      },
+      {
+        "word": "новац (novac)",
+        "say": "NO-vats",
+        "en": "money"
+      },
+      {
+        "word": "ноћ (noć)",
+        "say": "noch",
+        "en": "night"
+      }
+    ]
+  },
+  {
+    "title": "р looks like English P but is a rolled “r”",
+    "body": "Latin r. Tap or briefly trill the tip of the tongue behind the top teeth, as in Spanish or Scottish “r”. It is always pronounced, also before consonants and at the end of a word.",
+    "pattern": "р",
+    "examples": [
+      {
+        "word": "рука (ruka)",
+        "say": "ROO-ka",
+        "en": "hand, arm"
+      },
+      {
+        "word": "брат (brat)",
+        "say": "brat",
+        "en": "brother"
+      },
+      {
+        "word": "сестра (sestra)",
+        "say": "SES-tra",
+        "en": "sister"
+      },
+      {
+        "word": "сир (sir)",
+        "say": "seer",
+        "en": "cheese"
+      }
+    ]
+  },
+  {
+    "title": "с looks like English C but always sounds like “s”",
+    "body": "Latin s. Always a hissing “s” as in “sun”, never “k” and never “z”, even between vowels.",
+    "pattern": "с",
+    "examples": [
+      {
+        "word": "сто (sto)",
+        "say": "sto",
+        "en": "hundred; table"
+      },
+      {
+        "word": "сада (sada)",
+        "say": "SA-da",
+        "en": "now"
+      },
+      {
+        "word": "сестра (sestra)",
+        "say": "SES-tra",
+        "en": "sister"
+      },
+      {
+        "word": "сир (sir)",
+        "say": "seer",
+        "en": "cheese"
+      }
+    ]
+  },
+  {
+    "title": "у looks like English y but sounds like “oo”",
+    "body": "Always a short, rounded “oo” as in “moon”, never “yoo” or “uh”.",
+    "pattern": "у",
+    "examples": [
+      {
+        "word": "у (u)",
+        "say": "oo",
+        "en": "in"
+      },
+      {
+        "word": "муж (muž)",
+        "say": "moozh",
+        "en": "husband"
+      },
+      {
+        "word": "кућа (kuća)",
+        "say": "KOO-cha",
+        "en": "house"
+      },
+      {
+        "word": "сутра (sutra)",
+        "say": "SOO-tra",
+        "en": "tomorrow"
+      }
+    ]
+  },
+  {
+    "title": "Short words like је, се, су, ли have no stress of their own",
+    "body": "Little words such as је, сам, су, се, га, му, јој, ли and ће are said lightly and run together with the word before, as if part of it. Prepositions (у, на, за, од, из, са) and не likewise lean on the word after them.",
+    "pattern": "(?<!\\p{L})(?:је|сам|си|смо|сте|су|се|ме|га|му|јој|ју|нам|вам|им|их|ли|ћу|ћеш|ће|ћемо|ћете|бих|би|у|на|за|од|до|из|са|с|к|ка|не)(?!\\p{L})",
+    "examples": [
+      {
+        "word": "Зовем се (Zovem se)",
+        "say": "ZO-vem-se",
+        "en": "my name is"
+      },
+      {
+        "word": "Како си? (Kako si?)",
+        "say": "KA-ko-see",
+        "en": "How are you?"
+      },
+      {
+        "word": "Хвала ти (Hvala ti)",
+        "say": "KHVA-la-tee",
+        "en": "thank you"
+      },
+      {
+        "word": "Где је? (Gde je?)",
+        "say": "GDE-ye",
+        "en": "Where is it?"
+      }
+    ]
+  },
+  {
+    "title": "ј sounds like “y” in “yes”",
+    "body": "Latin j. It is a consonant, so ја is “ya” and јер is “yer”. After a vowel it makes a glide (see ај, ој, еј).",
+    "pattern": "ј",
+    "examples": [
+      {
+        "word": "ја (ja)",
+        "say": "ya",
+        "en": "I"
+      },
+      {
+        "word": "јер (jer)",
+        "say": "yer",
+        "en": "because"
+      },
+      {
+        "word": "јабука (jabuka)",
+        "say": "YA-boo-ka",
+        "en": "apple"
+      },
+      {
+        "word": "јогурт (jogurt)",
+        "say": "YO-goort",
+        "en": "yogurt"
+      }
+    ]
+  },
+  {
+    "title": "в looks like English B but sounds like “v”",
+    "body": "Latin v. A plain “v” in every position.",
+    "pattern": "в",
+    "examples": [
+      {
+        "word": "вода (voda)",
+        "say": "VO-da",
+        "en": "water"
+      },
+      {
+        "word": "вино (vino)",
+        "say": "VEE-no",
+        "en": "wine"
+      },
+      {
+        "word": "време (vreme)",
+        "say": "VRE-me",
+        "en": "time, weather"
+      },
+      {
+        "word": "веома (veoma)",
+        "say": "VE-o-ma",
+        "en": "very"
+      }
+    ]
+  },
+  {
+    "title": "г is always a hard “g” as in “go”",
+    "body": "Never “j” as in “gem”, even before е and и.",
+    "pattern": "г",
+    "examples": [
+      {
+        "word": "где (gde)",
+        "say": "gde",
+        "en": "where"
+      },
+      {
+        "word": "град (grad)",
+        "say": "grad",
+        "en": "city"
+      },
+      {
+        "word": "друг (drug)",
+        "say": "droog",
+        "en": "friend"
+      },
+      {
+        "word": "година (godina)",
+        "say": "GO-dee-na",
+        "en": "year"
+      }
+    ]
+  },
+  {
+    "title": "Two vowels side by side are both said in full",
+    "body": "Serbian has no vowel pairs that merge into one sound. Each vowel keeps its own sound and syllable: као is “KA-o”, био is “BEE-o”. Many past forms end this way, in -ао, -ео, -ио.",
+    "pattern": "[аеиоу][аеиоу]",
+    "examples": [
+      {
+        "word": "као (kao)",
+        "say": "KA-o",
+        "en": "like, as"
+      },
+      {
+        "word": "био (bio)",
+        "say": "BEE-o",
+        "en": "was"
+      },
+      {
+        "word": "рекао (rekao)",
+        "say": "RE-ka-o",
+        "en": "said"
+      },
+      {
+        "word": "посао (posao)",
+        "say": "PO-sa-o",
+        "en": "job, work"
+      }
+    ]
+  },
+  {
+    "title": "ш sounds like “sh”",
+    "body": "Latin š. Like English “sh”, said with the tongue a little further back.",
+    "pattern": "ш",
+    "examples": [
+      {
+        "word": "шта (šta)",
+        "say": "shta",
+        "en": "what"
+      },
+      {
+        "word": "шест (šest)",
+        "say": "shest",
+        "en": "six"
+      },
+      {
+        "word": "наш (naš)",
+        "say": "nash",
+        "en": "our"
+      },
+      {
+        "word": "школа (škola)",
+        "say": "SHKO-la",
+        "en": "school"
+      }
+    ]
+  },
+  {
+    "title": "ч is a hard “ch”",
+    "body": "Latin č. Like “ch” in “church” but harder, with the tip of the tongue raised and pulled back. Its softer partner is ћ.",
+    "pattern": "ч",
+    "examples": [
+      {
+        "word": "чај (čaj)",
+        "say": "chai",
+        "en": "tea"
+      },
+      {
+        "word": "човек (čovek)",
+        "say": "CHO-vek",
+        "en": "man, person"
+      },
+      {
+        "word": "ручак (ručak)",
+        "say": "ROO-chak",
+        "en": "lunch"
+      },
+      {
+        "word": "читати (čitati)",
+        "say": "CHEE-ta-tee",
+        "en": "to read"
+      }
+    ]
+  },
+  {
+    "title": "ц sounds like “ts” in “cats”",
+    "body": "Latin c. One quick sound, also at the start of a word, and never “k” or “s”.",
+    "pattern": "ц",
+    "examples": [
+      {
+        "word": "деца (deca)",
+        "say": "DE-tsa",
+        "en": "children"
+      },
+      {
+        "word": "отац (otac)",
+        "say": "O-tats",
+        "en": "father"
+      },
+      {
+        "word": "улица (ulica)",
+        "say": "OO-lee-tsa",
+        "en": "street"
+      },
+      {
+        "word": "центар (centar)",
+        "say": "TSEN-tar",
+        "en": "centre"
+      }
+    ]
+  },
+  {
+    "title": "ћ is a soft “ch”, lighter than ч",
+    "body": "Latin ć. Press the flat middle of the tongue against the roof of the mouth: a light “ch”, close to the “t” in British “tune” said quickly. ч is harder. If you cannot hear the difference yet, a plain “ch” is understood.",
+    "pattern": "ћ",
+    "examples": [
+      {
+        "word": "кућа (kuća)",
+        "say": "KOO-cha",
+        "en": "house"
+      },
+      {
+        "word": "ноћ (noć)",
+        "say": "noch",
+        "en": "night"
+      },
+      {
+        "word": "ћерка (ćerka)",
+        "say": "CHER-ka",
+        "en": "daughter"
+      },
+      {
+        "word": "хоћу (hoću)",
+        "say": "KHO-choo",
+        "en": "I want"
+      }
+    ]
+  },
+  {
+    "title": "ж sounds like the “s” in “measure”",
+    "body": "Latin ž. A buzzing “zh”, also at the end of a word, where it does not turn into “sh”.",
+    "pattern": "ж",
+    "examples": [
+      {
+        "word": "жена (žena)",
+        "say": "ZHE-na",
+        "en": "woman, wife"
+      },
+      {
+        "word": "муж (muž)",
+        "say": "moozh",
+        "en": "husband"
+      },
+      {
+        "word": "живот (život)",
+        "say": "ZHEE-vot",
+        "en": "life"
+      },
+      {
+        "word": "можда (možda)",
+        "say": "MOZH-da",
+        "en": "maybe"
+      }
+    ]
+  },
+  {
+    "title": "љ sounds like the “lli” in “million”",
+    "body": "Latin lj, one letter and one sound: “l” and “y” said together, with the tongue flat against the roof of the mouth.",
+    "pattern": "љ",
+    "examples": [
+      {
+        "word": "људи (ljudi)",
+        "say": "LYOO-dee",
+        "en": "people"
+      },
+      {
+        "word": "недеља (nedelja)",
+        "say": "NE-de-lya",
+        "en": "week; Sunday"
+      },
+      {
+        "word": "хиљада (hiljada)",
+        "say": "KHEE-lya-da",
+        "en": "thousand"
+      },
+      {
+        "word": "боље (bolje)",
+        "say": "BO-lye",
+        "en": "better"
+      }
+    ]
+  },
+  {
+    "title": "њ sounds like the “ny” in “canyon”",
+    "body": "Latin nj, one letter and one sound, like Spanish ñ: “n” and “y” said together, with the tongue flat against the roof of the mouth.",
+    "pattern": "њ",
+    "examples": [
+      {
+        "word": "књига (knjiga)",
+        "say": "KNYEE-ga",
+        "en": "book"
+      },
+      {
+        "word": "мање (manje)",
+        "say": "MA-nye",
+        "en": "less"
+      },
+      {
+        "word": "кухиња (kuhinja)",
+        "say": "KOO-khee-nya",
+        "en": "kitchen"
+      },
+      {
+        "word": "њега (njega)",
+        "say": "NYE-ga",
+        "en": "him"
+      }
+    ]
+  },
+  {
+    "title": "ј after a vowel makes a glide: ај, еј, ој",
+    "body": "ај sounds like “eye”, еј like “ay” in “day”, ој like “oy” in “boy”, and уј like a quick “ooy”. The two letters make one syllable.",
+    "pattern": "[аеиоу]ј(?![аеиоу])",
+    "examples": [
+      {
+        "word": "чај (čaj)",
+        "say": "chai",
+        "en": "tea"
+      },
+      {
+        "word": "мој (moj)",
+        "say": "moy",
+        "en": "my"
+      },
+      {
+        "word": "мајка (majka)",
+        "say": "MAI-ka",
+        "en": "mother"
+      },
+      {
+        "word": "музеј (muzej)",
+        "say": "MOO-zey",
+        "en": "museum"
+      }
+    ]
+  },
+  {
+    "title": "х sounds like a light “ch” in Scottish “loch”",
+    "body": "Latin h. A breathy sound from the back of the mouth, lighter than the Scottish one, and never silent, also before consonants and at the end of a word.",
+    "pattern": "х",
+    "examples": [
+      {
+        "word": "хлеб (hleb)",
+        "say": "khleb",
+        "en": "bread"
+      },
+      {
+        "word": "хвала (hvala)",
+        "say": "KHVA-la",
+        "en": "thank you"
+      },
+      {
+        "word": "хотел (hotel)",
+        "say": "KHO-tel",
+        "en": "hotel"
+      },
+      {
+        "word": "одмах (odmah)",
+        "say": "OD-makh",
+        "en": "right away"
+      }
+    ]
+  },
+  {
+    "title": "р between consonants is a vowel",
+    "body": "Between two consonants, or at the start of a word before a consonant, р carries the syllable on its own, like the “ur” in “burn” said with a rolled “r” and no vowel. Do not add a vowel before it: први has two syllables, “PR-vee”.",
+    "pattern": "(?<=[бвгдђжзјклљмнњпрстћфхцчџш])р(?=[бвгдђжзјклљмнњпстћфхцчџш])|(?<!\\p{L})р(?=[бвгдђжзклљмнњпстћфхцчџш])",
+    "examples": [
+      {
+        "word": "први (prvi)",
+        "say": "PR-vee",
+        "en": "first"
+      },
+      {
+        "word": "брзо (brzo)",
+        "say": "BR-zo",
+        "en": "quickly"
+      },
+      {
+        "word": "српски (srpski)",
+        "say": "SRP-skee",
+        "en": "Serbian"
+      },
+      {
+        "word": "срце (srce)",
+        "say": "SR-tse",
+        "en": "heart"
+      }
+    ]
+  },
+  {
+    "title": "ђ is a soft “j”, lighter than џ",
+    "body": "Latin đ. The voiced partner of ћ: a light “j”, close to the “d” in British “duke” said quickly. џ is harder. If you cannot hear the difference yet, a plain “j” is understood.",
+    "pattern": "ђ",
+    "examples": [
+      {
+        "word": "рођендан (rođendan)",
+        "say": "RO-jen-dan",
+        "en": "birthday"
+      },
+      {
+        "word": "између (između)",
+        "say": "eez-ME-joo",
+        "en": "between"
+      },
+      {
+        "word": "госпођа (gospođa)",
+        "say": "GO-spo-ja",
+        "en": "Mrs, lady"
+      },
+      {
+        "word": "леђа (leđa)",
+        "say": "LE-ja",
+        "en": "back (of the body)"
+      }
+    ]
+  },
+  {
+    "title": "д before a voiceless consonant is said “t”",
+    "body": "Spelling normally shows sound changes, but д is often kept before с, к, ш and similar letters. There it is said “t”: градски is “GRAT-skee”.",
+    "pattern": "д(?=[кпстфхцчћш])",
+    "examples": [
+      {
+        "word": "градски (gradski)",
+        "say": "GRAT-skee",
+        "en": "city (adjective)"
+      },
+      {
+        "word": "председник (predsednik)",
+        "say": "PRET-sed-neek",
+        "en": "president"
+      },
+      {
+        "word": "људски (ljudski)",
+        "say": "LYOOT-skee",
+        "en": "human"
+      }
+    ]
+  },
+  {
+    "title": "џ is a hard “j” as in “jam”",
+    "body": "Latin dž, one letter and one sound. Like the “j” in “jam” but harder, with the tongue pulled back. Its softer partner is ђ.",
+    "pattern": "џ",
+    "examples": [
+      {
+        "word": "џеп (džep)",
+        "say": "jep",
+        "en": "pocket"
+      },
+      {
+        "word": "џемпер (džemper)",
+        "say": "JEM-per",
+        "en": "sweater"
+      },
+      {
+        "word": "буџет (budžet)",
+        "say": "BOO-jet",
+        "en": "budget"
+      },
+      {
+        "word": "уџбеник (udžbenik)",
+        "say": "OOJ-be-neek",
+        "en": "textbook"
+      }
+    ]
+  }
+]
