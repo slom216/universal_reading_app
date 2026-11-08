@@ -10,6 +10,7 @@ const LEVELS = ['a1', 'a2', 'b1'];
 // Mirrors src/languages.ts (name, lang code, True/False label).
 const LANGS = {
   en: { name: 'English', tf: 'True or false?' },
+  de: { name: 'German', tf: 'Richtig oder falsch?' },
   it: { name: 'Italian', tf: 'Vero o falso?' },
   es: { name: 'Spanish', tf: '¿Verdadero o falso?' },
   fr: { name: 'French', tf: 'Vrai ou faux ?' },

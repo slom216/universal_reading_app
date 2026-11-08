@@ -2,6 +2,7 @@ import type { Level } from './content/schema';
 
 export const LANG_IDS = [
   'en',
+  'de',
   'it',
   'es',
   'fr',
@@ -54,6 +55,26 @@ export const LANGS: Record<LangId, Lang> = {
       A1: 'Short everyday texts from the UK, the US, Ireland, Canada, Australia and New Zealand in the present tense: family, food, home.',
       A2: 'Longer stories about work, travel and health, told in the past simple and past continuous.',
       B1: 'Articles and reports on society, work and daily life, with the present perfect, the passive, conditionals and phrasal verbs.',
+    },
+    counts: { A1: 60, A2: 100, B1: 140 },
+  },
+  de: {
+    id: 'de',
+    code: 'de',
+    name: 'German',
+    native: 'Deutsch',
+    trueLabel: 'Richtig',
+    falseLabel: 'Falsch',
+    quizHeading: 'Hast du alles verstanden?',
+    glossHeading: 'Wörter zum Text',
+    perfect: 'Perfekt! 🎉',
+    sample: 'Das ist ein Beispielsatz in der gewählten Größe.',
+    // Nouns carry their article; inflected and separated forms go in `match`.
+    articles: /^(?:der|die|das|ein|eine)\s+/i,
+    blurb: {
+      A1: 'Short everyday texts from Germany, Austria and Switzerland in the present tense: family, food, home, getting around.',
+      A2: 'Longer stories about work, travel and health, told in the Perfekt, with dative and weil/dass clauses.',
+      B1: 'Articles and reports on society, work and daily life, with the Präteritum, Konjunktiv II, the passive and relative clauses.',
     },
     counts: { A1: 60, A2: 100, B1: 140 },
   },
