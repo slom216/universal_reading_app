@@ -48,8 +48,13 @@ export const textSchema = z.strictObject({
 export type Question = z.infer<typeof question>;
 export type ReadingText = z.infer<typeof textSchema>;
 
-/** Tokens separated by whitespace that contain a letter or digit. */
+const HAN = /\p{Script=Han}/u;
+const zhWords = new Intl.Segmenter('zh', { granularity: 'word' });
+
+/** Tokens separated by whitespace that contain a letter or digit. Chinese has no spaces,
+ *  so Han text is split into words by the platform's dictionary segmenter instead. */
 export function countWords(body: string): number {
+  if (HAN.test(body)) return [...zhWords.segment(body)].filter((s) => s.isWordLike).length;
   return body.split(/\s+/).filter((t) => /[\p{L}\p{N}]/u.test(t)).length;
 }
 
@@ -62,8 +67,10 @@ export function glossaryNeedle(
 }
 
 /** First case-insensitive whole-word occurrence of `needle` in `body`. Combining marks
- *  count as part of the word, so a match can't stop before an Arabic vowel. */
+ *  count as part of the word, so a match can't stop before an Arabic vowel. Chinese has no
+ *  word boundaries to check, so a Han needle matches anywhere. */
 export function findGlossary(body: string, needle: string): number {
+  if (HAN.test(needle)) return body.indexOf(needle);
   const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const m = new RegExp(`(?<![\\p{L}\\p{M}])${escaped}(?![\\p{L}\\p{M}])`, 'iu').exec(body);
   return m ? m.index : -1;

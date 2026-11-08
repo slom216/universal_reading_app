@@ -1,0 +1,6705 @@
+[
+  {
+    "id": "a1-01",
+    "level": "A1",
+    "title": "我叫林涛",
+    "topic": "Personal information",
+    "body": "你们好！我叫林涛，今年二十岁。我是湖南人，老家在长沙。现在我在武汉上大学，学的是计算机。\n\n我住在大学宿舍，一个房间住四个人。我的同学都很友好。周末我在一家咖啡馆打工，每个星期六和星期天都去。工作不太累，我也很喜欢。\n\n我会说普通话和长沙话，也会说一点儿英语。我还想学日语，因为我很喜欢日本动画片。\n\n我的爱好是打篮球和听音乐。晚上我常常和朋友去操场打球。你呢？你的爱好是什么？",
+    "glossary": [
+      {
+        "term": "老家",
+        "translation": "lǎojiā · hometown"
+      },
+      {
+        "term": "长沙",
+        "translation": "Chángshā · Changsha (city)"
+      },
+      {
+        "term": "武汉",
+        "translation": "Wǔhàn · Wuhan (city)"
+      },
+      {
+        "term": "计算机",
+        "translation": "jìsuànjī · computer science, computer"
+      },
+      {
+        "term": "宿舍",
+        "translation": "sùshè · dormitory"
+      },
+      {
+        "term": "友好",
+        "translation": "yǒuhǎo · friendly"
+      },
+      {
+        "term": "咖啡馆",
+        "translation": "kāfēiguǎn · café"
+      },
+      {
+        "term": "打工",
+        "translation": "dǎgōng · to have a part-time job"
+      },
+      {
+        "term": "普通话",
+        "translation": "pǔtōnghuà · Mandarin, standard Chinese"
+      },
+      {
+        "term": "爱好",
+        "translation": "àihào · hobby"
+      },
+      {
+        "term": "操场",
+        "translation": "cāochǎng · sports ground"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "林涛今年多大？",
+        "options": [
+          "十八岁",
+          "二十岁",
+          "二十二岁",
+          "二十五岁"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "林涛是武汉人。",
+        "answer": false,
+        "explanation": "林涛是湖南人，老家在长沙。"
+      },
+      {
+        "type": "mc",
+        "prompt": "林涛在大学学什么？",
+        "options": [
+          "英语",
+          "日语",
+          "计算机",
+          "音乐"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "林涛周末在哪儿打工？",
+        "options": [
+          "在咖啡馆",
+          "在超市",
+          "在饭馆",
+          "在书店"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "林涛会说一点儿英语。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "林涛晚上常常做什么？",
+        "options": [
+          "看动画片",
+          "学日语",
+          "去咖啡馆",
+          "打篮球"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-02",
+    "level": "A1",
+    "title": "我的家",
+    "topic": "Family",
+    "body": "我叫乐乐，今年八岁，上小学二年级。我家在成都。\n\n我家有五口人：爷爷、奶奶、爸爸、妈妈和我。爸爸是医生，每天都很忙。妈妈是老师，她在一所中学教语文。爷爷和奶奶不工作，他们每天早上去公园散步。\n\n我们的家不大，可是很舒服。家里有三个卧室、一个客厅、一个厨房和一个小阳台。阳台上有很多花，都是奶奶种的。\n\n我没有哥哥，也没有妹妹，可是我有一只小猫，它叫咪咪。咪咪很可爱，喜欢在沙发上睡觉。我很爱我的家！",
+    "glossary": [
+      {
+        "term": "小学",
+        "translation": "xiǎoxué · primary school"
+      },
+      {
+        "term": "二年级",
+        "translation": "èrniánjí · second grade (at school)"
+      },
+      {
+        "term": "成都",
+        "translation": "Chéngdū · Chengdu (city)"
+      },
+      {
+        "term": "医生",
+        "translation": "yīshēng · doctor"
+      },
+      {
+        "term": "中学",
+        "translation": "zhōngxué · secondary school"
+      },
+      {
+        "term": "语文",
+        "translation": "yǔwén · Chinese (school subject)"
+      },
+      {
+        "term": "散步",
+        "translation": "sànbù · to take a walk"
+      },
+      {
+        "term": "舒服",
+        "translation": "shūfu · comfortable"
+      },
+      {
+        "term": "卧室",
+        "translation": "wòshì · bedroom"
+      },
+      {
+        "term": "客厅",
+        "translation": "kètīng · living room"
+      },
+      {
+        "term": "阳台",
+        "translation": "yángtái · balcony"
+      },
+      {
+        "term": "沙发",
+        "translation": "shāfā · sofa"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "乐乐今年几岁？",
+        "options": [
+          "六岁",
+          "七岁",
+          "八岁",
+          "九岁"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "乐乐家有五口人。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "乐乐的妈妈做什么工作？",
+        "options": [
+          "医生",
+          "老师",
+          "司机",
+          "护士"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "爷爷和奶奶每天早上去超市。",
+        "answer": false,
+        "explanation": "他们每天早上去公园散步。"
+      },
+      {
+        "type": "mc",
+        "prompt": "阳台上的花是谁种的？",
+        "options": [
+          "奶奶",
+          "爸爸",
+          "妈妈",
+          "乐乐"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "咪咪喜欢在哪儿睡觉？",
+        "options": [
+          "在床上",
+          "在阳台上",
+          "在厨房里",
+          "在沙发上"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-03",
+    "level": "A1",
+    "title": "星期天的早饭",
+    "topic": "Food and drink",
+    "body": "王芳家在天津。星期天早上，王芳一家人都不着急。爸爸八点起床，去楼下的早点铺买油条和豆浆。妈妈在厨房里煮粥，还蒸了一锅包子。\n\n九点，大家坐在桌子旁边一起吃早饭。王芳喜欢喝甜豆浆，弟弟喜欢喝咸豆浆。爸爸说：“豆浆还是热的，快喝吧。”奶奶不吃油条，她喜欢吃小米粥和鸡蛋。\n\n吃早饭的时候，大家慢慢地吃，慢慢地聊天。弟弟说他下午想去公园放风筝。妈妈说：“好啊，我们都去吧。”\n\n平时大家都很忙，早上只有十分钟吃早饭。王芳觉得星期天的早饭最好吃。",
+    "glossary": [
+      {
+        "term": "天津",
+        "translation": "Tiānjīn · Tianjin (city)"
+      },
+      {
+        "term": "着急",
+        "translation": "zháojí · to be in a hurry, to worry"
+      },
+      {
+        "term": "早点铺",
+        "translation": "zǎodiǎnpù · breakfast stall"
+      },
+      {
+        "term": "油条",
+        "translation": "yóutiáo · fried dough stick"
+      },
+      {
+        "term": "豆浆",
+        "translation": "dòujiāng · soy milk"
+      },
+      {
+        "term": "包子",
+        "translation": "bāozi · steamed stuffed bun"
+      },
+      {
+        "term": "小米粥",
+        "translation": "xiǎomǐzhōu · millet porridge"
+      },
+      {
+        "term": "鸡蛋",
+        "translation": "jīdàn · egg"
+      },
+      {
+        "term": "聊天",
+        "translation": "liáotiān · to chat"
+      },
+      {
+        "term": "风筝",
+        "translation": "fēngzheng · kite"
+      },
+      {
+        "term": "平时",
+        "translation": "píngshí · usually, normally"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "爸爸去楼下买什么？",
+        "options": [
+          "包子和粥",
+          "油条和豆浆",
+          "鸡蛋和牛奶",
+          "面条和饺子"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "妈妈在厨房里煮粥。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "谁喜欢喝咸豆浆？",
+        "options": [
+          "王芳",
+          "爸爸",
+          "奶奶",
+          "弟弟"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "奶奶很喜欢吃油条。",
+        "answer": false,
+        "explanation": "奶奶不吃油条，她喜欢吃小米粥和鸡蛋。"
+      },
+      {
+        "type": "mc",
+        "prompt": "弟弟下午想做什么？",
+        "options": [
+          "去公园放风筝",
+          "去超市买东西",
+          "在家看电视",
+          "去奶奶家"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "平时大家早上有多长时间吃早饭？",
+        "options": [
+          "五分钟",
+          "十分钟",
+          "半个小时",
+          "一个小时"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-04",
+    "level": "A1",
+    "title": "今晚有客人",
+    "topic": "Shopping",
+    "body": "张敏住在杭州。今天晚上，她的两个大学同学要来她家吃饭。下班以后，她去小区旁边的超市买东西。\n\n她先去蔬菜区。西红柿很红，土豆也很便宜。她拿两个西红柿、三个土豆和一把青菜。然后她去看鱼。今天的鱼很新鲜，一条三十八块钱。她的朋友都喜欢吃鱼，她要一条大的。\n\n水果也很重要。张敏要一个西瓜和两斤葡萄。她想买啤酒，可是朋友们都不喝酒，所以她拿一大瓶橙汁。\n\n最后，她在收银台用手机扫码付钱，一共一百五十六块。张敏提着两个大袋子回家。她想：“七点以前要做好饭！”",
+    "glossary": [
+      {
+        "term": "杭州",
+        "translation": "Hángzhōu · Hangzhou (city)"
+      },
+      {
+        "term": "小区",
+        "translation": "xiǎoqū · residential compound"
+      },
+      {
+        "term": "蔬菜",
+        "translation": "shūcài · vegetables"
+      },
+      {
+        "term": "西红柿",
+        "translation": "xīhóngshì · tomato"
+      },
+      {
+        "term": "土豆",
+        "translation": "tǔdòu · potato"
+      },
+      {
+        "term": "新鲜",
+        "translation": "xīnxiān · fresh"
+      },
+      {
+        "term": "葡萄",
+        "translation": "pútao · grapes"
+      },
+      {
+        "term": "橙汁",
+        "translation": "chéngzhī · orange juice"
+      },
+      {
+        "term": "收银台",
+        "translation": "shōuyíntái · checkout"
+      },
+      {
+        "term": "扫码",
+        "translation": "sǎomǎ · to scan a QR code"
+      },
+      {
+        "term": "袋子",
+        "translation": "dàizi · bag"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "谁今天晚上来张敏家吃饭？",
+        "options": [
+          "她的父母",
+          "两个大学同学",
+          "她的同事",
+          "她的邻居"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "一条鱼多少钱？",
+        "options": [
+          "十八块",
+          "二十八块",
+          "三十八块",
+          "四十八块"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "张敏的朋友都喜欢吃鱼。",
+        "answer": true
+      },
+      {
+        "type": "tf",
+        "prompt": "张敏买很多啤酒。",
+        "answer": false,
+        "explanation": "她的朋友都不喝酒，所以她拿一大瓶橙汁。"
+      },
+      {
+        "type": "mc",
+        "prompt": "张敏怎么付钱？",
+        "options": [
+          "用现金",
+          "用银行卡",
+          "朋友付钱",
+          "用手机扫码"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "张敏一共花多少钱？",
+        "options": [
+          "一百五十六块",
+          "一百六十五块",
+          "一百零六块",
+          "五十六块"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-05",
+    "level": "A1",
+    "title": "新家还缺什么",
+    "topic": "Home",
+    "body": "我叫刘洋，在深圳工作。上个星期我搬家了。新家在一个小区里，在十二楼。楼里有电梯，所以上楼不累。\n\n房子不大，有一个卧室和一个小客厅。厨房很小，可是很干净。卫生间里有一台新的洗衣机。客厅的窗户很大，早上阳光很好。从窗户能看到一个公园。\n\n现在家里还缺很多东西。卧室里有床，可是没有衣柜，我的衣服都在箱子里。客厅里没有沙发，也没有电视。厨房里只有一个锅，没有碗，也没有筷子。\n\n这个周末我想去商场买一个衣柜和一张桌子。碗和筷子我想在网上买，很便宜，也很方便。",
+    "glossary": [
+      {
+        "term": "深圳",
+        "translation": "Shēnzhèn · Shenzhen (city)"
+      },
+      {
+        "term": "搬家",
+        "translation": "bānjiā · to move house"
+      },
+      {
+        "term": "电梯",
+        "translation": "diàntī · lift, elevator"
+      },
+      {
+        "term": "卫生间",
+        "translation": "wèishēngjiān · bathroom"
+      },
+      {
+        "term": "洗衣机",
+        "translation": "xǐyījī · washing machine"
+      },
+      {
+        "term": "窗户",
+        "translation": "chuānghu · window"
+      },
+      {
+        "term": "阳光",
+        "translation": "yángguāng · sunlight"
+      },
+      {
+        "term": "衣柜",
+        "translation": "yīguì · wardrobe"
+      },
+      {
+        "term": "箱子",
+        "translation": "xiāngzi · suitcase, box"
+      },
+      {
+        "term": "筷子",
+        "translation": "kuàizi · chopsticks"
+      },
+      {
+        "term": "商场",
+        "translation": "shāngchǎng · shopping mall"
+      },
+      {
+        "term": "方便",
+        "translation": "fāngbiàn · convenient"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "刘洋的新家在几楼？",
+        "options": [
+          "二楼",
+          "十楼",
+          "十二楼",
+          "二十楼"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "楼里没有电梯。",
+        "answer": false,
+        "explanation": "楼里有电梯，所以上楼不累。"
+      },
+      {
+        "type": "mc",
+        "prompt": "从客厅的窗户能看到什么？",
+        "options": [
+          "一个公园",
+          "一条河",
+          "一所学校",
+          "一个超市"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "刘洋的衣服现在在哪儿？",
+        "options": [
+          "在衣柜里",
+          "在床上",
+          "在沙发上",
+          "在箱子里"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "厨房里没有碗。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "刘洋想在网上买什么？",
+        "options": [
+          "衣柜和桌子",
+          "碗和筷子",
+          "沙发和电视",
+          "床和锅"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-06",
+    "level": "A1",
+    "title": "公交车司机的一天",
+    "topic": "Daily routine",
+    "body": "赵磊是公交车司机，他在郑州开十八路公交车。他的工作很早就开始。\n\n每天早上四点半，赵磊就起床。他洗脸、刷牙，喝一杯热茶，吃两个包子。五点十分，他骑电动车去公交车站。五点四十，第一班车出发。\n\n早上车上的人不多，有很多老人去菜市场买菜。七点到九点，上班的人和学生都坐公交车，车上人很多，很挤。赵磊开车很小心。\n\n中午，他在车站吃饭，休息一个小时。下午两点，他的工作就结束了。回家以后，他先睡一会儿，然后去学校接女儿。晚上九点，他就上床睡觉。他说：“我的工作很累，可是我很喜欢。”",
+    "glossary": [
+      {
+        "term": "公交车",
+        "translation": "gōngjiāochē · bus"
+      },
+      {
+        "term": "司机",
+        "translation": "sījī · driver"
+      },
+      {
+        "term": "郑州",
+        "translation": "Zhèngzhōu · Zhengzhou (city)"
+      },
+      {
+        "term": "刷牙",
+        "translation": "shuāyá · to brush one's teeth"
+      },
+      {
+        "term": "电动车",
+        "translation": "diàndòngchē · electric scooter, e-bike"
+      },
+      {
+        "term": "出发",
+        "translation": "chūfā · to set off"
+      },
+      {
+        "term": "老人",
+        "translation": "lǎorén · old people"
+      },
+      {
+        "term": "菜市场",
+        "translation": "càishìchǎng · food market"
+      },
+      {
+        "term": "小心",
+        "translation": "xiǎoxīn · careful"
+      },
+      {
+        "term": "休息",
+        "translation": "xiūxi · to rest"
+      },
+      {
+        "term": "结束",
+        "translation": "jiéshù · to end, to finish"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "赵磊每天几点起床？",
+        "options": [
+          "四点",
+          "四点半",
+          "五点",
+          "五点四十"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "赵磊怎么去公交车站？",
+        "options": [
+          "坐地铁",
+          "走路",
+          "骑电动车",
+          "开车"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "早上车上有很多老人。",
+        "answer": true
+      },
+      {
+        "type": "tf",
+        "prompt": "七点到九点车上人很少。",
+        "answer": false,
+        "explanation": "七点到九点车上人很多，很挤。"
+      },
+      {
+        "type": "mc",
+        "prompt": "赵磊下午几点下班？",
+        "options": [
+          "两点",
+          "十二点",
+          "一点",
+          "四点"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "回家以后，赵磊先做什么？",
+        "options": [
+          "去学校接女儿",
+          "睡一会儿",
+          "做晚饭",
+          "去菜市场"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-07",
+    "level": "A1",
+    "title": "去博物馆怎么走",
+    "topic": "Directions",
+    "body": "许晴第一次来西安。今天她想去陕西历史博物馆。她从酒店出来，可是不知道怎么走。路边有一位老人，她走过去问路。\n\n— 您好，请问陕西历史博物馆怎么走？\n— 博物馆啊？不太远。你先往前走，到第二个路口往右拐。\n— 往右拐，然后呢？\n— 然后一直走，过一座桥，博物馆就在你的左边。\n— 走路要多长时间？\n— 大概十五分钟。你也可以坐公交车，可是走路更快。\n— 太好了，谢谢您！\n— 不客气。博物馆门口人很多，你要早点儿去排队。\n\n许晴笑着说“再见”，然后高高兴兴地往前走。",
+    "glossary": [
+      {
+        "term": "西安",
+        "translation": "Xī'ān · Xi'an (city)"
+      },
+      {
+        "term": "历史",
+        "translation": "lìshǐ · history"
+      },
+      {
+        "term": "博物馆",
+        "translation": "bówùguǎn · museum"
+      },
+      {
+        "term": "酒店",
+        "translation": "jiǔdiàn · hotel"
+      },
+      {
+        "term": "路口",
+        "translation": "lùkǒu · intersection"
+      },
+      {
+        "term": "一直",
+        "translation": "yìzhí · straight on"
+      },
+      {
+        "term": "左边",
+        "translation": "zuǒbian · left side"
+      },
+      {
+        "term": "大概",
+        "translation": "dàgài · about, roughly"
+      },
+      {
+        "term": "不客气",
+        "translation": "bú kèqi · you're welcome"
+      },
+      {
+        "term": "门口",
+        "translation": "ménkǒu · entrance"
+      },
+      {
+        "term": "排队",
+        "translation": "páiduì · to queue"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "许晴想去哪儿？",
+        "options": [
+          "酒店",
+          "公园",
+          "博物馆",
+          "火车站"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "许晴问一位老人怎么走。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "到第几个路口往右拐？",
+        "options": [
+          "第一个",
+          "第二个",
+          "第三个",
+          "第四个"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "过桥以后，博物馆在右边。",
+        "answer": false,
+        "explanation": "过桥以后，博物馆在左边。"
+      },
+      {
+        "type": "mc",
+        "prompt": "走路去博物馆要多长时间？",
+        "options": [
+          "十五分钟",
+          "五分钟",
+          "十分钟",
+          "半个小时"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "老人说博物馆门口怎么样？",
+        "options": [
+          "没有人",
+          "很安静",
+          "在修路",
+          "人很多"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-08",
+    "level": "A1",
+    "title": "这个周末你干什么",
+    "topic": "Free time",
+    "body": "星期五下午，周婷和吴昊在学校门口见面。他们是南京一所大学的同学。\n\n— 吴昊，这个周末你有什么打算？\n— 星期六上午我要去打羽毛球。下午我想在宿舍睡觉，太累了。你呢？\n— 我想去玄武湖骑自行车。天气预报说星期六是晴天。\n— 不错啊！星期天你有空吗？\n— 星期天上午我要去图书馆学习，下午有空。\n— 我们一起去看电影吧？新的动画片很好看。\n— 好啊！几点见面？\n— 下午三点，在新街口地铁站，怎么样？\n— 没问题。看电影以后，我们去吃鸭血粉丝汤吧，我请客。\n— 太好了！那星期天见！",
+    "glossary": [
+      {
+        "term": "南京",
+        "translation": "Nánjīng · Nanjing (city)"
+      },
+      {
+        "term": "打算",
+        "translation": "dǎsuan · plan"
+      },
+      {
+        "term": "羽毛球",
+        "translation": "yǔmáoqiú · badminton"
+      },
+      {
+        "term": "玄武湖",
+        "translation": "Xuánwǔ Hú · Xuanwu Lake"
+      },
+      {
+        "term": "自行车",
+        "translation": "zìxíngchē · bicycle"
+      },
+      {
+        "term": "天气预报",
+        "translation": "tiānqì yùbào · weather forecast"
+      },
+      {
+        "term": "晴天",
+        "translation": "qíngtiān · sunny day"
+      },
+      {
+        "term": "有空",
+        "translation": "yǒukòng · to be free, to have time"
+      },
+      {
+        "term": "图书馆",
+        "translation": "túshūguǎn · library"
+      },
+      {
+        "term": "地铁站",
+        "translation": "dìtiězhàn · metro station"
+      },
+      {
+        "term": "请客",
+        "translation": "qǐngkè · to treat someone, to pay"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "星期六上午吴昊要做什么？",
+        "options": [
+          "打羽毛球",
+          "睡觉",
+          "去图书馆",
+          "骑自行车"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "天气预报说星期六下雨。",
+        "answer": false,
+        "explanation": "天气预报说星期六是晴天。"
+      },
+      {
+        "type": "mc",
+        "prompt": "周婷星期天上午要去哪儿？",
+        "options": [
+          "玄武湖",
+          "电影院",
+          "图书馆",
+          "地铁站"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "吴昊星期六下午想在宿舍睡觉。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "他们星期天下午几点见面？",
+        "options": [
+          "一点",
+          "两点",
+          "四点",
+          "三点"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "看电影以后，谁请客？",
+        "options": [
+          "周婷",
+          "吴昊",
+          "他们的老师",
+          "周婷的妈妈"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-09",
+    "level": "A1",
+    "title": "在医院看病",
+    "topic": "Health",
+    "body": "黄丽住在青岛。今天早上起床的时候，她觉得很不舒服，头疼，嗓子也疼。她量一下体温，三十八度五。她给公司打电话请假，然后去医院。\n\n在医院，她先在手机上挂号，然后在诊室外面等。十点，医生叫她的名字。\n\n— 你哪儿不舒服？\n— 医生，我头很疼，还发烧，嗓子也很疼。\n— 咳嗽吗？\n— 有一点儿咳嗽。\n— 我看看你的嗓子。你感冒了，不要紧。我给你开点儿药，一天吃三次，饭后吃。\n— 我明天能上班吗？\n— 最好在家休息两天，多喝热水。\n\n黄丽拿着药回家。她给妈妈发微信：“我感冒了，在家休息，别担心。”",
+    "glossary": [
+      {
+        "term": "青岛",
+        "translation": "Qīngdǎo · Qingdao (city)"
+      },
+      {
+        "term": "嗓子",
+        "translation": "sǎngzi · throat"
+      },
+      {
+        "term": "体温",
+        "translation": "tǐwēn · body temperature"
+      },
+      {
+        "term": "请假",
+        "translation": "qǐngjià · to ask for time off"
+      },
+      {
+        "term": "挂号",
+        "translation": "guàhào · to register (at a hospital)"
+      },
+      {
+        "term": "诊室",
+        "translation": "zhěnshì · consulting room"
+      },
+      {
+        "term": "发烧",
+        "translation": "fāshāo · to have a fever"
+      },
+      {
+        "term": "咳嗽",
+        "translation": "késou · to cough"
+      },
+      {
+        "term": "感冒",
+        "translation": "gǎnmào · to have a cold"
+      },
+      {
+        "term": "不要紧",
+        "translation": "bú yàojǐn · it's not serious"
+      },
+      {
+        "term": "微信",
+        "translation": "Wēixìn · WeChat"
+      },
+      {
+        "term": "担心",
+        "translation": "dānxīn · to worry"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "黄丽的体温是多少？",
+        "options": [
+          "三十七度",
+          "三十七度五",
+          "三十八度",
+          "三十八度五"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "黄丽在手机上挂号。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "黄丽哪儿不舒服？",
+        "options": [
+          "头疼、发烧、嗓子疼",
+          "肚子疼",
+          "牙疼",
+          "腿疼"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "医生说黄丽怎么了？",
+        "options": [
+          "她太累了",
+          "她感冒了",
+          "她吃坏了东西",
+          "她没有病"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "药一天吃几次？",
+        "options": [
+          "一次",
+          "两次",
+          "三次",
+          "四次"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "医生说黄丽明天可以上班。",
+        "answer": false,
+        "explanation": "医生说她最好在家休息两天。"
+      }
+    ]
+  },
+  {
+    "id": "a1-10",
+    "level": "A1",
+    "title": "坐高铁去桂林",
+    "topic": "Travel",
+    "body": "孙悦住在广州。她的好朋友高欣在桂林工作。高欣常常说：“你来桂林玩儿吧！”这个周末孙悦有空，所以她想去看高欣。\n\n星期六早上，孙悦坐地铁去广州南站。她在手机上买高铁票，九点二十的车，二等座，一百多块。在车站，她用身份证进站，很方便。\n\n高铁很快，也很舒服。车上很安静，有的人看书，有的人睡觉。孙悦坐在窗户旁边，外面有很多山和小河，非常漂亮。她吃一个面包，喝一瓶水。\n\n十二点左右，高铁到了桂林。高欣在出站口等她。两个朋友见面，都很高兴。高欣说：“走，我们先去吃桂林米粉！”",
+    "glossary": [
+      {
+        "term": "广州",
+        "translation": "Guǎngzhōu · Guangzhou (city)"
+      },
+      {
+        "term": "桂林",
+        "translation": "Guìlín · Guilin (city)"
+      },
+      {
+        "term": "高铁",
+        "translation": "gāotiě · high-speed train"
+      },
+      {
+        "term": "二等座",
+        "translation": "èrděngzuò · second-class seat"
+      },
+      {
+        "term": "身份证",
+        "translation": "shēnfènzhèng · ID card"
+      },
+      {
+        "term": "进站",
+        "translation": "jìnzhàn · to enter the station"
+      },
+      {
+        "term": "安静",
+        "translation": "ānjìng · quiet"
+      },
+      {
+        "term": "漂亮",
+        "translation": "piàoliang · beautiful"
+      },
+      {
+        "term": "左右",
+        "translation": "zuǒyòu · about, around"
+      },
+      {
+        "term": "出站口",
+        "translation": "chūzhànkǒu · station exit"
+      },
+      {
+        "term": "米粉",
+        "translation": "mǐfěn · rice noodles"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "高欣在哪儿工作？",
+        "options": [
+          "广州",
+          "桂林",
+          "深圳",
+          "南宁"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "孙悦在车站买高铁票。",
+        "answer": false,
+        "explanation": "她在手机上买高铁票。"
+      },
+      {
+        "type": "mc",
+        "prompt": "孙悦的车是几点的？",
+        "options": [
+          "八点二十",
+          "九点",
+          "九点二十",
+          "十点二十"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "高铁上很安静。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "孙悦在车上吃什么？",
+        "options": [
+          "一个面包",
+          "一碗米粉",
+          "一个苹果",
+          "两个包子"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "高欣在哪儿等孙悦？",
+        "options": [
+          "在酒店",
+          "在饭馆",
+          "在地铁站",
+          "在出站口"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-11",
+    "level": "A1",
+    "title": "平江路上的茶馆",
+    "topic": "Food and drink",
+    "body": "何雪和弟弟何亮今天在苏州玩儿。上午他们在平江路走了很久，有点儿累了。路边有一家小茶馆，很安静，他们就进去坐坐。\n\n服务员拿来菜单，问：“两位好，想喝点儿什么？”\n何雪看看菜单，说：“我要一杯碧螺春。”\n何亮不喜欢喝茶。他问：“你们有果汁吗？”\n服务员说：“有，西瓜汁和橙汁都有。”\n何亮说：“那我要一杯西瓜汁，要冰的。”\n服务员又问：“要不要吃点儿点心？我们的桂花糕很好吃。”\n何雪说：“好，来一份桂花糕，再来一笼小笼包。”\n\n茶很香，桂花糕很甜，小笼包也很好吃。一共九十八块。何亮说：“姐，今天我请你！”何雪笑着说：“好啊，谢谢弟弟！”",
+    "glossary": [
+      {
+        "term": "苏州",
+        "translation": "Sūzhōu · Suzhou (city)"
+      },
+      {
+        "term": "平江路",
+        "translation": "Píngjiāng Lù · Pingjiang Road"
+      },
+      {
+        "term": "茶馆",
+        "translation": "cháguǎn · teahouse"
+      },
+      {
+        "term": "服务员",
+        "translation": "fúwùyuán · waiter, waitress"
+      },
+      {
+        "term": "菜单",
+        "translation": "càidān · menu"
+      },
+      {
+        "term": "碧螺春",
+        "translation": "Bìluóchūn · Biluochun (a green tea)"
+      },
+      {
+        "term": "果汁",
+        "translation": "guǒzhī · juice"
+      },
+      {
+        "term": "点心",
+        "translation": "diǎnxin · snacks, pastries"
+      },
+      {
+        "term": "桂花糕",
+        "translation": "guìhuāgāo · osmanthus cake"
+      },
+      {
+        "term": "小笼包",
+        "translation": "xiǎolóngbāo · small steamed soup dumplings"
+      },
+      {
+        "term": "一共",
+        "translation": "yígòng · in total"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "何雪和弟弟在哪个城市？",
+        "options": [
+          "杭州",
+          "苏州",
+          "南京",
+          "上海"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "茶馆里很吵。",
+        "answer": false,
+        "explanation": "茶馆很安静。"
+      },
+      {
+        "type": "mc",
+        "prompt": "何雪要喝什么？",
+        "options": [
+          "西瓜汁",
+          "橙汁",
+          "碧螺春",
+          "咖啡"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "何亮不喜欢喝茶。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "服务员说什么点心很好吃？",
+        "options": [
+          "小笼包",
+          "月饼",
+          "包子",
+          "桂花糕"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "谁付钱？",
+        "options": [
+          "何雪",
+          "何亮",
+          "服务员",
+          "他们的妈妈"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-12",
+    "level": "A1",
+    "title": "我的小狗土豆",
+    "topic": "Animals",
+    "body": "我叫梁雨，住在大连。我家有一只小狗，它叫土豆。土豆今年三岁，是一只柯基。它的腿很短，耳朵很大，身上是黄色和白色的。很多人看到它都说：“好可爱啊！”\n\n土豆很聪明，也很馋。它最喜欢吃鸡肉和苹果。我吃饭的时候，它总是坐在我旁边，看着我的碗。\n\n每天早上七点和晚上七点，我都带土豆出去散步。我们常常去海边，那儿有很多别的狗。土豆喜欢和它们一起跑，可是它跑一会儿就累了。\n\n晚上，土豆睡在我的床旁边。它不喜欢洗澡，每次洗澡都想跑。我很爱我的小狗，它是我最好的朋友。",
+    "glossary": [
+      {
+        "term": "大连",
+        "translation": "Dàlián · Dalian (city)"
+      },
+      {
+        "term": "柯基",
+        "translation": "kējī · corgi"
+      },
+      {
+        "term": "耳朵",
+        "translation": "ěrduo · ear"
+      },
+      {
+        "term": "黄色",
+        "translation": "huángsè · yellow"
+      },
+      {
+        "term": "可爱",
+        "translation": "kě'ài · cute"
+      },
+      {
+        "term": "聪明",
+        "translation": "cōngming · clever"
+      },
+      {
+        "term": "鸡肉",
+        "translation": "jīròu · chicken (meat)"
+      },
+      {
+        "term": "总是",
+        "translation": "zǒngshì · always"
+      },
+      {
+        "term": "散步",
+        "translation": "sànbù · to go for a walk"
+      },
+      {
+        "term": "海边",
+        "translation": "hǎibiān · seaside"
+      },
+      {
+        "term": "别的",
+        "translation": "biéde · other"
+      },
+      {
+        "term": "洗澡",
+        "translation": "xǐzǎo · to have a bath"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "土豆今年几岁？",
+        "options": [
+          "一岁",
+          "两岁",
+          "三岁",
+          "五岁"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "土豆的腿很长。",
+        "answer": false,
+        "explanation": "土豆是柯基，腿很短。"
+      },
+      {
+        "type": "mc",
+        "prompt": "土豆最喜欢吃什么？",
+        "options": [
+          "鱼和米饭",
+          "鸡肉和苹果",
+          "骨头和面包",
+          "牛肉和西瓜"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "梁雨常常带土豆去哪儿散步？",
+        "options": [
+          "山上",
+          "学校",
+          "公园",
+          "海边"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "土豆很喜欢洗澡。",
+        "answer": false,
+        "explanation": "土豆不喜欢洗澡，每次洗澡都想跑。"
+      },
+      {
+        "type": "mc",
+        "prompt": "晚上土豆睡在哪儿？",
+        "options": [
+          "在梁雨的床旁边",
+          "在沙发上",
+          "在阳台上",
+          "在门口"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-13",
+    "level": "A1",
+    "title": "北京的四季",
+    "topic": "Weather and seasons",
+    "body": "我叫宋佳，我是北京人。北京有四个季节：春天、夏天、秋天和冬天。\n\n北京的春天不长，从三月到五月。天气慢慢暖和，公园里有很多花。可是春天风很大，有时候还有沙尘。\n\n夏天很热，七月常常有三十五度。夏天也是雨季，下午常常下大雨。很多人晚上去公园散步，吃西瓜，喝冰啤酒。\n\n秋天是北京最好的季节。天很蓝，不冷也不热。十月，香山的红叶非常漂亮，很多人去爬山。\n\n冬天很冷，也很干燥，很少下雪。最冷的时候有零下十度。冬天大家都喜欢吃火锅。我最喜欢秋天，你呢？你喜欢哪个季节？",
+    "glossary": [
+      {
+        "term": "季节",
+        "translation": "jìjié · season"
+      },
+      {
+        "term": "暖和",
+        "translation": "nuǎnhuo · warm"
+      },
+      {
+        "term": "沙尘",
+        "translation": "shāchén · sand and dust"
+      },
+      {
+        "term": "雨季",
+        "translation": "yǔjì · rainy season"
+      },
+      {
+        "term": "香山",
+        "translation": "Xiāng Shān · Fragrant Hills"
+      },
+      {
+        "term": "红叶",
+        "translation": "hóngyè · red autumn leaves"
+      },
+      {
+        "term": "爬山",
+        "translation": "páshān · to climb a mountain, to hike"
+      },
+      {
+        "term": "干燥",
+        "translation": "gānzào · dry"
+      },
+      {
+        "term": "下雪",
+        "translation": "xiàxuě · to snow"
+      },
+      {
+        "term": "零下",
+        "translation": "língxià · below zero"
+      },
+      {
+        "term": "火锅",
+        "translation": "huǒguō · hotpot"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "北京的春天有什么问题？",
+        "options": [
+          "风很大",
+          "很热",
+          "下很多雪",
+          "天天下雨"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "北京的夏天常常下大雨。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "宋佳觉得北京最好的季节是哪个？",
+        "options": [
+          "春天",
+          "夏天",
+          "秋天",
+          "冬天"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "十月人们去香山看什么？",
+        "options": [
+          "雪",
+          "红叶",
+          "花",
+          "大海"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "北京的冬天常常下雪。",
+        "answer": false,
+        "explanation": "北京的冬天很干燥，很少下雪。"
+      },
+      {
+        "type": "mc",
+        "prompt": "冬天大家喜欢吃什么？",
+        "options": [
+          "西瓜",
+          "饺子",
+          "冰淇淋",
+          "火锅"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-14",
+    "level": "A1",
+    "title": "下班去买鞋",
+    "topic": "Shopping and clothes",
+    "body": "罗晨在合肥一家公司上班。她的鞋太旧了，所以今天下班以后，她去公司旁边的商场买新鞋。\n\n她去一家鞋店。店员很热情：“您好，您想买什么鞋？”\n罗晨说：“我想买一双运动鞋，上班走路穿。”\n店员说：“这双白色的怎么样？今天打八折。”\n罗晨看看，很喜欢。她问：“我能试试吗？”\n店员说：“当然可以。您穿多大的？”\n罗晨说：“三十七号。”\n\n她试了试，有点儿小。店员拿来一双三十八号的。这双很合适，也很舒服。\n罗晨问：“多少钱？”\n店员说：“原价四百块，打八折，三百二。”\n罗晨说：“好，我要这双。”\n\n罗晨扫码付钱。她穿着新鞋回家，觉得走路很轻松。",
+    "glossary": [
+      {
+        "term": "合肥",
+        "translation": "Héféi · Hefei (city)"
+      },
+      {
+        "term": "鞋店",
+        "translation": "xiédiàn · shoe shop"
+      },
+      {
+        "term": "店员",
+        "translation": "diànyuán · shop assistant"
+      },
+      {
+        "term": "热情",
+        "translation": "rèqíng · warm, friendly"
+      },
+      {
+        "term": "运动鞋",
+        "translation": "yùndòngxié · trainers, sneakers"
+      },
+      {
+        "term": "打八折",
+        "translation": "dǎ bā zhé · to give 20% off"
+      },
+      {
+        "term": "试试",
+        "translation": "shìshi · to try"
+      },
+      {
+        "term": "当然",
+        "translation": "dāngrán · of course"
+      },
+      {
+        "term": "合适",
+        "translation": "héshì · fitting, the right size"
+      },
+      {
+        "term": "原价",
+        "translation": "yuánjià · original price"
+      },
+      {
+        "term": "轻松",
+        "translation": "qīngsōng · light, relaxed"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "罗晨什么时候去买鞋？",
+        "options": [
+          "上班以前",
+          "中午",
+          "下班以后",
+          "星期天"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "罗晨想买一双运动鞋。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "最后哪个号的鞋很合适？",
+        "options": [
+          "三十六号",
+          "三十七号",
+          "三十九号",
+          "三十八号"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "三十七号的鞋有点儿大。",
+        "answer": false,
+        "explanation": "三十七号的鞋有点儿小。"
+      },
+      {
+        "type": "mc",
+        "prompt": "这双鞋最后多少钱？",
+        "options": [
+          "四百块",
+          "三百二",
+          "三百块",
+          "二百八"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "罗晨怎么付钱？",
+        "options": [
+          "扫码",
+          "用现金",
+          "用银行卡",
+          "她不付钱"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-15",
+    "level": "A1",
+    "title": "奶奶八十岁了",
+    "topic": "Family and celebrations",
+    "body": "今天是奶奶的八十岁生日。奶奶住在绍兴，我们全家都回来给她过生日。叔叔一家从上海来，姑姑一家从杭州来，一共十五个人。\n\n奶奶家很热闹。大人们在厨房做饭，孩子们在院子里玩儿。中午十二点，大家坐在两张大桌子旁边。桌子上有鱼、虾、鸡、红烧肉，还有一大碗长寿面。爸爸说：“生日要吃长寿面，祝奶奶长命百岁！”\n\n吃饭以后，表妹拿来一个大蛋糕。大家一起唱生日歌。奶奶吹蜡烛的时候，一直在笑。孙子孙女们给奶奶送礼物，奶奶给每个孩子一个红包。\n\n奶奶说：“我最高兴的事，就是大家都在一起。”",
+    "glossary": [
+      {
+        "term": "绍兴",
+        "translation": "Shàoxīng · Shaoxing (city)"
+      },
+      {
+        "term": "叔叔",
+        "translation": "shūshu · uncle (father's younger brother)"
+      },
+      {
+        "term": "姑姑",
+        "translation": "gūgu · aunt (father's sister)"
+      },
+      {
+        "term": "热闹",
+        "translation": "rènao · lively, bustling"
+      },
+      {
+        "term": "院子",
+        "translation": "yuànzi · courtyard"
+      },
+      {
+        "term": "红烧肉",
+        "translation": "hóngshāoròu · red-braised pork"
+      },
+      {
+        "term": "长寿面",
+        "translation": "chángshòumiàn · longevity noodles"
+      },
+      {
+        "term": "长命百岁",
+        "translation": "chángmìng bǎisuì · may you live to a hundred"
+      },
+      {
+        "term": "表妹",
+        "translation": "biǎomèi · younger female cousin"
+      },
+      {
+        "term": "蜡烛",
+        "translation": "làzhú · candle"
+      },
+      {
+        "term": "礼物",
+        "translation": "lǐwù · present, gift"
+      },
+      {
+        "term": "红包",
+        "translation": "hóngbāo · red envelope (with money)"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "奶奶今年多大？",
+        "options": [
+          "六十岁",
+          "七十岁",
+          "八十岁",
+          "九十岁"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "一共有多少人给奶奶过生日？",
+        "options": [
+          "十五个",
+          "五个",
+          "十个",
+          "二十个"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "孩子们在厨房做饭。",
+        "answer": false,
+        "explanation": "大人们在厨房做饭，孩子们在院子里玩儿。"
+      },
+      {
+        "type": "mc",
+        "prompt": "爸爸说生日要吃什么？",
+        "options": [
+          "饺子",
+          "长寿面",
+          "月饼",
+          "包子"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "奶奶给每个孩子一个红包。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "奶奶最高兴的是什么？",
+        "options": [
+          "大蛋糕",
+          "很多礼物",
+          "红烧肉",
+          "大家都在一起"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-16",
+    "level": "A1",
+    "title": "我在厦门学汉语",
+    "topic": "School and education",
+    "body": "我叫安娜，是俄罗斯人，今年二十三岁。现在我在厦门学汉语。我的学校在海边，很漂亮。\n\n我们班有十二个学生，有韩国人、泰国人、法国人、巴西人，也有别的国家的人。我们上课都说汉语。我们的老师姓陈，她很年轻，也很有耐心。\n\n我们星期一到星期五上课，每天上午有四节课：口语、听力、阅读和汉字。我最喜欢口语课，因为可以和同学聊天。汉字很难，我每天晚上都写半个小时。\n\n下午没有课，我常常去市场买水果，和卖水果的阿姨说汉语。阿姨说话很快，我不懂的时候，她就慢慢地说。我觉得学汉语很有意思！",
+    "glossary": [
+      {
+        "term": "俄罗斯",
+        "translation": "Éluósī · Russia"
+      },
+      {
+        "term": "厦门",
+        "translation": "Xiàmén · Xiamen (city)"
+      },
+      {
+        "term": "汉语",
+        "translation": "Hànyǔ · Chinese (language)"
+      },
+      {
+        "term": "年轻",
+        "translation": "niánqīng · young"
+      },
+      {
+        "term": "耐心",
+        "translation": "nàixīn · patient"
+      },
+      {
+        "term": "口语",
+        "translation": "kǒuyǔ · speaking, spoken language"
+      },
+      {
+        "term": "听力",
+        "translation": "tīnglì · listening"
+      },
+      {
+        "term": "阅读",
+        "translation": "yuèdú · reading"
+      },
+      {
+        "term": "汉字",
+        "translation": "Hànzì · Chinese characters"
+      },
+      {
+        "term": "市场",
+        "translation": "shìchǎng · market"
+      },
+      {
+        "term": "阿姨",
+        "translation": "āyí · auntie (polite address)"
+      },
+      {
+        "term": "有意思",
+        "translation": "yǒu yìsi · interesting"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "安娜是哪国人？",
+        "options": [
+          "法国人",
+          "俄罗斯人",
+          "韩国人",
+          "巴西人"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "安娜的班有二十个学生。",
+        "answer": false,
+        "explanation": "她的班有十二个学生。"
+      },
+      {
+        "type": "mc",
+        "prompt": "陈老师怎么样？",
+        "options": [
+          "很年轻，很有耐心",
+          "很老，很严格",
+          "说话很快",
+          "不说汉语"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "安娜最喜欢什么课？",
+        "options": [
+          "听力",
+          "阅读",
+          "汉字",
+          "口语"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "安娜每天晚上写汉字。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "下午安娜常常做什么？",
+        "options": [
+          "上课",
+          "去市场买水果",
+          "去海边游泳",
+          "睡觉"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-17",
+    "level": "A1",
+    "title": "我是理发师",
+    "topic": "Work",
+    "body": "我叫唐亮，今年二十八岁，是一名理发师。我在重庆的一条老街上工作。我们的理发店很小，只有三个人：老板、一个洗头的小妹和我。\n\n我每天早上九点半开门，晚上八点下班。星期二店里人少，我休息。周末人最多，我常常没有时间吃午饭。\n\n来我们店的客人有老人，有学生，也有上班的年轻人。老人喜欢短头发，年轻人常常想染头发。剪头发一次三十块，染头发两百多块。很多老客人每个月都来。\n\n我很喜欢我的工作。客人常常和我聊天，很开心。我的梦想是以后开一家自己的理发店。",
+    "glossary": [
+      {
+        "term": "理发师",
+        "translation": "lǐfàshī · hairdresser"
+      },
+      {
+        "term": "重庆",
+        "translation": "Chóngqìng · Chongqing (city)"
+      },
+      {
+        "term": "老街",
+        "translation": "lǎojiē · old street"
+      },
+      {
+        "term": "理发店",
+        "translation": "lǐfàdiàn · hairdresser's, barber's"
+      },
+      {
+        "term": "老板",
+        "translation": "lǎobǎn · boss, owner"
+      },
+      {
+        "term": "洗头",
+        "translation": "xǐtóu · to wash hair"
+      },
+      {
+        "term": "客人",
+        "translation": "kèrén · customer, guest"
+      },
+      {
+        "term": "年轻人",
+        "translation": "niánqīngrén · young people"
+      },
+      {
+        "term": "头发",
+        "translation": "tóufa · hair"
+      },
+      {
+        "term": "梦想",
+        "translation": "mèngxiǎng · dream"
+      },
+      {
+        "term": "自己",
+        "translation": "zìjǐ · one's own"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "唐亮在哪个城市工作？",
+        "options": [
+          "成都",
+          "重庆",
+          "武汉",
+          "贵阳"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "唐亮的理发店很大。",
+        "answer": false,
+        "explanation": "理发店很小，只有三个人。"
+      },
+      {
+        "type": "mc",
+        "prompt": "唐亮星期几休息？",
+        "options": [
+          "星期一",
+          "星期六",
+          "星期二",
+          "星期天"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "剪头发一次多少钱？",
+        "options": [
+          "二十块",
+          "五十块",
+          "两百块",
+          "三十块"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "年轻人常常想染头发。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "唐亮的梦想是什么？",
+        "options": [
+          "开一家自己的理发店",
+          "去北京工作",
+          "当公交车司机",
+          "学英语"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-18",
+    "level": "A1",
+    "title": "春城来信",
+    "topic": "Communication",
+    "body": "小超：\n\n你好！好久没联系了，你最近怎么样？\n\n上个月我来昆明工作了。昆明是个很舒服的城市，一年四季都不冷也不热，大家都叫它“春城”。\n\n我的新家在翠湖旁边，是一个小房子，有一个卧室、一个客厅和一个小厨房。房子在三楼，没有电梯，可是楼不高，没关系。我最喜欢的是阳台，阳台上有很多花。房租一个月两千块，不太贵。\n\n我的邻居是一位老奶奶，她很热情，常常给我送她做的米线。\n\n你什么时候有空？欢迎你来昆明玩儿！你可以住在我家，我带你去吃过桥米线。\n\n祝好！\n韩冰\n三月十二日",
+    "glossary": [
+      {
+        "term": "联系",
+        "translation": "liánxì · to contact, to be in touch"
+      },
+      {
+        "term": "昆明",
+        "translation": "Kūnmíng · Kunming (city)"
+      },
+      {
+        "term": "城市",
+        "translation": "chéngshì · city"
+      },
+      {
+        "term": "春城",
+        "translation": "Chūnchéng · Spring City (name for Kunming)"
+      },
+      {
+        "term": "翠湖",
+        "translation": "Cuì Hú · Green Lake (in Kunming)"
+      },
+      {
+        "term": "没关系",
+        "translation": "méi guānxi · it doesn't matter"
+      },
+      {
+        "term": "房租",
+        "translation": "fángzū · rent"
+      },
+      {
+        "term": "邻居",
+        "translation": "línjū · neighbour"
+      },
+      {
+        "term": "米线",
+        "translation": "mǐxiàn · rice noodles"
+      },
+      {
+        "term": "欢迎",
+        "translation": "huānyíng · to welcome"
+      },
+      {
+        "term": "过桥米线",
+        "translation": "guòqiáo mǐxiàn · crossing-the-bridge noodles"
+      },
+      {
+        "term": "祝好",
+        "translation": "zhù hǎo · best wishes"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "韩冰现在在哪个城市？",
+        "options": [
+          "沈阳",
+          "昆明",
+          "大理",
+          "丽江"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "昆明一年四季都很冷。",
+        "answer": false,
+        "explanation": "昆明一年四季都不冷也不热。"
+      },
+      {
+        "type": "mc",
+        "prompt": "韩冰的新家在几楼？",
+        "options": [
+          "一楼",
+          "二楼",
+          "三楼",
+          "五楼"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "韩冰最喜欢新家的什么地方？",
+        "options": [
+          "厨房",
+          "卧室",
+          "客厅",
+          "阳台"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "房租一个月多少钱？",
+        "options": [
+          "两千块",
+          "一千块",
+          "三千块",
+          "两百块"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "邻居老奶奶常常给韩冰送米线。",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "id": "a1-19",
+    "level": "A1",
+    "title": "在三亚住酒店",
+    "topic": "Travel",
+    "body": "邓洁和丈夫曹阳来三亚度假。下午三点，他们到了海边的一家酒店。\n\n— 您好，欢迎光临！请问有预订吗？\n— 有，我们在网上订了一个房间，名字是曹阳。\n— 好的，请给我看一下你们的身份证。\n— 给您。\n— 谢谢。您订的是一个大床房，三个晚上，对吗？\n— 对。房间能看到海吗？\n— 能。您的房间在八楼，八一六号。早饭在一楼餐厅，早上七点到十点。\n— 无线网络的密码是多少？\n— 就是房间号，八一六。这是你们的房卡。\n— 谢谢！\n— 不客气，祝你们玩儿得开心！\n\n邓洁打开房间的窗户，外面就是大海。她高兴地说：“太美了！”",
+    "glossary": [
+      {
+        "term": "丈夫",
+        "translation": "zhàngfu · husband"
+      },
+      {
+        "term": "三亚",
+        "translation": "Sānyà · Sanya (city)"
+      },
+      {
+        "term": "度假",
+        "translation": "dùjià · to go on holiday"
+      },
+      {
+        "term": "欢迎光临",
+        "translation": "huānyíng guānglín · welcome (to a shop or hotel)"
+      },
+      {
+        "term": "预订",
+        "translation": "yùdìng · booking, reservation"
+      },
+      {
+        "term": "大床房",
+        "translation": "dàchuángfáng · double room"
+      },
+      {
+        "term": "餐厅",
+        "translation": "cāntīng · restaurant, dining room"
+      },
+      {
+        "term": "无线网络",
+        "translation": "wúxiàn wǎngluò · wireless internet"
+      },
+      {
+        "term": "密码",
+        "translation": "mìmǎ · password"
+      },
+      {
+        "term": "房卡",
+        "translation": "fángkǎ · room key card"
+      },
+      {
+        "term": "大海",
+        "translation": "dàhǎi · sea"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "邓洁和曹阳在哪儿度假？",
+        "options": [
+          "厦门",
+          "三亚",
+          "青岛",
+          "大连"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "他们没有预订房间。",
+        "answer": false,
+        "explanation": "他们在网上订了一个房间。"
+      },
+      {
+        "type": "mc",
+        "prompt": "他们住几个晚上？",
+        "options": [
+          "一个",
+          "两个",
+          "三个",
+          "四个"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "他们的房间是几号？",
+        "options": [
+          "六一八",
+          "八六一",
+          "一八六",
+          "八一六"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "早饭在一楼餐厅。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "无线网络的密码是什么？",
+        "options": [
+          "房间号",
+          "酒店的名字",
+          "八八八八",
+          "曹阳的名字"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-20",
+    "level": "A1",
+    "title": "星期六去赶集",
+    "topic": "Shopping",
+    "body": "小明的外婆住在贵州的一个小镇。小镇每个星期六都有集市。这个暑假，小明住在外婆家。星期六早上七点，外婆说：“小明，起床，我们去赶集！”\n\n集市上人很多，很热闹。有人卖菜，有人卖水果，还有人卖小鸡和小鸭。小明第一次看到这么多东西，觉得很有意思。\n\n外婆先买菜。她问：“这个白菜多少钱一斤？”\n卖菜的大叔说：“两块。”\n外婆问：“一块五，行不行？”\n大叔说：“行，行，给您吧。”\n\n外婆还买了一只鸡和一些辣椒。小明想要一个糖人，外婆给他买了一个小猴子。中午，他们一人吃一碗米粉，然后提着很多东西回家。小明说：“外婆，下个星期六我还想来！”",
+    "glossary": [
+      {
+        "term": "贵州",
+        "translation": "Guìzhōu · Guizhou (province)"
+      },
+      {
+        "term": "小镇",
+        "translation": "xiǎozhèn · small town"
+      },
+      {
+        "term": "集市",
+        "translation": "jíshì · country market, fair"
+      },
+      {
+        "term": "暑假",
+        "translation": "shǔjià · summer holiday"
+      },
+      {
+        "term": "赶集",
+        "translation": "gǎnjí · to go to market"
+      },
+      {
+        "term": "热闹",
+        "translation": "rènao · lively, bustling"
+      },
+      {
+        "term": "白菜",
+        "translation": "báicài · Chinese cabbage"
+      },
+      {
+        "term": "大叔",
+        "translation": "dàshū · uncle (friendly address)"
+      },
+      {
+        "term": "辣椒",
+        "translation": "làjiāo · chilli pepper"
+      },
+      {
+        "term": "糖人",
+        "translation": "tángrén · sugar figure (sweet)"
+      },
+      {
+        "term": "猴子",
+        "translation": "hóuzi · monkey"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "小镇什么时候有集市？",
+        "options": [
+          "每天",
+          "每个星期六",
+          "每个星期天",
+          "每个月一次"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "集市上人很少。",
+        "answer": false,
+        "explanation": "集市上人很多，很热闹。"
+      },
+      {
+        "type": "mc",
+        "prompt": "白菜最后多少钱一斤？",
+        "options": [
+          "一块",
+          "两块",
+          "两块五",
+          "一块五"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "外婆没有买什么？",
+        "options": [
+          "鱼",
+          "白菜",
+          "鸡",
+          "辣椒"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "外婆给小明买了一个糖人。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "中午他们吃什么？",
+        "options": [
+          "面条",
+          "饺子",
+          "米粉",
+          "包子"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-21",
+    "level": "A1",
+    "title": "我的房间有点儿乱",
+    "topic": "Home",
+    "body": "我叫谢宇，今年十五岁，上初三。我家在南宁，我有自己的房间。我的房间不大，可是我很喜欢。\n\n门的右边是我的床，床上有一只大熊猫，是我小时候的玩具。床旁边是书桌，书桌上有一台电脑、一盏台灯和很多书。我每天晚上在这儿写作业。墙上有一张篮球明星的海报，还有一张中国地图。\n\n窗户前面有一把吉他。我在学弹吉他，每个周末练习两个小时。\n\n妈妈常常说：“你的房间太乱了！”是的，我的衣服常常在椅子上，袜子有时候在床下面。星期天我会打扫房间，可是到了星期一，它又乱了。",
+    "glossary": [
+      {
+        "term": "初三",
+        "translation": "chūsān · ninth grade (third year of middle school)"
+      },
+      {
+        "term": "南宁",
+        "translation": "Nánníng · Nanning (city)"
+      },
+      {
+        "term": "大熊猫",
+        "translation": "dàxióngmāo · giant panda"
+      },
+      {
+        "term": "玩具",
+        "translation": "wánjù · toy"
+      },
+      {
+        "term": "书桌",
+        "translation": "shūzhuō · desk"
+      },
+      {
+        "term": "台灯",
+        "translation": "táidēng · desk lamp"
+      },
+      {
+        "term": "写作业",
+        "translation": "xiě zuòyè · to do homework"
+      },
+      {
+        "term": "海报",
+        "translation": "hǎibào · poster"
+      },
+      {
+        "term": "吉他",
+        "translation": "jítā · guitar"
+      },
+      {
+        "term": "练习",
+        "translation": "liànxí · to practise"
+      },
+      {
+        "term": "袜子",
+        "translation": "wàzi · socks"
+      },
+      {
+        "term": "打扫",
+        "translation": "dǎsǎo · to clean"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "谢宇今年多大？",
+        "options": [
+          "十三岁",
+          "十四岁",
+          "十五岁",
+          "十六岁"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "谢宇的房间很大。",
+        "answer": false,
+        "explanation": "他的房间不大。"
+      },
+      {
+        "type": "mc",
+        "prompt": "床上有什么？",
+        "options": [
+          "一只大熊猫玩具",
+          "一台电脑",
+          "一把吉他",
+          "很多衣服"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "谢宇每天晚上在书桌旁边做什么？",
+        "options": [
+          "弹吉他",
+          "写作业",
+          "看电视",
+          "睡觉"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "谢宇每个周末练习两个小时吉他。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "妈妈常常说他的房间怎么样？",
+        "options": [
+          "太小了",
+          "太冷了",
+          "太干净了",
+          "太乱了"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-22",
+    "level": "A1",
+    "title": "星期六的足球赛",
+    "topic": "Sport",
+    "body": "豆豆今年九岁，在沈阳上小学。他是学校足球队的队员。这个星期六上午，他们有一场比赛。\n\n早上八点，爸爸妈妈带豆豆去体育场。豆豆穿着红色的球衣，号码是七号。对面的球队穿蓝色的球衣。体育场旁边有很多家长，他们都很兴奋。\n\n九点，比赛开始。上半场，蓝队进了一个球，豆豆有点儿着急。张教练说：“别着急，慢慢来！”下半场，豆豆的好朋友小军也进了一个球。一比一！\n\n最后五分钟，球到了豆豆的脚下。他跑啊跑，用力一踢——进了！二比一，红队赢了！妈妈在旁边又叫又跳。比赛以后，教练请孩子们吃冰淇淋。",
+    "glossary": [
+      {
+        "term": "沈阳",
+        "translation": "Shěnyáng · Shenyang (city)"
+      },
+      {
+        "term": "足球队",
+        "translation": "zúqiúduì · football team"
+      },
+      {
+        "term": "队员",
+        "translation": "duìyuán · team member, player"
+      },
+      {
+        "term": "比赛",
+        "translation": "bǐsài · match, game"
+      },
+      {
+        "term": "体育场",
+        "translation": "tǐyùchǎng · stadium, sports ground"
+      },
+      {
+        "term": "球衣",
+        "translation": "qiúyī · team shirt"
+      },
+      {
+        "term": "号码",
+        "translation": "hàomǎ · number"
+      },
+      {
+        "term": "家长",
+        "translation": "jiāzhǎng · parent"
+      },
+      {
+        "term": "兴奋",
+        "translation": "xīngfèn · excited"
+      },
+      {
+        "term": "教练",
+        "translation": "jiàoliàn · coach"
+      },
+      {
+        "term": "用力",
+        "translation": "yònglì · hard, with force"
+      },
+      {
+        "term": "冰淇淋",
+        "translation": "bīngqílín · ice cream"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "豆豆今年几岁？",
+        "options": [
+          "七岁",
+          "八岁",
+          "九岁",
+          "十岁"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "豆豆的球衣是蓝色的。",
+        "answer": false,
+        "explanation": "豆豆穿红色的球衣，对面的球队穿蓝色的。"
+      },
+      {
+        "type": "mc",
+        "prompt": "豆豆的号码是几号？",
+        "options": [
+          "七号",
+          "九号",
+          "十号",
+          "十一号"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "上半场谁进了球？",
+        "options": [
+          "豆豆",
+          "蓝队",
+          "小军",
+          "张教练"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "红队二比一赢了。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "比赛以后，教练请孩子们吃什么？",
+        "options": [
+          "西瓜",
+          "午饭",
+          "蛋糕",
+          "冰淇淋"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-23",
+    "level": "A1",
+    "title": "一家人去动物园",
+    "topic": "Free time",
+    "body": "星期天天气很好，朱浩和妻子带女儿妞妞去济南动物园。妞妞今年五岁，她最喜欢小动物。\n\n动物园很大，人也很多。他们先去看熊猫。两只大熊猫在吃竹子，样子很可爱。妞妞说：“爸爸，熊猫吃饭好慢啊！”然后他们去看长颈鹿。长颈鹿很高，脖子很长。妞妞说：“我也想那么高！”\n\n中午，他们坐在草地上吃午饭：面包、鸡蛋和水果。下午他们去看猴子。猴子在树上跳来跳去，妞妞一直在笑。\n\n下午四点，妞妞累了，在爸爸的背上睡着了。妻子笑着说：“今天她玩儿得太开心了。”",
+    "glossary": [
+      {
+        "term": "妻子",
+        "translation": "qīzi · wife"
+      },
+      {
+        "term": "济南",
+        "translation": "Jǐnán · Jinan (city)"
+      },
+      {
+        "term": "动物园",
+        "translation": "dòngwùyuán · zoo"
+      },
+      {
+        "term": "熊猫",
+        "translation": "xióngmāo · panda"
+      },
+      {
+        "term": "竹子",
+        "translation": "zhúzi · bamboo"
+      },
+      {
+        "term": "样子",
+        "translation": "yàngzi · look, appearance"
+      },
+      {
+        "term": "长颈鹿",
+        "translation": "chángjǐnglù · giraffe"
+      },
+      {
+        "term": "脖子",
+        "translation": "bózi · neck"
+      },
+      {
+        "term": "草地",
+        "translation": "cǎodì · lawn, grass"
+      },
+      {
+        "term": "猴子",
+        "translation": "hóuzi · monkey"
+      },
+      {
+        "term": "跳来跳去",
+        "translation": "tiàolái tiàoqù · to jump about"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "妞妞今年几岁？",
+        "options": [
+          "三岁",
+          "四岁",
+          "五岁",
+          "六岁"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "他们先去看什么动物？",
+        "options": [
+          "熊猫",
+          "长颈鹿",
+          "猴子",
+          "老虎"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "大熊猫吃饭很快。",
+        "answer": false,
+        "explanation": "妞妞说熊猫吃饭好慢。"
+      },
+      {
+        "type": "mc",
+        "prompt": "长颈鹿怎么样？",
+        "options": [
+          "很小，很胖",
+          "很高，脖子很长",
+          "在树上跳来跳去",
+          "在吃竹子"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "中午他们在哪儿吃午饭？",
+        "options": [
+          "在饭馆",
+          "在车上",
+          "在家里",
+          "在草地上"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "下午妞妞在爸爸的背上睡着了。",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "id": "a1-24",
+    "level": "A1",
+    "title": "门铃响了",
+    "topic": "Neighbours",
+    "body": "星期六下午，王阿姨在家看电视。这时候，门铃响了。她开门一看，门口站着一对年轻人。男的手里拿着一盒水果。\n\n— 阿姨，您好！我们是新来的邻居，住在对面的五零二。我叫杨帆，这是我妻子马丽。\n— 你们好，你们好！快进来坐吧。\n— 不用了，谢谢您。我们昨天刚搬来，这两天有点儿吵，真不好意思。这点儿水果送给您。\n— 哎呀，你们太客气了！你们是哪儿人啊？\n— 我是呼和浩特本地人，马丽是包头人。我们都在附近的医院工作。\n— 那太好了！我姓王，你们叫我王阿姨就行。有什么事情就来找我。\n— 谢谢王阿姨！\n\n王阿姨关上门，笑着想：“新邻居真不错。”",
+    "glossary": [
+      {
+        "term": "门铃",
+        "translation": "ménlíng · doorbell"
+      },
+      {
+        "term": "一对",
+        "translation": "yí duì · a couple, a pair"
+      },
+      {
+        "term": "年轻人",
+        "translation": "niánqīngrén · young people"
+      },
+      {
+        "term": "邻居",
+        "translation": "línjū · neighbour"
+      },
+      {
+        "term": "对面",
+        "translation": "duìmiàn · opposite"
+      },
+      {
+        "term": "不好意思",
+        "translation": "bù hǎoyìsi · sorry, excuse me"
+      },
+      {
+        "term": "客气",
+        "translation": "kèqi · polite, formal"
+      },
+      {
+        "term": "呼和浩特",
+        "translation": "Hūhéhàotè · Hohhot (city)"
+      },
+      {
+        "term": "本地人",
+        "translation": "běndìrén · local person"
+      },
+      {
+        "term": "包头",
+        "translation": "Bāotóu · Baotou (city)"
+      },
+      {
+        "term": "附近",
+        "translation": "fùjìn · nearby"
+      },
+      {
+        "term": "事情",
+        "translation": "shìqing · matter, thing"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "门铃响的时候，王阿姨在做什么？",
+        "options": [
+          "做饭",
+          "看电视",
+          "睡觉",
+          "打电话"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "新邻居住在几号？",
+        "options": [
+          "五零一",
+          "五零三",
+          "六零二",
+          "五零二"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "杨帆手里拿着一盒水果。",
+        "answer": true
+      },
+      {
+        "type": "tf",
+        "prompt": "马丽是呼和浩特人。",
+        "answer": false,
+        "explanation": "杨帆是呼和浩特人，马丽是包头人。"
+      },
+      {
+        "type": "mc",
+        "prompt": "杨帆和马丽在哪儿工作？",
+        "options": [
+          "在学校",
+          "在银行",
+          "在医院",
+          "在超市"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "王阿姨觉得新邻居怎么样？",
+        "options": [
+          "真不错",
+          "有点儿吵",
+          "不客气",
+          "不友好"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-25",
+    "level": "A1",
+    "title": "三十岁的生日晚饭",
+    "topic": "Food and drink",
+    "body": "今天是胡蝶的三十岁生日。晚上，她的丈夫和两个好朋友带她去扬州一家有名的饭馆吃饭。\n\n服务员带他们到一个包间，然后拿来菜单。丈夫说：“今天你过生日，你点菜吧。”胡蝶点了清蒸鱼、狮子头、一个青菜和一份扬州炒饭。朋友们又点了一个汤。\n\n“要喝点儿什么？”服务员问。\n“来一壶菊花茶吧。”胡蝶说。\n\n菜很好吃，狮子头又大又香。大家吃饭、聊天，都很开心。最后，服务员拿来一个小蛋糕，还给胡蝶唱生日歌。原来，这是她丈夫偷偷准备的！\n\n胡蝶很感动，她说：“谢谢你们，这是我最好的生日！”",
+    "glossary": [
+      {
+        "term": "扬州",
+        "translation": "Yángzhōu · Yangzhou (city)"
+      },
+      {
+        "term": "饭馆",
+        "translation": "fànguǎn · restaurant"
+      },
+      {
+        "term": "包间",
+        "translation": "bāojiān · private dining room"
+      },
+      {
+        "term": "点菜",
+        "translation": "diǎncài · to order dishes"
+      },
+      {
+        "term": "清蒸鱼",
+        "translation": "qīngzhēngyú · steamed fish"
+      },
+      {
+        "term": "狮子头",
+        "translation": "shīzitóu · lion's head (large meatball)"
+      },
+      {
+        "term": "炒饭",
+        "translation": "chǎofàn · fried rice"
+      },
+      {
+        "term": "菊花茶",
+        "translation": "júhuāchá · chrysanthemum tea"
+      },
+      {
+        "term": "原来",
+        "translation": "yuánlái · it turns out"
+      },
+      {
+        "term": "偷偷",
+        "translation": "tōutōu · secretly"
+      },
+      {
+        "term": "准备",
+        "translation": "zhǔnbèi · to prepare"
+      },
+      {
+        "term": "感动",
+        "translation": "gǎndòng · moved, touched"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "胡蝶今年多大？",
+        "options": [
+          "二十岁",
+          "二十五岁",
+          "三十岁",
+          "四十岁"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "胡蝶和丈夫两个人去吃饭。",
+        "answer": false,
+        "explanation": "她的丈夫和两个好朋友带她去吃饭。"
+      },
+      {
+        "type": "mc",
+        "prompt": "谁点菜？",
+        "options": [
+          "胡蝶",
+          "她的丈夫",
+          "她的朋友",
+          "服务员"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "他们喝什么？",
+        "options": [
+          "啤酒",
+          "果汁",
+          "绿茶",
+          "菊花茶"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "狮子头又大又香。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "蛋糕是谁准备的？",
+        "options": [
+          "服务员",
+          "胡蝶的朋友",
+          "胡蝶的丈夫",
+          "饭馆的老板"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-26",
+    "level": "A1",
+    "title": "第一次去图书馆",
+    "topic": "Services",
+    "body": "郭强刚来兰州工作。他很喜欢看书。星期天，他去市图书馆看看。\n\n图书馆很大，也很安静。一楼服务台有一位工作人员。郭强问：“您好，我想借书，要办借书证吗？”\n工作人员说：“要。您带身份证了吗？办证是免费的。”\n郭强说：“带了。”\n\n几分钟以后，郭强就有了一张借书证。工作人员说：“您每次能借五本书，可以借一个月。三楼是中文书，四楼是外文书，五楼是阅览室。”\n\n郭强先去三楼，借了两本小说和一本做菜的书。然后他去五楼的阅览室看杂志。那儿有很多人在学习，有学生，也有老人。郭强觉得这儿真不错，他想每个周末都来。",
+    "glossary": [
+      {
+        "term": "兰州",
+        "translation": "Lánzhōu · Lanzhou (city)"
+      },
+      {
+        "term": "图书馆",
+        "translation": "túshūguǎn · library"
+      },
+      {
+        "term": "服务台",
+        "translation": "fúwùtái · service desk"
+      },
+      {
+        "term": "工作人员",
+        "translation": "gōngzuò rényuán · staff member"
+      },
+      {
+        "term": "借书证",
+        "translation": "jièshūzhèng · library card"
+      },
+      {
+        "term": "免费",
+        "translation": "miǎnfèi · free of charge"
+      },
+      {
+        "term": "外文书",
+        "translation": "wàiwénshū · foreign-language books"
+      },
+      {
+        "term": "阅览室",
+        "translation": "yuèlǎnshì · reading room"
+      },
+      {
+        "term": "小说",
+        "translation": "xiǎoshuō · novel"
+      },
+      {
+        "term": "杂志",
+        "translation": "zázhì · magazine"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "郭强在哪个城市工作？",
+        "options": [
+          "兰州",
+          "西安",
+          "银川",
+          "西宁"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "办借书证要五十块钱。",
+        "answer": false,
+        "explanation": "办证是免费的。"
+      },
+      {
+        "type": "mc",
+        "prompt": "每次能借几本书？",
+        "options": [
+          "两本",
+          "三本",
+          "五本",
+          "十本"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "中文书在几楼？",
+        "options": [
+          "一楼",
+          "三楼",
+          "四楼",
+          "五楼"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "郭强借了什么书？",
+        "options": [
+          "三本小说",
+          "两本杂志",
+          "一本外文书",
+          "两本小说和一本做菜的书"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "阅览室里有学生，也有老人。",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "id": "a1-27",
+    "level": "A1",
+    "title": "寄到澳大利亚的礼物",
+    "topic": "Services",
+    "body": "陈静住在洛阳，她的女儿在澳大利亚上大学。下个月是女儿的二十岁生日，陈静想给她寄一个包裹。包裹里有一件毛衣、两盒月饼和一本照片书。\n\n星期一上午，陈静去家附近的邮局。\n— 您好，您要寄什么？\n— 我要寄一个包裹到澳大利亚。\n— 里面有什么东西？\n— 一件毛衣、两盒月饼和一本书。\n— 对不起，吃的东西寄到国外有点儿麻烦，月饼最好不要寄。\n陈静有点儿失望，只好拿出月饼。\n— 包裹两公斤。寄空运两百六十块，十天左右到；寄海运便宜，可是要两个月。\n— 女儿下个月过生日，那就寄空运吧。\n\n陈静写好地址，付了钱。她想：“晚上和女儿视频的时候，我要告诉她：礼物在路上了！”",
+    "glossary": [
+      {
+        "term": "澳大利亚",
+        "translation": "Àodàlìyà · Australia"
+      },
+      {
+        "term": "包裹",
+        "translation": "bāoguǒ · parcel"
+      },
+      {
+        "term": "毛衣",
+        "translation": "máoyī · sweater, jumper"
+      },
+      {
+        "term": "月饼",
+        "translation": "yuèbing · mooncake"
+      },
+      {
+        "term": "邮局",
+        "translation": "yóujú · post office"
+      },
+      {
+        "term": "国外",
+        "translation": "guówài · abroad"
+      },
+      {
+        "term": "麻烦",
+        "translation": "máfan · troublesome, complicated"
+      },
+      {
+        "term": "失望",
+        "translation": "shīwàng · disappointed"
+      },
+      {
+        "term": "公斤",
+        "translation": "gōngjīn · kilogram"
+      },
+      {
+        "term": "空运",
+        "translation": "kōngyùn · airmail, air freight"
+      },
+      {
+        "term": "海运",
+        "translation": "hǎiyùn · sea mail, sea freight"
+      },
+      {
+        "term": "地址",
+        "translation": "dìzhǐ · address"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "陈静的女儿在哪儿上大学？",
+        "options": [
+          "英国",
+          "美国",
+          "澳大利亚",
+          "加拿大"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "包裹里本来有两盒月饼。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "工作人员说什么最好不要寄？",
+        "options": [
+          "毛衣",
+          "月饼",
+          "照片书",
+          "衣服"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "包裹多重？",
+        "options": [
+          "一公斤",
+          "三公斤",
+          "两公斤",
+          "五公斤"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "陈静寄海运，因为海运便宜。",
+        "answer": false,
+        "explanation": "她寄空运，因为女儿下个月过生日。"
+      },
+      {
+        "type": "mc",
+        "prompt": "寄空运多少钱？",
+        "options": [
+          "两百六十块",
+          "一百六十块",
+          "两百块",
+          "六百块"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "a1-28",
+    "level": "A1",
+    "title": "办一张工资卡",
+    "topic": "Banking and money",
+    "body": "李娜刚来贵阳。下个星期一，她要去一家新公司上班。公司每个月十号发工资，她要去办一张银行卡。\n\n星期五上午，李娜去公司附近的一家银行。她先在门口取号，等了二十分钟，然后去三号窗口。\n— 您好，您要办什么业务？\n— 我想开一个账户，办一张银行卡。\n— 好的，请给我您的身份证和手机号。\n工作人员给她一张表，李娜在上面写了名字、地址和工作单位。\n— 办好了，这是您的银行卡。您可以下载我们的手机银行，用手机转账很方便。\n— 谢谢！要多少钱？\n— 不要钱，是免费的。\n\n李娜很高兴：下个月十号，她就有第一份工资了！",
+    "glossary": [
+      {
+        "term": "贵阳",
+        "translation": "Guìyáng · Guiyang (city)"
+      },
+      {
+        "term": "工资",
+        "translation": "gōngzī · salary, wages"
+      },
+      {
+        "term": "银行卡",
+        "translation": "yínhángkǎ · bank card"
+      },
+      {
+        "term": "取号",
+        "translation": "qǔhào · to take a queue number"
+      },
+      {
+        "term": "窗口",
+        "translation": "chuāngkǒu · counter, service window"
+      },
+      {
+        "term": "业务",
+        "translation": "yèwù · service, transaction"
+      },
+      {
+        "term": "账户",
+        "translation": "zhànghù · bank account"
+      },
+      {
+        "term": "工作单位",
+        "translation": "gōngzuò dānwèi · employer, workplace"
+      },
+      {
+        "term": "下载",
+        "translation": "xiàzài · to download"
+      },
+      {
+        "term": "手机银行",
+        "translation": "shǒujī yínháng · mobile banking"
+      },
+      {
+        "term": "转账",
+        "translation": "zhuǎnzhàng · to transfer money"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "公司每个月几号发工资？",
+        "options": [
+          "一号",
+          "五号",
+          "十号",
+          "十五号"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "李娜在银行等了两个小时。",
+        "answer": false,
+        "explanation": "她等了二十分钟。"
+      },
+      {
+        "type": "mc",
+        "prompt": "李娜去几号窗口？",
+        "options": [
+          "三号",
+          "一号",
+          "二号",
+          "五号"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "李娜在表上没有写什么？",
+        "options": [
+          "名字",
+          "地址",
+          "工作单位",
+          "年龄"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "办银行卡是免费的。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "工作人员说用手机银行可以做什么？",
+        "options": [
+          "买衣服",
+          "转账",
+          "打电话",
+          "挂号"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-29",
+    "level": "A1",
+    "title": "打电话约做头发",
+    "topic": "Services",
+    "body": "秦月住在乌鲁木齐。她的好朋友这个星期六结婚，秦月是伴娘。她想在婚礼前做一个漂亮的发型。星期三晚上，她给家附近的美发店打电话。\n\n— 喂，您好，这里是小美美发店。\n— 您好，我想预约星期六早上做头发，可以吗？\n— 星期六几点？\n— 婚礼十一点开始，我想七点去，可以吗？\n— 我们九点开门。不过您是去婚礼，我们可以早点儿来。七点半怎么样？\n— 七点半可以，太谢谢您了！\n— 不客气。您想做什么发型？\n— 我想盘头发，简单一点儿就行。\n— 好的，盘发一百二十块。请问您贵姓？\n— 我姓秦。\n— 好，秦女士，星期六七点半见！\n\n秦月放心了。她打开衣柜，又看了看那条粉色的伴娘裙。",
+    "glossary": [
+      {
+        "term": "乌鲁木齐",
+        "translation": "Wūlǔmùqí · Urumqi (city)"
+      },
+      {
+        "term": "结婚",
+        "translation": "jiéhūn · to get married"
+      },
+      {
+        "term": "伴娘",
+        "translation": "bànniáng · bridesmaid"
+      },
+      {
+        "term": "婚礼",
+        "translation": "hūnlǐ · wedding"
+      },
+      {
+        "term": "发型",
+        "translation": "fàxíng · hairstyle"
+      },
+      {
+        "term": "美发店",
+        "translation": "měifàdiàn · hair salon"
+      },
+      {
+        "term": "预约",
+        "translation": "yùyuē · to make an appointment"
+      },
+      {
+        "term": "不过",
+        "translation": "búguò · but, however"
+      },
+      {
+        "term": "简单",
+        "translation": "jiǎndān · simple"
+      },
+      {
+        "term": "贵姓",
+        "translation": "guìxìng · (your) surname (polite)"
+      },
+      {
+        "term": "女士",
+        "translation": "nǚshì · Ms, madam"
+      },
+      {
+        "term": "放心",
+        "translation": "fàngxīn · to feel at ease"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "秦月的好朋友什么时候结婚？",
+        "options": [
+          "星期三",
+          "星期五",
+          "星期六",
+          "星期天"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "秦月是新娘。",
+        "answer": false,
+        "explanation": "秦月是伴娘，她的好朋友结婚。"
+      },
+      {
+        "type": "mc",
+        "prompt": "美发店平时几点开门？",
+        "options": [
+          "七点",
+          "七点半",
+          "八点",
+          "九点"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "秦月最后约了几点？",
+        "options": [
+          "七点",
+          "七点半",
+          "九点",
+          "十一点"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "盘头发多少钱？",
+        "options": [
+          "一百二十块",
+          "八十块",
+          "一百块",
+          "两百块"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "秦月的伴娘裙是粉色的。",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "id": "a1-30",
+    "level": "A1",
+    "title": "车胎没气了",
+    "topic": "Transport",
+    "body": "徐明在常州一家小公司上班。他家离公司不远，所以他每天骑自行车上班，大概二十分钟。\n\n今天早上八点，徐明和平时一样骑车出门。可是骑了十分钟，他觉得车子很难骑。他下车一看：后面的车胎没气了！\n\n九点要开会，现在已经八点十分了。怎么办？路边没有修车的地方。他先把自行车锁在路边，然后用手机扫了一辆共享单车。八点四十，徐明到了公司，没有迟到。\n\n下班以后，他推着自己的自行车去小区门口的修车铺。修车的刘师傅说：“车胎上有一个小洞，补一下就好，十块钱。”十分钟以后，车胎修好了。明天徐明又能骑车上班了。",
+    "glossary": [
+      {
+        "term": "常州",
+        "translation": "Chángzhōu · Changzhou (city)"
+      },
+      {
+        "term": "出门",
+        "translation": "chūmén · to leave home"
+      },
+      {
+        "term": "车胎",
+        "translation": "chētāi · tyre"
+      },
+      {
+        "term": "开会",
+        "translation": "kāihuì · to have a meeting"
+      },
+      {
+        "term": "已经",
+        "translation": "yǐjīng · already"
+      },
+      {
+        "term": "怎么办",
+        "translation": "zěnme bàn · what to do"
+      },
+      {
+        "term": "修车",
+        "translation": "xiūchē · to repair a bike or car"
+      },
+      {
+        "term": "共享单车",
+        "translation": "gòngxiǎng dānchē · shared bike"
+      },
+      {
+        "term": "迟到",
+        "translation": "chídào · to be late"
+      },
+      {
+        "term": "修车铺",
+        "translation": "xiūchēpù · repair shop"
+      },
+      {
+        "term": "师傅",
+        "translation": "shīfu · master (address for a skilled worker)"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "徐明骑自行车上班要多长时间？",
+        "options": [
+          "十分钟",
+          "二十分钟",
+          "半个小时",
+          "一个小时"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "徐明前面的车胎没气了。",
+        "answer": false,
+        "explanation": "后面的车胎没气了。"
+      },
+      {
+        "type": "mc",
+        "prompt": "徐明几点要开会？",
+        "options": [
+          "八点",
+          "八点四十",
+          "九点",
+          "十点"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "徐明怎么去公司？",
+        "options": [
+          "坐公交车",
+          "打车",
+          "走路",
+          "骑共享单车"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "徐明上班没有迟到。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "修车胎多少钱？",
+        "options": [
+          "五块",
+          "十块",
+          "二十块",
+          "不要钱"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-31",
+    "level": "A1",
+    "title": "和爸爸做鸡蛋饼",
+    "topic": "Cooking",
+    "body": "今天是星期六。豆豆六岁，她和爸爸妈妈住在天津。妈妈今天要上班，所以爸爸做早饭。\n\n爸爸说：“豆豆，我们一起做鸡蛋饼，好吗？”豆豆很高兴。她拿来两个鸡蛋，爸爸拿来面粉和一瓶牛奶。豆豆打鸡蛋，爸爸放面粉、牛奶和一点儿盐。豆豆用筷子慢慢地搅。\n\n爸爸先热锅，再放一点儿油。第一张饼有点儿黑，豆豆笑了：“爸爸，这是黑饼！”第二张饼很圆，也很香。\n\n豆豆喜欢在饼上放葱花。爸爸喝豆浆，豆豆喝牛奶。他们还给妈妈留两张饼。",
+    "glossary": [
+      {
+        "term": "早饭",
+        "translation": "zǎofàn · breakfast"
+      },
+      {
+        "term": "鸡蛋饼",
+        "translation": "jīdànbǐng · egg pancake"
+      },
+      {
+        "term": "面粉",
+        "translation": "miànfěn · flour"
+      },
+      {
+        "term": "盐",
+        "translation": "yán · salt"
+      },
+      {
+        "term": "筷子",
+        "translation": "kuàizi · chopsticks"
+      },
+      {
+        "term": "搅",
+        "translation": "jiǎo · to stir"
+      },
+      {
+        "term": "锅",
+        "translation": "guō · pan, wok"
+      },
+      {
+        "term": "油",
+        "translation": "yóu · oil"
+      },
+      {
+        "term": "葱花",
+        "translation": "cōnghuā · chopped spring onion"
+      },
+      {
+        "term": "豆浆",
+        "translation": "dòujiāng · soy milk"
+      },
+      {
+        "term": "留",
+        "translation": "liú · to keep, to leave for someone"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "豆豆几岁？",
+        "options": [
+          "五岁",
+          "六岁",
+          "七岁",
+          "八岁"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "今天妈妈在家做早饭。",
+        "answer": false,
+        "explanation": "妈妈今天要上班，爸爸做早饭。"
+      },
+      {
+        "type": "mc",
+        "prompt": "他们做什么？",
+        "options": [
+          "包子",
+          "面条",
+          "鸡蛋饼",
+          "饺子"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "豆豆用什么搅？",
+        "options": [
+          "筷子",
+          "勺子",
+          "手",
+          "刀"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "第一张饼有点儿黑。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "爸爸喝什么？",
+        "options": [
+          "牛奶",
+          "茶",
+          "咖啡",
+          "豆浆"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-32",
+    "level": "A1",
+    "title": "马克在洛阳过春节",
+    "topic": "Holidays",
+    "body": "马克是法国人，他在西安学习中文。春节快到了，他的同学宋佳说：“马克，你来我家过春节吧！”宋佳的家在洛阳。\n\n除夕那天，马克和宋佳坐高铁去洛阳。宋佳的爸爸妈妈很热情，奶奶也在家。家里很热闹，门上有红色的春联。\n\n晚上，大家一起包饺子。马克不会包，奶奶慢慢地教他。他的饺子不太好看，可是大家都说很好吃。吃饭的时候，他们看春晚。\n\n十二点，外面有很多烟花。奶奶给马克一个红包。马克说：“谢谢奶奶！新年快乐！”这是马克第一次在中国过春节，他很开心。",
+    "glossary": [
+      {
+        "term": "春节",
+        "translation": "Chūnjié · Spring Festival"
+      },
+      {
+        "term": "除夕",
+        "translation": "chúxī · Chinese New Year's Eve"
+      },
+      {
+        "term": "高铁",
+        "translation": "gāotiě · high-speed train"
+      },
+      {
+        "term": "热情",
+        "translation": "rèqíng · warm, hospitable"
+      },
+      {
+        "term": "热闹",
+        "translation": "rènao · lively, bustling"
+      },
+      {
+        "term": "春联",
+        "translation": "chūnlián · spring couplets"
+      },
+      {
+        "term": "包饺子",
+        "translation": "bāo jiǎozi · to make dumplings"
+      },
+      {
+        "term": "春晚",
+        "translation": "Chūnwǎn · Spring Festival Gala"
+      },
+      {
+        "term": "烟花",
+        "translation": "yānhuā · fireworks"
+      },
+      {
+        "term": "红包",
+        "translation": "hóngbāo · red envelope with money"
+      },
+      {
+        "term": "新年快乐",
+        "translation": "xīnnián kuàilè · Happy New Year"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "马克是哪国人？",
+        "options": [
+          "德国人",
+          "英国人",
+          "美国人",
+          "法国人"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "宋佳的家在西安。",
+        "answer": false,
+        "explanation": "宋佳的家在洛阳。"
+      },
+      {
+        "type": "mc",
+        "prompt": "他们怎么去洛阳？",
+        "options": [
+          "坐高铁",
+          "坐飞机",
+          "开车",
+          "坐公交车"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "马克会包饺子。",
+        "answer": false,
+        "explanation": "马克不会包，奶奶教他。"
+      },
+      {
+        "type": "mc",
+        "prompt": "吃饭的时候他们做什么？",
+        "options": [
+          "唱歌",
+          "看春晚",
+          "打电话",
+          "玩游戏"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "奶奶给马克什么？",
+        "options": [
+          "月饼",
+          "饺子",
+          "红包",
+          "春联"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-33",
+    "level": "A1",
+    "title": "七月去游泳",
+    "topic": "Leisure",
+    "body": "七月的武汉非常热，今天三十八度。吴昊放暑假了，他不想在家里。他给朋友郭强打电话：“我们去游泳馆吧！”\n\n游泳馆离吴昊家不远，他们骑共享单车去。门票三十元。今天人很多，有孩子，也有老人。水很凉，大家都很高兴。\n\n吴昊很会游泳，郭强不太会。郭强说：“我只会一点儿，你教我吧。”吴昊教他慢慢游。\n\n一个小时以后，他们有点儿饿了。游泳馆外面有一家小店，他们买两根冰棍和一瓶水。郭强说：“明天我们还来，好吗？”吴昊说：“好啊！”",
+    "glossary": [
+      {
+        "term": "热",
+        "translation": "rè · hot"
+      },
+      {
+        "term": "放暑假",
+        "translation": "fàng shǔjià · to be on summer holidays"
+      },
+      {
+        "term": "游泳馆",
+        "translation": "yóuyǒngguǎn · swimming pool (building)"
+      },
+      {
+        "term": "共享单车",
+        "translation": "gòngxiǎng dānchē · shared bike"
+      },
+      {
+        "term": "门票",
+        "translation": "ménpiào · entrance ticket"
+      },
+      {
+        "term": "老人",
+        "translation": "lǎorén · old people"
+      },
+      {
+        "term": "凉",
+        "translation": "liáng · cool"
+      },
+      {
+        "term": "教",
+        "translation": "jiāo · to teach"
+      },
+      {
+        "term": "饿",
+        "translation": "è · hungry"
+      },
+      {
+        "term": "冰棍",
+        "translation": "bīnggùn · ice lolly"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "今天武汉多少度？",
+        "options": [
+          "二十八度",
+          "三十度",
+          "三十五度",
+          "三十八度"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "吴昊和郭强坐地铁去游泳馆。",
+        "answer": false,
+        "explanation": "他们骑共享单车去。"
+      },
+      {
+        "type": "mc",
+        "prompt": "门票多少钱？",
+        "options": [
+          "二十元",
+          "三十元",
+          "四十元",
+          "五十元"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "郭强很会游泳。",
+        "answer": false,
+        "explanation": "郭强只会一点儿。"
+      },
+      {
+        "type": "mc",
+        "prompt": "他们在小店买什么？",
+        "options": [
+          "冰棍和水",
+          "面包",
+          "西瓜",
+          "可乐"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "他们明天还想来。",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "id": "a1-34",
+    "level": "A1",
+    "title": "高欣的课表",
+    "topic": "School",
+    "body": "我叫高欣，今年十三岁，在长沙上初一。我每天早上七点半到学校，下午五点放学。\n\n星期一我们有语文、数学、英语和体育。我最喜欢体育课，我喜欢跑步。星期二有数学、历史和音乐。数学有点儿难，可是数学老师很好。\n\n星期三下午有美术课。我会画画，所以我也很喜欢美术。星期四有物理吗？没有，我们初二才有物理。星期四有生物和地理。\n\n星期五最好，下午只有两节课。放学以后，我和同学去打篮球。周末不上课，我在家写作业，也去看外婆。",
+    "glossary": [
+      {
+        "term": "初一",
+        "translation": "chūyī · first year of junior high school"
+      },
+      {
+        "term": "放学",
+        "translation": "fàngxué · to finish school for the day"
+      },
+      {
+        "term": "语文",
+        "translation": "yǔwén · Chinese (school subject)"
+      },
+      {
+        "term": "数学",
+        "translation": "shùxué · maths"
+      },
+      {
+        "term": "体育",
+        "translation": "tǐyù · PE, sports"
+      },
+      {
+        "term": "历史",
+        "translation": "lìshǐ · history"
+      },
+      {
+        "term": "难",
+        "translation": "nán · difficult"
+      },
+      {
+        "term": "美术课",
+        "translation": "měishùkè · art class"
+      },
+      {
+        "term": "物理",
+        "translation": "wùlǐ · physics"
+      },
+      {
+        "term": "写作业",
+        "translation": "xiě zuòyè · to do homework"
+      },
+      {
+        "term": "外婆",
+        "translation": "wàipó · grandmother (mother's mother)"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "高欣几岁？",
+        "options": [
+          "十一岁",
+          "十二岁",
+          "十三岁",
+          "十四岁"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "高欣每天早上八点到学校。",
+        "answer": false,
+        "explanation": "她早上七点半到学校。"
+      },
+      {
+        "type": "mc",
+        "prompt": "高欣最喜欢什么课？",
+        "options": [
+          "数学",
+          "体育",
+          "音乐",
+          "历史"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "数学老师很好。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "星期五下午有几节课？",
+        "options": [
+          "两节",
+          "三节",
+          "四节",
+          "没有课"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "周末高欣做什么？",
+        "options": [
+          "上课",
+          "打篮球",
+          "去旅游",
+          "写作业，看外婆"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-35",
+    "level": "A1",
+    "title": "卢卡的意大利面",
+    "topic": "Food and drink",
+    "body": "卢卡是意大利人，他在昆明工作。他很喜欢云南菜，可是他最喜欢的菜是意大利面。\n\n今天是星期天，卢卡请朋友梁雨和她的丈夫来家里吃饭。上午他去超市买东西：意大利面、西红柿、洋葱和一块奶酪。\n\n卢卡做饭的时候，梁雨在旁边看。她说：“你做饭很快！”卢卡笑着说：“是我妈妈教我的。在意大利，我们家每个星期天都吃意大利面。”\n\n菜做好了。意大利面很香，西红柿酱有点儿酸，也有点儿甜。梁雨的丈夫吃了两盘。他问：“下次你能教我做吗？”卢卡说：“当然可以！”",
+    "glossary": [
+      {
+        "term": "云南菜",
+        "translation": "Yúnnán cài · Yunnan food"
+      },
+      {
+        "term": "意大利面",
+        "translation": "yìdàlìmiàn · pasta"
+      },
+      {
+        "term": "丈夫",
+        "translation": "zhàngfu · husband"
+      },
+      {
+        "term": "超市",
+        "translation": "chāoshì · supermarket"
+      },
+      {
+        "term": "西红柿",
+        "translation": "xīhóngshì · tomato"
+      },
+      {
+        "term": "洋葱",
+        "translation": "yángcōng · onion"
+      },
+      {
+        "term": "奶酪",
+        "translation": "nǎilào · cheese"
+      },
+      {
+        "term": "旁边",
+        "translation": "pángbiān · beside, next to"
+      },
+      {
+        "term": "酸",
+        "translation": "suān · sour"
+      },
+      {
+        "term": "甜",
+        "translation": "tián · sweet"
+      },
+      {
+        "term": "下次",
+        "translation": "xiàcì · next time"
+      },
+      {
+        "term": "当然",
+        "translation": "dāngrán · of course"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "卢卡在哪儿工作？",
+        "options": [
+          "昆明",
+          "大理",
+          "丽江",
+          "成都"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "卢卡最喜欢的菜是云南菜。",
+        "answer": false,
+        "explanation": "他最喜欢的菜是意大利面。"
+      },
+      {
+        "type": "mc",
+        "prompt": "卢卡在超市买什么？",
+        "options": [
+          "米饭和鸡蛋",
+          "面粉和牛奶",
+          "意大利面、西红柿、洋葱和奶酪",
+          "水果和茶"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "谁教卢卡做饭？",
+        "options": [
+          "他爸爸",
+          "他妈妈",
+          "他奶奶",
+          "梁雨"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "西红柿酱有点儿酸，也有点儿甜。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "梁雨的丈夫吃了几盘？",
+        "options": [
+          "一盘",
+          "三盘",
+          "半盘",
+          "两盘"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-36",
+    "level": "A1",
+    "title": "姐妹爬泰山",
+    "topic": "Travel",
+    "body": "星期六，韩冰和妹妹韩雪去泰山。她们住在济南，从济南坐高铁去泰安，只要二十分钟。\n\n早上六点，她们就出门了。泰山很高，她们不想坐缆车，想自己爬山。山上有很多台阶，也有很多人。两个小时以后，妹妹说：“姐姐，我很累，我们休息一下吧。”\n\n她们坐在一块大石头上，喝水，吃面包和黄瓜。山上的风很大，有点儿冷。下午两点，她们到了山顶。山顶的风景很美，可以看到很远的地方。\n\n下山的时候，她们坐缆车。晚上回到济南，两个人都很累，可是很开心。",
+    "glossary": [
+      {
+        "term": "泰山",
+        "translation": "Tàishān · Mount Tai"
+      },
+      {
+        "term": "济南",
+        "translation": "Jǐnán · Jinan (city)"
+      },
+      {
+        "term": "缆车",
+        "translation": "lǎnchē · cable car"
+      },
+      {
+        "term": "爬山",
+        "translation": "páshān · to climb a mountain"
+      },
+      {
+        "term": "台阶",
+        "translation": "táijiē · steps, stairs"
+      },
+      {
+        "term": "累",
+        "translation": "lèi · tired"
+      },
+      {
+        "term": "休息",
+        "translation": "xiūxi · to rest"
+      },
+      {
+        "term": "石头",
+        "translation": "shítou · stone, rock"
+      },
+      {
+        "term": "黄瓜",
+        "translation": "huánggua · cucumber"
+      },
+      {
+        "term": "山顶",
+        "translation": "shāndǐng · mountain top"
+      },
+      {
+        "term": "风景",
+        "translation": "fēngjǐng · scenery, view"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "韩冰和妹妹住在哪儿？",
+        "options": [
+          "泰安",
+          "青岛",
+          "济南",
+          "北京"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "从济南坐高铁去泰安要两个小时。",
+        "answer": false,
+        "explanation": "只要二十分钟。"
+      },
+      {
+        "type": "mc",
+        "prompt": "她们怎么上山？",
+        "options": [
+          "坐缆车",
+          "坐公交车",
+          "开车",
+          "自己爬山"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "她们休息的时候吃什么？",
+        "options": [
+          "面包和黄瓜",
+          "饺子",
+          "苹果",
+          "包子"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "山上有点儿冷。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "她们几点到山顶？",
+        "options": [
+          "中午十二点",
+          "下午两点",
+          "下午四点",
+          "晚上六点"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-37",
+    "level": "A1",
+    "title": "在白云机场",
+    "topic": "Travel",
+    "body": "唐亮今天去乌鲁木齐看朋友。他的飞机上午十点起飞，他八点就到了广州白云机场。\n\n他先去办登机手续。工作人员问：“您好，请给我您的身份证。您有行李要托运吗？”唐亮说：“有一个箱子。”工作人员给他登机牌，说：“您的登机口是三十二号。”\n\n然后他去安检。他的手机和充电宝要放在一个盒子里。安检很快，五分钟就好了。\n\n唐亮走到三十二号登机口。时间还早，他买了一杯咖啡和一个面包。九点半，广播说：“去乌鲁木齐的旅客，现在开始登机。”唐亮拿着登机牌，高高兴兴地上飞机。",
+    "glossary": [
+      {
+        "term": "起飞",
+        "translation": "qǐfēi · to take off"
+      },
+      {
+        "term": "登机手续",
+        "translation": "dēngjī shǒuxù · check-in"
+      },
+      {
+        "term": "身份证",
+        "translation": "shēnfènzhèng · ID card"
+      },
+      {
+        "term": "行李",
+        "translation": "xíngli · luggage"
+      },
+      {
+        "term": "托运",
+        "translation": "tuōyùn · to check in (luggage)"
+      },
+      {
+        "term": "箱子",
+        "translation": "xiāngzi · suitcase"
+      },
+      {
+        "term": "登机牌",
+        "translation": "dēngjīpái · boarding pass"
+      },
+      {
+        "term": "登机口",
+        "translation": "dēngjīkǒu · gate"
+      },
+      {
+        "term": "安检",
+        "translation": "ānjiǎn · security check"
+      },
+      {
+        "term": "充电宝",
+        "translation": "chōngdiànbǎo · power bank"
+      },
+      {
+        "term": "广播",
+        "translation": "guǎngbō · announcement"
+      },
+      {
+        "term": "旅客",
+        "translation": "lǚkè · passenger"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "唐亮去哪儿？",
+        "options": [
+          "乌鲁木齐",
+          "拉萨",
+          "兰州",
+          "西安"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "飞机几点起飞？",
+        "options": [
+          "八点",
+          "九点半",
+          "十点",
+          "十一点"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "唐亮没有行李要托运。",
+        "answer": false,
+        "explanation": "他有一个箱子要托运。"
+      },
+      {
+        "type": "mc",
+        "prompt": "唐亮的登机口是几号？",
+        "options": [
+          "二十三号",
+          "十二号",
+          "三十号",
+          "三十二号"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "安检很快。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "在登机口唐亮买了什么？",
+        "options": [
+          "一瓶水和一本书",
+          "一杯茶",
+          "一杯咖啡和一个面包",
+          "一碗面条"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "a1-38",
+    "level": "A1",
+    "title": "给爸爸的生日礼物",
+    "topic": "Shopping",
+    "body": "下个星期六是爸爸的五十岁生日。许晴和弟弟许飞想给爸爸买一个礼物。星期天，他们去苏州的一家商场。\n\n许飞说：“爸爸喜欢喝茶，我们买一套茶具吧。”许晴说：“家里有茶具。爸爸每天早上去公园散步，我们买一双运动鞋，怎么样？”\n\n他们去运动鞋店看看。有黑色的，也有白色的。许晴觉得黑色的好看。一双鞋六百八十元，有点儿贵。他们一人出一半。\n\n许飞说：“我们还要买一个蛋糕！”他们又去蛋糕店，订一个大蛋糕，上面写“爸爸生日快乐”。回家的路上，两个人都很高兴。爸爸一定会喜欢！",
+    "glossary": [
+      {
+        "term": "生日",
+        "translation": "shēngrì · birthday"
+      },
+      {
+        "term": "礼物",
+        "translation": "lǐwù · present, gift"
+      },
+      {
+        "term": "商场",
+        "translation": "shāngchǎng · shopping mall"
+      },
+      {
+        "term": "茶具",
+        "translation": "chájù · tea set"
+      },
+      {
+        "term": "散步",
+        "translation": "sànbù · to go for a walk"
+      },
+      {
+        "term": "运动鞋",
+        "translation": "yùndòngxié · trainers"
+      },
+      {
+        "term": "贵",
+        "translation": "guì · expensive"
+      },
+      {
+        "term": "一半",
+        "translation": "yíbàn · half"
+      },
+      {
+        "term": "蛋糕",
+        "translation": "dàngāo · cake"
+      },
+      {
+        "term": "订",
+        "translation": "dìng · to order, to book"
+      },
+      {
+        "term": "一定",
+        "translation": "yídìng · surely, certainly"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "爸爸今年多少岁？",
+        "options": [
+          "四十岁",
+          "五十岁",
+          "五十五岁",
+          "六十岁"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "许晴想买茶具。",
+        "answer": false,
+        "explanation": "许飞想买茶具，许晴想买运动鞋。"
+      },
+      {
+        "type": "mc",
+        "prompt": "爸爸每天早上做什么？",
+        "options": [
+          "喝咖啡",
+          "跑步",
+          "去公园散步",
+          "看报纸"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "一双运动鞋多少钱？",
+        "options": [
+          "六百八十元",
+          "八百六十元",
+          "六十八元",
+          "六百元"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "他们两个人一人出一半钱。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "蛋糕上面写什么？",
+        "options": [
+          "新年快乐",
+          "我爱你",
+          "祝你健康",
+          "爸爸生日快乐"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-39",
+    "level": "A1",
+    "title": "糟糕的早上",
+    "topic": "Daily routine",
+    "body": "今天上午九点，郑凯有一个很重要的会议。可是早上他的手机没响，他七点五十才起床。\n\n他很着急，没有时间吃早饭。他想洗澡，可是没有热水。他想穿白衬衫，可是白衬衫不干净。他只好穿一件蓝色的。\n\n八点十分，他跑出门。今天下雨，他没带伞。地铁站人很多，他等两趟地铁才上车。在地铁上，他发现电脑没带！他马上给同事邓洁打电话：“小邓，我的电脑在家里，你能帮我打印一下文件吗？”\n\n九点零五分，郑凯到公司。邓洁给他文件，说：“别着急，经理也来晚了！”郑凯笑了。",
+    "glossary": [
+      {
+        "term": "重要",
+        "translation": "zhòngyào · important"
+      },
+      {
+        "term": "会议",
+        "translation": "huìyì · meeting"
+      },
+      {
+        "term": "响",
+        "translation": "xiǎng · to ring, to make a sound"
+      },
+      {
+        "term": "着急",
+        "translation": "zháojí · worried, in a hurry"
+      },
+      {
+        "term": "洗澡",
+        "translation": "xǐzǎo · to take a shower, to bathe"
+      },
+      {
+        "term": "衬衫",
+        "translation": "chènshān · shirt"
+      },
+      {
+        "term": "干净",
+        "translation": "gānjìng · clean"
+      },
+      {
+        "term": "伞",
+        "translation": "sǎn · umbrella"
+      },
+      {
+        "term": "发现",
+        "translation": "fāxiàn · to find out, to notice"
+      },
+      {
+        "term": "同事",
+        "translation": "tóngshì · colleague"
+      },
+      {
+        "term": "打印",
+        "translation": "dǎyìn · to print"
+      },
+      {
+        "term": "经理",
+        "translation": "jīnglǐ · manager"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "会议几点开始？",
+        "options": [
+          "八点",
+          "八点半",
+          "九点",
+          "十点"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "郑凯七点起床。",
+        "answer": false,
+        "explanation": "他七点五十才起床。"
+      },
+      {
+        "type": "mc",
+        "prompt": "郑凯为什么不穿白衬衫？",
+        "options": [
+          "白衬衫太小",
+          "白衬衫不干净",
+          "他不喜欢白色",
+          "白衬衫在公司"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "今天下雨，郑凯没带伞。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "郑凯什么东西没带？",
+        "options": [
+          "电脑",
+          "手机",
+          "钱包",
+          "钥匙"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "谁也来晚了？",
+        "options": [
+          "邓洁",
+          "郑凯的妈妈",
+          "司机",
+          "经理"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-40",
+    "level": "A1",
+    "title": "抢演唱会门票",
+    "topic": "Free time",
+    "body": "罗晨很喜欢一个乐队，叫“小河”。她每天都听他们的歌。上个星期，她在微博上看到一个消息：“小河”乐队十月要来南京开演唱会！\n\n门票星期五中午十二点在手机应用上开始卖。罗晨知道票很难买。十一点五十，她就准备好了。她的朋友曹阳也帮她买。\n\n十二点，罗晨马上点“购买”。可是网络很慢，她等了一分钟，票没有了！她很难过。\n\n五分钟以后，曹阳给她发微信：“我买到了！两张票，我们一起去！”罗晨非常高兴。一张票三百八十元，她马上给曹阳转钱。",
+    "glossary": [
+      {
+        "term": "乐队",
+        "translation": "yuèduì · band"
+      },
+      {
+        "term": "歌",
+        "translation": "gē · song"
+      },
+      {
+        "term": "微博",
+        "translation": "Wēibó · Weibo (social media)"
+      },
+      {
+        "term": "消息",
+        "translation": "xiāoxi · news, message"
+      },
+      {
+        "term": "演唱会",
+        "translation": "yǎnchànghuì · concert"
+      },
+      {
+        "term": "手机应用",
+        "translation": "shǒujī yìngyòng · phone app"
+      },
+      {
+        "term": "准备",
+        "translation": "zhǔnbèi · to prepare, to get ready"
+      },
+      {
+        "term": "购买",
+        "translation": "gòumǎi · to buy, to purchase"
+      },
+      {
+        "term": "网络",
+        "translation": "wǎngluò · internet, network"
+      },
+      {
+        "term": "难过",
+        "translation": "nánguò · sad"
+      },
+      {
+        "term": "转钱",
+        "translation": "zhuǎn qián · to transfer money"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "乐队叫什么名字？",
+        "options": [
+          "小山",
+          "小河",
+          "大海",
+          "小鸟"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "演唱会在十二月。",
+        "answer": false,
+        "explanation": "演唱会在十月。"
+      },
+      {
+        "type": "mc",
+        "prompt": "门票什么时候开始卖？",
+        "options": [
+          "星期五中午十二点",
+          "星期五晚上八点",
+          "星期六上午十点",
+          "星期四中午十二点"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "罗晨自己买到了票。",
+        "answer": false,
+        "explanation": "网络很慢，她没买到，曹阳买到了。"
+      },
+      {
+        "type": "mc",
+        "prompt": "曹阳买了几张票？",
+        "options": [
+          "一张",
+          "三张",
+          "两张",
+          "四张"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "一张票多少钱？",
+        "options": [
+          "一百八十元",
+          "二百八十元",
+          "三百元",
+          "三百八十元"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-41",
+    "level": "A1",
+    "title": "我最好的朋友周婷",
+    "topic": "Relationships",
+    "body": "我叫何雪，我最好的朋友是周婷。我们都是厦门人，今年都二十二岁。我们上小学的时候就认识了，到现在已经十五年了。\n\n周婷个子很高，头发很长，眼睛很大。她很爱笑，也很喜欢说话。我不太爱说话，可是和她在一起，我也说很多。\n\n现在周婷在福州上大学，学医。我在厦门的一家银行工作。我们不常见面，可是每天都发微信。\n\n每年暑假，周婷都回厦门。我们一起去海边散步，吃沙茶面，一起聊天，常常聊到很晚。有一个好朋友，我觉得很幸福。",
+    "glossary": [
+      {
+        "term": "认识",
+        "translation": "rènshi · to know (a person), to meet"
+      },
+      {
+        "term": "个子",
+        "translation": "gèzi · height, build"
+      },
+      {
+        "term": "头发",
+        "translation": "tóufa · hair"
+      },
+      {
+        "term": "眼睛",
+        "translation": "yǎnjing · eyes"
+      },
+      {
+        "term": "说话",
+        "translation": "shuōhuà · to talk"
+      },
+      {
+        "term": "学医",
+        "translation": "xué yī · to study medicine"
+      },
+      {
+        "term": "银行",
+        "translation": "yínháng · bank"
+      },
+      {
+        "term": "见面",
+        "translation": "jiànmiàn · to meet, to see each other"
+      },
+      {
+        "term": "海边",
+        "translation": "hǎibiān · seaside"
+      },
+      {
+        "term": "沙茶面",
+        "translation": "shāchámiàn · satay noodles"
+      },
+      {
+        "term": "聊天",
+        "translation": "liáotiān · to chat"
+      },
+      {
+        "term": "幸福",
+        "translation": "xìngfú · happy, blessed"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "何雪和周婷今年多少岁？",
+        "options": [
+          "十五岁",
+          "二十岁",
+          "二十二岁",
+          "二十五岁"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "周婷个子很矮。",
+        "answer": false,
+        "explanation": "周婷个子很高。"
+      },
+      {
+        "type": "mc",
+        "prompt": "周婷在哪儿上大学？",
+        "options": [
+          "福州",
+          "厦门",
+          "广州",
+          "上海"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "何雪做什么工作？",
+        "options": [
+          "她是医生",
+          "她在银行工作",
+          "她是老师",
+          "她是学生"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "她们每天都发微信。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "暑假她们一起吃什么？",
+        "options": [
+          "火锅",
+          "饺子",
+          "热干面",
+          "沙茶面"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-42",
+    "level": "A1",
+    "title": "周末大家做家务",
+    "topic": "Home",
+    "body": "刘洋家有四口人：爸爸、妈妈、刘洋和妹妹。爸爸妈妈都上班，所以周末大家一起做家务。\n\n星期六上午，妈妈说：“今天我们打扫房子！”爸爸洗衣服，也擦窗户。妈妈做饭，还去菜市场买菜。刘洋十五岁，他打扫客厅，也倒垃圾。妹妹十岁，她整理自己的房间，也给花浇水。\n\n刘洋不喜欢洗碗，妹妹也不喜欢。所以他们每个星期换一次：这个星期刘洋洗碗，下个星期妹妹洗碗。\n\n中午十二点，房子很干净，饭也好了。妈妈做锅包肉，大家都很喜欢吃。爸爸说：“大家都辛苦了！下午我们去公园吧。”",
+    "glossary": [
+      {
+        "term": "家务",
+        "translation": "jiāwù · housework"
+      },
+      {
+        "term": "打扫",
+        "translation": "dǎsǎo · to clean"
+      },
+      {
+        "term": "洗衣服",
+        "translation": "xǐ yīfu · to do the laundry"
+      },
+      {
+        "term": "窗户",
+        "translation": "chuānghu · window"
+      },
+      {
+        "term": "菜市场",
+        "translation": "càishìchǎng · food market"
+      },
+      {
+        "term": "客厅",
+        "translation": "kètīng · living room"
+      },
+      {
+        "term": "倒垃圾",
+        "translation": "dào lājī · to take out the rubbish"
+      },
+      {
+        "term": "整理",
+        "translation": "zhěnglǐ · to tidy up"
+      },
+      {
+        "term": "浇水",
+        "translation": "jiāoshuǐ · to water (plants)"
+      },
+      {
+        "term": "洗碗",
+        "translation": "xǐwǎn · to wash the dishes"
+      },
+      {
+        "term": "锅包肉",
+        "translation": "guōbāoròu · crispy sweet and sour pork"
+      },
+      {
+        "term": "辛苦",
+        "translation": "xīnkǔ · hard, tiring work"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "刘洋家有几口人？",
+        "options": [
+          "三口",
+          "四口",
+          "五口",
+          "六口"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "星期六上午爸爸做饭。",
+        "answer": false,
+        "explanation": "妈妈做饭，爸爸洗衣服，也擦窗户。"
+      },
+      {
+        "type": "mc",
+        "prompt": "刘洋做什么家务？",
+        "options": [
+          "洗衣服",
+          "给花浇水",
+          "打扫客厅，倒垃圾",
+          "去菜市场"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "妹妹几岁？",
+        "options": [
+          "十岁",
+          "八岁",
+          "十二岁",
+          "十五岁"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "这个星期刘洋洗碗。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "下午他们想去哪儿？",
+        "options": [
+          "商场",
+          "奶奶家",
+          "电影院",
+          "公园"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-43",
+    "level": "A1",
+    "title": "下雨天打车去车站",
+    "topic": "Transport",
+    "body": "今天下午三点，黄丽要坐高铁去贵阳。两点钟，外面下大雨。她拿着箱子，在路边等出租车。\n\n雨很大，出租车上都有人。黄丽很着急。她用手机叫车，五分钟以后，一辆出租车来了。司机下车，帮她放箱子。\n\n“师傅，去重庆北站。我三点的车，来得及吗？”司机说：“别担心，现在路上车不多，二十五分钟能到。”\n\n司机开车很稳。两点三十五分，他们到了重庆北站。车费四十六元，黄丽用微信支付。她说：“谢谢师傅！”司机说：“不客气，一路平安！”黄丽进了车站，时间还够。",
+    "glossary": [
+      {
+        "term": "下大雨",
+        "translation": "xià dàyǔ · to rain heavily"
+      },
+      {
+        "term": "路边",
+        "translation": "lùbiān · roadside"
+      },
+      {
+        "term": "出租车",
+        "translation": "chūzūchē · taxi"
+      },
+      {
+        "term": "叫车",
+        "translation": "jiào chē · to call a car"
+      },
+      {
+        "term": "司机",
+        "translation": "sījī · driver"
+      },
+      {
+        "term": "师傅",
+        "translation": "shīfu · polite address for a driver or worker"
+      },
+      {
+        "term": "来得及",
+        "translation": "láidejí · to be in time"
+      },
+      {
+        "term": "担心",
+        "translation": "dānxīn · to worry"
+      },
+      {
+        "term": "稳",
+        "translation": "wěn · steady, smooth"
+      },
+      {
+        "term": "车费",
+        "translation": "chēfèi · fare"
+      },
+      {
+        "term": "微信支付",
+        "translation": "Wēixìn zhīfù · WeChat Pay"
+      },
+      {
+        "term": "一路平安",
+        "translation": "yílù píng'ān · have a safe trip"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "黄丽要去哪儿？",
+        "options": [
+          "成都",
+          "贵阳",
+          "昆明",
+          "南宁"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "今天天气很好。",
+        "answer": false,
+        "explanation": "今天下大雨。"
+      },
+      {
+        "type": "mc",
+        "prompt": "黄丽怎么叫出租车？",
+        "options": [
+          "用手机叫车",
+          "打电话给朋友",
+          "在车站等",
+          "请司机朋友来"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "司机说多长时间能到？",
+        "options": [
+          "十分钟",
+          "十五分钟",
+          "二十五分钟",
+          "四十分钟"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "车费是四十六元。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "黄丽怎么付钱？",
+        "options": [
+          "用现金",
+          "用银行卡",
+          "用支付宝",
+          "用微信支付"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-44",
+    "level": "A1",
+    "title": "在派出所办居住证",
+    "topic": "Bureaucracy",
+    "body": "赵磊是河南人，上个月他来深圳工作。在深圳住半年以上，可以办居住证。居住证很有用，看病、上班都方便。\n\n星期一上午，赵磊去小区附近的派出所。他带了身份证、照片和租房合同。\n\n工作人员给他一张表格：“您好，请填一下这张表。”表格上要写姓名、出生日期、手机号码、工作单位和现在的地址。赵磊不知道地址怎么写，他问：“请问，地址要写几号楼吗？”工作人员说：“对，要写楼号和房间号。”\n\n赵磊填好表，交给工作人员。工作人员说：“没问题。二十天以后，您来拿居住证。”",
+    "glossary": [
+      {
+        "term": "居住证",
+        "translation": "jūzhùzhèng · residence permit"
+      },
+      {
+        "term": "方便",
+        "translation": "fāngbiàn · convenient"
+      },
+      {
+        "term": "附近",
+        "translation": "fùjìn · nearby"
+      },
+      {
+        "term": "派出所",
+        "translation": "pàichūsuǒ · local police station"
+      },
+      {
+        "term": "照片",
+        "translation": "zhàopiàn · photo"
+      },
+      {
+        "term": "租房合同",
+        "translation": "zūfáng hétong · rental contract"
+      },
+      {
+        "term": "表格",
+        "translation": "biǎogé · form"
+      },
+      {
+        "term": "填",
+        "translation": "tián · to fill in"
+      },
+      {
+        "term": "姓名",
+        "translation": "xìngmíng · full name"
+      },
+      {
+        "term": "出生日期",
+        "translation": "chūshēng rìqī · date of birth"
+      },
+      {
+        "term": "工作单位",
+        "translation": "gōngzuò dānwèi · employer, workplace"
+      },
+      {
+        "term": "地址",
+        "translation": "dìzhǐ · address"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "赵磊是哪儿人？",
+        "options": [
+          "河北人",
+          "湖南人",
+          "广东人",
+          "河南人"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "赵磊去派出所办身份证。",
+        "answer": false,
+        "explanation": "他去派出所办居住证。"
+      },
+      {
+        "type": "mc",
+        "prompt": "赵磊带了什么？",
+        "options": [
+          "身份证、照片和租房合同",
+          "护照和照片",
+          "银行卡和手机",
+          "工作合同"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "表格上不用写什么？",
+        "options": [
+          "姓名",
+          "手机号码",
+          "爱好",
+          "地址"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "地址要写楼号和房间号。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "赵磊什么时候能拿居住证？",
+        "options": [
+          "明天",
+          "二十天以后",
+          "一个月以后",
+          "半年以后"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-45",
+    "level": "A1",
+    "title": "早上做瑜伽",
+    "topic": "Health",
+    "body": "谢宇在成都的一家公司工作。她每天坐在电脑前八个小时，下班以后也常常看手机。最近她的腰很疼，脖子也不舒服。\n\n医生说：“您坐的时间太长了。每天要多运动，可以试试瑜伽。”\n\n现在谢宇每天早上六点半起床，在客厅做二十分钟瑜伽。她在手机上看视频，跟老师一起做。开始的时候，很多动作她不会做。一个星期以后，她觉得好多了。\n\n在公司，她每工作一个小时，就站起来走一走，喝一杯水。她的同事也想试试。现在每天中午，三个同事和她一起在会议室做瑜伽。谢宇说：“我的腰不疼了，心情也很好！”",
+    "glossary": [
+      {
+        "term": "最近",
+        "translation": "zuìjìn · recently"
+      },
+      {
+        "term": "腰",
+        "translation": "yāo · lower back, waist"
+      },
+      {
+        "term": "疼",
+        "translation": "téng · to hurt, painful"
+      },
+      {
+        "term": "脖子",
+        "translation": "bózi · neck"
+      },
+      {
+        "term": "舒服",
+        "translation": "shūfu · comfortable, well"
+      },
+      {
+        "term": "运动",
+        "translation": "yùndòng · to exercise"
+      },
+      {
+        "term": "瑜伽",
+        "translation": "yújiā · yoga"
+      },
+      {
+        "term": "视频",
+        "translation": "shìpín · video"
+      },
+      {
+        "term": "动作",
+        "translation": "dòngzuò · movement, pose"
+      },
+      {
+        "term": "会议室",
+        "translation": "huìyìshì · meeting room"
+      },
+      {
+        "term": "心情",
+        "translation": "xīnqíng · mood"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "谢宇每天坐在电脑前几个小时？",
+        "options": [
+          "六个",
+          "七个",
+          "八个",
+          "十个"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "谢宇的腿很疼。",
+        "answer": false,
+        "explanation": "她的腰很疼，脖子也不舒服。"
+      },
+      {
+        "type": "mc",
+        "prompt": "医生说她可以试试什么？",
+        "options": [
+          "游泳",
+          "瑜伽",
+          "跑步",
+          "打篮球"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "谢宇每天早上做多长时间瑜伽？",
+        "options": [
+          "二十分钟",
+          "十分钟",
+          "半个小时",
+          "一个小时"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "在公司，她每工作一个小时就站起来走一走。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "中午谁和她一起做瑜伽？",
+        "options": [
+          "她妈妈",
+          "她丈夫",
+          "经理",
+          "三个同事"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-46",
+    "level": "A1",
+    "title": "小明上小学了",
+    "topic": "School and education",
+    "body": "九月一日是小明上小学的第一天。他六岁半，今天很早就起床了。妈妈给他买了一个新书包，书包是蓝色的，上面有一只熊猫。\n\n七点四十，爸爸妈妈送小明到学校门口。门口有很多孩子和家长。家长不能进学校，小明有点儿紧张。妈妈说：“别怕，下午我来接你。”\n\n上午，学校有开学典礼。校长说：“欢迎一年级的新同学！”然后老师带大家去教室。小明的老师姓王，她很年轻，也很温柔。小明的同桌是一个女孩，叫乐乐。\n\n下午四点，妈妈来接小明。小明大声说：“妈妈，我有新朋友了！明天我还想来！”",
+    "glossary": [
+      {
+        "term": "小学",
+        "translation": "xiǎoxué · primary school"
+      },
+      {
+        "term": "书包",
+        "translation": "shūbāo · school bag"
+      },
+      {
+        "term": "熊猫",
+        "translation": "xióngmāo · panda"
+      },
+      {
+        "term": "门口",
+        "translation": "ménkǒu · entrance, gate"
+      },
+      {
+        "term": "家长",
+        "translation": "jiāzhǎng · parents"
+      },
+      {
+        "term": "紧张",
+        "translation": "jǐnzhāng · nervous"
+      },
+      {
+        "term": "接",
+        "translation": "jiē · to pick up (a person)"
+      },
+      {
+        "term": "开学典礼",
+        "translation": "kāixué diǎnlǐ · school opening ceremony"
+      },
+      {
+        "term": "校长",
+        "translation": "xiàozhǎng · head teacher"
+      },
+      {
+        "term": "一年级",
+        "translation": "yī niánjí · first grade"
+      },
+      {
+        "term": "温柔",
+        "translation": "wēnróu · gentle, kind"
+      },
+      {
+        "term": "同桌",
+        "translation": "tóngzhuō · deskmate"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "小明今年几岁？",
+        "options": [
+          "五岁",
+          "六岁半",
+          "七岁",
+          "七岁半"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "新书包上面有什么？",
+        "options": [
+          "一只猫",
+          "一只狗",
+          "一只熊猫",
+          "一只小鸟"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "家长可以进学校。",
+        "answer": false,
+        "explanation": "家长不能进学校。"
+      },
+      {
+        "type": "mc",
+        "prompt": "上午学校有什么活动？",
+        "options": [
+          "开学典礼",
+          "运动会",
+          "音乐课",
+          "考试"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "小明的同桌叫乐乐。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "下午几点妈妈来接小明？",
+        "options": [
+          "两点",
+          "三点",
+          "五点",
+          "四点"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-47",
+    "level": "A1",
+    "title": "要找大一点儿的房子",
+    "topic": "Housing",
+    "body": "孙悦和丈夫徐明住在杭州。他们的房子很小，只有一个房间，四十平方米。明年三月，他们的孩子要出生了，所以他们想找一个大一点儿的房子。\n\n他们在手机上看了很多房子。有的太贵，有的离地铁站太远。星期六，他们和中介一起去看两套房子。\n\n第一套房子有三个房间，很大，也很漂亮，可是一个月八千元，太贵了。第二套房子有两个房间，七十平方米，一个月五千元。小区里有公园，附近还有医院和幼儿园。\n\n孙悦说：“这套房子很好，孩子以后可以在公园玩儿。”徐明也很喜欢。他们决定下个月搬家。",
+    "glossary": [
+      {
+        "term": "丈夫",
+        "translation": "zhàngfu · husband"
+      },
+      {
+        "term": "平方米",
+        "translation": "píngfāngmǐ · square metre"
+      },
+      {
+        "term": "出生",
+        "translation": "chūshēng · to be born"
+      },
+      {
+        "term": "地铁站",
+        "translation": "dìtiězhàn · metro station"
+      },
+      {
+        "term": "中介",
+        "translation": "zhōngjiè · estate agent"
+      },
+      {
+        "term": "漂亮",
+        "translation": "piàoliang · beautiful, nice"
+      },
+      {
+        "term": "小区",
+        "translation": "xiǎoqū · residential compound"
+      },
+      {
+        "term": "医院",
+        "translation": "yīyuàn · hospital"
+      },
+      {
+        "term": "幼儿园",
+        "translation": "yòu'éryuán · kindergarten"
+      },
+      {
+        "term": "决定",
+        "translation": "juédìng · to decide"
+      },
+      {
+        "term": "搬家",
+        "translation": "bānjiā · to move house"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "现在的房子多大？",
+        "options": [
+          "四十平方米",
+          "五十平方米",
+          "六十平方米",
+          "七十平方米"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "孩子明年五月出生。",
+        "answer": false,
+        "explanation": "孩子明年三月出生。"
+      },
+      {
+        "type": "mc",
+        "prompt": "第一套房子一个月多少钱？",
+        "options": [
+          "五千元",
+          "六千元",
+          "八千元",
+          "一万元"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "第二套房子有几个房间？",
+        "options": [
+          "一个",
+          "三个",
+          "四个",
+          "两个"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "第二套房子附近有幼儿园。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "他们什么时候搬家？",
+        "options": [
+          "这个月",
+          "下个月",
+          "明年三月",
+          "明年"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-48",
+    "level": "A1",
+    "title": "在爷爷的院子里种菜",
+    "topic": "Home",
+    "body": "四月的桂林很暖和。星期天，朱浩回农村看爷爷奶奶。爷爷家有一个大院子，院子里有菜地，也有很多花。\n\n早饭以后，爷爷说：“浩浩，今天我们种菜吧。”朱浩换了一件旧衣服，拿着锄头去菜地。爷爷先松土，朱浩种西红柿和辣椒。奶奶在旁边给花浇水。\n\n太阳很好，朱浩有点儿热，他脱了外套。院子里有一棵桃树，桃花开了，很漂亮。小狗在树下睡觉。\n\n十一点，奶奶说：“休息一下，喝点儿茶吧！”他们坐在桃树下，喝茶，吃奶奶做的米糕。爷爷笑着说：“夏天你再来，西红柿就可以吃了。”",
+    "glossary": [
+      {
+        "term": "暖和",
+        "translation": "nuǎnhuo · warm"
+      },
+      {
+        "term": "农村",
+        "translation": "nóngcūn · countryside, village"
+      },
+      {
+        "term": "院子",
+        "translation": "yuànzi · yard, courtyard"
+      },
+      {
+        "term": "菜地",
+        "translation": "càidì · vegetable patch"
+      },
+      {
+        "term": "种菜",
+        "translation": "zhòngcài · to grow vegetables"
+      },
+      {
+        "term": "锄头",
+        "translation": "chútou · hoe"
+      },
+      {
+        "term": "松土",
+        "translation": "sōngtǔ · to loosen the soil"
+      },
+      {
+        "term": "辣椒",
+        "translation": "làjiāo · chilli pepper"
+      },
+      {
+        "term": "外套",
+        "translation": "wàitào · jacket, coat"
+      },
+      {
+        "term": "桃树",
+        "translation": "táoshù · peach tree"
+      },
+      {
+        "term": "桃花",
+        "translation": "táohuā · peach blossom"
+      },
+      {
+        "term": "米糕",
+        "translation": "mǐgāo · rice cake"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "爷爷奶奶住在哪儿？",
+        "options": [
+          "桂林市里",
+          "大理",
+          "桂林的农村",
+          "南宁"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "朱浩种西红柿和辣椒。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "奶奶在做什么？",
+        "options": [
+          "做饭",
+          "给花浇水",
+          "洗衣服",
+          "睡觉"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "院子里有一棵苹果树。",
+        "answer": false,
+        "explanation": "院子里有一棵桃树。"
+      },
+      {
+        "type": "mc",
+        "prompt": "谁在树下睡觉？",
+        "options": [
+          "小狗",
+          "小猫",
+          "爷爷",
+          "朱浩"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "他们休息的时候吃什么？",
+        "options": [
+          "月饼",
+          "包子",
+          "西瓜",
+          "米糕"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-49",
+    "level": "A1",
+    "title": "汤姆用手机学中文",
+    "topic": "School and education",
+    "body": "汤姆是美国人，他在青岛的一所大学教英语。他来中国半年了，可是他的中文还不太好。\n\n现在他每天用一个手机应用学中文。早上坐公交车的时候，他学十个新词。应用里有图片，也有声音。他先听，然后跟着读，最后写汉字。说对了，手机上有一个笑脸。\n\n汉字很难，他常常写错。可是他很喜欢学习。中午去食堂吃饭，他用中文说：“阿姨，我要一碗牛肉面，不要香菜。”阿姨笑着说：“好！”\n\n周末，他和朋友林涛一起喝茶。林涛想学英语，汤姆想学中文。他们一个小时说中文，一个小时说英语。",
+    "glossary": [
+      {
+        "term": "中文",
+        "translation": "Zhōngwén · Chinese (language)"
+      },
+      {
+        "term": "手机应用",
+        "translation": "shǒujī yìngyòng · phone app"
+      },
+      {
+        "term": "新词",
+        "translation": "xīn cí · new word"
+      },
+      {
+        "term": "图片",
+        "translation": "túpiàn · picture"
+      },
+      {
+        "term": "声音",
+        "translation": "shēngyīn · sound, voice"
+      },
+      {
+        "term": "跟着",
+        "translation": "gēnzhe · to follow, along with"
+      },
+      {
+        "term": "汉字",
+        "translation": "Hànzì · Chinese characters"
+      },
+      {
+        "term": "笑脸",
+        "translation": "xiàoliǎn · smiley face"
+      },
+      {
+        "term": "写错",
+        "translation": "xiěcuò · to write wrongly"
+      },
+      {
+        "term": "食堂",
+        "translation": "shítáng · canteen"
+      },
+      {
+        "term": "牛肉面",
+        "translation": "niúròumiàn · beef noodles"
+      },
+      {
+        "term": "香菜",
+        "translation": "xiāngcài · coriander"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "汤姆在青岛做什么？",
+        "options": [
+          "学中文",
+          "教英语",
+          "做生意",
+          "开出租车"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "汤姆来中国两年了。",
+        "answer": false,
+        "explanation": "他来中国半年了。"
+      },
+      {
+        "type": "mc",
+        "prompt": "汤姆什么时候学新词？",
+        "options": [
+          "晚上睡觉以前",
+          "中午吃饭的时候",
+          "早上坐公交车的时候",
+          "周末"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "汤姆觉得什么很难？",
+        "options": [
+          "汉字",
+          "听",
+          "说",
+          "英语"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "汤姆不要香菜。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "林涛想学什么？",
+        "options": [
+          "中文",
+          "法语",
+          "汉字",
+          "英语"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-50",
+    "level": "A1",
+    "title": "从三亚寄来的明信片",
+    "topic": "Travel",
+    "body": "敏敏：\n\n你好！我现在在三亚。这里很暖和，每天都是二十八度左右，天很蓝，海也很蓝。北京现在很冷吧？\n\n我和妈妈住在海边的一家酒店。酒店不大，可是很干净。每天早上，我们在海边散步，看日出。下午我去游泳，妈妈在沙滩上看书。\n\n三亚的海鲜很新鲜，也不太贵。昨天晚上我们吃了大虾和鱼，还喝了椰子汁。椰子汁很甜，我很喜欢。\n\n明天我们去南山寺，后天坐飞机回北京。我给你买了一件礼物，你猜是什么？\n\n祝你天天开心！\n\n你的朋友马丽\n一月十五日",
+    "glossary": [
+      {
+        "term": "三亚",
+        "translation": "Sānyà · Sanya (city)"
+      },
+      {
+        "term": "左右",
+        "translation": "zuǒyòu · about, around"
+      },
+      {
+        "term": "酒店",
+        "translation": "jiǔdiàn · hotel"
+      },
+      {
+        "term": "日出",
+        "translation": "rìchū · sunrise"
+      },
+      {
+        "term": "沙滩",
+        "translation": "shātān · beach"
+      },
+      {
+        "term": "海鲜",
+        "translation": "hǎixiān · seafood"
+      },
+      {
+        "term": "新鲜",
+        "translation": "xīnxiān · fresh"
+      },
+      {
+        "term": "大虾",
+        "translation": "dàxiā · prawns"
+      },
+      {
+        "term": "椰子汁",
+        "translation": "yēzizhī · coconut juice"
+      },
+      {
+        "term": "南山寺",
+        "translation": "Nánshān Sì · Nanshan Temple"
+      },
+      {
+        "term": "后天",
+        "translation": "hòutiān · the day after tomorrow"
+      },
+      {
+        "term": "猜",
+        "translation": "cāi · to guess"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "马丽现在在哪儿？",
+        "options": [
+          "北京",
+          "海口",
+          "厦门",
+          "三亚"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "马丽和谁一起去？",
+        "options": [
+          "妈妈",
+          "爸爸",
+          "朋友",
+          "丈夫"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "她们的酒店很大。",
+        "answer": false,
+        "explanation": "酒店不大，可是很干净。"
+      },
+      {
+        "type": "mc",
+        "prompt": "下午妈妈做什么？",
+        "options": [
+          "游泳",
+          "在沙滩上看书",
+          "睡觉",
+          "买东西"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "昨天晚上她们喝了什么？",
+        "options": [
+          "啤酒",
+          "茶",
+          "椰子汁",
+          "咖啡"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "马丽给敏敏买了一件礼物。",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "id": "a1-51",
+    "level": "A1",
+    "title": "玄武湖边的野餐",
+    "topic": "Free time",
+    "body": "星期六天气很好，不冷也不热。王芳、李娜和陈静是大学同学，她们想去南京的玄武湖公园野餐。\n\n每个人都带了一些东西。王芳带了面包、鸡蛋和水果。李娜带了一大瓶果汁和三个杯子。陈静很会做饭，她带了自己做的饭团和盐水鸭。\n\n十点，她们到了公园。湖边有很多人，有的在散步，有的在放风筝。她们在一棵大树下铺野餐垫，坐下来吃东西。\n\n吃完饭，李娜拿出手机，给大家拍照。陈静说：“我们明年还来，好不好？”王芳和李娜都说：“好！”下午四点，她们带走垃圾，高高兴兴地回家。",
+    "glossary": [
+      {
+        "term": "野餐",
+        "translation": "yěcān · to have a picnic"
+      },
+      {
+        "term": "果汁",
+        "translation": "guǒzhī · juice"
+      },
+      {
+        "term": "饭团",
+        "translation": "fàntuán · rice ball"
+      },
+      {
+        "term": "盐水鸭",
+        "translation": "yánshuǐyā · salted duck (Nanjing dish)"
+      },
+      {
+        "term": "湖边",
+        "translation": "húbiān · lakeside"
+      },
+      {
+        "term": "放风筝",
+        "translation": "fàng fēngzheng · to fly a kite"
+      },
+      {
+        "term": "铺",
+        "translation": "pū · to spread out"
+      },
+      {
+        "term": "野餐垫",
+        "translation": "yěcāndiàn · picnic blanket"
+      },
+      {
+        "term": "拍照",
+        "translation": "pāizhào · to take photos"
+      },
+      {
+        "term": "带走",
+        "translation": "dàizǒu · to take away"
+      },
+      {
+        "term": "垃圾",
+        "translation": "lājī · rubbish"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "她们是什么关系？",
+        "options": [
+          "姐妹",
+          "同事",
+          "大学同学",
+          "邻居"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "李娜带了什么？",
+        "options": [
+          "果汁和杯子",
+          "面包和鸡蛋",
+          "饭团",
+          "盐水鸭"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "陈静带了自己做的饭团和盐水鸭。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "湖边的人在做什么？",
+        "options": [
+          "游泳",
+          "散步，放风筝",
+          "钓鱼",
+          "跑步"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "王芳给大家拍照。",
+        "answer": false,
+        "explanation": "李娜给大家拍照。"
+      },
+      {
+        "type": "mc",
+        "prompt": "她们几点回家？",
+        "options": [
+          "中午十二点",
+          "下午两点",
+          "下午三点",
+          "下午四点"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-52",
+    "level": "A1",
+    "title": "我住的小县城",
+    "topic": "Places in town",
+    "body": "我叫杨帆，住在云南建水。建水是一个小县城，人不多，生活很安静。\n\n我们这儿有一条老街，老街上有很多小店和茶馆。县城里有两所中学、一家医院、一个菜市场和一个大超市。广场很大，晚上很多阿姨在那儿跳广场舞。建水的烧豆腐非常有名，街上很多小店都卖。\n\n可是我们这儿没有机场，也没有地铁。电影院只有一家，新电影不多。大商场也没有，买衣服要去昆明。从建水坐火车去昆明要两个小时。\n\n我的朋友说：“你们那儿太小了。”我觉得小县城很好，东西便宜，空气也好。",
+    "glossary": [
+      {
+        "term": "县城",
+        "translation": "xiànchéng · county town"
+      },
+      {
+        "term": "安静",
+        "translation": "ānjìng · quiet"
+      },
+      {
+        "term": "老街",
+        "translation": "lǎojiē · old street"
+      },
+      {
+        "term": "茶馆",
+        "translation": "cháguǎn · teahouse"
+      },
+      {
+        "term": "中学",
+        "translation": "zhōngxué · secondary school"
+      },
+      {
+        "term": "跳广场舞",
+        "translation": "tiào guǎngchǎngwǔ · to do square dancing"
+      },
+      {
+        "term": "烧豆腐",
+        "translation": "shāo dòufu · grilled tofu"
+      },
+      {
+        "term": "有名",
+        "translation": "yǒumíng · famous"
+      },
+      {
+        "term": "电影院",
+        "translation": "diànyǐngyuàn · cinema"
+      },
+      {
+        "term": "便宜",
+        "translation": "piányi · cheap"
+      },
+      {
+        "term": "空气",
+        "translation": "kōngqì · air"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "杨帆住在哪儿？",
+        "options": [
+          "昆明",
+          "大理",
+          "建水",
+          "丽江"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "建水人很多，很热闹。",
+        "answer": false,
+        "explanation": "建水人不多，生活很安静。"
+      },
+      {
+        "type": "mc",
+        "prompt": "晚上谁在广场跳舞？",
+        "options": [
+          "很多阿姨",
+          "学生",
+          "老师",
+          "孩子"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "建水什么很有名？",
+        "options": [
+          "米线",
+          "烧豆腐",
+          "火锅",
+          "茶"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "建水没有机场，也没有地铁。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "从建水坐火车去昆明要多长时间？",
+        "options": [
+          "半个小时",
+          "一个小时",
+          "三个小时",
+          "两个小时"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-53",
+    "level": "A1",
+    "title": "快递员的一天",
+    "topic": "Daily routine",
+    "body": "冯超是郑州的一个快递员。他的一天很忙。\n\n早上六点，闹钟响了。冯超起床，洗脸，刷牙。六点半，他在楼下的小店吃早饭，一碗胡辣汤和两个包子。七点，他到快递站，开始整理快递。\n\n八点到十二点，他骑电动车送快递。他一个上午送八十多个快递。十二点半，他吃午饭，常常是一碗烩面。下午一点到五点，他还要去取快递。\n\n六点，冯超下班回家。他和妻子、儿子一起吃晚饭。八点，他陪儿子写作业。九点半，他洗澡。十点，冯超睡觉。他说：“工作很累，可是我的家很温暖。”",
+    "glossary": [
+      {
+        "term": "快递员",
+        "translation": "kuàidìyuán · courier"
+      },
+      {
+        "term": "闹钟",
+        "translation": "nàozhōng · alarm clock"
+      },
+      {
+        "term": "洗脸",
+        "translation": "xǐliǎn · to wash one's face"
+      },
+      {
+        "term": "刷牙",
+        "translation": "shuāyá · to brush one's teeth"
+      },
+      {
+        "term": "胡辣汤",
+        "translation": "húlàtāng · spicy pepper soup (Henan dish)"
+      },
+      {
+        "term": "快递站",
+        "translation": "kuàidìzhàn · parcel depot"
+      },
+      {
+        "term": "电动车",
+        "translation": "diàndòngchē · electric scooter"
+      },
+      {
+        "term": "烩面",
+        "translation": "huìmiàn · stewed noodles"
+      },
+      {
+        "term": "取",
+        "translation": "qǔ · to collect, to pick up"
+      },
+      {
+        "term": "妻子",
+        "translation": "qīzi · wife"
+      },
+      {
+        "term": "陪",
+        "translation": "péi · to keep someone company"
+      },
+      {
+        "term": "温暖",
+        "translation": "wēnnuǎn · warm"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "冯超做什么工作？",
+        "options": [
+          "司机",
+          "快递员",
+          "厨师",
+          "老师"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "冯超早饭吃什么？",
+        "options": [
+          "豆浆和油条",
+          "面条",
+          "胡辣汤和包子",
+          "米饭"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "冯超开车送快递。",
+        "answer": false,
+        "explanation": "他骑电动车送快递。"
+      },
+      {
+        "type": "mc",
+        "prompt": "午饭他常常吃什么？",
+        "options": [
+          "烩面",
+          "饺子",
+          "米饭",
+          "面包"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "晚上八点冯超陪儿子写作业。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "冯超几点睡觉？",
+        "options": [
+          "九点",
+          "九点半",
+          "十一点",
+          "十点"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-54",
+    "level": "A1",
+    "title": "一起去看电影吧",
+    "topic": "Communication",
+    "body": "胡蝶和苏晓都住在大连。星期五下午，胡蝶给苏晓发微信：\n\n— 晓晓，你明天晚上有空吗？\n— 有空啊，怎么了？\n— 我想去看电影。新电影《月亮上的家》很好看，我们一起去吧？\n— 好啊！几点的？在哪儿看？\n— 晚上七点半，在星光影城。离你家不远，坐地铁两站就到。\n— 太好了。电影票多少钱？\n— 一张四十五元，我已经买了两张。\n— 谢谢你！看电影以前我们一起吃饭吧？我请你吃火锅。\n— 好！那我们六点在影城门口见。\n— 明天见！\n\n苏晓很高兴，她很久没看电影了。",
+    "glossary": [
+      {
+        "term": "大连",
+        "translation": "Dàlián · Dalian (city)"
+      },
+      {
+        "term": "发微信",
+        "translation": "fā Wēixìn · to send a WeChat message"
+      },
+      {
+        "term": "有空",
+        "translation": "yǒu kòng · to be free, to have time"
+      },
+      {
+        "term": "月亮",
+        "translation": "yuèliang · moon"
+      },
+      {
+        "term": "影城",
+        "translation": "yǐngchéng · cinema complex"
+      },
+      {
+        "term": "电影票",
+        "translation": "diànyǐngpiào · cinema ticket"
+      },
+      {
+        "term": "已经",
+        "translation": "yǐjīng · already"
+      },
+      {
+        "term": "请",
+        "translation": "qǐng · to treat, to invite"
+      },
+      {
+        "term": "火锅",
+        "translation": "huǒguō · hotpot"
+      },
+      {
+        "term": "门口",
+        "translation": "ménkǒu · entrance"
+      },
+      {
+        "term": "明天见",
+        "translation": "míngtiān jiàn · see you tomorrow"
+      },
+      {
+        "term": "很久",
+        "translation": "hěn jiǔ · a long time"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "谁先发微信？",
+        "options": [
+          "苏晓",
+          "胡蝶",
+          "胡蝶的妈妈",
+          "电影院"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "她们明天下午去看电影。",
+        "answer": false,
+        "explanation": "她们明天晚上七点半看电影。"
+      },
+      {
+        "type": "mc",
+        "prompt": "从苏晓家去影城怎么走？",
+        "options": [
+          "坐地铁两站",
+          "坐公交车",
+          "走路十分钟",
+          "打车"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "一张电影票多少钱？",
+        "options": [
+          "三十五元",
+          "四十元",
+          "四十五元",
+          "五十元"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "看电影以前她们一起吃火锅。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "她们几点在影城门口见？",
+        "options": [
+          "五点",
+          "五点半",
+          "七点半",
+          "六点"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "a1-55",
+    "level": "A1",
+    "title": "发烧了，在家休息",
+    "topic": "Health",
+    "body": "今天早上，钱伟醒了，可是他不想起床。他头很疼，嗓子也疼，身上没有力气。他量了一下体温：三十八度五。他发烧了。\n\n钱伟给经理打电话：“王经理，您好，我是钱伟。我今天发烧了，很不舒服，不能去上班。我想请一天假。”经理说：“没关系，你好好休息。明天的会你也不用来。”\n\n钱伟的妻子去药店买感冒药。她还给他做了一碗粥。钱伟吃了药，喝了很多热水，然后睡觉。\n\n下午四点，他醒了。体温三十七度，他觉得好多了。同事发微信问他：“钱伟，你好点儿了吗？”他回答：“好多了，谢谢！明天我去上班。”",
+    "glossary": [
+      {
+        "term": "醒",
+        "translation": "xǐng · to wake up"
+      },
+      {
+        "term": "嗓子",
+        "translation": "sǎngzi · throat"
+      },
+      {
+        "term": "力气",
+        "translation": "lìqi · strength, energy"
+      },
+      {
+        "term": "量",
+        "translation": "liáng · to measure"
+      },
+      {
+        "term": "体温",
+        "translation": "tǐwēn · body temperature"
+      },
+      {
+        "term": "发烧",
+        "translation": "fāshāo · to have a fever"
+      },
+      {
+        "term": "请假",
+        "translation": "qǐngjià · to ask for leave",
+        "match": "请一天假"
+      },
+      {
+        "term": "没关系",
+        "translation": "méi guānxi · it doesn't matter"
+      },
+      {
+        "term": "药店",
+        "translation": "yàodiàn · pharmacy"
+      },
+      {
+        "term": "感冒药",
+        "translation": "gǎnmàoyào · cold medicine"
+      },
+      {
+        "term": "粥",
+        "translation": "zhōu · rice porridge"
+      },
+      {
+        "term": "回答",
+        "translation": "huídá · to answer, to reply"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "钱伟的体温是多少？",
+        "options": [
+          "三十七度",
+          "三十七度五",
+          "三十八度",
+          "三十八度五"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "钱伟给他妈妈打电话。",
+        "answer": false,
+        "explanation": "他给经理打电话。"
+      },
+      {
+        "type": "mc",
+        "prompt": "钱伟想请几天假？",
+        "options": [
+          "一天",
+          "两天",
+          "三天",
+          "一个星期"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "钱伟的妻子做了什么？",
+        "options": [
+          "给经理打电话",
+          "去医院",
+          "买感冒药，做粥",
+          "去上班"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "下午钱伟觉得好多了。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "钱伟明天做什么？",
+        "options": [
+          "在家休息",
+          "去上班",
+          "去医院",
+          "去药店"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-56",
+    "level": "A1",
+    "title": "零下二十二度穿什么",
+    "topic": "Weather and clothes",
+    "body": "今天是星期天，方圆要和朋友去中央大街玩儿。早上她打开手机看天气：哈尔滨今天是晴天，可是很冷，零下二十二度，下午还有风。\n\n方圆站在衣柜前想：“穿什么呢？”她想穿那条新裙子，可是太冷了，不行。妈妈说：“穿羽绒服吧，还要戴帽子和手套。”\n\n方圆先穿一件保暖内衣，再穿一件厚毛衣和一条厚裤子。外面穿长羽绒服，是白色的。她还戴一顶红帽子、一条围巾和一副手套。脚上穿一双雪地靴。\n\n她照镜子，笑着说：“我像一个大雪人！”妈妈说：“像雪人没关系，不冷最重要。”",
+    "glossary": [
+      {
+        "term": "中央大街",
+        "translation": "Zhōngyāng Dàjiē · Central Street (in Harbin)"
+      },
+      {
+        "term": "晴天",
+        "translation": "qíngtiān · sunny day"
+      },
+      {
+        "term": "零下",
+        "translation": "língxià · below zero"
+      },
+      {
+        "term": "衣柜",
+        "translation": "yīguì · wardrobe"
+      },
+      {
+        "term": "裙子",
+        "translation": "qúnzi · skirt, dress"
+      },
+      {
+        "term": "羽绒服",
+        "translation": "yǔróngfú · down jacket"
+      },
+      {
+        "term": "戴",
+        "translation": "dài · to wear (hat, gloves, scarf)"
+      },
+      {
+        "term": "手套",
+        "translation": "shǒutào · gloves"
+      },
+      {
+        "term": "保暖内衣",
+        "translation": "bǎonuǎn nèiyī · thermal underwear"
+      },
+      {
+        "term": "围巾",
+        "translation": "wéijīn · scarf"
+      },
+      {
+        "term": "雪地靴",
+        "translation": "xuědìxuē · snow boots"
+      },
+      {
+        "term": "照镜子",
+        "translation": "zhào jìngzi · to look in the mirror"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "方圆要去哪儿？",
+        "options": [
+          "中央大街",
+          "冰雪大世界",
+          "朋友家",
+          "商场"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "今天哈尔滨多少度？",
+        "options": [
+          "零下二度",
+          "零下十二度",
+          "零下二十二度",
+          "零上二度"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "方圆穿那条新裙子。",
+        "answer": false,
+        "explanation": "太冷了，她不穿裙子。"
+      },
+      {
+        "type": "mc",
+        "prompt": "方圆的羽绒服是什么颜色的？",
+        "options": [
+          "红色",
+          "黑色",
+          "蓝色",
+          "白色"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "她戴什么？",
+        "options": [
+          "眼镜",
+          "红帽子、围巾和手套",
+          "耳机",
+          "白帽子"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "妈妈觉得不冷最重要。",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "id": "a1-57",
+    "level": "A1",
+    "title": "夏天去洱海",
+    "topic": "Holidays",
+    "body": "八月的一个星期天，宁宁和爸爸妈妈去洱海玩儿。他们住在大理古城，开车去洱海只要二十分钟。\n\n洱海很大，水很清，天上有很多白云。爸爸租了三辆自行车，他们沿着湖边骑车。路上有很多花，也有很多游客在拍照。\n\n中午，他们在一家白族饭馆吃饭。妈妈点了酸辣鱼和凉拌菜，宁宁吃了很多米饭。\n\n下午天气很热。宁宁和爸爸在湖边玩水，妈妈坐在树下看书。四点，他们坐船去一个小岛。岛上有一座白色的塔，很漂亮。\n\n晚上回家的时候，宁宁在车上睡着了。妈妈说：“今天真开心！”",
+    "glossary": [
+      {
+        "term": "洱海",
+        "translation": "Ěrhǎi · Erhai Lake"
+      },
+      {
+        "term": "古城",
+        "translation": "gǔchéng · old town"
+      },
+      {
+        "term": "清",
+        "translation": "qīng · clear"
+      },
+      {
+        "term": "白云",
+        "translation": "báiyún · white clouds"
+      },
+      {
+        "term": "租",
+        "translation": "zū · to rent"
+      },
+      {
+        "term": "自行车",
+        "translation": "zìxíngchē · bicycle"
+      },
+      {
+        "term": "沿着",
+        "translation": "yánzhe · along"
+      },
+      {
+        "term": "游客",
+        "translation": "yóukè · tourist"
+      },
+      {
+        "term": "白族",
+        "translation": "Báizú · the Bai people"
+      },
+      {
+        "term": "塔",
+        "translation": "tǎ · pagoda"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "宁宁一家住在哪儿？",
+        "options": [
+          "昆明",
+          "大理古城",
+          "丽江",
+          "洱海边"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "他们坐公交车去洱海。",
+        "answer": false,
+        "explanation": "他们开车去洱海。"
+      },
+      {
+        "type": "mc",
+        "prompt": "爸爸租了几辆自行车？",
+        "options": [
+          "一辆",
+          "两辆",
+          "四辆",
+          "三辆"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mc",
+        "prompt": "中午他们在哪儿吃饭？",
+        "options": [
+          "白族饭馆",
+          "酒店",
+          "家里",
+          "船上"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "下午妈妈做什么？",
+        "options": [
+          "玩水",
+          "骑车",
+          "坐在树下看书",
+          "睡觉"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "岛上有一座白色的塔。",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "id": "a1-58",
+    "level": "A1",
+    "title": "二十年前的全家福",
+    "topic": "Family",
+    "body": "昨天我在外婆家看到一张老照片。照片是2006年拍的，到现在已经二十年了。\n\n照片上一共有七个人。中间坐着外公和外婆，那时候他们五十多岁，头发还是黑的。外公后面是我爸爸妈妈。妈妈很瘦，留着长头发。爸爸穿一件白衬衫，看起来很年轻。\n\n站在外婆旁边的是舅舅和小姨。舅舅那时候在上大学，小姨上高中。最小的孩子是我，那年我六岁，穿一条红裙子，在笑。\n\n现在外公不在了，舅舅和小姨也都结婚了。外婆拿着照片说：“时间过得真快啊！”我也这样觉得。",
+    "glossary": [
+      {
+        "term": "老照片",
+        "translation": "lǎo zhàopiàn · old photo"
+      },
+      {
+        "term": "中间",
+        "translation": "zhōngjiān · middle"
+      },
+      {
+        "term": "外公",
+        "translation": "wàigōng · grandfather (mother's father)"
+      },
+      {
+        "term": "那时候",
+        "translation": "nà shíhou · at that time"
+      },
+      {
+        "term": "看起来",
+        "translation": "kàn qǐlai · to look, to seem"
+      },
+      {
+        "term": "舅舅",
+        "translation": "jiùjiu · uncle (mother's brother)"
+      },
+      {
+        "term": "小姨",
+        "translation": "xiǎoyí · aunt (mother's younger sister)"
+      },
+      {
+        "term": "高中",
+        "translation": "gāozhōng · senior high school"
+      },
+      {
+        "term": "不在了",
+        "translation": "bú zài le · has passed away"
+      },
+      {
+        "term": "结婚",
+        "translation": "jiéhūn · to get married"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "这张照片是哪一年拍的？",
+        "options": [
+          "1996年",
+          "2006年",
+          "2016年",
+          "2026年"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "照片上一共有几个人？",
+        "options": [
+          "五个",
+          "六个",
+          "八个",
+          "七个"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "那时候外公外婆的头发已经白了。",
+        "answer": false,
+        "explanation": "那时候他们的头发还是黑的。"
+      },
+      {
+        "type": "mc",
+        "prompt": "照片上爸爸穿什么？",
+        "options": [
+          "一件白衬衫",
+          "一件黑外套",
+          "一件红毛衣",
+          "一件蓝衬衫"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mc",
+        "prompt": "那时候舅舅在做什么？",
+        "options": [
+          "工作",
+          "上高中",
+          "上大学",
+          "当老师"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "现在小姨结婚了。",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "id": "a1-59",
+    "level": "A1",
+    "title": "酒店前台的一个星期",
+    "topic": "Daily routine",
+    "body": "我叫江月，今年二十五岁，在丽江的一家酒店做前台。我的工作时间每个星期都不一样。\n\n星期一和星期二，我上早班，从早上七点到下午三点。早上客人很多，他们要退房，也问我去玉龙雪山怎么走。\n\n星期三和星期四，我上晚班，从下午三点到晚上十一点。晚上我帮客人办入住，给他们房卡。有时候客人很晚才到，我要等他们。\n\n星期五我休息，常常去古城走走，或者在家睡觉。星期六和星期日最忙，游客很多，我上白班，从早上九点到晚上六点。\n\n工作有点儿累，可是我很喜欢。每天我都能认识新的人，也可以练习英语。",
+    "glossary": [
+      {
+        "term": "前台",
+        "translation": "qiántái · receptionist, front desk"
+      },
+      {
+        "term": "早班",
+        "translation": "zǎobān · early shift"
+      },
+      {
+        "term": "客人",
+        "translation": "kèrén · guest"
+      },
+      {
+        "term": "退房",
+        "translation": "tuìfáng · to check out"
+      },
+      {
+        "term": "玉龙雪山",
+        "translation": "Yùlóng Xuěshān · Jade Dragon Snow Mountain"
+      },
+      {
+        "term": "晚班",
+        "translation": "wǎnbān · late shift"
+      },
+      {
+        "term": "入住",
+        "translation": "rùzhù · to check in"
+      },
+      {
+        "term": "房卡",
+        "translation": "fángkǎ · key card"
+      },
+      {
+        "term": "有时候",
+        "translation": "yǒushíhou · sometimes"
+      },
+      {
+        "term": "或者",
+        "translation": "huòzhě · or"
+      },
+      {
+        "term": "白班",
+        "translation": "báibān · day shift"
+      },
+      {
+        "term": "练习",
+        "translation": "liànxí · to practise"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "江月在哪儿工作？",
+        "options": [
+          "大理",
+          "昆明",
+          "丽江",
+          "西双版纳"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "星期一和星期二她几点上班？",
+        "options": [
+          "早上七点",
+          "早上九点",
+          "下午三点",
+          "晚上十一点"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "晚上客人要退房。",
+        "answer": false,
+        "explanation": "早上客人要退房，晚上客人办入住。"
+      },
+      {
+        "type": "mc",
+        "prompt": "江月星期几休息？",
+        "options": [
+          "星期三",
+          "星期四",
+          "星期六",
+          "星期五"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "周末酒店最忙。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "江月工作的时候可以练习什么？",
+        "options": [
+          "中文",
+          "英语",
+          "日语",
+          "唱歌"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "a1-60",
+    "level": "A1",
+    "title": "三十岁生日聚会邀请",
+    "topic": "Celebrations",
+    "body": "主题：我的三十岁生日聚会\n\n亲爱的朋友们：\n\n你们好！下个月十四号是我的三十岁生日，我想请大家来参加我的生日聚会！\n\n时间：十一月十四日，星期六，晚上六点半\n地点：南宁民族大道88号，“老友记”饭馆二楼\n\n我们一起吃晚饭，有老友粉，也有蛋糕。晚饭以后，我们去附近的歌厅唱歌。\n\n不用带礼物，你们来就好！也可以带家人或者朋友来。请在十一月七日以前回复我，告诉我几个人来，好吗？我要订位子。你们可以回邮件，也可以给我发微信。\n\n期待见到你们！\n\n夏琳\n十月二十日",
+    "glossary": [
+      {
+        "term": "主题",
+        "translation": "zhǔtí · subject (of an email)"
+      },
+      {
+        "term": "聚会",
+        "translation": "jùhuì · party, get-together"
+      },
+      {
+        "term": "亲爱的",
+        "translation": "qīn'ài de · dear"
+      },
+      {
+        "term": "参加",
+        "translation": "cānjiā · to take part, to attend"
+      },
+      {
+        "term": "地点",
+        "translation": "dìdiǎn · place, venue"
+      },
+      {
+        "term": "老友粉",
+        "translation": "lǎoyǒufěn · sour and spicy rice noodles (Nanning dish)"
+      },
+      {
+        "term": "歌厅",
+        "translation": "gētīng · karaoke bar"
+      },
+      {
+        "term": "家人",
+        "translation": "jiārén · family members"
+      },
+      {
+        "term": "回复",
+        "translation": "huífù · to reply"
+      },
+      {
+        "term": "位子",
+        "translation": "wèizi · seat, table"
+      },
+      {
+        "term": "邮件",
+        "translation": "yóujiàn · email"
+      },
+      {
+        "term": "期待",
+        "translation": "qīdài · to look forward to"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "夏琳过多少岁生日？",
+        "options": [
+          "二十岁",
+          "二十五岁",
+          "三十岁",
+          "三十五岁"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "聚会是什么时候？",
+        "options": [
+          "十一月十四日晚上六点半",
+          "十月二十日晚上",
+          "十一月七日中午",
+          "十一月十四日中午"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "prompt": "聚会在夏琳家。",
+        "answer": false,
+        "explanation": "聚会在“老友记”饭馆二楼。"
+      },
+      {
+        "type": "mc",
+        "prompt": "晚饭以后他们去做什么？",
+        "options": [
+          "看电影",
+          "唱歌",
+          "散步",
+          "跳舞"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "朋友们不用带礼物。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "朋友们要在哪天以前回复？",
+        "options": [
+          "十月二十日",
+          "十一月十四日",
+          "十月三十日",
+          "十一月七日"
+        ],
+        "answer": 3
+      }
+    ]
+  }
+]

@@ -891,6 +891,12 @@ a.button--primary::after,
   line-height: 1.95;
 }
 
+/* Chinese: system CJK face; characters read better a little more spaced out. */
+.reading:lang(zh-CN) {
+  line-height: 1.9;
+  letter-spacing: 0.04em;
+}
+
 .gloss {
   position: relative;
 }

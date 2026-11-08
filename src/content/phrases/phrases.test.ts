@@ -5,7 +5,7 @@ import { LANG_IDS } from '../../languages';
 const LANGS_WITH_PHRASES = LANG_IDS.filter((id) =>
   existsSync(`src/content/phrases/${id}.json`),
 );
-import { HI_LETTERS, ISV_LETTERS, SR_LETTERS } from '../../lib/isvCyrillic';
+import { HI_LETTERS, ISV_LETTERS, SR_LETTERS, ZH_LETTERS } from '../../lib/isvCyrillic';
 
 const english = (
   JSON.parse(readFileSync('1000_phrases_claude.json', 'utf8')) as {
@@ -37,7 +37,7 @@ describe.each(LANGS_WITH_PHRASES)('%s phrases', (id) => {
     expect(silent.map((p) => p.rank)).toEqual([]);
   });
 
-  const letters = { isv: ISV_LETTERS, sr: SR_LETTERS, hi: HI_LETTERS }[id as string];
+  const letters = { isv: ISV_LETTERS, sr: SR_LETTERS, hi: HI_LETTERS, zh: ZH_LETTERS }[id as string];
   if (letters) {
     it('uses only the standard alphabet', () => {
       const all = Object.values(tr).join(' ');

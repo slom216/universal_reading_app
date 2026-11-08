@@ -65,3 +65,6 @@ export const SR_LETTERS = /^[абвгдђежзијклљмнњопрстћуф�
 
 /** Hindi letters and vowel signs: the Devanagari block (content tests check hi against it). */
 export const HI_LETTERS = /^[ऀ-ॿ]$/u;
+
+/** Chinese characters only: no Latin, pinyin or kana in zh content (content tests). */
+export const ZH_LETTERS = /^\p{Script=Han}$/u;

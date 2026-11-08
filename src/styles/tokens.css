@@ -19,7 +19,7 @@
   src: url('../assets/fonts/outfit-800-latin.woff2') format('woff2');
 }
 
-/* č š ž ě ć đ for Interslavic headlines. Outfit has no Cyrillic or Greek: Russian, Serbian and Greek fall back to Manrope 800 (Hindi to the system Devanagari face). */
+/* č š ž ě ć đ for Interslavic headlines. Outfit has no Cyrillic or Greek: Russian, Serbian and Greek fall back to Manrope 800 (Hindi and Chinese to the system Devanagari/CJK faces). */
 @font-face {
   font-family: 'Outfit';
   font-style: normal;

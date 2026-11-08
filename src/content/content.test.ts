@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { z } from 'zod';
 import { LANG_IDS, LANGS } from '../languages';
-import { HI_LETTERS, ISV_LETTERS, SR_LETTERS } from '../lib/isvCyrillic';
+import { HI_LETTERS, ISV_LETTERS, SR_LETTERS, ZH_LETTERS } from '../lib/isvCyrillic';
 import {
   LEVELS,
   WORD_RANGE,
@@ -63,7 +63,7 @@ describe.each(LANG_IDS)('%s texts', (id) => {
     },
   );
 
-  const letters = { isv: ISV_LETTERS, sr: SR_LETTERS, hi: HI_LETTERS }[id as string];
+  const letters = { isv: ISV_LETTERS, sr: SR_LETTERS, hi: HI_LETTERS, zh: ZH_LETTERS }[id as string];
   if (letters) {
     it.each(TEXTS.map((t) => [t.id, t] as const))(
       '%s uses only the standard alphabet',
@@ -104,6 +104,13 @@ describe('glossaryNeedle', () => {
   it('finds Cyrillic whole words case-insensitively', () => {
     expect(findGlossary('Летом мы едем', 'летом')).toBe(0);
     expect(findGlossary('Прилетом', 'летом')).toBe(-1);
+  });
+
+  it('finds Chinese terms inside unspaced text and counts its words', () => {
+    expect(findGlossary('我们去超市买东西。', '超市')).toBe(3);
+    expect(findGlossary('我们去超市买东西。', '学校')).toBe(-1);
+    expect(countWords('我们去超市买东西。')).toBeGreaterThan(2);
+    expect(countWords('one two, three')).toBe(3);
   });
 
   it('matches whole vowelled Arabic words only', () => {

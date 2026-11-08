@@ -15,6 +15,7 @@ export const LANG_IDS = [
   'el',
   'sr',
   'hi',
+  'zh',
 ] as const;
 export type LangId = (typeof LANG_IDS)[number];
 
@@ -314,6 +315,28 @@ export const LANGS: Record<LangId, Lang> = {
       A1: 'Short everyday texts from across India in the present tense, with postpositions and का/के/की: family, food, home.',
       A2: 'Longer stories about work, travel and health, told in the past tense with ने, the past continuous and the future.',
       B1: 'Articles and reports on Indian society, work and daily life, with the subjunctive, the passive and जो…वह clauses.',
+    },
+    counts: { A1: 60, A2: 100, B1: 140 },
+  },
+  zh: {
+    id: 'zh',
+    code: 'zh-CN',
+    name: 'Chinese',
+    native: '中文',
+    trueLabel: '对',
+    falseLabel: '错',
+    quizHeading: '你都看懂了吗？',
+    glossHeading: '课文生词',
+    perfect: '太棒了！🎉',
+    sample: '这是你选择的字号显示的示例句子。',
+    // Mandarin, Simplified characters. No articles or inflection; words are counted with
+    // Intl.Segmenter and glossary terms match as substrings (see schema.ts). Each
+    // translation starts with the pinyin: "chāoshì · supermarket".
+    articles: null,
+    blurb: {
+      A1: 'Short everyday texts from across China with 是, 有, 在, measure words and simple questions: family, food, home.',
+      A2: 'Longer stories about work, travel and health, told with 了, 过 and 着, comparisons with 比 and verb complements.',
+      B1: 'Articles and reports on Chinese society, work and daily life, with 把 and 被, linked clauses and reported speech.',
     },
     counts: { A1: 60, A2: 100, B1: 140 },
   },
