@@ -98,6 +98,10 @@ function PhraseList({ id }: { id: LangId }) {
       <ol className="text-list">
         {shown.map((p) => {
           const url = audio[`../assets/audio/phrases/${id}/${p.id}.mp3`];
+          // English is its own source, so it shows only the note, not the phrase twice.
+          const gloss = (id === 'en' ? [p.note] : [p.phrase, p.note])
+            .filter(Boolean)
+            .join(' · ');
           return (
             <li key={p.id} className="card text-card">
               <span className="text-card__num">{p.rank}</span>
@@ -105,10 +109,7 @@ function PhraseList({ id }: { id: LangId }) {
                 <strong lang={code} className="phrase__text">
                   {tr(p.text)}
                 </strong>
-                <span className="text-sm text-muted">
-                  {p.phrase}
-                  {p.note && <> · {p.note}</>}
-                </span>
+                {gloss && <span className="text-sm text-muted">{gloss}</span>}
               </span>
               {url && (
                 <button

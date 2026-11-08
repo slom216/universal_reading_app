@@ -21,7 +21,7 @@ const SIZES: { value: Settings['fontSize']; label: string }[] = [
 export function SettingsPage() {
   const state = useProgress();
   const [message, setMessage] = useState<string | null>(null);
-  const sampleLang = LANGS[state.settings.lastLang ?? 'it'];
+  const sampleLang = LANGS[state.settings.lastLang ?? 'en'];
   const sample = scriptFor(sampleLang.id, sampleLang.code, state.settings);
 
   const download = () => {

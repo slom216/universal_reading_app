@@ -9,6 +9,7 @@ const ORIGIN = 'https://polyglot.icu';
 const LEVELS = ['a1', 'a2', 'b1'];
 // Mirrors src/languages.ts (name, lang code, True/False label).
 const LANGS = {
+  en: { name: 'English', tf: 'True or false?' },
   it: { name: 'Italian', tf: 'Vero o falso?' },
   es: { name: 'Spanish', tf: '¿Verdadero o falso?' },
   fr: { name: 'French', tf: 'Vrai ou faux ?' },
@@ -136,21 +137,23 @@ const english = JSON.parse(readFileSync('1000_phrases_claude.json', 'utf8')).sor
   (a, b) => a.rank - b.rank,
 );
 // Languages whose phrasebook is still to come are left out.
-const PHRASE_LANGS = Object.entries(LANGS).filter(([id]) => existsSync(`src/content/phrases/${id}.json`));
-const phraseLinks = PHRASE_LANGS
-  .map(([id, l]) => `<li><a href="/phrases/${id}">${l.name} phrases</a></li>`)
-  .join('\n');
+const PHRASE_LANGS = Object.entries(LANGS).filter(([id]) =>
+  existsSync(`src/content/phrases/${id}.json`),
+);
+const phraseLinks = PHRASE_LANGS.map(
+  ([id, l]) => `<li><a href="/phrases/${id}">${l.name} phrases</a></li>`,
+).join('\n');
 write(
   '/reading',
-  'Graded reading texts in eleven languages · DeuLern Polyglot',
-  'Free graded reading texts in Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek and Serbian for A1, A2 and B1, with glossary and comprehension questions.',
-  `<h1>Graded reading texts in eleven languages</h1>\n<ul>\n${langLinks}\n</ul>`,
+  'Graded reading texts in twelve languages · DeuLern Polyglot',
+  'Free graded reading texts in English, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek and Serbian for A1, A2 and B1, with glossary and comprehension questions.',
+  `<h1>Graded reading texts in twelve languages</h1>\n<ul>\n${langLinks}\n</ul>`,
 );
 write(
   '/phrases',
-  'Everyday phrases in eleven languages · DeuLern Polyglot',
-  'The 1000 most useful everyday phrases in Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek and Serbian, ordered by how useful they are.',
-  `<h1>Everyday phrases in eleven languages</h1>\n<ul>\n${phraseLinks}\n</ul>`,
+  'Everyday phrases in twelve languages · DeuLern Polyglot',
+  'The 1000 most useful everyday phrases in English, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek and Serbian, ordered by how useful they are.',
+  `<h1>Everyday phrases in twelve languages</h1>\n<ul>\n${phraseLinks}\n</ul>`,
 );
 urls.push('/reading', '/phrases');
 for (const [lang, { name }] of PHRASE_LANGS) {
@@ -158,10 +161,10 @@ for (const [lang, { name }] of PHRASE_LANGS) {
   write(
     `/phrases/${lang}`,
     `1000 everyday ${name} phrases · DeuLern Polyglot`,
-    `The 1000 most useful ${name} phrases with English translations, from greetings to emergencies, ordered by how useful they are.`,
+    `The 1000 most useful ${name} phrases${lang === 'en' ? '' : ' with English translations'}, from greetings to emergencies, ordered by how useful they are.`,
     `<h1>1000 everyday ${name} phrases</h1>
 <ol>
-${english.map((p) => `<li><span lang="${lang}">${esc(tr[p.id])}</span> · ${esc(p.phrase)}</li>`).join('\n')}
+${english.map((p) => `<li><span lang="${lang}">${esc(tr[p.id])}</span>${lang === 'en' ? '' : ` · ${esc(p.phrase)}`}</li>`).join('\n')}
 </ol>
 <h2>Other languages</h2>
 <ul>
@@ -177,8 +180,8 @@ writeFileSync(
   page(
     '/',
     'DeuLern Polyglot',
-    'Free graded reading texts and the 1000 most useful everyday phrases in Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek and Serbian. No account needed.',
-    `<h1>DeuLern Polyglot: reading texts and everyday phrases in eleven languages</h1>\n<ul>\n<li><a href="/reading">Graded reading texts</a></li>\n<li><a href="/phrases">Everyday phrases</a></li>\n</ul>\n<ul>\n${langLinks}\n</ul>`,
+    'Free graded reading texts and the 1000 most useful everyday phrases in English, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek and Serbian. No account needed.',
+    `<h1>DeuLern Polyglot: reading texts and everyday phrases in twelve languages</h1>\n<ul>\n<li><a href="/reading">Graded reading texts</a></li>\n<li><a href="/phrases">Everyday phrases</a></li>\n</ul>\n<ul>\n${langLinks}\n</ul>`,
   ).replace(/\n\s*<link rel="canonical"[^>]*>/, ''),
 );
 

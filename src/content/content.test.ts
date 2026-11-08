@@ -95,6 +95,8 @@ describe('glossaryNeedle', () => {
     expect(glossaryNeedle({ term: 'las gafas' }, LANGS.es.articles)).toBe('gafas');
     expect(glossaryNeedle({ term: 'лето' }, LANGS.ru.articles)).toBe('лето');
     expect(glossaryNeedle({ term: 'η θάλασσα' }, LANGS.el.articles)).toBe('θάλασσα');
+    expect(glossaryNeedle({ term: 'to commute' }, LANGS.en.articles)).toBe('commute');
+    expect(glossaryNeedle({ term: 'the rent' }, LANGS.en.articles)).toBe('rent');
     expect(glossaryNeedle({ term: 'la', match: 'x' }, LANGS.fr.articles)).toBe('x');
   });
 

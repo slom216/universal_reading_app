@@ -1,6 +1,7 @@
 import type { Level } from './content/schema';
 
 export const LANG_IDS = [
+  'en',
   'it',
   'es',
   'fr',
@@ -36,6 +37,26 @@ export type Lang = {
 };
 
 export const LANGS: Record<LangId, Lang> = {
+  en: {
+    id: 'en',
+    code: 'en',
+    name: 'English',
+    native: 'English',
+    trueLabel: 'True',
+    falseLabel: 'False',
+    quizHeading: 'Did you understand everything?',
+    glossHeading: 'Words from the text',
+    perfect: 'Perfect! 🎉',
+    sample: 'This is a sample sentence in the size you chose.',
+    // The glossary explains each word in simpler English. Verbs are listed as "to …".
+    articles: /^(?:the|a|an|to)\s+/i,
+    blurb: {
+      A1: 'Short everyday texts from the UK, the US, Ireland, Canada, Australia and New Zealand in the present tense: family, food, home.',
+      A2: 'Longer stories about work, travel and health, told in the past simple and past continuous.',
+      B1: 'Articles and reports on society, work and daily life, with the present perfect, the passive, conditionals and phrasal verbs.',
+    },
+    counts: { A1: 60, A2: 100, B1: 140 },
+  },
   it: {
     id: 'it',
     code: 'it',

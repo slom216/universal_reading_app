@@ -1,0 +1,6858 @@
+[
+ {
+  "id": "a1-01",
+  "level": "A1",
+  "title": "Hi, I'm Priya",
+  "topic": "Personal information",
+  "body": "Hello! My name is Priya Shah and I'm twenty years old. I'm from Leicester, a city in the middle of England, but now I live in Manchester. I'm a student at the university here. I study chemistry.\n\nI share a small flat with two other students, Chloe and Ben. The flat is near the university, so I walk to my lectures every morning.\n\nOn Saturdays I work in a bookshop in the city centre. I sell books and make tea for the customers. The job isn't hard, and my boss is really kind.\n\nI speak English and Gujarati, and I'm learning Spanish. In my free time I play badminton, watch films and cook curry for my flatmates. They love my mum's recipe!",
+  "glossary": [
+   {
+    "term": "to share",
+    "translation": "to use or have something together"
+   },
+   {
+    "term": "flat",
+    "translation": "home on one floor of a building"
+   },
+   {
+    "term": "lecture",
+    "translation": "talk by a teacher at university",
+    "match": "lectures"
+   },
+   {
+    "term": "city centre",
+    "translation": "the main, busiest part of a city"
+   },
+   {
+    "term": "customer",
+    "translation": "person who buys something in a shop",
+    "match": "customers"
+   },
+   {
+    "term": "boss",
+    "translation": "person in charge at your job"
+   },
+   {
+    "term": "kind",
+    "translation": "nice and friendly to other people"
+   },
+   {
+    "term": "badminton",
+    "translation": "sport with rackets and a small light ball"
+   },
+   {
+    "term": "flatmate",
+    "translation": "person who lives in your flat with you",
+    "match": "flatmates"
+   },
+   {
+    "term": "recipe",
+    "translation": "instructions for cooking a dish"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "How old is Priya?",
+    "options": [
+     "18",
+     "20",
+     "22",
+     "25"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Priya is from Manchester.",
+    "answer": false,
+    "explanation": "She is from Leicester. She lives in Manchester now."
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Priya study?",
+    "options": [
+     "History",
+     "Spanish",
+     "Chemistry",
+     "Medicine"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "How does Priya get to her lectures?",
+    "options": [
+     "She walks.",
+     "She takes the bus.",
+     "She cycles.",
+     "She drives."
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "Priya works in a bookshop on Saturdays.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "Which language is Priya learning?",
+    "options": [
+     "French",
+     "Gujarati",
+     "Italian",
+     "Spanish"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-02",
+  "level": "A1",
+  "title": "My Family and Our House",
+  "topic": "Family",
+  "body": "Hi! I'm Mason and I'm eight years old. I live in a big old house in Columbus, Ohio, with my family.\n\nMy mom is a nurse. She works at the hospital, sometimes at night. My dad is a mail carrier. He walks a lot every day! I've got a big sister, Aaliyah. She's thirteen and she's always on her phone. I've got a baby brother too. His name is Leo and he cries a lot.\n\nOur house has got three bedrooms. I share a bedroom with Leo, and I don't like that. There's a yard behind the house with a swing and a tree. We've got a cat called Pumpkin. She sleeps on my bed.\n\nOn Sundays my grandma comes for lunch. She makes the best mac and cheese in the world!",
+  "glossary": [
+   {
+    "term": "nurse",
+    "translation": "person who looks after sick people"
+   },
+   {
+    "term": "mail carrier",
+    "translation": "person who brings letters to homes"
+   },
+   {
+    "term": "a lot",
+    "translation": "very much, many times"
+   },
+   {
+    "term": "to cry",
+    "translation": "to have tears coming from your eyes",
+    "match": "cries"
+   },
+   {
+    "term": "to share",
+    "translation": "to use or have something together"
+   },
+   {
+    "term": "yard",
+    "translation": "US: garden next to a house"
+   },
+   {
+    "term": "behind",
+    "translation": "at the back of"
+   },
+   {
+    "term": "swing",
+    "translation": "seat on ropes that moves back and forth"
+   },
+   {
+    "term": "grandma",
+    "translation": "your mom's or dad's mother"
+   },
+   {
+    "term": "mac and cheese",
+    "translation": "pasta with cheese sauce"
+   }
+  ],
+  "questions": [
+   {
+    "type": "tf",
+    "prompt": "Mason is ten years old.",
+    "answer": false,
+    "explanation": "He is eight."
+   },
+   {
+    "type": "mc",
+    "prompt": "What is Mason's mom's job?",
+    "options": [
+     "She is a teacher.",
+     "She is a nurse.",
+     "She is a mail carrier.",
+     "She is a doctor."
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "Who is always on her phone?",
+    "options": [
+     "Mom",
+     "Grandma",
+     "Aaliyah",
+     "Pumpkin"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Mason likes sharing a bedroom with Leo.",
+    "answer": false,
+    "explanation": "He doesn't like it."
+   },
+   {
+    "type": "mc",
+    "prompt": "What is behind the house?",
+    "options": [
+     "A garage",
+     "A pool",
+     "A park",
+     "A yard with a swing and a tree"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Grandma make on Sundays?",
+    "options": [
+     "Mac and cheese",
+     "Pancakes",
+     "Pizza",
+     "Soup"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-03",
+  "level": "A1",
+  "title": "Sunday Breakfast in Galway",
+  "topic": "Food and drink",
+  "body": "It's Sunday morning in Galway. Nobody is in a hurry today. The Byrne family is sitting in the kitchen, and the radio is on.\n\nDad is cooking a full Irish breakfast: sausages, rashers, eggs, black pudding and beans. The kitchen smells wonderful. Mum is cutting brown bread and putting butter and jam on the table. Grandad is drinking a big mug of tea with milk and two sugars.\n\nFourteen-year-old Niamh is still in her pyjamas. She doesn't want a fry-up. She's having porridge with honey and a banana. Her little brother Cian is eating toast and reading a comic.\n\nEvery Sunday, they talk about the week and make plans. Today it's raining, of course, so they want to go to the cinema in the afternoon. But nobody is getting up from the table yet.",
+  "glossary": [
+   {
+    "term": "to be in a hurry",
+    "translation": "to need to go or do things fast",
+    "match": "in a hurry"
+   },
+   {
+    "term": "rasher",
+    "translation": "thin slice of bacon",
+    "match": "rashers"
+   },
+   {
+    "term": "black pudding",
+    "translation": "dark sausage made with blood and oats"
+   },
+   {
+    "term": "to smell",
+    "translation": "to give out a smell, good or bad",
+    "match": "smells"
+   },
+   {
+    "term": "wonderful",
+    "translation": "very, very good"
+   },
+   {
+    "term": "mug",
+    "translation": "big cup for hot drinks"
+   },
+   {
+    "term": "pyjamas",
+    "translation": "clothes you wear in bed"
+   },
+   {
+    "term": "fry-up",
+    "translation": "breakfast of fried food"
+   },
+   {
+    "term": "porridge",
+    "translation": "hot breakfast of oats cooked in milk"
+   },
+   {
+    "term": "comic",
+    "translation": "magazine with stories in pictures"
+   },
+   {
+    "term": "of course",
+    "translation": "as you expect"
+   }
+  ],
+  "questions": [
+   {
+    "type": "tf",
+    "prompt": "The family is in a hurry on Sunday morning.",
+    "answer": false,
+    "explanation": "Nobody is in a hurry today."
+   },
+   {
+    "type": "mc",
+    "prompt": "Who is cooking breakfast?",
+    "options": [
+     "Mum",
+     "Dad",
+     "Grandad",
+     "Niamh"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "How does Grandad drink his tea?",
+    "options": [
+     "With lemon",
+     "Black, with no sugar",
+     "With milk and two sugars",
+     "With honey"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "What is Niamh eating?",
+    "options": [
+     "A fry-up",
+     "Toast",
+     "Brown bread with jam",
+     "Porridge with honey and a banana"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Cian is reading a comic.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What do they want to do in the afternoon?",
+    "options": [
+     "Go to the cinema",
+     "Go to the beach",
+     "Visit friends",
+     "Play football"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-04",
+  "level": "A1",
+  "title": "Dinner for Six",
+  "topic": "Shopping",
+  "body": "Tom and his wife Grace live in Bristol. Tonight, four friends are coming for dinner. Grace is at work, so Tom is doing the shopping at the big supermarket near their house.\n\nHe has got a list on his phone:\nchicken\npotatoes\ncarrots and peas\na lemon\ncream\ntwo bottles of wine\na cheesecake\n\nTom takes a trolley and starts in the fruit and vegetable section. The potatoes are on special offer: two bags for three pounds. Great! The chicken is in a big fridge at the back of the shop.\n\nBut there's a problem: there isn't any cheesecake today. Tom calls Grace.\n“No cheesecake. What can I buy?”\n“Get some strawberries and ice cream,” she says.\n\nAt the checkout Tom pays forty-two pounds. He packs everything into his bags and goes home to cook.",
+  "glossary": [
+   {
+    "term": "to do the shopping",
+    "translation": "to buy food and things for the home",
+    "match": "doing the shopping"
+   },
+   {
+    "term": "pea",
+    "translation": "small, round, green vegetable",
+    "match": "peas"
+   },
+   {
+    "term": "cream",
+    "translation": "thick white part of milk"
+   },
+   {
+    "term": "trolley",
+    "translation": "big basket on wheels in a shop"
+   },
+   {
+    "term": "section",
+    "translation": "one part of a shop"
+   },
+   {
+    "term": "on special offer",
+    "translation": "cheaper than usual for a short time"
+   },
+   {
+    "term": "fridge",
+    "translation": "cold cupboard that keeps food fresh"
+   },
+   {
+    "term": "at the back of",
+    "translation": "in the part far from the front"
+   },
+   {
+    "term": "checkout",
+    "translation": "place where you pay in a shop"
+   },
+   {
+    "term": "to pack",
+    "translation": "to put things into a bag or box",
+    "match": "packs"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "How many friends are coming for dinner?",
+    "options": [
+     "Two",
+     "Four",
+     "Six",
+     "Eight"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Grace is doing the shopping.",
+    "answer": false,
+    "explanation": "Grace is at work. Tom is doing the shopping."
+   },
+   {
+    "type": "mc",
+    "prompt": "Where does Tom start in the supermarket?",
+    "options": [
+     "In the fruit and vegetable section",
+     "At the checkout",
+     "Near the bread",
+     "At the back of the shop"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "What is on special offer?",
+    "options": [
+     "The chicken",
+     "The wine",
+     "The potatoes",
+     "The cream"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "There isn't any cheesecake in the shop today.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "How much does Tom pay?",
+    "options": [
+     "£24",
+     "£32",
+     "£40",
+     "£42"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-05",
+  "level": "A1",
+  "title": "My New Apartment in Toronto",
+  "topic": "Home",
+  "body": "Hi, I'm Jun, and I've got a new apartment! It's in a tall building in Toronto. My apartment is on the eleventh floor, so I can see the CN Tower from my window.\n\nThere are three rooms: a living room, a bedroom and a small bathroom. The kitchen is part of the living room. It's open and bright. There's a balcony too, but it's very small.\n\nMy apartment is still quite empty. I've got a bed, a sofa and a table, but I haven't got any chairs! I need a lamp for the bedroom and curtains for the windows. There aren't any pictures on the walls yet.\n\nOn Saturday my sister is visiting with her car. We're driving to a furniture store. Slowly, my apartment is becoming my home.",
+  "glossary": [
+   {
+    "term": "floor",
+    "translation": "one level of a building"
+   },
+   {
+    "term": "bright",
+    "translation": "full of light"
+   },
+   {
+    "term": "balcony",
+    "translation": "small space outside a window, high up"
+   },
+   {
+    "term": "quite",
+    "translation": "a little, fairly"
+   },
+   {
+    "term": "empty",
+    "translation": "with nothing or very little inside"
+   },
+   {
+    "term": "lamp",
+    "translation": "small light you can move"
+   },
+   {
+    "term": "curtain",
+    "translation": "cloth that covers a window",
+    "match": "curtains"
+   },
+   {
+    "term": "wall",
+    "translation": "one side of a room",
+    "match": "walls"
+   },
+   {
+    "term": "yet",
+    "translation": "until now"
+   },
+   {
+    "term": "furniture",
+    "translation": "beds, tables, chairs and sofas"
+   },
+   {
+    "term": "to become",
+    "translation": "to start to be",
+    "match": "becoming"
+   }
+  ],
+  "questions": [
+   {
+    "type": "tf",
+    "prompt": "Jun's apartment is on the first floor.",
+    "answer": false,
+    "explanation": "It's on the eleventh floor."
+   },
+   {
+    "type": "mc",
+    "prompt": "What can Jun see from the window?",
+    "options": [
+     "The airport",
+     "The CN Tower",
+     "A park",
+     "A big bridge"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "Where is the kitchen?",
+    "options": [
+     "Next to the bedroom",
+     "On the balcony",
+     "In the living room",
+     "Downstairs"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Jun has got some chairs.",
+    "answer": false,
+    "explanation": "Jun hasn't got any chairs."
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Jun need for the bedroom?",
+    "options": [
+     "A lamp",
+     "A sofa",
+     "A table",
+     "A bed"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "Who is visiting on Saturday?",
+    "options": [
+     "Jun's mother",
+     "A neighbour",
+     "Jun's friend",
+     "Jun's sister"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-06",
+  "level": "A1",
+  "title": "Up Before the Sun",
+  "topic": "Daily routine",
+  "body": "Marcus Williams is a bus driver in Chicago. His day starts very early. His alarm rings at 3:45 a.m. Outside, it's dark and quiet.\n\nMarcus takes a quick shower, drinks a cup of coffee and eats a bowl of cereal. His wife and kids are still asleep. At 4:30 he walks to the bus garage. He checks his bus: the lights, the doors and the brakes. Everything is OK.\n\nAt 5:00 his first trip begins. The early passengers are nurses, cleaners and bakers. Many of them say “Good morning, Marcus!” He knows their names.\n\nMarcus drives all morning. He has a break at 9:00 and eats a sandwich. His shift ends at 1:30 p.m. Then he picks up his daughter from school. In the evening he's tired, and he goes to bed at 8:30.",
+  "glossary": [
+   {
+    "term": "alarm",
+    "translation": "clock that wakes you up"
+   },
+   {
+    "term": "to ring",
+    "translation": "to make a sound like a bell",
+    "match": "rings"
+   },
+   {
+    "term": "asleep",
+    "translation": "sleeping"
+   },
+   {
+    "term": "garage",
+    "translation": "building where buses or cars stay"
+   },
+   {
+    "term": "to check",
+    "translation": "to look at something to see if it's OK",
+    "match": "checks"
+   },
+   {
+    "term": "brake",
+    "translation": "part that stops a car or bus",
+    "match": "brakes"
+   },
+   {
+    "term": "passenger",
+    "translation": "person who travels on a bus, train or plane",
+    "match": "passengers"
+   },
+   {
+    "term": "break",
+    "translation": "short time to rest at work"
+   },
+   {
+    "term": "shift",
+    "translation": "the hours you work on one day"
+   },
+   {
+    "term": "to pick up",
+    "translation": "to go and get someone",
+    "match": "picks up"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "What time does Marcus's alarm ring?",
+    "options": [
+     "3:15 a.m.",
+     "3:45 a.m.",
+     "4:30 a.m.",
+     "5:00 a.m."
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Marcus has breakfast with his family.",
+    "answer": false,
+    "explanation": "His wife and kids are still asleep."
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Marcus check before he drives?",
+    "options": [
+     "The tickets",
+     "The radio",
+     "The lights, the doors and the brakes",
+     "The seats"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Marcus knows the names of many early passengers.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "When does his shift end?",
+    "options": [
+     "9:00 a.m.",
+     "11:30 a.m.",
+     "3:00 p.m.",
+     "1:30 p.m."
+    ],
+    "answer": 3
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Marcus do after work?",
+    "options": [
+     "He picks up his daughter from school.",
+     "He goes to the gym.",
+     "He sleeps.",
+     "He meets friends."
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-07",
+  "level": "A1",
+  "title": "The Way to the British Museum",
+  "topic": "Directions",
+  "body": "Sofia is from Italy. She's in London for three days. Today she wants to see the British Museum, but she's lost. She's standing outside Tottenham Court Road station with a map. A young man with a dog is walking past.\n\n“Excuse me, can you help me? Where's the British Museum?”\n“Oh, it's not far. It's about five minutes on foot.”\n“Great! Which way?”\n“Go straight on up this road. Then take the first street on the right. That's Great Russell Street. Walk past a few cafés and shops. The museum is on the left. It's a huge building with big columns. You can't miss it!”\n“Thank you so much. Is it free?”\n“Yes, it's free. But there's often a queue at the entrance.”\n“No problem. Thanks again!”\n“You're welcome. Enjoy it!”",
+  "glossary": [
+   {
+    "term": "lost",
+    "translation": "not knowing where you are"
+   },
+   {
+    "term": "to walk past",
+    "translation": "to go by someone or something",
+    "match": "walking past"
+   },
+   {
+    "term": "on foot",
+    "translation": "walking"
+   },
+   {
+    "term": "straight on",
+    "translation": "forward, not left or right"
+   },
+   {
+    "term": "huge",
+    "translation": "very, very big"
+   },
+   {
+    "term": "column",
+    "translation": "tall stone post on a building",
+    "match": "columns"
+   },
+   {
+    "term": "you can't miss it",
+    "translation": "it's very easy to see"
+   },
+   {
+    "term": "free",
+    "translation": "costing no money"
+   },
+   {
+    "term": "queue",
+    "translation": "line of people waiting"
+   },
+   {
+    "term": "entrance",
+    "translation": "door or way into a place"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where is Sofia from?",
+    "options": [
+     "Spain",
+     "Italy",
+     "France",
+     "Greece"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Sofia is in London for a week.",
+    "answer": false,
+    "explanation": "She's in London for three days."
+   },
+   {
+    "type": "mc",
+    "prompt": "How far is the museum?",
+    "options": [
+     "About five minutes on foot",
+     "About twenty minutes on foot",
+     "Ten minutes by bus",
+     "One stop on the Tube"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "Which street must Sofia take?",
+    "options": [
+     "Oxford Street",
+     "Baker Street",
+     "Regent Street",
+     "Great Russell Street"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "You pay to go into the museum.",
+    "answer": false,
+    "explanation": "The museum is free."
+   },
+   {
+    "type": "mc",
+    "prompt": "What is often at the entrance?",
+    "options": [
+     "A dog",
+     "A queue",
+     "A café",
+     "A map"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "a1-08",
+  "level": "A1",
+  "title": "Plans for the Weekend",
+  "topic": "Free time",
+  "body": "It's Friday afternoon in Sydney. Jess and Ravi are having a coffee in a café after work.\n\n“So, what are you doing this weekend?” asks Ravi.\n“On Saturday morning I'm going to Bondi with my sister. We're having a surfing lesson!”\n“Surfing? Wow! Can you swim well?”\n“Yes, I can. But I can't surf. Not yet!” Jess laughs. “What about you?”\n“I'm helping my dad on Saturday. He's painting the fence. Boring! But on Sunday there's a footy match at the SCG. I've got two tickets. Do you want to come?”\n“Sunday? Yes, I'm free. What time does it start?”\n“At four. We can meet at Central Station at three.”\n“Perfect. And after the match, let's have a barbie at my place.”\n“Great idea. I can bring the sausages!”",
+  "glossary": [
+   {
+    "term": "lesson",
+    "translation": "time when someone teaches you something"
+   },
+   {
+    "term": "to surf",
+    "translation": "to ride on waves on a board"
+   },
+   {
+    "term": "to laugh",
+    "translation": "to make a happy sound when something is funny",
+    "match": "laughs"
+   },
+   {
+    "term": "to paint",
+    "translation": "to put colour on something",
+    "match": "painting"
+   },
+   {
+    "term": "fence",
+    "translation": "low wall of wood around a garden"
+   },
+   {
+    "term": "boring",
+    "translation": "not interesting"
+   },
+   {
+    "term": "footy",
+    "translation": "Australian word for football"
+   },
+   {
+    "term": "match",
+    "translation": "game of sport"
+   },
+   {
+    "term": "free",
+    "translation": "not busy"
+   },
+   {
+    "term": "barbie",
+    "translation": "Australian word for barbecue"
+   },
+   {
+    "term": "at my place",
+    "translation": "at my home"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where are Jess and Ravi?",
+    "options": [
+     "In a café",
+     "At the beach",
+     "At work",
+     "At the station"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "Who is going to Bondi with Jess?",
+    "options": [
+     "Ravi",
+     "Her dad",
+     "Her sister",
+     "A friend from work"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Jess can surf very well.",
+    "answer": false,
+    "explanation": "She can swim, but she can't surf yet."
+   },
+   {
+    "type": "mc",
+    "prompt": "What is Ravi's dad doing on Saturday?",
+    "options": [
+     "He's cooking.",
+     "He's painting the fence.",
+     "He's surfing.",
+     "He's watching footy."
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "Where do they meet on Sunday?",
+    "options": [
+     "At the SCG",
+     "At Bondi",
+     "At Jess's place",
+     "At Central Station"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Ravi wants to bring the sausages.",
+    "answer": true
+   }
+  ]
+ },
+ {
+  "id": "a1-09",
+  "level": "A1",
+  "title": "At the GP Surgery",
+  "topic": "Health",
+  "body": "It's Monday morning in Leeds. Emily Clarke is sitting in the waiting room at her GP surgery. She doesn't feel well. Her head hurts, and she's hot and cold at the same time.\n\n“Emily Clarke, please,” says the doctor. Emily goes into the room.\n“Good morning. What's the problem?”\n“I've got a terrible headache and a sore throat. And I think I've got a fever.”\nThe doctor checks her temperature. “Yes, it's 38.5. Open your mouth, please.” “Your throat is very red. It's a virus. You don't need antibiotics. Stay at home, drink lots of water and rest. Take paracetamol for the headache and the fever.”\n“Can I go to work tomorrow?”\n“No. Stay in bed for two or three days.”\n\nEmily goes to the chemist next door and buys paracetamol. Then she goes home to bed.",
+  "glossary": [
+   {
+    "term": "waiting room",
+    "translation": "room where you sit and wait"
+   },
+   {
+    "term": "GP",
+    "translation": "family doctor in the UK"
+   },
+   {
+    "term": "surgery",
+    "translation": "UK: building where a family doctor works"
+   },
+   {
+    "term": "to hurt",
+    "translation": "to give you pain",
+    "match": "hurts"
+   },
+   {
+    "term": "headache",
+    "translation": "pain in your head"
+   },
+   {
+    "term": "sore throat",
+    "translation": "pain inside your neck when you swallow"
+   },
+   {
+    "term": "fever",
+    "translation": "high body heat when you're ill"
+   },
+   {
+    "term": "temperature",
+    "translation": "how hot your body is"
+   },
+   {
+    "term": "virus",
+    "translation": "very small thing that makes you ill"
+   },
+   {
+    "term": "antibiotics",
+    "translation": "strong medicine for some illnesses"
+   },
+   {
+    "term": "to rest",
+    "translation": "to relax and do nothing"
+   },
+   {
+    "term": "chemist",
+    "translation": "UK: shop that sells medicine"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where is Emily?",
+    "options": [
+     "At the hospital",
+     "At work",
+     "At her GP surgery",
+     "At the chemist"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Emily has got a headache and a sore throat.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What is Emily's temperature?",
+    "options": [
+     "38.5",
+     "37.5",
+     "36.5",
+     "39.5"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "The doctor gives Emily antibiotics.",
+    "answer": false,
+    "explanation": "It's a virus, so she doesn't need antibiotics."
+   },
+   {
+    "type": "mc",
+    "prompt": "How long must Emily stay in bed?",
+    "options": [
+     "One day",
+     "Two or three days",
+     "A week",
+     "Two weeks"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Emily buy at the chemist?",
+    "options": [
+     "Antibiotics",
+     "Water",
+     "Tea",
+     "Paracetamol"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-10",
+  "level": "A1",
+  "title": "On the Train to Boston",
+  "topic": "Travel",
+  "body": "Kayla lives in New York City. Her best friend from college, Tasha, lives in Boston now. This weekend, Kayla is visiting her.\n\nIt's Friday evening, and Kayla is at Penn Station. She's got a small bag and a ticket on her phone. The train leaves at 6:05 from track 7. She finds her car and sits by the window.\n\nThe trip takes about four hours. Kayla isn't bored. First she reads a book, then she listens to music. The train goes along the coast, and she can see the ocean and small towns. At 7:30 she goes to the café car and buys a hot dog and a soda.\n\nThen she texts Tasha: “The train is a bit late. I'm arriving at 10:20.”\nTasha writes back: “No problem! I'm waiting for you at South Station. Can't wait!”",
+  "glossary": [
+   {
+    "term": "college",
+    "translation": "US: university"
+   },
+   {
+    "term": "track",
+    "translation": "US: place in a station where a train stops"
+   },
+   {
+    "term": "car",
+    "translation": "US: one part of a train"
+   },
+   {
+    "term": "trip",
+    "translation": "journey from one place to another"
+   },
+   {
+    "term": "bored",
+    "translation": "unhappy because there's nothing to do"
+   },
+   {
+    "term": "coast",
+    "translation": "land next to the sea"
+   },
+   {
+    "term": "ocean",
+    "translation": "very big sea"
+   },
+   {
+    "term": "soda",
+    "translation": "US: sweet drink with bubbles"
+   },
+   {
+    "term": "to text",
+    "translation": "to send a message by phone",
+    "match": "texts"
+   },
+   {
+    "term": "a bit",
+    "translation": "a little"
+   },
+   {
+    "term": "can't wait",
+    "translation": "I'm very excited about it"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Who is Tasha?",
+    "options": [
+     "Kayla's sister",
+     "Kayla's best friend from college",
+     "Kayla's cousin",
+     "Kayla's boss"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Kayla's train leaves from track 7.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "How long is the trip?",
+    "options": [
+     "About two hours",
+     "About three hours",
+     "About four hours",
+     "About six hours"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Kayla is bored on the train.",
+    "answer": false,
+    "explanation": "She reads a book and listens to music."
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Kayla buy in the café car?",
+    "options": [
+     "A hot dog and a soda",
+     "A coffee and a muffin",
+     "A sandwich and water",
+     "Pizza and juice"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "Where is Tasha waiting?",
+    "options": [
+     "At Penn Station",
+     "At her apartment",
+     "At the airport",
+     "At South Station"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-11",
+  "level": "A1",
+  "title": "Hot Chocolate in York",
+  "topic": "Food and drink",
+  "body": "Oliver and his sister Hannah are in York for the day. It's cold, so they go into a little café on the Shambles, a very old street with narrow, crooked houses.\n\nThe waitress brings the menu. “Hello! What can I get you?”\n“A hot chocolate with cream and marshmallows, please,” says Hannah.\n“And for you?”\n“A pot of tea for one, please,” says Oliver. “And can we have two scones with jam and cream?”\n“Of course. Anything else?”\n“Have you got any cakes without nuts? My sister can't eat nuts.”\n“Yes, the lemon cake is fine.”\n“Great, one slice, please.”\n\nSoon the table is full. Hannah puts jam on her scone first, then cream. Oliver does it the other way round. They laugh. At the end, Oliver pays: fourteen pounds fifty.",
+  "glossary": [
+   {
+    "term": "narrow",
+    "translation": "not wide"
+   },
+   {
+    "term": "crooked",
+    "translation": "not straight"
+   },
+   {
+    "term": "waitress",
+    "translation": "woman who brings food in a café"
+   },
+   {
+    "term": "marshmallow",
+    "translation": "soft, white, sweet food",
+    "match": "marshmallows"
+   },
+   {
+    "term": "pot",
+    "translation": "container for making tea"
+   },
+   {
+    "term": "scone",
+    "translation": "small British cake, eaten with jam and cream",
+    "match": "scones"
+   },
+   {
+    "term": "anything else",
+    "translation": "something more"
+   },
+   {
+    "term": "nut",
+    "translation": "small hard fruit, like a peanut",
+    "match": "nuts"
+   },
+   {
+    "term": "slice",
+    "translation": "thin piece cut from something"
+   },
+   {
+    "term": "the other way round",
+    "translation": "in the opposite order"
+   }
+  ],
+  "questions": [
+   {
+    "type": "tf",
+    "prompt": "It's a hot day in York.",
+    "answer": false,
+    "explanation": "It's cold."
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the Shambles?",
+    "options": [
+     "A very old street",
+     "A big shop",
+     "A museum",
+     "A park"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Hannah drink?",
+    "options": [
+     "Tea",
+     "Coffee",
+     "Hot chocolate",
+     "Orange juice"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "Why does Oliver ask about nuts?",
+    "options": [
+     "He loves nuts.",
+     "His sister can't eat nuts.",
+     "The scones have got nuts.",
+     "He is a cook."
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Hannah and Oliver put jam and cream on their scones in the same order.",
+    "answer": false,
+    "explanation": "Hannah puts jam first. Oliver does it the other way round."
+   },
+   {
+    "type": "mc",
+    "prompt": "How much does Oliver pay?",
+    "options": [
+     "£4.50",
+     "£10.50",
+     "£12",
+     "£14.50"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-12",
+  "level": "A1",
+  "title": "My Dog, Mango",
+  "topic": "Animals",
+  "body": "Hi, I'm Aroha, and this is my dog, Mango. She's four years old and she's a Labrador. She's got short, golden fur, big brown eyes and a long tail. Her tail never stops!\n\nWe live in Wellington, near the sea. Every morning at seven, Mango sits next to my bed and looks at me. She wants her walk! We go along the beach at Lyall Bay. Mango loves the water. She runs into the waves and comes back wet and sandy. Then she shakes herself next to me, of course.\n\nMango is friendly with everybody, but she's scared of cats. When she sees one, she hides behind my legs.\n\nIn the evening she eats her dinner very fast. Then she sleeps on the sofa. She isn't allowed on the sofa, but I never say no.",
+  "glossary": [
+   {
+    "term": "Labrador",
+    "translation": "big, friendly kind of dog"
+   },
+   {
+    "term": "fur",
+    "translation": "soft hair on an animal"
+   },
+   {
+    "term": "tail",
+    "translation": "long part at the back of an animal"
+   },
+   {
+    "term": "wave",
+    "translation": "water that moves up onto a beach",
+    "match": "waves"
+   },
+   {
+    "term": "wet",
+    "translation": "covered in water"
+   },
+   {
+    "term": "sandy",
+    "translation": "with sand on it"
+   },
+   {
+    "term": "to shake",
+    "translation": "to move fast from side to side",
+    "match": "shakes"
+   },
+   {
+    "term": "scared of",
+    "translation": "afraid of"
+   },
+   {
+    "term": "to hide",
+    "translation": "to go where nobody can see you",
+    "match": "hides"
+   },
+   {
+    "term": "to be allowed",
+    "translation": "can, because someone says it's OK",
+    "match": "allowed"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "What kind of dog is Mango?",
+    "options": [
+     "A poodle",
+     "A Labrador",
+     "A terrier",
+     "A sheepdog"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Mango has got long, black fur.",
+    "answer": false,
+    "explanation": "She's got short, golden fur."
+   },
+   {
+    "type": "mc",
+    "prompt": "Where do Aroha and Mango walk in the morning?",
+    "options": [
+     "In the park",
+     "In the city centre",
+     "Along the beach",
+     "In the hills"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Mango do after she comes out of the sea?",
+    "options": [
+     "She sleeps.",
+     "She eats.",
+     "She barks at cats.",
+     "She shakes herself next to Aroha."
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Mango is scared of cats.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "Where does Mango sleep in the evening?",
+    "options": [
+     "On the sofa",
+     "In her bed",
+     "In the garden",
+     "In the kitchen"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-13",
+  "level": "A1",
+  "title": "Four Seasons in Ottawa",
+  "topic": "Weather and seasons",
+  "body": "Ottawa is the capital of Canada, and it has got four very different seasons.\n\nWinter is long and very cold, from December to March. It's often minus twenty degrees, and there's a lot of snow. People wear warm coats, hats and boots. In February the Rideau Canal freezes, and people skate on it to work!\n\nSpring comes in April. The snow melts and the days get longer. In May there are thousands of tulips in the parks. Their colours are beautiful.\n\nSummer is hot and humid. It's often thirty degrees. People swim in the lakes, eat ice cream and sit on patios.\n\nIn the fall, the leaves on the trees turn red, orange and yellow. The air is fresh and cool. It's my favourite season. But soon, winter is back again!",
+  "glossary": [
+   {
+    "term": "capital",
+    "translation": "main city of a country"
+   },
+   {
+    "term": "degree",
+    "translation": "unit for measuring how hot or cold it is",
+    "match": "degrees"
+   },
+   {
+    "term": "boot",
+    "translation": "strong shoe that covers your ankle",
+    "match": "boots"
+   },
+   {
+    "term": "to freeze",
+    "translation": "to become ice",
+    "match": "freezes"
+   },
+   {
+    "term": "to skate",
+    "translation": "to move on ice in special shoes",
+    "match": "skate"
+   },
+   {
+    "term": "to melt",
+    "translation": "to change from ice to water",
+    "match": "melts"
+   },
+   {
+    "term": "tulip",
+    "translation": "spring flower shaped like a cup",
+    "match": "tulips"
+   },
+   {
+    "term": "humid",
+    "translation": "with warm, wet air"
+   },
+   {
+    "term": "patio",
+    "translation": "place to sit outside a café or home",
+    "match": "patios"
+   },
+   {
+    "term": "fall",
+    "translation": "North America: autumn"
+   },
+   {
+    "term": "leaf",
+    "translation": "flat green part of a tree",
+    "match": "leaves"
+   },
+   {
+    "term": "to turn",
+    "translation": "to become",
+    "match": "turn"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "What is Ottawa?",
+    "options": [
+     "The biggest city in Canada",
+     "The capital of Canada",
+     "A lake",
+     "A small village"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Winter in Ottawa is short.",
+    "answer": false,
+    "explanation": "It's long and very cold, from December to March."
+   },
+   {
+    "type": "mc",
+    "prompt": "What do people do on the Rideau Canal in February?",
+    "options": [
+     "They swim.",
+     "They fish.",
+     "They skate.",
+     "They take boats."
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "What is in the parks in May?",
+    "options": [
+     "Thousands of tulips",
+     "Snow",
+     "Red leaves",
+     "Ice"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "Summer in Ottawa is hot and humid.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the writer's favourite season?",
+    "options": [
+     "Winter",
+     "Spring",
+     "Summer",
+     "Fall"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-14",
+  "level": "A1",
+  "title": "New Shoes, Size Nine",
+  "topic": "Shopping and clothes",
+  "body": "It's 5:30 p.m. in Seattle, and Nicole is leaving her office. Her old black shoes have a hole, and it's raining again. She needs new shoes today!\n\nShe goes to a shoe store downtown. A salesclerk comes over.\n“Hi! Can I help you?”\n“Yes, please. I'm looking for black shoes for work. Comfortable ones.”\n“What size are you?”\n“Nine.”\n\nThe salesclerk brings three pairs. The first pair is pretty, but too tight. The second pair is comfortable, but it's brown. The third pair is perfect: black, soft and waterproof.\n“How much are these?”\n“They're $89, but they're 20 percent off today.”\n“Great! I'll take them.”\n\nNicole pays by card. She wears her new shoes home and puts the old ones in the trash.",
+  "glossary": [
+   {
+    "term": "hole",
+    "translation": "an opening or empty space in something"
+   },
+   {
+    "term": "downtown",
+    "translation": "US: in the center of a city"
+   },
+   {
+    "term": "salesclerk",
+    "translation": "US: person who works in a store"
+   },
+   {
+    "term": "to look for",
+    "translation": "to try to find",
+    "match": "looking for"
+   },
+   {
+    "term": "comfortable",
+    "translation": "nice to wear, not hurting"
+   },
+   {
+    "term": "size",
+    "translation": "how big something is"
+   },
+   {
+    "term": "pair",
+    "translation": "two things that go together",
+    "match": "pairs"
+   },
+   {
+    "term": "tight",
+    "translation": "too small, pressing on your body"
+   },
+   {
+    "term": "waterproof",
+    "translation": "water can't come through it"
+   },
+   {
+    "term": "by card",
+    "translation": "with a bank card"
+   },
+   {
+    "term": "trash",
+    "translation": "US: things you throw away"
+   }
+  ],
+  "questions": [
+   {
+    "type": "tf",
+    "prompt": "Nicole's old shoes have got a hole.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What color shoes does Nicole want?",
+    "options": [
+     "Brown",
+     "Black",
+     "White",
+     "Red"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "What size is Nicole?",
+    "options": [
+     "Seven",
+     "Eight",
+     "Nine",
+     "Ten"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the problem with the first pair?",
+    "options": [
+     "They're brown.",
+     "They're too big.",
+     "They're expensive.",
+     "They're too tight."
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Nicole pays in cash.",
+    "answer": false,
+    "explanation": "She pays by card."
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Nicole do with her old shoes?",
+    "options": [
+     "She puts them in the trash.",
+     "She gives them to a friend.",
+     "She keeps them for the garden.",
+     "She takes them back to the store."
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-15",
+  "level": "A1",
+  "title": "Gran Is Eighty!",
+  "topic": "Family and celebrations",
+  "body": "Today is a big day. My gran, Margaret, is eighty years old! The whole family is at her house in Glasgow for a party.\n\nThere are twenty-two people here: aunts, uncles, cousins and even a few babies. My uncle Ewan is here from Canada. My cousins are blowing up balloons, and my mum is making sandwiches in the kitchen. Dad is choosing the music. Gran loves old Scottish songs.\n\nOn the table there's a huge chocolate cake with eight candles, one for every ten years. Eighty candles is too many!\n\nAt four o'clock we all sing “Happy Birthday”. Gran blows out the candles and everyone claps. Then she opens her presents. My present is a photo book with old family pictures. Gran looks at every page, and she's got tears in her eyes.\n“Thank you, pet,” she says.",
+  "glossary": [
+   {
+    "term": "gran",
+    "translation": "UK: grandmother"
+   },
+   {
+    "term": "whole",
+    "translation": "all of it"
+   },
+   {
+    "term": "aunt",
+    "translation": "your mum's or dad's sister",
+    "match": "aunts"
+   },
+   {
+    "term": "cousin",
+    "translation": "child of your aunt or uncle",
+    "match": "cousins"
+   },
+   {
+    "term": "to blow up",
+    "translation": "to fill with air",
+    "match": "blowing up"
+   },
+   {
+    "term": "balloon",
+    "translation": "colourful rubber bag full of air",
+    "match": "balloons"
+   },
+   {
+    "term": "candle",
+    "translation": "stick of wax that burns and gives light",
+    "match": "candles"
+   },
+   {
+    "term": "to blow out",
+    "translation": "to stop a flame with air from your mouth",
+    "match": "blows out"
+   },
+   {
+    "term": "to clap",
+    "translation": "to hit your hands together",
+    "match": "claps"
+   },
+   {
+    "term": "tear",
+    "translation": "drop of water from your eye",
+    "match": "tears"
+   },
+   {
+    "term": "pet",
+    "translation": "Scotland: kind word for someone you love"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "How old is Gran today?",
+    "options": [
+     "Seventy",
+     "Seventy-five",
+     "Eighty",
+     "Ninety"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "The party is at a restaurant.",
+    "answer": false,
+    "explanation": "It's at Gran's house in Glasgow."
+   },
+   {
+    "type": "mc",
+    "prompt": "Where is Uncle Ewan here from?",
+    "options": [
+     "Canada",
+     "Australia",
+     "England",
+     "Ireland"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "Why are there only eight candles?",
+    "options": [
+     "There are no more candles.",
+     "Eighty candles is too many.",
+     "Gran doesn't like candles.",
+     "The cake is small."
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Gran blows out the candles.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the writer's present?",
+    "options": [
+     "A cake",
+     "Flowers",
+     "A Scottish CD",
+     "A photo book"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-16",
+  "level": "A1",
+  "title": "My English Class in Dublin",
+  "topic": "School and education",
+  "body": "Olá! I'm Lucas. I'm twenty-six and I'm from São Paulo in Brazil. At the moment I'm living in Dublin and learning English at a language school near St Stephen's Green.\n\nMy class is from Monday to Friday, from nine to half past twelve. There are twelve students in my group. They come from Spain, Japan, Mongolia, Italy and Chile. We speak English all the time, because it's our only common language!\n\nOur teacher is called Aoife. She's funny and very patient. Every day we do grammar, vocabulary and a lot of speaking. On Fridays we watch a short Irish film.\n\nEnglish is hard for me. The spelling is crazy, and I can't always understand the Irish accent. But I'm getting better. In the afternoons I work in a café, so I practise every day.",
+  "glossary": [
+   {
+    "term": "at the moment",
+    "translation": "now"
+   },
+   {
+    "term": "language school",
+    "translation": "school where you learn languages"
+   },
+   {
+    "term": "half past twelve",
+    "translation": "12:30"
+   },
+   {
+    "term": "common",
+    "translation": "shared by everyone in a group"
+   },
+   {
+    "term": "patient",
+    "translation": "calm, not angry when things are slow"
+   },
+   {
+    "term": "grammar",
+    "translation": "the rules of a language"
+   },
+   {
+    "term": "vocabulary",
+    "translation": "the words of a language"
+   },
+   {
+    "term": "spelling",
+    "translation": "how you write a word in letters"
+   },
+   {
+    "term": "crazy",
+    "translation": "very strange"
+   },
+   {
+    "term": "accent",
+    "translation": "the way people from one place speak"
+   },
+   {
+    "term": "to get better",
+    "translation": "to become good, or less bad",
+    "match": "getting better"
+   },
+   {
+    "term": "to practise",
+    "translation": "UK: to do something often to get good",
+    "match": "practise"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where is Lucas from?",
+    "options": [
+     "Brazil",
+     "Spain",
+     "Chile",
+     "Portugal"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "Lucas has got English classes on Saturdays.",
+    "answer": false,
+    "explanation": "His classes are from Monday to Friday."
+   },
+   {
+    "type": "mc",
+    "prompt": "How many students are in his group?",
+    "options": [
+     "Eight",
+     "Ten",
+     "Twelve",
+     "Fifteen"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "Why do the students speak English all the time?",
+    "options": [
+     "The teacher wants it.",
+     "It's their only common language.",
+     "They are all from Ireland.",
+     "They don't like their own languages."
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Aoife is funny and patient.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Lucas do in the afternoons?",
+    "options": [
+     "He goes to the park.",
+     "He watches Irish films.",
+     "He studies at home.",
+     "He works in a café."
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-17",
+  "level": "A1",
+  "title": "Behind the Chair",
+  "topic": "Work",
+  "body": "My name is Rosa Delgado. I'm a hairdresser, and I've got a small salon in Austin, Texas. It's called Rosa's Cut and Color. There are only three chairs, and I work with one other stylist, Kenji.\n\nThe salon opens at ten. First, I make coffee and check my appointments. On a normal day I've got eight or nine clients. Some want a simple haircut. Others want a new color, and that takes two or three hours.\n\nI love my job because I meet so many people. My clients tell me everything: about their kids, their jobs, their love lives. I listen and I cut.\n\nThe job isn't always easy. I stand all day, and my feet hurt in the evening. But when a client looks in the mirror and smiles, I'm happy.",
+  "glossary": [
+   {
+    "term": "hairdresser",
+    "translation": "person who cuts and styles hair"
+   },
+   {
+    "term": "salon",
+    "translation": "shop where people get their hair done"
+   },
+   {
+    "term": "stylist",
+    "translation": "person who cuts and colors hair"
+   },
+   {
+    "term": "appointment",
+    "translation": "time you agree to meet someone",
+    "match": "appointments"
+   },
+   {
+    "term": "client",
+    "translation": "person who pays for a service",
+    "match": "clients"
+   },
+   {
+    "term": "haircut",
+    "translation": "when someone cuts your hair"
+   },
+   {
+    "term": "to take",
+    "translation": "to need (an amount of time)",
+    "match": "takes"
+   },
+   {
+    "term": "love life",
+    "translation": "your romantic relationships",
+    "match": "love lives"
+   },
+   {
+    "term": "to hurt",
+    "translation": "to give you pain",
+    "match": "hurt"
+   },
+   {
+    "term": "mirror",
+    "translation": "glass where you can see yourself"
+   },
+   {
+    "term": "to smile",
+    "translation": "to make a happy face",
+    "match": "smiles"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where is Rosa's salon?",
+    "options": [
+     "In Dallas",
+     "In Austin",
+     "In Houston",
+     "In San Antonio"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Rosa works alone.",
+    "answer": false,
+    "explanation": "She works with one other stylist, Kenji."
+   },
+   {
+    "type": "mc",
+    "prompt": "What time does the salon open?",
+    "options": [
+     "At eight",
+     "At nine",
+     "At ten",
+     "At eleven"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "How long does a new color take?",
+    "options": [
+     "Two or three hours",
+     "Thirty minutes",
+     "One hour",
+     "All day"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "Rosa's feet hurt in the evening.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "When is Rosa happy?",
+    "options": [
+     "When the salon closes",
+     "When she drinks coffee",
+     "When she sits down",
+     "When a client looks in the mirror and smiles"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-18",
+  "level": "A1",
+  "title": "Greetings from Edinburgh",
+  "topic": "Communication",
+  "body": "From: amira.hassan@example.com\nTo: jodie.p@example.com\nSubject: My new flat!\n\nHi Jodie,\n\nHow are you? Sorry for my late email. I'm not very good at writing! I'm in Edinburgh now. My new job at the museum starts on Monday, and I'm living in a flat in Leith, near the water.\n\nThe flat is on the second floor. It's got a big living room, a little kitchen and one bedroom. The windows are huge, so it's very light. The rent is quite high, but that's normal here.\n\nEdinburgh is beautiful. There are old stone buildings everywhere, and the castle is on a hill in the middle of the city. It's windy and it rains a lot, but I don't mind.\n\nI've got a sofa bed in the living room. Can you visit me in August, for the festival?\n\nWrite soon!\nLove,\nAmira",
+  "glossary": [
+   {
+    "term": "subject",
+    "translation": "what an email is about"
+   },
+   {
+    "term": "to be good at",
+    "translation": "to do something well",
+    "match": "good at"
+   },
+   {
+    "term": "light",
+    "translation": "bright, with lots of sun"
+   },
+   {
+    "term": "rent",
+    "translation": "money you pay to live in a home"
+   },
+   {
+    "term": "stone",
+    "translation": "hard material from the ground"
+   },
+   {
+    "term": "everywhere",
+    "translation": "in all places"
+   },
+   {
+    "term": "castle",
+    "translation": "big old building with strong walls"
+   },
+   {
+    "term": "hill",
+    "translation": "small mountain"
+   },
+   {
+    "term": "windy",
+    "translation": "with a lot of wind"
+   },
+   {
+    "term": "I don't mind",
+    "translation": "it's OK for me"
+   },
+   {
+    "term": "sofa bed",
+    "translation": "sofa that opens into a bed"
+   },
+   {
+    "term": "festival",
+    "translation": "big event with music, theatre and fun"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Why is Amira in Edinburgh?",
+    "options": [
+     "She's studying there.",
+     "She's got a new job at a museum.",
+     "She's on holiday.",
+     "Her family lives there."
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Amira's flat has got two bedrooms.",
+    "answer": false,
+    "explanation": "It has got one bedroom."
+   },
+   {
+    "type": "mc",
+    "prompt": "Why is the flat very light?",
+    "options": [
+     "It's on the top floor.",
+     "The walls are white.",
+     "The windows are huge.",
+     "There are lots of lamps."
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "The rent is quite high.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "Where is the castle?",
+    "options": [
+     "Near the water",
+     "In Leith",
+     "Next to the museum",
+     "On a hill in the middle of the city"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "mc",
+    "prompt": "When can Jodie visit?",
+    "options": [
+     "In August",
+     "In December",
+     "At Easter",
+     "Next weekend"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-19",
+  "level": "A1",
+  "title": "Room 214, Please",
+  "topic": "Travel",
+  "body": "After a long flight from Melbourne, Mai and Josh arrive at their hotel in Cairns. It's hot and sunny, and there are palm trees outside the door. They're here for a week to see the Great Barrier Reef.\n\n“Good afternoon! Welcome to the Seabreeze Hotel,” says the receptionist.\n“Hi. We've got a booking. The name is Nguyen.”\n“Let me see... Yes, a double room for seven nights, with breakfast. Can I see your ID, please?”\nMai gives her driver's licence.\n“Thank you. You're in room 214, on the second floor. It's got a balcony with a view of the sea. Here are your key cards. Breakfast is from 6:30 to 10:00. The pool is open until nine at night.”\n“Great. And where can we book a boat trip to the reef?”\n“At the tour desk next to the lift.”",
+  "glossary": [
+   {
+    "term": "flight",
+    "translation": "journey on a plane"
+   },
+   {
+    "term": "palm tree",
+    "translation": "tall tree with big leaves in hot places",
+    "match": "palm trees"
+   },
+   {
+    "term": "reef",
+    "translation": "line of rocks and coral under the sea"
+   },
+   {
+    "term": "receptionist",
+    "translation": "person at the front desk of a hotel"
+   },
+   {
+    "term": "booking",
+    "translation": "a room you ask for before you come"
+   },
+   {
+    "term": "double room",
+    "translation": "hotel room for two people"
+   },
+   {
+    "term": "ID",
+    "translation": "card that shows who you are"
+   },
+   {
+    "term": "driver's licence",
+    "translation": "card that says you can drive"
+   },
+   {
+    "term": "view",
+    "translation": "what you can see from a place"
+   },
+   {
+    "term": "key card",
+    "translation": "plastic card that opens a door",
+    "match": "key cards"
+   },
+   {
+    "term": "tour desk",
+    "translation": "place in a hotel to buy trips"
+   },
+   {
+    "term": "lift",
+    "translation": "machine that takes you up and down"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where is their flight from?",
+    "options": [
+     "Sydney",
+     "Melbourne",
+     "Brisbane",
+     "Perth"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Mai and Josh are in Cairns for two weeks.",
+    "answer": false,
+    "explanation": "They're here for a week, seven nights."
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Mai give the receptionist?",
+    "options": [
+     "Her passport",
+     "Her bank card",
+     "Her driver's licence",
+     "Her phone"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "What has the room got?",
+    "options": [
+     "A kitchen",
+     "A pool",
+     "Two bathrooms",
+     "A balcony with a view of the sea"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "The pool is open until nine at night.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "Where can they book a boat trip?",
+    "options": [
+     "At the tour desk",
+     "At the restaurant",
+     "In their room",
+     "At the pool"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-20",
+  "level": "A1",
+  "title": "Saturday at the Farmers Market",
+  "topic": "Shopping",
+  "body": "Every Saturday morning, Dev and his daughter Maya walk to the farmers market in downtown Portland. It's in a park near the university, and it's always busy.\n\nThere are more than a hundred stands. Farmers sell fresh vegetables, fruit, eggs, honey and flowers. Everything comes from farms in Oregon.\n\nFirst, they buy a big bag of apples and some blueberries. Maya loves blueberries. Then Dev wants mushrooms and fresh bread. At the cheese stand, a woman gives Maya a free sample. “Mmm, delicious!” says Maya.\n\nThere's music too. A man is playing the guitar, and people are dancing. Dev buys a coffee, and Maya gets a hot chocolate.\n\nTheir bags are heavy now. They walk home slowly and make a big lunch with everything.",
+  "glossary": [
+   {
+    "term": "farmers market",
+    "translation": "outdoor market where farmers sell food"
+   },
+   {
+    "term": "downtown",
+    "translation": "US: in the center of a city"
+   },
+   {
+    "term": "busy",
+    "translation": "full of people"
+   },
+   {
+    "term": "stand",
+    "translation": "table or small shop at a market",
+    "match": "stands"
+   },
+   {
+    "term": "fresh",
+    "translation": "new, just picked or made"
+   },
+   {
+    "term": "farm",
+    "translation": "land where people grow food",
+    "match": "farms"
+   },
+   {
+    "term": "blueberry",
+    "translation": "small, round, dark blue fruit",
+    "match": "blueberries"
+   },
+   {
+    "term": "mushroom",
+    "translation": "small grey or white plant you can eat",
+    "match": "mushrooms"
+   },
+   {
+    "term": "sample",
+    "translation": "small free piece to try"
+   },
+   {
+    "term": "delicious",
+    "translation": "very good to eat"
+   },
+   {
+    "term": "heavy",
+    "translation": "not light, hard to carry"
+   }
+  ],
+  "questions": [
+   {
+    "type": "tf",
+    "prompt": "Dev and Maya go to the market on Sundays.",
+    "answer": false,
+    "explanation": "They go every Saturday morning."
+   },
+   {
+    "type": "mc",
+    "prompt": "Where is the market?",
+    "options": [
+     "In a park near the university",
+     "Next to the river",
+     "At a school",
+     "In a shopping mall"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "How many stands are there?",
+    "options": [
+     "About twenty",
+     "About fifty",
+     "More than a hundred",
+     "Exactly two hundred"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Maya love?",
+    "options": [
+     "Mushrooms",
+     "Apples",
+     "Cheese",
+     "Blueberries"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Maya gets a free sample at the cheese stand.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the man playing?",
+    "options": [
+     "The piano",
+     "The guitar",
+     "The violin",
+     "The drums"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "a1-21",
+  "level": "A1",
+  "title": "Welcome to My Room",
+  "topic": "Home",
+  "body": "My name is Rhys. I'm fifteen and I live in Cardiff with my mum and my stepdad. My room is small, but it's my favourite place in the house.\n\nThe walls are dark blue, and there's a big Wales rugby poster above my bed. Next to the window there's a desk with my laptop. I do my homework there, but mostly I play games.\n\nMy wardrobe is full, so my clothes are often on the floor. Mum hates that! “Rhys, tidy your room!” she says every day.\n\nUnder my bed there's a box with old comics and a guitar. I can play three songs. On the shelf there are some football trophies from primary school.\n\nI've got a lock on my door. My little sister isn't allowed in!",
+  "glossary": [
+   {
+    "term": "stepdad",
+    "translation": "your mum's husband, but not your dad"
+   },
+   {
+    "term": "poster",
+    "translation": "big picture on a wall"
+   },
+   {
+    "term": "above",
+    "translation": "higher than, over"
+   },
+   {
+    "term": "desk",
+    "translation": "table for working at"
+   },
+   {
+    "term": "mostly",
+    "translation": "most of the time"
+   },
+   {
+    "term": "wardrobe",
+    "translation": "tall cupboard for clothes"
+   },
+   {
+    "term": "to hate",
+    "translation": "to really not like",
+    "match": "hates"
+   },
+   {
+    "term": "to tidy",
+    "translation": "to put things in the right place",
+    "match": "tidy"
+   },
+   {
+    "term": "shelf",
+    "translation": "board on a wall for books and things"
+   },
+   {
+    "term": "trophy",
+    "translation": "prize cup you win in sport",
+    "match": "trophies"
+   },
+   {
+    "term": "lock",
+    "translation": "thing that closes a door with a key"
+   }
+  ],
+  "questions": [
+   {
+    "type": "tf",
+    "prompt": "Rhys lives with his mum and his stepdad.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What colour are the walls?",
+    "options": [
+     "Red",
+     "Dark blue",
+     "Green",
+     "White"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Rhys mostly do at his desk?",
+    "options": [
+     "He does his homework.",
+     "He reads comics.",
+     "He plays games.",
+     "He draws."
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Rhys's clothes are always in the wardrobe.",
+    "answer": false,
+    "explanation": "His wardrobe is full, so his clothes are often on the floor."
+   },
+   {
+    "type": "mc",
+    "prompt": "What is under the bed?",
+    "options": [
+     "Shoes and a ball",
+     "Football trophies",
+     "A laptop",
+     "A box with old comics and a guitar"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "mc",
+    "prompt": "Who isn't allowed in Rhys's room?",
+    "options": [
+     "His little sister",
+     "His mum",
+     "His stepdad",
+     "His friends"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-22",
+  "level": "A1",
+  "title": "Game Day for the Tigers",
+  "topic": "Sport",
+  "body": "It's Saturday morning in Montclair, New Jersey. The sun is shining, and the field behind the elementary school is full of families with folding chairs.\n\nToday the Montclair Tigers are playing the Bloomfield Bears. The players are all nine and ten years old. Ella is the goalkeeper for the Tigers. She's wearing big orange gloves. Her dad is the coach.\n\nThe game starts at ten. After five minutes the Bears score a goal. The Tigers' parents are quiet. Then Ella's friend Diego kicks the ball into the net: 1-1! Everybody cheers.\n\nIn the second half, a Bears player kicks the ball hard. Ella jumps and catches it. What a save! Then Diego scores again.\n\nThe final score is 2-1 to the Tigers. After the game, the coach gives everybody orange slices and a high five.",
+  "glossary": [
+   {
+    "term": "field",
+    "translation": "big area of grass for sport"
+   },
+   {
+    "term": "elementary school",
+    "translation": "US: school for children aged 5 to 11"
+   },
+   {
+    "term": "folding chair",
+    "translation": "chair you can close and carry",
+    "match": "folding chairs"
+   },
+   {
+    "term": "goalkeeper",
+    "translation": "player who stops the ball near the goal"
+   },
+   {
+    "term": "glove",
+    "translation": "clothing for your hand",
+    "match": "gloves"
+   },
+   {
+    "term": "coach",
+    "translation": "person who trains a team"
+   },
+   {
+    "term": "to score",
+    "translation": "to get a goal or point",
+    "match": "score"
+   },
+   {
+    "term": "net",
+    "translation": "part of the goal, made of string"
+   },
+   {
+    "term": "to cheer",
+    "translation": "to shout because you're happy",
+    "match": "cheers"
+   },
+   {
+    "term": "half",
+    "translation": "one of the two parts of a game"
+   },
+   {
+    "term": "save",
+    "translation": "when the goalkeeper stops the ball"
+   },
+   {
+    "term": "high five",
+    "translation": "hitting hands together in the air"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where is the game?",
+    "options": [
+     "In a stadium",
+     "Behind the elementary school",
+     "In a park downtown",
+     "At the beach"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "The players are teenagers.",
+    "answer": false,
+    "explanation": "They're all nine and ten years old."
+   },
+   {
+    "type": "mc",
+    "prompt": "Who is the Tigers' coach?",
+    "options": [
+     "Diego's mom",
+     "A teacher",
+     "Ella's mom",
+     "Ella's dad"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "mc",
+    "prompt": "Who scores the goals for the Tigers?",
+    "options": [
+     "Ella",
+     "The coach",
+     "Diego",
+     "A Bears player"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Ella catches the ball in the second half.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the final score?",
+    "options": [
+     "2-1 to the Tigers",
+     "1-1",
+     "2-1 to the Bears",
+     "3-0 to the Tigers"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-23",
+  "level": "A1",
+  "title": "A Day at Melbourne Zoo",
+  "topic": "Free time",
+  "body": "Sunday, 14 April\n\nToday we're at Melbourne Zoo: Mum, Dad, my brother Noah and me. It's autumn, but it's warm and sunny.\n\nFirst we see the kangaroos and the emus. They walk around near the path! Then we go to the gorillas. A big male gorilla is sitting on a rock and eating leaves. He looks bored. Noah loves the butterfly house. There are hundreds of butterflies, and one lands on his hat!\n\nAt twelve we have a picnic on the grass. Dad's sandwiches are terrible, but Grandma's lamingtons are delicious.\n\nIn the afternoon we watch the seals. They swim and jump, and the keeper gives them fish. My favourite animal? The red panda. It's small, fluffy and very shy.\n\nNow I'm in the car, and Noah is asleep.",
+  "glossary": [
+   {
+    "term": "emu",
+    "translation": "big Australian bird that can't fly",
+    "match": "emus"
+   },
+   {
+    "term": "path",
+    "translation": "narrow way for walking"
+   },
+   {
+    "term": "gorilla",
+    "translation": "very big, strong animal like a monkey",
+    "match": "gorillas"
+   },
+   {
+    "term": "male",
+    "translation": "a man or boy animal"
+   },
+   {
+    "term": "rock",
+    "translation": "big stone"
+   },
+   {
+    "term": "butterfly",
+    "translation": "insect with big, colourful wings"
+   },
+   {
+    "term": "to land",
+    "translation": "to come down and stop on something",
+    "match": "lands"
+   },
+   {
+    "term": "terrible",
+    "translation": "very bad"
+   },
+   {
+    "term": "lamington",
+    "translation": "Australian cake with chocolate and coconut",
+    "match": "lamingtons"
+   },
+   {
+    "term": "seal",
+    "translation": "sea animal that eats fish",
+    "match": "seals"
+   },
+   {
+    "term": "keeper",
+    "translation": "person who looks after zoo animals"
+   },
+   {
+    "term": "shy",
+    "translation": "quiet and a little afraid of people"
+   }
+  ],
+  "questions": [
+   {
+    "type": "tf",
+    "prompt": "It's spring in Melbourne.",
+    "answer": false,
+    "explanation": "It's autumn, but it's warm and sunny."
+   },
+   {
+    "type": "mc",
+    "prompt": "Which animals walk around near the path?",
+    "options": [
+     "Seals and penguins",
+     "Kangaroos and emus",
+     "Gorillas",
+     "Red pandas"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the big gorilla doing?",
+    "options": [
+     "Sleeping",
+     "Playing with a ball",
+     "Sitting on a rock and eating leaves",
+     "Swimming"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "Where does a butterfly land?",
+    "options": [
+     "On Noah's hat",
+     "On Mum's hand",
+     "On the picnic",
+     "On Dad's nose"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "Dad's sandwiches are delicious.",
+    "answer": false,
+    "explanation": "Dad's sandwiches are terrible. Grandma's lamingtons are delicious."
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the writer's favourite animal?",
+    "options": [
+     "The gorilla",
+     "The seal",
+     "The kangaroo",
+     "The red panda"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-24",
+  "level": "A1",
+  "title": "The New Family Next Door",
+  "topic": "Neighbours",
+  "body": "It's Sunday afternoon in Auckland. Mere Parata is reading on the deck when the doorbell rings. At the door there's a young couple with a baby and a plate of biscuits.\n\n“Hi! We're your new neighbours from number 12. I'm Ana, and this is my husband, Tomás. And this is little Luna.”\n“Kia ora! I'm Mere. Come in, please!”\n\nMere's husband Hemi puts the kettle on. They sit in the lounge and drink tea.\n“Where are you from?” asks Hemi.\n“We're from Chile. Tomás is an engineer, and I'm a nurse at Auckland Hospital.”\n“Lovely! Have you got any questions about the area?”\n“Yes. Where's the bus stop?”\n“It's just around the corner.”\n\nMere writes her number on a piece of paper: 021 555 0147.\n“Ring us any time!”",
+  "glossary": [
+   {
+    "term": "deck",
+    "translation": "wooden floor outside a house"
+   },
+   {
+    "term": "doorbell",
+    "translation": "bell next to a door that visitors press"
+   },
+   {
+    "term": "couple",
+    "translation": "two people who are together"
+   },
+   {
+    "term": "plate",
+    "translation": "flat dish for food"
+   },
+   {
+    "term": "biscuit",
+    "translation": "small, dry, sweet cake",
+    "match": "biscuits"
+   },
+   {
+    "term": "neighbour",
+    "translation": "person who lives next to you",
+    "match": "neighbours"
+   },
+   {
+    "term": "kia ora",
+    "translation": "Māori words for hello"
+   },
+   {
+    "term": "to put the kettle on",
+    "translation": "to start making tea",
+    "match": "puts the kettle on"
+   },
+   {
+    "term": "lounge",
+    "translation": "NZ and UK: living room"
+   },
+   {
+    "term": "engineer",
+    "translation": "person who designs machines or buildings"
+   },
+   {
+    "term": "area",
+    "translation": "the part of town around you"
+   },
+   {
+    "term": "around the corner",
+    "translation": "very near"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "What is Mere doing when the doorbell rings?",
+    "options": [
+     "She's cooking.",
+     "She's reading on the deck.",
+     "She's sleeping.",
+     "She's working in the garden."
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "What do the new neighbours bring?",
+    "options": [
+     "Flowers",
+     "A cake",
+     "A plate of biscuits",
+     "A bottle of wine"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "The new neighbours are from Australia.",
+    "answer": false,
+    "explanation": "They're from Chile."
+   },
+   {
+    "type": "mc",
+    "prompt": "What is Ana's job?",
+    "options": [
+     "She's a nurse.",
+     "She's an engineer.",
+     "She's a teacher.",
+     "She's a doctor."
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "The bus stop is very near.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Mere give them?",
+    "options": [
+     "A map",
+     "A cup",
+     "Some biscuits",
+     "Her phone number"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-25",
+  "level": "A1",
+  "title": "A Birthday Table for Four",
+  "topic": "Food and drink",
+  "body": "It's Jamal's thirtieth birthday. Tonight he and his girlfriend, Brianna, are having dinner with his parents at a small Italian restaurant in Boston's North End.\n\nThe waiter takes them to a table by the window. “Can I get you something to drink?” he asks. Jamal's dad orders a bottle of red wine. Brianna asks for sparkling water.\n\nFor an appetizer, they share a big plate of calamari. Then Jamal orders the lobster ravioli. His mom has the chicken parmesan, and his dad has spaghetti and meatballs. The portions are huge!\n\nAfter dinner, the lights go down. The waiter brings out a tiramisu with a candle, and the whole restaurant sings “Happy Birthday”. Jamal's face is red.\n\nThen the check comes. Jamal wants to pay, but his dad says, “No way. It's your birthday!”",
+  "glossary": [
+   {
+    "term": "waiter",
+    "translation": "man who brings food in a restaurant"
+   },
+   {
+    "term": "to order",
+    "translation": "to ask for food or drink",
+    "match": "orders"
+   },
+   {
+    "term": "sparkling water",
+    "translation": "water with bubbles"
+   },
+   {
+    "term": "appetizer",
+    "translation": "US: small dish before the main meal"
+   },
+   {
+    "term": "to share",
+    "translation": "to have something together"
+   },
+   {
+    "term": "calamari",
+    "translation": "fried rings of squid, a sea animal"
+   },
+   {
+    "term": "lobster",
+    "translation": "big sea animal with a hard shell"
+   },
+   {
+    "term": "meatball",
+    "translation": "small ball of meat",
+    "match": "meatballs"
+   },
+   {
+    "term": "portion",
+    "translation": "amount of food for one person",
+    "match": "portions"
+   },
+   {
+    "term": "tiramisu",
+    "translation": "Italian dessert with coffee and cream"
+   },
+   {
+    "term": "check",
+    "translation": "US: paper that says how much to pay"
+   },
+   {
+    "term": "no way",
+    "translation": "certainly not"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "How old is Jamal today?",
+    "options": [
+     "Twenty-five",
+     "Twenty-eight",
+     "Thirty",
+     "Forty"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "They're eating at a Chinese restaurant.",
+    "answer": false,
+    "explanation": "They're at a small Italian restaurant."
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Brianna drink?",
+    "options": [
+     "Red wine",
+     "Sparkling water",
+     "Soda",
+     "Beer"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Jamal order?",
+    "options": [
+     "Chicken parmesan",
+     "Spaghetti and meatballs",
+     "Pizza",
+     "Lobster ravioli"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "mc",
+    "prompt": "What is on the tiramisu?",
+    "options": [
+     "A candle",
+     "Ice cream",
+     "A card",
+     "A small flag"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "Jamal's dad wants to pay.",
+    "answer": true
+   }
+  ]
+ },
+ {
+  "id": "a1-26",
+  "level": "A1",
+  "title": "My First Library Card",
+  "topic": "Services",
+  "body": "Kofi and his family are new in Birmingham. Today he's visiting the Library of Birmingham for the first time. It's a huge, modern building in the city centre, with gold and silver circles on the outside.\n\nAt the information desk, a librarian smiles at him.\n“Hello. Can I help you?”\n“Yes, please. I'd like a library card.”\n“No problem. Have you got proof of address? A letter or a bill?”\n\nKofi gives her a council tax letter. She types his details into the computer, and two minutes later he's got a card. It's free!\n“You can borrow up to fifteen books for three weeks,” she says. “The children's section is on the lower ground floor.”\n\nKofi chooses a cookbook and two crime novels. Then he goes up to the garden on the roof. The view of the city is fantastic.",
+  "glossary": [
+   {
+    "term": "modern",
+    "translation": "new in style"
+   },
+   {
+    "term": "circle",
+    "translation": "round shape, like an O",
+    "match": "circles"
+   },
+   {
+    "term": "librarian",
+    "translation": "person who works in a library"
+   },
+   {
+    "term": "proof of address",
+    "translation": "paper that shows where you live"
+   },
+   {
+    "term": "bill",
+    "translation": "paper that says how much you must pay"
+   },
+   {
+    "term": "council tax",
+    "translation": "UK: money you pay to your town"
+   },
+   {
+    "term": "details",
+    "translation": "information like your name and address"
+   },
+   {
+    "term": "to borrow",
+    "translation": "to take something and give it back later"
+   },
+   {
+    "term": "up to",
+    "translation": "not more than"
+   },
+   {
+    "term": "lower ground floor",
+    "translation": "floor a little under the street"
+   },
+   {
+    "term": "crime novel",
+    "translation": "book about police and crimes",
+    "match": "crime novels"
+   },
+   {
+    "term": "roof",
+    "translation": "the top of a building"
+   }
+  ],
+  "questions": [
+   {
+    "type": "tf",
+    "prompt": "Kofi is new in Birmingham.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What is on the outside of the library?",
+    "options": [
+     "Big pictures of books",
+     "Gold and silver circles",
+     "Lots of plants",
+     "A huge clock"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Kofi give the librarian?",
+    "options": [
+     "His passport",
+     "A photo",
+     "Some money",
+     "A council tax letter"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "The library card costs five pounds.",
+    "answer": false,
+    "explanation": "It's free."
+   },
+   {
+    "type": "mc",
+    "prompt": "How many books can Kofi borrow?",
+    "options": [
+     "Up to five",
+     "Up to ten",
+     "Up to fifteen",
+     "Up to twenty"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "Where does Kofi go at the end?",
+    "options": [
+     "To the garden on the roof",
+     "To the children's section",
+     "To a café",
+     "Home"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-27",
+  "level": "A1",
+  "title": "A Package for Guadalajara",
+  "topic": "Services",
+  "body": "Carmen Ortiz lives in Denver, Colorado. Her niece, Valeria, lives in Guadalajara, Mexico. Next week is Valeria's seventh birthday, so today Carmen is at the post office with a package.\n\nInside the box there's a doll, a book in English and Spanish, and a birthday card. Carmen waits in line for ten minutes. Then it's her turn.\n“Hi. I want to send this package to Mexico, please.”\nThe clerk puts it on the scale. “It's three pounds. Priority Mail International takes six to ten days.”\n“Six to ten days? Her birthday is next Friday! Is there something faster?”\n“Yes, Express. It takes three to five days, but it's more expensive.”\n“OK, Express, please.”\n\nCarmen fills out a customs form: doll, book, card. She pays $68 and gets a tracking number.\n“Good luck!” says the clerk.",
+  "glossary": [
+   {
+    "term": "niece",
+    "translation": "daughter of your brother or sister"
+   },
+   {
+    "term": "package",
+    "translation": "US: box you send by mail"
+   },
+   {
+    "term": "doll",
+    "translation": "toy that looks like a small person"
+   },
+   {
+    "term": "to wait in line",
+    "translation": "US: to stand and wait for your turn",
+    "match": "waits in line"
+   },
+   {
+    "term": "turn",
+    "translation": "your time to do something"
+   },
+   {
+    "term": "clerk",
+    "translation": "US: person who works at a desk or counter"
+   },
+   {
+    "term": "scale",
+    "translation": "machine that says how heavy something is"
+   },
+   {
+    "term": "pound",
+    "translation": "US: unit of weight, about 450 grams",
+    "match": "pounds"
+   },
+   {
+    "term": "expensive",
+    "translation": "costing a lot of money"
+   },
+   {
+    "term": "to fill out",
+    "translation": "US: to write information on a form",
+    "match": "fills out"
+   },
+   {
+    "term": "customs form",
+    "translation": "paper that says what is in a package"
+   },
+   {
+    "term": "tracking number",
+    "translation": "number to follow your package online"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where does Valeria live?",
+    "options": [
+     "Denver",
+     "Mexico City",
+     "Guadalajara",
+     "Los Angeles"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Valeria is eight next week.",
+    "answer": false,
+    "explanation": "It's her seventh birthday."
+   },
+   {
+    "type": "mc",
+    "prompt": "What isn't in the box?",
+    "options": [
+     "A doll",
+     "A book",
+     "A birthday card",
+     "Candy"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "mc",
+    "prompt": "How long does Priority Mail International take?",
+    "options": [
+     "Six to ten days",
+     "One or two days",
+     "Three to five days",
+     "Two weeks"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "Carmen chooses Express.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "How much does Carmen pay?",
+    "options": [
+     "$38",
+     "$68",
+     "$86",
+     "$96"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "a1-28",
+  "level": "A1",
+  "title": "A Bank Account for Marta",
+  "topic": "Banking and money",
+  "body": "Marta is from Kraków in Poland. Next week she's starting a new job at a laboratory in Nottingham. Her new company needs her bank details for her salary, so today she's at a bank. Her appointment is at eleven.\n\nA bank adviser called Darren takes her to a small office.\n“So, you want to open a current account?”\n“Yes, please.”\n“Can I see your passport and proof of address?”\nMarta gives him her passport and a letter from her landlord. Darren checks them and types on his computer.\n“Everything's fine. Your debit card comes in the post in five to seven days. And please download our app. It's easy.”\n“Is the account free?”\n“Yes, there's no monthly fee.”\n\nMarta leaves the bank with a smile. One more thing on her list is done.",
+  "glossary": [
+   {
+    "term": "laboratory",
+    "translation": "room or building for science work"
+   },
+   {
+    "term": "company",
+    "translation": "business; the place where you work"
+   },
+   {
+    "term": "bank details",
+    "translation": "the numbers of your bank account"
+   },
+   {
+    "term": "salary",
+    "translation": "money you get every month for your job"
+   },
+   {
+    "term": "bank adviser",
+    "translation": "person at a bank who helps customers"
+   },
+   {
+    "term": "current account",
+    "translation": "UK: bank account for everyday money"
+   },
+   {
+    "term": "landlord",
+    "translation": "person who rents a home to you"
+   },
+   {
+    "term": "to type",
+    "translation": "to write on a computer",
+    "match": "types"
+   },
+   {
+    "term": "debit card",
+    "translation": "card that takes money from your account"
+   },
+   {
+    "term": "to download",
+    "translation": "to put an app on your phone",
+    "match": "download"
+   },
+   {
+    "term": "monthly fee",
+    "translation": "money you pay every month"
+   },
+   {
+    "term": "done",
+    "translation": "finished"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where is Marta from?",
+    "options": [
+     "Warsaw",
+     "Kraków",
+     "Prague",
+     "Gdańsk"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "Why does Marta need a bank account?",
+    "options": [
+     "For her rent",
+     "For shopping online",
+     "For her salary",
+     "For her holiday"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Marta's appointment is at ten o'clock.",
+    "answer": false,
+    "explanation": "It's at eleven."
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Marta give Darren?",
+    "options": [
+     "Her passport and a letter from her landlord",
+     "Her driving licence",
+     "A council tax letter",
+     "Her work contract"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "When does the debit card come?",
+    "options": [
+     "Today",
+     "Tomorrow",
+     "In two weeks",
+     "In five to seven days"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Marta must pay for the account every month.",
+    "answer": false,
+    "explanation": "There's no monthly fee. The account is free."
+   }
+  ]
+ },
+ {
+  "id": "a1-29",
+  "level": "A1",
+  "title": "Hair for the Big Day",
+  "topic": "Services",
+  "body": "Saoirse's sister Ciara is getting married on Saturday in Limerick. Saoirse is a bridesmaid, and she wants nice hair for the wedding. On Monday she phones a hair salon on O'Connell Street.\n\n“Good morning, Shine Hair Studio. Gráinne speaking.”\n“Hi, I'd like to book an appointment for Saturday morning, please. It's for a wedding.”\n“Lovely! What would you like? A cut, a colour or an updo?”\n“An updo, please. My hair is long and curly.”\n“Let me see... Saturday is very busy. Can you come at half seven?”\n“Half seven in the morning? Wow, that's early! But OK. The wedding is at one.”\n“Perfect. And can I have your name and phone number?”\n“Saoirse Walsh, 087 555 0193.”\n“Grand. See you on Saturday, Saoirse. And congratulations to your sister!”",
+  "glossary": [
+   {
+    "term": "to get married",
+    "translation": "to become husband and wife",
+    "match": "getting married"
+   },
+   {
+    "term": "bridesmaid",
+    "translation": "woman who helps the bride at a wedding"
+   },
+   {
+    "term": "speaking",
+    "translation": "on the phone: this is me"
+   },
+   {
+    "term": "to book",
+    "translation": "to ask for a time or place before",
+    "match": "book"
+   },
+   {
+    "term": "appointment",
+    "translation": "time you agree to meet someone"
+   },
+   {
+    "term": "updo",
+    "translation": "style with long hair up on your head"
+   },
+   {
+    "term": "curly",
+    "translation": "not straight, with lots of round shapes"
+   },
+   {
+    "term": "busy",
+    "translation": "with lots of work"
+   },
+   {
+    "term": "half seven",
+    "translation": "UK and Ireland: 7:30"
+   },
+   {
+    "term": "grand",
+    "translation": "Ireland: fine, OK"
+   },
+   {
+    "term": "congratulations",
+    "translation": "what you say when something good happens"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Who is getting married?",
+    "options": [
+     "Saoirse",
+     "Gráinne",
+     "Saoirse's sister Ciara",
+     "Saoirse's friend"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Saoirse phones the salon on Saturday.",
+    "answer": false,
+    "explanation": "She phones on Monday. The wedding is on Saturday."
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Saoirse want?",
+    "options": [
+     "An updo",
+     "A cut",
+     "A colour",
+     "A wash"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "What is Saoirse's hair like?",
+    "options": [
+     "Short and straight",
+     "Long and curly",
+     "Short and red",
+     "Long and straight"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "The appointment is at 7:30 in the morning.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What time is the wedding?",
+    "options": [
+     "At ten",
+     "At eleven",
+     "At twelve",
+     "At one"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-30",
+  "level": "A1",
+  "title": "A Flat Tyre on Mill Road",
+  "topic": "Transport",
+  "body": "Every morning, Isla cycles to work. She's a teacher at a primary school in Cambridge, and the ride takes fifteen minutes. Cambridge is flat, and there are bikes everywhere.\n\nToday it's 8:10, and Isla is on Mill Road. Suddenly, she hears a sound: psssss. Her back tyre is flat! There's a piece of glass in it.\n\nIsla looks at her watch. School starts at 8:45. She can't fix the tyre, because her pump is at home. What can she do?\n\nShe texts her colleague Femi: “Flat tyre on Mill Road! I'm late. Sorry!”\n\nThen she sees a small bike shop across the road. It's open! The mechanic is friendly. He changes the inner tube in ten minutes. It costs twelve pounds.\n\nIsla gets to school at 8:40, just in time.",
+  "glossary": [
+   {
+    "term": "to cycle",
+    "translation": "to ride a bike",
+    "match": "cycles"
+   },
+   {
+    "term": "primary school",
+    "translation": "UK: school for children aged 4 to 11"
+   },
+   {
+    "term": "ride",
+    "translation": "journey on a bike"
+   },
+   {
+    "term": "suddenly",
+    "translation": "very quickly, when you don't expect it"
+   },
+   {
+    "term": "flat tyre",
+    "translation": "tyre with no air in it"
+   },
+   {
+    "term": "to fix",
+    "translation": "to make something work again",
+    "match": "fix"
+   },
+   {
+    "term": "pump",
+    "translation": "tool that puts air into a tyre"
+   },
+   {
+    "term": "colleague",
+    "translation": "person you work with"
+   },
+   {
+    "term": "across the road",
+    "translation": "on the other side of the street"
+   },
+   {
+    "term": "mechanic",
+    "translation": "person who repairs bikes or cars"
+   },
+   {
+    "term": "inner tube",
+    "translation": "rubber ring with air inside a tyre"
+   },
+   {
+    "term": "just in time",
+    "translation": "not late, but nearly late"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "What is Isla's job?",
+    "options": [
+     "She's a mechanic.",
+     "She's a teacher.",
+     "She's a nurse.",
+     "She's a student."
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Isla's ride to work takes thirty minutes.",
+    "answer": false,
+    "explanation": "It takes fifteen minutes."
+   },
+   {
+    "type": "mc",
+    "prompt": "What is in Isla's tyre?",
+    "options": [
+     "A nail",
+     "A stone",
+     "A piece of glass",
+     "A pin"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "Why can't Isla fix the tyre?",
+    "options": [
+     "Her pump is at home.",
+     "She hasn't got time.",
+     "She doesn't know how.",
+     "It's raining."
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "How much does the new inner tube cost?",
+    "options": [
+     "Five pounds",
+     "Eight pounds",
+     "Ten pounds",
+     "Twelve pounds"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Isla is late for school.",
+    "answer": false,
+    "explanation": "She gets to school at 8:40, just in time."
+   }
+  ]
+ },
+ {
+  "id": "a1-31",
+  "level": "A1",
+  "title": "Pancakes on Saturday",
+  "topic": "Cooking",
+  "body": "It's Saturday morning in Toronto. Mark and his daughter Ava are in the kitchen. Ava is seven. Every Saturday, they make pancakes together.\n\n“Can I crack the eggs, Dad?” asks Ava.\n“Of course,” says Mark. “Be careful.”\n\nMark puts flour, milk, eggs and a little sugar in a big bowl. Ava stirs the batter with a wooden spoon. It's thick and yellow.\n\nMark heats a pan on the stove and adds some butter. Then he pours in the batter. After two minutes, he flips the pancake. Ava laughs. “It's flying!”\n\nThere are blueberries and maple syrup on the table. Ava puts lots of syrup on her pancakes. Mark drinks a coffee.\n\n“These are the best pancakes in Canada,” says Ava.\nMark smiles. “You say that every week.”",
+  "glossary": [
+   {
+    "term": "to crack",
+    "translation": "to break an egg open",
+    "match": "crack"
+   },
+   {
+    "term": "flour",
+    "translation": "white powder for making bread and cakes"
+   },
+   {
+    "term": "bowl",
+    "translation": "deep round dish"
+   },
+   {
+    "term": "to stir",
+    "translation": "to move a spoon round and round",
+    "match": "stirs"
+   },
+   {
+    "term": "batter",
+    "translation": "wet mix of flour, eggs and milk"
+   },
+   {
+    "term": "wooden",
+    "translation": "made of wood"
+   },
+   {
+    "term": "thick",
+    "translation": "not runny, not like water"
+   },
+   {
+    "term": "stove",
+    "translation": "hot top for cooking in a kitchen"
+   },
+   {
+    "term": "to flip",
+    "translation": "to turn something over quickly",
+    "match": "flips"
+   },
+   {
+    "term": "blueberry",
+    "translation": "small dark blue fruit",
+    "match": "blueberries"
+   },
+   {
+    "term": "maple syrup",
+    "translation": "sweet brown liquid from a tree"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "How old is Ava?",
+    "options": [
+     "five",
+     "six",
+     "seven",
+     "eight"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Ava wants to crack the eggs.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Ava use to stir the batter?",
+    "options": [
+     "a fork",
+     "a wooden spoon",
+     "a knife",
+     "her hands"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Mark put in the pan before the batter?",
+    "options": [
+     "butter",
+     "oil",
+     "sugar",
+     "milk"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "Mark drinks orange juice.",
+    "answer": false,
+    "explanation": "He drinks a coffee."
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Ava say about the pancakes?",
+    "options": [
+     "They are too sweet.",
+     "They are cold.",
+     "They are better with jam.",
+     "They are the best in Canada."
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-32",
+  "level": "A1",
+  "title": "Kenji's First Thanksgiving",
+  "topic": "Holidays",
+  "body": "Kenji is from Osaka in Japan. He's a student at a college in Boston. His friend Emily has a question for him.\n\n“Thanksgiving is on Thursday. Do you want to come to my parents' house in Philadelphia?”\n“Yes, please!” says Kenji.\n\nOn Thursday, the house is full of people. There are grandparents, aunts, uncles and lots of cousins.\n\nIn the middle of the table, there is a huge turkey. There are also mashed potatoes, gravy, green beans and cranberry sauce. For dessert, there is pumpkin pie.\n\nBefore dinner, everybody says one thing they are thankful for. Kenji is nervous. Then he says, “I'm thankful for new friends.” Emily's grandmother gives him a hug.\n\nAfter dinner, the family watches football on TV. Kenji doesn't understand the rules, but he is very happy.",
+  "glossary": [
+   {
+    "term": "cousin",
+    "translation": "child of your aunt or uncle",
+    "match": "cousins"
+   },
+   {
+    "term": "huge",
+    "translation": "very, very big"
+   },
+   {
+    "term": "turkey",
+    "translation": "big bird that people cook for holidays"
+   },
+   {
+    "term": "mashed potatoes",
+    "translation": "potatoes cooked and made soft"
+   },
+   {
+    "term": "gravy",
+    "translation": "hot brown sauce for meat"
+   },
+   {
+    "term": "cranberry sauce",
+    "translation": "sweet red sauce made from small fruit"
+   },
+   {
+    "term": "dessert",
+    "translation": "sweet food after a meal"
+   },
+   {
+    "term": "pumpkin pie",
+    "translation": "sweet pie made from a big orange vegetable"
+   },
+   {
+    "term": "thankful",
+    "translation": "glad that you have something"
+   },
+   {
+    "term": "nervous",
+    "translation": "a little afraid and worried"
+   },
+   {
+    "term": "hug",
+    "translation": "putting your arms around someone"
+   },
+   {
+    "term": "rule",
+    "translation": "what you must or must not do in a game",
+    "match": "rules"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where is Kenji from?",
+    "options": [
+     "Tokyo",
+     "Osaka",
+     "Kyoto",
+     "Boston"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Emily's parents live in Boston.",
+    "answer": false,
+    "explanation": "Their house is in Philadelphia."
+   },
+   {
+    "type": "mc",
+    "prompt": "What is in the middle of the table?",
+    "options": [
+     "a pumpkin pie",
+     "a big cake",
+     "a huge turkey",
+     "flowers"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "What does everybody do before dinner?",
+    "options": [
+     "They sing a song.",
+     "They watch football.",
+     "They give presents.",
+     "They say one thing they are thankful for."
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Emily's grandmother gives Kenji a hug.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "How does Kenji feel at the end?",
+    "options": [
+     "very happy",
+     "bored",
+     "angry",
+     "tired"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-33",
+  "level": "A1",
+  "title": "A Hot Day at the Lido",
+  "topic": "Leisure",
+  "body": "My name is Grace and I live in Brixton, London. Today is a hot day in July. It's 31 degrees! I'm going to the lido with my little brother, Sam.\n\nA lido is an outdoor swimming pool. Our lido is in Brockwell Park. Tickets cost six pounds for adults and three pounds for children.\n\nThere's a long queue at the entrance, but it moves fast. We change in the changing rooms and put our bags in a locker.\n\nThe water is cold and blue. Sam is jumping in again and again. The lifeguard blows her whistle. “No jumping, please!” she says.\n\nNow we are lying on our towels in the sun. I've got sun cream on my face and arms. Sam is eating an ice lolly. It's the perfect summer day.",
+  "glossary": [
+   {
+    "term": "lido",
+    "translation": "outdoor public swimming pool"
+   },
+   {
+    "term": "outdoor",
+    "translation": "outside, not in a building"
+   },
+   {
+    "term": "queue",
+    "translation": "line of people waiting"
+   },
+   {
+    "term": "entrance",
+    "translation": "the way into a place"
+   },
+   {
+    "term": "changing room",
+    "translation": "room where you change your clothes",
+    "match": "changing rooms"
+   },
+   {
+    "term": "locker",
+    "translation": "small cupboard with a key"
+   },
+   {
+    "term": "lifeguard",
+    "translation": "person who keeps swimmers safe"
+   },
+   {
+    "term": "whistle",
+    "translation": "small thing you blow to make a loud sound"
+   },
+   {
+    "term": "towel",
+    "translation": "cloth for drying your body",
+    "match": "towels"
+   },
+   {
+    "term": "sun cream",
+    "translation": "cream that protects your skin from the sun"
+   },
+   {
+    "term": "ice lolly",
+    "translation": "frozen sweet drink on a stick"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "How hot is it today?",
+    "options": [
+     "21 degrees",
+     "25 degrees",
+     "28 degrees",
+     "31 degrees"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "The lido is an indoor pool.",
+    "answer": false,
+    "explanation": "A lido is an outdoor swimming pool."
+   },
+   {
+    "type": "mc",
+    "prompt": "How much is a ticket for a child?",
+    "options": [
+     "two pounds",
+     "three pounds",
+     "six pounds",
+     "nine pounds"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "There is a long queue at the entrance.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "Why does the lifeguard blow her whistle?",
+    "options": [
+     "Sam is jumping in.",
+     "The pool is closing.",
+     "Grace is swimming too fast.",
+     "It is raining."
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "What is Sam eating at the end?",
+    "options": [
+     "a sandwich",
+     "crisps",
+     "an ice lolly",
+     "an apple"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "a1-34",
+  "level": "A1",
+  "title": "Aisha's Wednesday Timetable",
+  "topic": "School",
+  "body": "Hi! I'm Aisha. I'm twelve and I'm in Year 8 at a secondary school in Manchester. This is my timetable for Wednesday:\n\n8.45 Registration\n9.00 Maths\n10.00 English\n11.00 Break\n11.20 Science\n12.20 Lunch\n1.15 French\n2.15 PE\n3.15 Home time\n\nWednesday is my favourite day. In Science, we do experiments in the lab. Our teacher, Mr Okafor, is really funny.\n\nI don't like French very much. The words are difficult, but my friend Leo helps me.\n\nPE is the last lesson. We play netball on Wednesdays, but when it rains, we play basketball in the sports hall.\n\nAt break, I have a snack with my friends. At lunch, I eat my packed lunch: a cheese sandwich, an apple and some water.\n\nAt 3.15, the bell rings and I walk home with my sister.",
+  "glossary": [
+   {
+    "term": "secondary school",
+    "translation": "school for children from about 11 to 16"
+   },
+   {
+    "term": "timetable",
+    "translation": "list of lessons and their times"
+   },
+   {
+    "term": "registration",
+    "translation": "when the teacher checks who is at school"
+   },
+   {
+    "term": "break",
+    "translation": "short free time between lessons"
+   },
+   {
+    "term": "experiment",
+    "translation": "a test to learn how something works",
+    "match": "experiments"
+   },
+   {
+    "term": "lab",
+    "translation": "room for science work"
+   },
+   {
+    "term": "PE",
+    "translation": "sport lessons at school"
+   },
+   {
+    "term": "netball",
+    "translation": "team ball game, a bit like basketball"
+   },
+   {
+    "term": "sports hall",
+    "translation": "big room for playing sport"
+   },
+   {
+    "term": "snack",
+    "translation": "small food between meals"
+   },
+   {
+    "term": "packed lunch",
+    "translation": "lunch you bring from home"
+   },
+   {
+    "term": "bell",
+    "translation": "it rings to show a time"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "How old is Aisha?",
+    "options": [
+     "eleven",
+     "twelve",
+     "thirteen",
+     "fourteen"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the first lesson on Wednesday?",
+    "options": [
+     "English",
+     "Science",
+     "Maths",
+     "French"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Aisha's science teacher is funny.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "Who helps Aisha with French?",
+    "options": [
+     "her sister",
+     "Mr Okafor",
+     "her mum",
+     "her friend Leo"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "When it rains, they play netball outside.",
+    "answer": false,
+    "explanation": "When it rains, they play basketball in the sports hall."
+   },
+   {
+    "type": "mc",
+    "prompt": "What is in Aisha's packed lunch?",
+    "options": [
+     "a cheese sandwich, an apple and water",
+     "pasta and juice",
+     "a ham sandwich and crisps",
+     "soup and bread"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-35",
+  "level": "A1",
+  "title": "Tacos in Auckland",
+  "topic": "Food and drink",
+  "body": "Kia ora! My name is Carlos. I'm from Mexico City, but I live in Auckland now. I work in a café on Ponsonby Road. I share a flat with two Kiwis, Hana and Josh.\n\nMy favourite food is tacos. In New Zealand, I can't find good tacos, so I cook them at home every Friday.\n\nFirst, I make the tortillas with corn flour and water. Then I cook chicken with onion, garlic and chilli. I chop tomatoes, coriander and fresh lime. My mum's green salsa is the secret. It's very spicy!\n\nHana loves spicy food. Josh doesn't. He always drinks lots of milk with his tacos.\n\nOn Fridays, our kitchen smells like home. My flatmates are learning some Spanish words, too. Josh can say “¡Muy rico!” Now they want tacos every week.",
+  "glossary": [
+   {
+    "term": "kia ora",
+    "translation": "hello (a Māori greeting in New Zealand)"
+   },
+   {
+    "term": "to share",
+    "translation": "to live in or use something together",
+    "match": "share"
+   },
+   {
+    "term": "Kiwi",
+    "translation": "person from New Zealand",
+    "match": "Kiwis"
+   },
+   {
+    "term": "tortilla",
+    "translation": "thin, flat, round bread",
+    "match": "tortillas"
+   },
+   {
+    "term": "garlic",
+    "translation": "small white vegetable with a strong taste"
+   },
+   {
+    "term": "to chop",
+    "translation": "to cut into small pieces",
+    "match": "chop"
+   },
+   {
+    "term": "coriander",
+    "translation": "green leaves with a strong taste"
+   },
+   {
+    "term": "lime",
+    "translation": "small green fruit, like a lemon"
+   },
+   {
+    "term": "secret",
+    "translation": "something other people don't know"
+   },
+   {
+    "term": "spicy",
+    "translation": "hot in your mouth, with chilli"
+   },
+   {
+    "term": "flatmate",
+    "translation": "person who lives in your flat",
+    "match": "flatmates"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where does Carlos work?",
+    "options": [
+     "in a restaurant",
+     "in a café",
+     "in a shop",
+     "in a school"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Carlos lives alone.",
+    "answer": false,
+    "explanation": "He shares a flat with Hana and Josh."
+   },
+   {
+    "type": "mc",
+    "prompt": "When does Carlos cook tacos?",
+    "options": [
+     "every Monday",
+     "every Sunday",
+     "every Friday",
+     "once a month"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the secret of his tacos?",
+    "options": [
+     "the chicken",
+     "the corn flour",
+     "the cheese",
+     "his mum's green salsa"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Josh loves spicy food.",
+    "answer": false,
+    "explanation": "Hana loves spicy food. Josh doesn't."
+   },
+   {
+    "type": "mc",
+    "prompt": "What can Josh say in Spanish?",
+    "options": [
+     "“¡Muy rico!”",
+     "“¡Hola!”",
+     "“Gracias”",
+     "“Buenos días”"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-36",
+  "level": "A1",
+  "title": "A Day in the Wicklow Mountains",
+  "topic": "Travel",
+  "body": "It's Sunday and the sun is shining in Dublin. Niamh and her friend Ciarán are taking the bus to Glendalough. The trip takes about an hour and a half.\n\nGlendalough is a valley in the Wicklow Mountains. There are two lakes, green hills and an old stone tower.\n\nNiamh and Ciarán are wearing walking boots and rain jackets. In Ireland, the weather can change very fast!\n\nThey walk around the Upper Lake. The path is steep in some places. They often stop and look at the view. A deer is eating grass near the path.\n\nAt one o'clock, they sit on a rock and eat their sandwiches. Niamh has got a flask of hot tea.\n\nAt five o'clock, they take the bus back to Dublin. Their legs are tired, but they are very happy.",
+  "glossary": [
+   {
+    "term": "valley",
+    "translation": "low land between hills or mountains"
+   },
+   {
+    "term": "hill",
+    "translation": "small mountain",
+    "match": "hills"
+   },
+   {
+    "term": "tower",
+    "translation": "tall, narrow building"
+   },
+   {
+    "term": "walking boots",
+    "translation": "strong shoes for walking outside"
+   },
+   {
+    "term": "rain jacket",
+    "translation": "coat that keeps you dry",
+    "match": "rain jackets"
+   },
+   {
+    "term": "path",
+    "translation": "narrow way for walking"
+   },
+   {
+    "term": "steep",
+    "translation": "going up or down very fast"
+   },
+   {
+    "term": "view",
+    "translation": "what you can see from a place"
+   },
+   {
+    "term": "deer",
+    "translation": "wild animal with long legs"
+   },
+   {
+    "term": "rock",
+    "translation": "very big stone"
+   },
+   {
+    "term": "flask",
+    "translation": "bottle that keeps drinks hot"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "How do Niamh and Ciarán travel to Glendalough?",
+    "options": [
+     "by car",
+     "by train",
+     "by bus",
+     "by bike"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "How long is the trip?",
+    "options": [
+     "about an hour and a half",
+     "half an hour",
+     "an hour",
+     "three hours"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "There are two lakes in Glendalough.",
+    "answer": true
+   },
+   {
+    "type": "tf",
+    "prompt": "The path is flat everywhere.",
+    "answer": false,
+    "explanation": "The path is steep in some places."
+   },
+   {
+    "type": "mc",
+    "prompt": "What animal is near the path?",
+    "options": [
+     "a horse",
+     "a sheep",
+     "a dog",
+     "a deer"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "mc",
+    "prompt": "What has Niamh got?",
+    "options": [
+     "a bottle of juice",
+     "a flask of hot tea",
+     "a cake",
+     "an umbrella"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "a1-37",
+  "level": "A1",
+  "title": "Flying to Miami",
+  "topic": "Travel",
+  "body": "Maria Lopez is at O'Hare Airport in Chicago. She's flying to Miami to visit her grandma. Her flight leaves at 10:40.\n\nFirst, she goes to the check-in desk. “Your ID, please,” says the man. Maria shows her driver's license. She gives him her big suitcase, and he gives her a boarding pass. “Gate B12. Boarding starts at 10:10.”\n\nNext is security. There's a long line. Maria takes off her shoes and her jacket. She puts her laptop in a gray tray. Then she walks through the scanner. No problem!\n\nNow Maria is at Gate B12. She has thirty minutes, so she buys a coffee and a muffin.\n\nAt 10:10, there's an announcement: “Flight 482 to Miami is now boarding.” Maria gets in line with her boarding pass in her hand.",
+  "glossary": [
+   {
+    "term": "flight",
+    "translation": "a trip on a plane"
+   },
+   {
+    "term": "check-in desk",
+    "translation": "where you give your bags at the airport"
+   },
+   {
+    "term": "driver's license",
+    "translation": "card that says you can drive"
+   },
+   {
+    "term": "suitcase",
+    "translation": "big bag for clothes when you travel"
+   },
+   {
+    "term": "boarding pass",
+    "translation": "ticket you need to get on the plane"
+   },
+   {
+    "term": "gate",
+    "translation": "the door to your plane in the airport"
+   },
+   {
+    "term": "security",
+    "translation": "place where people check your bags for safety"
+   },
+   {
+    "term": "line",
+    "translation": "people waiting, one after another"
+   },
+   {
+    "term": "tray",
+    "translation": "flat open box"
+   },
+   {
+    "term": "scanner",
+    "translation": "machine that looks inside things"
+   },
+   {
+    "term": "announcement",
+    "translation": "message for everybody, often from a speaker"
+   },
+   {
+    "term": "to board",
+    "translation": "to get on a plane, train or bus",
+    "match": "boarding"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Why is Maria flying to Miami?",
+    "options": [
+     "for work",
+     "to visit her grandma",
+     "for a vacation with friends",
+     "to study"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Maria show at the check-in desk?",
+    "options": [
+     "her passport",
+     "her student card",
+     "her driver's license",
+     "her ticket"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Maria's gate is B12.",
+    "answer": true
+   },
+   {
+    "type": "tf",
+    "prompt": "There is no line at security.",
+    "answer": false,
+    "explanation": "There is a long line."
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Maria buy at the gate?",
+    "options": [
+     "a coffee and a muffin",
+     "a sandwich and water",
+     "a magazine",
+     "a tea and a cookie"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "When does boarding start?",
+    "options": [
+     "9:40",
+     "10:00",
+     "10:40",
+     "10:10"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-38",
+  "level": "A1",
+  "title": "A Present for Dad",
+  "topic": "Shopping",
+  "body": "Dad's 50th birthday is on Saturday. Ruby is ten and her brother Finn is eight. They've got twenty-five pounds, and they are at Trinity Leeds, a big shopping centre.\n\n“What about a tie?” asks Finn.\n“Boring!” says Ruby. “Dad never wears ties.”\n\nThey go into a sports shop. There are Leeds United shirts. Dad loves Leeds United! But the shirts cost sixty pounds. “Too expensive,” says Ruby.\n\nNext, they look in a kitchen shop. Dad cooks every Sunday. There's a blue apron with the words “World's Best Chef”. It costs twelve pounds.\n\n“Perfect!” says Finn. “And look, a chef mug for five pounds.”\n\nThey buy the apron and the mug. With the change, they get a birthday card and a big bar of chocolate.\n\nAt home, they wrap the presents and hide them under Ruby's bed.",
+  "glossary": [
+   {
+    "term": "shopping centre",
+    "translation": "big building with lots of shops"
+   },
+   {
+    "term": "tie",
+    "translation": "long piece of cloth worn round the neck"
+   },
+   {
+    "term": "boring",
+    "translation": "not interesting"
+   },
+   {
+    "term": "expensive",
+    "translation": "it costs a lot of money"
+   },
+   {
+    "term": "apron",
+    "translation": "cloth you wear over clothes when you cook"
+   },
+   {
+    "term": "chef",
+    "translation": "cook, often in a restaurant"
+   },
+   {
+    "term": "mug",
+    "translation": "big cup for hot drinks"
+   },
+   {
+    "term": "change",
+    "translation": "money you get back in a shop"
+   },
+   {
+    "term": "bar",
+    "translation": "long, flat piece of something"
+   },
+   {
+    "term": "to wrap",
+    "translation": "to put paper around a present",
+    "match": "wrap"
+   },
+   {
+    "term": "to hide",
+    "translation": "to put something where nobody can see it",
+    "match": "hide"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "How old is Dad on Saturday?",
+    "options": [
+     "40",
+     "45",
+     "50",
+     "55"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "How much money have the children got?",
+    "options": [
+     "£25",
+     "£15",
+     "£20",
+     "£30"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "Dad often wears ties.",
+    "answer": false,
+    "explanation": "Ruby says Dad never wears ties."
+   },
+   {
+    "type": "mc",
+    "prompt": "Why don't they buy a Leeds United shirt?",
+    "options": [
+     "Dad doesn't like football.",
+     "It's too expensive.",
+     "The shop is closed.",
+     "It's the wrong colour."
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Dad cooks every Sunday.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "Where do they hide the presents?",
+    "options": [
+     "in the kitchen",
+     "in Finn's bag",
+     "in the garden",
+     "under Ruby's bed"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-39",
+  "level": "A1",
+  "title": "A Very Bad Morning",
+  "topic": "Daily routine",
+  "body": "Today is a big day for Jordan Hayes. At nine o'clock, he has a meeting with a new client in Manhattan. But everything is going wrong.\n\n7:30. Jordan wakes up. His phone is dead, so the alarm doesn't ring. He's late!\n\n7:40. He jumps in the shower. There's no hot water.\n\n7:50. He puts on his best shirt. Then he spills coffee on it. Now he needs a new shirt.\n\n8:05. He runs to the subway station. The train is delayed.\n\n8:40. He gets off the train and runs down Fifth Avenue. It starts to rain, and he doesn't have an umbrella.\n\n8:58. Jordan arrives at the office. He's wet and out of breath. The receptionist smiles. “Mr. Hayes? Your client is late too. Her train is delayed. Please take a seat.”\n\nJordan laughs and sits down.",
+  "glossary": [
+   {
+    "term": "client",
+    "translation": "person who pays for your work"
+   },
+   {
+    "term": "to wake up",
+    "translation": "to stop sleeping",
+    "match": "wakes up"
+   },
+   {
+    "term": "dead",
+    "translation": "here: with an empty battery"
+   },
+   {
+    "term": "alarm",
+    "translation": "sound that wakes you up"
+   },
+   {
+    "term": "to spill",
+    "translation": "to drop a drink by accident",
+    "match": "spills"
+   },
+   {
+    "term": "subway",
+    "translation": "train that goes under the city"
+   },
+   {
+    "term": "delayed",
+    "translation": "late, not on time"
+   },
+   {
+    "term": "wet",
+    "translation": "covered in water"
+   },
+   {
+    "term": "out of breath",
+    "translation": "breathing fast after running"
+   },
+   {
+    "term": "receptionist",
+    "translation": "person who welcomes visitors at the front desk"
+   },
+   {
+    "term": "to take a seat",
+    "translation": "to sit down",
+    "match": "take a seat"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "What time is Jordan's meeting?",
+    "options": [
+     "8:00",
+     "8:30",
+     "9:00",
+     "9:30"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Jordan's alarm doesn't ring.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the problem in the shower?",
+    "options": [
+     "There's no hot water.",
+     "There's no soap.",
+     "The light doesn't work.",
+     "The water is green."
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Jordan spill on his shirt?",
+    "options": [
+     "tea",
+     "orange juice",
+     "water",
+     "coffee"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Jordan has an umbrella.",
+    "answer": false,
+    "explanation": "It starts to rain, and he doesn't have an umbrella."
+   },
+   {
+    "type": "mc",
+    "prompt": "Why is the client late?",
+    "options": [
+     "She is ill.",
+     "Her train is delayed.",
+     "She forgets the meeting.",
+     "Her car doesn't start."
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "a1-40",
+  "level": "A1",
+  "title": "Tickets at Nine O'Clock",
+  "topic": "Free time",
+  "body": "Mia lives in Sydney. Her favourite band is The Sunny Lanes. They are playing one concert at the Enmore Theatre in March, and tickets go on sale today at 9 am.\n\nIt's 8.55. Mia is sitting at her laptop. Her best friend Zoe is on the phone.\n\n“Are you ready?” asks Zoe.\n“Ready!” says Mia.\n\nAt 9.00, Mia clicks “Buy tickets”. A message appears: “You are in the queue. There are 4,312 people in front of you.”\n\nMia waits. And waits. Zoe's queue isn't moving at all.\n\nAt 9.25, it's Mia's turn. There are still some seats! She chooses two tickets near the stage. Each ticket costs 89 dollars. She types in her card details and clicks “Pay”.\n\n“I've got them!” she shouts. Zoe screams with joy. Now they can't wait for March.",
+  "glossary": [
+   {
+    "term": "band",
+    "translation": "group of people who play music"
+   },
+   {
+    "term": "on sale",
+    "translation": "you can buy it now"
+   },
+   {
+    "term": "to appear",
+    "translation": "to come into view, here on the screen",
+    "match": "appears"
+   },
+   {
+    "term": "queue",
+    "translation": "line of people waiting"
+   },
+   {
+    "term": "in front of",
+    "translation": "before you, in the line"
+   },
+   {
+    "term": "turn",
+    "translation": "your time to do something"
+   },
+   {
+    "term": "stage",
+    "translation": "high place where the band plays"
+   },
+   {
+    "term": "details",
+    "translation": "small pieces of information"
+   },
+   {
+    "term": "to scream",
+    "translation": "to shout in a very high voice",
+    "match": "screams"
+   },
+   {
+    "term": "joy",
+    "translation": "great happiness"
+   },
+   {
+    "term": "can't wait",
+    "translation": "to be very excited about something soon"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where is the concert?",
+    "options": [
+     "at the Sydney Opera House",
+     "at the Enmore Theatre",
+     "in a park",
+     "at a school"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "When do tickets go on sale?",
+    "options": [
+     "at 8.55",
+     "at 9.25",
+     "at 10 am",
+     "at 9 am"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "There are a lot of people in the online queue.",
+    "answer": true
+   },
+   {
+    "type": "tf",
+    "prompt": "Zoe's queue is moving fast.",
+    "answer": false,
+    "explanation": "Zoe's queue isn't moving at all."
+   },
+   {
+    "type": "mc",
+    "prompt": "How much is one ticket?",
+    "options": [
+     "89 dollars",
+     "98 dollars",
+     "59 dollars",
+     "120 dollars"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "How many tickets does Mia buy?",
+    "options": [
+     "one",
+     "three",
+     "two",
+     "four"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "a1-41",
+  "level": "A1",
+  "title": "My Best Friend, Jess",
+  "topic": "Relationships",
+  "body": "My name is Priya, and my best friend is Jess. She's twenty-seven, like me. We live in Vancouver, and our friendship is twenty years old!\n\nJess is tall. She's got short red hair and green eyes. She's a nurse at a big hospital. She works long hours, but she's never too tired for me.\n\nJess is funny and kind. She's also very honest. When I've got a problem, I call her first.\n\nWe're very different. I love books and quiet evenings. Jess loves hiking and loud music. But we both love sushi! Every Thursday, we meet at a little sushi restaurant on Commercial Drive.\n\nIn summer, we often go kayaking together. Jess is good at it. I'm not, but I'm learning.\n\nA good friend is like a home. Jess is my home.",
+  "glossary": [
+   {
+    "term": "friendship",
+    "translation": "being friends"
+   },
+   {
+    "term": "nurse",
+    "translation": "person who looks after sick people"
+   },
+   {
+    "term": "long hours",
+    "translation": "many hours of work every day"
+   },
+   {
+    "term": "kind",
+    "translation": "nice and good to other people"
+   },
+   {
+    "term": "honest",
+    "translation": "always telling the truth"
+   },
+   {
+    "term": "different",
+    "translation": "not the same"
+   },
+   {
+    "term": "hiking",
+    "translation": "going on long walks in nature"
+   },
+   {
+    "term": "loud",
+    "translation": "making a lot of noise"
+   },
+   {
+    "term": "both",
+    "translation": "the two, not only one"
+   },
+   {
+    "term": "kayaking",
+    "translation": "going on water in a small, narrow boat"
+   },
+   {
+    "term": "to be good at",
+    "translation": "can do something well",
+    "match": "good at"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "How old is Jess?",
+    "options": [
+     "twenty-five",
+     "twenty-six",
+     "twenty-seven",
+     "thirty"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "What is Jess's job?",
+    "options": [
+     "teacher",
+     "nurse",
+     "doctor",
+     "cook"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "When Priya has got a problem, she calls Jess first.",
+    "answer": true
+   },
+   {
+    "type": "tf",
+    "prompt": "Priya and Jess love the same things.",
+    "answer": false,
+    "explanation": "They are very different, but they both love sushi."
+   },
+   {
+    "type": "mc",
+    "prompt": "When do they meet for sushi?",
+    "options": [
+     "every Monday",
+     "every Friday",
+     "every Saturday",
+     "every Thursday"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "mc",
+    "prompt": "Who is good at kayaking?",
+    "options": [
+     "Jess",
+     "Priya",
+     "both of them",
+     "nobody"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-42",
+  "level": "A1",
+  "title": "The Job List on the Fridge",
+  "topic": "Home",
+  "body": "In the Osei family's house in Bristol, there's a list on the fridge. It's the job list. Everybody has got jobs.\n\nMum: cooking on weekdays, the washing\nDad: cooking at weekends, the ironing, the bins\nKwame (15): hoovering, cleaning the bathroom\nEfua (11): laying the table, feeding the cat\n\nOn Saturday mornings, everybody cleans together. Dad puts on loud music. Mum dusts the shelves and waters the plants. Kwame hoovers the stairs. Efua tidies her bedroom. Well, she tries!\n\nKwame doesn't like cleaning the bathroom. “It's the worst job!” he says. So this week, he and Dad swap. Kwame does the ironing, and Dad cleans the bathroom.\n\nAfter two hours, the house is clean. Then Dad makes bacon sandwiches for everybody. That's the best part of Saturday.",
+  "glossary": [
+   {
+    "term": "fridge",
+    "translation": "cold box in the kitchen for food"
+   },
+   {
+    "term": "weekday",
+    "translation": "Monday, Tuesday, Wednesday, Thursday or Friday",
+    "match": "weekdays"
+   },
+   {
+    "term": "the washing",
+    "translation": "clothes that you wash"
+   },
+   {
+    "term": "the ironing",
+    "translation": "making clothes flat with a hot iron"
+   },
+   {
+    "term": "bin",
+    "translation": "box for rubbish",
+    "match": "bins"
+   },
+   {
+    "term": "to hoover",
+    "translation": "to clean the floor with a machine",
+    "match": "hoovering"
+   },
+   {
+    "term": "to lay the table",
+    "translation": "to put plates, knives and forks on the table",
+    "match": "laying the table"
+   },
+   {
+    "term": "to dust",
+    "translation": "to clean with a dry cloth",
+    "match": "dusts"
+   },
+   {
+    "term": "shelf",
+    "translation": "board on a wall for putting things on",
+    "match": "shelves"
+   },
+   {
+    "term": "to tidy",
+    "translation": "to put things in the right place",
+    "match": "tidies"
+   },
+   {
+    "term": "to swap",
+    "translation": "to give one thing and take another",
+    "match": "swap"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where is the job list?",
+    "options": [
+     "on the fridge",
+     "on the front door",
+     "in a kitchen drawer",
+     "on Mum's phone"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "Who feeds the cat?",
+    "options": [
+     "Mum",
+     "Dad",
+     "Kwame",
+     "Efua"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Dad cooks on weekdays.",
+    "answer": false,
+    "explanation": "Mum cooks on weekdays. Dad cooks at weekends."
+   },
+   {
+    "type": "tf",
+    "prompt": "On Saturday mornings, everybody cleans together.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "Which job doesn't Kwame like?",
+    "options": [
+     "hoovering",
+     "the ironing",
+     "cleaning the bathroom",
+     "feeding the cat"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Dad make after the cleaning?",
+    "options": [
+     "pancakes",
+     "bacon sandwiches",
+     "pizza",
+     "soup"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "a1-43",
+  "level": "A1",
+  "title": "A Taxi to Kent Station",
+  "topic": "Transport",
+  "body": "It's half past five on a Friday in Cork. Aoife is standing outside her office. It's raining hard. Her train to Dublin leaves from Kent Station at 6.05, and her bag is heavy.\n\nShe calls a taxi with an app. Five minutes later, a silver car stops.\n\n“Kent Station, please,” says Aoife. “My train is at five past six.”\n“No bother,” says the driver. “But the traffic is bad in the rain.”\n\nThe windscreen wipers are moving fast. The cars on the bridge are very slow. Aoife looks at her watch. 5.50. 5.55.\n\n“Don't worry,” says the driver. He takes a small road behind the river. At 6.01, they are at the station.\n\n“That's fourteen euro.”\nAoife gives him a twenty. “Keep the change! Thank you!”\n\nShe runs to platform 2 and jumps on the train. The doors close behind her.",
+  "glossary": [
+   {
+    "term": "to leave",
+    "translation": "to go away from a place",
+    "match": "leaves"
+   },
+   {
+    "term": "heavy",
+    "translation": "not easy to carry"
+   },
+   {
+    "term": "silver",
+    "translation": "grey, like shiny metal"
+   },
+   {
+    "term": "no bother",
+    "translation": "no problem (Irish English)"
+   },
+   {
+    "term": "traffic",
+    "translation": "all the cars on the road"
+   },
+   {
+    "term": "windscreen wiper",
+    "translation": "it cleans rain off the car window",
+    "match": "windscreen wipers"
+   },
+   {
+    "term": "bridge",
+    "translation": "road that goes over a river"
+   },
+   {
+    "term": "watch",
+    "translation": "small clock you wear on your arm"
+   },
+   {
+    "term": "to worry",
+    "translation": "to think something bad can happen",
+    "match": "worry"
+   },
+   {
+    "term": "keep the change",
+    "translation": "you can have the extra money"
+   },
+   {
+    "term": "platform",
+    "translation": "place where you get on a train"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where is Aoife's train going?",
+    "options": [
+     "Galway",
+     "Limerick",
+     "Dublin",
+     "Belfast"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "What time does her train leave?",
+    "options": [
+     "5.30",
+     "5.50",
+     "6.01",
+     "6.05"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "The traffic is good in the rain.",
+    "answer": false,
+    "explanation": "The driver says the traffic is bad in the rain."
+   },
+   {
+    "type": "mc",
+    "prompt": "How does the driver get to the station in time?",
+    "options": [
+     "He drives very fast on the bridge.",
+     "He takes a small road behind the river.",
+     "He goes over a different bridge.",
+     "He uses the bus lane."
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "The taxi costs fourteen euro.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Aoife say to the driver at the end?",
+    "options": [
+     "“Keep the change!”",
+     "“See you tomorrow!”",
+     "“Can I have a receipt?”",
+     "“Drive faster!”"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-44",
+  "level": "A1",
+  "title": "Lucia's Medicare Form",
+  "topic": "Bureaucracy",
+  "body": "Lucia Romano is from Milan, in Italy. She's new in Brisbane. She's got a job at a design studio and a small flat in West End. Now she needs a Medicare card. With this card, she can see a doctor for free or for less money.\n\nToday she's at a Services Australia centre. She takes a ticket from a machine: number 47. There are lots of people, so she waits for twenty minutes.\n\nThen a woman calls her number. “Good morning! Please fill in this form.”\n\nFamily name: Romano\nGiven name: Lucia\nDate of birth: 14/03/1996\nAddress: 22 Vulture Street, West End\nPhone: 0400 000 000\n\nLucia signs the form at the bottom. The woman checks her passport and her visa.\n\n“Thank you. Your card comes in the post in about three weeks.”\n\nLucia smiles. That's easy!",
+  "glossary": [
+   {
+    "term": "studio",
+    "translation": "room or office where artists or designers work"
+   },
+   {
+    "term": "for free",
+    "translation": "you don't pay any money"
+   },
+   {
+    "term": "to fill in",
+    "translation": "to write information on a form",
+    "match": "fill in"
+   },
+   {
+    "term": "form",
+    "translation": "paper with questions you answer"
+   },
+   {
+    "term": "family name",
+    "translation": "last name"
+   },
+   {
+    "term": "given name",
+    "translation": "first name"
+   },
+   {
+    "term": "date of birth",
+    "translation": "the day you are born"
+   },
+   {
+    "term": "to sign",
+    "translation": "to write your name by hand",
+    "match": "signs"
+   },
+   {
+    "term": "bottom",
+    "translation": "the lowest part"
+   },
+   {
+    "term": "visa",
+    "translation": "paper that says you can live in a country"
+   },
+   {
+    "term": "the post",
+    "translation": "letters that come to your home"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where is Lucia from?",
+    "options": [
+     "Rome",
+     "Milan",
+     "Naples",
+     "Venice"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "Why does Lucia need a Medicare card?",
+    "options": [
+     "to open a bank account",
+     "to drive a car",
+     "to see a doctor for free or for less money",
+     "to rent a flat"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Lucia waits for an hour.",
+    "answer": false,
+    "explanation": "She waits for twenty minutes."
+   },
+   {
+    "type": "mc",
+    "prompt": "What is Lucia's number?",
+    "options": [
+     "47",
+     "74",
+     "14",
+     "22"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "The woman checks Lucia's passport and visa.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "When does the card come?",
+    "options": [
+     "today",
+     "tomorrow",
+     "in about a week",
+     "in about three weeks"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-45",
+  "level": "A1",
+  "title": "Fifteen Minutes on the Mat",
+  "topic": "Health",
+  "body": "Daniel Kim is a software developer in Denver. He sits at his desk for eight or nine hours every day. His back often hurts, and his neck is stiff.\n\nNow Daniel has a new habit. Every morning at 6:45, before breakfast, he does fifteen minutes of yoga in his living room. He follows a video on his tablet.\n\nThe teacher's voice is calm:\n“Stand at the front of your mat. Breathe in and lift your arms. Breathe out and bend forward slowly. Now come onto your hands and knees. Round your back like a cat. Then drop your belly like a cow. Repeat five times.”\n\nDaniel's dog, Biscuit, always lies next to the mat and watches him.\n\nAfter yoga, Daniel feels relaxed, and his back feels better. At work, he stands up every hour and stretches.",
+  "glossary": [
+   {
+    "term": "software developer",
+    "translation": "person who writes computer programs"
+   },
+   {
+    "term": "to hurt",
+    "translation": "to give you pain",
+    "match": "hurts"
+   },
+   {
+    "term": "stiff",
+    "translation": "hard to move"
+   },
+   {
+    "term": "habit",
+    "translation": "something you do often, every day"
+   },
+   {
+    "term": "calm",
+    "translation": "quiet and slow, not worried"
+   },
+   {
+    "term": "mat",
+    "translation": "small soft floor cover for exercise"
+   },
+   {
+    "term": "to breathe in",
+    "translation": "to take air into your body",
+    "match": "breathe in"
+   },
+   {
+    "term": "to bend",
+    "translation": "to move your body down",
+    "match": "bend"
+   },
+   {
+    "term": "knee",
+    "translation": "the middle part of your leg",
+    "match": "knees"
+   },
+   {
+    "term": "belly",
+    "translation": "front of your body, under your chest"
+   },
+   {
+    "term": "relaxed",
+    "translation": "calm, not tight or stressed"
+   },
+   {
+    "term": "to stretch",
+    "translation": "to make your arms, legs or body long",
+    "match": "stretches"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where does Daniel live?",
+    "options": [
+     "Dallas",
+     "Denver",
+     "Detroit",
+     "Boston"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Daniel's back often hurts.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "When does Daniel do yoga?",
+    "options": [
+     "after dinner",
+     "at lunchtime",
+     "every morning before breakfast",
+     "on weekends"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "How long is his yoga?",
+    "options": [
+     "five minutes",
+     "ten minutes",
+     "twenty minutes",
+     "fifteen minutes"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Biscuit is Daniel's cat.",
+    "answer": false,
+    "explanation": "Biscuit is his dog."
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Daniel do every hour at work?",
+    "options": [
+     "He stands up and stretches.",
+     "He drinks coffee.",
+     "He walks the dog.",
+     "He does yoga."
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-46",
+  "level": "A1",
+  "title": "Tama Turns Five",
+  "topic": "School and education",
+  "body": "Today is Tama's fifth birthday. In New Zealand, children often start school on their fifth birthday, so today is also his first day at school!\n\nTama lives in Rotorua with his mum and his big sister, Mere. He's wearing his new school polo shirt and a blue sun hat. In his bag, there's a lunchbox with a sandwich, an apple and a piece of birthday cake.\n\nHis teacher is Whaea Lisa. “Kia ora, Tama!” she says.\n\nThere are twenty children in the class. Tama sits on the mat with them, and they sing a song in Māori.\n\nAt morning tea, Mere finds him in the playground. Lots of children are running around in bare feet. Tama takes off his shoes too.\n\nAt three o'clock, Mum is at the gate. “How is school?”\n“Awesome!” says Tama.",
+  "glossary": [
+   {
+    "term": "polo shirt",
+    "translation": "shirt with a small collar and short arms"
+   },
+   {
+    "term": "sun hat",
+    "translation": "hat that keeps the sun off your face"
+   },
+   {
+    "term": "lunchbox",
+    "translation": "box for your school lunch"
+   },
+   {
+    "term": "Whaea",
+    "translation": "Māori word for a woman teacher"
+   },
+   {
+    "term": "kia ora",
+    "translation": "hello (a Māori greeting)"
+   },
+   {
+    "term": "mat",
+    "translation": "soft cover on the floor"
+   },
+   {
+    "term": "morning tea",
+    "translation": "short break in the morning, with a snack"
+   },
+   {
+    "term": "playground",
+    "translation": "place outside where children play"
+   },
+   {
+    "term": "bare feet",
+    "translation": "feet with no shoes or socks"
+   },
+   {
+    "term": "gate",
+    "translation": "door in a fence or wall"
+   },
+   {
+    "term": "awesome",
+    "translation": "great, very good"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "How old is Tama today?",
+    "options": [
+     "four",
+     "five",
+     "six",
+     "seven"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "In New Zealand, children often start school on their fifth birthday.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What is in Tama's lunchbox?",
+    "options": [
+     "a sandwich, an apple and birthday cake",
+     "pasta and juice",
+     "crackers and cheese",
+     "a pie and a banana"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "Who is Mere?",
+    "options": [
+     "his teacher",
+     "his mum",
+     "his sister",
+     "his friend"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Tama keeps his shoes on in the playground.",
+    "answer": false,
+    "explanation": "He takes off his shoes too."
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Tama say about school?",
+    "options": [
+     "“Boring!”",
+     "“Scary!”",
+     "“Too long!”",
+     "“Awesome!”"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-47",
+  "level": "A1",
+  "title": "Room for Three",
+  "topic": "Housing",
+  "body": "Callum and Shreya live in a one-bedroom flat in Leith, in Edinburgh. In October, they're having a baby! Now they need a bigger home.\n\nEvery evening, they look at flats online. Today there are two good ones:\n\nFlat A: two bedrooms, Morningside. Fourth floor, no lift. £1,450 a month.\nFlat B: two bedrooms, Portobello. Ground floor, small garden. £1,350 a month.\n\n“Flat A is near my work,” says Shreya. “But four floors with a pram? No, thanks.”\n“Flat B is near the beach,” says Callum. “And there's a garden for the baby.”\n\nOn Saturday, they visit Flat B. The letting agent shows them the rooms. The kitchen is old, but the second bedroom is bright and quiet.\n\nShreya puts a hand on her belly. “What do you think, little one?”\nCallum laughs. “I think that's a yes.”",
+  "glossary": [
+   {
+    "term": "one-bedroom",
+    "translation": "with only one bedroom"
+   },
+   {
+    "term": "to have a baby",
+    "translation": "a new baby is coming",
+    "match": "having a baby"
+   },
+   {
+    "term": "online",
+    "translation": "on the internet"
+   },
+   {
+    "term": "floor",
+    "translation": "one level of a building"
+   },
+   {
+    "term": "lift",
+    "translation": "machine that takes people up and down"
+   },
+   {
+    "term": "ground floor",
+    "translation": "the floor at street level"
+   },
+   {
+    "term": "a month",
+    "translation": "every month"
+   },
+   {
+    "term": "pram",
+    "translation": "baby's bed with wheels, for walks"
+   },
+   {
+    "term": "letting agent",
+    "translation": "person who rents out flats for the owners"
+   },
+   {
+    "term": "bright",
+    "translation": "with lots of light"
+   },
+   {
+    "term": "belly",
+    "translation": "front of your body, under your chest"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where do Callum and Shreya live now?",
+    "options": [
+     "Morningside",
+     "Portobello",
+     "Leith",
+     "Glasgow"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "When is the baby coming?",
+    "options": [
+     "in August",
+     "in October",
+     "in December",
+     "in March"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "Flat A has got a lift.",
+    "answer": false,
+    "explanation": "Flat A is on the fourth floor, and there is no lift."
+   },
+   {
+    "type": "mc",
+    "prompt": "Which flat is cheaper?",
+    "options": [
+     "Flat B",
+     "Flat A",
+     "They cost the same.",
+     "The text doesn't say."
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "Flat B has got a small garden.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What is old in Flat B?",
+    "options": [
+     "the bathroom",
+     "the garden",
+     "the second bedroom",
+     "the kitchen"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-48",
+  "level": "A1",
+  "title": "Tomatoes in April",
+  "topic": "Home",
+  "body": "It's a warm Saturday in April in Raleigh, North Carolina. The sky is blue and it's 75 degrees. Walter is seventy-two, and he loves his garden. Today his grandson Marcus is helping him.\n\nFirst, they pull out the weeds. Marcus is wearing big gloves. There are lots of weeds after the winter!\n\nThen Walter digs small holes with a shovel. Marcus puts a young tomato plant in each hole. They plant peppers and basil too.\n\n“Water them now, but not too much,” says Walter. Marcus fills the watering can and walks along the rows.\n\nBirds are singing in the trees. A rabbit is watching from under the fence. “Grandpa, the rabbit wants our tomatoes!” says Marcus.\n\nWalter laughs. “Then we need a new fence.”\n\nAt four o'clock, they sit on the porch and drink cold lemonade.",
+  "glossary": [
+   {
+    "term": "grandson",
+    "translation": "the son of your son or daughter"
+   },
+   {
+    "term": "to pull out",
+    "translation": "to take out of the ground by hand",
+    "match": "pull out"
+   },
+   {
+    "term": "weed",
+    "translation": "plant you don't want in your garden",
+    "match": "weeds"
+   },
+   {
+    "term": "gloves",
+    "translation": "clothes for your hands"
+   },
+   {
+    "term": "to dig",
+    "translation": "to make a hole in the ground",
+    "match": "digs"
+   },
+   {
+    "term": "shovel",
+    "translation": "tool for digging"
+   },
+   {
+    "term": "to plant",
+    "translation": "to put a plant in the ground",
+    "match": "plant"
+   },
+   {
+    "term": "basil",
+    "translation": "green herb with a sweet smell"
+   },
+   {
+    "term": "watering can",
+    "translation": "container for giving water to plants"
+   },
+   {
+    "term": "row",
+    "translation": "line of plants",
+    "match": "rows"
+   },
+   {
+    "term": "fence",
+    "translation": "low wooden wall around a garden"
+   },
+   {
+    "term": "porch",
+    "translation": "covered place at the front of a house"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "How old is Walter?",
+    "options": [
+     "sixty-two",
+     "seventy",
+     "seventy-two",
+     "eighty"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Marcus is Walter's son.",
+    "answer": false,
+    "explanation": "Marcus is his grandson."
+   },
+   {
+    "type": "mc",
+    "prompt": "What do they do first?",
+    "options": [
+     "They pull out the weeds.",
+     "They plant tomatoes.",
+     "They water the plants.",
+     "They build a fence."
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Marcus put in the holes?",
+    "options": [
+     "seeds",
+     "young tomato plants",
+     "flowers",
+     "small trees"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "A rabbit is watching from under the fence.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What do they drink at four o'clock?",
+    "options": [
+     "iced tea",
+     "coffee",
+     "water",
+     "cold lemonade"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-49",
+  "level": "A1",
+  "title": "Rafael's English Streak",
+  "topic": "School and education",
+  "body": "Rafael is from Brazil. He lives in Toronto with his wife and son. He works in a restaurant kitchen. His English isn't very good yet, so he's learning with an app on his phone.\n\nEvery day, he does fifteen minutes on the app, on the subway on his way to work. The app is like a game. Rafael listens and repeats: “Where is the bathroom?” “A coffee, please.” For every lesson, he gets points.\n\nToday is a big day: a 100-day streak! A little orange fox dances on the screen.\n\nBut the app isn't enough. At work, his colleagues speak fast. So on Fridays, Rafael goes to a free conversation class at the public library. There, he can talk with real people.\n\nHis son, Lucas, is eight, and his English is perfect. Sometimes he laughs at his dad's accent.",
+  "glossary": [
+   {
+    "term": "yet",
+    "translation": "until now"
+   },
+   {
+    "term": "app",
+    "translation": "program on a phone"
+   },
+   {
+    "term": "on your way to work",
+    "translation": "when you go to work",
+    "match": "on his way to work"
+   },
+   {
+    "term": "to repeat",
+    "translation": "to say again",
+    "match": "repeats"
+   },
+   {
+    "term": "point",
+    "translation": "number you win in a game",
+    "match": "points"
+   },
+   {
+    "term": "streak",
+    "translation": "many days, one after another"
+   },
+   {
+    "term": "enough",
+    "translation": "as much as you need"
+   },
+   {
+    "term": "colleague",
+    "translation": "person you work with",
+    "match": "colleagues"
+   },
+   {
+    "term": "conversation",
+    "translation": "talk between people"
+   },
+   {
+    "term": "public library",
+    "translation": "place where you can borrow books for free"
+   },
+   {
+    "term": "accent",
+    "translation": "the way a person says words"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where does Rafael work?",
+    "options": [
+     "in a restaurant kitchen",
+     "in a shop",
+     "in a bank",
+     "in a school"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "How long does Rafael use the app every day?",
+    "options": [
+     "five minutes",
+     "ten minutes",
+     "fifteen minutes",
+     "thirty minutes"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Rafael uses the app on the subway.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "How long is Rafael's streak today?",
+    "options": [
+     "10 days",
+     "50 days",
+     "365 days",
+     "100 days"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "The conversation class costs a lot of money.",
+    "answer": false,
+    "explanation": "It's a free class at the public library."
+   },
+   {
+    "type": "mc",
+    "prompt": "Who is Lucas?",
+    "options": [
+     "Rafael's colleague",
+     "Rafael's son",
+     "Rafael's teacher",
+     "Rafael's brother"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "a1-50",
+  "level": "A1",
+  "title": "Greetings from St Ives",
+  "topic": "Travel",
+  "body": "Dear Hannah,\n\nGreetings from St Ives in Cornwall! I'm here with Josh and the kids for a week. We're staying in a little cottage near the harbour. It's got a blue door and a tiny garden.\n\nThe weather is lovely. It's sunny and warm, but the sea is freezing! Every morning, the children build sandcastles on the beach. Josh is learning to surf. He falls in the water a lot!\n\nThe food here is great. Today we've got Cornish pasties for lunch and a cream tea in the afternoon. Watch out for the seagulls! They love pasties too.\n\nTomorrow we're taking the train to Penzance. There's a castle on an island near there.\n\nSee you soon. I've got a present for you!\n\nLots of love,\nOlivia xx",
+  "glossary": [
+   {
+    "term": "greetings",
+    "translation": "hello and good wishes"
+   },
+   {
+    "term": "cottage",
+    "translation": "small house, often in the country"
+   },
+   {
+    "term": "harbour",
+    "translation": "place where boats stay safe"
+   },
+   {
+    "term": "tiny",
+    "translation": "very small"
+   },
+   {
+    "term": "lovely",
+    "translation": "very nice"
+   },
+   {
+    "term": "freezing",
+    "translation": "very, very cold"
+   },
+   {
+    "term": "sandcastle",
+    "translation": "little castle made of sand",
+    "match": "sandcastles"
+   },
+   {
+    "term": "to surf",
+    "translation": "to ride on waves on a board",
+    "match": "surf"
+   },
+   {
+    "term": "Cornish pasty",
+    "translation": "pastry with meat and vegetables inside",
+    "match": "Cornish pasties"
+   },
+   {
+    "term": "cream tea",
+    "translation": "tea with scones, jam and cream"
+   },
+   {
+    "term": "to watch out",
+    "translation": "to be careful",
+    "match": "watch out"
+   },
+   {
+    "term": "seagull",
+    "translation": "big white bird that lives near the sea",
+    "match": "seagulls"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "How long is Olivia's holiday?",
+    "options": [
+     "a weekend",
+     "a week",
+     "two weeks",
+     "a month"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "The family is staying in a hotel.",
+    "answer": false,
+    "explanation": "They're staying in a little cottage near the harbour."
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the sea like?",
+    "options": [
+     "warm",
+     "dirty",
+     "freezing",
+     "calm"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "Who is learning to surf?",
+    "options": [
+     "Olivia",
+     "the children",
+     "Hannah",
+     "Josh"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "The seagulls like pasties.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "Where are they going tomorrow?",
+    "options": [
+     "Penzance",
+     "London",
+     "Plymouth",
+     "Bristol"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "a1-51",
+  "level": "A1",
+  "title": "Lunch in Dolores Park",
+  "topic": "Free time",
+  "body": "It's Sunday, and the sun is out in San Francisco. Leila, Diego and Tasha are having a picnic in Dolores Park.\n\nLeila has a big blanket. Diego has a bag of food: sourdough bread, cheese, grapes and chips. Tasha brings a watermelon and a bottle of lemonade. But there's no knife for the watermelon! A woman on the next blanket lends them one.\n\nThey sit under a palm tree. From here, they can see the whole city.\n\nThe park is busy. People are playing frisbee, dogs are running on the grass, and a man is playing the guitar. Diego tells funny stories about his new job.\n\nAt three o'clock, it gets windy and cold. That's San Francisco! The friends put on their sweaters, pack up and walk to a café for hot chocolate.",
+  "glossary": [
+   {
+    "term": "picnic",
+    "translation": "meal outside, often in a park"
+   },
+   {
+    "term": "blanket",
+    "translation": "big, warm piece of cloth"
+   },
+   {
+    "term": "sourdough bread",
+    "translation": "bread with a slightly sour taste"
+   },
+   {
+    "term": "grape",
+    "translation": "small round green or purple fruit",
+    "match": "grapes"
+   },
+   {
+    "term": "chips",
+    "translation": "thin, dry potato snacks from a bag"
+   },
+   {
+    "term": "watermelon",
+    "translation": "big green fruit, red inside"
+   },
+   {
+    "term": "to lend",
+    "translation": "to give something for a short time",
+    "match": "lends"
+   },
+   {
+    "term": "palm tree",
+    "translation": "tall tree with big leaves at the top"
+   },
+   {
+    "term": "frisbee",
+    "translation": "plastic plate you throw in a game"
+   },
+   {
+    "term": "windy",
+    "translation": "with a lot of wind"
+   },
+   {
+    "term": "sweater",
+    "translation": "warm top with long arms",
+    "match": "sweaters"
+   },
+   {
+    "term": "to pack up",
+    "translation": "to put your things back in your bags",
+    "match": "pack up"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "What does Tasha bring?",
+    "options": [
+     "a blanket",
+     "a watermelon and lemonade",
+     "bread and cheese",
+     "a guitar"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "The friends have a knife for the watermelon.",
+    "answer": false,
+    "explanation": "There's no knife. A woman on the next blanket lends them one."
+   },
+   {
+    "type": "mc",
+    "prompt": "Where do they sit?",
+    "options": [
+     "under a palm tree",
+     "next to a lake",
+     "on a bench",
+     "near the café"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the man doing?",
+    "options": [
+     "playing frisbee",
+     "reading",
+     "playing the guitar",
+     "sleeping"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "At three o'clock, it gets windy and cold.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "Where do the friends go at the end?",
+    "options": [
+     "home",
+     "to the beach",
+     "to the movies",
+     "to a café"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-52",
+  "level": "A1",
+  "title": "Life in Ennistymon",
+  "topic": "Places in town",
+  "body": "I'm Seán, and I live in Ennistymon, a small town in County Clare. About 1,000 people live here.\n\nWhat is there? There's one main street with colourful shops. There's a butcher, a chemist, a post office and a little bookshop. There are lots of pubs, and there's traditional Irish music most nights. There's a river with a beautiful waterfall, and the sea is only ten minutes away by car.\n\nWhat isn't there? There's no cinema and no train station. There isn't a big supermarket, so we go to Ennis for the weekly shop. There are buses, but not many.\n\nMy cousins in Dublin think my town is boring. I don't agree. Everybody knows everybody here. When I walk down the street, people always say hello.\n\nAnd at night, I can see the stars.",
+  "glossary": [
+   {
+    "term": "main street",
+    "translation": "the most important street in a town"
+   },
+   {
+    "term": "colourful",
+    "translation": "with lots of bright colours"
+   },
+   {
+    "term": "butcher",
+    "translation": "shop that sells meat"
+   },
+   {
+    "term": "chemist",
+    "translation": "shop that sells medicine"
+   },
+   {
+    "term": "pub",
+    "translation": "bar where people drink and meet",
+    "match": "pubs"
+   },
+   {
+    "term": "traditional",
+    "translation": "old and typical of a place"
+   },
+   {
+    "term": "waterfall",
+    "translation": "water falling down over rocks"
+   },
+   {
+    "term": "weekly shop",
+    "translation": "buying food for the whole week"
+   },
+   {
+    "term": "cousin",
+    "translation": "child of your aunt or uncle",
+    "match": "cousins"
+   },
+   {
+    "term": "boring",
+    "translation": "not interesting"
+   },
+   {
+    "term": "to agree",
+    "translation": "to think the same",
+    "match": "agree"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where is Ennistymon?",
+    "options": [
+     "County Cork",
+     "County Clare",
+     "County Kerry",
+     "Dublin"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "How many people live there?",
+    "options": [
+     "about 100",
+     "about 10,000",
+     "about 1,000",
+     "about 500"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "There's a cinema in Ennistymon.",
+    "answer": false,
+    "explanation": "There's no cinema and no train station."
+   },
+   {
+    "type": "mc",
+    "prompt": "Where do they go for the weekly shop?",
+    "options": [
+     "Ennis",
+     "Galway",
+     "Dublin",
+     "Limerick"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "Seán's cousins think his town is boring.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What can Seán see at night?",
+    "options": [
+     "the sea",
+     "the lights of Dublin",
+     "the waterfall",
+     "the stars"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-53",
+  "level": "A1",
+  "title": "Ella's Day at the Bakery",
+  "topic": "Daily routine",
+  "body": "What time is it? It's four o'clock in the morning. York is dark and quiet, but Ella is getting up. She's a baker.\n\nIt's half past four. Ella is at the bakery. She turns on the big ovens and makes the bread dough.\n\nIt's quarter past six. The kitchen smells wonderful. There are loaves, rolls and croissants on the shelves.\n\nIt's seven o'clock. The bakery opens. The first customer is always Mr Patel. He buys two brown rolls and a coffee.\n\nIt's twenty past eleven. Ella is very busy. Lots of people want sandwiches and cakes for lunch.\n\nIt's two o'clock. Ella's work is finished. She goes home and has a nap.\n\nIt's half past nine in the evening. Ella is in bed. Good night, Ella! Her alarm rings at quarter to four.",
+  "glossary": [
+   {
+    "term": "baker",
+    "translation": "person who makes bread"
+   },
+   {
+    "term": "bakery",
+    "translation": "shop where people make and sell bread"
+   },
+   {
+    "term": "oven",
+    "translation": "hot box for cooking and baking",
+    "match": "ovens"
+   },
+   {
+    "term": "dough",
+    "translation": "flour and water before baking"
+   },
+   {
+    "term": "quarter past",
+    "translation": "15 minutes after the hour"
+   },
+   {
+    "term": "wonderful",
+    "translation": "very, very good"
+   },
+   {
+    "term": "loaf",
+    "translation": "bread in one big piece",
+    "match": "loaves"
+   },
+   {
+    "term": "roll",
+    "translation": "small round bread",
+    "match": "rolls"
+   },
+   {
+    "term": "customer",
+    "translation": "person who buys something in a shop"
+   },
+   {
+    "term": "nap",
+    "translation": "short sleep in the day"
+   },
+   {
+    "term": "quarter to",
+    "translation": "15 minutes before the hour"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "What time does Ella get up?",
+    "options": [
+     "at three o'clock",
+     "at four o'clock",
+     "at five o'clock",
+     "at half past four"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "The bakery opens at six o'clock.",
+    "answer": false,
+    "explanation": "The bakery opens at seven o'clock."
+   },
+   {
+    "type": "mc",
+    "prompt": "Who is the first customer?",
+    "options": [
+     "Mr Patel",
+     "a student",
+     "Ella's mum",
+     "a taxi driver"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Mr Patel buy?",
+    "options": [
+     "a croissant and tea",
+     "a cake",
+     "two brown rolls and a coffee",
+     "sandwiches"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Ella do after work?",
+    "options": [
+     "She goes shopping.",
+     "She goes to the gym.",
+     "She cooks dinner.",
+     "She goes home and has a nap."
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Ella's alarm rings at quarter to four.",
+    "answer": true
+   }
+  ]
+ },
+ {
+  "id": "a1-54",
+  "level": "A1",
+  "title": "Movie Night?",
+  "topic": "Communication",
+  "body": "Jamal: Hey Sofia! Are you free on Friday night?\nSofia: Hi! I think so. Why?\nJamal: There's a new movie at the theater on South Lamar. It's a comedy, and it has lots of good reviews. Do you want to come?\nSofia: Yes! What time does it start?\nJamal: There are two showings: 7:15 and 9:45.\nSofia: 7:15, please. I have work on Saturday morning.\nJamal: OK! Tickets are 14 dollars. I can buy them online now.\nSofia: Great, thanks! I can pay you back on Friday.\nJamal: No worries. Do you want to get tacos before the movie?\nSofia: Always! Let's meet at 6:15 at the taco truck on Barton Springs Road.\nJamal: Perfect. See you Friday!\nSofia: See you! And don't forget the tickets!",
+  "glossary": [
+   {
+    "term": "free",
+    "translation": "not busy, with no plans"
+   },
+   {
+    "term": "theater",
+    "translation": "here: a cinema (American English)"
+   },
+   {
+    "term": "comedy",
+    "translation": "funny film"
+   },
+   {
+    "term": "review",
+    "translation": "what people write about a film",
+    "match": "reviews"
+   },
+   {
+    "term": "showing",
+    "translation": "one time when a film is on",
+    "match": "showings"
+   },
+   {
+    "term": "online",
+    "translation": "on the internet"
+   },
+   {
+    "term": "to pay back",
+    "translation": "to give someone their money again",
+    "match": "pay you back"
+   },
+   {
+    "term": "no worries",
+    "translation": "it's OK, no problem"
+   },
+   {
+    "term": "let's",
+    "translation": "an idea for you and me"
+   },
+   {
+    "term": "taco truck",
+    "translation": "small van that sells tacos on the street"
+   },
+   {
+    "term": "to forget",
+    "translation": "not to remember",
+    "match": "forget"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "When does Jamal want to go to the movies?",
+    "options": [
+     "Thursday night",
+     "Friday night",
+     "Saturday morning",
+     "Sunday afternoon"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "What kind of movie is it?",
+    "options": [
+     "a comedy",
+     "a horror movie",
+     "a love story",
+     "an action movie"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "Sofia wants to see the 9:45 showing.",
+    "answer": false,
+    "explanation": "She wants the 7:15 showing because she has work on Saturday morning."
+   },
+   {
+    "type": "mc",
+    "prompt": "How much is a ticket?",
+    "options": [
+     "10 dollars",
+     "12 dollars",
+     "16 dollars",
+     "14 dollars"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Jamal can buy the tickets online.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What do they want to eat before the movie?",
+    "options": [
+     "pizza",
+     "burgers",
+     "tacos",
+     "popcorn"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "a1-55",
+  "level": "A1",
+  "title": "A Sick Day in Perth",
+  "topic": "Health",
+  "body": "It's Tuesday, 6.30 am. Ben's alarm is ringing, but he can't get up. His head hurts, his throat is sore and he's very hot. His temperature is 38.9.\n\nBen works in a bike shop in Fremantle. He calls his manager, Kylie.\n\n“Hi Kylie, it's Ben. Sorry, I'm sick. I've got a fever and a really sore throat. I can't come to work today.”\n“Oh no, poor you! Stay in bed and drink lots of water. Can you get a medical certificate?”\n“Yes, I can talk to a doctor on the phone this morning.”\n“Great. Feel better soon!”\n\nBen goes back to bed. His flatmate Liam makes him a cup of tea with honey and lemon. Ben takes some paracetamol.\n\nAll day, he sleeps and watches the cricket on TV. In the evening, his temperature is 37.5. Maybe tomorrow is better.",
+  "glossary": [
+   {
+    "term": "throat",
+    "translation": "the inside of your neck"
+   },
+   {
+    "term": "sore",
+    "translation": "hurting"
+   },
+   {
+    "term": "temperature",
+    "translation": "how hot your body is"
+   },
+   {
+    "term": "manager",
+    "translation": "your boss at work"
+   },
+   {
+    "term": "sick",
+    "translation": "ill, not well"
+   },
+   {
+    "term": "fever",
+    "translation": "very hot body when you are ill"
+   },
+   {
+    "term": "poor you",
+    "translation": "I'm sorry you feel bad"
+   },
+   {
+    "term": "medical certificate",
+    "translation": "doctor's paper that says you are ill"
+   },
+   {
+    "term": "flatmate",
+    "translation": "person who lives in your flat"
+   },
+   {
+    "term": "honey",
+    "translation": "sweet food that bees make"
+   },
+   {
+    "term": "paracetamol",
+    "translation": "medicine for pain and fever"
+   },
+   {
+    "term": "cricket",
+    "translation": "bat and ball game, popular in Australia"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "What day is it?",
+    "options": [
+     "Monday",
+     "Tuesday",
+     "Wednesday",
+     "Friday"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "Where does Ben work?",
+    "options": [
+     "in a café in Perth",
+     "in a hospital",
+     "in a bike shop in Fremantle",
+     "in a school"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Kylie is angry with Ben.",
+    "answer": false,
+    "explanation": "She says “poor you” and tells him to stay in bed."
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Kylie ask for?",
+    "options": [
+     "a medical certificate",
+     "a photo",
+     "an email",
+     "a new work day"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "Liam makes Ben a cup of tea with honey and lemon.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Ben watch on TV?",
+    "options": [
+     "football",
+     "tennis",
+     "the news",
+     "the cricket"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-56",
+  "level": "A1",
+  "title": "Four Seasons in One Day",
+  "topic": "Weather and clothes",
+  "body": "It's Monday morning in Glasgow. Isla is standing in front of her wardrobe. What should she wear today?\n\nShe looks out of the window. The sun is shining! She takes a T-shirt and a light skirt.\n\nThen she checks the weather app on her phone: sunny now, rain at eleven, wind in the afternoon, 12 degrees. Hmm.\n\nIsla puts the skirt back. She chooses jeans, a T-shirt and a warm jumper. It's Glasgow, after all. The weather can change every hour.\n\nNow, shoes. Her white trainers are new and clean, but rain is coming. She puts on her waterproof boots instead.\n\nLast, she puts her raincoat and a small umbrella in her bag.\n\nIsla walks to the subway. At the station, it starts to rain. Isla smiles under her umbrella. The woman next to her is wearing shorts and sandals.",
+  "glossary": [
+   {
+    "term": "wardrobe",
+    "translation": "big cupboard for clothes"
+   },
+   {
+    "term": "light",
+    "translation": "thin, not heavy or warm"
+   },
+   {
+    "term": "skirt",
+    "translation": "clothes for women, from the waist down"
+   },
+   {
+    "term": "jumper",
+    "translation": "warm top with long arms"
+   },
+   {
+    "term": "after all",
+    "translation": "remember, this is true"
+   },
+   {
+    "term": "trainers",
+    "translation": "sports shoes"
+   },
+   {
+    "term": "waterproof",
+    "translation": "water can't come in"
+   },
+   {
+    "term": "instead",
+    "translation": "in the place of another thing"
+   },
+   {
+    "term": "raincoat",
+    "translation": "coat that keeps you dry"
+   },
+   {
+    "term": "shorts",
+    "translation": "short trousers for warm weather"
+   },
+   {
+    "term": "sandals",
+    "translation": "open shoes for summer"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "What is the weather like when Isla first looks out of the window?",
+    "options": [
+     "It's raining.",
+     "It's snowing.",
+     "The sun is shining.",
+     "It's windy."
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "The weather app says there's rain at eleven.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Isla put back?",
+    "options": [
+     "the skirt",
+     "the jumper",
+     "the jeans",
+     "the raincoat"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "Why doesn't Isla wear her white trainers?",
+    "options": [
+     "They are too small.",
+     "They are dirty.",
+     "They are old.",
+     "Rain is coming."
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Isla hasn't got an umbrella.",
+    "answer": false,
+    "explanation": "She puts a small umbrella in her bag."
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the woman next to Isla wearing?",
+    "options": [
+     "a raincoat and boots",
+     "shorts and sandals",
+     "a warm jumper",
+     "a skirt and trainers"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "a1-57",
+  "level": "A1",
+  "title": "Sunday at Lake Simcoe",
+  "topic": "Holidays",
+  "body": "It's a hot Sunday in July. The Nguyen family is driving from Toronto to Lake Simcoe. The drive takes one hour. Mom, Dad, Linh (12) and baby Kevin are in the car with a big cooler full of food.\n\nAt the lake, there's a long sandy beach with lots of trees. The water is clear and not too cold.\n\nDad blows up a yellow air mattress, and Linh floats on it. Mom sits in the shade with Kevin. He's playing with a bucket and spade in the sand.\n\nIn the afternoon, Dad and Linh rent a canoe and paddle along the shore. Linh sees a big turtle on a rock!\n\nAt six o'clock, they have a barbecue: hot dogs and corn on the cob.\n\nOn the drive home, Linh and Kevin are asleep in the back.",
+  "glossary": [
+   {
+    "term": "cooler",
+    "translation": "box that keeps food and drinks cold"
+   },
+   {
+    "term": "sandy",
+    "translation": "with lots of sand"
+   },
+   {
+    "term": "clear",
+    "translation": "clean, you can see through it"
+   },
+   {
+    "term": "to blow up",
+    "translation": "to fill with air",
+    "match": "blows up"
+   },
+   {
+    "term": "air mattress",
+    "translation": "plastic bed with air inside"
+   },
+   {
+    "term": "to float",
+    "translation": "to stay on top of the water",
+    "match": "floats"
+   },
+   {
+    "term": "shade",
+    "translation": "cool, dark place out of the sun"
+   },
+   {
+    "term": "bucket and spade",
+    "translation": "children's toys for playing in sand"
+   },
+   {
+    "term": "to rent",
+    "translation": "to pay to use something for a short time",
+    "match": "rent"
+   },
+   {
+    "term": "canoe",
+    "translation": "small, narrow boat"
+   },
+   {
+    "term": "shore",
+    "translation": "land next to the water"
+   },
+   {
+    "term": "corn on the cob",
+    "translation": "whole corn, cooked and eaten by hand"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "How long is the drive to the lake?",
+    "options": [
+     "two hours",
+     "half an hour",
+     "three hours",
+     "one hour"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "The water is very cold.",
+    "answer": false,
+    "explanation": "The water is clear and not too cold."
+   },
+   {
+    "type": "mc",
+    "prompt": "Who sits in the shade?",
+    "options": [
+     "Dad and Linh",
+     "Linh",
+     "Mom and Kevin",
+     "the whole family"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Linh see from the canoe?",
+    "options": [
+     "a big turtle",
+     "a fish",
+     "a bird",
+     "a beaver"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "What do they have at the barbecue?",
+    "options": [
+     "burgers and salad",
+     "hot dogs and corn on the cob",
+     "fish and chips",
+     "sandwiches"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "The children are asleep on the drive home.",
+    "answer": true
+   }
+  ]
+ },
+ {
+  "id": "a1-58",
+  "level": "A1",
+  "title": "The Photo on Nan's Wall",
+  "topic": "Family",
+  "body": "There's an old photo on my nan's wall in Cardiff. It's from summer 2006, twenty years ago. It's my favourite photo.\n\nIn the photo, the whole family is in Nan's back garden. It's a sunny day. Nan is in the middle. Her hair is dark brown, not white! Grandad is next to her. He's got a big moustache and a funny hat.\n\nMy mum is twenty-four in the photo. She's wearing a yellow dress and big sunglasses. My dad is next to her. He's very thin, and he's got long hair! Now he's got no hair at all.\n\nThe baby in Mum's arms is me. I'm one year old, and I'm crying.\n\nMy uncle Rhys is fifteen. He's holding a rugby ball, of course.\n\nEvery time I visit Nan, I look at this photo. Everybody looks so young.",
+  "glossary": [
+   {
+    "term": "nan",
+    "translation": "grandmother (British, informal)"
+   },
+   {
+    "term": "whole",
+    "translation": "all of it, every person"
+   },
+   {
+    "term": "back garden",
+    "translation": "garden behind a house"
+   },
+   {
+    "term": "grandad",
+    "translation": "grandfather"
+   },
+   {
+    "term": "moustache",
+    "translation": "hair over a man's mouth"
+   },
+   {
+    "term": "sunglasses",
+    "translation": "dark glasses for the sun"
+   },
+   {
+    "term": "thin",
+    "translation": "not fat"
+   },
+   {
+    "term": "at all",
+    "translation": "not even a little",
+    "match": "at all"
+   },
+   {
+    "term": "to hold",
+    "translation": "to have in your hands",
+    "match": "holding"
+   },
+   {
+    "term": "rugby",
+    "translation": "ball game, very popular in Wales"
+   },
+   {
+    "term": "of course",
+    "translation": "this is normal, as you know"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "When is the photo from?",
+    "options": [
+     "2006",
+     "1996",
+     "2016",
+     "2002"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "mc",
+    "prompt": "Where is the family in the photo?",
+    "options": [
+     "on the beach",
+     "in Nan's kitchen",
+     "in Nan's back garden",
+     "in a park"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "Nan's hair is white in the photo.",
+    "answer": false,
+    "explanation": "In the photo, her hair is dark brown."
+   },
+   {
+    "type": "mc",
+    "prompt": "What is Mum wearing?",
+    "options": [
+     "a blue dress",
+     "a yellow dress and big sunglasses",
+     "jeans and a T-shirt",
+     "a funny hat"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "tf",
+    "prompt": "The baby in the photo is crying.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What is Uncle Rhys holding?",
+    "options": [
+     "a football",
+     "a camera",
+     "a dog",
+     "a rugby ball"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "a1-59",
+  "level": "A1",
+  "title": "Front Desk in New Orleans",
+  "topic": "Daily routine",
+  "body": "Hi, I'm Denise. I'm a receptionist at the front desk of a hotel in the French Quarter in New Orleans. My schedule changes every week. This is my week:\n\nMonday: 7 a.m. to 3 p.m.\nTuesday: 7 a.m. to 3 p.m.\nWednesday: day off\nThursday: 3 p.m. to 11 p.m.\nFriday: 3 p.m. to 11 p.m.\nSaturday: 3 p.m. to 11 p.m.\nSunday: day off\n\nOn morning shifts, I check guests out. They give me their keys, and I print their bills. On evening shifts, I check new guests in. I answer the phone and help with problems. Sometimes a guest loses a key or wants a quieter room.\n\nWeekends are very busy, especially during Mardi Gras.\n\nI love my job. I meet people from all over the world, and I can recommend the best jazz bars in town!",
+  "glossary": [
+   {
+    "term": "receptionist",
+    "translation": "person who welcomes guests at a hotel"
+   },
+   {
+    "term": "front desk",
+    "translation": "desk where guests arrive in a hotel"
+   },
+   {
+    "term": "schedule",
+    "translation": "plan of your work days and times"
+   },
+   {
+    "term": "day off",
+    "translation": "day with no work"
+   },
+   {
+    "term": "shift",
+    "translation": "the hours when you work",
+    "match": "shifts"
+   },
+   {
+    "term": "to check out",
+    "translation": "to pay and leave a hotel",
+    "match": "check guests out"
+   },
+   {
+    "term": "bill",
+    "translation": "paper that says how much to pay",
+    "match": "bills"
+   },
+   {
+    "term": "to check in",
+    "translation": "to arrive at a hotel and get a key",
+    "match": "check new guests in"
+   },
+   {
+    "term": "especially",
+    "translation": "more than other times"
+   },
+   {
+    "term": "Mardi Gras",
+    "translation": "big street party in New Orleans"
+   },
+   {
+    "term": "to recommend",
+    "translation": "to say that something is good",
+    "match": "recommend"
+   },
+   {
+    "term": "jazz",
+    "translation": "a kind of music from New Orleans"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "Where is Denise's hotel?",
+    "options": [
+     "in New York",
+     "in the French Quarter in New Orleans",
+     "in Miami",
+     "near the airport"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "How many days off does Denise have this week?",
+    "options": [
+     "one",
+     "three",
+     "none",
+     "two"
+    ],
+    "answer": 3
+   },
+   {
+    "type": "tf",
+    "prompt": "Denise works in the evening on Thursday.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Denise do on morning shifts?",
+    "options": [
+     "She checks guests out.",
+     "She cleans rooms.",
+     "She cooks breakfast.",
+     "She drives the hotel bus."
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "Weekends are quiet at the hotel.",
+    "answer": false,
+    "explanation": "Weekends are very busy, especially during Mardi Gras."
+   },
+   {
+    "type": "mc",
+    "prompt": "What can Denise recommend?",
+    "options": [
+     "the best restaurants",
+     "the best museums",
+     "the best jazz bars",
+     "the best shops"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "a1-60",
+  "level": "A1",
+  "title": "Zara Is Thirty!",
+  "topic": "Celebrations",
+  "body": "Subject: Zara's 30th birthday party!\n\nHi everyone,\n\nI can't believe it, but I'm turning thirty! Let's celebrate together.\n\nWhen: Saturday 14th June, from 7 pm\nWhere: The Shell Bar, my favourite seaside restaurant in Brighton\n\nThere's food, a DJ and a big chocolate cake (my mum's recipe!). The theme is the 1990s, so please dress up. Think baggy jeans, bright colours and glitter!\n\nPlease don't bring presents. Just bring yourself and your dancing shoes.\n\nCan you come? Please reply by 1st June. There are lots of hotels and B&Bs near the seafront, so you can stay the night.\n\nAny questions? Text me on 07700 900123.\n\nHope to see you there!\n\nLove,\nZara xx",
+  "glossary": [
+   {
+    "term": "subject",
+    "translation": "what an email is about"
+   },
+   {
+    "term": "to turn",
+    "translation": "to become a new age",
+    "match": "turning"
+   },
+   {
+    "term": "to celebrate",
+    "translation": "to have a party for something special",
+    "match": "celebrate"
+   },
+   {
+    "term": "seaside",
+    "translation": "next to the sea"
+   },
+   {
+    "term": "DJ",
+    "translation": "person who plays music at a party"
+   },
+   {
+    "term": "recipe",
+    "translation": "instructions for cooking something"
+   },
+   {
+    "term": "theme",
+    "translation": "the main idea of a party"
+   },
+   {
+    "term": "to dress up",
+    "translation": "to wear special clothes",
+    "match": "dress up"
+   },
+   {
+    "term": "baggy",
+    "translation": "big and loose, not tight"
+   },
+   {
+    "term": "glitter",
+    "translation": "tiny shiny pieces for decoration"
+   },
+   {
+    "term": "to reply",
+    "translation": "to answer",
+    "match": "reply"
+   },
+   {
+    "term": "seafront",
+    "translation": "street right next to the sea"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mc",
+    "prompt": "How old is Zara turning?",
+    "options": [
+     "twenty-five",
+     "thirty",
+     "thirty-five",
+     "forty"
+    ],
+    "answer": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "When is the party?",
+    "options": [
+     "Friday 13th June",
+     "Saturday 1st June",
+     "Saturday 14th June",
+     "Sunday 15th June"
+    ],
+    "answer": 2
+   },
+   {
+    "type": "tf",
+    "prompt": "The theme of the party is the 1980s.",
+    "answer": false,
+    "explanation": "The theme is the 1990s."
+   },
+   {
+    "type": "mc",
+    "prompt": "Whose recipe is the chocolate cake?",
+    "options": [
+     "her mum's",
+     "Zara's",
+     "the DJ's",
+     "the restaurant's"
+    ],
+    "answer": 0
+   },
+   {
+    "type": "tf",
+    "prompt": "Guests should reply by 1st June.",
+    "answer": true
+   },
+   {
+    "type": "mc",
+    "prompt": "Where are the hotels and B&Bs?",
+    "options": [
+     "near the station",
+     "in London",
+     "next to Zara's flat",
+     "near the seafront"
+    ],
+    "answer": 3
+   }
+  ]
+ }
+]
