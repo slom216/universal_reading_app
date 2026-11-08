@@ -10,6 +10,13 @@ const pct = (n: number) => `${Math.round(n * 100)}%`;
 export function ProgressPage() {
   const results = useProgress((s) => s.results);
   const activity = useProgress((s) => s.activity);
+  const recentLangs = useProgress((s) => s.recentLangs);
+  // Only languages the reader has opened a text in or finished a quiz in.
+  const langs = LANG_IDS.filter(
+    (id) =>
+      recentLangs.includes(id) ||
+      Object.keys(results).some((k) => k.startsWith(`${id}/`)),
+  );
   const { current, best } = streaks(
     Object.keys(activity).filter((d) => (activity[d] ?? 0) > 0),
   );
@@ -34,16 +41,22 @@ export function ProgressPage() {
         </div>
         <div className="card stat">
           <span className="stat__value">{total}</span>
-          <span className="stat__label">Quizzes finished</span>
+          <span className="stat__label">Exercises finished</span>
         </div>
       </div>
 
       <section className="card stack">
-        <h2>Reading calendar</h2>
+        <h2>Practice calendar</h2>
         <MonthCalendar activity={activity} />
       </section>
 
-      {LANG_IDS.map((id) => {
+      {langs.length === 0 && (
+        <p className="card">
+          Nothing here yet. <Link to="/reading">Pick a language</Link> and read your first
+          text; its scores show up here.
+        </p>
+      )}
+      {langs.map((id) => {
         const lang = LANGS[id];
         return (
           <section key={id} className="stack stack--tight">

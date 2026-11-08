@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { LEVELS, WORD_RANGE } from '../content/schema';
+import { dayKey } from '../lib/dates';
 import { useLang } from '../lib/useLang';
+import { ROUND, dueWords } from '../lib/words';
 import { useProgress } from '../store/progress';
 import heroArt from '../assets/art/hero-reading.webp';
 import artA1 from '../assets/art/level-a1-family.webp';
@@ -16,7 +18,9 @@ const ART = {
 
 export function HomePage() {
   const results = useProgress((s) => s.results);
-  const { lang, base, byLevel, key, tr, code } = useLang();
+  const words = useProgress((s) => s.words);
+  const { lang, base, byLevel, key, tr, code, texts } = useLang();
+  const due = dueWords(lang.id, texts, { results, words }, dayKey()).length;
 
   return (
     <div className="stack">
@@ -87,6 +91,24 @@ export function HomePage() {
           );
         })}
       </div>
+
+      <section className="card stack stack--tight" aria-labelledby="words-heading">
+        <h2 id="words-heading">Word review</h2>
+        <p>
+          The glossary words of every text you finish come back here, spaced out so they
+          stick.{' '}
+          {due
+            ? `${due} ${due === 1 ? 'word is' : 'words are'} due today.`
+            : 'Nothing is due right now.'}
+        </p>
+        {due > 0 && (
+          <p>
+            <Link className="button button--primary" to={`${base}/words`}>
+              Review {Math.min(due, ROUND)} {due === 1 ? 'word' : 'words'}
+            </Link>
+          </p>
+        )}
+      </section>
     </div>
   );
 }

@@ -13,6 +13,7 @@ import { PronunciationIndexPage, PronunciationPage } from './pages/Pronunciation
 import { ProgressPage } from './pages/ProgressPage';
 import { ReaderPage } from './pages/ReaderPage';
 import { SettingsPage } from './pages/SettingsPage';
+import { WordsPage } from './pages/WordsPage';
 import { useProgress } from './store/progress';
 
 export function App() {
@@ -40,6 +41,7 @@ export function App() {
             <Route index element={<HomePage />} />
             <Route path="level/:level" element={<LevelPage />} />
             <Route path="text/:id" element={<ReaderPage />} />
+            <Route path="words" element={<WordsPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
           <Route path="*" element={<NotFoundPage />} />

@@ -3,11 +3,20 @@ import { progressDataSchema, type ProgressData } from '../store/progress';
 export function exportProgress({
   results,
   activity,
+  words,
   settings,
   recentLangs,
 }: ProgressData): string {
   return JSON.stringify(
-    { app: 'deulern-polyglot', version: 1, results, activity, settings, recentLangs },
+    {
+      app: 'deulern-polyglot',
+      version: 1,
+      results,
+      activity,
+      words,
+      settings,
+      recentLangs,
+    },
     null,
     2,
   );
