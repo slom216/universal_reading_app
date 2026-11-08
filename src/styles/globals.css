@@ -897,6 +897,48 @@ a.button--primary::after,
   letter-spacing: 0.04em;
 }
 
+/* Pronunciation guide: the Latin reading sits above each word (pinyin per character).
+   Latin face and left-to-right even inside Arabic. */
+rt {
+  font-family: var(--font-sans);
+  font-size: 0.55em;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: var(--color-text-muted);
+  direction: ltr;
+  unicode-bidi: isolate;
+  user-select: none;
+  padding-inline: 0.15em;
+}
+
+/* Chrome's native ruby pushes Devanagari marks above the letter (ं ँ) out of the word, so
+   lay it out as a column instead: reading on top, the word's baseline on the line. */
+@supports (baseline-source: last) {
+  ruby {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    baseline-source: last;
+  }
+
+  rt {
+    display: block;
+    line-height: 1.2;
+  }
+}
+
+/* The column layout stops the glossary underline at the word; draw it on the base. */
+.gloss__word ruby > span {
+  text-decoration: underline dotted var(--color-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.25em;
+}
+
+/* Arabic words are often shorter than their reading; a little room between them. */
+:lang(ar) ruby {
+  margin-inline: 0.1em;
+}
+
 .gloss {
   position: relative;
 }

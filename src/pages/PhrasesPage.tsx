@@ -1,11 +1,10 @@
 import { Suspense, use, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { ScriptToggle } from '../components/ScriptToggle';
+import { RomanizeToggle, ScriptToggle } from '../components/ScriptToggle';
 import { PHRASE_LANGS, loadPhrases } from '../content/phrases';
 import { LANGS, isLangId, type LangId } from '../languages';
-import { scriptFor } from '../lib/script';
+import { useScript } from '../lib/script';
 import { track } from '../lib/track';
-import { useProgress } from '../store/progress';
 import { NotFoundPage } from './NotFoundPage';
 
 // Recordings live at src/assets/audio/phrases/<lang>/<phrase id>.mp3; only the URLs are
@@ -60,9 +59,8 @@ export function PhrasesPage() {
 function PhraseList({ id }: { id: LangId }) {
   const phrases = use(loadPhrases(id));
   const [category, setCategory] = useState('');
-  const settings = useProgress((s) => s.settings);
   const lang = LANGS[id];
-  const { code, tr } = scriptFor(id, lang.code, settings);
+  const { code, rt } = useScript(id, lang.code);
   const categories = [...new Set(phrases.map((p) => p.category))].sort();
   const shown = category ? phrases.filter((p) => p.category === category) : phrases;
 
@@ -94,6 +92,7 @@ function PhraseList({ id }: { id: LangId }) {
           </select>
         </label>
         <ScriptToggle id={id} />
+        <RomanizeToggle id={id} />
       </div>
       <ol className="text-list">
         {shown.map((p) => {
@@ -107,7 +106,7 @@ function PhraseList({ id }: { id: LangId }) {
               <span className="text-card__num">{p.rank}</span>
               <span className="text-card__body">
                 <strong lang={code} className="phrase__text">
-                  {tr(p.text)}
+                  {rt(p.text)}
                 </strong>
                 {gloss && <span className="text-sm text-muted">{gloss}</span>}
               </span>

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, type ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import type { Question } from '../content/schema';
 
@@ -16,6 +16,7 @@ export function Quiz({
   labels,
   code,
   tr = same,
+  rt = tr,
 }: {
   questions: Question[];
   onComplete: (score: number) => void;
@@ -26,8 +27,10 @@ export function Quiz({
   code: string;
   /** Script conversion for question text (Interslavic Cyrillic). */
   tr?: (s: string) => string;
+  /** `tr` with the pronunciation guide as ruby. */
+  rt?: (s: string) => ReactNode;
 }) {
-  const tfOptions = [
+  const tfOptions: { label: ReactNode; value: boolean }[] = [
     { label: labels.trueLabel, value: true },
     { label: labels.falseLabel, value: false },
   ];
@@ -64,7 +67,7 @@ export function Quiz({
       {questions.map((q, i) => {
         const choices =
           q.type === 'mc'
-            ? q.options.map((label, value) => ({ label: tr(label), value }))
+            ? q.options.map((label, value) => ({ label: rt(label), value }))
             : tfOptions;
         const isRight = answers[i] === q.answer;
         return (
@@ -74,7 +77,7 @@ export function Quiz({
           >
             <legend>
               <span className="quiz__num">{i + 1}.</span>{' '}
-              <span lang={code}>{tr(q.prompt)}</span>
+              <span lang={code}>{rt(q.prompt)}</span>
               {q.type === 'tf' && (
                 <span className="chip chip--soft" lang={code}>
                   {labels.trueLabel} / {labels.falseLabel}

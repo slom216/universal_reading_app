@@ -1,4 +1,5 @@
 import type { LangId } from '../languages';
+import { ROMANIZERS, ROMANIZE_DEFAULT, romanizeOn } from '../lib/script';
 import { track } from '../lib/track';
 import { useProgress, type Settings } from '../store/progress';
 
@@ -54,6 +55,36 @@ export function ScriptToggle({ id }: { id: LangId }) {
             }}
           />
           {o.label}
+        </label>
+      ))}
+    </div>
+  );
+}
+
+/** Latin pronunciation guide on/off for Russian, Greek, Hindi, Arabic and Chinese (pinyin).
+ *  Renders nothing for other languages. */
+export function RomanizeToggle({ id }: { id: LangId }) {
+  const settings = useProgress((s) => s.settings);
+  const setSettings = useProgress((s) => s.setSettings);
+  if (!ROMANIZERS[id]) return null;
+  const on = romanizeOn(id, settings);
+  const name = id === 'zh' ? 'pinyin' : 'Latin letters';
+  const set = (value: boolean) => {
+    const list = (settings.romanize ?? ROMANIZE_DEFAULT).filter((l) => l !== id);
+    setSettings({ romanize: value ? [...list, id] : list });
+    track('romanize_change', { reading_language: id, romanize: value ? 'on' : 'off' });
+  };
+  return (
+    <div className="segmented" role="radiogroup" aria-label="Pronunciation guide">
+      {[true, false].map((value) => (
+        <label key={String(value)}>
+          <input
+            type="radio"
+            name={`romanize-${id}`}
+            checked={on === value}
+            onChange={() => set(value)}
+          />
+          {value ? `With ${name}` : `Without ${name}`}
         </label>
       ))}
     </div>

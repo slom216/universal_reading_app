@@ -2,20 +2,20 @@ import { Suspense, use, useEffect } from 'react';
 import { Outlet, useParams } from 'react-router-dom';
 import { loadTexts } from '../content';
 import { LANGS, isLangId, type LangId } from '../languages';
-import { scriptFor } from '../lib/script';
+import { useScript } from '../lib/script';
 import { LangCtx } from '../lib/useLang';
 import { NotFoundPage } from '../pages/NotFoundPage';
 import { useProgress } from '../store/progress';
 
 function Loaded({ id }: { id: LangId }) {
   const texts = use(loadTexts(id));
-  const settings = useProgress((s) => s.settings);
   const setSettings = useProgress((s) => s.setSettings);
   useEffect(() => setSettings({ lastLang: id }), [id, setSettings]);
 
   const lang = LANGS[id];
+  const script = useScript(id, lang.code);
   return (
-    <LangCtx value={{ lang, texts, ...scriptFor(id, lang.code, settings) }}>
+    <LangCtx value={{ lang, texts, ...script }}>
       <Outlet />
     </LangCtx>
   );

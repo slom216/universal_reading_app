@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { countWords } from '../content/schema';
 import { GlossaryText } from '../components/GlossaryText';
 import { Quiz } from '../components/Quiz';
-import { ScriptToggle } from '../components/ScriptToggle';
+import { RomanizeToggle, ScriptToggle } from '../components/ScriptToggle';
 import { track } from '../lib/track';
 import { useLang } from '../lib/useLang';
 import { useProgress } from '../store/progress';
@@ -19,7 +19,7 @@ const audio = import.meta.glob<string>('../assets/audio/*/*.mp3', {
 
 export function ReaderPage() {
   const { id = '' } = useParams();
-  const { lang, base, byId, byLevel, key, tr, code } = useLang();
+  const { lang, base, byId, byLevel, key, tr, rt, code } = useLang();
   const text = byId(id);
   const result = useProgress((s) => s.results[key(id)]);
   const complete = useProgress((s) => s.complete);
@@ -59,8 +59,9 @@ export function ReaderPage() {
             {result && ` · best score ${Math.round(result.bestScore * 100)}%`}
           </span>
         </div>
-        <h1 lang={code}>{tr(text.title)}</h1>
+        <h1 lang={code}>{rt(text.title)}</h1>
         <ScriptToggle id={lang.id} />
+        <RomanizeToggle id={lang.id} />
       </header>
 
       {audioUrl && (
@@ -75,7 +76,7 @@ export function ReaderPage() {
         />
       )}
 
-      <GlossaryText text={text} articles={lang.articles} code={code} tr={tr} />
+      <GlossaryText text={text} articles={lang.articles} code={code} tr={tr} rt={rt} />
 
       <section className="stack stack--tight" aria-labelledby="glossary-heading">
         <h2 id="glossary-heading" lang={code}>
@@ -85,7 +86,7 @@ export function ReaderPage() {
         <dl className="glossary">
           {text.glossary.map((g) => (
             <div key={g.term} className="glossary__row">
-              <dt lang={code}>{tr(g.term)}</dt>
+              <dt lang={code}>{rt(g.term)}</dt>
               <dd>{g.translation}</dd>
             </div>
           ))}
@@ -111,6 +112,7 @@ export function ReaderPage() {
           }}
           code={code}
           tr={tr}
+          rt={rt}
           next={
             next
               ? {

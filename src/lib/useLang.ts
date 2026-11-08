@@ -1,4 +1,4 @@
-import { createContext, useContext } from 'react';
+import { createContext, useContext, type ReactNode } from 'react';
 import type { Level, ReadingText } from '../content/schema';
 import type { Lang } from '../languages';
 
@@ -9,6 +9,8 @@ export type LangContext = {
   code: string;
   /** Shows target-language text in the chosen script (isv Cyrillic, Arabic without vowels). */
   tr: (s: string) => string;
+  /** `tr` with the Latin pronunciation guide as ruby, when it is switched on. */
+  rt: (s: string) => ReactNode;
 };
 
 export const LangCtx = createContext<LangContext | null>(null);

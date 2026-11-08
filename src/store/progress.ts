@@ -26,6 +26,8 @@ export const progressDataSchema = z.object({
     arHarakat: z.enum(['on', 'off']).default('on'),
     /** Serbian script; texts are stored in Cyrillic. Missing in data saved before Serbian. */
     srScript: z.enum(['cyrillic', 'latin']).default('cyrillic'),
+    /** Languages showing the Latin pronunciation guide. Missing in data saved before it. */
+    romanize: z.array(z.enum(LANG_IDS)).default(['zh', 'hi', 'ar']),
     /** The language the "Texts" nav link and the settings sample use. */
     lastLang: z.enum(LANG_IDS).nullable(),
   }),
@@ -45,6 +47,7 @@ const initial: ProgressData = {
     isvScript: 'latin',
     arHarakat: 'on',
     srScript: 'cyrillic',
+    romanize: ['zh', 'hi', 'ar'],
     lastLang: null,
   },
   recentLangs: [],

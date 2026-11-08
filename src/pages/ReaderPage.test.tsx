@@ -23,6 +23,7 @@ const renderReader = (id: string) =>
         texts: [text('a1-01'), text('a1-02')],
         code: 'it',
         tr: (s) => s,
+        rt: (s) => s,
       }}
     >
       <MemoryRouter initialEntries={[`/it/text/${id}`]}>

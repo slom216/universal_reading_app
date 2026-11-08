@@ -33,11 +33,14 @@ export function GlossaryText({
   articles,
   code,
   tr,
+  rt = tr,
 }: {
   text: ReadingText;
   articles: RegExp | null;
   code: string;
   tr: (s: string) => string;
+  /** `tr` with the pronunciation guide as ruby. */
+  rt?: (s: string) => ReactNode;
 }) {
   const [open, setOpen] = useState<string | null>(null);
   const paragraphs = text.body.split(/\n\n+/);
@@ -55,7 +58,7 @@ export function GlossaryText({
         for (const h of hits[pi] ?? []) {
           const key = `${pi}-${h.start}`;
           const isOpen = open === key;
-          parts.push(tr(p.slice(pos, h.start)));
+          parts.push(rt(p.slice(pos, h.start)));
           parts.push(
             <span className="gloss" key={key}>
               <button
@@ -64,7 +67,7 @@ export function GlossaryText({
                 aria-expanded={isOpen}
                 onClick={() => setOpen(isOpen ? null : key)}
               >
-                {tr(p.slice(h.start, h.end))}
+                {rt(p.slice(h.start, h.end))}
               </button>
               {isOpen && (
                 <span className="gloss__tip" role="status">
@@ -76,7 +79,7 @@ export function GlossaryText({
           );
           pos = h.end;
         }
-        parts.push(tr(p.slice(pos)));
+        parts.push(rt(p.slice(pos)));
         return (
           <p key={pi} style={{ whiteSpace: 'pre-line' }}>
             {parts}

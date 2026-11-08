@@ -40,10 +40,11 @@ export function PickerPage() {
             Read your way <span className="hero__accent">into a new language.</span>
           </h1>
           <p className="lead">
-            Graded texts in English, German, Italian, Spanish, French, Russian, Interslavic,
-            Turkish, Portuguese, Arabic, Polish, Greek, Serbian, Hindi and Chinese,
-            each set in the places where the language is spoken. Tap an underlined word to
-            see its meaning, then answer a few questions to check what you understood.
+            Graded texts in English, German, Italian, Spanish, French, Russian,
+            Interslavic, Turkish, Portuguese, Arabic, Polish, Greek, Serbian, Hindi and
+            Chinese, each set in the places where the language is spoken. Tap an
+            underlined word to see its meaning, then answer a few questions to check what
+            you understood.
           </p>
         </div>
         <img className="hero__art" src={heroArt} alt="" width={743} height={371} />
