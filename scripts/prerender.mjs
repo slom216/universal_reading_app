@@ -4,6 +4,12 @@
 // <div id="root">. The React app mounts over this markup; Cloudflare serves
 // dist/it/text/a1-01.html at /it/text/a1-01. Interslavic is prerendered in Latin.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { pinyin } from 'pinyin-pro';
+
+// Shared with the app (Node strips the types), so URLs and readings match it exactly.
+const { phraseQuote, phraseSlug } = await import('../src/lib/slug.ts');
+const romanizers = await import('../src/lib/romanize.ts');
+const { toLatin } = await import('../src/lib/isvCyrillic.ts');
 
 const ORIGIN = 'https://polyglot.icu';
 const LEVELS = ['a1', 'a2', 'b1'];
@@ -55,20 +61,25 @@ const social = (path, title, description) =>
     .concat('<meta name="twitter:card" content="summary" />')
     .join('\n    ');
 
-function page(path, title, description, main) {
+/** Structured data for search engines, as a <script> in the head. */
+const jsonLd = (data) =>
+  `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', ...data }).replace(/</g, '\\u003c')}</script>`;
+
+function page(path, title, description, main, ld) {
   return shell
     .replace(/<title>[^<]*<\/title>/, `<title>${esc(title)}</title>`)
     .replace(
       /<meta\s+name="description"\s+content="[^"]*"\s*\/>/,
       `<meta name="description" content="${esc(description)}" />\n    <link rel="canonical" href="${ORIGIN}${path}" />\n    ${social(path, title, description)}`,
     )
+    .replace('</head>', ld ? `  ${jsonLd(ld)}\n  </head>` : '</head>')
     .replace('<div id="root"></div>', `<div id="root"><main>\n${main}\n</main></div>`);
 }
 
-function write(path, title, description, main) {
+function write(path, title, description, main, ld) {
   const file = `dist${path}.html`;
   mkdirSync(file.slice(0, file.lastIndexOf('/')), { recursive: true });
-  writeFileSync(file, page(path, title, description, main));
+  writeFileSync(file, page(path, title, description, main, ld));
 }
 
 const urls = ['/'];
@@ -146,6 +157,22 @@ ${t.questions
 <ul lang="${lang}">
 ${related.map((r) => `<li><a href="/${lang}/text/${r.id}">${esc(r.title)}</a></li>`).join('\n')}
 </ul>`,
+        {
+          '@type': 'LearningResource',
+          name: t.title,
+          url: `${ORIGIN}/${lang}/text/${t.id}`,
+          inLanguage: lang,
+          about: t.topic,
+          educationalLevel: `CEFR ${t.level}`,
+          learningResourceType: 'Reading passage with comprehension questions',
+          teaches: `${name} reading comprehension`,
+          isAccessibleForFree: true,
+          publisher: {
+            '@type': 'Organization',
+            name: 'DeuLern',
+            url: 'https://deulern.com',
+          },
+        },
       );
       urls.push(`/${lang}/text/${t.id}`);
     });
@@ -173,7 +200,7 @@ write(
   '/phrases',
   'Everyday phrases in fifteen languages · DeuLern Polyglot',
   'The 1000 most useful everyday phrases in English, German, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek, Serbian, Hindi and Chinese, ordered by how useful they are.',
-  `<h1>Everyday phrases in fifteen languages</h1>\n<ul>\n${phraseLinks}\n</ul>`,
+  `<h1>Everyday phrases in fifteen languages</h1>\n<ul>\n${phraseLinks}\n</ul>\n<p><a href="/say">Compare a phrase across every language</a></p>`,
 );
 urls.push('/reading', '/phrases');
 for (const [lang, { name }] of PHRASE_LANGS) {
@@ -184,7 +211,13 @@ for (const [lang, { name }] of PHRASE_LANGS) {
     `The 1000 most useful ${name} phrases${lang === 'en' ? '' : ' with English translations'}, from greetings to emergencies, ordered by how useful they are.`,
     `<h1>1000 everyday ${name} phrases</h1>
 <ol>
-${english.map((p) => `<li><span lang="${lang}">${esc(tr[p.id])}</span>${lang === 'en' ? '' : ` · ${esc(p.phrase)}`}</li>`).join('\n')}
+${english
+  .map((p) =>
+    lang === 'en'
+      ? `<li><a href="/say/${phraseSlug(p.phrase)}">${esc(p.phrase)}</a></li>`
+      : `<li><span lang="${lang}">${esc(tr[p.id])}</span> · <a href="/say/${phraseSlug(p.phrase)}">${esc(p.phrase)}</a></li>`,
+  )
+  .join('\n')}
 </ol>
 <h2>Other languages</h2>
 <ul>
@@ -193,6 +226,77 @@ ${phraseLinks}
   );
   urls.push(`/phrases/${lang}`);
 }
+
+// "How to say X": one page per phrase with every language's version, plus an index.
+const books = Object.fromEntries(
+  PHRASE_LANGS.map(([id]) => [
+    id,
+    JSON.parse(readFileSync(`src/content/phrases/${id}.json`, 'utf8')),
+  ]),
+);
+const OTHERS = PHRASE_LANGS.filter(([id]) => id !== 'en');
+/** Latin reading for scripts most readers can't sound out, as the app's guide shows it
+ *  (Serbian: its Latin spelling). Final punctuation is dropped: it goes in brackets. */
+const reading = (lang, text) => {
+  const out =
+    lang === 'zh'
+      ? pinyin(text, { type: 'all' })
+          .map((x, i, all) =>
+            x.isZh ? (all[i - 1]?.isZh ? ' ' : '') + x.pinyin : x.origin,
+          )
+          .join('')
+      : lang === 'sr'
+        ? toLatin(text)
+        : romanizers[lang]
+          ? romanizers[lang](text)
+              .map(([t, r]) => r || t)
+              .join('')
+          : '';
+  return out.replace(/।/g, '.').replace(/[\s.!?;؟。？！]+$/u, '');
+};
+write(
+  '/say',
+  `How to say 1000 everyday phrases in ${OTHERS.length} languages · DeuLern Polyglot`,
+  `The 1000 most useful everyday phrases, each side by side in ${OTHERS.map(([, l]) => l.name).join(', ')}, with a pronunciation guide.`,
+  `<h1>One phrase, ${OTHERS.length} languages</h1>
+<ol>
+${english.map((p) => `<li><a href="/say/${phraseSlug(p.phrase)}">${esc(p.phrase)}</a></li>`).join('\n')}
+</ol>`,
+);
+urls.push('/say');
+english.forEach((p, i) => {
+  const quote = phraseQuote(p.phrase);
+  const rows = OTHERS.map(([id, l]) => ({ id, name: l.name, text: books[id][p.id] }));
+  // As many "Italian: Grazie" pairs as fit a search snippet.
+  let description = `How to say “${quote}” in ${OTHERS.length} languages:`;
+  for (const r of rows) {
+    const more = ` ${r.name}: ${r.text}`;
+    if (description.length + more.length > 150) break;
+    description += more;
+  }
+  const near = [english[i - 1], english[i + 1]].filter(Boolean);
+  write(
+    `/say/${phraseSlug(p.phrase)}`,
+    `How to say “${quote}” in ${OTHERS.length} languages · DeuLern Polyglot`,
+    description,
+    `<p><a href="/say">All phrases</a></p>
+<h1>How to say “${esc(quote)}” in ${OTHERS.length} languages</h1>
+${p.note ? `<p>${esc(p.note)}</p>\n` : ''}<p>Phrase ${p.rank} of ${english.length} by usefulness · topic: ${esc(p.category)}</p>
+<dl>
+${rows
+  .map((r) => {
+    const say = reading(r.id, r.text);
+    return `<dt><a href="/phrases/${r.id}">${r.name}</a></dt><dd><span lang="${r.id}">${esc(r.text)}</span>${say ? ` (${esc(say)})` : ''}</dd>`;
+  })
+  .join('\n')}
+</dl>
+<h2>More phrases</h2>
+<ul>
+${near.map((n) => `<li><a href="/say/${phraseSlug(n.phrase)}">${esc(n.phrase)}</a></li>`).join('\n')}
+</ul>`,
+  );
+  urls.push(`/say/${phraseSlug(p.phrase)}`);
+});
 
 // Pronunciation: an index plus one page of rules per language.
 const sayLinks = Object.entries(LANGS)

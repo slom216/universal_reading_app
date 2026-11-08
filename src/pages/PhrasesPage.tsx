@@ -1,20 +1,12 @@
 import { Suspense, use, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { RomanizeToggle, ScriptToggle } from '../components/ScriptToggle';
-import { PHRASE_LANGS, loadPhrases } from '../content/phrases';
+import { PHRASE_LANGS, loadPhrases, phraseAudio } from '../content/phrases';
 import { LANGS, isLangId, type LangId } from '../languages';
 import { useScript } from '../lib/script';
 import { track } from '../lib/track';
 import { NotFoundPage } from './NotFoundPage';
 import { PracticeLinks } from './PhrasePracticePage';
-
-// Recordings live at src/assets/audio/phrases/<lang>/<phrase id>.mp3; only the URLs are
-// bundled. Phrases without a recording get no play button.
-const audio = import.meta.glob<string>('../assets/audio/phrases/*/*.mp3', {
-  query: '?url',
-  import: 'default',
-  eager: true,
-});
 
 /** `/phrases`: pick a language. */
 export function PhrasebookPage() {
@@ -27,6 +19,9 @@ export function PhrasebookPage() {
       <p className="lead">
         1000 phrases per language, ordered by how useful they are. Start at the top: the
         first hundred get you through a first day abroad.
+      </p>
+      <p>
+        <Link to="/say">Compare a phrase across every language →</Link>
       </p>
       <div className="lang-grid">
         {PHRASE_LANGS.map((id) => (
@@ -98,11 +93,7 @@ function PhraseList({ id }: { id: LangId }) {
       {id !== 'en' && <PracticeLinks id={id} />}
       <ol className="text-list">
         {shown.map((p) => {
-          const url = audio[`../assets/audio/phrases/${id}/${p.id}.mp3`];
-          // English is its own source, so it shows only the note, not the phrase twice.
-          const gloss = (id === 'en' ? [p.note] : [p.phrase, p.note])
-            .filter(Boolean)
-            .join(' · ');
+          const url = phraseAudio(id, p.id);
           return (
             <li key={p.id} className="card text-card">
               <span className="text-card__num">{p.rank}</span>
@@ -110,7 +101,13 @@ function PhraseList({ id }: { id: LangId }) {
                 <strong lang={code} className="phrase__text">
                   {rt(p.text)}
                 </strong>
-                {gloss && <span className="text-sm text-muted">{gloss}</span>}
+                <span className="text-sm text-muted">
+                  {/* English is its own source, so it links without repeating the phrase. */}
+                  <Link to={`/say/${p.slug}`} title="This phrase in every language">
+                    {id === 'en' ? 'In other languages' : p.phrase}
+                  </Link>
+                  {p.note && ` · ${p.note}`}
+                </span>
               </span>
               {url && (
                 <button

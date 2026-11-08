@@ -850,7 +850,8 @@ a.button--primary::after,
   gap: var(--space-3);
 }
 
-.phrase-tools select {
+.phrase-tools select,
+.phrase-tools input {
   font: inherit;
   padding: 0.35em 0.6em;
   border: var(--border-width) solid var(--color-border-strong);
@@ -866,6 +867,18 @@ a.button--primary::after,
 .phrase__play {
   flex: 0 0 auto;
   min-width: 2.75rem;
+}
+
+/* `/say`: every phrase as a link, in columns on wide screens. */
+.say-index {
+  columns: 17rem;
+  column-gap: var(--space-6, 2rem);
+  padding-inline-start: 2.5em;
+}
+
+.say-index li {
+  break-inside: avoid;
+  padding-block: 0.15em;
 }
 
 /* Fill the gaps: the blank where the missing word goes. */
@@ -1421,4 +1434,91 @@ label.button:has(input:focus-visible) {
 .consent p {
   flex: 1 1 240px;
   margin: 0;
+}
+
+/* Print: a text prints as a worksheet (text, glossary, questions with empty radio
+   circles); other pages print their content without the app around it. */
+@media print {
+  html:root,
+  html:root[data-theme] {
+    color-scheme: light;
+    --color-bg: #fff;
+    --color-table: #fff;
+    --color-surface: #fff;
+  }
+
+  @page {
+    margin: 15mm;
+  }
+
+  .app-header,
+  .app-footer,
+  .skip-link,
+  .reader > .text-sm:first-child,
+  .reader__audio,
+  .reader__pager,
+  .segmented,
+  .phrase-tools,
+  .phrase__play,
+  .gloss__tip,
+  .quiz > .row,
+  .quiz__result,
+  .quiz__feedback {
+    display: none !important;
+  }
+
+  .app-main,
+  .app-main__inner {
+    padding: 0;
+    max-width: none;
+  }
+
+  .card {
+    box-shadow: none;
+    background: none;
+  }
+
+  .quiz__q,
+  .glossary__row,
+  .text-card {
+    break-inside: avoid;
+  }
+
+  h1,
+  h2 {
+    break-after: avoid;
+  }
+
+  /* Glossary words keep a dotted underline so the printed text shows which words the
+     glossary explains. */
+  .gloss__word {
+    all: unset;
+    text-decoration: underline dotted;
+    text-underline-offset: 0.2em;
+  }
+
+  /* Worksheet density: plain option lines instead of the on-screen cards. */
+  .quiz.stack {
+    gap: var(--space-2);
+  }
+
+  .quiz__q {
+    padding: var(--space-2) 0;
+    border: 0;
+  }
+
+  .quiz__choices {
+    gap: 0.15em var(--space-4);
+    margin-top: 0.3em;
+  }
+
+  .quiz__choice {
+    border: 0;
+    padding: 0.1em 0;
+    min-height: 0;
+  }
+
+  .glossary__row {
+    padding-block: 0.2em;
+  }
 }

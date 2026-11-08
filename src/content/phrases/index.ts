@@ -1,4 +1,5 @@
 import { LANG_IDS, type LangId } from '../../languages';
+import { phraseSlug } from '../../lib/slug';
 
 export type Phrase = {
   id: number;
@@ -9,7 +10,19 @@ export type Phrase = {
   note?: string;
   /** In the target language. */
   text: string;
+  /** `/say/<slug>`: the phrase in every language. */
+  slug: string;
 };
+
+// Recordings live at src/assets/audio/phrases/<lang>/<phrase id>.mp3; only the URLs are
+// bundled. Phrases without a recording get no play button.
+const audio = import.meta.glob<string>('../../assets/audio/phrases/*/*.mp3', {
+  query: '?url',
+  import: 'default',
+  eager: true,
+});
+export const phraseAudio = (lang: LangId, id: number): string | undefined =>
+  audio[`../../assets/audio/phrases/${lang}/${id}.mp3`];
 
 // The English list and each language's translations (keyed by phrase id) load lazily, so
 // readers who never open the phrasebook do not download them.
@@ -27,10 +40,14 @@ export function loadPhrases(lang: LangId): Promise<Phrase[]> {
   if (!p) {
     p = Promise.all([english(), files[`./${lang}.json`]!()]).then(([en, tr]) =>
       en
-        .map((x) => ({ ...x, text: tr.default[x.id] ?? '' }))
+        .map((x) => ({ ...x, text: tr.default[x.id] ?? '', slug: phraseSlug(x.phrase) }))
         .sort((a, b) => a.rank - b.rank),
     );
     cache.set(lang, p);
   }
   return p;
 }
+
+let all: Promise<Phrase[][]> | undefined;
+/** Every phrasebook, in PHRASE_LANGS order (for `/say/:slug`). */
+export const loadAllPhrases = () => (all ??= Promise.all(PHRASE_LANGS.map(loadPhrases)));
