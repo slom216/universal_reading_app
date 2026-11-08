@@ -868,6 +868,40 @@ a.button--primary::after,
   min-width: 2.75rem;
 }
 
+/* Phrase practice: the choices are buttons styled like quiz options. */
+.practice__note {
+  clear: both;
+  margin: 0 0 var(--space-3);
+}
+
+.practice__choice {
+  width: 100%;
+  font: inherit;
+  text-align: start;
+  color: inherit;
+  background: var(--color-surface);
+}
+
+.practice__choice:not(:disabled):hover {
+  border-color: var(--color-accent);
+}
+
+.practice__choice:disabled {
+  cursor: default;
+}
+
+.practice__choice.is-answer {
+  border-color: var(--color-success-border);
+  color: var(--color-success);
+  font-weight: 700;
+}
+
+.practice__choice.is-picked {
+  border-color: var(--color-danger-border);
+  color: var(--color-danger);
+  text-decoration: line-through;
+}
+
 /* Reader */
 .reader {
   max-width: var(--reading-max-width);

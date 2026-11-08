@@ -6,6 +6,7 @@ import { LANGS, isLangId, type LangId } from '../languages';
 import { useScript } from '../lib/script';
 import { track } from '../lib/track';
 import { NotFoundPage } from './NotFoundPage';
+import { PracticeLinks } from './PhrasePracticePage';
 
 // Recordings live at src/assets/audio/phrases/<lang>/<phrase id>.mp3; only the URLs are
 // bundled. Phrases without a recording get no play button.
@@ -94,6 +95,7 @@ function PhraseList({ id }: { id: LangId }) {
         <ScriptToggle id={id} />
         <RomanizeToggle id={id} />
       </div>
+      {id !== 'en' && <PracticeLinks id={id} />}
       <ol className="text-list">
         {shown.map((p) => {
           const url = audio[`../assets/audio/phrases/${id}/${p.id}.mp3`];
