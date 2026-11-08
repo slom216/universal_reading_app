@@ -24,6 +24,8 @@ export const progressDataSchema = z.object({
     isvScript: z.enum(['latin', 'cyrillic']),
     /** Arabic vowel marks (harakat). Missing in data saved before Arabic existed. */
     arHarakat: z.enum(['on', 'off']).default('on'),
+    /** Serbian script; texts are stored in Cyrillic. Missing in data saved before Serbian. */
+    srScript: z.enum(['cyrillic', 'latin']).default('cyrillic'),
     /** The language the "Texts" nav link and the settings sample use. */
     lastLang: z.enum(LANG_IDS).nullable(),
   }),
@@ -37,7 +39,14 @@ export type Settings = ProgressData['settings'];
 const initial: ProgressData = {
   results: {},
   activity: {},
-  settings: { theme: 'system', fontSize: 'm', isvScript: 'latin', arHarakat: 'on', lastLang: null },
+  settings: {
+    theme: 'system',
+    fontSize: 'm',
+    isvScript: 'latin',
+    arHarakat: 'on',
+    srScript: 'cyrillic',
+    lastLang: null,
+  },
   recentLangs: [],
 };
 

@@ -1,6 +1,18 @@
 import type { Level } from './content/schema';
 
-export const LANG_IDS = ['it', 'es', 'fr', 'ru', 'isv', 'tr', 'pt', 'ar', 'pl', 'el'] as const;
+export const LANG_IDS = [
+  'it',
+  'es',
+  'fr',
+  'ru',
+  'isv',
+  'tr',
+  'pt',
+  'ar',
+  'pl',
+  'el',
+  'sr',
+] as const;
 export type LangId = (typeof LANG_IDS)[number];
 
 export type Lang = {
@@ -220,12 +232,32 @@ export const LANGS: Record<LangId, Lang> = {
     },
     counts: { A1: 60, A2: 100, B1: 140 },
   },
+  sr: {
+    id: 'sr',
+    code: 'sr',
+    name: 'Serbian',
+    native: 'Српски',
+    trueLabel: 'Тачно',
+    falseLabel: 'Нетачно',
+    quizHeading: 'Да ли је све јасно?',
+    glossHeading: 'Речи из текста',
+    perfect: 'Одлично! 🎉',
+    sample: 'Ово је пример реченице у изабраној величини.',
+    // Ekavian, stored in Cyrillic (the reader can switch to Latin). No articles;
+    // inflected case forms go in `match`.
+    articles: null,
+    blurb: {
+      A1: 'Short everyday texts from Serbia in the present tense, with the first cases: family, food, home.',
+      A2: 'Longer stories about work, travel and health, told in the perfect tense, with all seven cases.',
+      B1: 'Articles and reports on Serbian society, work and daily life, with aspect, the conditional and који clauses.',
+    },
+    counts: { A1: 60, A2: 100, B1: 140 },
+  },
 };
 
 /**
  * Announced on the picker as "coming soon". No routes or texts yet: when one gets texts,
- * move it into LANG_IDS/LANGS. Notes for that move: sr needs a Latin/Cyrillic switch
- * like isv; fa and ku (Sorani) are right-to-left like ar (see :lang(ar) in globals.css).
+ * move it into LANG_IDS/LANGS. Notes for that move: fa and ku (Sorani) are right-to-left like ar (see :lang(ar) in globals.css).
  */
 export const UPCOMING: { code: string; name: string; native: string }[] = [
   { code: 'ro', name: 'Romanian', native: 'Română' },
@@ -234,7 +266,6 @@ export const UPCOMING: { code: string; name: string; native: string }[] = [
   { code: 'ku', name: 'Kurdish', native: 'Kurdî' },
   { code: 'fa', name: 'Persian', native: 'فارسی' },
   { code: 'hr', name: 'Croatian', native: 'Hrvatski' },
-  { code: 'sr', name: 'Serbian', native: 'Srpski / Српски' },
   { code: 'bs', name: 'Bosnian', native: 'Bosanski' },
   { code: 'bg', name: 'Bulgarian', native: 'Български' },
   { code: 'mk', name: 'Macedonian', native: 'Македонски' },

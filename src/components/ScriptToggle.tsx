@@ -11,6 +11,14 @@ const TOGGLES = {
       { value: 'cyrillic', label: 'Кирилица', lang: 'isv-Cyrl' },
     ],
   },
+  sr: {
+    setting: 'srScript',
+    label: 'Serbian script',
+    options: [
+      { value: 'cyrillic', label: 'Ћирилица', lang: 'sr' },
+      { value: 'latin', label: 'Latinica', lang: 'sr-Latn' },
+    ],
+  },
   ar: {
     setting: 'arHarakat',
     label: 'Arabic vowel marks',
@@ -23,14 +31,14 @@ const TOGGLES = {
 
 const hasScriptToggle = (id: LangId): id is keyof typeof TOGGLES => id in TOGGLES;
 
-/** Interslavic script or Arabic vowel switch, shown in the reader and on the settings
+/** Interslavic or Serbian script, or Arabic vowel switch, shown in the reader and on the settings
  *  page. Renders nothing for other languages. */
 export function ScriptToggle({ id }: { id: LangId }) {
   const settings = useProgress((s) => s.settings);
   const setSettings = useProgress((s) => s.setSettings);
   if (!hasScriptToggle(id)) return null;
   const t = TOGGLES[id];
-  // Saved data from before Arabic existed has no arHarakat; the default is on.
+  // Saved data from before Arabic/Serbian existed lacks the setting; the first option is the default.
   const current = settings[t.setting] ?? t.options[0].value;
   return (
     <div className="segmented" role="radiogroup" aria-label={t.label}>

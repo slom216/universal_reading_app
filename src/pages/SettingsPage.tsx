@@ -81,11 +81,7 @@ export function SettingsPage() {
             </label>
           ))}
         </div>
-        <p
-          className="reading"
-          data-font={state.settings.fontSize}
-          lang={sample.code}
-        >
+        <p className="reading" data-font={state.settings.fontSize} lang={sample.code}>
           {sample.tr(sampleLang.sample)}
         </p>
       </section>
@@ -100,10 +96,19 @@ export function SettingsPage() {
       </section>
 
       <section className="card stack stack--tight">
+        <h2>Serbian script</h2>
+        <p className="text-muted">
+          Serbian is written in both Cyrillic and Latin letters. Texts are shown in
+          Cyrillic; pick Latin to read them in the Latin alphabet instead.
+        </p>
+        <ScriptToggle id="sr" />
+      </section>
+
+      <section className="card stack stack--tight">
         <h2>Arabic vowel marks</h2>
         <p className="text-muted">
-          Arabic texts are fully vowelled, as in textbooks. Hide the vowel marks to practise
-          reading Arabic the way it is usually printed.
+          Arabic texts are fully vowelled, as in textbooks. Hide the vowel marks to
+          practise reading Arabic the way it is usually printed.
         </p>
         <ScriptToggle id="ar" />
       </section>

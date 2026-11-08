@@ -11,7 +11,14 @@ const data: ProgressData = {
     },
   },
   activity: { '2026-09-23': 2 },
-  settings: { theme: 'dark', fontSize: 'l', isvScript: 'cyrillic', arHarakat: 'off', lastLang: 'ru' },
+  settings: {
+    theme: 'dark',
+    fontSize: 'l',
+    isvScript: 'cyrillic',
+    arHarakat: 'off',
+    srScript: 'latin',
+    lastLang: 'ru',
+  },
   recentLangs: ['ru', 'it'],
 };
 

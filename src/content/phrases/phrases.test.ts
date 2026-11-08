@@ -2,8 +2,10 @@ import { existsSync, readFileSync } from 'node:fs';
 import { LANG_IDS } from '../../languages';
 
 // Languages without a phrasebook yet are skipped (see PHRASE_LANGS).
-const LANGS_WITH_PHRASES = LANG_IDS.filter((id) => existsSync(`src/content/phrases/${id}.json`));
-import { ISV_LETTERS } from '../../lib/isvCyrillic';
+const LANGS_WITH_PHRASES = LANG_IDS.filter((id) =>
+  existsSync(`src/content/phrases/${id}.json`),
+);
+import { ISV_LETTERS, SR_LETTERS } from '../../lib/isvCyrillic';
 
 const english = (
   JSON.parse(readFileSync('1000_phrases_claude.json', 'utf8')) as {
@@ -15,9 +17,10 @@ const english = (
 const brackets = (s: string) => (s.match(/\[/g) ?? []).length;
 
 describe.each(LANGS_WITH_PHRASES)('%s phrases', (id) => {
-  const tr = JSON.parse(
-    readFileSync(`src/content/phrases/${id}.json`, 'utf8'),
-  ) as Record<string, string>;
+  const tr = JSON.parse(readFileSync(`src/content/phrases/${id}.json`, 'utf8')) as Record<
+    string,
+    string
+  >;
 
   it('translates every phrase, keeping its [placeholders]', () => {
     const missing = english.filter((p) => !tr[p.id]?.trim()).map((p) => p.rank);
@@ -34,11 +37,12 @@ describe.each(LANGS_WITH_PHRASES)('%s phrases', (id) => {
     expect(silent.map((p) => p.rank)).toEqual([]);
   });
 
-  if (id === 'isv') {
-    it('uses only the standard Interslavic alphabet', () => {
+  const letters = { isv: ISV_LETTERS, sr: SR_LETTERS }[id as string];
+  if (letters) {
+    it('uses only the standard alphabet', () => {
       const all = Object.values(tr).join(' ');
       const bad = [...new Set(all.match(/\p{L}/gu) ?? [])].filter(
-        (c) => !ISV_LETTERS.test(c),
+        (c) => !letters.test(c),
       );
       expect(bad).toEqual([]);
     });
