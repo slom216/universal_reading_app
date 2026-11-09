@@ -9,10 +9,10 @@ export default defineConfig({
     // Offline support, like the other DeuLern apps: the app shell is precached. Each
     // language's texts chunk (1–2 MB, see manualChunks) is cached the first time that
     // language is opened instead, so a visitor does not download all fifteen up front;
-    // every language they have read works offline. A new version waits until every tab
-    // is closed; there is no "update ready" prompt.
+    // every language they have read works offline. A new version takes over as soon as it
+    // installs (skipWaiting + clientsClaim), so returning visitors never stay on an old build.
     VitePWA({
-      registerType: 'prompt',
+      registerType: 'autoUpdate',
       injectRegister: 'script',
       manifest: {
         name: 'DeuLern Polyglot',
@@ -63,6 +63,8 @@ export default defineConfig({
         // vite-plugin-pwa defaults this to index.html, which would win over the route above.
         navigateFallback: null,
         cleanupOutdatedCaches: true,
+        skipWaiting: true,
+        clientsClaim: true,
       },
     }),
   ],
