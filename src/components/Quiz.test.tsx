@@ -52,4 +52,39 @@ describe('Quiz', () => {
     );
     expect(screen.queryByRole('button', { name: 'Try again' })).not.toBeInTheDocument();
   });
+
+  it('links the share button to the score', async () => {
+    render(
+      <MemoryRouter>
+        <Quiz
+          questions={questions}
+          onComplete={vi.fn()}
+          next={{ to: '/it/text/a1-02', label: 'Next text' }}
+          labels={{ trueLabel: 'Vero', falseLabel: 'Falso', perfect: 'Perfetto!' }}
+          code="it"
+          shareOnX={{ href: (c, t) => `https://x.test/?s=${c}/${t}` }}
+        />
+      </MemoryRouter>,
+    );
+    await userEvent.click(screen.getByLabelText('3'));
+    await userEvent.click(screen.getByLabelText('Falso'));
+    await userEvent.click(screen.getByRole('button', { name: 'Check answers' }));
+
+    expect(screen.getByRole('link', { name: 'Share on X' })).toHaveAttribute(
+      'href',
+      'https://x.test/?s=2/2',
+    );
+  });
+
+  it('opens the result as a popup that closes back to the card', async () => {
+    renderQuiz();
+    await userEvent.click(screen.getByLabelText('3'));
+    await userEvent.click(screen.getByLabelText('Falso'));
+    await userEvent.click(screen.getByRole('button', { name: 'Check answers' }));
+
+    expect(screen.getByRole('dialog', { name: 'Your result' })).toBeInTheDocument();
+    await userEvent.click(screen.getByRole('button', { name: 'Close' }));
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+    expect(screen.getByText(/Perfetto/)).toBeInTheDocument();
+  });
 });

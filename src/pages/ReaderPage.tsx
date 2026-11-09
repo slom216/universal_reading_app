@@ -46,6 +46,18 @@ export function ReaderPage() {
   const audioUrl = audio[`../assets/audio/${key(text.id)}.mp3`];
   const params = { reading_language: lang.id, level: text.level, text_id: text.id };
   const nextClicked = () => track('next_text', params);
+  // Prerendered text pages carry og: tags, so X shows a card for the link.
+  const shareOnX = (correct: number, total: number) =>
+    'https://x.com/intent/tweet?' +
+    new URLSearchParams({
+      text:
+        `I just read “${tr(text.title)}”, a ${lang.name} ${text.level} text on Polyglot, and ` +
+        (correct === total
+          ? 'got every question right 🎉'
+          : `scored ${correct}/${total} on the quiz`),
+      url: `${window.location.origin}${base}/text/${text.id}`,
+      hashtags: `Learn${lang.name}`,
+    }).toString();
 
   return (
     <article className="reader stack" data-font={fontSize} data-split={split}>
@@ -134,11 +146,15 @@ export function ReaderPage() {
             code={code}
             tr={tr}
             rt={rt}
+            shareOnX={{
+              href: shareOnX,
+              onClick: () => track('share', { ...params, method: 'x' }),
+            }}
             next={
               next
                 ? {
                     to: `${base}/text/${next.id}`,
-                    label: `Next text: ${tr(next.title)} →`,
+                    label: `Next text: ${tr(next.title)}`,
                     onClick: nextClicked,
                   }
                 : { to: levelPath, label: `Back to level ${text.level}` }
