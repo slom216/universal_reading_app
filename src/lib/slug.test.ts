@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs';
-import { phraseQuote, phraseSlug } from './slug';
+import { fold, phraseQuote, phraseSlug } from './slug';
 
 test('slugs are readable and unique across the 1000 phrases', () => {
   expect(phraseSlug("Where's the bathroom?")).toBe('wheres-the-bathroom');
@@ -11,4 +11,10 @@ test('slugs are readable and unique across the 1000 phrases', () => {
   const slugs = en.map((p) => phraseSlug(p.phrase));
   expect(new Set(slugs).size).toBe(en.length);
   expect(slugs.every((s) => /^[a-z0-9]+(-[a-z0-9]+)*$/.test(s))).toBe(true);
+});
+
+test('search folding ignores case, accents and Arabic vowel marks', () => {
+  expect(fold('Café ÉTÉ')).toBe('cafe ete');
+  expect(fold('شُكْرًا')).toBe('شكرا');
+  expect(fold('Größe')).toBe('große');
 });

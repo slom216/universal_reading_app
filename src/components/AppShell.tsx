@@ -92,6 +92,7 @@ export function AppShell() {
               <br />
               All texts are written for this app. Your progress is stored only in this
               browser.{' '}
+              <NavLink to="/about">About</NavLink> ·{' '}
               <a href="#cookies" data-consent-open>
                 Cookies
               </a>

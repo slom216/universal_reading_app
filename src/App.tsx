@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { AppShell } from './components/AppShell';
+import { AboutPage } from './pages/AboutPage';
 import { LangLayout } from './components/LangLayout';
 import { HomePage } from './pages/HomePage';
 import { HubPage } from './pages/HubPage';
@@ -43,6 +44,7 @@ export function App() {
           <Route path="pronunciation/:lang" element={<PronunciationPage />} />
           <Route path="progress" element={<ProgressPage />} />
           <Route path="settings" element={<SettingsPage />} />
+          <Route path="about" element={<AboutPage />} />
           <Route path=":lang" element={<LangLayout />}>
             <Route index element={<HomePage />} />
             <Route path="level/:level" element={<LevelPage />} />

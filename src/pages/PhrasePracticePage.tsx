@@ -11,6 +11,7 @@ import { useProgress } from '../store/progress';
 import { NotFoundPage } from './NotFoundPage';
 
 export const PRACTICE_SIZES = [20, 50, 100] as const;
+const ROUND_NAMES = { 20: 'Quick round', 50: 'Longer round', 100: 'Big round' };
 
 /** Links that start a practice round of 20, 50 or 100 phrases drawn at random from all
  *  1000, in either direction. `?to=en` asks for the English. */
@@ -19,8 +20,8 @@ export function PracticeLinks({ id }: { id: LangId }) {
   return (
     <div className="stack stack--tight">
       {[
-        { to: '', label: `English → ${name}:` },
-        { to: '&to=en', label: `${name} → English:` },
+        { to: '', label: `Translate into ${name}` },
+        { to: '&to=en', label: `Translate into English` },
       ].map((d) => (
         <div key={d.to} className="row">
           <span className="text-sm">{d.label}</span>
@@ -30,7 +31,7 @@ export function PracticeLinks({ id }: { id: LangId }) {
               className="button button--secondary"
               to={`/phrases/${id}/practice?n=${n}${d.to}`}
             >
-              {n}
+              {ROUND_NAMES[n]} · {n} phrases
             </Link>
           ))}
         </div>

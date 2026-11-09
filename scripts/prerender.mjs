@@ -337,6 +337,15 @@ ${sayLinks}
   urls.push(`/pronunciation/${lang}`);
 }
 
+write(
+  '/about',
+  'About Polyglot · DeuLern Polyglot',
+  'Who makes DeuLern Polyglot, how its texts and phrases are written with the help of AI, and how they are checked.',
+  `<h1>About Polyglot</h1>
+<p>Polyglot is made by Slobodan Markovic as part of <a href="https://deulern.com">DeuLern</a>. Its texts, phrases and pronunciation rules were written with the help of AI and pass automated checks; they have not been reviewed by native speakers. There are almost certainly mistakes, and we are working on finding and fixing them.</p>`,
+);
+urls.push('/about');
+
 // The home page doubles as the SPA fallback, so it gets only the section links.
 writeFileSync(
   'dist/index.html',

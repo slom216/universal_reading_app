@@ -4,6 +4,7 @@ import { RomanizeToggle, ScriptToggle } from '../components/ScriptToggle';
 import { PHRASE_LANGS, loadPhrases, phraseAudio } from '../content/phrases';
 import { LANGS, isLangId, type LangId } from '../languages';
 import { useScript } from '../lib/script';
+import { fold } from '../lib/slug';
 import { track } from '../lib/track';
 import { NotFoundPage } from './NotFoundPage';
 import { PracticeLinks } from './PhrasePracticePage';
@@ -55,10 +56,16 @@ export function PhrasesPage() {
 function PhraseList({ id }: { id: LangId }) {
   const phrases = use(loadPhrases(id));
   const [category, setCategory] = useState('');
+  const [q, setQ] = useState('');
   const lang = LANGS[id];
-  const { code, rt } = useScript(id, lang.code);
+  const { code, rt, tr } = useScript(id, lang.code);
   const categories = [...new Set(phrases.map((p) => p.category))].sort();
-  const shown = category ? phrases.filter((p) => p.category === category) : phrases;
+  const needle = fold(q.trim());
+  const shown = phrases.filter(
+    (p) =>
+      (!category || p.category === category) &&
+      (!needle || fold(`${p.phrase} ${p.text} ${tr(p.text)}`).includes(needle)),
+  );
 
   const play = (phraseId: number, url: string) => {
     void new Audio(url).play();
@@ -77,6 +84,15 @@ function PhraseList({ id }: { id: LangId }) {
       </p>
       <div className="phrase-tools">
         <label>
+          Search{' '}
+          <input
+            type="search"
+            value={q}
+            onChange={(e) => setQ(e.target.value)}
+            placeholder={`English or ${lang.name}`}
+          />
+        </label>
+        <label>
           Topic{' '}
           <select value={category} onChange={(e) => setCategory(e.target.value)}>
             <option value="">All topics ({phrases.length})</option>
@@ -89,8 +105,14 @@ function PhraseList({ id }: { id: LangId }) {
         </label>
         <ScriptToggle id={id} />
         <RomanizeToggle id={id} />
+        {(needle || category) && (
+          <span className="text-sm text-muted" role="status">
+            {shown.length} {shown.length === 1 ? 'phrase' : 'phrases'}
+          </span>
+        )}
       </div>
       {id !== 'en' && <PracticeLinks id={id} />}
+      {!shown.length && <p className="text-muted">No phrases match “{q.trim()}”.</p>}
       <ol className="text-list">
         {shown.map((p) => {
           const url = phraseAudio(id, p.id);

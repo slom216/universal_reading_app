@@ -45,7 +45,8 @@ export function HubPage() {
         <div className="hero__copy">
           <p className="eyebrow">Fifteen languages, A1 to B1</p>
           <h1>
-            Learn a language <span className="hero__accent">one step at a time.</span>
+            Free graded reading{' '}
+            <span className="hero__accent">and everyday language practice.</span>
           </h1>
           <p className="lead">
             {LANG_IDS.map((id) => LANGS[id].name).join(', ')}. Read graded stories, or
@@ -79,6 +80,45 @@ export function HubPage() {
           </article>
         ))}
       </div>
+
+      {/* Taken from the first German A1 text, “Hallo, ich bin Lena”. */}
+      <section className="stack stack--tight" aria-labelledby="cycle-heading">
+        <p className="eyebrow">One word, one text</p>
+        <h2 id="cycle-heading">How it works</h2>
+        <ol className="level-grid cycle">
+          <li className="card stack stack--tight">
+            <span className="chip">1 · Read</span>
+            <p lang="de">
+              Ich bin 24 Jahre alt und komme aus{' '}
+              <span className="gloss__word">Österreich</span>.
+            </p>
+            <p className="text-sm text-muted">
+              Tap an underlined word to see its meaning: Österreich = Austria.
+            </p>
+          </li>
+          <li className="card stack stack--tight">
+            <span className="chip">2 · Check</span>
+            <p lang="de">
+              <b>Woher kommt Lena?</b>
+              <br />
+              <span className="cycle__answer">✓ Aus Österreich</span>
+            </p>
+            <p className="text-sm text-muted">
+              A few questions after each text show what you understood.
+            </p>
+          </li>
+          <li className="card stack stack--tight">
+            <span className="chip">3 · Review</span>
+            <p>
+              <b lang="de">Österreich</b> → Austria
+            </p>
+            <p className="text-sm text-muted">
+              The word comes back in your review the next day, then less and less often
+              until it sticks.
+            </p>
+          </li>
+        </ol>
+      </section>
     </div>
   );
 }

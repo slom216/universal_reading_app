@@ -11,3 +11,7 @@ export const phraseSlug = (phrase: string) =>
 
 /** The phrase as it reads inside a sentence: "Thank you." → "Thank you". */
 export const phraseQuote = (phrase: string) => phrase.replace(/\.$/, '');
+
+/** Lowercase without accents or vowel marks, for search: "cafe" finds "café", and
+ *  Arabic typed without harakat finds the vowelled text. */
+export const fold = (s: string) => s.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();

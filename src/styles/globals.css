@@ -956,6 +956,21 @@ a.button--primary::after,
   width: 100%;
 }
 
+/* About: one text size throughout, section titles a step down from h2, and the
+   stack's gaps as the only spacing. */
+.about {
+  font-size: var(--text-lg);
+}
+
+.about h2 {
+  font-size: var(--text-xl);
+}
+
+.about p,
+.about ul {
+  margin: 0;
+}
+
 /* A checkbox drawn as a sliding switch. */
 .switch {
   display: inline-flex;
@@ -1232,6 +1247,26 @@ rt {
   font-size: var(--text-sm);
   line-height: 1.4;
   box-shadow: var(--shadow-md);
+}
+
+/* Hub page: a static walk through one text. */
+.cycle {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cycle p {
+  margin: 0;
+}
+
+.cycle .gloss__word {
+  cursor: auto;
+}
+
+.cycle__answer {
+  color: var(--color-success);
+  font-weight: 600;
 }
 
 .glossary {
