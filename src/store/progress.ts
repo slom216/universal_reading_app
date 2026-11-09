@@ -49,6 +49,10 @@ export const progressDataSchema = z.object({
     romanize: z.array(z.enum(LANG_IDS)).default(['zh', 'hi', 'ar']),
     /** Reader shows the text and its questions side by side on wide screens. */
     split: z.boolean().default(false),
+    /** Reading ruler: a highlighted band the text scrolls under. Missing before it. */
+    ruler: z.boolean().default(false),
+    /** Dyslexia-friendly font and spacing in texts. Missing before it. */
+    dyslexic: z.boolean().default(false),
     /** The language the "Texts" nav link and the settings sample use. */
     lastLang: z.enum(LANG_IDS).nullable(),
   }),
@@ -71,6 +75,8 @@ const initial: ProgressData = {
     srScript: 'cyrillic',
     romanize: ['zh', 'hi', 'ar'],
     split: false,
+    ruler: false,
+    dyslexic: false,
     lastLang: null,
   },
   recentLangs: [],

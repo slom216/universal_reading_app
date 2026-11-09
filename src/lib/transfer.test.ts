@@ -20,6 +20,8 @@ const data: ProgressData = {
     srScript: 'latin',
     romanize: ['zh', 'el'],
     split: true,
+    ruler: true,
+    dyslexic: true,
     lastLang: 'ru',
   },
   recentLangs: ['ru', 'it'],

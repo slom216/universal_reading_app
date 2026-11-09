@@ -81,7 +81,21 @@ export function SettingsPage() {
             </label>
           ))}
         </div>
-        <p className="reading" data-font={state.settings.fontSize} lang={sample.code}>
+        <label className="switch">
+          <input
+            type="checkbox"
+            role="switch"
+            checked={state.settings.dyslexic}
+            onChange={(e) => state.setSettings({ dyslexic: e.target.checked })}
+          />
+          Dyslexia-friendly font
+        </label>
+        <p
+          className="reading"
+          data-font={state.settings.fontSize}
+          data-dyslexic={state.settings.dyslexic || undefined}
+          lang={sample.code}
+        >
           {sample.tr(sampleLang.sample)}
         </p>
       </section>

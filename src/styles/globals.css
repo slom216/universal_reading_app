@@ -1064,6 +1064,59 @@ a.button--primary::after,
   margin-bottom: 1em;
 }
 
+/* Reader header: split view, ruler and font switches, folded away by default. */
+.reader__options > summary {
+  width: fit-content;
+  cursor: pointer;
+  font-size: var(--text-label);
+  font-weight: 700;
+}
+
+.reader__options[open] > summary {
+  margin-bottom: var(--space-2);
+}
+
+/* Reading ruler: a band behind one line of the text (ReadingRuler sets top/height). */
+.reading:has(> .ruler) {
+  position: relative;
+  isolation: isolate;
+}
+
+.ruler {
+  position: absolute;
+  inset-inline: -0.5rem;
+  z-index: -1;
+  box-sizing: content-box;
+  margin-top: -0.3em;
+  padding-block: 0.3em;
+  background: var(--color-accent-soft);
+  border-block: 2px solid var(--color-accent);
+  border-radius: var(--radius-sm, 4px);
+  pointer-events: none;
+  transition: top 0.15s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ruler {
+    transition: none;
+  }
+}
+
+/* Dyslexia-friendly: wider letter, word and line spacing (British Dyslexia Association
+   style guide) in a plain sans. OpenDyslexic or Atkinson Hyperlegible are used when
+   installed. Arabic, Hindi and Chinese keep their faces: spacing breaks joined letters.
+   ponytail: system fonts only; bundle a woff2 if readers ask for OpenDyslexic itself. */
+:is([data-dyslexic] .reading, .reading[data-dyslexic]):not(
+    :lang(ar),
+    :lang(hi),
+    :lang(zh-CN)
+  ) {
+  font-family: 'OpenDyslexic', 'Atkinson Hyperlegible', Verdana, Tahoma, sans-serif;
+  letter-spacing: 0.05em;
+  word-spacing: 0.2em;
+  line-height: 2;
+}
+
 /* Arabic: right to left wherever lang="ar" is set (body, titles, glossary, quiz), a
    Naskh face from the system, and more leading so the vowel marks don't collide.
    ponytail: system fonts only; bundle a Naskh woff2 if a platform renders harakat badly. */
@@ -1698,6 +1751,8 @@ label.button:has(input:focus-visible) {
   .reader > .text-sm:first-child,
   .reader__audio,
   .reader__pager,
+  .ruler,
+  .reader__options,
   .segmented,
   .switch,
   .phrase-tools,

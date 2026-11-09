@@ -1,5 +1,6 @@
 import { useState, type ReactNode } from 'react';
 import { findGlossary, glossaryNeedle, type ReadingText } from '../content/schema';
+import { ReadingRuler } from './ReadingRuler';
 
 type Hit = { start: number; end: number; entry: ReadingText['glossary'][number] };
 
@@ -34,6 +35,7 @@ export function GlossaryText({
   code,
   tr,
   rt = tr,
+  ruler = false,
 }: {
   text: ReadingText;
   articles: RegExp | null;
@@ -41,6 +43,8 @@ export function GlossaryText({
   tr: (s: string) => string;
   /** `tr` with the pronunciation guide as ruby. */
   rt?: (s: string) => ReactNode;
+  /** Shows the line-by-line reading ruler. */
+  ruler?: boolean;
 }) {
   const [open, setOpen] = useState<string | null>(null);
   const paragraphs = text.body.split(/\n\n+/);
@@ -52,6 +56,8 @@ export function GlossaryText({
       lang={code}
       onKeyDown={(e) => e.key === 'Escape' && setOpen(null)}
     >
+      {/* key: a new text starts the ruler on its first line again */}
+      {ruler && <ReadingRuler key={text.id} />}
       {paragraphs.map((p, pi) => {
         const parts: ReactNode[] = [];
         let pos = 0;

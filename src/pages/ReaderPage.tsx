@@ -28,6 +28,8 @@ export function ReaderPage() {
   // Saved data from before this setting lacks it.
   const split = useProgress((s) => s.settings.split ?? false);
   const setSettings = useProgress((s) => s.setSettings);
+  const ruler = useProgress((s) => s.settings.ruler ?? false);
+  const dyslexic = useProgress((s) => s.settings.dyslexic ?? false);
   const found = Boolean(text);
   useEffect(() => {
     if (found) openedText(lang.id);
@@ -60,7 +62,12 @@ export function ReaderPage() {
     }).toString();
 
   return (
-    <article className="reader stack" data-font={fontSize} data-split={split}>
+    <article
+      className="reader stack"
+      data-font={fontSize}
+      data-split={split}
+      data-dyslexic={dyslexic || undefined}
+    >
       <p className="text-sm">
         <Link to={levelPath}>
           ← {lang.name} {text.level} texts
@@ -77,15 +84,44 @@ export function ReaderPage() {
         <h1 lang={code}>{rt(text.title)}</h1>
         <ScriptToggle id={lang.id} />
         <RomanizeToggle id={lang.id} />
-        <label className="switch reader__split-toggle">
-          <input
-            type="checkbox"
-            role="switch"
-            checked={split}
-            onChange={(e) => setSettings({ split: e.target.checked })}
-          />
-          Questions beside the text
-        </label>
+        {/* key: every text opens with the options folded away */}
+        <details key={text.id} className="reader__options">
+          <summary>Reading options</summary>
+          <div className="stack stack--tight">
+            <label className="switch reader__split-toggle">
+              <input
+                type="checkbox"
+                role="switch"
+                checked={split}
+                onChange={(e) => setSettings({ split: e.target.checked })}
+              />
+              Questions beside the text
+            </label>
+            <label className="switch">
+              <input
+                type="checkbox"
+                role="switch"
+                checked={ruler}
+                onChange={(e) => setSettings({ ruler: e.target.checked })}
+              />
+              Reading ruler
+            </label>
+            {ruler && (
+              <p className="text-sm text-muted">
+                Move it with the ↓ and ↑ keys, or tap a line.
+              </p>
+            )}
+            <label className="switch">
+              <input
+                type="checkbox"
+                role="switch"
+                checked={dyslexic}
+                onChange={(e) => setSettings({ dyslexic: e.target.checked })}
+              />
+              Dyslexia-friendly font
+            </label>
+          </div>
+        </details>
       </header>
 
       {audioUrl && (
@@ -108,6 +144,7 @@ export function ReaderPage() {
             code={code}
             tr={tr}
             rt={rt}
+            ruler={ruler}
           />
 
           <section className="stack stack--tight" aria-labelledby="glossary-heading">
