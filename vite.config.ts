@@ -46,10 +46,22 @@ export default defineConfig({
             handler: 'CacheFirst',
             options: { cacheName: 'texts', expiration: { maxEntries: 30 } },
           },
+          {
+            // Every route has its own prerendered HTML (scripts/prerender.mjs) with its own
+            // title, canonical and description, so fetch it; the cached shell is only the
+            // offline fallback. Files opened directly (sitemap.xml, robots.txt) are left alone.
+            urlPattern: ({ request, url }) =>
+              request.mode === 'navigate' && !/\.\w+$/.test(url.pathname),
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'pages',
+              expiration: { maxEntries: 50 },
+              precacheFallback: { fallbackURL: 'index.html' },
+            },
+          },
         ],
-        navigateFallback: 'index.html',
-        // Files opened directly (sitemap.xml, robots.txt) must not get the app shell.
-        navigateFallbackDenylist: [/\.\w+$/],
+        // vite-plugin-pwa defaults this to index.html, which would win over the route above.
+        navigateFallback: null,
         cleanupOutdatedCaches: true,
       },
     }),
