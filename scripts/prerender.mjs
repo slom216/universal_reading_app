@@ -101,7 +101,7 @@ for (const [lang, { name, tf }] of Object.entries(LANGS)) {
 
   write(
     `/${lang}`,
-    `${name} reading texts, A1 to B1 · DeuLern Polyglot`,
+    `Free ${name} reading practice, A1 to B1 · DeuLern Polyglot`,
     `Free graded ${name} reading texts for A1, A2 and B1 with a glossary and comprehension questions. No account needed.`,
     `<h1>Graded ${name} reading texts</h1>\n<ul>\n${levelLinks}\n</ul>\n<h2>Other languages</h2>\n<ul>\n${langLinks}\n</ul>`,
   );
@@ -112,7 +112,7 @@ for (const [lang, { name, tf }] of Object.entries(LANGS)) {
     const L = level.toUpperCase();
     write(
       `/${lang}/level/${level}`,
-      `Level ${L} ${name} reading texts · DeuLern Polyglot`,
+      `${name} ${L} reading: ${list.length} texts with quizzes · DeuLern Polyglot`,
       `${list.length} free ${L} ${name} reading texts with a glossary and comprehension questions. No account needed.`,
       `<h1>Level ${L} ${name} reading texts</h1>
 <p>${list.length} short texts at CEFR level ${L}. Each has a glossary of difficult words and comprehension questions you can answer in the browser.</p>
@@ -130,7 +130,7 @@ ${levelLinks}
       const related = [list[i - 1], list[i + 1], list[i + 2]].filter(Boolean);
       write(
         `/${lang}/text/${t.id}`,
-        `${t.title} · ${t.level} ${name} reading text · DeuLern Polyglot`,
+        `${t.title} · ${name} ${t.level} reading text · DeuLern Polyglot`,
         `Read "${t.title}", ${t.level === 'B1' ? 'a' : 'an'} ${t.level} ${name} text about ${t.topic.toLowerCase()}, with a glossary and ${t.questions.length} comprehension questions.`,
         `<p><a href="/${lang}/level/${level}">Level ${t.level} ${name} texts</a></p>
 <h1 lang="${lang}">${esc(t.title)}</h1>
@@ -207,7 +207,7 @@ for (const [lang, { name }] of PHRASE_LANGS) {
   const tr = JSON.parse(readFileSync(`src/content/phrases/${lang}.json`, 'utf8'));
   write(
     `/phrases/${lang}`,
-    `1000 everyday ${name} phrases · DeuLern Polyglot`,
+    `1000 useful ${name} phrases${lang === 'en' ? '' : ' with English translations'} · DeuLern Polyglot`,
     `The 1000 most useful ${name} phrases${lang === 'en' ? '' : ' with English translations'}, from greetings to emergencies, ordered by how useful they are.`,
     `<h1>1000 everyday ${name} phrases</h1>
 <ol>
@@ -346,16 +346,45 @@ write(
 );
 urls.push('/about');
 
-// The home page doubles as the SPA fallback, so it gets only the section links.
+// The service worker still serves the home page for every navigation; the app replaces it.
 writeFileSync(
   'dist/index.html',
   page(
     '/',
-    'DeuLern Polyglot',
+    'DeuLern Polyglot: free reading practice and phrases in 15 languages',
     'Free graded reading texts and the 1000 most useful everyday phrases in English, German, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek, Serbian, Hindi and Chinese. No account needed.',
     `<h1>DeuLern Polyglot: reading texts and everyday phrases in fifteen languages</h1>\n<ul>\n<li><a href="/reading">Graded reading texts</a></li>\n<li><a href="/phrases">Everyday phrases</a></li>\n<li><a href="/pronunciation">Pronunciation</a></li>\n</ul>\n<ul>\n${langLinks}\n</ul>`,
-  ).replace(/\n\s*<link rel="canonical"[^>]*>/, ''),
+    {
+      '@type': 'WebSite',
+      name: 'DeuLern Polyglot',
+      alternateName: 'Polyglot',
+      url: `${ORIGIN}/`,
+      publisher: { '@type': 'Organization', name: 'DeuLern', url: 'https://deulern.com' },
+    },
+  ),
 );
+
+// Pages that only make sense with the visitor's saved progress get the bare app shell,
+// kept out of search. Any other path is a real 404 (wrangler.jsonc serves 404.html).
+const shellPage = (file, title) => {
+  mkdirSync(file.slice(0, file.lastIndexOf('/')), { recursive: true });
+  writeFileSync(
+    file,
+    shell.replace(
+      /<title>[^<]*<\/title>/,
+      `<title>${esc(title)}</title>\n    <meta name="robots" content="noindex" />`,
+    ),
+  );
+};
+shellPage('dist/progress.html', 'Progress · DeuLern Polyglot');
+shellPage('dist/settings.html', 'Settings · DeuLern Polyglot');
+for (const [lang, { name }] of Object.entries(LANGS)) {
+  for (const route of ['words', 'gaps', 'unscramble', 'level-check'])
+    shellPage(`dist/${lang}/${route}.html`, `${name} practice · DeuLern Polyglot`);
+}
+for (const [lang, { name }] of PHRASE_LANGS)
+  shellPage(`dist/phrases/${lang}/practice.html`, `${name} phrase practice · DeuLern Polyglot`);
+shellPage('dist/404.html', 'Page not found · DeuLern Polyglot');
 
 writeFileSync(
   'dist/sitemap.xml',

@@ -5,6 +5,12 @@ import { useProgress } from '../store/progress';
 import { ThemeToggle } from './ThemeToggle';
 import staircase from '../assets/art/footer-staircase.webp';
 
+/** The path the initial HTML was prerendered for, read from its canonical link. */
+const servedPath = (() => {
+  const href = document.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.href;
+  return href ? new URL(href).pathname : null;
+})();
+
 export function AppShell() {
   const lastLang = useProgress((s) => s.settings.lastLang);
   const NAV = [
@@ -30,10 +36,21 @@ export function AppShell() {
     window.scrollTo({ top: 0 });
   }, [pathname]);
 
+  // The prerendered head already has the best title for the page it was served for, so
+  // keep it. After client navigation (or when the service worker serves its cached shell)
+  // name the page after its h1, watching for it: lazy pages render a loading state first.
   useEffect(() => {
-    const h1 = mainRef.current?.querySelector('h1')?.textContent;
-    document.title = h1 ? `${h1} · DeuLern Polyglot` : 'DeuLern Polyglot';
-  });
+    if (pathname === servedPath) return;
+    const main = mainRef.current!;
+    const update = () => {
+      const h1 = main.querySelector('h1')?.textContent;
+      document.title = h1 ? `${h1} · DeuLern Polyglot` : 'DeuLern Polyglot';
+    };
+    update();
+    const observer = new MutationObserver(update);
+    observer.observe(main, { childList: true, subtree: true, characterData: true });
+    return () => observer.disconnect();
+  }, [pathname]);
 
   return (
     <div className="app-shell">

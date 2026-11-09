@@ -48,6 +48,8 @@ export default defineConfig({
           },
         ],
         navigateFallback: 'index.html',
+        // Files opened directly (sitemap.xml, robots.txt) must not get the app shell.
+        navigateFallbackDenylist: [/\.\w+$/],
         cleanupOutdatedCaches: true,
       },
     }),

@@ -4,8 +4,9 @@
   "compatibility_date": "2026-08-15",
   "assets": {
     "directory": "./dist",
-    // SPA fallback: unknown paths serve index.html so deep links work.
-    "not_found_handling": "single-page-application",
+    // Every app route has a prerendered file (scripts/prerender.mjs), so anything else is
+    // a real 404: dist/404.html, the bare app shell, which renders the Not found page.
+    "not_found_handling": "404-page",
   },
   "routes": [{ "pattern": "polyglot.icu", "custom_domain": true }],
   "observability": { "enabled": true },
