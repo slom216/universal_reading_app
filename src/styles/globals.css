@@ -889,6 +889,26 @@ a.button--primary::after,
   border-bottom: 2px solid var(--color-border-strong);
 }
 
+/* Unscramble: word tiles in a wrapping row; the answer row keeps its height when empty. */
+.tiles {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.tiles--answer {
+  min-height: calc(var(--tap-target) + var(--space-2) * 2);
+  padding-block: var(--space-2);
+  border-bottom: 2px solid var(--color-border-strong);
+}
+
+.practice__choice.tile {
+  width: auto;
+}
+
 /* Phrase practice: the choices are buttons styled like quiz options. */
 .practice__note {
   clear: both;

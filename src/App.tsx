@@ -16,6 +16,7 @@ import { ProgressPage } from './pages/ProgressPage';
 import { ReaderPage } from './pages/ReaderPage';
 import { SayIndexPage, SayPage } from './pages/SayPage';
 import { SettingsPage } from './pages/SettingsPage';
+import { UnscramblePage } from './pages/UnscramblePage';
 import { WordsPage } from './pages/WordsPage';
 import { useProgress } from './store/progress';
 
@@ -48,6 +49,7 @@ export function App() {
             <Route path="text/:id" element={<ReaderPage />} />
             <Route path="words" element={<WordsPage />} />
             <Route path="gaps" element={<GapsPage />} />
+            <Route path="unscramble" element={<UnscramblePage />} />
             <Route path="level-check" element={<PlacementPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>

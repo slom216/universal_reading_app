@@ -4,6 +4,7 @@ import { dayKey } from '../lib/dates';
 import { useLang } from '../lib/useLang';
 import { ROUND, dueWords } from '../lib/words';
 import { useProgress } from '../store/progress';
+import { UNSCRAMBLE_ROUND } from './UnscramblePage';
 import heroArt from '../assets/art/hero-reading.webp';
 import artA1 from '../assets/art/level-a1-family.webp';
 import artA2 from '../assets/art/level-a2-travel.webp';
@@ -125,6 +126,21 @@ export function HomePage() {
           <p>
             <Link className="button button--primary" to={`${base}/gaps`}>
               Fill {ROUND} gaps
+            </Link>
+          </p>
+        )}
+      </section>
+
+      <section className="card stack stack--tight" aria-labelledby="unscramble-heading">
+        <h2 id="unscramble-heading">Unscramble</h2>
+        <p>
+          Sentences from the texts you have finished, with the words mixed up. Put them back
+          in order.
+        </p>
+        {anyRead && (
+          <p>
+            <Link className="button button--primary" to={`${base}/unscramble`}>
+              Unscramble {UNSCRAMBLE_ROUND} sentences
             </Link>
           </p>
         )}
