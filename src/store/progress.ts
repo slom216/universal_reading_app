@@ -47,6 +47,8 @@ export const progressDataSchema = z.object({
     srScript: z.enum(['cyrillic', 'latin']).default('cyrillic'),
     /** Languages showing the Latin pronunciation guide. Missing in data saved before it. */
     romanize: z.array(z.enum(LANG_IDS)).default(['zh', 'hi', 'ar']),
+    /** Reader shows the text and its questions side by side on wide screens. */
+    split: z.boolean().default(false),
     /** The language the "Texts" nav link and the settings sample use. */
     lastLang: z.enum(LANG_IDS).nullable(),
   }),
@@ -68,6 +70,7 @@ const initial: ProgressData = {
     arHarakat: 'on',
     srScript: 'cyrillic',
     romanize: ['zh', 'hi', 'ar'],
+    split: false,
     lastLang: null,
   },
   recentLangs: [],

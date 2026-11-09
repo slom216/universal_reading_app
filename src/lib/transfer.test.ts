@@ -19,6 +19,7 @@ const data: ProgressData = {
     arHarakat: 'off',
     srScript: 'latin',
     romanize: ['zh', 'el'],
+    split: true,
     lastLang: 'ru',
   },
   recentLangs: ['ru', 'it'],

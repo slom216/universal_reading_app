@@ -25,6 +25,9 @@ export function ReaderPage() {
   const complete = useProgress((s) => s.complete);
   const fontSize = useProgress((s) => s.settings.fontSize);
   const openedText = useProgress((s) => s.openedText);
+  // Saved data from before this setting lacks it.
+  const split = useProgress((s) => s.settings.split ?? false);
+  const setSettings = useProgress((s) => s.setSettings);
   const found = Boolean(text);
   useEffect(() => {
     if (found) openedText(lang.id);
@@ -45,7 +48,7 @@ export function ReaderPage() {
   const nextClicked = () => track('next_text', params);
 
   return (
-    <article className="reader stack" data-font={fontSize}>
+    <article className="reader stack" data-font={fontSize} data-split={split}>
       <p className="text-sm">
         <Link to={levelPath}>
           ← {lang.name} {text.level} texts
@@ -62,6 +65,15 @@ export function ReaderPage() {
         <h1 lang={code}>{rt(text.title)}</h1>
         <ScriptToggle id={lang.id} />
         <RomanizeToggle id={lang.id} />
+        <label className="switch reader__split-toggle">
+          <input
+            type="checkbox"
+            role="switch"
+            checked={split}
+            onChange={(e) => setSettings({ split: e.target.checked })}
+          />
+          Questions beside the text
+        </label>
       </header>
 
       {audioUrl && (
@@ -76,54 +88,64 @@ export function ReaderPage() {
         />
       )}
 
-      <GlossaryText text={text} articles={lang.articles} code={code} tr={tr} rt={rt} />
+      <div className="reader__body">
+        <div className="stack">
+          <GlossaryText
+            text={text}
+            articles={lang.articles}
+            code={code}
+            tr={tr}
+            rt={rt}
+          />
 
-      <section className="stack stack--tight" aria-labelledby="glossary-heading">
-        <h2 id="glossary-heading" lang={code}>
-          {tr(lang.glossHeading)}
-        </h2>
-        <p className="text-muted text-sm">Words that might be new at this level.</p>
-        <dl className="glossary">
-          {text.glossary.map((g) => (
-            <div key={g.term} className="glossary__row">
-              <dt lang={code}>{rt(g.term)}</dt>
-              <dd>{g.translation}</dd>
-            </div>
-          ))}
-        </dl>
-      </section>
+          <section className="stack stack--tight" aria-labelledby="glossary-heading">
+            <h2 id="glossary-heading" lang={code}>
+              {tr(lang.glossHeading)}
+            </h2>
+            <p className="text-muted text-sm">Words that might be new at this level.</p>
+            <dl className="glossary">
+              {text.glossary.map((g) => (
+                <div key={g.term} className="glossary__row">
+                  <dt lang={code}>{rt(g.term)}</dt>
+                  <dd>{g.translation}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        </div>
 
-      <section className="stack" aria-labelledby="quiz-heading">
-        <h2 id="quiz-heading" lang={code}>
-          {tr(lang.quizHeading)}
-        </h2>
-        {/* key resets the quiz state when moving to another text */}
-        <Quiz
-          key={text.id}
-          questions={text.questions}
-          onComplete={(s) => {
-            complete(key(text.id), s);
-            track('quiz_complete', { ...params, score: Math.round(s * 100) });
-          }}
-          labels={{
-            trueLabel: tr(lang.trueLabel),
-            falseLabel: tr(lang.falseLabel),
-            perfect: tr(lang.perfect),
-          }}
-          code={code}
-          tr={tr}
-          rt={rt}
-          next={
-            next
-              ? {
-                  to: `${base}/text/${next.id}`,
-                  label: `Next text: ${tr(next.title)} →`,
-                  onClick: nextClicked,
-                }
-              : { to: levelPath, label: `Back to level ${text.level}` }
-          }
-        />
-      </section>
+        <section className="stack" aria-labelledby="quiz-heading">
+          <h2 id="quiz-heading" lang={code}>
+            {tr(lang.quizHeading)}
+          </h2>
+          {/* key resets the quiz state when moving to another text */}
+          <Quiz
+            key={text.id}
+            questions={text.questions}
+            onComplete={(s) => {
+              complete(key(text.id), s);
+              track('quiz_complete', { ...params, score: Math.round(s * 100) });
+            }}
+            labels={{
+              trueLabel: tr(lang.trueLabel),
+              falseLabel: tr(lang.falseLabel),
+              perfect: tr(lang.perfect),
+            }}
+            code={code}
+            tr={tr}
+            rt={rt}
+            next={
+              next
+                ? {
+                    to: `${base}/text/${next.id}`,
+                    label: `Next text: ${tr(next.title)} →`,
+                    onClick: nextClicked,
+                  }
+                : { to: levelPath, label: `Back to level ${text.level}` }
+            }
+          />
+        </section>
+      </div>
 
       <nav className="row reader__pager" aria-label="More texts">
         {prev && (

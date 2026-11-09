@@ -956,6 +956,89 @@ a.button--primary::after,
   width: 100%;
 }
 
+/* A checkbox drawn as a sliding switch. */
+.switch {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--tap-target);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.switch input {
+  appearance: none;
+  flex: none;
+  position: relative;
+  width: 2.75rem;
+  height: 1.5rem;
+  margin: 0;
+  border: var(--border-width) solid var(--color-border-strong);
+  border-radius: 999px;
+  background: var(--color-surface);
+  cursor: pointer;
+}
+
+.switch input::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0.2rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: var(--color-border-strong);
+  translate: 0 -50%;
+  transition: left 0.15s;
+}
+
+.switch input:checked {
+  background: var(--color-accent-fill);
+  border-color: var(--color-accent-fill);
+}
+
+.switch input:checked::before {
+  left: calc(100% - 1.2rem);
+  background: var(--color-on-accent);
+}
+
+.switch input:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-offset);
+}
+
+.reader__body {
+  display: contents;
+}
+
+/* Side by side only where two columns fit; the questions stay in view while the text scrolls. */
+@media (min-width: 62rem) {
+  .reader[data-split='true'] {
+    max-width: none;
+  }
+
+  .reader[data-split='true'] .reader__body {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+    gap: var(--space-6);
+    align-items: start;
+  }
+
+  /* ponytail: offset guesses the sticky header height (~90px); measure it if the header changes. */
+  .reader[data-split='true'] .reader__body > :last-child {
+    position: sticky;
+    top: 7rem;
+    max-height: calc(100dvh - 8rem);
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 62rem) {
+  .reader__split-toggle {
+    display: none;
+  }
+}
+
 .reading {
   --reading-size: 1.1875rem;
   font-size: var(--reading-size);
@@ -1478,6 +1561,7 @@ label.button:has(input:focus-visible) {
   .reader__audio,
   .reader__pager,
   .segmented,
+  .switch,
   .phrase-tools,
   .phrase__play,
   .gloss__tip,
