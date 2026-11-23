@@ -35,8 +35,8 @@ export function UnscramblePage() {
       </p>
       <h1>{lang.name}: unscramble</h1>
       <p className="lead">
-        Sentences from the texts you have finished, with the words mixed up. Tap them in the
-        right order.
+        Sentences from the texts you have finished, with the words mixed up. Tap them in
+        the right order.
       </p>
       {draw.items.length ? (
         <>
@@ -156,7 +156,9 @@ function Question({
 
   return (
     <>
-      <fieldset className={`card quiz__q${checked ? (ok ? ' is-right' : ' is-wrong') : ''}`}>
+      <fieldset
+        className={`card quiz__q${checked ? (ok ? ' is-right' : ' is-wrong') : ''}`}
+      >
         <legend>Put the words in order</legend>
         <div className="tiles tiles--answer" dir="auto" aria-label="Your sentence">
           {placed.map((k) => tile(k, () => setPlaced(placed.filter((p) => p !== k))))}

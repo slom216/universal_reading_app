@@ -1,0 +1,245 @@
+[
+  {
+    "id": "saga-01",
+    "level": "A1",
+    "title": "Silky",
+    "topic": "Book 1, chapter 1",
+    "body": "Tomas imaje deset lět. On ne imaje ni matere, ni otca. On živje v monastyru v gorah, v monastyru Svetogo Ansela. Tam živut mnogi monahi, i tam takože živut dvanadset dětij. Vse děti sut siroty, kako Tomas.\n\nTomas imaje dvoh prijateljev. Bram imaje jedinadset lět. On jest najstarši hlopec v monastyru. On jest visoky i glasny, i on rad govori drugym dětem, čto dělati. Pip imaje osem lět. On jest maly i smešny, i on govori cěly den. On govori s pticami, s drěvami i s životnymi.\n\nTomas jest drugy. On jest tihy. On ne govori mnogo, ale on gleda na vse i mnogo mysli.\n\nVesnoju hrana v monastyru ne jest dobra. Každy den jest tolko hlěb i malo juhy. Hlopci sut vsegda gladni.\n\nRano utrom, kogda monahi ješče spijut, tri hlopci lězut črez stěnu i idut v lěs. To ne jest dozvoljeno. Opat, otec Gerard, govori to každy tydenj: «Děti ne smějut hoditi v lěs!» Ale hlopci hotějut meso.\n\nV lěsu hlopci imajut silky. Silok jest mala pastka za zajcev. Tomas dělaje velmi dobre silky.\n\n«Tiho!» govori Bram. Ale Bram jest najglasnějši iz trěh.\n\nPrvy silok jest prazny. Tomas vidi sivu šerst na šnuru. «Tu byl zajec», on govori. «Ale sejčas jego ne jest.»\n\n«Tvoj silok jest zly», govori Bram.\n\nTomas ne odgovarja. Jego silok ne jest zly. On dělaje uzel krěpši i stavi silok malo niže.\n\nV drugom silku jest zajec. Bram bere jego i jest velmi rad. «Ja imam zajca!» on govori. Ale to jest silok Tomasa, ne Brama.\n\nNa puti domov Pip se zastavjaje. Na starom drěvu sědi sivy zajec s razdrtym uhom. On gleda na hlopcev. On ne boji se.\n\n«Glejte! To jest zajec iz prvogo silka», govori Pip. «On jest velmi umny. Jego ime jest Kralj.»\n\nPri staroj stazě Tomas opet se zastavjaje. Na zemji on vidi slědy konj. Oni sut veliki i novi. Kto tu imaje velike konje? Tolko bogati ljudi. Tomas dolgo gleda na slědy, ale ničego ne govori Bramu i Pipu.\n\nBrat Anselm stoji pri vratah monastyra. On jest stary monah, velmi dobry. On znaje, kde hlopci byli.\n\nHlopci musijut prepisati stranicu iz staroj knigy. To jest pověst o imperatoru. «Jego krv sošla s zvězd», piše v knigě.\n\n«To jest tolko skazka», govori Bram.\n\nBrat Anselm se usměhaje. «Mnoge věći sut tolko skazky», on govori. «Dokolě jednogo dnja ne prestanut byti skazkami.»",
+    "glossary": [
+      { "term": "silok", "translation": "snare, small trap made of a loop of rope" },
+      { "term": "monastyr", "translation": "monastery, place where monks live and pray", "match": "monastyru" },
+      { "term": "monah", "translation": "monk", "match": "monahi" },
+      { "term": "sirota", "translation": "orphan, child with no mother and no father", "match": "siroty" },
+      { "term": "glasny", "translation": "loud" },
+      { "term": "gladny", "translation": "hungry", "match": "gladni" },
+      { "term": "lězti", "translation": "to climb", "match": "lězut" },
+      { "term": "opat", "translation": "abbot, the head of a monastery" },
+      { "term": "šnur", "translation": "rope, cord", "match": "šnuru" },
+      { "term": "uzel", "translation": "knot" },
+      { "term": "razdrty", "translation": "torn", "match": "razdrtym" },
+      { "term": "umny", "translation": "clever, smart" },
+      { "term": "slěd", "translation": "mark, track on the ground", "match": "slědy" },
+      { "term": "vrata", "translation": "gate", "match": "vratah" },
+      { "term": "krv", "translation": "blood" }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kde živje Tomas?",
+        "options": ["V zamku", "V monastyru", "V selu", "V lěsu"],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Bram jest najmladši iz trěh hlopcev.",
+        "answer": false,
+        "explanation": "Bram imaje jedinadset lět. Najmladši jest Pip: on imaje osem lět."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čemu hlopci idut v lěs?",
+        "options": [
+          "Da by našli brata Anselma",
+          "Da by igrali s Kraljem",
+          "Da by ulovili zajcev",
+          "Da by viděli konje"
+        ],
+        "answer": 2,
+        "explanation": "Oni sut gladni i hotějut meso, zato prověrjajut svoje silky."
+      },
+      {
+        "type": "tf",
+        "prompt": "Prvy silok jest prazny.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kto jest Kralj?",
+        "options": [
+          "Opat monastyra",
+          "Zajec s razdrtym uhom",
+          "Bogaty muž s konjami",
+          "Stary monah"
+        ],
+        "answer": 1,
+        "explanation": "Pip daje to ime umnomu sivomu zajcu."
+      },
+      {
+        "type": "tf",
+        "prompt": "Tomas govori prijateljam o slědah konj.",
+        "answer": false,
+        "explanation": "On dolgo gleda na slědy, ale ničego ne govori."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto hlopci dělajut na koncu?",
+        "options": [
+          "Jedut zajca",
+          "Igrajut v sadu",
+          "Prepisujut stranicu iz staroj knigy",
+          "Idut nazad v lěs"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "saga-02",
+    "level": "A1",
+    "title": "Zloději v noći",
+    "topic": "Book 1, chapter 2",
+    "body": "Jest noć. Vsi v monastyru spijut. Tolko Tomas ne spi. On mysli o slědah konj v lěsu. Kto prihodi v monastyr na velikyh konjah? Možno, ljudi, ktori hotějut vratiti se noćju, on mysli.\n\nTogda on slyši šum vně. On ide k oknu. Měsec jest veliky i světly. Na dvoru sut četyri mužy. Oni idut k kaplici. V kaplici monahi imajut dvě krasne věći: stary srěbrny kubok i malu zlatu skrinju. Te věći sut velmi stare i velmi drage.\n\n«Zloději!» mysli Tomas.\n\nMonahi sut dobri ljudi, ale oni ne umějut biti se. I Tomas sam ne može biti se s četyrmi mužami. Ako on zakriči, zloději uběgnut so srěbrom. Jemu trěba plan.\n\nOn budi Brama. «Bram, slušaj», on tiho govori. «Idi gore na zvonicu. Kogda ja dva raza udarju v stěnu, zvoni v zvon. Zvoni velmi glasno!»\n\nBram hoče něčto skazati. On ne ljubi, kogda Tomas govori jemu, čto dělati. Ale on gleda na lice Tomasa i ide.\n\nPip takože se budi. On vidi mužev na dvoru i velmi se boji. On skryvaje se pod lavku i ostaje tam cělu noć.\n\nTomas bere svoj šnur za silky i běži dolu po stupnjam v podval. Podval imaje dveri v lěs. Zloději hotějut izhoditi tuda, on mysli. Na tretjem stupnju on veže šnur od jednoj stěny do drugoj. Šnur jest nizko i tugo, kako silok za zajcev.\n\nPotom on udarja v stěnu. Raz, dva.\n\nZvon zvoni. On jest velmi, velmi glasny. Monahi se budut, i vo vsih oknah jest světlo. Zloději se bojut. Oni běžet v podval so srěbrom. Prvy zloděj ne vidi šnura. On pada dolu po stupnjam i kriči. Jego noga jest zlomjena. Drugi zloději brosajut kubok i skrinju i běžet v lěs.\n\nTomas ide nazad gore k oknu. Blizko drěv on vidi petogo muža. Toj muž ne běži. On ne jest so zlodějami. On tolko gleda na okna dětskoj spalnje. On imaje tolko jedno oko. Li on računaje děti?\n\nJutrom vsi govoret o noći. «Zvon jest moja ideja», govori Bram, i monahi govoret, že Bram jest geroj. Tomas ničego ne govori. Za njego to jest dobro.\n\nAle on nikomu ne govori o mužu s jednym okom.",
+    "glossary": [
+      { "term": "zloděj", "translation": "thief", "match": "zloději" },
+      { "term": "šum", "translation": "noise" },
+      { "term": "dvor", "translation": "yard", "match": "dvoru" },
+      { "term": "kaplica", "translation": "chapel, small church", "match": "kaplici" },
+      { "term": "srěbrny", "translation": "silver" },
+      { "term": "dragy", "translation": "expensive", "match": "drage" },
+      { "term": "zakričati", "translation": "to shout", "match": "zakriči" },
+      { "term": "zvonica", "translation": "bell tower", "match": "zvonicu" },
+      { "term": "udariti", "translation": "to hit, knock", "match": "udarju" },
+      { "term": "skryvati se", "translation": "to hide", "match": "skryvaje se" },
+      { "term": "lavka", "translation": "bench", "match": "lavku" },
+      { "term": "podval", "translation": "cellar" },
+      { "term": "tugo", "translation": "tight" },
+      { "term": "brosati", "translation": "to drop, throw", "match": "brosajut" }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Čemu Tomas ne spi?",
+        "options": [
+          "On jest gladny",
+          "On mysli o slědah konj",
+          "Pip jego budi",
+          "Zvon zvoni"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto hotějut zloději?",
+        "options": [
+          "Konje",
+          "Hranu",
+          "Srěbrny kubok i zlatu skrinju",
+          "Zvon"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Tomas kriči, da by probudil monahov.",
+        "answer": false,
+        "explanation": "On ne kriči. Bram zvoni v zvon."
+      },
+      {
+        "type": "tf",
+        "prompt": "Pip skryvaje se pod lavku.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Kde Tomas veže šnur?",
+        "options": [
+          "Na dveri kaplice",
+          "Na stupenj v podvalu",
+          "Na zvonici",
+          "Na dvoru"
+        ],
+        "answer": 1,
+        "explanation": "On veže jego na tretjem stupnju, poneže podval imaje dveri v lěs."
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto dělaje muž s jednym okom?",
+        "options": [
+          "On běži v lěs",
+          "On zvoni v zvon",
+          "On gleda na okna dětskoj spalnje",
+          "On bere srěbrny kubok"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Jutrom Tomas govori, že zvon jest jego ideja.",
+        "answer": false,
+        "explanation": "Bram govori, že to jest jego ideja. Tomas ničego ne govori."
+      }
+    ]
+  },
+  {
+    "id": "saga-03",
+    "level": "A1",
+    "title": "Računanje glav",
+    "topic": "Book 1, chapter 3",
+    "body": "Po noći zlodějev v monastyru jest opet tiho. Prihodet ljudi gospodara i vezut zloděja so zlomjenoju nogoju v zamok. «Sejčas vse jest dobro», oni govoret. Opat jest rad. «Bog hrani naš dom», on govori i blagodari Bramu za zvon.\n\nZa tydenj v monastyr prihodi jeden muž. On kupuje i prodaje vlnu. On imaje dva velika voza, četyri konja i slugu. On jest velmi prijatny. On imaje dobru odeždu i govori učtivo. On kupuje vlnu monastyra za dobru cenu i daruje monaham veliku bočku vina.\n\nToj muž imaje tolko jedno oko. Na drugom oku on imaje črnu povezku.\n\nTomas vidi jego i znaje: to jest muž iz toj noći.\n\nTrgovec hoče odjehati slědujučego dnja, ale ne odjehaje. Najprvo na jego vozu se lomi kolo. Slědujučego dnja pada dožd. Tomas vidi, že toj muž jest vsegda blizko dětij. On zadaje mladym monaham mnogo pytanj: «Koliko dětij živje tu? Koliko lět imajut? Idut li oni sami v lěs?»\n\nTomas ide k opatu. «Otče, toj muž byl tu v noć zlodějev», on govori. «Ja viděl jego blizko lěsa.»\n\nOpat gleda na njego. On jest dobry, ale ne věri Tomasu. «Byla noć, Tomas, i byla tma. Sejčas ty vidiš muža s jednym okom i mysliš: to jest toj muž. Ne. My ne sudimo čeloveka po licu.»\n\nBram se směje Tomasu. «Ty hočeš byti gerojem, kako ja», on govori.\n\nPip imaje novogo prijatelja: trgovca. Každo popoldne muž daje Pipu medovy kolač, i Pip hodi vsuda s nim, kako maly pes. «On jest velmi dobry», govori Pip. «On pyta mene o našyh silkah v lěsu, i ja jemu pokazujem, kde oni sut.»\n\nNa tretji den trgovec odjehaje. On se usměhaje i mahaje s voza. Večerom nikto ne govori o njem, i skoro vsi jego zabyvajut.\n\nAle Tomas ne zabyvaje. Noćju on ide v kuhnju. On bere maly nož i dolgy šnur za silky. On klade nož i šnur pod košulju. Od togo dnja on vsegda imaje jih pri sebě. Každy den. Každu noć.",
+    "glossary": [
+      { "term": "gospodar", "translation": "lord, rich man who owns the land and the castle", "match": "gospodara" },
+      { "term": "zamok", "translation": "castle" },
+      { "term": "vlna", "translation": "wool", "match": "vlnu" },
+      { "term": "voz", "translation": "wagon, cart that horses pull", "match": "voza" },
+      { "term": "sluga", "translation": "servant", "match": "slugu" },
+      { "term": "učtivo", "translation": "politely" },
+      { "term": "bočka", "translation": "barrel", "match": "bočku" },
+      { "term": "povezka", "translation": "patch over an eye", "match": "povezku" },
+      { "term": "trgovec", "translation": "trader" },
+      { "term": "kolo", "translation": "wheel" },
+      { "term": "věriti", "translation": "to believe", "match": "věri" },
+      { "term": "suditi", "translation": "to judge", "match": "sudimo" },
+      { "term": "medovy", "translation": "made with honey" },
+      { "term": "mahati", "translation": "to wave", "match": "mahaje" },
+      { "term": "zabyvati", "translation": "to forget", "match": "zabyvajut" }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Kamo ljudi gospodara vezut zloděja?",
+        "options": ["V lěs", "V kaplicu", "V zamok", "V kuhnju"],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto toj muž prodaje i kupuje?",
+        "options": ["Vino", "Vlnu", "Konje", "Medove kolače"],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Trgovec imaje črnu povezku na jednom oku.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "O čem trgovec pyta mladyh monahov?",
+        "options": ["O vlně", "O srěbrnom kubku", "O dětjah", "O zvonu"],
+        "answer": 2,
+        "explanation": "On pyta, koliko dětij živje tu, koliko lět imajut i li oni idut sami v lěs."
+      },
+      {
+        "type": "tf",
+        "prompt": "Opat věri Tomasu.",
+        "answer": false,
+        "explanation": "On govori: «My ne sudimo čeloveka po licu.»"
+      },
+      {
+        "type": "mc",
+        "prompt": "Čto Pip pokazuje trgovcu?",
+        "options": [
+          "Kuhnju",
+          "Kde sut silky",
+          "Zvonicu",
+          "Dveri podvala"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Na koncu Tomas vsegda imaje nož i šnur pri sebě.",
+        "answer": true
+      }
+    ]
+  }
+]

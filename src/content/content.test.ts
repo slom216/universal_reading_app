@@ -4,7 +4,10 @@ import { LANG_IDS, LANGS } from '../languages';
 import { HI_LETTERS, ISV_LETTERS, SR_LETTERS, ZH_LETTERS } from '../lib/isvCyrillic';
 import {
   LEVELS,
+  SAGA_LEVEL,
+  SAGA_WORDS,
   WORD_RANGE,
+  isSaga,
   countWords,
   findGlossary,
   glossaryNeedle,
@@ -23,9 +26,29 @@ const load = (lang: string): ReadingText[] =>
       ),
   );
 
+/** Chapters of the book saga: A1 texts with ids saga-01, saga-02, … */
+const loadSaga = (lang: string): ReadingText[] =>
+  z
+    .array(textSchema)
+    .parse(JSON.parse(readFileSync(`src/content/texts/${lang}/saga.json`, 'utf8')));
+const SAGA_EN = loadSaga('en');
+
 describe.each(LANG_IDS)('%s texts', (id) => {
   const lang = LANGS[id];
+  const SAGA = loadSaga(id);
   const TEXTS = load(id);
+  // Level texts plus saga chapters, for the checks every text must pass.
+  const ALL = [...TEXTS, ...SAGA];
+
+  it('saga has the same chapters as English, in order', () => {
+    expect(SAGA.map((t) => [t.id, t.level, t.topic])).toEqual(
+      SAGA_EN.map((t, i) => [
+        `saga-${String(i + 1).padStart(2, '0')}`,
+        SAGA_LEVEL,
+        t.topic,
+      ]),
+    );
+  });
 
   it.each(LEVELS)('%s has the count in languages.ts', (level) => {
     expect(TEXTS.filter((t) => t.level === level)).toHaveLength(lang.counts[level]);
@@ -46,14 +69,14 @@ describe.each(LANG_IDS)('%s texts', (id) => {
     }
   });
 
-  it.each(TEXTS.map((t) => [t.id, t] as const))('%s is within its word range', (_, t) => {
-    const [min, max] = WORD_RANGE[t.level];
+  it.each(ALL.map((t) => [t.id, t] as const))('%s is within its word range', (_, t) => {
+    const [min, max] = isSaga(t) ? SAGA_WORDS : WORD_RANGE[t.level];
     const n = countWords(t.body);
     expect(n).toBeGreaterThanOrEqual(min);
     expect(n).toBeLessThanOrEqual(max);
   });
 
-  it.each(TEXTS.map((t) => [t.id, t] as const))(
+  it.each(ALL.map((t) => [t.id, t] as const))(
     '%s glossary words appear in the text',
     (_, t) => {
       const missing = t.glossary.filter(
@@ -63,9 +86,11 @@ describe.each(LANG_IDS)('%s texts', (id) => {
     },
   );
 
-  const letters = { isv: ISV_LETTERS, sr: SR_LETTERS, hi: HI_LETTERS, zh: ZH_LETTERS }[id as string];
+  const letters = { isv: ISV_LETTERS, sr: SR_LETTERS, hi: HI_LETTERS, zh: ZH_LETTERS }[
+    id as string
+  ];
   if (letters) {
-    it.each(TEXTS.map((t) => [t.id, t] as const))(
+    it.each(ALL.map((t) => [t.id, t] as const))(
       '%s uses only the standard alphabet',
       (_, t) => {
         const all = [

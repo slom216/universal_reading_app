@@ -1,5 +1,5 @@
 import { createContext, useContext, type ReactNode } from 'react';
-import type { Level, ReadingText } from '../content/schema';
+import { isSaga, type Level, type ReadingText } from '../content/schema';
 import type { Lang } from '../languages';
 
 export type LangContext = {
@@ -22,7 +22,8 @@ export function useLang() {
   return {
     ...ctx,
     base: `/${lang.id}`,
-    byLevel: (level: Level) => texts.filter((t) => t.level === level),
+    byLevel: (level: Level) => texts.filter((t) => t.level === level && !isSaga(t)),
+    saga: texts.filter(isSaga),
     byId: (id: string) => texts.find((t) => t.id === id),
     /** Progress-store key of a text. */
     key: (id: string) => `${lang.id}/${id}`,

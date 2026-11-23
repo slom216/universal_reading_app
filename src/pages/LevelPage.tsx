@@ -1,25 +1,44 @@
 import { Link, useParams } from 'react-router-dom';
-import { LEVELS, countWords, type Level } from '../content/schema';
+import {
+  LEVELS,
+  SAGA_LEVEL,
+  SAGA_TITLE,
+  countWords,
+  type Level,
+} from '../content/schema';
 import { useLang } from '../lib/useLang';
 import { useProgress } from '../store/progress';
 import { NotFoundPage } from './NotFoundPage';
 
-export function LevelPage() {
+/** The texts of one level, or with `saga` the chapters of the book saga. */
+export function LevelPage({ saga: isSaga = false }: { saga?: boolean }) {
   const level = useParams().level?.toUpperCase() as Level;
   const results = useProgress((s) => s.results);
-  const { lang, base, byLevel, key, tr, code } = useLang();
-  if (!LEVELS.includes(level)) return <NotFoundPage />;
+  const { lang, base, byLevel, saga, key, tr, code } = useLang();
+  if (!isSaga && !LEVELS.includes(level)) return <NotFoundPage />;
+  const list = isSaga ? saga : byLevel(level);
 
   return (
     <div className="stack">
       <p className="text-sm">
-        <Link to={base}>← All {lang.name} levels</Link>
+        <Link to={base}>
+          ← {isSaga ? `${lang.name} reading` : `All ${lang.name} levels`}
+        </Link>
       </p>
       <h1>
-        {lang.name} {level} texts
+        {isSaga
+          ? `${SAGA_TITLE} in ${lang.name}, ${SAGA_LEVEL}`
+          : `${lang.name} ${level} texts`}
       </h1>
+      {isSaga && (
+        <p className="lead">
+          An orphan boy at a medieval monastery, and the long road ahead of him. One story
+          in simple {lang.name} for beginners (level {SAGA_LEVEL}), told chapter by
+          chapter. Read them in order: each one continues the last.
+        </p>
+      )}
       <ol className="text-list">
-        {byLevel(level).map((t, i) => {
+        {list.map((t, i) => {
           const r = results[key(t.id)];
           return (
             <li key={t.id}>

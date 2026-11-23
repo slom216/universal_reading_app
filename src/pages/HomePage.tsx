@@ -1,5 +1,11 @@
 import { Link } from 'react-router-dom';
-import { LEVELS, WORD_RANGE } from '../content/schema';
+import {
+  LEVELS,
+  SAGA_LEVEL,
+  SAGA_TITLE,
+  SAGA_WORDS,
+  WORD_RANGE,
+} from '../content/schema';
 import { dayKey } from '../lib/dates';
 import { useLang } from '../lib/useLang';
 import { ROUND, dueWords } from '../lib/words';
@@ -20,9 +26,11 @@ const ART = {
 export function HomePage() {
   const results = useProgress((s) => s.results);
   const words = useProgress((s) => s.words);
-  const { lang, base, byLevel, key, tr, code, texts } = useLang();
+  const { lang, base, byLevel, saga, key, tr, code, texts } = useLang();
   const due = dueWords(lang.id, texts, { results, words }, dayKey()).length;
   const anyRead = texts.some((t) => results[key(t.id)]);
+  const sagaDone = saga.filter((t) => results[key(t.id)]).length;
+  const sagaNext = saga.find((t) => !results[key(t.id)]);
 
   return (
     <div className="stack">
@@ -98,6 +106,34 @@ export function HomePage() {
         })}
       </div>
 
+      <section className="card stack stack--tight" aria-labelledby="saga-heading">
+        <div className="row">
+          <span className="chip">{SAGA_LEVEL}</span>
+          <span className="text-sm text-muted">Book saga · level {SAGA_LEVEL}</span>
+        </div>
+        <h2 id="saga-heading">{SAGA_TITLE}</h2>
+        <p>
+          An orphan boy at a medieval monastery, and the long road ahead of him. One story
+          in simple {lang.name} for beginners (level {SAGA_LEVEL}), told chapter by
+          chapter, each with a glossary and questions.
+        </p>
+        <p>
+          {saga.length} chapters · {SAGA_WORDS[0]}–{SAGA_WORDS[1]} words each · {sagaDone}{' '}
+          read
+        </p>
+        <div className="level-card__actions">
+          <Link className="button button--primary" to={`${base}/saga`}>
+            All chapters
+          </Link>
+          {sagaNext && (
+            <Link className="level-card__next" to={`${base}/text/${sagaNext.id}`}>
+              <b>{sagaDone ? 'Next:' : 'Start:'}</b>{' '}
+              <span lang={code}>{tr(sagaNext.title)}</span>
+            </Link>
+          )}
+        </div>
+      </section>
+
       <section className="card stack stack--tight" aria-labelledby="words-heading">
         <h2 id="words-heading">Word review</h2>
         <p>
@@ -134,8 +170,8 @@ export function HomePage() {
       <section className="card stack stack--tight" aria-labelledby="unscramble-heading">
         <h2 id="unscramble-heading">Unscramble</h2>
         <p>
-          Sentences from the texts you have finished, with the words mixed up. Put them back
-          in order.
+          Sentences from the texts you have finished, with the words mixed up. Put them
+          back in order.
         </p>
         {anyRead && (
           <p>

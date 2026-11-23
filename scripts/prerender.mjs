@@ -120,7 +120,7 @@ async function drawCard({ lang, name, t }, file) {
 <text x="164" y="107" font-size="30" fill="#141414">DeuLern Polyglot</text>
 <rect x="1016" y="68" width="104" height="56" rx="28" fill="#5aa3e8"/>
 <text x="1068" y="106" text-anchor="middle" font-size="30" fill="#141414">${t.level}</text>
-<text x="80" y="526" font-size="30" font-weight="400" fill="#3f3a33">${esc(name)} · ${esc(t.topic)}</text>
+<text x="80" y="526" font-size="30" font-weight="400" fill="#3f3a33">${esc(name)} · ${esc(t.id.startsWith('saga-') ? `${SAGA}, ${t.topic.toLowerCase()}` : t.topic)}</text>
 <rect y="566" width="1200" height="64" fill="#c63f1e"/>
 <text x="80" y="608" font-size="28" fill="#fbf5ea">Free graded reading with a glossary and quiz · polyglot.icu</text>
 </svg>`;
@@ -186,54 +186,85 @@ const langLinks = Object.entries(LANGS)
   .map(([id, l]) => `<li><a href="/${id}">${l.name} reading texts</a></li>`)
   .join('\n');
 
+// Mirrors SAGA_TITLE and SAGA_LEVEL in src/content/schema.ts.
+const SAGA = 'The Great Saga';
+const SAGA_LEVEL = 'A1';
+
 for (const [lang, { name, tf }] of Object.entries(LANGS)) {
-  const texts = Object.fromEntries(
-    LEVELS.map((l) => [
-      l,
-      JSON.parse(readFileSync(`src/content/texts/${lang}/${l}.json`, 'utf8')),
-    ]),
-  );
-  const levelLinks = LEVELS.map(
-    (l) =>
-      `<li><a href="/${lang}/level/${l}">Level ${l.toUpperCase()} ${name} reading texts</a></li>`,
-  ).join('\n');
+  const read = (f) =>
+    JSON.parse(readFileSync(`src/content/texts/${lang}/${f}.json`, 'utf8'));
+  const saga = read('saga');
+  // Each list of texts: the three levels, then the book saga's chapters.
+  const shelves = [
+    ...LEVELS.map((level) => {
+      const L = level.toUpperCase();
+      const list = read(level);
+      return {
+        path: `/${lang}/level/${level}`,
+        list,
+        link: `Level ${L} ${name} reading texts`,
+        back: `Level ${L} ${name} texts`,
+        title: `${name} ${L} reading: ${list.length} texts with quizzes`,
+        description: `${list.length} free ${L} ${name} reading texts with a glossary and comprehension questions. No account needed.`,
+        intro: `${list.length} short texts at CEFR level ${L}. Each has a glossary of difficult words and comprehension questions you can answer in the browser.`,
+        more: `More ${L} ${name} texts`,
+      };
+    }),
+    {
+      path: `/${lang}/saga`,
+      list: saga,
+      saga: true,
+      link: `${SAGA}, an ${SAGA_LEVEL} ${name} story in chapters`,
+      back: `${SAGA} in ${name}, ${SAGA_LEVEL}`,
+      title: `${SAGA}: an ${SAGA_LEVEL} ${name} story for beginners in ${saga.length} chapters`,
+      description: `${SAGA} is a serial story in simple ${name} for beginners, CEFR level ${SAGA_LEVEL}: an orphan boy at a medieval monastery, told chapter by chapter with a glossary and comprehension questions.`,
+      intro: `An orphan boy at a medieval monastery, and the long road ahead of him. One story in simple ${name} for beginners (CEFR level ${SAGA_LEVEL}), told in chapters, each with a glossary and comprehension questions. Read them in order.`,
+      more: `More chapters of ${SAGA}`,
+    },
+  ];
+  const shelfLinks = shelves
+    .map((s) => `<li><a href="${s.path}">${s.link}</a></li>`)
+    .join('\n');
 
   write(
     `/${lang}`,
     `Free ${name} reading practice, A1 to B1 · DeuLern Polyglot`,
     `Free graded ${name} reading texts for A1, A2 and B1 with a glossary and comprehension questions. No account needed.`,
-    `<h1>Graded ${name} reading texts</h1>\n<ul>\n${levelLinks}\n</ul>\n<h2>Other languages</h2>\n<ul>\n${langLinks}\n</ul>`,
+    `<h1>Graded ${name} reading texts</h1>\n<ul>\n${shelfLinks}\n</ul>\n<h2>Other languages</h2>\n<ul>\n${langLinks}\n</ul>`,
   );
   urls.push(`/${lang}`);
 
-  for (const level of LEVELS) {
-    const list = texts[level];
-    const L = level.toUpperCase();
+  for (const shelf of shelves) {
+    const { list } = shelf;
     write(
-      `/${lang}/level/${level}`,
-      `${name} ${L} reading: ${list.length} texts with quizzes · DeuLern Polyglot`,
-      `${list.length} free ${L} ${name} reading texts with a glossary and comprehension questions. No account needed.`,
-      `<h1>Level ${L} ${name} reading texts</h1>
-<p>${list.length} short texts at CEFR level ${L}. Each has a glossary of difficult words and comprehension questions you can answer in the browser.</p>
-<ul lang="${code(lang)}">
+      shelf.path,
+      `${shelf.title} · DeuLern Polyglot`,
+      shelf.description,
+      `<h1>${shelf.saga ? shelf.back : shelf.link}</h1>
+<p>${shelf.intro}</p>
+<${shelf.saga ? 'ol' : 'ul'} lang="${code(lang)}">
 ${list.map((t) => `<li><a href="/${lang}/text/${t.id}">${esc(t.title)}</a> (<span lang="en">${esc(t.topic)}</span>)</li>`).join('\n')}
-</ul>
-<h2>Other levels</h2>
+</${shelf.saga ? 'ol' : 'ul'}>
+<h2>More ${name} reading</h2>
 <ul>
-${levelLinks}
+${shelfLinks}
 </ul>`,
     );
-    urls.push(`/${lang}/level/${level}`);
+    urls.push(shelf.path);
 
     list.forEach((t, i) => {
       const related = [list[i - 1], list[i + 1], list[i + 2]].filter(Boolean);
       write(
         `/${lang}/text/${t.id}`,
-        `${t.title} · ${name} ${t.level} reading text · DeuLern Polyglot`,
-        `Read "${t.title}", ${t.level === 'B1' ? 'a' : 'an'} ${t.level} ${name} text about ${t.topic.toLowerCase()}, with a glossary and ${t.questions.length} comprehension questions.`,
-        `<p><a href="/${lang}/level/${level}">Level ${t.level} ${name} texts</a></p>
+        shelf.saga
+          ? `${t.title} · ${SAGA} in ${name}, ${SAGA_LEVEL} · DeuLern Polyglot`
+          : `${t.title} · ${name} ${t.level} reading text · DeuLern Polyglot`,
+        shelf.saga
+          ? `Read "${t.title}", ${t.topic.toLowerCase()} of ${SAGA}, an ${SAGA_LEVEL} ${name} story for beginners, with a glossary and ${t.questions.length} comprehension questions.`
+          : `Read "${t.title}", ${t.level === 'B1' ? 'a' : 'an'} ${t.level} ${name} text about ${t.topic.toLowerCase()}, with a glossary and ${t.questions.length} comprehension questions.`,
+        `<p><a href="${shelf.path}">${shelf.back}</a></p>
 <h1 lang="${code(lang)}">${esc(t.title)}</h1>
-<p>CEFR level ${t.level} · Topic: ${esc(t.topic)}</p>
+<p>CEFR level ${t.level} · ${shelf.saga ? `${SAGA}, ${esc(t.topic.toLowerCase())}` : `Topic: ${esc(t.topic)}`}</p>
 <article lang="${code(lang)}">
 ${paras(t.body)}
 </article>
@@ -252,7 +283,7 @@ ${t.questions
   )
   .join('\n')}
 </ol>
-<h2>More ${t.level} ${name} texts</h2>
+<h2>${shelf.more}</h2>
 <ul lang="${code(lang)}">
 ${related.map((r) => `<li><a href="/${lang}/text/${r.id}">${esc(r.title)}</a></li>`).join('\n')}
 </ul>`,
@@ -261,7 +292,7 @@ ${related.map((r) => `<li><a href="/${lang}/text/${r.id}">${esc(r.title)}</a></l
           name: t.title,
           url: `${ORIGIN}/${lang}/text/${t.id}`,
           inLanguage: code(lang),
-          about: t.topic,
+          about: shelf.saga ? `${SAGA}, ${t.topic.toLowerCase()}` : t.topic,
           educationalLevel: `CEFR ${t.level}`,
           learningResourceType: 'Reading passage with comprehension questions',
           teaches: `${name} reading comprehension`,

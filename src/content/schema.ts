@@ -27,25 +27,35 @@ const question = z.discriminatedUnion('type', [
 ]);
 
 export const textSchema = z.strictObject({
-  id: z.string().regex(/^(a1|a2|b1)-\d{2,3}$/),
+  id: z.string().regex(/^(?:(?:a1|a2|b1)-\d{2,3}|saga-\d{2})$/),
   level: z.enum(LEVELS),
   title: z.string().min(1),
   topic: z.string().min(1),
   body: z.string().min(1),
   glossary: z
     .array(
-      z.object({
-        term: z.string().min(1),
-        translation: z.string().min(1),
-        /** Exact text to highlight in the body, when it differs from the headword. */
-        match: z.string().min(1).optional(),
-      }).strict(),
+      z
+        .object({
+          term: z.string().min(1),
+          translation: z.string().min(1),
+          /** Exact text to highlight in the body, when it differs from the headword. */
+          match: z.string().min(1).optional(),
+        })
+        .strict(),
     )
     .min(1),
   questions: z.array(question).min(5).max(8),
 });
 
 export type Question = z.infer<typeof question>;
+
+/** The book saga: one serial story told in A1 chapters ("saga-01", …), kept out of the
+ *  level lists. src/content/texts/<lang>/saga.json, the same chapters in every language.
+ *  Chapters are A1 language but longer than A1 texts, hence their own word range. */
+export const SAGA_TITLE = 'The Great Saga';
+export const SAGA_LEVEL: Level = 'A1';
+export const SAGA_WORDS: [number, number] = [300, 500];
+export const isSaga = (t: { id: string }) => t.id.startsWith('saga-');
 export type ReadingText = z.infer<typeof textSchema>;
 
 const HAN = /\p{Script=Han}/u;
@@ -54,7 +64,8 @@ const zhWords = new Intl.Segmenter('zh', { granularity: 'word' });
 /** Tokens separated by whitespace that contain a letter or digit. Chinese has no spaces,
  *  so Han text is split into words by the platform's dictionary segmenter instead. */
 export function countWords(body: string): number {
-  if (HAN.test(body)) return [...zhWords.segment(body)].filter((s) => s.isWordLike).length;
+  if (HAN.test(body))
+    return [...zhWords.segment(body)].filter((s) => s.isWordLike).length;
   return body.split(/\s+/).filter((t) => /[\p{L}\p{N}]/u.test(t)).length;
 }
 
@@ -72,6 +83,8 @@ export function glossaryNeedle(
 export function findGlossary(body: string, needle: string): number {
   if (HAN.test(needle)) return body.indexOf(needle);
   const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const m = new RegExp(`(?<![\\p{L}\\p{M}])${escaped}(?![\\p{L}\\p{M}])`, 'iu').exec(body);
+  const m = new RegExp(`(?<![\\p{L}\\p{M}])${escaped}(?![\\p{L}\\p{M}])`, 'iu').exec(
+    body,
+  );
   return m ? m.index : -1;
 }

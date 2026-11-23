@@ -1,0 +1,211 @@
+[
+  {
+    "id": "saga-01",
+    "level": "A1",
+    "title": "套索",
+    "topic": "Book 1, chapter 1",
+    "body": "托马斯十岁。他没有妈妈，也没有爸爸。他住在山里的一座修道院，叫圣安塞尔修道院。那里住着很多修士，还有十二个孩子。孩子们都是孤儿，跟托马斯一样。\n\n托马斯有两个朋友。布拉姆十一岁，是修道院里最大的男孩。他个子高，说话声音大，喜欢告诉别的孩子做什么。皮普八岁。他个子小，很有意思，一天到晚说个不停。他跟鸟说话，跟树说话，也跟动物说话。\n\n托马斯不一样。他很安静，话不多，可是他什么都看，想得也很多。\n\n春天，修道院的饭不好。每天只有面包和一点儿汤。男孩们总是很饿。\n\n一大早，修士们还没起床，三个男孩就爬过围墙，走进森林。这是不允许的。杰拉德院长每个星期都说：“孩子们不能去森林！”可是男孩们想吃肉。\n\n男孩们在森林里有套索。套索是抓兔子的小陷阱。托马斯做的套索非常好。\n\n“安静！”布拉姆说。可是三个人里最吵的就是布拉姆。\n\n第一个套索是空的。托马斯看见绳子上有一些灰色的毛。“这里有过一只兔子，”他说，“可是它跑了。”\n\n“你的套索不好。”布拉姆说。\n\n托马斯不回答。他的套索没有问题。他把绳结系得更紧，又把套索放低了一点儿。\n\n第二个套索里有一只兔子。布拉姆拿起兔子，非常高兴。“我有兔子了！”他说。可是那是托马斯的套索，不是布拉姆的。\n\n回家的路上，皮普停了下来。一棵老树上有一只灰兔子，一只耳朵是破的。它看着男孩们，一点儿也不怕。\n\n“看！那是第一个套索里的兔子，”皮普说，“它很聪明。它叫国王。”\n\n在一条旧路旁边，托马斯又停了下来。他看见地上有马蹄印，又大又新。这里谁有大马？只有有钱人。托马斯看了很久，可是他什么也没跟布拉姆和皮普说。\n\n安塞姆修士站在修道院的大门口。他是一位老修士，非常和善。他知道男孩们去了哪儿。\n\n男孩们要抄写一本旧书里的一页。那是一个皇帝的故事。书上写着：“他的血来自星辰。”\n\n“那只是个故事。”布拉姆说。\n\n安塞姆修士笑了笑。“很多事情都只是故事，”他说，“直到有一天，它们不再是故事。”",
+    "glossary": [
+      { "term": "修道院", "translation": "xiūdàoyuàn · monastery" },
+      { "term": "修士", "translation": "xiūshì · monk" },
+      { "term": "孤儿", "translation": "gū'ér · orphan" },
+      { "term": "安静", "translation": "ānjìng · quiet" },
+      { "term": "饿", "translation": "è · hungry" },
+      { "term": "围墙", "translation": "wéiqiáng · wall around a place" },
+      { "term": "允许", "translation": "yǔnxǔ · to allow" },
+      { "term": "院长", "translation": "yuànzhǎng · abbot, head of a monastery" },
+      { "term": "套索", "translation": "tàosuǒ · snare" },
+      { "term": "陷阱", "translation": "xiànjǐng · trap" },
+      { "term": "绳结", "translation": "shéngjié · knot" },
+      { "term": "破", "translation": "pò · torn, broken" },
+      { "term": "聪明", "translation": "cōngming · clever" },
+      { "term": "马蹄印", "translation": "mǎtíyìn · hoofprint, horse mark" },
+      { "term": "星辰", "translation": "xīngchén · stars" }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "托马斯住在哪儿？",
+        "options": ["城堡里", "修道院里", "村子里", "森林里"],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "布拉姆是三个男孩里最小的。",
+        "answer": false,
+        "explanation": "布拉姆十一岁。最小的是皮普，他八岁。"
+      },
+      {
+        "type": "mc",
+        "prompt": "男孩们为什么去森林？",
+        "options": ["去找安塞姆修士", "去跟国王玩儿", "去抓兔子", "去看马"],
+        "answer": 2,
+        "explanation": "他们很饿，想吃肉，所以去看他们的套索。"
+      },
+      {
+        "type": "tf",
+        "prompt": "第一个套索是空的。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "国王是谁？",
+        "options": [
+          "修道院的院长",
+          "一只耳朵破了的兔子",
+          "一个有马的有钱人",
+          "一位老修士"
+        ],
+        "answer": 1,
+        "explanation": "皮普给这只聪明的灰兔子起了这个名字。"
+      },
+      {
+        "type": "tf",
+        "prompt": "托马斯把马蹄印的事告诉了朋友们。",
+        "answer": false,
+        "explanation": "他看了很久，可是什么也没说。"
+      },
+      {
+        "type": "mc",
+        "prompt": "最后男孩们做什么？",
+        "options": ["吃兔子", "在花园里玩儿", "抄写一本旧书里的一页", "回森林去"],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "saga-02",
+    "level": "A1",
+    "title": "夜里的贼",
+    "topic": "Book 1, chapter 2",
+    "body": "现在是夜里。修道院里的人都睡着了。只有托马斯还醒着。他在想森林里的马蹄印。谁骑着大马来修道院？也许是想晚上再回来的人，他想。\n\n这时候，他听见外面有声音。他走到窗前。月亮又大又亮。院子里有四个男人。他们往小教堂走去。小教堂里有修士们的两样好东西：一个旧银杯和一个小金盒。这两样东西很老，也很贵。\n\n“贼！”托马斯想。\n\n修士们都是好人，可是他们不会打架。托马斯也打不过四个男人。如果他大喊，贼就会拿着银杯跑掉。他需要一个办法。\n\n他叫醒布拉姆。“布拉姆，听着，”他小声说，“你上钟楼去。我在墙上敲两下，你就敲钟。用力敲！”\n\n布拉姆想说什么。他不喜欢托马斯告诉他做什么。可是他看了看托马斯的脸，就去了。\n\n皮普也醒了。他看见院子里的男人，非常害怕。他躲到一条长凳下面，在那儿待了一整夜。\n\n托马斯拿起他做套索的绳子，跑下楼梯，到了地窖。地窖有一个门通向森林。贼会从这里出去，他想。在第三级台阶上，他把绳子从这面墙拉到那面墙，系好。绳子又低又紧，就像抓兔子的套索。\n\n然后他在墙上敲：一下，两下。\n\n钟响了，声音非常非常大。修士们都醒了，每个窗户都亮起了灯。贼们害怕了。他们拿着银杯和金盒，往地窖跑。第一个贼没看见绳子。他从楼梯上摔下去，大叫一声。他的腿断了。别的贼扔下银杯和金盒，跑进了森林。\n\n托马斯回到楼上的窗前。在树旁边，他看见了第五个男人。这个人不跑。他不是跟贼一起的。他只是看着孩子们宿舍的窗户。他只有一只眼睛。他在数孩子吗？\n\n第二天早上，大家都在说那天夜里的事。“敲钟是我的主意。”布拉姆说。修士们说布拉姆是英雄。托马斯什么也不说。对他来说，这没关系。\n\n可是那个只有一只眼睛的男人，他没有告诉任何人。",
+    "glossary": [
+      { "term": "贼", "translation": "zéi · thief" },
+      { "term": "醒", "translation": "xǐng · awake" },
+      { "term": "声音", "translation": "shēngyīn · sound, noise" },
+      { "term": "院子", "translation": "yuànzi · yard, courtyard" },
+      { "term": "小教堂", "translation": "xiǎo jiàotáng · chapel" },
+      { "term": "银杯", "translation": "yínbēi · silver cup" },
+      { "term": "贵", "translation": "guì · expensive" },
+      { "term": "大喊", "translation": "dà hǎn · to shout" },
+      { "term": "钟楼", "translation": "zhōnglóu · bell tower" },
+      { "term": "敲", "translation": "qiāo · to knock, to strike" },
+      { "term": "躲", "translation": "duǒ · to hide" },
+      { "term": "长凳", "translation": "chángdèng · bench" },
+      { "term": "地窖", "translation": "dìjiào · cellar" },
+      { "term": "紧", "translation": "jǐn · tight" },
+      { "term": "扔下", "translation": "rēngxià · to drop, to throw down" }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "托马斯为什么醒着？",
+        "options": ["他饿了", "他在想马蹄印", "皮普叫醒了他", "钟响了"],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "贼想要什么？",
+        "options": ["马", "吃的东西", "银杯和金盒", "钟"],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "托马斯大喊，叫醒修士们。",
+        "answer": false,
+        "explanation": "他没有大喊。是布拉姆敲的钟。"
+      },
+      {
+        "type": "tf",
+        "prompt": "皮普躲在一条长凳下面。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "托马斯把绳子放在哪儿？",
+        "options": ["小教堂的门上", "地窖的一级台阶上", "钟楼里", "院子里"],
+        "answer": 1,
+        "explanation": "他把绳子系在第三级台阶上，因为地窖有一个门通向森林。"
+      },
+      {
+        "type": "mc",
+        "prompt": "那个只有一只眼睛的男人在做什么？",
+        "options": ["跑进森林", "敲钟", "看着孩子们宿舍的窗户", "拿走银杯"],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "第二天早上，托马斯说敲钟是他的主意。",
+        "answer": false,
+        "explanation": "是布拉姆说那是他的主意。托马斯什么也不说。"
+      }
+    ]
+  },
+  {
+    "id": "saga-03",
+    "level": "A1",
+    "title": "数人头",
+    "topic": "Book 1, chapter 3",
+    "body": "那天夜里的事过去以后，修道院又安静了。领主的人来了，把摔断腿的贼带到城堡去。“现在没事了。”他们说。院长很高兴。“上帝保护我们的家。”他说。他还谢谢布拉姆敲了钟。\n\n一个星期以后，一个男人来到修道院。他买卖羊毛。他有两辆大马车、四匹马和一个仆人。他人很好，穿得很好，说话很有礼貌。他用好价钱买了修道院的羊毛，还送给修士们一大桶葡萄酒。\n\n这个男人只有一只眼睛。另一只眼睛上戴着一个黑眼罩。\n\n托马斯看见他，就知道了：这就是那天夜里的男人。\n\n商人想第二天离开，可是他没有走。有一天，他的马车坏了一个轮子。第二天又下雨了。托马斯发现，这个男人总是在孩子们旁边。他问年轻的修士们很多问题：“这里住着多少个孩子？他们多大了？他们一个人去森林吗？”\n\n托马斯去找院长。“院长，那天夜里这个人就在这儿，”他说，“我在森林旁边看见过他。”\n\n院长看着他。院长很和善，可是他不相信托马斯。“那是晚上，托马斯，天很黑。现在你看见一个只有一只眼睛的人，就想：就是他。不对。我们不能看一个人的脸就判断他。”\n\n布拉姆笑托马斯。“你想当英雄，跟我一样。”他说。\n\n皮普有了一个新朋友：那个商人。每天下午，商人都给皮普一块蜂蜜蛋糕，皮普就像一只小狗，商人去哪儿他就去哪儿。“他人很好，”皮普说，“他问我森林里的套索在哪儿，我就带他去看了。”\n\n第三天，商人走了。他笑着在马车上挥手。晚上没有人再说起他，很快大家都忘了他。\n\n可是托马斯没有忘。夜里，他去厨房，拿了一把小刀和一根做套索的长绳子。他把小刀和绳子放在衣服下面。从这一天起，他总是带着它们。每一天，每一夜。",
+    "glossary": [
+      { "term": "领主", "translation": "lǐngzhǔ · lord" },
+      { "term": "城堡", "translation": "chéngbǎo · castle" },
+      { "term": "羊毛", "translation": "yángmáo · wool" },
+      { "term": "马车", "translation": "mǎchē · wagon, horse cart" },
+      { "term": "仆人", "translation": "púrén · servant" },
+      { "term": "礼貌", "translation": "lǐmào · polite, politeness" },
+      { "term": "桶", "translation": "tǒng · barrel" },
+      { "term": "眼罩", "translation": "yǎnzhào · eye patch" },
+      { "term": "商人", "translation": "shāngrén · trader, merchant" },
+      { "term": "轮子", "translation": "lúnzi · wheel" },
+      { "term": "相信", "translation": "xiāngxìn · to believe" },
+      { "term": "判断", "translation": "pànduàn · to judge" },
+      { "term": "蜂蜜", "translation": "fēngmì · honey" },
+      { "term": "挥手", "translation": "huīshǒu · to wave" },
+      { "term": "忘", "translation": "wàng · to forget" }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "领主的人把贼带到哪儿？",
+        "options": ["森林", "小教堂", "城堡", "厨房"],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "这个男人买卖什么？",
+        "options": ["葡萄酒", "羊毛", "马", "蜂蜜蛋糕"],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "商人的一只眼睛上戴着黑眼罩。",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "商人问年轻的修士们什么问题？",
+        "options": ["羊毛的问题", "银杯的问题", "孩子们的问题", "钟的问题"],
+        "answer": 2,
+        "explanation": "他问这里住着多少个孩子、他们多大了，还有他们是不是一个人去森林。"
+      },
+      {
+        "type": "tf",
+        "prompt": "院长相信托马斯。",
+        "answer": false,
+        "explanation": "他说：“我们不能看一个人的脸就判断他。”"
+      },
+      {
+        "type": "mc",
+        "prompt": "皮普带商人看了什么？",
+        "options": ["厨房", "套索在哪儿", "钟楼", "地窖的门"],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "最后，托马斯总是带着一把刀和一根绳子。",
+        "answer": true
+      }
+    ]
+  }
+]

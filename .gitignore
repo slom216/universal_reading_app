@@ -6,3 +6,5 @@ coverage
 .wrangler
 .DS_Store
 *.log
+SAGA_STORY.md
+STORY_DETAILS.md

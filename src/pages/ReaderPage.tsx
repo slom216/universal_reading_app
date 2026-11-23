@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { countWords } from '../content/schema';
+import { SAGA_TITLE, countWords, isSaga } from '../content/schema';
 import { GlossaryText } from '../components/GlossaryText';
 import { Quiz } from '../components/Quiz';
 import { RomanizeToggle, ScriptToggle } from '../components/ScriptToggle';
@@ -19,7 +19,7 @@ const audio = import.meta.glob<string>('../assets/audio/*/*.mp3', {
 
 export function ReaderPage() {
   const { id = '' } = useParams();
-  const { lang, base, byId, byLevel, key, tr, rt, code } = useLang();
+  const { lang, base, byId, byLevel, saga, key, tr, rt, code } = useLang();
   const text = byId(id);
   const result = useProgress((s) => s.results[key(id)]);
   const complete = useProgress((s) => s.complete);
@@ -40,11 +40,13 @@ export function ReaderPage() {
   }, [lang.id, level, id]);
   if (!text) return <NotFoundPage />;
 
-  const siblings = byLevel(text.level);
+  const inSaga = isSaga(text);
+  const siblings = inSaga ? saga : byLevel(text.level);
   const index = siblings.findIndex((t) => t.id === text.id);
   const prev = siblings[index - 1];
   const next = siblings[index + 1];
-  const levelPath = `${base}/level/${text.level.toLowerCase()}`;
+  const levelPath = inSaga ? `${base}/saga` : `${base}/level/${text.level.toLowerCase()}`;
+  const backLabel = inSaga ? `Back to ${SAGA_TITLE}` : `Back to level ${text.level}`;
   const audioUrl = audio[`../assets/audio/${key(text.id)}.mp3`];
   const params = { reading_language: lang.id, level: text.level, text_id: text.id };
   const nextClicked = () => track('next_text', params);
@@ -70,7 +72,7 @@ export function ReaderPage() {
     >
       <p className="text-sm">
         <Link to={levelPath}>
-          ← {lang.name} {text.level} texts
+          ← {inSaga ? SAGA_TITLE : `${lang.name} ${text.level} texts`}
         </Link>
       </p>
       <header className="stack stack--tight">
@@ -191,10 +193,10 @@ export function ReaderPage() {
               next
                 ? {
                     to: `${base}/text/${next.id}`,
-                    label: `Next text: ${tr(next.title)}`,
+                    label: `${inSaga ? 'Next chapter' : 'Next text'}: ${tr(next.title)}`,
                     onClick: nextClicked,
                   }
-                : { to: levelPath, label: `Back to level ${text.level}` }
+                : { to: levelPath, label: backLabel }
             }
           />
         </section>
@@ -217,7 +219,7 @@ export function ReaderPage() {
           </Link>
         ) : (
           <Link className="button button--secondary" to={levelPath}>
-            Back to level {text.level}
+            {backLabel}
           </Link>
         )}
       </nav>

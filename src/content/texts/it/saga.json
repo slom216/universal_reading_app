@@ -1,0 +1,241 @@
+[
+  {
+    "id": "saga-01",
+    "level": "A1",
+    "title": "Le trappole",
+    "topic": "Book 1, chapter 1",
+    "body": "Tomas ha dieci anni. Non ha la mamma e non ha il papà. Vive in un monastero in montagna, il monastero di Sant'Ansel. Lì vivono molti frati e anche dodici bambini. I bambini sono tutti orfani, come Tomas.\n\nTomas ha due amici. Bram ha undici anni. È il ragazzo più grande del monastero. È alto e rumoroso, e gli piace dire agli altri bambini che cosa devono fare. Pip ha otto anni. È piccolo e simpatico, e parla tutto il giorno. Parla con gli uccelli, con gli alberi e con gli animali.\n\nTomas è diverso. È silenzioso. Non parla molto, ma guarda tutto e pensa molto.\n\nIn primavera il cibo del monastero non è buono. Ogni giorno c'è solo pane e un po' di zuppa. I ragazzi hanno sempre fame.\n\nÈ mattina presto e i frati dormono ancora. I tre ragazzi scavalcano il muro e vanno nel bosco. Non è permesso. L'abate, padre Gerard, lo dice ogni settimana: «Niente bambini nel bosco!» Ma i ragazzi vogliono la carne.\n\nNel bosco i ragazzi hanno delle trappole. Sono piccole trappole per conigli, fatte con un cappio di corda. Tomas fa trappole molto buone.\n\n«Silenzio!» dice Bram. Ma Bram è il più rumoroso dei tre.\n\nLa prima trappola è vuota. Sulla corda Tomas vede dei peli grigi. «Qui c'era un coniglio», dice. «Ma è scappato.»\n\n«La tua trappola non va bene», dice Bram.\n\nTomas non risponde. La sua trappola va bene. Stringe di più il nodo e mette la trappola un po' più in basso.\n\nNella seconda trappola c'è un coniglio. Bram lo prende ed è molto contento. «Ho un coniglio!» dice. Ma è la trappola di Tomas, non di Bram.\n\nSulla strada di casa Pip si ferma. Su un vecchio albero c'è un coniglio grigio con un orecchio strappato. Guarda i ragazzi. Non ha paura.\n\n«Guardate! È il coniglio della prima trappola», dice Pip. «È molto furbo. Si chiama il Re.»\n\nVicino a un vecchio sentiero Tomas si ferma di nuovo. Per terra vede delle impronte di cavalli. Sono grandi e nuove. Chi ha cavalli grandi qui? Solo gli uomini ricchi. Tomas guarda le impronte per molto tempo, ma non dice niente a Bram e a Pip.\n\nFrate Anselm è al cancello del monastero. È un vecchio frate, molto buono. Sa dove sono stati i ragazzi.\n\nI ragazzi devono copiare una pagina di un vecchio libro. È la storia di un imperatore. «Il suo sangue veniva dalle stelle», dice il libro.\n\n«È solo una storia», dice Bram.\n\nFrate Anselm sorride. «Molte cose sono solo storie», dice. «Fino al giorno in cui non lo sono più.»",
+    "glossary": [
+      { "term": "la trappola", "translation": "snare, trap" },
+      { "term": "il monastero", "translation": "monastery" },
+      { "term": "il frate", "translation": "monk", "match": "frati" },
+      { "term": "l'orfano", "translation": "orphan", "match": "orfani" },
+      { "term": "rumoroso", "translation": "loud, noisy" },
+      { "term": "la fame", "translation": "hunger" },
+      { "term": "scavalcare", "translation": "to climb over", "match": "scavalcano" },
+      { "term": "l'abate", "translation": "abbot, head of a monastery" },
+      { "term": "il cappio", "translation": "loop (of rope)" },
+      { "term": "il nodo", "translation": "knot" },
+      { "term": "strappato", "translation": "torn" },
+      { "term": "furbo", "translation": "clever" },
+      { "term": "l'impronta", "translation": "mark, track", "match": "impronte" },
+      { "term": "il cancello", "translation": "gate" },
+      { "term": "il sangue", "translation": "blood" }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Dove vive Tomas?",
+        "options": ["In un castello", "In un monastero", "In un paese", "Nel bosco"],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Bram è il più piccolo dei tre ragazzi.",
+        "answer": false,
+        "explanation": "Bram ha undici anni. Il più piccolo è Pip: ha otto anni."
+      },
+      {
+        "type": "mc",
+        "prompt": "Perché i ragazzi vanno nel bosco?",
+        "options": [
+          "Per cercare frate Anselm",
+          "Per giocare con il Re",
+          "Per prendere dei conigli",
+          "Per vedere i cavalli"
+        ],
+        "answer": 2,
+        "explanation": "Hanno fame e vogliono la carne, quindi controllano le loro trappole."
+      },
+      {
+        "type": "tf",
+        "prompt": "La prima trappola è vuota.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Chi è il Re?",
+        "options": [
+          "L'abate del monastero",
+          "Un coniglio con un orecchio strappato",
+          "Un uomo ricco con dei cavalli",
+          "Un vecchio frate"
+        ],
+        "answer": 1,
+        "explanation": "Pip dà questo nome al coniglio grigio e furbo."
+      },
+      {
+        "type": "tf",
+        "prompt": "Tomas parla ai suoi amici delle impronte dei cavalli.",
+        "answer": false,
+        "explanation": "Guarda le impronte per molto tempo, ma non dice niente."
+      },
+      {
+        "type": "mc",
+        "prompt": "Che cosa fanno i ragazzi alla fine?",
+        "options": [
+          "Mangiano il coniglio",
+          "Giocano in giardino",
+          "Copiano una pagina di un vecchio libro",
+          "Tornano nel bosco"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "saga-02",
+    "level": "A1",
+    "title": "Ladri nella notte",
+    "topic": "Book 1, chapter 2",
+    "body": "È notte. Nel monastero tutti dormono. Solo Tomas è sveglio. Pensa alle impronte dei cavalli nel bosco. Chi viene a un monastero con dei cavalli grandi? Forse uomini che vogliono tornare di notte, pensa.\n\nPoi sente un rumore fuori. Va alla finestra. La luna è grande e chiara. Nel cortile ci sono quattro uomini. Vanno verso la cappella. Nella cappella i frati hanno due cose bellissime: una vecchia coppa d'argento e una piccola scatola d'oro. Sono cose molto antiche e molto costose.\n\n«Ladri!» pensa Tomas.\n\nI frati sono uomini buoni, ma non sanno combattere. E Tomas non può combattere contro quattro uomini. Se grida, i ladri scappano con l'argento. Ha bisogno di un piano.\n\nSveglia Bram. «Bram, ascolta», dice piano. «Sali sul campanile. Quando batto due colpi sul muro, suona la campana. Suonala fortissimo!»\n\nBram vuole dire qualcosa. Non gli piace quando Tomas gli dice che cosa deve fare. Ma guarda la faccia di Tomas, e va.\n\nAnche Pip si sveglia. Vede gli uomini nel cortile e ha molta paura. Si nasconde sotto una panca e resta lì tutta la notte.\n\nTomas prende la sua corda per le trappole e corre giù per le scale fino alla cantina. La cantina ha una porta sul bosco. I ladri vogliono uscire da qui, pensa. Sul terzo gradino lega la corda da un muro all'altro. È bassa e tesa, come una trappola per conigli.\n\nPoi batte sul muro. Uno, due.\n\nLa campana suona. È molto, molto forte. I frati si svegliano, e in tutte le finestre ci sono luci. I ladri hanno paura. Corrono verso la cantina con l'argento. Il primo ladro non vede la corda. Cade giù per le scale e grida. Ha una gamba rotta. Gli altri ladri lasciano cadere la coppa e la scatola e scappano nel bosco.\n\nTomas torna su alla finestra. Vicino agli alberi vede un quinto uomo. L'uomo non scappa. Non è con i ladri. Guarda solo le finestre della camera dei bambini. Ha un occhio solo. Sta contando i bambini?\n\nLa mattina tutti parlano della notte. «La campana è un'idea mia», dice Bram, e i frati dicono che Bram è un eroe. Tomas non dice niente. Per lui va bene così.\n\nMa non racconta a nessuno dell'uomo con un occhio solo.",
+    "glossary": [
+      { "term": "il ladro", "translation": "thief", "match": "ladri" },
+      { "term": "sveglio", "translation": "awake" },
+      { "term": "il rumore", "translation": "noise" },
+      { "term": "il cortile", "translation": "yard, courtyard" },
+      { "term": "la cappella", "translation": "chapel, small church" },
+      { "term": "l'argento", "translation": "silver" },
+      { "term": "costoso", "translation": "expensive", "match": "costose" },
+      { "term": "gridare", "translation": "to shout", "match": "grida" },
+      { "term": "il campanile", "translation": "bell tower" },
+      { "term": "battere", "translation": "to knock, to hit", "match": "batto" },
+      { "term": "nascondersi", "translation": "to hide", "match": "nasconde" },
+      { "term": "la panca", "translation": "bench" },
+      { "term": "la cantina", "translation": "cellar" },
+      { "term": "teso", "translation": "tight", "match": "tesa" },
+      { "term": "lasciare cadere", "translation": "to drop", "match": "lasciano cadere" }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Perché Tomas è sveglio?",
+        "options": [
+          "Ha fame",
+          "Pensa alle impronte dei cavalli",
+          "Pip lo sveglia",
+          "La campana suona"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Che cosa vogliono i ladri?",
+        "options": [
+          "I cavalli",
+          "Il cibo",
+          "La coppa d'argento e la scatola d'oro",
+          "La campana"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Tomas grida per svegliare i frati.",
+        "answer": false,
+        "explanation": "Non grida. Bram suona la campana."
+      },
+      {
+        "type": "tf",
+        "prompt": "Pip si nasconde sotto una panca.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Dove mette la corda Tomas?",
+        "options": [
+          "Sulla porta della cappella",
+          "Su un gradino della cantina",
+          "Nel campanile",
+          "Nel cortile"
+        ],
+        "answer": 1,
+        "explanation": "La lega sul terzo gradino, perché la cantina ha una porta sul bosco."
+      },
+      {
+        "type": "mc",
+        "prompt": "Che cosa fa l'uomo con un occhio solo?",
+        "options": [
+          "Scappa nel bosco",
+          "Suona la campana",
+          "Guarda le finestre della camera dei bambini",
+          "Prende la coppa d'argento"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "La mattina Tomas dice che la campana è un'idea sua.",
+        "answer": false,
+        "explanation": "Lo dice Bram. Tomas non dice niente."
+      }
+    ]
+  },
+  {
+    "id": "saga-03",
+    "level": "A1",
+    "title": "Contare le teste",
+    "topic": "Book 1, chapter 3",
+    "body": "Dopo la notte dei ladri, nel monastero c'è di nuovo silenzio. Arrivano gli uomini del signore e portano al castello il ladro con la gamba rotta. «Adesso va tutto bene», dicono. L'abate è contento. «Dio protegge la nostra casa», dice, e ringrazia Bram per la campana.\n\nUna settimana dopo arriva al monastero un uomo. Compra e vende lana. Ha due grandi carri, quattro cavalli e un servo. È molto gentile. Ha bei vestiti e parla con educazione. Compra la lana del monastero a un buon prezzo e regala ai frati una grande botte di vino.\n\nL'uomo ha un occhio solo. Sull'altro occhio ha una benda nera.\n\nTomas lo vede e capisce subito: è l'uomo della notte.\n\nIl mercante vuole partire il giorno dopo, ma non parte. Un giorno il suo carro ha una ruota rotta. Il giorno dopo piove. Tomas vede che l'uomo è sempre vicino ai bambini. Fa molte domande ai frati giovani. «Quanti bambini vivono qui? Quanti anni hanno? Vanno da soli nel bosco?»\n\nTomas va dall'abate. «Padre, quell'uomo era qui la notte dei ladri», dice. «L'ho visto vicino al bosco.»\n\nL'abate lo guarda. È buono, ma non crede a Tomas. «Era notte, Tomas, ed era buio. Adesso vedi un uomo con un occhio solo e pensi: è lui. No. Non giudichiamo un uomo dalla faccia.»\n\nBram ride di Tomas. «Vuoi fare l'eroe, come me», dice.\n\nPip ha un nuovo amico: il mercante. Ogni pomeriggio l'uomo gli dà un dolcetto al miele, e Pip va dappertutto con lui, come un cagnolino. «È molto simpatico», dice Pip. «Mi chiede delle nostre trappole nel bosco, e io gli faccio vedere dove sono.»\n\nIl terzo giorno il mercante parte. Sorride e saluta con la mano dal suo carro. La sera nessuno parla più di lui, e presto tutti lo dimenticano.\n\nMa Tomas non dimentica. Di notte va in cucina. Prende un coltellino e una corda lunga per le trappole. Mette il coltello e la corda sotto la camicia. Da quel giorno li ha sempre con sé. Ogni giorno. Ogni notte.",
+    "glossary": [
+      { "term": "il signore", "translation": "lord, ruler of the land" },
+      { "term": "il castello", "translation": "castle" },
+      { "term": "la lana", "translation": "wool" },
+      { "term": "il carro", "translation": "wagon, cart", "match": "carri" },
+      { "term": "il servo", "translation": "servant" },
+      { "term": "con educazione", "translation": "politely" },
+      { "term": "la botte", "translation": "barrel" },
+      { "term": "la benda", "translation": "(eye) patch" },
+      { "term": "il mercante", "translation": "trader" },
+      { "term": "la ruota", "translation": "wheel" },
+      { "term": "credere", "translation": "to believe", "match": "crede" },
+      { "term": "giudicare", "translation": "to judge", "match": "giudichiamo" },
+      { "term": "il miele", "translation": "honey" },
+      { "term": "salutare con la mano", "translation": "to wave", "match": "saluta con la mano" },
+      { "term": "dimenticare", "translation": "to forget", "match": "dimenticano" }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Dove portano il ladro gli uomini del signore?",
+        "options": ["Nel bosco", "Nella cappella", "Al castello", "In cucina"],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Che cosa compra e vende l'uomo?",
+        "options": ["Vino", "Lana", "Cavalli", "Dolcetti al miele"],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Il mercante ha una benda nera su un occhio.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Su che cosa fa domande il mercante ai frati giovani?",
+        "options": ["Sulla lana", "Sulla coppa d'argento", "Sui bambini", "Sulla campana"],
+        "answer": 2,
+        "explanation": "Chiede quanti bambini vivono lì, quanti anni hanno e se vanno da soli nel bosco."
+      },
+      {
+        "type": "tf",
+        "prompt": "L'abate crede a Tomas.",
+        "answer": false,
+        "explanation": "Dice: «Non giudichiamo un uomo dalla faccia.»"
+      },
+      {
+        "type": "mc",
+        "prompt": "Che cosa fa vedere Pip al mercante?",
+        "options": ["La cucina", "Dove sono le trappole", "Il campanile", "La porta della cantina"],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Alla fine Tomas ha sempre con sé un coltello e una corda.",
+        "answer": true
+      }
+    ]
+  }
+]

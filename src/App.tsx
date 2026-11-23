@@ -48,6 +48,7 @@ export function App() {
           <Route path=":lang" element={<LangLayout />}>
             <Route index element={<HomePage />} />
             <Route path="level/:level" element={<LevelPage />} />
+            <Route path="saga" element={<LevelPage saga />} />
             <Route path="text/:id" element={<ReaderPage />} />
             <Route path="words" element={<WordsPage />} />
             <Route path="gaps" element={<GapsPage />} />

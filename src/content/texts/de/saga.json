@@ -1,0 +1,241 @@
+[
+  {
+    "id": "saga-01",
+    "level": "A1",
+    "title": "Die Schlingen",
+    "topic": "Book 1, chapter 1",
+    "body": "Tomas ist zehn Jahre alt. Er hat keine Mutter und keinen Vater. Er wohnt in einem Kloster in den Bergen, im Kloster Sankt Ansel. Dort wohnen viele Mönche und auch zwölf Kinder. Alle Kinder sind Waisen, wie Tomas.\n\nTomas hat zwei Freunde. Bram ist elf. Er ist der älteste Junge im Kloster. Er ist groß und laut, und er sagt den anderen Kindern gern, was sie tun sollen. Pip ist acht. Er ist klein und lustig, und er redet den ganzen Tag. Er redet mit Vögeln, mit Bäumen und mit Tieren.\n\nTomas ist anders. Er ist still. Er redet nicht viel, aber er sieht alles, und er denkt viel nach.\n\nIm Frühling ist das Essen im Kloster nicht gut. Jeden Tag gibt es nur Brot und ein bisschen Suppe. Die Jungen haben immer Hunger.\n\nEs ist früh am Morgen, und die Mönche schlafen noch. Die drei Jungen klettern über die Mauer und gehen in den Wald. Das ist verboten. Der Abt, Pater Gerard, sagt es jede Woche: „Keine Kinder im Wald!“ Aber die Jungen wollen Fleisch.\n\nIm Wald haben die Jungen Schlingen. Eine Schlinge ist eine kleine Falle für Kaninchen. Tomas macht sehr gute Schlingen.\n\n„Seid leise!“, sagt Bram. Aber Bram ist der Lauteste von den dreien.\n\nDie erste Schlinge ist leer. Tomas sieht ein paar graue Haare an der Schnur. „Hier war ein Kaninchen“, sagt er. „Aber jetzt ist es weg.“\n\n„Deine Schlinge ist schlecht“, sagt Bram.\n\nTomas antwortet nicht. Seine Schlinge ist nicht schlecht. Er macht den Knoten fester und legt die Schlinge ein bisschen tiefer.\n\nIn der zweiten Schlinge ist ein Kaninchen. Bram nimmt es, und er ist sehr froh. „Ich habe ein Kaninchen!“, sagt er. Aber es ist die Schlinge von Tomas, nicht von Bram.\n\nAuf dem Weg nach Hause bleibt Pip stehen. Auf einem alten Baum sitzt ein graues Kaninchen mit einem eingerissenen Ohr. Es sieht die Jungen an. Es hat keine Angst.\n\n„Schaut mal! Das ist das Kaninchen aus der ersten Schlinge“, sagt Pip. „Es ist sehr schlau. Ich nenne es den König.“\n\nAn einem alten Weg bleibt Tomas wieder stehen. Auf dem Boden sieht er Spuren von Pferden. Sie sind groß und neu. Wer hat hier große Pferde? Nur reiche Männer. Tomas sieht die Spuren lange an, aber er sagt Bram und Pip nichts.\n\nBruder Anselm steht am Tor vom Kloster. Er ist ein alter Mönch und sehr freundlich. Er weiß, wo die Jungen waren.\n\nDie Jungen müssen eine Seite aus einem alten Buch abschreiben. Es ist die Geschichte von einem Kaiser. „Sein Blut kam von den Sternen“, steht in dem Buch.\n\n„Das ist nur eine Geschichte“, sagt Bram.\n\nBruder Anselm lächelt. „Viele Dinge sind nur Geschichten“, sagt er. „Bis sie es eines Tages nicht mehr sind.“",
+    "glossary": [
+      { "term": "die Schlinge", "translation": "snare, small trap made of a loop of cord" },
+      { "term": "das Kloster", "translation": "monastery" },
+      { "term": "der Mönch", "translation": "monk", "match": "Mönche" },
+      { "term": "die Waise", "translation": "orphan", "match": "Waisen" },
+      { "term": "klettern", "translation": "to climb" },
+      { "term": "verboten", "translation": "not allowed, forbidden" },
+      { "term": "der Abt", "translation": "abbot, head of a monastery" },
+      { "term": "die Schnur", "translation": "cord, string" },
+      { "term": "der Knoten", "translation": "knot" },
+      { "term": "eingerissen", "translation": "torn", "match": "eingerissenen" },
+      { "term": "schlau", "translation": "clever" },
+      { "term": "die Spur", "translation": "mark, track", "match": "Spuren" },
+      { "term": "das Tor", "translation": "gate" },
+      { "term": "abschreiben", "translation": "to copy (by hand)" },
+      { "term": "das Blut", "translation": "blood" }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Wo wohnt Tomas?",
+        "options": ["In einer Burg", "In einem Kloster", "In einem Dorf", "Im Wald"],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Bram ist der jüngste von den drei Jungen.",
+        "answer": false,
+        "explanation": "Bram ist elf. Pip ist der jüngste: Er ist acht."
+      },
+      {
+        "type": "mc",
+        "prompt": "Warum gehen die Jungen in den Wald?",
+        "options": [
+          "Sie suchen Bruder Anselm.",
+          "Sie spielen mit dem König.",
+          "Sie wollen Kaninchen fangen.",
+          "Sie wollen die Pferde sehen."
+        ],
+        "answer": 2,
+        "explanation": "Sie haben Hunger und wollen Fleisch. Deshalb sehen sie nach ihren Schlingen."
+      },
+      {
+        "type": "tf",
+        "prompt": "Die erste Schlinge ist leer.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Wer ist der König?",
+        "options": [
+          "Der Abt vom Kloster",
+          "Ein Kaninchen mit einem eingerissenen Ohr",
+          "Ein reicher Mann mit Pferden",
+          "Ein alter Mönch"
+        ],
+        "answer": 1,
+        "explanation": "Pip gibt dem schlauen grauen Kaninchen diesen Namen."
+      },
+      {
+        "type": "tf",
+        "prompt": "Tomas erzählt seinen Freunden von den Spuren der Pferde.",
+        "answer": false,
+        "explanation": "Er sieht die Spuren lange an, aber er sagt nichts."
+      },
+      {
+        "type": "mc",
+        "prompt": "Was machen die Jungen am Ende?",
+        "options": [
+          "Sie essen das Kaninchen.",
+          "Sie spielen im Garten.",
+          "Sie schreiben eine Seite aus einem alten Buch ab.",
+          "Sie gehen zurück in den Wald."
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "saga-02",
+    "level": "A1",
+    "title": "Diebe in der Nacht",
+    "topic": "Book 1, chapter 2",
+    "body": "Es ist Nacht. Im Kloster schlafen alle. Nur Tomas ist wach. Er denkt an die Spuren der Pferde im Wald. Wer kommt mit großen Pferden zu einem Kloster? Vielleicht Männer, die in der Nacht zurückkommen wollen, denkt er.\n\nDann hört er draußen ein Geräusch. Er geht zum Fenster. Der Mond ist groß und hell. Im Hof stehen vier Männer. Sie gehen zur Kapelle. In der Kapelle haben die Mönche zwei schöne Dinge: einen alten Becher aus Silber und eine kleine Kiste aus Gold. Die Dinge sind sehr alt und sehr teuer.\n\n„Diebe!“, denkt Tomas.\n\nDie Mönche sind gute Männer, aber sie können nicht kämpfen. Und Tomas kann nicht gegen vier Männer kämpfen. Wenn er schreit, laufen die Diebe mit dem Silber weg. Er braucht einen Plan.\n\nEr weckt Bram. „Bram, hör zu“, sagt er leise. „Geh auf den Glockenturm. Wenn ich zweimal an die Wand klopfe, läutest du die Glocke. Ganz laut!“\n\nBram will etwas sagen. Er mag es nicht, wenn Tomas ihm sagt, was er tun soll. Aber er sieht das Gesicht von Tomas, und er geht.\n\nPip wacht auch auf. Er sieht die Männer im Hof und hat große Angst. Er versteckt sich unter einer Bank, und er bleibt die ganze Nacht dort.\n\nTomas nimmt seine Schnur für die Schlingen und läuft die Treppe hinunter in den Keller. Der Keller hat eine Tür zum Wald. Hier wollen die Diebe hinaus, denkt er. An der dritten Stufe bindet er die Schnur fest, von einer Wand zur anderen. Sie ist tief und straff, wie eine Schlinge für Kaninchen.\n\nDann klopft er an die Wand. Eins, zwei.\n\nDie Glocke läutet. Sie ist sehr, sehr laut. Die Mönche wachen auf, und in allen Fenstern ist Licht. Die Diebe haben Angst. Sie laufen mit dem Silber zum Keller. Der erste Dieb sieht die Schnur nicht. Er fällt die Treppe hinunter und schreit. Sein Bein ist gebrochen. Die anderen Diebe lassen den Becher und die Kiste fallen und laufen in den Wald.\n\nTomas geht wieder hinauf zum Fenster. Bei den Bäumen sieht er einen fünften Mann. Der Mann läuft nicht weg. Er gehört nicht zu den Dieben. Er sieht nur die Fenster vom Schlafzimmer der Kinder an. Er hat nur ein Auge. Zählt er die Kinder?\n\nAm Morgen sprechen alle über die Nacht. „Die Glocke war meine Idee“, sagt Bram, und die Mönche sagen, Bram ist ein Held. Tomas sagt nichts. Für ihn ist das in Ordnung.\n\nAber von dem Mann mit dem einen Auge erzählt er niemandem.",
+    "glossary": [
+      { "term": "der Dieb", "translation": "thief", "match": "Diebe" },
+      { "term": "wach", "translation": "awake" },
+      { "term": "das Geräusch", "translation": "noise, sound" },
+      { "term": "der Hof", "translation": "yard, courtyard" },
+      { "term": "die Kapelle", "translation": "chapel, small church" },
+      { "term": "das Silber", "translation": "silver" },
+      { "term": "teuer", "translation": "expensive" },
+      { "term": "schreien", "translation": "to shout", "match": "schreit" },
+      { "term": "der Glockenturm", "translation": "bell tower" },
+      { "term": "klopfen", "translation": "to knock", "match": "klopfe" },
+      { "term": "sich verstecken", "translation": "to hide", "match": "versteckt sich" },
+      { "term": "die Bank", "translation": "bench" },
+      { "term": "der Keller", "translation": "cellar" },
+      { "term": "straff", "translation": "tight" },
+      { "term": "fallen lassen", "translation": "to drop", "match": "lassen den Becher und die Kiste fallen" }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Warum ist Tomas wach?",
+        "options": [
+          "Er hat Hunger.",
+          "Er denkt an die Spuren der Pferde.",
+          "Pip weckt ihn.",
+          "Die Glocke läutet."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mc",
+        "prompt": "Was wollen die Diebe?",
+        "options": [
+          "Die Pferde",
+          "Essen",
+          "Den Becher aus Silber und die Kiste aus Gold",
+          "Die Glocke"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Tomas schreit, um die Mönche zu wecken.",
+        "answer": false,
+        "explanation": "Er schreit nicht. Bram läutet die Glocke."
+      },
+      {
+        "type": "tf",
+        "prompt": "Pip versteckt sich unter einer Bank.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Wo bindet Tomas die Schnur fest?",
+        "options": [
+          "An der Tür der Kapelle",
+          "An einer Stufe im Keller",
+          "Im Glockenturm",
+          "Im Hof"
+        ],
+        "answer": 1,
+        "explanation": "Er bindet sie an der dritten Stufe fest, denn der Keller hat eine Tür zum Wald."
+      },
+      {
+        "type": "mc",
+        "prompt": "Was macht der Mann mit dem einen Auge?",
+        "options": [
+          "Er läuft in den Wald.",
+          "Er läutet die Glocke.",
+          "Er sieht die Fenster vom Schlafzimmer der Kinder an.",
+          "Er nimmt den Becher aus Silber."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Am Morgen sagt Tomas, die Glocke war seine Idee.",
+        "answer": false,
+        "explanation": "Bram sagt, es war seine Idee. Tomas sagt nichts."
+      }
+    ]
+  },
+  {
+    "id": "saga-03",
+    "level": "A1",
+    "title": "Köpfe zählen",
+    "topic": "Book 1, chapter 3",
+    "body": "Nach der Nacht mit den Dieben ist es im Kloster wieder ruhig. Die Männer vom Burgherrn kommen und bringen den Dieb mit dem gebrochenen Bein auf die Burg. „Jetzt ist alles gut“, sagen sie. Der Abt ist froh. „Gott schützt unser Haus“, sagt er, und er sagt Bram Danke für die Glocke.\n\nEine Woche später kommt ein Mann ins Kloster. Er kauft und verkauft Wolle. Er hat zwei große Wagen, vier Pferde und einen Diener. Er ist sehr nett. Er hat schöne Kleider, und er spricht höflich. Er kauft die Wolle vom Kloster für einen guten Preis, und er schenkt den Mönchen ein großes Fass Wein.\n\nDer Mann hat nur ein Auge. Über dem anderen Auge trägt er eine schwarze Klappe.\n\nTomas sieht ihn, und er weiß: Das ist der Mann aus der Nacht.\n\nDer Händler will am nächsten Tag weiterfahren, aber er fährt nicht. An einem Tag ist ein Rad von seinem Wagen kaputt. Am nächsten Tag regnet es. Tomas sieht: Der Mann ist immer bei den Kindern. Er stellt den jungen Mönchen viele Fragen. „Wie viele Kinder wohnen hier? Wie alt sind sie? Gehen sie allein in den Wald?“\n\nTomas geht zum Abt. „Vater Abt, dieser Mann war in der Nacht mit den Dieben hier“, sagt er. „Ich habe ihn am Wald gesehen.“\n\nDer Abt sieht ihn an. Er ist freundlich, aber er glaubt Tomas nicht. „Es war Nacht, Tomas, und es war dunkel. Jetzt siehst du einen Mann mit einem Auge und denkst: Das ist der Mann. Nein. Wir beurteilen einen Menschen nicht nach seinem Gesicht.“\n\nBram lacht über Tomas. „Du willst ein Held sein, wie ich“, sagt er.\n\nPip hat einen neuen Freund: den Händler. Jeden Nachmittag bekommt Pip von dem Mann einen Honigkuchen, und Pip geht überall mit ihm hin, wie ein kleiner Hund. „Er ist sehr nett“, sagt Pip. „Er fragt mich nach unseren Schlingen im Wald. Also zeige ich ihm, wo sie sind.“\n\nAm dritten Tag fährt der Händler weg. Er lächelt und winkt von seinem Wagen. Am Abend spricht niemand mehr über ihn, und bald vergessen ihn alle.\n\nAber Tomas vergisst ihn nicht. In der Nacht geht er in die Küche. Er nimmt ein kleines Messer und eine lange Schnur für Schlingen. Er steckt das Messer und die Schnur unter sein Hemd. Von diesem Tag an hat er sie immer bei sich. Jeden Tag. Jede Nacht.",
+    "glossary": [
+      { "term": "der Burgherr", "translation": "lord of the castle", "match": "Burgherrn" },
+      { "term": "die Burg", "translation": "castle" },
+      { "term": "die Wolle", "translation": "wool" },
+      { "term": "der Wagen", "translation": "wagon, cart" },
+      { "term": "der Diener", "translation": "servant" },
+      { "term": "höflich", "translation": "polite, politely" },
+      { "term": "das Fass", "translation": "barrel" },
+      { "term": "die Klappe", "translation": "(eye) patch" },
+      { "term": "der Händler", "translation": "trader" },
+      { "term": "das Rad", "translation": "wheel" },
+      { "term": "glauben", "translation": "to believe", "match": "glaubt" },
+      { "term": "beurteilen", "translation": "to judge" },
+      { "term": "der Honigkuchen", "translation": "honey cake" },
+      { "term": "winken", "translation": "to wave", "match": "winkt" },
+      { "term": "vergessen", "translation": "to forget" }
+    ],
+    "questions": [
+      {
+        "type": "mc",
+        "prompt": "Wohin bringen die Männer vom Burgherrn den Dieb?",
+        "options": ["In den Wald", "In die Kapelle", "Auf die Burg", "In die Küche"],
+        "answer": 2
+      },
+      {
+        "type": "mc",
+        "prompt": "Was kauft und verkauft der Mann?",
+        "options": ["Wein", "Wolle", "Pferde", "Honigkuchen"],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Der Händler trägt eine schwarze Klappe über einem Auge.",
+        "answer": true
+      },
+      {
+        "type": "mc",
+        "prompt": "Wonach fragt der Händler die jungen Mönche?",
+        "options": ["Nach der Wolle", "Nach dem Becher aus Silber", "Nach den Kindern", "Nach der Glocke"],
+        "answer": 2,
+        "explanation": "Er fragt, wie viele Kinder hier wohnen, wie alt sie sind und ob sie allein in den Wald gehen."
+      },
+      {
+        "type": "tf",
+        "prompt": "Der Abt glaubt Tomas.",
+        "answer": false,
+        "explanation": "Er sagt: „Wir beurteilen einen Menschen nicht nach seinem Gesicht.“"
+      },
+      {
+        "type": "mc",
+        "prompt": "Was zeigt Pip dem Händler?",
+        "options": ["Die Küche", "Wo die Schlingen sind", "Den Glockenturm", "Die Kellertür"],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Am Ende hat Tomas immer ein Messer und eine Schnur bei sich.",
+        "answer": true
+      }
+    ]
+  }
+]

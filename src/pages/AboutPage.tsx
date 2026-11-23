@@ -16,9 +16,9 @@ export function AboutPage() {
         <h2 id="ai-heading">How the content is made</h2>
         <p>
           The reading texts, quiz questions, glossaries, phrase translations and{' '}
-          <Link to="/pronunciation">pronunciation rules</Link> were written with the help of
-          AI. Most German texts were adapted from Lese Reise, an earlier DeuLern reading app;
-          the rest were written with AI like the other languages.
+          <Link to="/pronunciation">pronunciation rules</Link> were written with the help
+          of AI. Most German texts were adapted from Lese Reise, an earlier DeuLern
+          reading app; the rest were written with AI like the other languages.
         </p>
         <p>The audio narration uses AI-generated voices.</p>
       </section>
@@ -38,8 +38,8 @@ export function AboutPage() {
             alphabet;
           </li>
           <li>
-            each pronunciation rule matches words in the texts and is listed by how often it
-            occurs.
+            each pronunciation rule matches words in the texts and is listed by how often
+            it occurs.
           </li>
         </ul>
         <p>
@@ -48,9 +48,9 @@ export function AboutPage() {
         </p>
         <p>
           <b>There are almost certainly mistakes</b> in the texts, translations and
-          pronunciation rules: wrong words, grammar errors or phrasing a native speaker would
-          not use. We are working on finding and fixing them. Until then, use Polyglot as
-          practice material alongside other sources.
+          pronunciation rules: wrong words, grammar errors or phrasing a native speaker
+          would not use. We are working on finding and fixing them. Until then, use
+          Polyglot as practice material alongside other sources.
         </p>
       </section>
     </div>
