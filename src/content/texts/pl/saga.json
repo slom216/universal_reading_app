@@ -4,7 +4,7 @@
     "level": "A1",
     "title": "Wnyki",
     "topic": "Book 1, chapter 1",
-    "body": "Tomas ma dziesięć lat. Nie ma mamy ani taty. Mieszka w klasztorze w górach, w klasztorze Świętego Ansela. Mieszka tam dużo mnichów i dwanaścioro dzieci. Wszystkie dzieci są sierotami, tak jak Tomas.\n\nTomas ma dwóch przyjaciół. Bram ma jedenaście lat. Jest najstarszym chłopcem w klasztorze. Jest wysoki i głośny i lubi mówić innym dzieciom, co mają robić. Pip ma osiem lat. Jest mały i zabawny, i mówi cały dzień. Mówi do ptaków, do drzew i do zwierząt.\n\nTomas jest inny. Jest cichy. Nie mówi dużo, ale patrzy na wszystko i dużo myśli.\n\nWiosną jedzenie w klasztorze nie jest dobre. Codziennie jest tylko chleb i trochę zupy. Chłopcy są zawsze głodni.\n\nWcześnie rano, zanim mnisi wstaną, trzej chłopcy wspinają się na mur i idą do lasu. Tak nie wolno. Opat, ojciec Gerard, mówi to co tydzień: „Żadnych dzieci w lesie!”. Ale chłopcy chcą mięsa.\n\nW lesie chłopcy mają wnyki. Wnyki to mała pułapka na króliki. Tomas robi bardzo dobre wnyki.\n\n— Cicho! — mówi Bram. Ale Bram jest najgłośniejszy z całej trójki.\n\nPierwsze wnyki są puste. Tomas widzi na sznurku trochę szarej sierści.\n\n— Tu był królik — mówi. — Ale już go nie ma.\n\n— Twoje wnyki są złe — mówi Bram.\n\nTomas nie odpowiada. Jego wnyki nie są złe. Mocniej zaciska węzeł i stawia wnyki trochę niżej.\n\nW drugich wnykach jest królik. Bram go bierze i jest bardzo szczęśliwy.\n\n— Mam królika! — mówi. Ale to są wnyki Tomasa, nie Brama.\n\nW drodze do domu Pip się zatrzymuje. Na starym drzewie siedzi szary królik z rozdartym uchem. Patrzy na chłopców. Nie boi się.\n\n— Patrzcie! To królik z pierwszych wnyków — mówi Pip. — Jest bardzo sprytny. Ma na imię Król.\n\nPrzy starej drodze Tomas znowu się zatrzymuje. Na ziemi widzi ślady koni. Są duże i świeże. Kto ma tu duże konie? Tylko bogaci ludzie. Tomas długo patrzy na ślady, ale nic nie mówi Bramowi i Pipowi.\n\nBrat Anselm stoi przy bramie klasztoru. To stary mnich, bardzo dobry. Wie, gdzie byli chłopcy.\n\nChłopcy muszą przepisać stronę ze starej książki. To historia o cesarzu. W książce jest napisane: „Jego krew zstąpiła z gwiazd”.\n\n— To tylko historia — mówi Bram.\n\nBrat Anselm się uśmiecha.\n\n— Wiele rzeczy to tylko historie — mówi. — Aż pewnego dnia przestają nimi być.",
+    "body": "Tomas ma dziesięć lat. Nie ma mamy ani taty. Mieszka w klasztorze w górach, w klasztorze Świętego Ansela. Mieszka tam dużo mnichów i dwanaścioro dzieci. Wszystkie dzieci są sierotami, tak jak Tomas.\n\nTomas ma dwóch przyjaciół. Bram ma jedenaście lat. Jest najstarszym chłopcem w klasztorze. Jest wysoki i głośny i lubi mówić innym dzieciom, co mają robić. Pip ma osiem lat. Jest mały i zabawny, i mówi cały dzień. Mówi do ptaków, do drzew i do zwierząt.\n\nTomas jest inny. Jest cichy. Nie mówi dużo, ale patrzy na wszystko i dużo myśli.\n\nWiosną jedzenie w klasztorze nie jest dobre. Codziennie jest tylko chleb i trochę zupy. Chłopcy są zawsze głodni.\n\nJest wcześnie rano i mnisi jeszcze śpią. Trzej chłopcy wspinają się na mur i idą do lasu. Tak nie wolno. Opat, ojciec Gerard, mówi to co tydzień: „Żadnych dzieci w lesie!”. Ale chłopcy chcą mięsa.\n\nW lesie chłopcy mają wnyki. Wnyki to mała pułapka na króliki. Tomas robi bardzo dobre wnyki.\n\n— Cicho! — mówi Bram. Ale Bram jest najgłośniejszy z całej trójki.\n\nPierwsze wnyki są puste. Tomas widzi na sznurku trochę szarej sierści.\n\n— Tu był królik — mówi. — Ale już go nie ma.\n\n— Twoje wnyki są złe — mówi Bram.\n\nTomas nie odpowiada. Jego wnyki nie są złe. Mocniej zaciska węzeł i stawia wnyki trochę niżej.\n\nW drugich wnykach jest królik. Bram go bierze i jest bardzo szczęśliwy.\n\n— Mam królika! — mówi. Ale to są wnyki Tomasa, nie Brama.\n\nW drodze do domu Pip się zatrzymuje. Na starym drzewie siedzi szary królik z rozdartym uchem. Patrzy na chłopców. Nie boi się.\n\n— Patrzcie! To królik z pierwszych wnyków — mówi Pip. — Jest bardzo sprytny. Ma na imię Król.\n\nPrzy starej drodze Tomas znowu się zatrzymuje. Na ziemi widzi ślady koni. Są duże i świeże. Kto ma tu duże konie? Tylko bogaci ludzie. Tomas długo patrzy na ślady, ale nic nie mówi Bramowi i Pipowi.\n\nBrat Anselm stoi przy bramie klasztoru. To stary mnich, bardzo dobry. Wie: chłopcy byli w lesie.\n\nChłopcy muszą przepisać stronę ze starej książki. To historia o cesarzu. W książce jest napisane: „Jego krew zstąpiła z gwiazd”.\n\n— To tylko historia — mówi Bram.\n\nBrat Anselm się uśmiecha.\n\n— Wiele rzeczy to tylko historie — mówi. — Ale pewnego dnia już nie.",
     "glossary": [
       { "term": "wnyki", "translation": "snare" },
       { "term": "klasztor", "translation": "monastery", "match": "klasztorze" },
@@ -21,66 +21,6 @@
       { "term": "ślad", "translation": "mark, track", "match": "ślady" },
       { "term": "brama", "translation": "gate", "match": "bramie" },
       { "term": "zstąpić", "translation": "to come down", "match": "zstąpiła" }
-    ],
-    "questions": [
-      {
-        "type": "mc",
-        "prompt": "Gdzie mieszka Tomas?",
-        "options": ["W zamku", "W klasztorze", "We wsi", "W lesie"],
-        "answer": 1
-      },
-      {
-        "type": "tf",
-        "prompt": "Bram jest najmłodszy z trzech chłopców.",
-        "answer": false,
-        "explanation": "Bram ma jedenaście lat. Najmłodszy jest Pip: ma osiem lat."
-      },
-      {
-        "type": "mc",
-        "prompt": "Dlaczego chłopcy idą do lasu?",
-        "options": [
-          "Żeby znaleźć brata Anselma",
-          "Żeby bawić się z Królem",
-          "Żeby złapać króliki",
-          "Żeby zobaczyć konie"
-        ],
-        "answer": 2,
-        "explanation": "Są głodni i chcą mięsa, więc sprawdzają wnyki."
-      },
-      {
-        "type": "tf",
-        "prompt": "Pierwsze wnyki są puste.",
-        "answer": true
-      },
-      {
-        "type": "mc",
-        "prompt": "Kto to jest Król?",
-        "options": [
-          "Opat klasztoru",
-          "Królik z rozdartym uchem",
-          "Bogaty człowiek z końmi",
-          "Stary mnich"
-        ],
-        "answer": 1,
-        "explanation": "Pip daje to imię sprytnemu szaremu królikowi."
-      },
-      {
-        "type": "tf",
-        "prompt": "Tomas mówi przyjaciołom o śladach koni.",
-        "answer": false,
-        "explanation": "Długo patrzy na ślady, ale nic nie mówi."
-      },
-      {
-        "type": "mc",
-        "prompt": "Co robią chłopcy na końcu?",
-        "options": [
-          "Jedzą królika",
-          "Bawią się w ogrodzie",
-          "Przepisują stronę ze starej książki",
-          "Wracają do lasu"
-        ],
-        "answer": 2
-      }
     ]
   },
   {
@@ -88,14 +28,14 @@
     "level": "A1",
     "title": "Złodzieje w nocy",
     "topic": "Book 1, chapter 2",
-    "body": "Jest noc. Wszyscy w klasztorze śpią. Tylko Tomas nie śpi. Myśli o śladach koni w lesie. Kto przyjeżdża do klasztoru na dużych koniach? Może ludzie, którzy chcą tu wrócić w nocy, myśli.\n\nNagle słyszy hałas na zewnątrz. Podchodzi do okna. Księżyc jest duży i jasny. Na dziedzińcu jest czterech mężczyzn. Idą do kaplicy. W kaplicy mnisi mają dwie piękne rzeczy: stary srebrny kielich i małe złote pudełko. Te rzeczy są bardzo stare i bardzo drogie.\n\n„Złodzieje!” — myśli Tomas.\n\nMnisi to dobrzy ludzie, ale nie umieją walczyć. A Tomas nie może walczyć z czterema mężczyznami. Jeśli zacznie krzyczeć, złodzieje uciekną ze srebrem. Potrzebuje planu.\n\nBudzi Brama.\n\n— Bram, słuchaj — mówi cicho. — Idź na dzwonnicę. Kiedy zapukam dwa razy w ścianę, bij w dzwon. Bij bardzo mocno!\n\nBram chce coś powiedzieć. Nie lubi, kiedy Tomas mówi mu, co ma robić. Ale patrzy na twarz Tomasa i idzie.\n\nPip też się budzi. Widzi mężczyzn na dziedzińcu i bardzo się boi. Chowa się pod ławką i zostaje tam całą noc.\n\nTomas bierze sznurek od wnyków i biegnie po schodach na dół, do piwnicy. Piwnica ma drzwi do lasu. Złodzieje chcą wyjść tędy, myśli. Na trzecim stopniu przywiązuje sznurek od ściany do ściany. Sznurek jest nisko i jest mocno napięty, jak wnyki na króliki.\n\nPotem puka w ścianę. Raz, dwa.\n\nDzwon bije. Jest bardzo, bardzo głośno. Mnisi się budzą i we wszystkich oknach są światła. Złodzieje się boją. Biegną ze srebrem do piwnicy. Pierwszy złodziej nie widzi sznurka. Spada ze schodów i krzyczy. Ma złamaną nogę. Inni złodzieje rzucają kielich i pudełko i uciekają do lasu.\n\nTomas wraca na górę, do okna. Przy drzewach widzi piątego mężczyznę. Ten mężczyzna nie ucieka. Nie jest ze złodziejami. Tylko patrzy na okna sypialni dzieci. Ma tylko jedno oko. Czy on liczy dzieci?\n\nRano wszyscy mówią o tej nocy.\n\n— Dzwon to mój pomysł — mówi Bram, a mnisi mówią, że Bram jest bohaterem.\n\nTomas nic nie mówi. Dla niego to w porządku.\n\nAle nikomu nie mówi o mężczyźnie z jednym okiem.",
+    "body": "Jest noc. Wszyscy w klasztorze śpią. Tylko Tomas nie śpi. Myśli o śladach koni w lesie. Kto przyjeżdża do klasztoru na dużych koniach? Może ci ludzie chcą tu wrócić w nocy, myśli.\n\nNagle słyszy hałas na zewnątrz. Podchodzi do okna. Księżyc jest duży i jasny. Na dziedzińcu jest czterech mężczyzn. Idą do kaplicy. W kaplicy mnisi mają dwie piękne rzeczy: stary srebrny kielich i małe złote pudełko. Te rzeczy są bardzo stare i bardzo drogie.\n\n„Złodzieje!” — myśli Tomas.\n\nMnisi to dobrzy ludzie, ale nie umieją walczyć. A Tomas nie może walczyć z czterema mężczyznami. Może krzyczeć, ale wtedy złodzieje uciekną ze srebrem. Potrzebuje planu.\n\nBudzi Brama.\n\n— Bram, słuchaj — mówi cicho. — Idź na dzwonnicę. Ja pukam dwa razy w ścianę, a ty wtedy bijesz w dzwon. Bij bardzo mocno!\n\nBram chce coś powiedzieć. Nie lubi rozkazów od Tomasa. Ale patrzy na twarz Tomasa i idzie.\n\nPip też się budzi. Widzi mężczyzn na dziedzińcu i bardzo się boi. Chowa się pod ławką i zostaje tam całą noc.\n\nTomas bierze sznurek od wnyków i biegnie po schodach na dół, do piwnicy. Piwnica ma drzwi do lasu. Złodzieje chcą wyjść tędy, myśli. Na trzecim stopniu przywiązuje sznurek od ściany do ściany. Sznurek jest nisko i jest mocno napięty, jak wnyki na króliki.\n\nPotem puka w ścianę. Raz, dwa.\n\nDzwon bije. Jest bardzo, bardzo głośno. Mnisi się budzą i we wszystkich oknach są światła. Złodzieje się boją. Biegną ze srebrem do piwnicy. Pierwszy złodziej nie widzi sznurka. Spada ze schodów i krzyczy. Ma złamaną nogę. Inni złodzieje rzucają kielich i pudełko i uciekają do lasu.\n\nTomas wraca na górę, do okna. Przy drzewach widzi piątego mężczyznę. Ten mężczyzna nie ucieka. Nie jest ze złodziejami. Tylko patrzy na okna sypialni dzieci. Ma tylko jedno oko. Czy on liczy dzieci?\n\nRano wszyscy mówią o tej nocy.\n\n— Dzwon to mój pomysł — mówi Bram, a mnisi mówią, że Bram jest bohaterem.\n\nTomas nic nie mówi. Dla niego to w porządku.\n\nAle nikomu nie mówi o mężczyźnie z jednym okiem.",
     "glossary": [
       { "term": "złodziej", "translation": "thief", "match": "złodzieje" },
       { "term": "hałas", "translation": "noise" },
       { "term": "dziedziniec", "translation": "yard, courtyard", "match": "dziedzińcu" },
       { "term": "kaplica", "translation": "chapel", "match": "kaplicy" },
       { "term": "srebrny", "translation": "silver" },
-      { "term": "drogi", "translation": "expensive", "match": "drogie" },
+      { "term": "rozkaz", "translation": "order, command", "match": "rozkazów" },
       { "term": "krzyczeć", "translation": "to shout" },
       { "term": "dzwonnica", "translation": "bell tower", "match": "dzwonnicę" },
       { "term": "pukać", "translation": "to knock", "match": "puka" },
@@ -105,70 +45,6 @@
       { "term": "napięty", "translation": "tight" },
       { "term": "rzucać", "translation": "to drop, to throw", "match": "rzucają" },
       { "term": "sypialnia", "translation": "bedroom, dormitory", "match": "sypialni" }
-    ],
-    "questions": [
-      {
-        "type": "mc",
-        "prompt": "Dlaczego Tomas nie śpi?",
-        "options": [
-          "Jest głodny",
-          "Myśli o śladach koni",
-          "Budzi go Pip",
-          "Bije dzwon"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mc",
-        "prompt": "Czego chcą złodzieje?",
-        "options": [
-          "Koni",
-          "Jedzenia",
-          "Srebrnego kielicha i złotego pudełka",
-          "Dzwonu"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "tf",
-        "prompt": "Tomas krzyczy, żeby obudzić mnichów.",
-        "answer": false,
-        "explanation": "Nie krzyczy. Bram bije w dzwon."
-      },
-      {
-        "type": "tf",
-        "prompt": "Pip chowa się pod ławką.",
-        "answer": true
-      },
-      {
-        "type": "mc",
-        "prompt": "Gdzie Tomas przywiązuje sznurek?",
-        "options": [
-          "Na drzwiach kaplicy",
-          "Na stopniu w piwnicy",
-          "Na dzwonnicy",
-          "Na dziedzińcu"
-        ],
-        "answer": 1,
-        "explanation": "Przywiązuje go na trzecim stopniu, bo piwnica ma drzwi do lasu."
-      },
-      {
-        "type": "mc",
-        "prompt": "Co robi mężczyzna z jednym okiem?",
-        "options": [
-          "Ucieka do lasu",
-          "Bije w dzwon",
-          "Patrzy na okna sypialni dzieci",
-          "Bierze srebrny kielich"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "tf",
-        "prompt": "Rano Tomas mówi, że dzwon to jego pomysł.",
-        "answer": false,
-        "explanation": "To Bram mówi, że to jego pomysł. Tomas nic nie mówi."
-      }
     ]
   },
   {
@@ -176,7 +52,7 @@
     "level": "A1",
     "title": "Liczenie głów",
     "topic": "Book 1, chapter 3",
-    "body": "Po nocy ze złodziejami w klasztorze znowu jest spokojnie. Przez wiele dni wszyscy mówią tylko o tej nocy. Przyjeżdżają ludzie miejscowego pana i zabierają złodzieja ze złamaną nogą do zamku.\n\n— Teraz wszystko jest w porządku — mówią.\n\nOpat jest zadowolony.\n\n— Bóg opiekuje się naszym domem — mówi i dziękuje Bramowi za dzwon.\n\nTydzień później do klasztoru przyjeżdża pewien człowiek. Kupuje i sprzedaje wełnę. Ma dwa duże wozy, cztery konie i sługę. Jest bardzo miły. Ma dobre ubrania i mówi grzecznie. Kupuje klasztorną wełnę za dobrą cenę i daje mnichom dużą beczkę wina. Mnisi są bardzo zadowoleni.\n\nTen człowiek ma tylko jedno oko. Na drugim oku ma czarną opaskę.\n\nTomas go widzi i wie: to mężczyzna z tamtej nocy. To on patrzył na okna sypialni dzieci.\n\nHandlarz chce wyjechać następnego dnia, ale nie wyjeżdża. Jednego dnia jego wóz ma złamane koło. Następnego dnia pada deszcz. Tomas widzi, że ten człowiek jest zawsze blisko dzieci. Zadaje młodym mnichom dużo pytań:\n\n— Ile dzieci tu mieszka? Ile mają lat? Czy chodzą same do lasu?\n\nTomas idzie do opata.\n\n— Ojcze, ten człowiek był tu w noc złodziei — mówi. — Widziałem go przy lesie.\n\nOpat na niego patrzy. Jest dobry, ale nie wierzy Tomasowi.\n\n— Była noc, Tomasie, i było ciemno. Teraz widzisz człowieka z jednym okiem i myślisz: to on. Nie. Nie oceniamy człowieka po twarzy.\n\nBram śmieje się z Tomasa.\n\n— Chcesz być bohaterem, tak jak ja — mówi.\n\nPip ma nowego przyjaciela: handlarza. Każdego popołudnia handlarz daje Pipowi ciastko z miodem, a Pip chodzi z nim wszędzie jak mały pies.\n\n— On jest bardzo miły — mówi Pip. — Pyta mnie o nasze wnyki w lesie, więc pokazuję mu, gdzie są.\n\nTrzeciego dnia handlarz wyjeżdża. Uśmiecha się i macha ręką z wozu. Wieczorem nikt o nim nie mówi i szybko wszyscy o nim zapominają.\n\nAle Tomas nie zapomina. W nocy idzie do kuchni. Bierze mały nóż i długi sznurek do wnyków. Chowa nóż i sznurek pod koszulą. Od tego dnia zawsze ma je przy sobie. Każdego dnia. Każdej nocy.",
+    "body": "Po nocy ze złodziejami w klasztorze znowu jest spokojnie. Przez wiele dni wszyscy mówią tylko o tej nocy. Przyjeżdżają ludzie miejscowego pana i zabierają złodzieja ze złamaną nogą do zamku.\n\n— Teraz wszystko jest w porządku — mówią.\n\nOpat jest zadowolony.\n\n— Bóg opiekuje się naszym domem — mówi i dziękuje Bramowi za dzwon.\n\nTydzień później do klasztoru przyjeżdża pewien człowiek. Kupuje i sprzedaje wełnę. Ma dwa duże wozy, cztery konie i sługę. Jest bardzo miły. Ma dobre ubrania i mówi grzecznie. Kupuje klasztorną wełnę za dobrą cenę i daje mnichom dużą beczkę wina. Mnisi są bardzo zadowoleni.\n\nTen człowiek ma tylko jedno oko. Na drugim oku ma czarną opaskę.\n\nTomas go widzi i wie: to mężczyzna z tamtej nocy.\n\nHandlarz chce wyjechać następnego dnia, ale nie wyjeżdża. Jednego dnia jego wóz ma złamane koło. Następnego dnia pada deszcz. I ten człowiek jest zawsze blisko dzieci. Zadaje młodym mnichom dużo pytań:\n\n— Ile dzieci tu mieszka? Ile mają lat? Czy chodzą same do lasu?\n\nTomas idzie do opata.\n\n— Ojcze, ten człowiek był tu w noc złodziei — mówi. — Widziałem go przy lesie.\n\nOpat na niego patrzy. Jest dobry, ale nie wierzy Tomasowi.\n\n— Była noc, Tomasie, i było ciemno. Teraz widzisz człowieka z jednym okiem i myślisz: to on. Nie. Nie oceniamy człowieka po twarzy.\n\nBram śmieje się z Tomasa.\n\n— Chcesz być bohaterem, tak jak ja — mówi.\n\nPip ma nowego przyjaciela: handlarza. Każdego popołudnia handlarz daje Pipowi ciastko z miodem, a Pip chodzi z nim wszędzie jak mały pies.\n\n— On jest bardzo miły — mówi Pip. — Pyta mnie o nasze wnyki w lesie i pokazuję mu te wnyki.\n\nTrzeciego dnia handlarz wyjeżdża. Uśmiecha się i macha ręką z wozu. Wieczorem nikt o nim nie mówi i szybko wszyscy o nim zapominają.\n\nAle Tomas nie zapomina. W nocy idzie do kuchni. Bierze mały nóż i długi sznurek do wnyków. Chowa nóż i sznurek pod koszulą. Od tego dnia zawsze ma je przy sobie. Każdego dnia. Każdej nocy.",
     "glossary": [
       { "term": "pan", "translation": "lord (who owns the land)", "match": "pana" },
       { "term": "zamek", "translation": "castle", "match": "zamku" },
@@ -193,49 +69,53 @@
       { "term": "miód", "translation": "honey", "match": "miodem" },
       { "term": "machać", "translation": "to wave", "match": "macha" },
       { "term": "zapominać", "translation": "to forget", "match": "zapominają" }
-    ],
-    "questions": [
-      {
-        "type": "mc",
-        "prompt": "Dokąd ludzie pana zabierają złodzieja?",
-        "options": ["Do lasu", "Do kaplicy", "Do zamku", "Do kuchni"],
-        "answer": 2
-      },
-      {
-        "type": "mc",
-        "prompt": "Co kupuje i sprzedaje ten człowiek?",
-        "options": ["Wino", "Wełnę", "Konie", "Ciastka z miodem"],
-        "answer": 1
-      },
-      {
-        "type": "tf",
-        "prompt": "Handlarz ma czarną opaskę na jednym oku.",
-        "answer": true
-      },
-      {
-        "type": "mc",
-        "prompt": "O co handlarz pyta młodych mnichów?",
-        "options": ["O wełnę", "O srebrny kielich", "O dzieci", "O dzwon"],
-        "answer": 2,
-        "explanation": "Pyta, ile dzieci tu mieszka, ile mają lat i czy chodzą same do lasu."
-      },
-      {
-        "type": "tf",
-        "prompt": "Opat wierzy Tomasowi.",
-        "answer": false,
-        "explanation": "Mówi: „Nie oceniamy człowieka po twarzy”."
-      },
-      {
-        "type": "mc",
-        "prompt": "Co Pip pokazuje handlarzowi?",
-        "options": ["Kuchnię", "Gdzie są wnyki", "Dzwonnicę", "Drzwi piwnicy"],
-        "answer": 1
-      },
-      {
-        "type": "tf",
-        "prompt": "Na końcu Tomas zawsze ma przy sobie nóż i sznurek.",
-        "answer": true
-      }
+    ]
+  },
+  {
+    "id": "saga-04",
+    "level": "A1",
+    "title": "Pip Myszka",
+    "topic": "Book 1, chapter 4",
+    "body": "Handlarza już nie ma, ale dzieci dalej mówią o nocy ze złodziejami. I śmieją się z Pipa.\n\n— Pip Myszka! — wołają. — Gdzie jest myszka? Pod ławką!\n\nPip też się śmieje, ale w nocy jest mu smutno. W łóżku trochę płacze. Tomas to słyszy, ale nic nie mówi.\n\nPip nie jest taki jak Tomas albo Bram. Jest mały i boi się wielu rzeczy: ciemności, dużych psów, głębokiej wody. Ale nigdy nie boi się ludzi. Lubi wszystkich i wszyscy go lubią. Kucharz daje mu chleb z masłem. Starzy mnisi opowiadają mu historie. Małe dzieci chodzą z nim wszędzie.\n\nPewnego ranka Pip przychodzi do Tomasa.\n\n— Tomas, chcę się uczyć — mówi. — Naucz mnie robić wnyki. Naucz mnie robić węzły. Nie chcę być myszką.\n\nTomas na niego patrzy. Potem wyjmuje spod koszuli kawałek sznurka.\n\n— Dobrze — mówi. — Siadaj.\n\nSiedzą za stodołą, na słońcu. Tomas bardzo powoli robi węzeł.\n\n— Teraz ty — mówi.\n\nPip próbuje. Ma małe palce i sznurek go nie słucha. Węzeł jest zły. Pip próbuje jeszcze raz. I jeszcze raz. Tomas się nie śmieje. Mówi tylko:\n\n— Jeszcze raz.\n\nPo godzinie węzeł Pipa jest dobry. Po trzech dniach jest bardzo dobry.\n\n— Dobry węzeł jest mocny — mówi Tomas. — Ale każdy węzeł można rozwiązać. Trzeba tylko wiedzieć, gdzie pociągnąć.\n\nPokazuje Pipowi to miejsce. Pip ciągnie i węzeł się rozwiązuje.\n\nTeraz Pip ma nową zabawę. Tomas robi węzeł, a Pip go rozwiązuje. Każdego dnia jest szybszy. Piątego dnia rozwiązuje najlepszy węzeł Tomasa w dwie sekundy.\n\n— Jestem szybszy niż ty! — mówi i śmieje się, i śmieje. — Teraz to mój węzeł. To węzeł Króla.\n\nWieczorem obaj chłopcy siedzą na murze i patrzą na góry. Pip mówi, jak zawsze.\n\n— Tomas, znasz swoją mamę?\n\n— Nie.\n\n— Ja też nie. Mnisi mówią, że byłem w koszyku przy bramie. Była zima i było bardzo zimno. W koszyku było dziecko i mały drewniany ptaszek. Tylko to. Bez imienia. Mnisi mówią na mnie Pip, bo jestem taki mały.\n\nWyjmuje z kieszeni drewnianego ptaszka.\n\n— To chyba od mojej mamy.\n\n— Ja też byłem przy bramie — mówi Tomas.\n\n— Myślisz o swojej mamie?\n\n— Nie — mówi Tomas. Ale to nieprawda. Myśli o niej bardzo często.\n\nPip kładzie głowę na ramieniu Tomasa.\n\n— To jesteśmy braćmi — mówi. — Dobrze?\n\nTomas długo milczy. Potem mówi:\n\n— Dobrze.",
+    "glossary": [
+      { "term": "myszka", "translation": "little mouse; mocking name for a shy child" },
+      { "term": "śmiać się z", "translation": "to laugh at", "match": "śmieją się z" },
+      { "term": "płakać", "translation": "to cry", "match": "płacze" },
+      { "term": "głęboki", "translation": "deep", "match": "głębokiej" },
+      { "term": "kucharz", "translation": "cook" },
+      { "term": "masło", "translation": "butter", "match": "masłem" },
+      { "term": "nauczyć", "translation": "to teach", "match": "Naucz" },
+      { "term": "stodoła", "translation": "barn", "match": "stodołą" },
+      { "term": "palec", "translation": "finger", "match": "palce" },
+      { "term": "pociągnąć", "translation": "to pull" },
+      { "term": "rozwiązać", "translation": "to untie, to open a knot" },
+      { "term": "koszyk", "translation": "basket", "match": "koszyku" },
+      { "term": "drewniany", "translation": "wooden" },
+      { "term": "kieszeń", "translation": "pocket", "match": "kieszeni" },
+      { "term": "ramię", "translation": "shoulder", "match": "ramieniu" }
+    ]
+  },
+  {
+    "id": "saga-05",
+    "level": "A1",
+    "title": "Rzeka",
+    "topic": "Book 1, chapter 5",
+    "body": "Przychodzi lato i dni są gorące. W każdą sobotę mnisi i dzieci idą nad rzekę. Dzieci piorą ubrania z klasztoru, a po pracy mogą pływać.\n\nDuzi chłopcy skaczą do wody ze skały. Oczywiście Bram skacze pierwszy.\n\n— Patrzcie na mnie! — krzyczy.\n\nMałe dzieci bawią się przy brzegu.\n\nTylko Pip nie wchodzi do wody. Siedzi na trawie i patrzy.\n\n— Pip, chodź do wody! — woła Bram. — Czy myszka boi się wody?\n\nInne dzieci się śmieją.\n\nPip się uśmiecha, ale ma czerwoną twarz. Nie umie pływać. A tu rzeka jest głęboka i szybka.\n\nTomas wychodzi z wody i siada obok Pipa.\n\n— Chodź ze mną — mówi.\n\nIdą w górę rzeki. Tu woda płynie wolno i nie jest głęboka. Sięga Pipowi tylko do brzucha. Nikt ich nie widzi.\n\n— Mogę cię nauczyć — mówi Tomas. — Tak jak węzłów.\n\nPip bardzo powoli wchodzi do wody. Woda jest zimna. Tomas go trzyma.\n\n— Głowa do tyłu. Ręce na boki. Teraz połóż się na wodzie.\n\nPip próbuje, ale potem się boi. Bardzo szybko rusza rękami i nogami i pije dużo wody. Wstaje i kaszle.\n\n— Nie mogę — mówi. — Woda chce mnie zjeść.\n\n— Jeszcze raz — mówi Tomas.\n\nPip na niego patrzy. Potem znowu kładzie się na wodzie. Tym razem Tomas go nie puszcza. Przez kilka sekund Pip leży na rzece jak liść.\n\n— Umiem! — krzyczy i znowu idzie pod wodę.\n\nW każdą sobotę wracają w to miejsce. Pip uczy się trochę, ale tylko trochę. Umie leżeć na wodzie, ale nie umie pływać.\n\n— Następnego lata — mówi. — Następnego lata będę pływać jak ryba.\n\nNa brzegu małe dzieci są zmęczone i chcą posłuchać historii. Pip zawsze ma dla nich jakąś historię. Dziś jest o Królu.\n\n— Król mieszka pod starym dębem — mówi. — Ma koronę z trawy i jest bardzo sprytny. Nikt nie może go złapać. Ani Bram, ani opat, ani nawet Tomas!\n\nMałe dzieci się śmieją. Kochają Króla.\n\nW drodze do domu Pip idzie obok Tomasa.\n\n— Tomas, czy ty się czasem boisz?\n\nTomas myśli o mężczyźnie z jednym okiem.\n\n— Tak — mówi. — Każdego dnia.\n\nPip się zatrzymuje.\n\n— Ty? Naprawdę?\n\n— Naprawdę.\n\nPip długo o tym myśli. Potem bierze Tomasa za rękę i razem idą do domu.\n\nTego wieczoru Tomas idzie sam do swoich wnyków. Przy pierwszych wnykach na ziemi są ślady. To nie są ślady królików ani koni. To ślady dużych butów. Ktoś tu był, przy jego wnykach.",
+    "glossary": [
+      { "term": "prać", "translation": "to wash (clothes)", "match": "piorą" },
+      { "term": "skakać", "translation": "to jump", "match": "skaczą" },
+      { "term": "skała", "translation": "rock", "match": "skały" },
+      { "term": "oczywiście", "translation": "of course" },
+      { "term": "brzeg", "translation": "bank of a river", "match": "brzegu" },
+      { "term": "głęboki", "translation": "deep", "match": "głęboka" },
+      { "term": "sięgać", "translation": "to reach (up to)", "match": "Sięga" },
+      { "term": "brzuch", "translation": "stomach, belly", "match": "brzucha" },
+      { "term": "trzymać", "translation": "to hold", "match": "trzyma" },
+      { "term": "kaszleć", "translation": "to cough", "match": "kaszle" },
+      { "term": "puszczać", "translation": "to let go", "match": "puszcza" },
+      { "term": "liść", "translation": "leaf" },
+      { "term": "dąb", "translation": "oak", "match": "dębem" },
+      { "term": "korona", "translation": "crown", "match": "koronę" }
     ]
   }
 ]

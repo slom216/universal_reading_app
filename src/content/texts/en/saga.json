@@ -4,7 +4,7 @@
     "level": "A1",
     "title": "The Snares",
     "topic": "Book 1, chapter 1",
-    "body": "Tomas is ten years old. He has no mother and no father. He lives in a monastery in the mountains, the monastery of Saint Ansel. Many monks live there, and twelve children live there too. The children are all orphans, like Tomas.\n\nTomas has two friends. Bram is eleven. He is the oldest boy in the monastery. He is tall and loud, and he likes to tell the other children what to do. Pip is eight. He is small and funny, and he talks all day. He talks to birds, to trees and to animals.\n\nTomas is different. He is quiet. He does not talk much, but he looks at everything and he thinks a lot.\n\nIn spring the food in the monastery is not good. Every day there is only bread and a little soup. The boys are always hungry.\n\nEarly in the morning, before the monks get up, the three boys climb over the wall and go into the forest. This is not allowed. The abbot, Father Gerard, says it every week: “No children in the forest!” But the boys want meat.\n\nIn the forest the boys have snares. A snare is a small trap for rabbits. Tomas makes very good snares.\n\n“Be quiet!” says Bram. But Bram is the loudest of the three.\n\nThe first snare is empty. Tomas sees some grey hair on the rope. “There was a rabbit here,” he says. “But it is gone.”\n\n“Your snare is bad,” says Bram.\n\nTomas does not answer. His snare is not bad. He makes the knot stronger and puts the snare a little lower.\n\nIn the second snare there is a rabbit. Bram takes it, and he is very happy. “I have a rabbit!” he says. But it is Tomas's snare, not Bram's.\n\nOn the way home, Pip stops. On an old tree there is a grey rabbit with a torn ear. It looks at the boys. It is not afraid.\n\n“Look! That is the rabbit from the first snare,” says Pip. “He is very clever. His name is the King.”\n\nNear an old path, Tomas stops again. On the ground he sees the marks of horses. They are big and new. Who has big horses here? Only rich men. Tomas looks at the marks for a long time, but he says nothing to Bram and Pip.\n\nBrother Anselm is at the gate of the monastery. He is an old monk, very kind. He knows where the boys were.\n\nThe boys must copy a page from an old book. It is the story of an emperor. “His blood came down from the stars,” says the book.\n\n“It is only a story,” says Bram.\n\nBrother Anselm smiles. “Many things are only stories,” he says. “Until one day they are not.”",
+    "body": "Tomas is ten years old. He has no mother and no father. He lives in a monastery in the mountains, the monastery of Saint Ansel. Many monks live there, and twelve children live there too. The children are all orphans, like Tomas.\n\nTomas has two friends. Bram is eleven. He is the oldest boy in the monastery. He is tall and loud, and he likes to tell the other children what to do. Pip is eight. He is small and funny, and he talks all day. He talks to birds, to trees and to animals.\n\nTomas is different. He is quiet. He does not talk much, but he looks at everything and he thinks a lot.\n\nIn spring the food in the monastery is not good. Every day there is only bread and a little soup. The boys are always hungry.\n\nIt is early in the morning, and the monks are still asleep. The three boys climb over the wall and go into the forest. This is not allowed. The abbot, Father Gerard, says it every week: “No children in the forest!” But the boys want meat.\n\nIn the forest the boys have snares. A snare is a small trap for rabbits. Tomas makes very good snares.\n\n“Be quiet!” says Bram. But Bram is the loudest of the three.\n\nThe first snare is empty. Tomas sees some grey hair on the rope. “There was a rabbit here,” he says. “But it is gone.”\n\n“Your snare is bad,” says Bram.\n\nTomas does not answer. His snare is not bad. He makes the knot stronger and puts the snare a little lower.\n\nIn the second snare there is a rabbit. Bram takes it, and he is very happy. “I have a rabbit!” he says. But it is Tomas's snare, not Bram's.\n\nOn the way home, Pip stops. On an old tree there is a grey rabbit with a torn ear. It looks at the boys. It is not afraid.\n\n“Look! That is the rabbit from the first snare,” says Pip. “He is very clever. His name is the King.”\n\nNear an old path, Tomas stops again. On the ground he sees the marks of horses. They are big and new. Who has big horses here? Only rich men. Tomas looks at the marks for a long time, but he says nothing to Bram and Pip.\n\nBrother Anselm is at the gate of the monastery. He is an old monk, very kind. He knows: the boys were in the forest.\n\nThe boys must copy a page from an old book. It is the story of an emperor. “His blood came down from the stars,” says the book.\n\n“It is only a story,” says Bram.\n\nBrother Anselm smiles. “Many things are only stories,” he says. “Until one day they are not.”",
     "glossary": [
       { "term": "snare", "translation": "small trap made of a loop of rope", "match": "snares" },
       { "term": "monastery", "translation": "place where monks live and pray" },
@@ -21,66 +21,6 @@
       { "term": "mark", "translation": "sign left on the ground", "match": "marks" },
       { "term": "gate", "translation": "big door in a wall" },
       { "term": "blood", "translation": "red liquid in your body" }
-    ],
-    "questions": [
-      {
-        "type": "mc",
-        "prompt": "Where does Tomas live?",
-        "options": ["In a castle", "In a monastery", "In a village", "In the forest"],
-        "answer": 1
-      },
-      {
-        "type": "tf",
-        "prompt": "Bram is the youngest of the three boys.",
-        "answer": false,
-        "explanation": "Bram is eleven. Pip is the youngest: he is eight."
-      },
-      {
-        "type": "mc",
-        "prompt": "Why do the boys go into the forest?",
-        "options": [
-          "To find Brother Anselm",
-          "To play with the King",
-          "To catch rabbits",
-          "To see the horses"
-        ],
-        "answer": 2,
-        "explanation": "They are hungry and they want meat, so they check their snares."
-      },
-      {
-        "type": "tf",
-        "prompt": "The first snare is empty.",
-        "answer": true
-      },
-      {
-        "type": "mc",
-        "prompt": "Who is the King?",
-        "options": [
-          "The abbot of the monastery",
-          "A rabbit with a torn ear",
-          "A rich man with horses",
-          "An old monk"
-        ],
-        "answer": 1,
-        "explanation": "Pip gives this name to the clever grey rabbit."
-      },
-      {
-        "type": "tf",
-        "prompt": "Tomas tells his friends about the horse marks.",
-        "answer": false,
-        "explanation": "He looks at the marks for a long time, but he says nothing."
-      },
-      {
-        "type": "mc",
-        "prompt": "What do the boys do at the end?",
-        "options": [
-          "They eat the rabbit",
-          "They play in the garden",
-          "They copy a page from an old book",
-          "They go back to the forest"
-        ],
-        "answer": 2
-      }
     ]
   },
   {
@@ -88,7 +28,7 @@
     "level": "A1",
     "title": "Thieves in the Night",
     "topic": "Book 1, chapter 2",
-    "body": "It is night. Everybody in the monastery is asleep. Only Tomas is awake. He thinks about the horse marks in the forest. Who comes to a monastery on big horses? Maybe men who want to come back at night, he thinks.\n\nThen he hears a noise outside. He goes to the window. The moon is big and bright. In the yard there are four men. They go to the chapel. In the chapel the monks have two beautiful things: an old silver cup and a small gold box. These things are very old and very expensive.\n\n“Thieves!” thinks Tomas.\n\nThe monks are good men, but they cannot fight. And Tomas cannot fight four men. If he shouts, the thieves run away with the silver. He needs a plan.\n\nHe wakes Bram. “Bram, listen,” he says quietly. “Go up the bell tower. When I knock on the wall two times, ring the bell. Ring it very loud!”\n\nBram wants to say something. He does not like it when Tomas tells him what to do. But he looks at Tomas's face, and he goes.\n\nPip wakes up too. He sees the men in the yard and he is very afraid. He hides under a bench, and he stays there all night.\n\nTomas takes his rope for the snares and runs down the stairs to the cellar. The cellar has a door to the forest. The thieves want to go out this way, he thinks. On the third stair he ties the rope from one wall to the other. It is low and tight, like a snare for rabbits.\n\nThen he knocks on the wall. One, two.\n\nThe bell rings. It is very, very loud. The monks wake up, and there are lights in all the windows. The thieves are afraid. They run to the cellar with the silver. The first thief does not see the rope. He falls down the stairs and he cries out. His leg is broken. The other thieves drop the cup and the box, and they run into the forest.\n\nTomas goes back up to the window. Near the trees he sees a fifth man. The man does not run. He is not with the thieves. He only looks at the windows of the children's bedroom. He has only one eye. Is he counting the children?\n\nIn the morning, everybody talks about the night. “The bell is my idea,” says Bram, and the monks say Bram is a hero. Tomas says nothing. For him that is OK.\n\nBut he does not tell anybody about the man with one eye.",
+    "body": "It is night. Everybody in the monastery is asleep. Only Tomas is awake. He thinks about the horse marks in the forest. Who comes to a monastery on big horses? Maybe the men want to come back at night, he thinks.\n\nThen he hears a noise outside. He goes to the window. The moon is big and bright. In the yard there are four men. They go to the chapel. In the chapel the monks have two beautiful things: an old silver cup and a small gold box. These things are very old and very expensive.\n\n“Thieves!” thinks Tomas.\n\nThe monks are good men, but they cannot fight. And Tomas cannot fight four men. He can shout, but then the thieves run away with the silver. He needs a plan.\n\nHe wakes Bram. “Bram, listen,” he says quietly. “Go up the bell tower. I knock on the wall two times, and then you ring the bell. Ring it very loud!”\n\nBram wants to say something. He does not like orders from Tomas. But he looks at Tomas's face, and he goes.\n\nPip wakes up too. He sees the men in the yard and he is very afraid. He hides under a bench, and he stays there all night.\n\nTomas takes his rope for the snares and runs down the stairs to the cellar. The cellar has a door to the forest. The thieves want to go out this way, he thinks. On the third stair he ties the rope from one wall to the other. It is low and tight, like a snare for rabbits.\n\nThen he knocks on the wall. One, two.\n\nThe bell rings. It is very, very loud. The monks wake up, and there are lights in all the windows. The thieves are afraid. They run to the cellar with the silver. The first thief does not see the rope. He falls down the stairs and he cries out. His leg is broken. The other thieves drop the cup and the box, and they run into the forest.\n\nTomas goes back up to the window. Near the trees he sees a fifth man. The man does not run. He is not with the thieves. He only looks at the windows of the children's bedroom. He has only one eye. Is he counting the children?\n\nIn the morning, everybody talks about the night. “The bell is my idea,” says Bram, and the monks say Bram is a hero. Tomas says nothing. For him that is OK.\n\nBut he does not tell anybody about the man with one eye.",
     "glossary": [
       { "term": "thief", "translation": "person who takes things that are not his", "match": "thieves" },
       { "term": "awake", "translation": "not sleeping" },
@@ -97,7 +37,7 @@
       { "term": "chapel", "translation": "small church" },
       { "term": "silver", "translation": "white metal that costs a lot" },
       { "term": "expensive", "translation": "costing a lot of money" },
-      { "term": "to shout", "translation": "to speak very loudly", "match": "shouts" },
+      { "term": "to shout", "translation": "to speak very loudly", "match": "shout" },
       { "term": "bell tower", "translation": "tall building with a big bell" },
       { "term": "to knock", "translation": "to hit a door or wall to make a noise", "match": "knock" },
       { "term": "to hide", "translation": "to go where nobody can see you", "match": "hides" },
@@ -105,70 +45,6 @@
       { "term": "cellar", "translation": "room under a house" },
       { "term": "tight", "translation": "pulled hard, so it does not move" },
       { "term": "to drop", "translation": "to let something fall", "match": "drop" }
-    ],
-    "questions": [
-      {
-        "type": "mc",
-        "prompt": "Why is Tomas awake?",
-        "options": [
-          "He is hungry",
-          "He thinks about the horse marks",
-          "Pip wakes him",
-          "The bell rings"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mc",
-        "prompt": "What do the thieves want?",
-        "options": [
-          "The horses",
-          "Food",
-          "The silver cup and the gold box",
-          "The bell"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "tf",
-        "prompt": "Tomas shouts to wake the monks.",
-        "answer": false,
-        "explanation": "He does not shout. Bram rings the bell."
-      },
-      {
-        "type": "tf",
-        "prompt": "Pip hides under a bench.",
-        "answer": true
-      },
-      {
-        "type": "mc",
-        "prompt": "Where does Tomas put the rope?",
-        "options": [
-          "On the chapel door",
-          "On a stair in the cellar",
-          "In the bell tower",
-          "In the yard"
-        ],
-        "answer": 1,
-        "explanation": "He ties it on the third stair, because the cellar has a door to the forest."
-      },
-      {
-        "type": "mc",
-        "prompt": "What does the man with one eye do?",
-        "options": [
-          "He runs into the forest",
-          "He rings the bell",
-          "He looks at the windows of the children's bedroom",
-          "He takes the silver cup"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "tf",
-        "prompt": "In the morning, Tomas says the bell is his idea.",
-        "answer": false,
-        "explanation": "Bram says it is his idea. Tomas says nothing."
-      }
     ]
   },
   {
@@ -176,7 +52,7 @@
     "level": "A1",
     "title": "Counting Heads",
     "topic": "Book 1, chapter 3",
-    "body": "After the night of the thieves, the monastery is quiet again. The lord's men come and take the thief with the broken leg to the castle. “Now everything is OK,” they say. The abbot is happy. “God looks after our home,” he says, and he says thank you to Bram for the bell.\n\nOne week later, a man comes to the monastery. He buys and sells wool. He has two big wagons, four horses and a servant. He is very nice. He has good clothes and he speaks politely. He buys the wool of the monastery for a good price, and he gives the monks a big barrel of wine.\n\nThe man has only one eye. On the other eye he has a black patch.\n\nTomas sees him, and he knows: that is the man from the night.\n\nThe trader wants to leave the next day, but he does not leave. One day his wagon has a broken wheel. The next day it rains. Tomas sees that the man is always near the children. He asks the young monks a lot of questions. “How many children live here? How old are they? Do they go to the forest alone?”\n\nTomas goes to the abbot. “Father, that man was here on the night of the thieves,” he says. “I saw him near the forest.”\n\nThe abbot looks at him. He is kind, but he does not believe Tomas. “It was night, Tomas, and it was dark. Now you see a man with one eye, and you think: that is the man. No. We do not judge a man by his face.”\n\nBram laughs at Tomas. “You want to be a hero, like me,” he says.\n\nPip has a new friend: the trader. Every afternoon the man gives Pip a honey cake, and Pip goes everywhere with him, like a little dog. “He is very nice,” says Pip. “He asks me about our snares in the forest, so I show him where they are.”\n\nOn the third day the trader leaves. He smiles and waves from his wagon. In the evening nobody talks about him, and soon everybody forgets him.\n\nBut Tomas does not forget. At night he goes to the kitchen. He takes a small knife and a long rope for snares. He puts the knife and the rope under his shirt. From this day he always has them with him. Every day. Every night.",
+    "body": "After the night of the thieves, the monastery is quiet again. The lord's men come and take the thief with the broken leg to the castle. “Now everything is OK,” they say. The abbot is happy. “God looks after our home,” he says, and he says thank you to Bram for the bell.\n\nOne week later, a man comes to the monastery. He buys and sells wool. He has two big wagons, four horses and a servant. He is very nice. He has good clothes and he speaks politely. He buys the wool of the monastery for a good price, and he gives the monks a big barrel of wine.\n\nThe man has only one eye. On the other eye he has a black patch.\n\nTomas sees him, and he knows: that is the man from the night.\n\nThe trader wants to leave the next day, but he does not leave. One day his wagon has a broken wheel. The next day it rains. And the man is always near the children. He asks the young monks a lot of questions. “How many children live here? How old are they? Do they go to the forest alone?”\n\nTomas goes to the abbot. “Father, that man was here on the night of the thieves,” he says. “I saw him near the forest.”\n\nThe abbot looks at him. He is kind, but he does not believe Tomas. “It was night, Tomas, and it was dark. Now you see a man with one eye, and you think: that is the man. No. We do not judge a man by his face.”\n\nBram laughs at Tomas. “You want to be a hero, like me,” he says.\n\nPip has a new friend: the trader. Every afternoon the man gives Pip a honey cake, and Pip goes everywhere with him, like a little dog. “He is very nice,” says Pip. “He asks me about our snares in the forest, and I show him the snares.”\n\nOn the third day the trader leaves. He smiles and waves from his wagon. In the evening nobody talks about him, and soon everybody forgets him.\n\nBut Tomas does not forget. At night he goes to the kitchen. He takes a small knife and a long rope for snares. He puts the knife and the rope under his shirt. From this day he always has them with him. Every day. Every night.",
     "glossary": [
       { "term": "lord", "translation": "rich man who owns the land and the castle" },
       { "term": "castle", "translation": "big old building with strong walls" },
@@ -193,54 +69,53 @@
       { "term": "honey", "translation": "sweet food that bees make" },
       { "term": "to wave", "translation": "to move your hand to say goodbye", "match": "waves" },
       { "term": "to forget", "translation": "to not remember", "match": "forgets" }
-    ],
-    "questions": [
-      {
-        "type": "mc",
-        "prompt": "Where do the lord's men take the thief?",
-        "options": ["To the forest", "To the chapel", "To the castle", "To the kitchen"],
-        "answer": 2
-      },
-      {
-        "type": "mc",
-        "prompt": "What does the man sell and buy?",
-        "options": ["Wine", "Wool", "Horses", "Honey cakes"],
-        "answer": 1
-      },
-      {
-        "type": "tf",
-        "prompt": "The trader has a black patch on one eye.",
-        "answer": true
-      },
-      {
-        "type": "mc",
-        "prompt": "What does the trader ask the young monks about?",
-        "options": ["The wool", "The silver cup", "The children", "The bell"],
-        "answer": 2,
-        "explanation": "He asks how many children live there, how old they are and if they go to the forest alone."
-      },
-      {
-        "type": "tf",
-        "prompt": "The abbot believes Tomas.",
-        "answer": false,
-        "explanation": "He says: “We do not judge a man by his face.”"
-      },
-      {
-        "type": "mc",
-        "prompt": "What does Pip show the trader?",
-        "options": [
-          "The kitchen",
-          "Where the snares are",
-          "The bell tower",
-          "The cellar door"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "tf",
-        "prompt": "At the end, Tomas always has a knife and a rope with him.",
-        "answer": true
-      }
+    ]
+  },
+  {
+    "id": "saga-04",
+    "level": "A1",
+    "title": "Pip the Mouse",
+    "topic": "Book 1, chapter 4",
+    "body": "The trader is gone, but the children still talk about the night of the thieves. And they laugh at Pip. “Pip the mouse!” they say. “Where is the mouse? Under the bench!” Pip laughs too, but at night he is sad. In his bed he cries a little. Tomas hears him, but he says nothing.\n\nPip is not like Tomas or Bram. He is small, and he is afraid of many things: the dark, big dogs, deep water. But he is never afraid of people. He likes everybody, and everybody likes him. The cook gives him bread with butter. The old monks tell him stories. The little children go everywhere with him.\n\nOne morning Pip comes to Tomas. “Tomas, I want to learn,” he says. “Teach me the snares. Teach me the knots. I don't want to be a mouse.”\n\nTomas looks at him. Then he takes a piece of rope from under his shirt. “OK,” he says. “Sit down.”\n\nThey sit behind the barn, in the sun. Tomas makes a knot, very slowly. “Now you,” he says.\n\nPip tries. His fingers are small, and the rope does not listen to him. The knot is bad. He tries again. And again. Tomas does not laugh. He only says: “Again.”\n\nAfter one hour, Pip's knot is good. After three days, it is very good.\n\n“A good knot is strong,” says Tomas. “But every knot can open. You only need to know where to pull.” He shows Pip the place. Pip pulls, and the knot opens.\n\nNow Pip has a new game. Tomas makes a knot, and Pip opens it. Every day he is faster. On the fifth day he opens Tomas's best knot in two seconds. “I am faster than you!” he says, and he laughs and laughs. “This is my knot now. It is the King's knot.”\n\nIn the evening the two boys sit on the wall and look at the mountains. Pip talks, like always.\n\n“Tomas, do you know your mother?”\n\n“No.”\n\n“Me too. The monks say I was in a basket at the gate. It was winter, and it was very cold. In the basket there was a baby and a little bird of wood. Only that. No name. The monks call me Pip, because I am so small.” He takes the wooden bird from his pocket. “This is from my mother, I think.”\n\n“I was at the gate too,” says Tomas.\n\n“Do you think about your mother?”\n\n“No,” says Tomas. But that is not true. He thinks about her very often.\n\nPip puts his head on Tomas's shoulder. “Then we are brothers,” he says. “OK?”\n\nTomas is quiet for a long time. Then he says: “OK.”",
+    "glossary": [
+      { "term": "mouse", "translation": "small grey animal with a long tail" },
+      { "term": "to laugh at", "translation": "to laugh to make someone feel bad", "match": "laugh at" },
+      { "term": "to cry", "translation": "to have tears in your eyes because you are sad", "match": "cries" },
+      { "term": "deep", "translation": "going a long way down" },
+      { "term": "cook", "translation": "person who makes the food" },
+      { "term": "butter", "translation": "soft yellow food made from milk" },
+      { "term": "to teach", "translation": "to show someone how to do something", "match": "Teach" },
+      { "term": "barn", "translation": "farm building for animals and food for them" },
+      { "term": "finger", "translation": "one of the five long parts of your hand", "match": "fingers" },
+      { "term": "to pull", "translation": "to move something towards you", "match": "pull" },
+      { "term": "second", "translation": "very short time; sixty make one minute", "match": "seconds" },
+      { "term": "basket", "translation": "box made of thin wood, for carrying things" },
+      { "term": "wooden", "translation": "made of wood" },
+      { "term": "pocket", "translation": "small bag in your clothes" },
+      { "term": "shoulder", "translation": "part of the body between the neck and the arm" }
+    ]
+  },
+  {
+    "id": "saga-05",
+    "level": "A1",
+    "title": "The River",
+    "topic": "Book 1, chapter 5",
+    "body": "Summer comes, and the days are hot. Every Saturday the monks take the children to the river. The children wash the clothes of the monastery, and after the work they can swim.\n\nThe big boys jump into the water from a rock. Bram jumps first, of course. “Look at me!” he shouts. The little children play near the bank.\n\nOnly Pip does not go into the water. He sits on the grass and watches.\n\n“Pip, come in!” says Bram. “Or is the mouse afraid of water?” The other children laugh.\n\nPip smiles, but his face is red. He cannot swim. And here the river is deep and fast.\n\nTomas gets out of the water and sits next to Pip. “Come with me,” he says.\n\nThey walk up the river. Here the water is slow and not deep. It only comes to Pip's stomach. Nobody can see them.\n\n“I can teach you,” says Tomas. “Like the knots.”\n\nPip goes into the water, very slowly. It is cold. Tomas holds him. “Put your head back. Put your arms out. Now lie on the water.”\n\nPip tries, but then he is afraid. He moves his arms and legs very fast, and he drinks a lot of water. He stands up and coughs. “I can't,” he says. “The water wants to eat me.”\n\n“Again,” says Tomas.\n\nPip looks at him. Then he lies on the water again. This time Tomas does not let him go. For a few seconds Pip lies on the river like a leaf. “I can do it!” he shouts, and he goes under again.\n\nThey come back to this place every Saturday. Pip learns a little, but only a little. He can lie on the water, but he cannot swim. “Next summer,” he says. “Next summer I can swim like a fish.”\n\nOn the bank, the little children are tired, and they want a story. Pip always has a story for them. Today it is about the King. “The King lives under the old oak,” he says. “He has a crown of grass, and he is very clever. Nobody can catch him. Not Bram, not the abbot, not even Tomas!” The little children laugh. They love the King.\n\nOn the way home Pip walks next to Tomas.\n\n“Tomas, are you afraid sometimes?”\n\nTomas thinks about the man with one eye. “Yes,” he says. “Every day.”\n\nPip stops. “You? Really?”\n\n“Really.”\n\nPip thinks about this for a long time. Then he takes Tomas's hand, and they walk home together.\n\nThat evening Tomas goes to his snares alone. Near the first snare there are marks on the ground. They are not from rabbits, and they are not from horses. They are from big boots. Somebody was here, at his snares.",
+    "glossary": [
+      { "term": "of course", "translation": "as everybody thinks; naturally" },
+      { "term": "to jump", "translation": "to go up into the air with your legs", "match": "jump" },
+      { "term": "rock", "translation": "big stone" },
+      { "term": "bank", "translation": "the land at the side of a river" },
+      { "term": "to watch", "translation": "to look at something for some time", "match": "watches" },
+      { "term": "deep", "translation": "going a long way down" },
+      { "term": "stomach", "translation": "the middle of your body, where food goes" },
+      { "term": "to hold", "translation": "to have something in your hands or arms", "match": "holds" },
+      { "term": "to cough", "translation": "to push air out of your mouth with a noise", "match": "coughs" },
+      { "term": "to let go", "translation": "to stop holding", "match": "let him go" },
+      { "term": "leaf", "translation": "flat green part of a tree" },
+      { "term": "oak", "translation": "big tree with very hard wood" },
+      { "term": "crown", "translation": "gold ring that a king wears on his head" },
+      { "term": "boot", "translation": "strong shoe that also covers part of the leg", "match": "boots" }
     ]
   }
 ]

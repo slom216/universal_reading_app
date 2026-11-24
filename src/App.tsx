@@ -15,6 +15,7 @@ import { PlacementPage } from './pages/PlacementPage';
 import { PronunciationIndexPage, PronunciationPage } from './pages/PronunciationPage';
 import { ProgressPage } from './pages/ProgressPage';
 import { ReaderPage } from './pages/ReaderPage';
+import { SagaIndexPage } from './pages/SagaIndexPage';
 import { SayIndexPage, SayPage } from './pages/SayPage';
 import { SettingsPage } from './pages/SettingsPage';
 import { UnscramblePage } from './pages/UnscramblePage';
@@ -42,13 +43,18 @@ export function App() {
           <Route path="say/:slug" element={<SayPage />} />
           <Route path="pronunciation" element={<PronunciationIndexPage />} />
           <Route path="pronunciation/:lang" element={<PronunciationPage />} />
+          <Route path="saga" element={<SagaIndexPage />} />
+          <Route path="saga/:lang" element={<LangLayout />}>
+            <Route index element={<LevelPage saga />} />
+            <Route path=":id" element={<ReaderPage saga />} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Route>
           <Route path="progress" element={<ProgressPage />} />
           <Route path="settings" element={<SettingsPage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path=":lang" element={<LangLayout />}>
             <Route index element={<HomePage />} />
             <Route path="level/:level" element={<LevelPage />} />
-            <Route path="saga" element={<LevelPage saga />} />
             <Route path="text/:id" element={<ReaderPage />} />
             <Route path="words" element={<WordsPage />} />
             <Route path="gaps" element={<GapsPage />} />

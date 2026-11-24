@@ -19,6 +19,7 @@ export function AppShell() {
     { to: lastLang ? `/${lastLang}` : '/reading', label: 'Reading', end: false },
     { to: '/phrases', label: 'Phrases', end: false },
     { to: '/pronunciation', label: 'Pronunciation', end: false },
+    { to: '/saga', label: 'Saga', end: false },
     { to: '/progress', label: 'Progress', end: false },
     { to: '/settings', label: 'Settings', end: false },
   ];
@@ -108,8 +109,7 @@ export function AppShell() {
               Polyglot is part of the <a href="https://deulern.com">DeuLern</a> family.
               <br />
               All texts are written for this app. Your progress is stored only in this
-              browser.{' '}
-              <NavLink to="/about">About</NavLink> ·{' '}
+              browser. <NavLink to="/about">About</NavLink> ·{' '}
               <a href="#cookies" data-consent-open>
                 Cookies
               </a>

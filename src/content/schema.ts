@@ -2,6 +2,9 @@ import { z } from 'zod';
 
 export const LEVELS = ['A1', 'A2', 'B1'] as const;
 export type Level = (typeof LEVELS)[number];
+/** A text's level: one of LEVELS, or for a saga chapter also a step between two. */
+export const SAGA_LEVELS = ['A1', 'A1/A2', 'A2', 'A2/B1', 'B1'] as const;
+export type SagaLevel = (typeof SAGA_LEVELS)[number];
 
 /** Inclusive word-count range per level. */
 export const WORD_RANGE: Record<Level, [number, number]> = {
@@ -28,7 +31,7 @@ const question = z.discriminatedUnion('type', [
 
 export const textSchema = z.strictObject({
   id: z.string().regex(/^(?:(?:a1|a2|b1)-\d{2,3}|saga-\d{2})$/),
-  level: z.enum(LEVELS),
+  level: z.enum(SAGA_LEVELS),
   title: z.string().min(1),
   topic: z.string().min(1),
   body: z.string().min(1),
@@ -44,16 +47,25 @@ export const textSchema = z.strictObject({
         .strict(),
     )
     .min(1),
-  questions: z.array(question).min(5).max(8),
+  /** 5–8 for level texts (content.test.ts); saga chapters are for reading only, so none. */
+  questions: z.array(question).max(8).default([]),
 });
 
 export type Question = z.infer<typeof question>;
 
-/** The book saga: one serial story told in A1 chapters ("saga-01", …), kept out of the
+/** The book saga: one serial story told in chapters ("saga-01", …), kept out of the
  *  level lists. src/content/texts/<lang>/saga.json, the same chapters in every language.
- *  Chapters are A1 language but longer than A1 texts, hence their own word range. */
+ *  Each chapter has its own level, judged per language (A1, A1/A2, …); they are longer
+ *  than level texts, hence their own word range. */
 export const SAGA_TITLE = 'The Great Saga';
-export const SAGA_LEVEL: Level = 'A1';
+/** "A1", or "A1–A2" for the lowest and highest of these levels. */
+export function levelSpan(levels: readonly SagaLevel[]): string {
+  const i = levels.flatMap((l) => l.split('/')).map((l) => LEVELS.indexOf(l as Level));
+  const [lo, hi] = [LEVELS[Math.min(...i)], LEVELS[Math.max(...i)]];
+  return lo === hi ? lo! : `${lo}–${hi}`;
+}
+/** levelSpan of every chapter in every language; content.test.ts keeps it true. */
+export const SAGA_LEVEL = 'A1–A2';
 export const SAGA_WORDS: [number, number] = [300, 500];
 export const isSaga = (t: { id: string }) => t.id.startsWith('saga-');
 export type ReadingText = z.infer<typeof textSchema>;

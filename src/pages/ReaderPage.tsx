@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { SAGA_TITLE, countWords, isSaga } from '../content/schema';
+import { SAGA_TITLE, countWords, isSaga, type Level } from '../content/schema';
 import { GlossaryText } from '../components/GlossaryText';
 import { Quiz } from '../components/Quiz';
 import { RomanizeToggle, ScriptToggle } from '../components/ScriptToggle';
@@ -17,10 +17,13 @@ const audio = import.meta.glob<string>('../assets/audio/*/*.mp3', {
   import: 'default',
 });
 
-export function ReaderPage() {
+/** One text. With `saga`, the route is a chapter of the book saga. */
+export function ReaderPage({ saga: sagaRoute = false }: { saga?: boolean }) {
   const { id = '' } = useParams();
-  const { lang, base, byId, byLevel, saga, key, tr, rt, code } = useLang();
-  const text = byId(id);
+  const { lang, base, byId, byLevel, saga, sagaPath, textPath, key, tr, rt, code } =
+    useLang();
+  const match = byId(id);
+  const text = match && isSaga(match) === sagaRoute ? match : undefined;
   const result = useProgress((s) => s.results[key(id)]);
   const complete = useProgress((s) => s.complete);
   const fontSize = useProgress((s) => s.settings.fontSize);
@@ -41,11 +44,14 @@ export function ReaderPage() {
   if (!text) return <NotFoundPage />;
 
   const inSaga = isSaga(text);
-  const siblings = inSaga ? saga : byLevel(text.level);
+  // Saga chapters are for reading only: no quiz. Leaving a chapter by the pager marks it read.
+  const hasQuiz = text.questions.length > 0;
+  const markRead = () => !hasQuiz && complete(key(text.id), 1);
+  const siblings = inSaga ? saga : byLevel(text.level as Level);
   const index = siblings.findIndex((t) => t.id === text.id);
   const prev = siblings[index - 1];
   const next = siblings[index + 1];
-  const levelPath = inSaga ? `${base}/saga` : `${base}/level/${text.level.toLowerCase()}`;
+  const levelPath = inSaga ? sagaPath : `${base}/level/${text.level.toLowerCase()}`;
   const backLabel = inSaga ? `Back to ${SAGA_TITLE}` : `Back to level ${text.level}`;
   const audioUrl = audio[`../assets/audio/${key(text.id)}.mp3`];
   const params = { reading_language: lang.id, level: text.level, text_id: text.id };
@@ -59,7 +65,7 @@ export function ReaderPage() {
         (correct === total
           ? 'got every question right 🎉'
           : `scored ${correct}/${total} on the quiz`),
-      url: `${window.location.origin}${base}/text/${text.id}`,
+      url: `${window.location.origin}${textPath(text)}`,
       hashtags: `Learn${lang.name}`,
     }).toString();
 
@@ -67,7 +73,7 @@ export function ReaderPage() {
     <article
       className="reader stack"
       data-font={fontSize}
-      data-split={split}
+      data-split={hasQuiz && split}
       data-dyslexic={dyslexic || undefined}
     >
       <p className="text-sm">
@@ -80,7 +86,7 @@ export function ReaderPage() {
           <span className="chip">{text.level}</span>
           <span className="text-sm text-muted">
             {text.topic} · {countWords(text.body)} words
-            {result && ` · best score ${Math.round(result.bestScore * 100)}%`}
+            {result && hasQuiz && ` · best score ${Math.round(result.bestScore * 100)}%`}
           </span>
         </div>
         <h1 lang={code}>{rt(text.title)}</h1>
@@ -90,15 +96,17 @@ export function ReaderPage() {
         <details key={text.id} className="reader__options">
           <summary>Reading options</summary>
           <div className="stack stack--tight">
-            <label className="switch reader__split-toggle">
-              <input
-                type="checkbox"
-                role="switch"
-                checked={split}
-                onChange={(e) => setSettings({ split: e.target.checked })}
-              />
-              Questions beside the text
-            </label>
+            {hasQuiz && (
+              <label className="switch reader__split-toggle">
+                <input
+                  type="checkbox"
+                  role="switch"
+                  checked={split}
+                  onChange={(e) => setSettings({ split: e.target.checked })}
+                />
+                Questions beside the text
+              </label>
+            )}
             <label className="switch">
               <input
                 type="checkbox"
@@ -165,46 +173,48 @@ export function ReaderPage() {
           </section>
         </div>
 
-        <section className="stack" aria-labelledby="quiz-heading">
-          <h2 id="quiz-heading" lang={code}>
-            {tr(lang.quizHeading)}
-          </h2>
-          {/* key resets the quiz state when moving to another text */}
-          <Quiz
-            key={text.id}
-            questions={text.questions}
-            onComplete={(s) => {
-              complete(key(text.id), s);
-              track('quiz_complete', { ...params, score: Math.round(s * 100) });
-            }}
-            labels={{
-              trueLabel: tr(lang.trueLabel),
-              falseLabel: tr(lang.falseLabel),
-              perfect: tr(lang.perfect),
-            }}
-            code={code}
-            tr={tr}
-            rt={rt}
-            shareOnX={{
-              href: shareOnX,
-              onClick: () => track('share', { ...params, method: 'x' }),
-            }}
-            next={
-              next
-                ? {
-                    to: `${base}/text/${next.id}`,
-                    label: `${inSaga ? 'Next chapter' : 'Next text'}: ${tr(next.title)}`,
-                    onClick: nextClicked,
-                  }
-                : { to: levelPath, label: backLabel }
-            }
-          />
-        </section>
+        {hasQuiz && (
+          <section className="stack" aria-labelledby="quiz-heading">
+            <h2 id="quiz-heading" lang={code}>
+              {tr(lang.quizHeading)}
+            </h2>
+            {/* key resets the quiz state when moving to another text */}
+            <Quiz
+              key={text.id}
+              questions={text.questions}
+              onComplete={(s) => {
+                complete(key(text.id), s);
+                track('quiz_complete', { ...params, score: Math.round(s * 100) });
+              }}
+              labels={{
+                trueLabel: tr(lang.trueLabel),
+                falseLabel: tr(lang.falseLabel),
+                perfect: tr(lang.perfect),
+              }}
+              code={code}
+              tr={tr}
+              rt={rt}
+              shareOnX={{
+                href: shareOnX,
+                onClick: () => track('share', { ...params, method: 'x' }),
+              }}
+              next={
+                next
+                  ? {
+                      to: textPath(next),
+                      label: `${inSaga ? 'Next chapter' : 'Next text'}: ${tr(next.title)}`,
+                      onClick: nextClicked,
+                    }
+                  : { to: levelPath, label: backLabel }
+              }
+            />
+          </section>
+        )}
       </div>
 
       <nav className="row reader__pager" aria-label="More texts">
         {prev && (
-          <Link className="button button--ghost" to={`${base}/text/${prev.id}`}>
+          <Link className="button button--ghost" to={textPath(prev)}>
             ← <span lang={code}>{tr(prev.title)}</span>
           </Link>
         )}
@@ -212,13 +222,16 @@ export function ReaderPage() {
         {next ? (
           <Link
             className="button button--secondary"
-            to={`${base}/text/${next.id}`}
-            onClick={nextClicked}
+            to={textPath(next)}
+            onClick={() => {
+              markRead();
+              nextClicked();
+            }}
           >
             <span lang={code}>{tr(next.title)}</span> →
           </Link>
         ) : (
-          <Link className="button button--secondary" to={levelPath}>
+          <Link className="button button--secondary" to={levelPath} onClick={markRead}>
             {backLabel}
           </Link>
         )}

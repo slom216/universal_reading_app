@@ -4,7 +4,7 @@
     "level": "A1",
     "title": "Les collets",
     "topic": "Book 1, chapter 1",
-    "body": "Tomas a dix ans. Il n’a pas de mère et pas de père. Il habite dans un monastère, dans les montagnes : le monastère de Saint-Ansel. Beaucoup de moines habitent là, et douze enfants aussi. Ce sont tous des orphelins, comme Tomas.\n\nTomas a deux amis. Bram a onze ans. C’est le garçon le plus âgé du monastère. Il est grand et bruyant, et il aime dire aux autres enfants ce qu’ils doivent faire. Pip a huit ans. Il est petit et drôle, et il parle toute la journée. Il parle aux oiseaux, aux arbres et aux animaux.\n\nTomas est différent. Il est calme. Il ne parle pas beaucoup, mais il regarde tout et il réfléchit beaucoup.\n\nAu printemps, la nourriture du monastère n’est pas bonne. Tous les jours, il y a seulement du pain et un peu de soupe. Les garçons ont toujours faim.\n\nTôt le matin, avant le réveil des moines, les trois garçons escaladent le mur et vont dans la forêt. C’est interdit. L’abbé, le père Gerard, le dit chaque semaine : « Pas d’enfants dans la forêt ! » Mais les garçons veulent de la viande.\n\nDans la forêt, les garçons ont des collets. Un collet, c’est un petit piège pour les lapins. Tomas fait de très bons collets.\n\n« Silence ! » dit Bram. Mais Bram est le plus bruyant des trois.\n\nLe premier collet est vide. Sur la corde, Tomas voit des poils gris. « Il y avait un lapin ici, dit-il. Mais il est parti. »\n\n« Ton collet est mauvais », dit Bram.\n\nTomas ne répond pas. Son collet n’est pas mauvais. Il serre le nœud et il met le collet un peu plus bas.\n\nDans le deuxième collet, il y a un lapin. Bram le prend, et il est très content. « J’ai un lapin ! » dit-il. Mais c’est le collet de Tomas, pas le collet de Bram.\n\nSur le chemin du retour, Pip s’arrête. Sur un vieil arbre, il y a un lapin gris avec une oreille déchirée. Il regarde les garçons. Il n’a pas peur.\n\n« Regardez ! C’est le lapin du premier collet, dit Pip. Il est très malin. Il s’appelle le Roi. »\n\nPrès d’un vieux chemin, Tomas s’arrête encore. Par terre, il voit des traces de chevaux. Elles sont grandes et fraîches. Qui a de grands chevaux ici ? Seulement les hommes riches. Tomas regarde les traces longtemps, mais il ne dit rien à Bram et à Pip.\n\nFrère Anselm est à la porte du monastère. C’est un vieux moine, très gentil. Il sait où les garçons étaient.\n\nLes garçons doivent copier une page d’un vieux livre. C’est l’histoire d’un empereur. « Son sang est descendu des étoiles », dit le livre.\n\n« C’est seulement une histoire », dit Bram.\n\nFrère Anselm sourit. « Beaucoup de choses sont seulement des histoires, dit-il. Jusqu’au jour où elles ne le sont plus. »",
+    "body": "Tomas a dix ans. Il n’a pas de mère et pas de père. Il habite dans un monastère, dans les montagnes : le monastère de Saint-Ansel. Beaucoup de moines habitent là, et douze enfants aussi. Ce sont tous des orphelins, comme Tomas.\n\nTomas a deux amis. Bram a onze ans. C’est le garçon le plus âgé du monastère. Il est grand et bruyant, et il aime donner des ordres aux autres enfants. Pip a huit ans. Il est petit et drôle, et il parle toute la journée. Il parle aux oiseaux, aux arbres et aux animaux.\n\nTomas est différent. Il est calme. Il ne parle pas beaucoup, mais il regarde tout et il réfléchit beaucoup.\n\nAu printemps, la nourriture du monastère n’est pas bonne. Tous les jours, il y a seulement du pain et un peu de soupe. Les garçons ont toujours faim.\n\nC’est tôt le matin, et les moines dorment encore. Les trois garçons escaladent le mur et vont dans la forêt. C’est interdit. L’abbé, le père Gerard, le dit chaque semaine : « Pas d’enfants dans la forêt ! » Mais les garçons veulent de la viande.\n\nDans la forêt, les garçons ont des collets. Un collet, c’est un petit piège pour les lapins. Tomas fait de très bons collets.\n\n« Silence ! » dit Bram. Mais Bram est le plus bruyant des trois.\n\nLe premier collet est vide. Sur la corde, Tomas voit des poils gris. « Il y avait un lapin ici, dit-il. Mais il est parti. »\n\n« Ton collet est mauvais », dit Bram.\n\nTomas ne répond pas. Son collet n’est pas mauvais. Il serre le nœud et il met le collet un peu plus bas.\n\nDans le deuxième collet, il y a un lapin. Bram le prend, et il est très content. « J’ai un lapin ! » dit-il. Mais c’est le collet de Tomas, pas le collet de Bram.\n\nSur le chemin du retour, Pip s’arrête. Sur un vieil arbre, il y a un lapin gris avec une oreille déchirée. Il regarde les garçons. Il n’a pas peur.\n\n« Regardez ! C’est le lapin du premier collet, dit Pip. Il est très malin. Il s’appelle le Roi. »\n\nPrès d’un vieux chemin, Tomas s’arrête encore. Par terre, il voit des traces de chevaux. Elles sont grandes et fraîches. Qui a de grands chevaux ici ? Seulement les hommes riches. Tomas regarde les traces longtemps, mais il ne dit rien à Bram et à Pip.\n\nFrère Anselm est à la porte du monastère. C’est un vieux moine, très gentil. Il sait : les garçons sont allés dans la forêt.\n\nLes garçons doivent copier une page d’un vieux livre. C’est l’histoire d’un empereur. « Son sang est descendu des étoiles », dit le livre.\n\n« C’est seulement une histoire », dit Bram.\n\nFrère Anselm sourit. « Beaucoup de choses sont seulement des histoires, dit-il. Et puis un jour, ce ne sont plus des histoires. »",
     "glossary": [
       { "term": "le collet", "translation": "snare" },
       { "term": "le monastère", "translation": "monastery" },
@@ -21,66 +21,6 @@
       { "term": "malin", "translation": "clever" },
       { "term": "la trace", "translation": "mark, track", "match": "traces" },
       { "term": "le sang", "translation": "blood" }
-    ],
-    "questions": [
-      {
-        "type": "mc",
-        "prompt": "Où habite Tomas ?",
-        "options": ["Dans un château", "Dans un monastère", "Dans un village", "Dans la forêt"],
-        "answer": 1
-      },
-      {
-        "type": "tf",
-        "prompt": "Bram est le plus jeune des trois garçons.",
-        "answer": false,
-        "explanation": "Bram a onze ans. Le plus jeune, c’est Pip : il a huit ans."
-      },
-      {
-        "type": "mc",
-        "prompt": "Pourquoi les garçons vont-ils dans la forêt ?",
-        "options": [
-          "Pour trouver frère Anselm",
-          "Pour jouer avec le Roi",
-          "Pour attraper des lapins",
-          "Pour voir les chevaux"
-        ],
-        "answer": 2,
-        "explanation": "Ils ont faim et ils veulent de la viande, alors ils regardent leurs collets."
-      },
-      {
-        "type": "tf",
-        "prompt": "Le premier collet est vide.",
-        "answer": true
-      },
-      {
-        "type": "mc",
-        "prompt": "Qui est le Roi ?",
-        "options": [
-          "L’abbé du monastère",
-          "Un lapin avec une oreille déchirée",
-          "Un homme riche avec des chevaux",
-          "Un vieux moine"
-        ],
-        "answer": 1,
-        "explanation": "Pip donne ce nom au lapin gris, parce qu’il est très malin."
-      },
-      {
-        "type": "tf",
-        "prompt": "Tomas parle des traces de chevaux à ses amis.",
-        "answer": false,
-        "explanation": "Il regarde les traces longtemps, mais il ne dit rien."
-      },
-      {
-        "type": "mc",
-        "prompt": "Qu’est-ce que les garçons font à la fin ?",
-        "options": [
-          "Ils mangent le lapin",
-          "Ils jouent dans le jardin",
-          "Ils copient une page d’un vieux livre",
-          "Ils retournent dans la forêt"
-        ],
-        "answer": 2
-      }
     ]
   },
   {
@@ -88,7 +28,7 @@
     "level": "A1",
     "title": "Des voleurs dans la nuit",
     "topic": "Book 1, chapter 2",
-    "body": "C’est la nuit. Au monastère, tout le monde dort. Seul Tomas ne dort pas. Il pense aux traces de chevaux dans la forêt. Qui vient dans un monastère avec de grands chevaux ? Peut-être des hommes qui veulent revenir la nuit, pense-t-il.\n\nTout à coup, il entend un bruit dehors. Il va à la fenêtre. La lune est grande et claire. Dans la cour, il y a quatre hommes. Ils vont à la chapelle. Dans la chapelle, les moines ont deux belles choses : une vieille coupe en argent et une petite boîte en or. Ces choses sont très vieilles et très chères.\n\n« Des voleurs ! » pense Tomas.\n\nLes moines sont de bons hommes, mais ils ne savent pas se battre. Et Tomas ne peut pas se battre contre quatre hommes. S’il crie, les voleurs partent avec l’argent. Il lui faut un plan.\n\nIl réveille Bram. « Bram, écoute, dit-il doucement. Monte dans le clocher. Quand je frappe deux fois sur le mur, sonne la cloche. Sonne très fort ! »\n\nBram veut dire quelque chose. Il n’aime pas quand Tomas lui dit quoi faire. Mais il regarde le visage de Tomas, et il y va.\n\nPip se réveille aussi. Il voit les hommes dans la cour et il a très peur. Il se cache sous un banc, et il reste là toute la nuit.\n\nTomas prend sa corde pour les collets et il descend l’escalier en courant jusqu’à la cave. La cave a une porte qui donne sur la forêt. Les voleurs veulent sortir par là, pense-t-il. Sur la troisième marche, il attache la corde d’un mur à l’autre. Elle est basse et bien tendue, comme un collet pour les lapins.\n\nPuis il frappe sur le mur. Un, deux.\n\nLa cloche sonne. Elle est très, très forte. Les moines se réveillent, et il y a de la lumière à toutes les fenêtres. Les voleurs ont peur. Ils courent vers la cave avec l’argent. Le premier voleur ne voit pas la corde. Il tombe dans l’escalier et il crie. Il a la jambe cassée. Les autres voleurs lâchent la coupe et la boîte, et ils partent en courant dans la forêt.\n\nTomas remonte à la fenêtre. Près des arbres, il voit un cinquième homme. L’homme ne court pas. Il n’est pas avec les voleurs. Il regarde seulement les fenêtres de la chambre des enfants. Il a un seul œil. Est-ce qu’il compte les enfants ?\n\nLe matin, tout le monde parle de la nuit. « La cloche, c’est mon idée », dit Bram, et les moines disent que Bram est un héros. Tomas ne dit rien. Pour lui, ça va.\n\nMais il ne parle à personne de l’homme qui a un seul œil.",
+    "body": "C’est la nuit. Au monastère, tout le monde dort. Seul Tomas ne dort pas. Il pense aux traces de chevaux dans la forêt. Qui vient dans un monastère avec de grands chevaux ? Il pense : ces hommes veulent peut-être revenir la nuit.\n\nTout à coup, il entend un bruit dehors. Il va à la fenêtre. La lune est grande et claire. Dans la cour, il y a quatre hommes. Ils vont à la chapelle. Dans la chapelle, les moines ont deux belles choses : une vieille coupe en argent et une petite boîte en or. Ces choses sont très vieilles et très chères.\n\n« Des voleurs ! » pense Tomas.\n\nLes moines sont de bons hommes, mais ils ne savent pas se battre. Et Tomas ne peut pas se battre contre quatre hommes. Il peut crier, mais alors les voleurs partent avec l’argent. Il a besoin d’un plan.\n\nIl réveille Bram. « Bram, écoute, dit-il doucement. Monte dans le clocher. Je frappe deux fois sur le mur, et alors tu sonnes la cloche. Sonne très fort ! »\n\nBram veut dire quelque chose. Il n’aime pas les ordres de Tomas. Mais il regarde le visage de Tomas, et il y va.\n\nPip se réveille aussi. Il voit les hommes dans la cour et il a très peur. Il se cache sous un banc, et il reste là toute la nuit.\n\nTomas prend sa corde pour les collets et il descend vite l’escalier jusqu’à la cave. Dans la cave, il y a une porte vers la forêt. Les voleurs veulent sortir par là, pense-t-il. Sur la troisième marche, il attache la corde d’un mur à l’autre. Elle est basse et bien tendue, comme un collet pour les lapins.\n\nPuis il frappe sur le mur. Un, deux.\n\nLa cloche sonne. Elle est très, très forte. Les moines se réveillent, et il y a de la lumière à toutes les fenêtres. Les voleurs ont peur. Ils courent vers la cave avec l’argent. Le premier voleur ne voit pas la corde. Il tombe dans l’escalier et il crie. Il a la jambe cassée. Les autres voleurs lâchent la coupe et la boîte, et ils courent dans la forêt.\n\nTomas remonte à la fenêtre. Près des arbres, il voit un cinquième homme. L’homme ne court pas. Il n’est pas avec les voleurs. Il regarde seulement les fenêtres de la chambre des enfants. Il a un seul œil. Est-ce qu’il compte les enfants ?\n\nLe matin, tout le monde parle de la nuit. « La cloche, c’est mon idée », dit Bram, et pour les moines, Bram est un héros. Tomas ne dit rien. Pour lui, ça va.\n\nMais il ne parle à personne de l’homme avec un seul œil.",
     "glossary": [
       { "term": "le voleur", "translation": "thief", "match": "voleurs" },
       { "term": "le bruit", "translation": "noise" },
@@ -105,70 +45,6 @@
       { "term": "la marche", "translation": "step (of stairs)" },
       { "term": "tendu", "translation": "tight", "match": "tendue" },
       { "term": "lâcher", "translation": "to drop, to let go", "match": "lâchent" }
-    ],
-    "questions": [
-      {
-        "type": "mc",
-        "prompt": "Pourquoi Tomas ne dort-il pas ?",
-        "options": [
-          "Il a faim",
-          "Il pense aux traces de chevaux",
-          "Pip le réveille",
-          "La cloche sonne"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mc",
-        "prompt": "Qu’est-ce que les voleurs veulent ?",
-        "options": [
-          "Les chevaux",
-          "De la nourriture",
-          "La coupe en argent et la boîte en or",
-          "La cloche"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "tf",
-        "prompt": "Tomas crie pour réveiller les moines.",
-        "answer": false,
-        "explanation": "Il ne crie pas. C’est Bram qui sonne la cloche."
-      },
-      {
-        "type": "tf",
-        "prompt": "Pip se cache sous un banc.",
-        "answer": true
-      },
-      {
-        "type": "mc",
-        "prompt": "Où Tomas met-il la corde ?",
-        "options": [
-          "Sur la porte de la chapelle",
-          "Sur une marche de la cave",
-          "Dans le clocher",
-          "Dans la cour"
-        ],
-        "answer": 1,
-        "explanation": "Il l’attache sur la troisième marche, parce que la cave a une porte qui donne sur la forêt."
-      },
-      {
-        "type": "mc",
-        "prompt": "Que fait l’homme qui a un seul œil ?",
-        "options": [
-          "Il court dans la forêt",
-          "Il sonne la cloche",
-          "Il regarde les fenêtres de la chambre des enfants",
-          "Il prend la coupe en argent"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "tf",
-        "prompt": "Le matin, Tomas dit que la cloche est son idée.",
-        "answer": false,
-        "explanation": "C’est Bram qui dit que c’est son idée. Tomas ne dit rien."
-      }
     ]
   },
   {
@@ -176,7 +52,7 @@
     "level": "A1",
     "title": "Compter les têtes",
     "topic": "Book 1, chapter 3",
-    "body": "Après la nuit des voleurs, le monastère est de nouveau calme. Les hommes du seigneur viennent et emmènent le voleur à la jambe cassée au château. « Maintenant, tout va bien », disent-ils. L’abbé est content. « Dieu protège notre maison », dit-il, et il dit merci à Bram pour la cloche.\n\nUne semaine plus tard, un homme arrive au monastère. Il achète et vend de la laine. Il a deux grands chariots, quatre chevaux et un serviteur. Il est très sympathique. Il a de beaux vêtements et il parle poliment. Il achète la laine du monastère à un bon prix, et il donne aux moines un grand tonneau de vin.\n\nL’homme a un seul œil. Sur l’autre œil, il a un bandeau noir.\n\nTomas le voit, et il sait : c’est l’homme de la nuit.\n\nLe marchand veut partir le jour suivant, mais il ne part pas. Un jour, son chariot a une roue cassée. Le jour suivant, il pleut. Tomas voit que l’homme est toujours près des enfants. Il pose beaucoup de questions aux jeunes moines : « Combien d’enfants habitent ici ? Quel âge ont-ils ? Est-ce qu’ils vont seuls dans la forêt ? »\n\nTomas va voir l’abbé. « Mon père, cet homme était ici la nuit des voleurs, dit-il. Je l’ai vu près de la forêt. »\n\nL’abbé le regarde. Il est gentil, mais il ne croit pas Tomas. « C’était la nuit, Tomas, et il faisait noir. Maintenant, tu vois un homme avec un seul œil, et tu penses : c’est lui. Non. On ne juge pas un homme sur son visage. »\n\nBram se moque de Tomas. « Tu veux être un héros, comme moi », dit-il.\n\nPip a un nouvel ami : le marchand. Chaque après-midi, l’homme donne à Pip un gâteau au miel, et Pip va partout avec lui, comme un petit chien. « Il est très gentil, dit Pip. Il me pose des questions sur nos collets dans la forêt, alors je lui montre où ils sont. »\n\nLe troisième jour, le marchand part. Il sourit et il fait au revoir de la main depuis son chariot. Le soir, personne ne parle de lui, et bientôt, tout le monde l’oublie.\n\nMais Tomas n’oublie pas. La nuit, il va à la cuisine. Il prend un petit couteau et une longue corde pour les collets. Il met le couteau et la corde sous sa chemise. À partir de ce jour, il les a toujours avec lui. Chaque jour. Chaque nuit.",
+    "body": "Après la nuit des voleurs, le monastère est de nouveau calme. Les hommes du seigneur viennent et emmènent le voleur à la jambe cassée au château. « Maintenant, tout va bien », disent-ils. L’abbé est content. « Dieu protège notre maison », dit-il, et il dit merci à Bram pour la cloche.\n\nUne semaine plus tard, un homme arrive au monastère. Il achète et vend de la laine. Il a deux grands chariots, quatre chevaux et un serviteur. Il est très sympathique. Il a de beaux vêtements et il parle poliment. Il achète la laine du monastère à un bon prix, et il donne aux moines un grand tonneau de vin.\n\nL’homme a un seul œil. Sur l’autre œil, il a un bandeau noir.\n\nTomas le voit, et il sait : c’est l’homme de la nuit.\n\nLe marchand veut partir le jour suivant, mais il ne part pas. Un jour, son chariot a une roue cassée. Le jour suivant, il pleut. Et l’homme est toujours près des enfants. Il pose beaucoup de questions aux jeunes moines : « Combien d’enfants habitent ici ? Quel âge ont-ils ? Est-ce qu’ils vont seuls dans la forêt ? »\n\nTomas va voir l’abbé. « Mon père, cet homme était ici la nuit des voleurs, dit-il. Je l’ai vu près de la forêt. »\n\nL’abbé le regarde. Il est gentil, mais il ne croit pas Tomas. « C’était la nuit, Tomas, et il faisait noir. Maintenant, tu vois un homme avec un seul œil, et tu penses : c’est lui. Non. On ne juge pas un homme sur son visage. »\n\nBram se moque de Tomas. « Tu veux être un héros, comme moi », dit-il.\n\nPip a un nouvel ami : le marchand. Chaque après-midi, l’homme donne à Pip un gâteau au miel, et Pip va partout avec lui, comme un petit chien. « Il est très gentil, dit Pip. Il me pose des questions sur nos collets dans la forêt, alors je lui montre les collets. »\n\nLe troisième jour, le marchand part. Il sourit et il fait au revoir de la main depuis son chariot. Le soir, personne ne parle de lui, et bientôt, tout le monde l’oublie.\n\nMais Tomas n’oublie pas. La nuit, il va à la cuisine. Il prend un petit couteau et une longue corde pour les collets. Il met le couteau et la corde sous sa chemise. À partir de ce jour, il les a toujours avec lui. Chaque jour. Chaque nuit.",
     "glossary": [
       { "term": "le seigneur", "translation": "lord" },
       { "term": "le château", "translation": "castle" },
@@ -193,54 +69,54 @@
       { "term": "se moquer de", "translation": "to laugh at, make fun of", "match": "se moque de" },
       { "term": "le miel", "translation": "honey" },
       { "term": "oublier", "translation": "to forget", "match": "oublie" }
-    ],
-    "questions": [
-      {
-        "type": "mc",
-        "prompt": "Où les hommes du seigneur emmènent-ils le voleur ?",
-        "options": ["Dans la forêt", "À la chapelle", "Au château", "À la cuisine"],
-        "answer": 2
-      },
-      {
-        "type": "mc",
-        "prompt": "Qu’est-ce que l’homme achète et vend ?",
-        "options": ["Du vin", "De la laine", "Des chevaux", "Des gâteaux au miel"],
-        "answer": 1
-      },
-      {
-        "type": "tf",
-        "prompt": "Le marchand a un bandeau noir sur un œil.",
-        "answer": true
-      },
-      {
-        "type": "mc",
-        "prompt": "Sur quoi le marchand pose-t-il des questions aux jeunes moines ?",
-        "options": ["Sur la laine", "Sur la coupe en argent", "Sur les enfants", "Sur la cloche"],
-        "answer": 2,
-        "explanation": "Il demande combien d’enfants habitent ici, quel âge ils ont et s’ils vont seuls dans la forêt."
-      },
-      {
-        "type": "tf",
-        "prompt": "L’abbé croit Tomas.",
-        "answer": false,
-        "explanation": "Il dit : « On ne juge pas un homme sur son visage. »"
-      },
-      {
-        "type": "mc",
-        "prompt": "Qu’est-ce que Pip montre au marchand ?",
-        "options": [
-          "La cuisine",
-          "L’endroit où sont les collets",
-          "Le clocher",
-          "La porte de la cave"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "tf",
-        "prompt": "À la fin, Tomas a toujours un couteau et une corde avec lui.",
-        "answer": true
-      }
+    ]
+  },
+  {
+    "id": "saga-04",
+    "level": "A1",
+    "title": "Pip la souris",
+    "topic": "Book 1, chapter 4",
+    "body": "Le marchand est parti, mais les enfants parlent encore de la nuit des voleurs. Et ils se moquent de Pip. « Pip la souris ! disent-ils. Où est la souris ? Sous le banc ! » Pip rit aussi, mais la nuit, il est triste. Dans son lit, il pleure un peu. Tomas l’entend, mais il ne dit rien.\n\nPip n’est pas comme Tomas ou Bram. Il est petit, et il a peur de beaucoup de choses : le noir, les gros chiens, l’eau profonde. Mais il n’a jamais peur des gens. Il aime tout le monde, et tout le monde l’aime. Le cuisinier lui donne du pain avec du beurre. Les vieux moines lui racontent des histoires. Les petits enfants vont partout avec lui.\n\nUn matin, Pip vient voir Tomas. « Tomas, je veux apprendre, dit-il. Montre-moi les collets. Montre-moi les nœuds. Je ne veux pas être une souris. »\n\nTomas le regarde. Puis il prend un morceau de corde sous sa chemise. « D’accord, dit-il. Assieds-toi. »\n\nIls s’assoient derrière la grange, au soleil. Tomas fait un nœud, très lentement. « Maintenant, toi », dit-il.\n\nPip essaie. Ses doigts sont petits, et la corde ne l’écoute pas. Le nœud est mauvais. Il essaie encore. Et encore. Tomas ne rit pas. Il dit seulement : « Encore. »\n\nAprès une heure, le nœud de Pip est bon. Après trois jours, il est très bon.\n\n« Un bon nœud est solide, dit Tomas. Mais chaque nœud peut s’ouvrir. Il faut seulement tirer au bon endroit. » Il montre l’endroit à Pip. Pip tire, et le nœud s’ouvre.\n\nMaintenant, Pip a un nouveau jeu. Tomas fait un nœud, et Pip l’ouvre. Chaque jour, il est plus rapide. Le cinquième jour, il ouvre le meilleur nœud de Tomas en deux secondes. « Je suis plus rapide que toi ! » dit-il, et il rit, il rit. « Maintenant, c’est mon nœud. C’est le nœud du Roi. »\n\nLe soir, les deux garçons sont assis sur le mur et ils regardent les montagnes. Pip parle, comme toujours.\n\n« Tomas, tu connais ta mère ? »\n\n« Non. »\n\n« Moi non plus. Les moines disent : j’étais dans un panier, devant la porte. C’était l’hiver, et il faisait très froid. Dans le panier, il y avait un bébé et un petit oiseau en bois. C’est tout. Pas de nom. Les moines m’appellent Pip, parce que je suis tout petit. » Il sort l’oiseau en bois de sa poche. « Ça vient de ma mère, je pense. »\n\n« Moi aussi, j’étais devant la porte », dit Tomas.\n\n« Tu penses à ta mère ? »\n\n« Non », dit Tomas. Mais ce n’est pas vrai. Il pense très souvent à elle.\n\nPip pose la tête sur l’épaule de Tomas. « Alors, nous sommes frères, dit-il. D’accord ? »\n\nTomas ne dit rien pendant longtemps. Puis il dit : « D’accord. »",
+    "glossary": [
+      { "term": "la souris", "translation": "mouse (here a mocking nickname for a timid child)" },
+      { "term": "se moquer de", "translation": "to laugh at, make fun of", "match": "se moquent de" },
+      { "term": "pleurer", "translation": "to cry", "match": "pleure" },
+      { "term": "profond", "translation": "deep", "match": "profonde" },
+      { "term": "le cuisinier", "translation": "cook" },
+      { "term": "le beurre", "translation": "butter" },
+      { "term": "la grange", "translation": "barn" },
+      { "term": "le doigt", "translation": "finger", "match": "doigts" },
+      { "term": "solide", "translation": "strong" },
+      { "term": "tirer", "translation": "to pull" },
+      { "term": "la seconde", "translation": "second", "match": "secondes" },
+      { "term": "le panier", "translation": "basket" },
+      { "term": "en bois", "translation": "wooden, made of wood" },
+      { "term": "la poche", "translation": "pocket" },
+      { "term": "l’épaule", "translation": "shoulder" }
+    ]
+  },
+  {
+    "id": "saga-05",
+    "level": "A1",
+    "title": "La rivière",
+    "topic": "Book 1, chapter 5",
+    "body": "L’été arrive, et les journées sont chaudes. Chaque samedi, les moines emmènent les enfants à la rivière. Les enfants lavent les vêtements du monastère, et après le travail, ils peuvent nager.\n\nLes grands garçons sautent dans l’eau depuis un rocher. Bram saute le premier, bien sûr. « Regardez-moi ! » crie-t-il. Les petits enfants jouent près de la rive.\n\nSeul Pip ne va pas dans l’eau. Il est assis dans l’herbe, et il regarde.\n\n« Pip, viens ! dit Bram. Ou alors la souris a peur de l’eau ? » Les autres enfants rient.\n\nPip sourit, mais il est tout rouge. Il ne sait pas nager. Et ici, la rivière est profonde et rapide.\n\nTomas sort de l’eau et il s’assoit à côté de Pip. « Viens avec moi », dit-il.\n\nIls remontent la rivière. Ici, l’eau est lente et pas profonde. Elle arrive seulement au ventre de Pip. Personne ne peut les voir.\n\n« Je peux t’apprendre, dit Tomas. Comme les nœuds. »\n\nPip entre dans l’eau, très lentement. Elle est froide. Tomas le tient. « Mets la tête en arrière. Ouvre les bras. Maintenant, allonge-toi sur l’eau. »\n\nPip essaie, mais il a peur. Il bouge les bras et les jambes très vite, et il boit beaucoup d’eau. Il se lève et il tousse. « Je ne peux pas, dit-il. L’eau veut me manger. »\n\n« Encore », dit Tomas.\n\nPip le regarde. Puis il s’allonge encore sur l’eau. Cette fois, Tomas ne le lâche pas. Pendant quelques secondes, Pip flotte sur la rivière comme une feuille. « J’y arrive ! » crie-t-il, et il retombe sous l’eau.\n\nIls reviennent ici chaque samedi. Pip apprend un peu, mais seulement un peu. Il peut flotter, mais il ne sait pas nager. « L’été prochain, dit-il. L’été prochain, je vais nager comme un poisson. »\n\nSur la rive, les petits enfants sont fatigués, et ils veulent une histoire. Pip a toujours une histoire pour eux. Aujourd’hui, c’est une histoire sur le Roi. « Le Roi habite sous le vieux chêne, dit-il. Il a une couronne d’herbe, et il est très malin. Personne ne peut l’attraper. Pas Bram, pas l’abbé, et même pas Tomas ! » Les petits enfants rient. Ils adorent le Roi.\n\nSur le chemin du retour, Pip marche à côté de Tomas.\n\n« Tomas, tu as peur, quelquefois ? »\n\nTomas pense à l’homme avec un seul œil. « Oui, dit-il. Chaque jour. »\n\nPip s’arrête. « Toi ? C’est vrai ? »\n\n« C’est vrai. »\n\nPip pense à ça longtemps. Puis il prend la main de Tomas, et ils rentrent ensemble.\n\nCe soir-là, Tomas va seul à ses collets. Près du premier collet, il y a des traces par terre. Ce ne sont pas des traces de lapins, et ce ne sont pas des traces de chevaux. Ce sont des traces de grosses bottes. Quelqu’un est venu ici, près de ses collets.",
+    "glossary": [
+      { "term": "bien sûr", "translation": "of course" },
+      { "term": "sauter", "translation": "to jump", "match": "sautent" },
+      { "term": "le rocher", "translation": "rock, big stone" },
+      { "term": "la rive", "translation": "bank (of a river)" },
+      { "term": "profond", "translation": "deep", "match": "profonde" },
+      { "term": "le ventre", "translation": "stomach, belly" },
+      { "term": "tenir", "translation": "to hold", "match": "tient" },
+      { "term": "s’allonger", "translation": "to lie down", "match": "s’allonge" },
+      { "term": "tousser", "translation": "to cough", "match": "tousse" },
+      { "term": "lâcher", "translation": "to let go", "match": "lâche" },
+      { "term": "flotter", "translation": "to float, to lie on the water" },
+      { "term": "la feuille", "translation": "leaf" },
+      { "term": "le chêne", "translation": "oak" },
+      { "term": "la couronne", "translation": "crown" },
+      { "term": "la botte", "translation": "boot", "match": "bottes" }
     ]
   }
 ]

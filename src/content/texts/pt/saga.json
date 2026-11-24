@@ -4,7 +4,7 @@
     "level": "A1",
     "title": "As armadilhas",
     "topic": "Book 1, chapter 1",
-    "body": "Tomas tem dez anos. Ele não tem mãe nem pai. Ele mora num mosteiro nas montanhas, o mosteiro de Santo Ansel. Muitos monges moram lá, e doze crianças também. Todas as crianças são órfãs, como Tomas.\n\nTomas tem dois amigos. Bram tem onze anos. Ele é o menino mais velho do mosteiro. É alto e barulhento, e gosta de dizer às outras crianças o que elas devem fazer. Pip tem oito anos. Ele é pequeno e engraçado, e fala o dia todo. Ele fala com os pássaros, com as árvores e com os animais.\n\nTomas é diferente. Ele é calado. Não fala muito, mas olha tudo e pensa muito.\n\nNa primavera, a comida do mosteiro não é boa. Todo dia tem só pão e um pouco de sopa. Os meninos estão sempre com fome.\n\nDe manhã cedo, antes de os monges acordarem, os três meninos pulam o muro e vão para a floresta. Isso é proibido. O abade, padre Gerard, fala isso toda semana: “Nada de crianças na floresta!” Mas os meninos querem carne.\n\nNa floresta, os meninos têm armadilhas. Uma armadilha é um laço pequeno para pegar coelhos. Tomas faz armadilhas muito boas.\n\n— Silêncio! — diz Bram. Mas Bram é o mais barulhento dos três.\n\nA primeira armadilha está vazia. Tomas vê uns pelos cinzentos na corda.\n\n— Tinha um coelho aqui — diz ele. — Mas ele foi embora.\n\n— A sua armadilha é ruim — diz Bram.\n\nTomas não responde. A armadilha dele não é ruim. Ele aperta o nó e coloca a armadilha um pouco mais baixo.\n\nNa segunda armadilha tem um coelho. Bram pega o coelho e fica muito feliz.\n\n— Eu tenho um coelho! — diz ele. Mas a armadilha é do Tomas, não do Bram.\n\nNo caminho de volta, Pip para. Numa árvore velha tem um coelho cinzento com a orelha rasgada. Ele olha para os meninos. Ele não tem medo.\n\n— Olhem! É o coelho da primeira armadilha — diz Pip. — Ele é muito esperto. O nome dele é Rei.\n\nPerto de uma trilha velha, Tomas para de novo. No chão, ele vê marcas de cavalos. Elas são grandes e novas. Quem tem cavalos grandes aqui? Só homens ricos. Tomas olha as marcas por muito tempo, mas não diz nada para Bram e Pip.\n\nO irmão Anselm está no portão do mosteiro. Ele é um monge velho, muito bondoso. Ele sabe onde os meninos estavam.\n\nOs meninos precisam copiar uma página de um livro antigo. É a história de um imperador. “O sangue dele desceu das estrelas”, diz o livro.\n\n— É só uma história — diz Bram.\n\nO irmão Anselm sorri.\n\n— Muitas coisas são só histórias — diz ele. — Até o dia em que deixam de ser.",
+    "body": "Tomas tem dez anos. Ele não tem mãe nem pai. Ele mora num mosteiro nas montanhas, o mosteiro de Santo Ansel. Muitos monges moram lá, e doze crianças também. Todas as crianças são órfãs, como Tomas.\n\nTomas tem dois amigos. Bram tem onze anos. Ele é o menino mais velho do mosteiro. É alto e barulhento, e gosta de dar ordens às outras crianças. Pip tem oito anos. Ele é pequeno e engraçado, e fala o dia todo. Ele fala com os pássaros, com as árvores e com os animais.\n\nTomas é diferente. Ele é calado. Não fala muito, mas olha tudo e pensa muito.\n\nNa primavera, a comida do mosteiro não é boa. Todo dia tem só pão e um pouco de sopa. Os meninos estão sempre com fome.\n\nÉ de manhã cedo, e os monges ainda estão dormindo. Os três meninos pulam o muro e vão para a floresta. Isso é proibido. O abade, padre Gerard, fala isso toda semana: “Nada de crianças na floresta!” Mas os meninos querem carne.\n\nNa floresta, os meninos têm armadilhas. Uma armadilha é um laço pequeno para pegar coelhos. Tomas faz armadilhas muito boas.\n\n— Silêncio! — diz Bram. Mas Bram é o mais barulhento dos três.\n\nA primeira armadilha está vazia. Tomas vê uns pelos cinzentos na corda.\n\n— Tinha um coelho aqui — diz ele. — Mas agora ele não está mais aqui.\n\n— A sua armadilha é ruim — diz Bram.\n\nTomas não responde. A armadilha dele não é ruim. Ele aperta o nó e coloca a armadilha um pouco mais baixo.\n\nNa segunda armadilha tem um coelho. Bram pega o coelho e fica muito feliz.\n\n— Eu tenho um coelho! — diz ele. Mas a armadilha é do Tomas, não do Bram.\n\nNo caminho de volta, Pip para. Numa árvore velha tem um coelho cinzento com a orelha rasgada. Ele olha para os meninos. Ele não tem medo.\n\n— Olhem! É o coelho da primeira armadilha — diz Pip. — Ele é muito esperto. O nome dele é Rei.\n\nPerto de uma trilha velha, Tomas para de novo. No chão, ele vê marcas de cavalos. Elas são grandes e novas. Quem tem cavalos grandes aqui? Só homens ricos. Tomas olha as marcas por muito tempo, mas não diz nada para Bram e Pip.\n\nO irmão Anselm está no portão do mosteiro. Ele é um monge velho, muito bondoso. Ele sabe: os meninos vêm da floresta.\n\nOs meninos precisam copiar uma página de um livro antigo. É a história de um imperador. “O sangue dele desceu das estrelas”, diz o livro.\n\n— É só uma história — diz Bram.\n\nO irmão Anselm sorri.\n\n— Muitas coisas são só histórias — diz ele. — Até o dia em que deixam de ser.",
     "glossary": [
       { "term": "a armadilha", "translation": "snare, trap" },
       { "term": "o mosteiro", "translation": "monastery" },
@@ -21,66 +21,6 @@
       { "term": "a marca", "translation": "mark, track", "match": "marcas" },
       { "term": "o portão", "translation": "gate" },
       { "term": "o sangue", "translation": "blood" }
-    ],
-    "questions": [
-      {
-        "type": "mc",
-        "prompt": "Onde Tomas mora?",
-        "options": ["Num castelo", "Num mosteiro", "Numa aldeia", "Na floresta"],
-        "answer": 1
-      },
-      {
-        "type": "tf",
-        "prompt": "Bram é o mais novo dos três meninos.",
-        "answer": false,
-        "explanation": "Bram tem onze anos. O mais novo é Pip: ele tem oito."
-      },
-      {
-        "type": "mc",
-        "prompt": "Por que os meninos vão para a floresta?",
-        "options": [
-          "Para encontrar o irmão Anselm",
-          "Para brincar com o Rei",
-          "Para pegar coelhos",
-          "Para ver os cavalos"
-        ],
-        "answer": 2,
-        "explanation": "Eles estão com fome e querem carne, então vão olhar as armadilhas."
-      },
-      {
-        "type": "tf",
-        "prompt": "A primeira armadilha está vazia.",
-        "answer": true
-      },
-      {
-        "type": "mc",
-        "prompt": "Quem é o Rei?",
-        "options": [
-          "O abade do mosteiro",
-          "Um coelho com a orelha rasgada",
-          "Um homem rico com cavalos",
-          "Um monge velho"
-        ],
-        "answer": 1,
-        "explanation": "Pip dá esse nome ao coelho cinzento e esperto."
-      },
-      {
-        "type": "tf",
-        "prompt": "Tomas conta aos amigos sobre as marcas de cavalos.",
-        "answer": false,
-        "explanation": "Ele olha as marcas por muito tempo, mas não diz nada."
-      },
-      {
-        "type": "mc",
-        "prompt": "O que os meninos fazem no final?",
-        "options": [
-          "Comem o coelho",
-          "Brincam no jardim",
-          "Copiam uma página de um livro antigo",
-          "Voltam para a floresta"
-        ],
-        "answer": 2
-      }
     ]
   },
   {
@@ -88,7 +28,7 @@
     "level": "A1",
     "title": "Ladrões na noite",
     "topic": "Book 1, chapter 2",
-    "body": "É noite. No mosteiro, todo mundo está dormindo. Só Tomas está acordado. Ele pensa nas marcas de cavalos na floresta. Quem vem a um mosteiro com cavalos grandes? Talvez homens que querem voltar à noite, ele pensa.\n\nEntão ele ouve um barulho lá fora. Ele vai até a janela. A lua está grande e clara. No pátio tem quatro homens. Eles vão para a capela. Na capela, os monges têm duas coisas bonitas: um cálice velho de prata e uma caixa pequena de ouro. Essas coisas são muito antigas e muito caras.\n\n“Ladrões!”, pensa Tomas.\n\nOs monges são homens bons, mas não sabem lutar. E Tomas não pode lutar contra quatro homens. Se ele gritar, os ladrões fogem com a prata. Ele precisa de um plano.\n\nEle acorda Bram.\n\n— Bram, escuta — diz ele baixinho. — Sobe na torre do sino. Quando eu bater duas vezes na parede, toca o sino. Toca bem forte!\n\nBram quer dizer alguma coisa. Ele não gosta quando Tomas diz o que ele deve fazer. Mas ele olha para o rosto de Tomas e vai.\n\nPip também acorda. Ele vê os homens no pátio e fica com muito medo. Ele se esconde debaixo de um banco e fica lá a noite toda.\n\nTomas pega a corda das armadilhas e desce a escada correndo até o porão. O porão tem uma porta para a floresta. Os ladrões querem sair por aqui, ele pensa. No terceiro degrau, ele amarra a corda de uma parede à outra. A corda fica baixa e bem esticada, como uma armadilha para coelhos.\n\nDepois ele bate na parede. Uma, duas vezes.\n\nO sino toca. O som é muito, muito alto. Os monges acordam, e tem luz em todas as janelas. Os ladrões ficam com medo. Eles correm para o porão com a prata. O primeiro ladrão não vê a corda. Ele cai da escada e grita. A perna dele está quebrada. Os outros ladrões largam o cálice e a caixa e fogem para a floresta.\n\nTomas volta para a janela. Perto das árvores, ele vê um quinto homem. O homem não corre. Ele não está com os ladrões. Ele só olha para as janelas do quarto das crianças. Ele tem um olho só. Será que ele está contando as crianças?\n\nDe manhã, todo mundo fala da noite.\n\n— O sino foi ideia minha — diz Bram, e os monges dizem que Bram é um herói.\n\nTomas não diz nada. Para ele, tudo bem.\n\nMas ele não conta para ninguém sobre o homem de um olho só.",
+    "body": "É noite. No mosteiro, todo mundo está dormindo. Só Tomas está acordado. Ele pensa nas marcas de cavalos na floresta. Quem vem a um mosteiro com cavalos grandes? Ele pensa: será que os homens querem voltar à noite?\n\nEntão ele ouve um barulho lá fora. Ele vai até a janela. A lua está grande e clara. No pátio tem quatro homens. Eles vão para a capela. Na capela, os monges têm duas coisas bonitas: um cálice velho de prata e uma caixa pequena de ouro. Essas coisas são muito antigas e muito caras.\n\n“Ladrões!”, pensa Tomas.\n\nOs monges são homens bons, mas não sabem lutar. E Tomas não pode lutar contra quatro homens. Ele pode gritar, mas aí os ladrões fogem com a prata. Ele precisa de um plano.\n\nEle acorda Bram.\n\n— Bram, escuta — diz ele baixinho. — Sobe na torre do sino. Eu bato duas vezes na parede, e aí você toca o sino. Toca bem forte!\n\nBram quer dizer alguma coisa. Ele não gosta de receber ordens de Tomas. Mas ele olha para o rosto de Tomas e vai.\n\nPip também acorda. Ele vê os homens no pátio e fica com muito medo. Ele se esconde debaixo de um banco e fica lá a noite toda.\n\nTomas pega a corda das armadilhas e desce a escada bem rápido até o porão. O porão tem uma porta para a floresta. Os ladrões querem sair por aqui, ele pensa. No terceiro degrau, ele amarra a corda de uma parede à outra. A corda fica baixa e bem esticada, como uma armadilha para coelhos.\n\nDepois ele bate na parede. Uma, duas vezes.\n\nO sino toca. O som é muito, muito alto. Os monges acordam, e tem luz em todas as janelas. Os ladrões ficam com medo. Eles correm para o porão com a prata. O primeiro ladrão não vê a corda. Ele cai da escada e grita. A perna dele está quebrada. Os outros ladrões largam o cálice e a caixa e fogem para a floresta.\n\nTomas volta para a janela. Perto das árvores, ele vê um quinto homem. O homem não corre. Ele não está com os ladrões. Ele só olha para as janelas do quarto das crianças. Ele tem um olho só. Será que ele está contando as crianças?\n\nDe manhã, todo mundo fala da noite.\n\n— A ideia do sino é minha — diz Bram, e os monges dizem que Bram é um herói.\n\nTomas não diz nada. Para ele, tudo bem.\n\nMas ele não conta para ninguém sobre o homem de um olho só.",
     "glossary": [
       { "term": "o ladrão", "translation": "thief", "match": "ladrões" },
       { "term": "acordado", "translation": "awake" },
@@ -99,84 +39,20 @@
       { "term": "caro", "translation": "expensive", "match": "caras" },
       { "term": "gritar", "translation": "to shout" },
       { "term": "a torre do sino", "translation": "bell tower" },
-      { "term": "bater", "translation": "to knock" },
+      { "term": "bater", "translation": "to knock", "match": "bato" },
       { "term": "esconder-se", "translation": "to hide", "match": "se esconde" },
       { "term": "o banco", "translation": "bench" },
       { "term": "o porão", "translation": "cellar" },
       { "term": "esticado", "translation": "tight", "match": "esticada" },
       { "term": "largar", "translation": "to drop, to let go", "match": "largam" }
-    ],
-    "questions": [
-      {
-        "type": "mc",
-        "prompt": "Por que Tomas está acordado?",
-        "options": [
-          "Ele está com fome",
-          "Ele pensa nas marcas de cavalos",
-          "Pip acorda ele",
-          "O sino toca"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mc",
-        "prompt": "O que os ladrões querem?",
-        "options": [
-          "Os cavalos",
-          "Comida",
-          "O cálice de prata e a caixa de ouro",
-          "O sino"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "tf",
-        "prompt": "Tomas grita para acordar os monges.",
-        "answer": false,
-        "explanation": "Ele não grita. Bram toca o sino."
-      },
-      {
-        "type": "tf",
-        "prompt": "Pip se esconde debaixo de um banco.",
-        "answer": true
-      },
-      {
-        "type": "mc",
-        "prompt": "Onde Tomas coloca a corda?",
-        "options": [
-          "Na porta da capela",
-          "Num degrau do porão",
-          "Na torre do sino",
-          "No pátio"
-        ],
-        "answer": 1,
-        "explanation": "Ele amarra a corda no terceiro degrau, porque o porão tem uma porta para a floresta."
-      },
-      {
-        "type": "mc",
-        "prompt": "O que o homem de um olho só faz?",
-        "options": [
-          "Ele corre para a floresta",
-          "Ele toca o sino",
-          "Ele olha para as janelas do quarto das crianças",
-          "Ele pega o cálice de prata"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "tf",
-        "prompt": "De manhã, Tomas diz que o sino foi ideia dele.",
-        "answer": false,
-        "explanation": "Bram diz que foi ideia dele. Tomas não diz nada."
-      }
     ]
   },
   {
     "id": "saga-03",
-    "level": "A1",
+    "level": "A1/A2",
     "title": "Contando cabeças",
     "topic": "Book 1, chapter 3",
-    "body": "Depois da noite dos ladrões, o mosteiro fica calmo de novo. Os homens do senhor vêm e levam o ladrão da perna quebrada para o castelo.\n\n— Agora está tudo bem — dizem eles.\n\nO abade fica feliz.\n\n— Deus cuida da nossa casa — diz ele, e agradece a Bram pelo sino.\n\nUma semana depois, um homem chega ao mosteiro. Ele compra e vende lã. Ele tem duas carroças grandes, quatro cavalos e um criado. Ele é muito simpático. Usa roupas boas e fala com educação. Ele compra a lã do mosteiro por um bom preço e dá aos monges um barril grande de vinho.\n\nO homem tem um olho só. No outro olho, ele usa um tapa-olho preto.\n\nTomas vê o homem e sabe: é o homem da noite.\n\nO comerciante quer ir embora no dia seguinte, mas não vai. Um dia, a carroça dele tem uma roda quebrada. No outro dia, chove. Tomas vê que o homem está sempre perto das crianças. Ele faz muitas perguntas aos monges jovens:\n\n— Quantas crianças moram aqui? Quantos anos elas têm? Elas vão sozinhas para a floresta?\n\nTomas vai falar com o abade.\n\n— Padre, aquele homem estava aqui na noite dos ladrões — diz ele. — Eu vi o homem perto da floresta.\n\nO abade olha para ele. Ele é bondoso, mas não acredita em Tomas.\n\n— Era noite, Tomas, e estava escuro. Agora você vê um homem com um olho só e pensa: é ele. Não. Nós não julgamos um homem pela cara.\n\nBram ri de Tomas.\n\n— Você quer ser um herói, como eu — diz ele.\n\nPip tem um novo amigo: o comerciante. Toda tarde, o homem dá um bolo de mel para Pip, e Pip vai com ele para todo lado, como um cachorrinho.\n\n— Ele é muito legal — diz Pip. — Ele me pergunta sobre as nossas armadilhas na floresta, então eu mostro onde elas estão.\n\nNo terceiro dia, o comerciante vai embora. Ele sorri e acena da carroça. À noite, ninguém fala dele, e logo todo mundo esquece o homem.\n\nMas Tomas não esquece. À noite, ele vai à cozinha. Ele pega uma faca pequena e uma corda comprida para as armadilhas. Ele coloca a faca e a corda debaixo da camisa. Desse dia em diante, ele sempre anda com elas. Todo dia. Toda noite.",
+    "body": "Depois da noite dos ladrões, o mosteiro fica calmo de novo. Os homens do senhor vêm e levam o ladrão da perna quebrada para o castelo.\n\n— Agora está tudo bem — dizem eles.\n\nO abade fica feliz.\n\n— Deus cuida da nossa casa — diz ele, e agradece a Bram pelo sino.\n\nUma semana depois, um homem chega ao mosteiro. Ele compra e vende lã. Ele tem duas carroças grandes, quatro cavalos e um criado. Ele é muito simpático. Usa roupas boas e fala com educação. Ele compra a lã do mosteiro por um bom preço e dá aos monges um barril grande de vinho.\n\nO homem tem um olho só. No outro olho, ele usa um tapa-olho preto.\n\nTomas vê o homem e sabe: é o homem da noite.\n\nO comerciante quer ir embora no dia seguinte, mas não vai. Um dia, a carroça dele tem uma roda quebrada. No outro dia, chove. E o homem está sempre perto das crianças. Ele faz muitas perguntas aos monges jovens:\n\n— Quantas crianças moram aqui? Quantos anos elas têm? Elas vão sozinhas para a floresta?\n\nTomas vai falar com o abade.\n\n— Padre, aquele homem estava aqui na noite dos ladrões — diz ele. — Eu vi o homem perto da floresta.\n\nO abade olha para ele. Ele é bondoso, mas não acredita em Tomas.\n\n— Era noite, Tomas, e estava escuro. Agora você vê um homem com um olho só e pensa: é ele. Não. Nós não julgamos um homem pela cara.\n\nBram ri de Tomas.\n\n— Você quer ser um herói, como eu — diz ele.\n\nPip tem um novo amigo: o comerciante. Toda tarde, o homem dá um bolo de mel para Pip, e Pip vai com ele para todo lado, como um cachorrinho.\n\n— Ele é muito legal — diz Pip. — Ele me pergunta sobre as nossas armadilhas na floresta, e eu mostro as armadilhas para ele.\n\nNo terceiro dia, o comerciante vai embora. Ele sorri e acena da carroça. À noite, ninguém fala dele, e logo todo mundo esquece o homem.\n\nMas Tomas não esquece. À noite, ele vai à cozinha. Ele pega uma faca pequena e uma corda comprida para as armadilhas. Ele coloca a faca e a corda debaixo da camisa. Desse dia em diante, ele sempre anda com elas. Todo dia. Toda noite.",
     "glossary": [
       { "term": "o senhor", "translation": "lord (who owns the land)" },
       { "term": "o castelo", "translation": "castle" },
@@ -193,54 +69,54 @@
       { "term": "o mel", "translation": "honey" },
       { "term": "acenar", "translation": "to wave", "match": "acena" },
       { "term": "esquecer", "translation": "to forget", "match": "esquece" }
-    ],
-    "questions": [
-      {
-        "type": "mc",
-        "prompt": "Para onde os homens do senhor levam o ladrão?",
-        "options": ["Para a floresta", "Para a capela", "Para o castelo", "Para a cozinha"],
-        "answer": 2
-      },
-      {
-        "type": "mc",
-        "prompt": "O que o homem compra e vende?",
-        "options": ["Vinho", "Lã", "Cavalos", "Bolos de mel"],
-        "answer": 1
-      },
-      {
-        "type": "tf",
-        "prompt": "O comerciante usa um tapa-olho preto.",
-        "answer": true
-      },
-      {
-        "type": "mc",
-        "prompt": "Sobre o que o comerciante pergunta aos monges jovens?",
-        "options": ["Sobre a lã", "Sobre o cálice de prata", "Sobre as crianças", "Sobre o sino"],
-        "answer": 2,
-        "explanation": "Ele pergunta quantas crianças moram lá, quantos anos elas têm e se elas vão sozinhas para a floresta."
-      },
-      {
-        "type": "tf",
-        "prompt": "O abade acredita em Tomas.",
-        "answer": false,
-        "explanation": "Ele diz: “Nós não julgamos um homem pela cara.”"
-      },
-      {
-        "type": "mc",
-        "prompt": "O que Pip mostra ao comerciante?",
-        "options": [
-          "A cozinha",
-          "Onde estão as armadilhas",
-          "A torre do sino",
-          "A porta do porão"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "tf",
-        "prompt": "No final, Tomas sempre anda com uma faca e uma corda.",
-        "answer": true
-      }
+    ]
+  },
+  {
+    "id": "saga-04",
+    "level": "A1",
+    "title": "Pip, o ratinho",
+    "topic": "Book 1, chapter 4",
+    "body": "O comerciante não está mais no mosteiro, mas as crianças ainda falam da noite dos ladrões. E elas riem de Pip.\n\n— Pip, o ratinho! — dizem elas. — Cadê o ratinho? Debaixo do banco!\n\nPip ri também, mas à noite ele fica triste. Na cama, ele chora um pouco. Tomas ouve, mas não diz nada.\n\nPip não é como Tomas ou Bram. Ele é pequeno e tem medo de muitas coisas: do escuro, de cachorros grandes, de água funda. Mas ele nunca tem medo de pessoas. Ele gosta de todo mundo, e todo mundo gosta dele. O cozinheiro dá pão com manteiga para ele. Os monges velhos contam histórias para ele. As crianças pequenas vão com ele para todo lado.\n\nUma manhã, Pip vai falar com Tomas.\n\n— Tomas, eu quero aprender — diz ele. — Me ensina as armadilhas. Me ensina os nós. Eu não quero ser um ratinho.\n\nTomas olha para ele. Depois ele tira um pedaço de corda de debaixo da camisa.\n\n— Tá bom — diz ele. — Senta aí.\n\nEles sentam atrás do celeiro, no sol. Tomas faz um nó, bem devagar.\n\n— Agora você — diz ele.\n\nPip tenta. Os dedos dele são pequenos, e a corda não obedece. O nó fica ruim. Ele tenta de novo. E de novo. Tomas não ri. Ele só diz:\n\n— De novo.\n\nDepois de uma hora, o nó de Pip está bom. Depois de três dias, está muito bom.\n\n— Um nó bom é forte — diz Tomas. — Mas todo nó pode abrir. Você só precisa saber onde puxar.\n\nEle mostra o lugar para Pip. Pip puxa, e o nó abre.\n\nAgora Pip tem uma brincadeira nova. Tomas faz um nó, e Pip abre. Cada dia ele é mais rápido. No quinto dia, ele abre o melhor nó de Tomas em dois segundos.\n\n— Eu sou mais rápido que você! — diz ele, e ri sem parar. — Agora esse nó é meu. É o nó do Rei.\n\nÀ tarde, os dois meninos sentam no muro e olham as montanhas. Pip fala, como sempre.\n\n— Tomas, você conhece a sua mãe?\n\n— Não.\n\n— Eu também não. Os monges contam uma história: num dia de inverno, tem uma cesta no portão. Faz muito frio. Na cesta tem um bebê e um passarinho de madeira. Só isso. Nenhum nome. Os monges me chamam de Pip porque eu sou muito pequeno.\n\nEle tira o passarinho de madeira do bolso.\n\n— Eu acho que é da minha mãe.\n\n— Eu também estava no portão — diz Tomas.\n\n— Você pensa na sua mãe?\n\n— Não — diz Tomas. Mas não é verdade. Ele pensa nela muitas vezes.\n\nPip encosta a cabeça no ombro de Tomas.\n\n— Então nós somos irmãos — diz ele. — Tá bom?\n\nTomas fica calado por muito tempo. Depois ele diz:\n\n— Tá bom.",
+    "glossary": [
+      { "term": "o ratinho", "translation": "little mouse (mocking nickname)" },
+      { "term": "rir de", "translation": "to laugh at", "match": "riem de" },
+      { "term": "chorar", "translation": "to cry", "match": "chora" },
+      { "term": "fundo", "translation": "deep", "match": "funda" },
+      { "term": "o cozinheiro", "translation": "cook" },
+      { "term": "a manteiga", "translation": "butter" },
+      { "term": "ensinar", "translation": "to teach", "match": "ensina" },
+      { "term": "o celeiro", "translation": "barn" },
+      { "term": "o dedo", "translation": "finger", "match": "dedos" },
+      { "term": "obedecer", "translation": "to obey", "match": "obedece" },
+      { "term": "puxar", "translation": "to pull" },
+      { "term": "o segundo", "translation": "second (of time)", "match": "segundos" },
+      { "term": "a cesta", "translation": "basket" },
+      { "term": "o bolso", "translation": "pocket" },
+      { "term": "o ombro", "translation": "shoulder" }
+    ]
+  },
+  {
+    "id": "saga-05",
+    "level": "A1",
+    "title": "O rio",
+    "topic": "Book 1, chapter 5",
+    "body": "O verão chega, e os dias são quentes. Todo sábado, os monges levam as crianças ao rio. As crianças lavam as roupas do mosteiro, e depois do trabalho elas podem nadar.\n\nOs meninos maiores pulam na água de cima de uma pedra. Bram pula primeiro, é claro.\n\n— Olhem para mim! — grita ele.\n\nAs crianças pequenas brincam perto da margem.\n\nSó Pip não entra na água. Ele fica sentado na grama e olha.\n\n— Pip, vem para a água! — diz Bram. — Ou o ratinho tem medo de água?\n\nAs outras crianças riem.\n\nPip sorri, mas o rosto dele fica vermelho. Ele não sabe nadar. E aqui o rio é fundo e rápido.\n\nTomas sai da água e senta do lado de Pip.\n\n— Vem comigo — diz ele.\n\nEles andam rio acima. Aqui a água é lenta e rasa. Ela só chega até a barriga de Pip. Ninguém pode ver os dois.\n\n— Eu posso te ensinar — diz Tomas. — Como os nós.\n\nPip entra na água, bem devagar. Ela está fria. Tomas segura o menino.\n\n— Coloca a cabeça para trás. Abre os braços. Agora deita na água.\n\nPip tenta, mas aí fica com medo. Ele mexe os braços e as pernas muito rápido e engole muita água. Ele fica de pé e tosse.\n\n— Eu não consigo — diz ele. — A água quer me comer.\n\n— De novo — diz Tomas.\n\nPip olha para ele. Depois ele deita na água de novo. Desta vez, Tomas não solta o menino. Por alguns segundos, Pip boia no rio como uma folha.\n\n— Eu consigo! — grita ele, e afunda de novo.\n\nEles voltam para esse lugar todo sábado. Pip aprende um pouco, mas só um pouco. Ele consegue boiar, mas não sabe nadar.\n\n— No próximo verão — diz ele. — No próximo verão eu vou nadar como um peixe.\n\nNa margem, as crianças pequenas estão cansadas e querem uma história. Pip sempre tem uma história para elas. Hoje a história é sobre o Rei.\n\n— O Rei mora debaixo do velho carvalho — diz ele. — Ele tem uma coroa de grama e é muito esperto. Ninguém consegue pegar o Rei. Nem Bram, nem o abade, nem mesmo Tomas!\n\nAs crianças pequenas riem. Elas adoram o Rei.\n\nNo caminho de volta, Pip anda do lado de Tomas.\n\n— Tomas, você às vezes tem medo?\n\nTomas pensa no homem de um olho só.\n\n— Tenho — diz ele. — Todo dia.\n\nPip para.\n\n— Você? Sério?\n\n— Sério.\n\nPip pensa nisso por muito tempo. Depois ele pega a mão de Tomas, e os dois voltam juntos para casa.\n\nNaquela tarde, Tomas vai sozinho às armadilhas. Perto da primeira armadilha, tem marcas no chão. Não são de coelhos, e não são de cavalos. São de botas grandes. Alguém esteve aqui, nas armadilhas dele.",
+    "glossary": [
+      { "term": "a margem", "translation": "bank (of a river)" },
+      { "term": "fundo", "translation": "deep" },
+      { "term": "raso", "translation": "shallow, not deep", "match": "rasa" },
+      { "term": "a barriga", "translation": "belly, stomach" },
+      { "term": "segurar", "translation": "to hold", "match": "segura" },
+      { "term": "deitar", "translation": "to lie down", "match": "deita" },
+      { "term": "engolir", "translation": "to swallow", "match": "engole" },
+      { "term": "tossir", "translation": "to cough", "match": "tosse" },
+      { "term": "soltar", "translation": "to let go", "match": "solta" },
+      { "term": "boiar", "translation": "to float, to lie on the water" },
+      { "term": "afundar", "translation": "to sink, to go under", "match": "afunda" },
+      { "term": "a folha", "translation": "leaf" },
+      { "term": "o carvalho", "translation": "oak" },
+      { "term": "a coroa", "translation": "crown" },
+      { "term": "a bota", "translation": "boot", "match": "botas" }
     ]
   }
 ]

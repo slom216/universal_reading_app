@@ -118,11 +118,11 @@ async function drawCard({ lang, name, t }, file) {
 <rect x="80" y="64" width="64" height="64" rx="12" fill="#c63f1e"/>
 <text x="112" y="113" text-anchor="middle" font-size="42" font-weight="800" fill="#fbf5ea">P</text>
 <text x="164" y="107" font-size="30" fill="#141414">DeuLern Polyglot</text>
-<rect x="1016" y="68" width="104" height="56" rx="28" fill="#5aa3e8"/>
-<text x="1068" y="106" text-anchor="middle" font-size="30" fill="#141414">${t.level}</text>
+<rect x="${t.level.length > 2 ? 960 : 1016}" y="68" width="${t.level.length > 2 ? 160 : 104}" height="56" rx="28" fill="#5aa3e8"/>
+<text x="${t.level.length > 2 ? 1040 : 1068}" y="106" text-anchor="middle" font-size="30" fill="#141414">${t.level}</text>
 <text x="80" y="526" font-size="30" font-weight="400" fill="#3f3a33">${esc(name)} · ${esc(t.id.startsWith('saga-') ? `${SAGA}, ${t.topic.toLowerCase()}` : t.topic)}</text>
 <rect y="566" width="1200" height="64" fill="#c63f1e"/>
-<text x="80" y="608" font-size="28" fill="#fbf5ea">Free graded reading with a glossary and quiz · polyglot.icu</text>
+<text x="80" y="608" font-size="28" fill="#fbf5ea">Free graded reading with a glossary${t.questions?.length ? ' and quiz' : ''} · polyglot.icu</text>
 </svg>`;
   await sharp(Buffer.from(bg))
     .composite([
@@ -145,7 +145,18 @@ async function writeCards() {
     Array.from({ length: availableParallelism() }, async () => {
       for (let c; (c = queue.shift());) {
         const key = createHash('sha1')
-          .update(JSON.stringify([CARD, c.lang, c.name, c.t.title, c.t.level, c.t.topic]))
+          .update(
+            JSON.stringify([
+              CARD,
+              c.lang,
+              c.name,
+              c.t.title,
+              c.t.level,
+              c.t.topic,
+              // Only quiz-less cards add this, so cached quiz cards keep their key.
+              ...(c.t.questions?.length ? [] : ['no quiz']),
+            ]),
+          )
           .digest('hex');
         const cached = `${CARD_CACHE}/${key}.png`;
         if (!existsSync(cached)) {
@@ -186,14 +197,30 @@ const langLinks = Object.entries(LANGS)
   .map(([id, l]) => `<li><a href="/${id}">${l.name} reading texts</a></li>`)
   .join('\n');
 
-// Mirrors SAGA_TITLE and SAGA_LEVEL in src/content/schema.ts.
+// Mirror SAGA_TITLE, SAGA_LEVEL and levelSpan in src/content/schema.ts.
 const SAGA = 'The Great Saga';
-const SAGA_LEVEL = 'A1';
+const SAGA_LEVEL = 'A1–A2';
+const levelSpan = (levels) => {
+  const i = levels
+    .flatMap((l) => l.split('/'))
+    .map((l) => LEVELS.indexOf(l.toLowerCase()));
+  const [lo, hi] = [LEVELS[Math.min(...i)], LEVELS[Math.max(...i)]].map((l) =>
+    l.toUpperCase(),
+  );
+  return lo === hi ? lo : `${lo}–${hi}`;
+};
+// The saga is its own section, like the phrasebook: /saga, /saga/<lang>, /saga/<lang>/<id>.
+const sagaLinks = Object.entries(LANGS)
+  .map(([id, l]) => `<li><a href="/saga/${id}">${SAGA} in ${l.name}</a></li>`)
+  .join('\n');
 
 for (const [lang, { name, tf }] of Object.entries(LANGS)) {
   const read = (f) =>
     JSON.parse(readFileSync(`src/content/texts/${lang}/${f}.json`, 'utf8'));
   const saga = read('saga');
+  const span = levelSpan(saga.map((t) => t.level));
+  const textHref = (t) =>
+    t.id.startsWith('saga-') ? `/saga/${lang}/${t.id}` : `/${lang}/text/${t.id}`;
   // Each list of texts: the three levels, then the book saga's chapters.
   const shelves = [
     ...LEVELS.map((level) => {
@@ -211,18 +238,19 @@ for (const [lang, { name, tf }] of Object.entries(LANGS)) {
       };
     }),
     {
-      path: `/${lang}/saga`,
+      path: `/saga/${lang}`,
       list: saga,
       saga: true,
-      link: `${SAGA}, an ${SAGA_LEVEL} ${name} story in chapters`,
-      back: `${SAGA} in ${name}, ${SAGA_LEVEL}`,
-      title: `${SAGA}: an ${SAGA_LEVEL} ${name} story for beginners in ${saga.length} chapters`,
-      description: `${SAGA} is a serial story in simple ${name} for beginners, CEFR level ${SAGA_LEVEL}: an orphan boy at a medieval monastery, told chapter by chapter with a glossary and comprehension questions.`,
-      intro: `An orphan boy at a medieval monastery, and the long road ahead of him. One story in simple ${name} for beginners (CEFR level ${SAGA_LEVEL}), told in chapters, each with a glossary and comprehension questions. Read them in order.`,
+      link: `${SAGA}, an ${span} ${name} story in chapters`,
+      back: `${SAGA} in ${name}, ${span}`,
+      title: `${SAGA}: an ${span} ${name} story for beginners in ${saga.length} chapters`,
+      description: `${SAGA} is a serial story in simple ${name} for beginners, CEFR level ${span}: an orphan boy at a medieval monastery, told chapter by chapter with a glossary of new words.`,
+      intro: `An orphan boy at a medieval monastery, and the long road ahead of him. One story in simple ${name} for beginners (CEFR level ${span}), told in chapters, each with a glossary of new words. Read them in order.`,
       more: `More chapters of ${SAGA}`,
     },
   ];
   const shelfLinks = shelves
+    .filter((s) => !s.saga)
     .map((s) => `<li><a href="${s.path}">${s.link}</a></li>`)
     .join('\n');
 
@@ -243,11 +271,11 @@ for (const [lang, { name, tf }] of Object.entries(LANGS)) {
       `<h1>${shelf.saga ? shelf.back : shelf.link}</h1>
 <p>${shelf.intro}</p>
 <${shelf.saga ? 'ol' : 'ul'} lang="${code(lang)}">
-${list.map((t) => `<li><a href="/${lang}/text/${t.id}">${esc(t.title)}</a> (<span lang="en">${esc(t.topic)}</span>)</li>`).join('\n')}
+${list.map((t) => `<li><a href="${textHref(t)}">${esc(t.title)}</a> (<span lang="en">${esc(t.topic)}</span>)</li>`).join('\n')}
 </${shelf.saga ? 'ol' : 'ul'}>
-<h2>More ${name} reading</h2>
+<h2>${shelf.saga ? `${SAGA} in other languages` : `More ${name} reading`}</h2>
 <ul>
-${shelfLinks}
+${shelf.saga ? sagaLinks : shelfLinks}
 </ul>`,
     );
     urls.push(shelf.path);
@@ -255,12 +283,12 @@ ${shelfLinks}
     list.forEach((t, i) => {
       const related = [list[i - 1], list[i + 1], list[i + 2]].filter(Boolean);
       write(
-        `/${lang}/text/${t.id}`,
+        textHref(t),
         shelf.saga
-          ? `${t.title} · ${SAGA} in ${name}, ${SAGA_LEVEL} · DeuLern Polyglot`
+          ? `${t.title} · ${SAGA} in ${name}, ${t.level} · DeuLern Polyglot`
           : `${t.title} · ${name} ${t.level} reading text · DeuLern Polyglot`,
         shelf.saga
-          ? `Read "${t.title}", ${t.topic.toLowerCase()} of ${SAGA}, an ${SAGA_LEVEL} ${name} story for beginners, with a glossary and ${t.questions.length} comprehension questions.`
+          ? `Read "${t.title}", ${t.topic.toLowerCase()} of ${SAGA}, a ${name} story for beginners at CEFR level ${t.level}, with a glossary of new words.`
           : `Read "${t.title}", ${t.level === 'B1' ? 'a' : 'an'} ${t.level} ${name} text about ${t.topic.toLowerCase()}, with a glossary and ${t.questions.length} comprehension questions.`,
         `<p><a href="${shelf.path}">${shelf.back}</a></p>
 <h1 lang="${code(lang)}">${esc(t.title)}</h1>
@@ -272,7 +300,9 @@ ${paras(t.body)}
 <dl>
 ${t.glossary.map((g) => `<dt lang="${code(lang)}">${esc(g.term)}</dt><dd>${esc(g.translation)}</dd>`).join('\n')}
 </dl>
-<h2>Comprehension questions</h2>
+${
+  t.questions?.length
+    ? `<h2>Comprehension questions</h2>
 <p>Open this page in a browser with JavaScript to answer the questions and check your answers.</p>
 <ol lang="${code(lang)}">
 ${t.questions
@@ -282,19 +312,22 @@ ${t.questions
       : `<li>${tf} ${esc(q.prompt)}</li>`,
   )
   .join('\n')}
-</ol>
-<h2>${shelf.more}</h2>
+</ol>\n`
+    : ''
+}<h2>${shelf.more}</h2>
 <ul lang="${code(lang)}">
-${related.map((r) => `<li><a href="/${lang}/text/${r.id}">${esc(r.title)}</a></li>`).join('\n')}
+${related.map((r) => `<li><a href="${textHref(r)}">${esc(r.title)}</a></li>`).join('\n')}
 </ul>`,
         {
           '@type': 'LearningResource',
           name: t.title,
-          url: `${ORIGIN}/${lang}/text/${t.id}`,
+          url: `${ORIGIN}${textHref(t)}`,
           inLanguage: code(lang),
           about: shelf.saga ? `${SAGA}, ${t.topic.toLowerCase()}` : t.topic,
           educationalLevel: `CEFR ${t.level}`,
-          learningResourceType: 'Reading passage with comprehension questions',
+          learningResourceType: shelf.saga
+            ? 'Reading passage'
+            : 'Reading passage with comprehension questions',
           teaches: `${name} reading comprehension`,
           isAccessibleForFree: true,
           publisher: {
@@ -306,7 +339,7 @@ ${related.map((r) => `<li><a href="/${lang}/text/${r.id}">${esc(r.title)}</a></l
         `/og/${lang}/${t.id}.png`,
       );
       cards.push({ lang, name, t });
-      urls.push(`/${lang}/text/${t.id}`);
+      urls.push(textHref(t));
     });
   }
 }
@@ -334,7 +367,13 @@ write(
   'The 1000 most useful everyday phrases in English, German, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek, Serbian, Hindi and Chinese, ordered by how useful they are.',
   `<h1>Everyday phrases in fifteen languages</h1>\n<ul>\n${phraseLinks}\n</ul>\n<p><a href="/say">Compare a phrase across every language</a></p>`,
 );
-urls.push('/reading', '/phrases');
+write(
+  '/saga',
+  `${SAGA}: one story for beginners in fifteen languages · DeuLern Polyglot`,
+  `${SAGA} is a serial story for beginners (CEFR ${SAGA_LEVEL}) in English, German, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek, Serbian, Hindi and Chinese: an orphan boy at a medieval monastery, told chapter by chapter with a glossary.`,
+  `<h1>${SAGA}</h1>\n<p>An orphan boy at a medieval monastery, and the long road ahead of him. One story in simple language for beginners (CEFR level ${SAGA_LEVEL}), told chapter by chapter.</p>\n<ul>\n${sagaLinks}\n</ul>`,
+);
+urls.push('/reading', '/phrases', '/saga');
 for (const [lang, { name }] of PHRASE_LANGS) {
   const tr = JSON.parse(readFileSync(`src/content/phrases/${lang}.json`, 'utf8'));
   write(
@@ -485,7 +524,7 @@ writeFileSync(
     '/',
     'DeuLern Polyglot: free reading practice and phrases in 15 languages',
     'Free graded reading texts and the 1000 most useful everyday phrases in English, German, Italian, Spanish, French, Russian, Interslavic, Turkish, Portuguese, Arabic, Polish, Greek, Serbian, Hindi and Chinese. No account needed.',
-    `<h1>DeuLern Polyglot: reading texts and everyday phrases in fifteen languages</h1>\n<ul>\n<li><a href="/reading">Graded reading texts</a></li>\n<li><a href="/phrases">Everyday phrases</a></li>\n<li><a href="/pronunciation">Pronunciation</a></li>\n</ul>\n<ul>\n${langLinks}\n</ul>`,
+    `<h1>DeuLern Polyglot: reading texts and everyday phrases in fifteen languages</h1>\n<ul>\n<li><a href="/reading">Graded reading texts</a></li>\n<li><a href="/phrases">Everyday phrases</a></li>\n<li><a href="/pronunciation">Pronunciation</a></li>\n<li><a href="/saga">${SAGA}, a story for beginners</a></li>\n</ul>\n<ul>\n${langLinks}\n</ul>`,
     {
       '@type': 'WebSite',
       name: 'DeuLern Polyglot',

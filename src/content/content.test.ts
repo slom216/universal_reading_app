@@ -12,6 +12,8 @@ import {
   findGlossary,
   glossaryNeedle,
   textSchema,
+  levelSpan,
+  type Level,
   type ReadingText,
 } from './schema';
 
@@ -41,12 +43,19 @@ describe.each(LANG_IDS)('%s texts', (id) => {
   const ALL = [...TEXTS, ...SAGA];
 
   it('saga has the same chapters as English, in order', () => {
-    expect(SAGA.map((t) => [t.id, t.level, t.topic])).toEqual(
-      SAGA_EN.map((t, i) => [
-        `saga-${String(i + 1).padStart(2, '0')}`,
-        SAGA_LEVEL,
-        t.topic,
-      ]),
+    expect(SAGA.map((t) => [t.id, t.topic])).toEqual(
+      SAGA_EN.map((t, i) => [`saga-${String(i + 1).padStart(2, '0')}`, t.topic]),
+    );
+  });
+
+  it('level texts have 5–8 questions, saga chapters none', () => {
+    expect(TEXTS.filter((t) => t.questions.length < 5)).toEqual([]);
+    expect(SAGA.filter((t) => t.questions.length)).toEqual([]);
+  });
+
+  it('level texts have a plain level', () => {
+    expect(TEXTS.filter((t) => !(LEVELS as readonly string[]).includes(t.level))).toEqual(
+      [],
     );
   });
 
@@ -70,7 +79,7 @@ describe.each(LANG_IDS)('%s texts', (id) => {
   });
 
   it.each(ALL.map((t) => [t.id, t] as const))('%s is within its word range', (_, t) => {
-    const [min, max] = isSaga(t) ? SAGA_WORDS : WORD_RANGE[t.level];
+    const [min, max] = isSaga(t) ? SAGA_WORDS : WORD_RANGE[t.level as Level];
     const n = countWords(t.body);
     expect(n).toBeGreaterThanOrEqual(min);
     expect(n).toBeLessThanOrEqual(max);
@@ -110,6 +119,13 @@ describe.each(LANG_IDS)('%s texts', (id) => {
       },
     );
   }
+});
+
+it('SAGA_LEVEL spans the levels of every saga chapter', () => {
+  const levels = LANG_IDS.flatMap((id) => loadSaga(id).map((t) => t.level));
+  expect(levelSpan(levels)).toBe(SAGA_LEVEL);
+  expect(levelSpan(['A1/A2', 'A2'])).toBe('A1–A2');
+  expect(levelSpan(['A1'])).toBe('A1');
 });
 
 describe('glossaryNeedle', () => {

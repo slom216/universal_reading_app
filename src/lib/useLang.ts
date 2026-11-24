@@ -25,6 +25,10 @@ export function useLang() {
     byLevel: (level: Level) => texts.filter((t) => t.level === level && !isSaga(t)),
     saga: texts.filter(isSaga),
     byId: (id: string) => texts.find((t) => t.id === id),
+    /** The book saga is its own section: /saga/<lang>, chapters at /saga/<lang>/<id>. */
+    sagaPath: `/saga/${lang.id}`,
+    textPath: (t: { id: string }) =>
+      isSaga(t) ? `/saga/${lang.id}/${t.id}` : `/${lang.id}/text/${t.id}`,
     /** Progress-store key of a text. */
     key: (id: string) => `${lang.id}/${id}`,
   };

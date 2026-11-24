@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { SAGA_LEVEL, SAGA_TITLE, SAGA_WORDS } from '../content/schema';
 import { LANG_IDS, LANGS } from '../languages';
 import heroArt from '../assets/art/hero-reading.webp';
 import artA1 from '../assets/art/level-a1-family.webp';
@@ -36,6 +37,16 @@ const SECTIONS = [
     meta: 'Rules for every language',
     cta: 'Learn the sounds',
   },
+  {
+    to: '/saga',
+    art: { src: heroArt, width: 743, height: 371 },
+    chip: `Book saga · ${SAGA_LEVEL}`,
+    title: SAGA_TITLE,
+    blurb:
+      'An orphan boy at a medieval monastery, and the long road ahead of him. One story for beginners, told chapter by chapter.',
+    meta: `${SAGA_WORDS[0]}–${SAGA_WORDS[1]} words per chapter, in every language`,
+    cta: 'Start the story',
+  },
 ];
 
 export function HubPage() {
@@ -49,14 +60,15 @@ export function HubPage() {
             <span className="hero__accent">and everyday language practice.</span>
           </h1>
           <p className="lead">
-            {LANG_IDS.map((id) => LANGS[id].name).join(', ')}. Read graded stories, or
-            start with the phrases you will use on your first day.
+            {LANG_IDS.map((id) => LANGS[id].name).join(', ')}. Read graded stories, follow
+            one long story chapter by chapter, or start with the phrases you will use on
+            your first day.
           </p>
         </div>
         <img className="hero__art" src={heroArt} alt="" width={743} height={371} />
       </section>
 
-      <div className="level-grid">
+      <div className="level-grid level-grid--pairs">
         {SECTIONS.map((s) => (
           <article key={s.to} className="card level-card">
             <div className="level-card__frame">
