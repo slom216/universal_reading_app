@@ -1,4 +1,4 @@
-import { useState, type ReactNode } from 'react';
+import { Fragment, useState, type ReactNode } from 'react';
 import { findGlossary, glossaryNeedle, type ReadingText } from '../content/schema';
 import { ReadingRuler } from './ReadingRuler';
 
@@ -36,6 +36,7 @@ export function GlossaryText({
   tr,
   rt = tr,
   ruler = false,
+  art = [],
 }: {
   text: ReadingText;
   articles: RegExp | null;
@@ -45,10 +46,16 @@ export function GlossaryText({
   rt?: (s: string) => ReactNode;
   /** Shows the line-by-line reading ruler. */
   ruler?: boolean;
+  /** Illustrations spread evenly between the paragraphs. */
+  art?: string[];
 }) {
   const [open, setOpen] = useState<string | null>(null);
   const paragraphs = text.body.split(/\n\n+/);
   const hits = paragraphHits(paragraphs, text.glossary, articles);
+  // Paragraph index each illustration follows; by fraction, since languages split dialogue differently.
+  const artAfter = art.map(
+    (_, j) => Math.round(((j + 1) * paragraphs.length) / (art.length + 1)) - 1,
+  );
 
   return (
     <div
@@ -86,10 +93,21 @@ export function GlossaryText({
           pos = h.end;
         }
         parts.push(rt(p.slice(pos)));
+        const img = art[artAfter.indexOf(pi)];
         return (
-          <p key={pi} style={{ whiteSpace: 'pre-line' }}>
-            {parts}
-          </p>
+          <Fragment key={pi}>
+            <p style={{ whiteSpace: 'pre-line' }}>{parts}</p>
+            {img && (
+              <img
+                className="reader__art"
+                src={img}
+                alt=""
+                width={1200}
+                height={800}
+                loading="lazy"
+              />
+            )}
+          </Fragment>
         );
       })}
     </div>

@@ -37,7 +37,8 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,webp,woff2}'],
-        globIgnores: ['**/texts-*.js'],
+        // Saga illustrations (~250 KB each) are cached when a chapter shows them, not on install.
+        globIgnores: ['**/texts-*.js', '**/saga-*.webp'],
         runtimeCaching: [
           {
             // File names carry a content hash, so a cached chunk never goes stale;
@@ -45,6 +46,11 @@ export default defineConfig({
             urlPattern: /\/assets\/texts-[\w-]+\.js$/,
             handler: 'CacheFirst',
             options: { cacheName: 'texts', expiration: { maxEntries: 30 } },
+          },
+          {
+            urlPattern: /\/assets\/saga-[\w-]+\.webp$/,
+            handler: 'CacheFirst',
+            options: { cacheName: 'saga-art', expiration: { maxEntries: 60 } },
           },
           {
             // Every route has its own prerendered HTML (scripts/prerender.mjs) with its own

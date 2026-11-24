@@ -1860,3 +1860,15 @@ label.button:has(input:focus-visible) {
     padding-block: 0.2em;
   }
 }
+
+/* Saga chapter illustration: a torn ink page with transparent edges. */
+.reader__art {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 40rem;
+  margin-inline: auto;
+}
+.reading .reader__art {
+  margin-block: 1.5rem;
+}

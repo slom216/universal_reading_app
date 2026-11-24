@@ -16,6 +16,13 @@ const audio = import.meta.glob<string>('../assets/audio/*/*.mp3', {
   query: '?url',
   import: 'default',
 });
+// Saga chapter illustrations, shared by every language: src/assets/art/saga/<id>-<n>.webp.
+// The first sits under the title, the rest are spread through the chapter.
+const sagaArt = import.meta.glob<string>('../assets/art/saga/*.webp', {
+  eager: true,
+  query: '?url',
+  import: 'default',
+});
 
 /** One text. With `saga`, the route is a chapter of the book saga. */
 export function ReaderPage({ saga: sagaRoute = false }: { saga?: boolean }) {
@@ -53,6 +60,10 @@ export function ReaderPage({ saga: sagaRoute = false }: { saga?: boolean }) {
   const next = siblings[index + 1];
   const levelPath = inSaga ? sagaPath : `${base}/level/${text.level.toLowerCase()}`;
   const backLabel = inSaga ? `Back to ${SAGA_TITLE}` : `Back to level ${text.level}`;
+  const [art, ...inlineArt] = Object.entries(sagaArt)
+    .filter(([k]) => k.startsWith(`../assets/art/saga/${text.id}-`))
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([, url]) => url);
   const audioUrl = audio[`../assets/audio/${key(text.id)}.mp3`];
   const params = { reading_language: lang.id, level: text.level, text_id: text.id };
   const nextClicked = () => track('next_text', params);
@@ -90,6 +101,9 @@ export function ReaderPage({ saga: sagaRoute = false }: { saga?: boolean }) {
           </span>
         </div>
         <h1 lang={code}>{rt(text.title)}</h1>
+        {art && (
+          <img className="reader__art" src={art} alt="" width={1200} height={800} />
+        )}
         <ScriptToggle id={lang.id} />
         <RomanizeToggle id={lang.id} />
         {/* key: every text opens with the options folded away */}
@@ -155,6 +169,7 @@ export function ReaderPage({ saga: sagaRoute = false }: { saga?: boolean }) {
             tr={tr}
             rt={rt}
             ruler={ruler}
+            art={inlineArt}
           />
 
           <section className="stack stack--tight" aria-labelledby="glossary-heading">
