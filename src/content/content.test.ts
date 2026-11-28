@@ -42,9 +42,14 @@ describe.each(LANG_IDS)('%s texts', (id) => {
   // Level texts plus saga chapters, for the checks every text must pass.
   const ALL = [...TEXTS, ...SAGA];
 
-  it('saga has the same chapters as English, in order', () => {
-    expect(SAGA.map((t) => [t.id, t.topic])).toEqual(
-      SAGA_EN.map((t, i) => [`saga-${String(i + 1).padStart(2, '0')}`, t.topic]),
+  it('saga chapters are in order and match English where both have them', () => {
+    expect(SAGA.map((t) => t.id)).toEqual(
+      SAGA.map((_, i) => `saga-${String(i + 1).padStart(2, '0')}`),
+    );
+    // ponytail: a language may run ahead of (or behind) English while a book is written.
+    const n = Math.min(SAGA.length, SAGA_EN.length);
+    expect(SAGA.slice(0, n).map((t) => t.topic)).toEqual(
+      SAGA_EN.slice(0, n).map((t) => t.topic),
     );
   });
 

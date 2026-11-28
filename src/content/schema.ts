@@ -54,7 +54,8 @@ export const textSchema = z.strictObject({
 export type Question = z.infer<typeof question>;
 
 /** The book saga: one serial story told in chapters ("saga-01", …), kept out of the
- *  level lists. src/content/texts/<lang>/saga.json, the same chapters in every language.
+ *  level lists. src/content/texts/<lang>/saga.json, the same chapters in every language (a language may
+ *  run ahead of the others while a new book is being written: Books 2–4 are German-only so far).
  *  Each chapter has its own level, judged per language (A1, A1/A2, …); they are longer
  *  than level texts, hence their own word range. */
 export const SAGA_TITLE = 'The Great Saga';
@@ -66,7 +67,8 @@ export function levelSpan(levels: readonly SagaLevel[]): string {
 }
 /** levelSpan of every chapter in every language; content.test.ts keeps it true. */
 export const SAGA_LEVEL = 'A1–A2';
-export const SAGA_WORDS: [number, number] = [300, 500];
+// Book 1 chapters run 300–500 words, Books 2–4 (A2) 400–700.
+export const SAGA_WORDS: [number, number] = [300, 700];
 export const isSaga = (t: { id: string }) => t.id.startsWith('saga-');
 export type ReadingText = z.infer<typeof textSchema>;
 
